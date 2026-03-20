@@ -378,6 +378,7 @@ def answer_question(
     model_name: str = DEFAULT_CHAT_MODEL,
     system_prompt: str = SYSTEM_PROMPT,
     k: int = 10,
+    rules_sources: Sequence[Tuple[str, str]] | None = None,
 ) -> str:
     """
     Retrieve relevant rules context and ask the chat model to answer the question.
@@ -399,10 +400,18 @@ def answer_question(
 
     # 2. Keyword retrieval (augments semantic search for specific unit/ability lookups).
     keyword_snippets: List[str] = []
-    if data_dir:
+    sources = rules_sources
+    phrases = None
+
+    if sources is None and data_dir:
         phrases = extract_candidate_phrases(question)
         if phrases:
             sources = load_rules_sources(data_dir)
+
+    if sources:
+        if phrases is None:
+            phrases = extract_candidate_phrases(question)
+        if phrases:
             keyword_snippets = find_keyword_snippets(sources, question, phrases)
 
     # If we found a precise points block, reduce noise from semantic results.

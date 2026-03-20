@@ -1,13 +1,17 @@
 """
 FastAPI web wrapper for the Warhammer Rules RAG engine.
 
-Right now the endpoint focuses on input validation + wiring.
-Response content will be implemented later.
+This exposes a minimal endpoint used by the Laravel app:
+    POST /ask
+
+Request body:
+    { "question": "...", "game": "aos" | "wh40k" }
 """
 
 from __future__ import annotations
 
 import os
+from contextlib import asynccontextmanager
 from typing import Literal
 
 from dotenv import load_dotenv
@@ -15,10 +19,37 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+from rag_engine import (
+    DEFAULT_AOS_DATA_DIR,
+    DEFAULT_AOS_INDEX_DIR,
+    DEFAULT_WH40K_DATA_DIR,
+    DEFAULT_WH40K_INDEX_DIR,
+    SYSTEM_PROMPT,
+    answer_question,
+    load_index,
+    load_rules_sources,
+)
 
 load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".env"))
 
-app = FastAPI(title="Warhammer Rules RAG API")
+_VECTORSTORES = {}
+_SOURCES: dict[str, list[tuple[str, str]]] = {}
+_GAME_LABELS = {
+    "aos": "Warhammer Age of Sigmar",
+    "wh40k": "Warhammer 40,000",
+}
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    _VECTORSTORES["aos"] = load_index(index_dir=DEFAULT_AOS_INDEX_DIR)
+    _VECTORSTORES["wh40k"] = load_index(index_dir=DEFAULT_WH40K_INDEX_DIR)
+    _SOURCES["aos"] = load_rules_sources(DEFAULT_AOS_DATA_DIR)
+    _SOURCES["wh40k"] = load_rules_sources(DEFAULT_WH40K_DATA_DIR)
+    yield
+
+
+app = FastAPI(title="Warhammer Rules RAG API", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -40,27 +71,27 @@ class AskResponse(BaseModel):
 
 @app.post("/ask", response_model=AskResponse)
 def ask(req: AskRequest) -> AskResponse:
-    """
-    Accepts:
-        {
-          "question": "...",
-          "game": "aos" | "wh40k"
-        }
-
-    For now, we only acknowledge the request. Later we will call into
-    `rag_engine.py` and return a real model answer.
-    """
-    # Basic sanity: avoid returning empty content to the frontend later.
     question = (req.question or "").strip()
     if not question:
-        return AskResponse(answer="")  # TODO: replace with proper validation/error
+        return AskResponse(answer="")
 
-    # TODO: plug into rag_engine.py for real answers.
-    return AskResponse(answer="")
+    vectorstore = _VECTORSTORES.get(req.game)
+    sources = _SOURCES.get(req.game)
+    if vectorstore is None:
+        return AskResponse(answer="")
+
+    answer = answer_question(
+        question=question,
+        vectorstore=vectorstore,
+        game_label=_GAME_LABELS[req.game],
+        system_prompt=SYSTEM_PROMPT,
+        rules_sources=sources,
+    )
+    return AskResponse(answer=answer)
 
 
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="127.0.0.1", port=8001)
 
