@@ -1,8 +1,11 @@
-<script setup lang="ts">
-import type { SelectValueProps } from "reka-ui"
+<script setup lang="js">
 import { SelectValue } from "reka-ui"
 
-const props = defineProps<SelectValueProps>()
+const props = defineProps({
+  placeholder: { default: undefined },
+  as: { default: undefined },
+  asChild: { type: Boolean, default: false },
+})
 </script>
 
 <template>

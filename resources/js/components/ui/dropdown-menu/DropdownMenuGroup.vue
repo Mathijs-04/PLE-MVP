@@ -1,8 +1,10 @@
-<script setup lang="ts">
-import type { DropdownMenuGroupProps } from "reka-ui"
+<script setup lang="js">
 import { DropdownMenuGroup } from "reka-ui"
 
-const props = defineProps<DropdownMenuGroupProps>()
+const props = defineProps({
+  as: { default: undefined },
+  asChild: { type: Boolean, default: false },
+})
 </script>
 
 <template>

@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 import { Form, Head } from '@inertiajs/vue3';
 import InputError from '@/components/InputError.vue';
 import PasswordInput from '@/components/PasswordInput.vue';
@@ -13,11 +13,11 @@ import { register } from '@/routes';
 import { store } from '@/routes/login';
 import { request } from '@/routes/password';
 
-defineProps<{
-    status?: string;
-    canResetPassword: boolean;
-    canRegister: boolean;
-}>();
+defineProps({
+    status: { default: undefined },
+    canResetPassword: { type: Boolean, required: true },
+    canRegister: { type: Boolean, required: true },
+});
 </script>
 
 <template>

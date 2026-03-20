@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 import { Form, Head } from '@inertiajs/vue3';
 import InputError from '@/components/InputError.vue';
 import TextLink from '@/components/TextLink.vue';
@@ -10,9 +10,9 @@ import AuthLayout from '@/layouts/AuthLayout.vue';
 import { login } from '@/routes';
 import { email } from '@/routes/password';
 
-defineProps<{
-    status?: string;
-}>();
+defineProps({
+    status: { default: undefined },
+});
 </script>
 
 <template>

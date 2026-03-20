@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 import { Form, Head } from '@inertiajs/vue3';
 import { ref } from 'vue';
 import InputError from '@/components/InputError.vue';
@@ -10,10 +10,10 @@ import { Spinner } from '@/components/ui/spinner';
 import AuthLayout from '@/layouts/AuthLayout.vue';
 import { update } from '@/routes/password';
 
-const props = defineProps<{
-    token: string;
-    email: string;
-}>();
+const props = defineProps({
+    token: { type: String, required: true },
+    email: { type: String, required: true },
+});
 
 const inputEmail = ref(props.email);
 </script>

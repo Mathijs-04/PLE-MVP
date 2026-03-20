@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import type { DropdownMenuRadioItemEmits, DropdownMenuRadioItemProps } from "reka-ui"
-import type { HTMLAttributes } from "vue"
+<script setup lang="js">
 import { reactiveOmit } from "@vueuse/core"
 import { Circle } from "lucide-vue-next"
 import {
@@ -10,9 +8,16 @@ import {
 } from "reka-ui"
 import { cn } from "@/lib/utils"
 
-const props = defineProps<DropdownMenuRadioItemProps & { class?: HTMLAttributes["class"] }>()
+const props = defineProps({
+  value: { required: true },
+  disabled: { type: Boolean, default: false },
+  textValue: { default: undefined },
+  as: { default: undefined },
+  asChild: { type: Boolean, default: false },
+  class: { default: undefined },
+})
 
-const emits = defineEmits<DropdownMenuRadioItemEmits>()
+const emits = defineEmits(['select'])
 
 const delegatedProps = reactiveOmit(props, "class")
 

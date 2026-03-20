@@ -1,12 +1,9 @@
-<script setup lang="ts">
-import type { HTMLAttributes } from "vue"
+<script setup lang="js">
 import { cn } from "@/lib/utils"
 
-interface SkeletonProps {
-  class?: HTMLAttributes["class"]
-}
-
-const props = defineProps<SkeletonProps>()
+const props = defineProps({
+  class: { default: undefined },
+})
 </script>
 
 <template>

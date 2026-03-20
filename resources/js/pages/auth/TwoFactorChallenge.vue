@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 import { Form, Head } from '@inertiajs/vue3';
 import { computed, ref } from 'vue';
 import InputError from '@/components/InputError.vue';
@@ -11,9 +11,8 @@ import {
 } from '@/components/ui/input-otp';
 import AuthLayout from '@/layouts/AuthLayout.vue';
 import { store } from '@/routes/two-factor/login';
-import type { TwoFactorConfigContent } from '@/types';
 
-const authConfigContent = computed<TwoFactorConfigContent>(() => {
+const authConfigContent = computed(() => {
     if (showRecoveryInput.value) {
         return {
             title: 'Recovery code',
@@ -31,15 +30,15 @@ const authConfigContent = computed<TwoFactorConfigContent>(() => {
     };
 });
 
-const showRecoveryInput = ref<boolean>(false);
+const showRecoveryInput = ref(false);
 
-const toggleRecoveryMode = (clearErrors: () => void): void => {
+const toggleRecoveryMode = (clearErrors) => {
     showRecoveryInput.value = !showRecoveryInput.value;
     clearErrors();
     code.value = '';
 };
 
-const code = ref<string>('');
+const code = ref('');
 </script>
 
 <template>

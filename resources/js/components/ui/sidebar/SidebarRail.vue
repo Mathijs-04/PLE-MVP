@@ -1,11 +1,10 @@
-<script setup lang="ts">
-import type { HTMLAttributes } from "vue"
+<script setup lang="js">
 import { cn } from "@/lib/utils"
 import { useSidebar } from "./utils"
 
-const props = defineProps<{
-  class?: HTMLAttributes["class"]
-}>()
+const props = defineProps({
+  class: { default: undefined },
+})
 
 const { toggleSidebar } = useSidebar()
 </script>

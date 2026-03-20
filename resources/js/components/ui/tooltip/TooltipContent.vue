@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import type { TooltipContentEmits, TooltipContentProps } from "reka-ui"
-import type { HTMLAttributes } from "vue"
+<script setup lang="js">
 import { reactiveOmit } from "@vueuse/core"
 import { TooltipArrow, TooltipContent, TooltipPortal, useForwardPropsEmits } from "reka-ui"
 import { cn } from "@/lib/utils"
@@ -9,11 +7,28 @@ defineOptions({
   inheritAttrs: false,
 })
 
-const props = withDefaults(defineProps<TooltipContentProps & { class?: HTMLAttributes["class"] }>(), {
-  sideOffset: 4,
+const props = defineProps({
+  sideOffset: { default: 4 },
+  side: { default: undefined },
+  align: { default: undefined },
+  alignOffset: { default: undefined },
+  avoidCollisions: { type: Boolean, default: undefined },
+  collisionBoundary: { default: undefined },
+  collisionPadding: { default: undefined },
+  arrowPadding: { default: undefined },
+  sticky: { default: undefined },
+  hideWhenDetached: { type: Boolean, default: undefined },
+  updatePositionStrategy: { default: undefined },
+  onPlaced: { default: undefined },
+  prioritizePosition: { type: Boolean, default: undefined },
+  forceMount: { type: Boolean, default: undefined },
+  ariaLabel: { default: undefined },
+  as: { default: undefined },
+  asChild: { type: Boolean, default: false },
+  class: { default: undefined },
 })
 
-const emits = defineEmits<TooltipContentEmits>()
+const emits = defineEmits(['escapeKeyDown', 'pointerDownOutside'])
 
 const delegatedProps = reactiveOmit(props, "class")
 const forwarded = useForwardPropsEmits(delegatedProps, emits)

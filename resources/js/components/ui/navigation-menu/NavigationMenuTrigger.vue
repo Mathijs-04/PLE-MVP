@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import type { NavigationMenuTriggerProps } from "reka-ui"
-import type { HTMLAttributes } from "vue"
+<script setup lang="js">
 import { reactiveOmit } from "@vueuse/core"
 import { ChevronDown } from "lucide-vue-next"
 import {
@@ -10,7 +8,12 @@ import {
 import { cn } from "@/lib/utils"
 import { navigationMenuTriggerStyle } from "."
 
-const props = defineProps<NavigationMenuTriggerProps & { class?: HTMLAttributes["class"] }>()
+const props = defineProps({
+  disabled: { type: Boolean, default: false },
+  as: { default: undefined },
+  asChild: { type: Boolean, default: false },
+  class: { default: undefined },
+})
 
 const delegatedProps = reactiveOmit(props, "class")
 

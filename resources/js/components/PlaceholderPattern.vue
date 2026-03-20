@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 import { useId } from 'vue';
 
 const patternId = `pattern-${useId()}`;

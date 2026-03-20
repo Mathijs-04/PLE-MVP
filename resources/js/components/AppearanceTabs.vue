@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 import { Monitor, Moon, Sun } from 'lucide-vue-next';
 import { useAppearance } from '@/composables/useAppearance';
 
@@ -8,7 +8,7 @@ const tabs = [
     { value: 'light', Icon: Sun, label: 'Light' },
     { value: 'dark', Icon: Moon, label: 'Dark' },
     { value: 'system', Icon: Monitor, label: 'System' },
-] as const;
+];
 </script>
 
 <template>

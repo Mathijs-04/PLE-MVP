@@ -1,8 +1,12 @@
-<script setup lang="ts">
-import type { AvatarImageProps } from "reka-ui"
+<script setup lang="js">
 import { AvatarImage } from "reka-ui"
 
-const props = defineProps<AvatarImageProps>()
+const props = defineProps({
+  src: { default: undefined },
+  alt: { default: undefined },
+  referrerpolicy: { default: undefined },
+  crossorigin: { default: undefined },
+})
 </script>
 
 <template>

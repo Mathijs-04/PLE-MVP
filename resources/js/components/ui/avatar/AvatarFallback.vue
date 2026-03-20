@@ -1,11 +1,12 @@
-<script setup lang="ts">
-import type { AvatarFallbackProps } from "reka-ui"
-import type { HTMLAttributes } from "vue"
+<script setup lang="js">
 import { reactiveOmit } from "@vueuse/core"
 import { AvatarFallback } from "reka-ui"
 import { cn } from "@/lib/utils"
 
-const props = defineProps<AvatarFallbackProps & { class?: HTMLAttributes["class"] }>()
+const props = defineProps({
+  delayMs: { default: undefined },
+  class: { default: undefined },
+})
 
 const delegatedProps = reactiveOmit(props, "class")
 </script>

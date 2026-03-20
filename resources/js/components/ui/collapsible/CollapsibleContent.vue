@@ -1,8 +1,11 @@
-<script setup lang="ts">
-import type { CollapsibleContentProps } from "reka-ui"
+<script setup lang="js">
 import { CollapsibleContent } from "reka-ui"
 
-const props = defineProps<CollapsibleContentProps>()
+const props = defineProps({
+  forceMount: { default: undefined },
+  as: { default: undefined },
+  asChild: { type: Boolean, default: false },
+})
 </script>
 
 <template>

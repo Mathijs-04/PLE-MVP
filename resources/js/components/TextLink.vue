@@ -1,15 +1,12 @@
-<script setup lang="ts">
-import type { LinkComponentBaseProps, Method } from '@inertiajs/core';
+<script setup lang="js">
 import { Link } from '@inertiajs/vue3';
 
-type Props = {
-    href: LinkComponentBaseProps['href'];
-    tabindex?: number;
-    method?: Method;
-    as?: string;
-};
-
-defineProps<Props>();
+defineProps({
+    href: { required: true },
+    tabindex: { default: undefined },
+    method: { default: undefined },
+    as: { default: undefined },
+});
 </script>
 
 <template>

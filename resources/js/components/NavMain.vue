@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 import { Link } from '@inertiajs/vue3';
 import {
     SidebarGroup,
@@ -8,11 +8,10 @@ import {
     SidebarMenuItem,
 } from '@/components/ui/sidebar';
 import { useCurrentUrl } from '@/composables/useCurrentUrl';
-import type { NavItem } from '@/types';
 
-defineProps<{
-    items: NavItem[];
-}>();
+defineProps({
+    items: { type: Array, required: true },
+});
 
 const { isCurrentUrl } = useCurrentUrl();
 </script>

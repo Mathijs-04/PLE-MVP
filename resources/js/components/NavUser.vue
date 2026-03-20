@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 import { usePage } from '@inertiajs/vue3';
 import { ChevronsUpDown } from 'lucide-vue-next';
 import { computed } from 'vue';

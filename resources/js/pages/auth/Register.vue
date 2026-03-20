@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 import { Form, Head } from '@inertiajs/vue3';
 import InputError from '@/components/InputError.vue';
 import PasswordInput from '@/components/PasswordInput.vue';

@@ -1,11 +1,10 @@
-<script lang="ts" setup>
-import type { HTMLAttributes } from "vue"
+<script lang="js" setup>
 import { ChevronRight } from "lucide-vue-next"
 import { cn } from "@/lib/utils"
 
-const props = defineProps<{
-  class?: HTMLAttributes["class"]
-}>()
+const props = defineProps({
+  class: { default: undefined },
+})
 </script>
 
 <template>

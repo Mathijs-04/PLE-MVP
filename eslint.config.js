@@ -1,5 +1,4 @@
 import stylistic from '@stylistic/eslint-plugin';
-import { defineConfigWithVueTs, vueTsConfigs } from '@vue/eslint-config-typescript';
 import prettier from 'eslint-config-prettier/flat';
 import importPlugin from 'eslint-plugin-import';
 import vue from 'eslint-plugin-vue';
@@ -21,32 +20,19 @@ const paddingAroundControl = [
     ]),
 ];
 
-export default defineConfigWithVueTs(
-    vue.configs['flat/essential'],
-    vueTsConfigs.recommended,
+export default [
+    ...vue.configs['flat/essential'],
     {
         plugins: {
             import: importPlugin,
         },
         settings: {
             'import/resolver': {
-                typescript: {
-                    alwaysTryTypes: true,
-                    project: './tsconfig.json',
-                },
                 node: true,
             },
         },
         rules: {
             'vue/multi-word-component-names': 'off',
-            '@typescript-eslint/no-explicit-any': 'off',
-            '@typescript-eslint/consistent-type-imports': [
-                'error',
-                {
-                    prefer: 'type-imports',
-                    fixStyle: 'separate-type-imports',
-                },
-            ],
             'import/order': [
                 'error',
                 {
@@ -56,10 +42,6 @@ export default defineConfigWithVueTs(
                         caseInsensitive: true,
                     },
                 },
-            ],
-            'import/consistent-type-specifier-style': [
-                'error',
-                'prefer-top-level',
             ],
         },
     },
@@ -81,14 +63,14 @@ export default defineConfigWithVueTs(
             'public',
             'bootstrap/ssr',
             'tailwind.config.js',
-            'vite.config.ts',
+            'vite.config.js',
             'resources/js/actions/**',
             'resources/js/components/ui/*',
             'resources/js/routes/**',
             'resources/js/wayfinder/**',
         ],
     },
-    prettier, // Turn off all rules that might conflict with Prettier
+    prettier,
     {
         plugins: {
             '@stylistic': stylistic,
@@ -98,4 +80,4 @@ export default defineConfigWithVueTs(
             '@stylistic/brace-style': ['error', '1tbs', { allowSingleLine: false }],
         },
     },
-);
+];

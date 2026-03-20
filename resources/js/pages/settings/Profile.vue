@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 import { Form, Head, Link, usePage } from '@inertiajs/vue3';
 import { computed } from 'vue';
 import ProfileController from '@/actions/App/Http/Controllers/Settings/ProfileController';
@@ -12,16 +12,13 @@ import AppLayout from '@/layouts/AppLayout.vue';
 import SettingsLayout from '@/layouts/settings/Layout.vue';
 import { edit } from '@/routes/profile';
 import { send } from '@/routes/verification';
-import type { BreadcrumbItem } from '@/types';
 
-type Props = {
-    mustVerifyEmail: boolean;
-    status?: string;
-};
+defineProps({
+    mustVerifyEmail: { type: Boolean, required: true },
+    status: { default: undefined },
+});
 
-defineProps<Props>();
-
-const breadcrumbItems: BreadcrumbItem[] = [
+const breadcrumbItems = [
     {
         title: 'Profile settings',
         href: edit(),

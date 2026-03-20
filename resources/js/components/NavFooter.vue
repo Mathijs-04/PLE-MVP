@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 import {
     SidebarGroup,
     SidebarGroupContent,
@@ -7,14 +7,11 @@ import {
     SidebarMenuItem,
 } from '@/components/ui/sidebar';
 import { toUrl } from '@/lib/utils';
-import type { NavItem } from '@/types';
 
-type Props = {
-    items: NavItem[];
-    class?: string;
-};
-
-defineProps<Props>();
+defineProps({
+    items: { type: Array, required: true },
+    class: { default: undefined },
+});
 </script>
 
 <template>

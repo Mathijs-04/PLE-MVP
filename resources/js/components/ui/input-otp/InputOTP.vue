@@ -1,14 +1,21 @@
-<script setup lang="ts">
-import type { HTMLAttributes } from "vue"
-import type { OTPInputEmits, OTPInputProps } from "vue-input-otp"
+<script setup lang="js">
 import { reactiveOmit } from "@vueuse/core"
 import { useForwardPropsEmits } from "reka-ui"
 import { OTPInput } from "vue-input-otp"
 import { cn } from "@/lib/utils"
 
-const props = defineProps<OTPInputProps & { class?: HTMLAttributes["class"] }>()
+const props = defineProps({
+  modelValue: { default: undefined },
+  maxlength: { default: undefined },
+  disabled: { type: Boolean, default: false },
+  autofocus: { type: Boolean, default: false },
+  pushPasswordManagerStrategy: { default: undefined },
+  pasteTransformer: { default: undefined },
+  containerClass: { default: undefined },
+  class: { default: undefined },
+})
 
-const emits = defineEmits<OTPInputEmits>()
+const emits = defineEmits(['update:modelValue', 'complete'])
 
 const delegatedProps = reactiveOmit(props, "class")
 

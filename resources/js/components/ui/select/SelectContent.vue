@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import type { SelectContentEmits, SelectContentProps } from "reka-ui"
-import type { HTMLAttributes } from "vue"
+<script setup lang="js">
 import { reactiveOmit } from "@vueuse/core"
 import {
   SelectContent,
@@ -15,13 +13,24 @@ defineOptions({
   inheritAttrs: false,
 })
 
-const props = withDefaults(
-  defineProps<SelectContentProps & { class?: HTMLAttributes["class"] }>(),
-  {
-    position: "popper",
-  },
-)
-const emits = defineEmits<SelectContentEmits>()
+const props = defineProps({
+  position: { default: "popper" },
+  side: { default: undefined },
+  sideOffset: { default: undefined },
+  align: { default: undefined },
+  alignOffset: { default: undefined },
+  avoidCollisions: { default: undefined },
+  collisionBoundary: { default: undefined },
+  collisionPadding: { default: undefined },
+  arrowPadding: { default: undefined },
+  sticky: { default: undefined },
+  hideWhenDetached: { default: undefined },
+  forceMount: { default: undefined },
+  as: { default: undefined },
+  asChild: { type: Boolean, default: false },
+  class: { default: undefined },
+})
+const emits = defineEmits(['escapeKeyDown', 'pointerDownOutside', 'focusOutside', 'interactOutside', 'closeAutoFocus'])
 
 const delegatedProps = reactiveOmit(props, "class")
 

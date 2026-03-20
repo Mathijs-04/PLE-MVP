@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import type { NavigationMenuRootEmits, NavigationMenuRootProps } from "reka-ui"
-import type { HTMLAttributes } from "vue"
+<script setup lang="js">
 import { reactiveOmit } from "@vueuse/core"
 import {
   NavigationMenuRoot,
@@ -9,13 +7,21 @@ import {
 import { cn } from "@/lib/utils"
 import NavigationMenuViewport from "./NavigationMenuViewport.vue"
 
-const props = withDefaults(defineProps<NavigationMenuRootProps & {
-  class?: HTMLAttributes["class"]
-  viewport?: boolean
-}>(), {
-  viewport: true,
+const props = defineProps({
+  modelValue: { default: undefined },
+  defaultValue: { default: undefined },
+  dir: { default: undefined },
+  orientation: { default: undefined },
+  delayDuration: { default: undefined },
+  skipDelayDuration: { default: undefined },
+  disableClickTrigger: { default: undefined },
+  disableHoverTrigger: { default: undefined },
+  as: { default: undefined },
+  asChild: { type: Boolean, default: false },
+  class: { default: undefined },
+  viewport: { type: Boolean, default: true },
 })
-const emits = defineEmits<NavigationMenuRootEmits>()
+const emits = defineEmits(['update:modelValue'])
 
 const delegatedProps = reactiveOmit(props, "class", "viewport")
 const forwarded = useForwardPropsEmits(delegatedProps, emits)

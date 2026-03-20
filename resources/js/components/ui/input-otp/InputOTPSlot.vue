@@ -1,12 +1,14 @@
-<script setup lang="ts">
-import type { HTMLAttributes } from "vue"
+<script setup lang="js">
 import { reactiveOmit } from "@vueuse/core"
 import { useForwardProps } from "reka-ui"
 import { computed } from "vue"
 import { useVueOTPContext } from "vue-input-otp"
 import { cn } from "@/lib/utils"
 
-const props = defineProps<{ index: number, class?: HTMLAttributes["class"] }>()
+const props = defineProps({
+  index: { type: Number, required: true },
+  class: { default: undefined },
+})
 
 const delegatedProps = reactiveOmit(props, "class")
 
