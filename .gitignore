@@ -26,3 +26,7 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+
+# Generated Python vector indexes
+/python/indexes/
+/python/__pycache__/
