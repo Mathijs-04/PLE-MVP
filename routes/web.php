@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Laravel\Fortify\Features;
 
-Route::inertia('/', 'Welcome', [
+Route::inertia('/', 'Chat', [
     'canRegister' => Features::enabled(Features::registration()),
 ])->name('home');
 
