@@ -1,5 +1,9 @@
 python-dotenv
 
+fastapi
+uvicorn[standard]
+pydantic
+
 openai
 
 langchain-community
