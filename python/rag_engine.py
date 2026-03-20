@@ -41,7 +41,7 @@ DEFAULT_AOS_DATA_DIR = os.path.join(_PROJECT_ROOT, "data", "datafiles-WHAOS")
 DEFAULT_AOS_INDEX_DIR = os.path.join(_HERE, "indexes", "aos")
 
 EMBEDDING_MODEL = "text-embedding-3-small"
-DEFAULT_CHAT_MODEL = "gpt-4o"
+DEFAULT_CHAT_MODEL = "gpt-5.4"
 
 SYSTEM_PROMPT = """
 You are a rules explainer for Warhammer tabletop games.
