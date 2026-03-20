@@ -1,7 +1,6 @@
 <?php
 
+use App\Http\Controllers\ChatController;
 use Illuminate\Support\Facades\Route;
 
-Route::post('/chat', function () {
-    return response()->json(['message' => 'API working']);
-});
+Route::post('/chat', [ChatController::class, 'ask']);
