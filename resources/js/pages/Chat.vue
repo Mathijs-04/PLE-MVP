@@ -190,9 +190,19 @@ const ask = async () => {
         <div class="mx-auto max-w-3xl space-y-6 px-4 py-10">
 
             <div class="space-y-5 rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6">
-                <div>
-                    <h1 class="text-2xl font-bold tracking-tight">Warhammer Rule Assistant</h1>
-                    <p class="mt-1 text-sm text-muted-foreground">Ask any rules question and get an answer based on the official rulebooks.</p>
+                <div class="flex items-start justify-between gap-4">
+                    <div class="min-w-0 flex-1">
+                        <h1 class="text-2xl font-bold tracking-tight">Warhammer Rule Assistant</h1>
+                        <p class="mt-1 text-sm text-muted-foreground">Ask any rules question and get an answer based on the official rulebooks.</p>
+                    </div>
+                    <img
+                        src="/Warhammer.png"
+                        alt="Warhammer"
+                        class="h-14 w-14 shrink-0 object-contain sm:h-16 sm:w-16"
+                        width="64"
+                        height="64"
+                        decoding="async"
+                    />
                 </div>
 
                 <div class="space-y-1.5">
@@ -211,7 +221,7 @@ const ask = async () => {
                         <span
                             class="text-sm transition-colors"
                             :class="game === 'aos' ? 'font-semibold text-foreground' : 'text-muted-foreground'"
-                        >Age of Sigmar</span>
+                        >Warhammer Age of Sigmar</span>
 
                         <button
                             type="button"
@@ -231,7 +241,7 @@ const ask = async () => {
                         <span
                             class="text-sm transition-colors"
                             :class="game === '40k' ? 'font-semibold text-foreground' : 'text-muted-foreground'"
-                        >Warhammer 40,000</span>
+                        >Warhammer 40.000</span>
                     </div>
 
                     <Button :disabled="loading || !question.trim()" class="h-9 px-5" @click="ask">
