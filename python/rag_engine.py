@@ -176,6 +176,96 @@ def _overlap(a: Sequence[str], b: Sequence[str]) -> float:
     return len(sa & sb) / len(sa | sb)
 
 
+# ---------------------------------------------------------------------------
+# Heading vocabulary & spell correction
+# ---------------------------------------------------------------------------
+
+def build_heading_vocabulary(sources: Sequence[Tuple[str, str]]) -> List[Tuple[str, str]]:
+    """
+    Extract all H2–H4 heading names from the loaded markdown sources.
+    Returns a list of (normalized, original) pairs used for spell correction.
+    Calling this once at startup and caching the result avoids per-request work.
+    """
+    vocab: List[Tuple[str, str]] = []
+    seen: set = set()
+    for _path, text in sources:
+        for m in re.finditer(r"^#{2,4}\s+(.+?)\s*$", text, re.MULTILINE):
+            heading = m.group(1).strip()
+            norm = _normalize(heading)
+            if norm and norm not in seen:
+                seen.add(norm)
+                vocab.append((norm, heading))
+    return vocab
+
+
+def spell_correct_phrase(
+    phrase: str,
+    vocab: List[Tuple[str, str]],
+    threshold: float = 0.74,
+) -> str:
+    """
+    Return the closest vocabulary heading if it is a strong fuzzy match for
+    `phrase`, otherwise return `phrase` unchanged.
+
+    The threshold is set at 0.74 — high enough to avoid false corrections of
+    correctly-spelled phrases, low enough to catch common single-character typos
+    ("cranlats" → "Clanrats", str_sim ≈ 0.75; "Dtormvermin" → "Stormvermin",
+    str_sim ≈ 0.91). The extra guard `_normalize(best_original) != phrase_norm`
+    ensures exact matches are always returned unchanged.
+    """
+    if not vocab or not phrase:
+        return phrase
+
+    phrase_norm = _normalize(phrase)
+    phrase_toks = _tokenize(phrase)
+
+    best_score = 0.0
+    best_original = phrase
+
+    for norm, original in vocab:
+        str_sim = difflib.SequenceMatcher(None, phrase_norm, norm).ratio()
+        if str_sim <= best_score:
+            continue
+        tok_sim = _overlap(phrase_toks, _tokenize(original))
+        score = max(str_sim, tok_sim)
+        if score > best_score:
+            best_score = score
+            best_original = original
+
+    if best_score >= threshold and _normalize(best_original) != phrase_norm:
+        return best_original
+    return phrase
+
+
+_FILTER_WORDS = {
+    "which", "what", "who", "where", "when", "how", "why",
+    "more", "less", "better", "worse", "many", "much",
+}
+
+_COMPARISON_SIGNALS = {
+    "compare", "comparing", "compared", "comparison",
+    "difference", "differences", "different",
+    "same", "similar", "both", "common",
+}
+
+_GAME_PROPERTY_WORDS = {
+    "point", "points", "pts",
+    "save", "wound", "wounds", "health",
+    "attack", "attacks", "move", "movement",
+    "control", "toughness", "keyword", "keywords",
+    "ability", "abilities", "stat", "stats",
+    "profile", "warscroll", "datasheet", "rule", "rules",
+}
+
+_GAME_PROPERTY_STOP = _FILTER_WORDS | _GAME_PROPERTY_WORDS | {
+    "unit", "units", "model", "models", "squad", "team",
+    "does", "have", "has", "give", "gives", "provide", "provides",
+    "cost", "costs", "this", "that", "their", "there",
+    "also", "with", "from", "just", "only", "each", "every",
+    "will", "cant", "can", "its", "the", "are", "for",
+}
+
+
 def extract_candidate_phrases(question: str) -> List[str]:
     """
     Extract proper-noun-like phrases from the question that likely refer to
@@ -197,12 +287,20 @@ def extract_candidate_phrases(question: str) -> List[str]:
             for m in re.finditer(pattern, question, re.IGNORECASE):
                 phrases.append(m.group(1).strip())
 
-    # Two or more consecutive Title-Case words (typical unit/ability names).
-    for m in re.finditer(r"([A-Z][A-Za-z]+(?: [A-Z][A-Za-z]+)+)", question):
+    # Two or more consecutive Title-Case words, including hyphenated tokens
+    # (e.g. "Chaos Warriors", "Lord-Aquilor on Gryph-charger").
+    for m in re.finditer(
+        r"([A-Z][A-Za-z]+(?:-[A-Za-z]+)*(?: [A-Z][A-Za-z]+(?:-[A-Za-z]+)*)+)",
+        question,
+    ):
         phrases.append(m.group(1).strip())
 
-    # Single long Title-Case token (e.g. "Mirrorshield", "DeepStrike").
+    # Single long Title-Case token (e.g. "Stormvermin", "DeepStrike").
     for m in re.finditer(r"\b([A-Z][A-Za-z]{3,})\b", question):
+        phrases.append(m.group(1).strip())
+
+    # Hyphenated Title-Case names not captured above (e.g. "Lord-Aquilor").
+    for m in re.finditer(r"\b([A-Z][A-Za-z]{1,}(?:-[A-Za-z]{2,})+)\b", question):
         phrases.append(m.group(1).strip())
 
     # Lowercase "unit <name>" fallback.
@@ -213,6 +311,57 @@ def extract_candidate_phrases(question: str) -> List[str]:
             re.IGNORECASE,
         ):
             phrases.append(m.group(1).strip())
+
+    # "X or Y", "X vs Y", "X versus Y" — extracts both subjects even when lowercase.
+    for m in re.finditer(
+        r"\b([A-Za-z][A-Za-z'\-]{2,}(?:\s+[A-Za-z][A-Za-z'\-]{2,}){0,2})"
+        r"\s+(?:or|vs\.?|versus)\s+"
+        r"([A-Za-z][A-Za-z'\-]{2,}(?:\s+[A-Za-z][A-Za-z'\-]{2,}){0,2})\b",
+        question,
+        re.IGNORECASE,
+    ):
+        for grp in (m.group(1).strip(), m.group(2).strip()):
+            if _normalize(grp) not in _FILTER_WORDS:
+                phrases.append(grp)
+
+    # "between X and Y" — covers "difference between X and Y" questions.
+    # Non-greedy so it snaps to the nearest "and", not words before both subjects.
+    for m in re.finditer(
+        r"\bbetween\s+([A-Za-z][A-Za-z'\-]{2,}(?:\s+[A-Za-z][A-Za-z'\-]{2,}){0,2}?)"
+        r"\s+and\s+"
+        r"([A-Za-z][A-Za-z'\-]{2,}(?:\s+[A-Za-z][A-Za-z'\-]{2,}){0,2}?)\b",
+        question,
+        re.IGNORECASE,
+    ):
+        for grp in (m.group(1).strip(), m.group(2).strip()):
+            if _normalize(grp) not in _FILTER_WORDS:
+                phrases.append(grp)
+
+    # "X and Y" when the question signals a comparison/relationship.
+    # Restricted to single-word subjects to avoid over-greedily matching whole clauses.
+    if any(sig in q_lower for sig in _COMPARISON_SIGNALS):
+        for m in re.finditer(
+            r"\b([A-Za-z][A-Za-z'\-]{3,})\s+and\s+([A-Za-z][A-Za-z'\-]{3,})\b",
+            question,
+            re.IGNORECASE,
+        ):
+            for grp in (m.group(1).strip(), m.group(2).strip()):
+                if _normalize(grp) not in _FILTER_WORDS:
+                    phrases.append(grp)
+
+    # Bare lowercase nouns when a game property word is present.
+    # Catches questions like "how many attacks do plague marines have?" where
+    # the unit name is all-lowercase. Single-word matches only; the heading
+    # search's token-overlap scoring then reunites related words (e.g. "plague"
+    # + "marines" both independently score well against "### Plague Marines").
+    if any(kw in q_lower for kw in _GAME_PROPERTY_WORDS):
+        for m in re.finditer(r"\b([a-z][a-z'\-]{3,})\b", question):
+            candidate = m.group(1).strip()
+            norm = _normalize(candidate)
+            if norm not in _GAME_PROPERTY_STOP and not any(
+                norm == _normalize(p) for p in phrases
+            ):
+                phrases.append(candidate)
 
     # Deduplicate, preserve order, drop very short entries.
     seen: set = set()
@@ -340,10 +489,17 @@ def find_keyword_snippets(
     phrases: List[str],
     max_snippets: int = 3,
     window: int = 600,
+    heading_vocab: List[Tuple[str, str]] | None = None,
 ) -> List[str]:
     """
     For each extracted candidate phrase, try a structure-aware heading match first,
     then fall back to a sliding-window keyword match.
+
+    If `heading_vocab` is supplied (a list of (normalized, original) tuples built
+    from the loaded sources), each phrase is spell-corrected against the vocabulary
+    before searching. This allows queries with minor typos (e.g. "cranlats" →
+    "Clanrats") to resolve correctly even in the window search, which uses exact
+    string matching.
     """
     q_lower = question.lower()
     prefer_points = any(kw in q_lower for kw in ("point", "points", "pts"))
@@ -353,13 +509,15 @@ def find_keyword_snippets(
         if len(out) >= max_snippets:
             break
 
-        sections = _heading_keyword_search(sources, phrase, prefer_points=prefer_points, max_results=1)
+        corrected = spell_correct_phrase(phrase, heading_vocab or [])
+
+        sections = _heading_keyword_search(sources, corrected, prefer_points=prefer_points, max_results=1)
         if sections:
             out.extend(sections)
             continue
 
         windows = _window_keyword_search(
-            sources, phrase, prefer_points=prefer_points, window=window, max_results=1
+            sources, corrected, prefer_points=prefer_points, window=window, max_results=1
         )
         out.extend(windows)
 
@@ -379,18 +537,22 @@ def answer_question(
     system_prompt: str = SYSTEM_PROMPT,
     k: int = 10,
     rules_sources: Sequence[Tuple[str, str]] | None = None,
+    heading_vocab: List[Tuple[str, str]] | None = None,
 ) -> str:
     """
     Retrieve relevant rules context and ask the chat model to answer the question.
 
     Args:
-        question:     The user's rules question.
-        vectorstore:  Pre-loaded FAISS index for the target game.
-        game_label:   Human-readable game name ("Warhammer Age of Sigmar", etc.)
-        data_dir:     Path to the markdown files (enables keyword search). Optional.
-        model_name:   OpenAI chat model identifier.
+        question:      The user's rules question.
+        vectorstore:   Pre-loaded FAISS index for the target game.
+        game_label:    Human-readable game name ("Warhammer Age of Sigmar", etc.)
+        data_dir:      Path to the markdown files (enables keyword search). Optional.
+        model_name:    OpenAI chat model identifier.
         system_prompt: Instructions for the model.
-        k:            Number of semantic chunks to retrieve.
+        k:             Number of semantic chunks to retrieve.
+        heading_vocab: Pre-built heading vocabulary for spell correction. Build once
+                       at startup with build_heading_vocabulary(sources) and pass here
+                       to avoid per-request overhead.
 
     Returns:
         The model's answer as a string.
@@ -412,12 +574,24 @@ def answer_question(
         if phrases is None:
             phrases = extract_candidate_phrases(question)
         if phrases:
-            keyword_snippets = find_keyword_snippets(sources, question, phrases)
+            max_kw = min(6, max(3, len(phrases)))
+            keyword_snippets = find_keyword_snippets(
+                sources, question, phrases,
+                max_snippets=max_kw,
+                heading_vocab=heading_vocab,
+            )
 
-    # If we found a precise points block, reduce noise from semantic results.
+    # Reduce semantic noise when keyword search already covers all subjects with
+    # precise points data. If only a subset of subjects is covered, keep more
+    # semantic chunks so the remaining subjects can still be found.
     prefer_points = any(kw in question.lower() for kw in ("point", "points", "pts"))
-    if prefer_points and any("**Points:**" in s for s in keyword_snippets):
-        context_snippets = context_snippets[:3]
+    if prefer_points and keyword_snippets:
+        points_found = sum(1 for s in keyword_snippets if "**Points:**" in s)
+        num_subjects = len(phrases) if phrases else 1
+        if points_found >= num_subjects:
+            context_snippets = context_snippets[:3]
+        elif points_found > 0:
+            context_snippets = context_snippets[:6]
 
     # Keyword snippets go first so the model sees the most precise matches upfront.
     all_snippets = keyword_snippets + context_snippets
