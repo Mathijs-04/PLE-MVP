@@ -1,23 +1,19 @@
 <script setup lang="js">
 import { computed, ref } from 'vue';
 import { Head } from '@inertiajs/vue3';
-import AppLayout from '@/layouts/AppLayout.vue';
-import { dashboard } from '@/routes';
+import { ChevronDown } from 'lucide-vue-next';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-
-const breadcrumbs = [
-    {
-        title: 'Dashboard',
-        href: dashboard(),
-    },
-];
 
 const question = ref('');
 const game = ref('aos');
 const loading = ref(false);
 const error = ref('');
-const answer = ref('');
+const answer = ref(null);
+
+const openShortAnswer = ref(true);
+const openDetailedAnswer = ref(true);
+const openSource = ref(true);
 
 const escapeHtml = (value) => {
     return String(value)
@@ -77,7 +73,8 @@ const renderMarkdown = (markdown) => {
         if (headingMatch) {
             const level = headingMatch[1].length;
             const content = renderInline(headingMatch[2].trim());
-            parts.push(`<h${level} class="my-3 font-semibold">${content}</h${level}>`);
+            const sizeClass = level === 1 ? 'text-xl' : level === 2 ? 'text-lg' : 'text-base';
+            parts.push(`<h${level} class="mt-5 mb-2 ${sizeClass} font-bold tracking-tight">${content}</h${level}>`);
             i++;
             continue;
         }
@@ -132,12 +129,11 @@ const renderMarkdown = (markdown) => {
     return html;
 };
 
-const renderedAnswer = computed(() => renderMarkdown(answer.value));
-const renderedError = computed(() => (error.value ? renderMarkdown(error.value) : ''));
+const renderedDetailedAnswer = computed(() => (answer.value ? renderMarkdown(answer.value.detailed_answer) : ''));
 
 const ask = async () => {
     error.value = '';
-    answer.value = '';
+    answer.value = null;
 
     const trimmed = question.value.trim();
     if (!trimmed) {
@@ -168,12 +164,15 @@ const ask = async () => {
             return;
         }
 
-        if (typeof data?.answer === 'string') {
-            answer.value = data.answer;
+        if (data?.short_answer !== undefined) {
+            answer.value = data;
+            openShortAnswer.value = true;
+            openDetailedAnswer.value = true;
+            openSource.value = true;
         } else if (data?.error) {
             error.value = data.error;
         } else {
-            answer.value = '';
+            answer.value = null;
             error.value = 'No answer returned.';
         }
     } catch (e) {
@@ -185,62 +184,134 @@ const ask = async () => {
 </script>
 
 <template>
-
     <Head title="Warhammer Rule Assistant" />
 
-    <AppLayout :breadcrumbs="breadcrumbs">
-        <div class="flex h-full flex-1 flex-col gap-4 overflow-x-hidden rounded-xl p-4">
-            <div class="space-y-4 rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-4">
-                <h1 class="text-lg font-semibold">Question</h1>
+    <div class="min-h-screen bg-background text-foreground">
+        <div class="mx-auto max-w-3xl space-y-6 px-4 py-10">
 
-                <label class="block text-sm font-medium text-foreground">
-                    Your question
-                </label>
-                <Input v-model="question" class="w-full" placeholder="Ask a Warhammer rules question..."
-                    :disabled="loading" />
+            <div class="space-y-5 rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6">
+                <div>
+                    <h1 class="text-2xl font-bold tracking-tight">Warhammer Rule Assistant</h1>
+                    <p class="mt-1 text-sm text-muted-foreground">Ask any rules question and get an answer based on the official rulebooks.</p>
+                </div>
+
+                <div class="space-y-1.5">
+                    <label class="text-sm font-medium text-foreground">Your question</label>
+                    <Input
+                        v-model="question"
+                        class="w-full"
+                        placeholder="Ask a Warhammer rules question..."
+                        :disabled="loading"
+                        @keyup.enter="ask"
+                    />
+                </div>
 
                 <div class="flex items-center justify-between gap-4">
-                    <div class="flex flex-col gap-1">
-                        <span class="text-sm font-medium text-foreground">
-                            Game
-                        </span>
-                        <div class="flex gap-4">
-                            <label class="inline-flex items-center gap-2 text-sm">
-                                <input type="radio" name="game" value="aos" v-model="game" :disabled="loading" />
-                                <span>Age of Sigmar</span>
-                            </label>
-                            <label class="inline-flex items-center gap-2 text-sm">
-                                <input type="radio" name="game" value="40k" v-model="game" :disabled="loading" />
-                                <span>40.000</span>
-                            </label>
-                        </div>
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="text-sm transition-colors"
+                            :class="game === 'aos' ? 'font-semibold text-foreground' : 'text-muted-foreground'"
+                        >Age of Sigmar</span>
+
+                        <button
+                            type="button"
+                            role="switch"
+                            :aria-checked="game === '40k'"
+                            :disabled="loading"
+                            class="relative inline-flex h-6 w-11 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                            :class="game === '40k' ? 'bg-primary' : 'bg-input'"
+                            @click="game = game === 'aos' ? '40k' : 'aos'"
+                        >
+                            <span
+                                class="pointer-events-none inline-block h-4 w-4 transform rounded-full bg-background shadow-lg ring-0 transition-transform"
+                                :class="game === '40k' ? 'translate-x-5' : 'translate-x-0'"
+                            />
+                        </button>
+
+                        <span
+                            class="text-sm transition-colors"
+                            :class="game === '40k' ? 'font-semibold text-foreground' : 'text-muted-foreground'"
+                        >Warhammer 40,000</span>
                     </div>
 
-                    <Button :disabled="loading || !question.trim()" class="h-9 px-4" @click="ask">
-                        <span v-if="loading">Asking...</span>
+                    <Button :disabled="loading || !question.trim()" class="h-9 px-5" @click="ask">
+                        <span v-if="loading">Asking…</span>
                         <span v-else>Ask</span>
                     </Button>
                 </div>
             </div>
 
-            <div class="space-y-2 rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-4">
-                <h2 class="text-lg font-semibold">Answer</h2>
+            <div class="rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6">
 
-                <div class="min-h-[160px] whitespace-pre-wrap rounded-lg p-3 text-sm leading-relaxed text-foreground">
-                    <template v-if="renderedError">
-                        <div class="my-2 rounded-lg bg-red-50 p-3 text-red-700 ring-1 ring-red-200 dark:bg-red-950/30 dark:text-red-100 dark:ring-red-900/40"
-                            v-html="renderedError" />
-                    </template>
+                <template v-if="error">
+                    <div class="rounded-lg bg-red-50 p-4 text-red-700 ring-1 ring-red-200 dark:bg-red-950/30 dark:text-red-100 dark:ring-red-900/40">
+                        {{ error }}
+                    </div>
+                </template>
 
-                    <template v-else-if="renderedAnswer">
-                        <div v-html="renderedAnswer" />
-                    </template>
+                <template v-else-if="loading">
+                    <div class="flex flex-col items-center justify-center gap-3 py-12 text-muted-foreground">
+                        <svg class="h-8 w-8 animate-spin text-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
+                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                        </svg>
+                        <span class="text-sm">Looking up the rules…</span>
+                    </div>
+                </template>
 
-                    <template v-else>
-                        <p class="text-muted-foreground">No answer yet. Ask a question above.</p>
-                    </template>
-                </div>
+                <template v-else-if="answer">
+                    <div class="space-y-3">
+
+                        <div class="overflow-hidden rounded-lg border border-sidebar-border/70">
+                            <button
+                                type="button"
+                                class="flex w-full items-center justify-between px-4 py-3 text-left hover:bg-sidebar/10 transition-colors"
+                                @click="openShortAnswer = !openShortAnswer"
+                            >
+                                <span class="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Short Answer</span>
+                                <ChevronDown class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" :class="openShortAnswer ? 'rotate-180' : ''" />
+                            </button>
+                            <div v-show="openShortAnswer" class="border-t border-sidebar-border/70 bg-sidebar/10 px-4 py-4">
+                                <p class="text-xl font-bold leading-snug">{{ answer.short_answer }}</p>
+                            </div>
+                        </div>
+
+                        <div class="overflow-hidden rounded-lg border border-sidebar-border/70">
+                            <button
+                                type="button"
+                                class="flex w-full items-center justify-between px-4 py-3 text-left hover:bg-sidebar/10 transition-colors"
+                                @click="openDetailedAnswer = !openDetailedAnswer"
+                            >
+                                <span class="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Detailed Answer</span>
+                                <ChevronDown class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" :class="openDetailedAnswer ? 'rotate-180' : ''" />
+                            </button>
+                            <div v-show="openDetailedAnswer" class="border-t border-sidebar-border/70 px-4 py-4 text-sm leading-relaxed">
+                                <div v-html="renderedDetailedAnswer" />
+                            </div>
+                        </div>
+
+                        <div class="overflow-hidden rounded-lg border border-sidebar-border/70">
+                            <button
+                                type="button"
+                                class="flex w-full items-center justify-between px-4 py-3 text-left hover:bg-sidebar/10 transition-colors"
+                                @click="openSource = !openSource"
+                            >
+                                <span class="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Source</span>
+                                <ChevronDown class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" :class="openSource ? 'rotate-180' : ''" />
+                            </button>
+                            <div v-show="openSource" class="border-t border-sidebar-border/70 bg-sidebar/10 px-4 py-4">
+                                <p class="text-sm text-muted-foreground">{{ answer.source }}</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </template>
+
+                <template v-else>
+                    <p class="py-4 text-center text-sm text-muted-foreground">No answer yet. Ask a question above.</p>
+                </template>
+
             </div>
         </div>
-    </AppLayout>
+    </div>
 </template>
