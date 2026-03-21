@@ -23,7 +23,7 @@ import difflib
 import os
 import re
 import string
-from typing import List, Sequence, Tuple
+from typing import List, Optional, Sequence, Tuple
 
 from dotenv import load_dotenv
 from langchain_community.vectorstores import FAISS
@@ -62,16 +62,27 @@ When the user names a specific unit, ability, or keyword:
 - Pay particular attention to short "notes" sentences such as "This unit cannot be reinforced."
 - If such a sentence is present in the context, treat it as authoritative for the question.
 
+When the user asks for a recommendation or comparison across a faction (e.g. "best unit",
+"strongest", "cheapest", "most powerful", "which unit should I take"):
+- Use the unit-stats overview (if provided) to compare all available units.
+- Clearly state the criterion you are applying (e.g. highest Points = most investment/power,
+  highest Health = most durable, best Save = hardest to wound).
+- Give a concrete, definitive recommendation — do not refuse on the grounds that
+  the rules do not define "best". Make a reasoned pick and explain it.
+- If multiple units are competitive, name the top two or three and briefly explain the trade-offs.
+
 Assume the user is familiar with basic tabletop gaming, but not necessarily all Warhammer jargon.
 Explain specialised terms briefly when they are important to the answer.
 
-Always structure your final answer in exactly this format:
+Always respond with a valid JSON object in exactly this format, and nothing else:
 
-**Short Answer:** <one-line answer>
+{
+  "short_answer": "<one-line answer>",
+  "detailed_answer": "<longer explanation with relevant conditions, edge cases, and quotations>",
+  "source": "<brief description of where this comes from in the provided context>"
+}
 
-**Detailed Answer:** <longer explanation with relevant conditions, edge cases, and quotations>
-
-**Source:** <brief description of where this comes from in the provided context>
+Do not include any text outside the JSON object. Do not wrap it in code fences.
 """.strip()
 
 
@@ -237,6 +248,93 @@ def spell_correct_phrase(
     return phrase
 
 
+# ---------------------------------------------------------------------------
+# Faction-level overview retrieval
+# ---------------------------------------------------------------------------
+
+def detect_faction_query(
+    question: str,
+    sources: Sequence[Tuple[str, str]],
+) -> Optional[Tuple[str, str]]:
+    """
+    Detect when a question asks a faction-wide comparative or recommendation
+    question (e.g. "What is the best Skaven unit?", "List all Space Marines").
+
+    Returns (faction_name, faction_file_text) when both conditions are met:
+      1. The question contains a comparative/superlative signal word.
+      2. A source file whose name token-overlaps with the question is found
+         AND that file contains a ## Units section (i.e. it is a faction file,
+         not a core-rules or supplement file).
+
+    Returns None otherwise.
+    """
+    q_lower = question.lower()
+
+    # Multi-word signals (e.g. "all units") are satisfied when all their tokens
+    # appear anywhere in the question, not necessarily adjacent.
+    def _has_signal(q: str) -> bool:
+        for sig in _FACTION_COMPARATIVE_SIGNALS:
+            words = sig.split()
+            if all(w in q for w in words):
+                return True
+        return False
+
+    if not _has_signal(q_lower):
+        return None
+
+    q_toks = set(_tokenize(question))
+    best_match: Optional[Tuple[str, str]] = None
+    best_score = 0.0
+
+    for path, text in sources:
+        if "## Units" not in text:
+            continue
+
+        faction_name = os.path.splitext(os.path.basename(path))[0]
+        faction_toks = [t for t in _tokenize(faction_name) if len(t) > 3]
+        if not faction_toks:
+            continue
+
+        overlap = len(set(faction_toks) & q_toks) / len(faction_toks)
+        if overlap > best_score:
+            best_score = overlap
+            best_match = (faction_name, text)
+
+    return best_match if best_score > 0 else None
+
+
+def build_unit_summary(faction_text: str, faction_name: str) -> str:
+    """
+    Build a compact one-line-per-unit overview of a faction's units.
+
+    Each line contains the unit name and its full stat line
+    (e.g. "**Points:** 110 | **Move:** 4\" | **Health:** 1 | …").
+    Only H3 headings followed by a **Points:** line within the next 400
+    characters are included, which naturally excludes ability/rule sub-sections
+    that don't have stats.
+
+    The resulting block is small enough (~30–50 lines) to prepend to the AI's
+    context without significantly increasing token usage, while giving it
+    everything needed to compare all units in the faction.
+    """
+    lines: List[str] = []
+
+    for unit_m in re.finditer(r"^### (.+?)\s*$", faction_text, re.MULTILINE):
+        unit_name = unit_m.group(1).strip()
+        chunk = faction_text[unit_m.start(): unit_m.start() + 400]
+        points_m = re.search(r"\*\*Points:\*\*[^\n]+", chunk)
+        if points_m:
+            lines.append(f"- **{unit_name}**: {points_m.group(0)}")
+
+    if not lines:
+        return ""
+
+    return (
+        f"[{faction_name} | all units with stats — use for faction-wide comparisons]\n"
+        + "\n".join(lines)
+    )
+
+
 _FILTER_WORDS = {
     "which", "what", "who", "where", "when", "how", "why",
     "more", "less", "better", "worse", "many", "much",
@@ -264,6 +362,18 @@ _GAME_PROPERTY_STOP = _FILTER_WORDS | _GAME_PROPERTY_WORDS | {
     "also", "with", "from", "just", "only", "each", "every",
     "will", "cant", "can", "its", "the", "are", "for",
 }
+
+# Signals that indicate a faction-wide comparison or recommendation query.
+# When one of these appears alongside a faction name, a compact unit-stats
+# overview is built and prepended to context so the AI can compare all units.
+_FACTION_COMPARATIVE_SIGNALS = frozenset({
+    "best", "worst", "strongest", "weakest", "toughest", "fastest",
+    "cheapest", "most expensive", "most powerful", "most versatile",
+    "recommend", "recommended", "top pick", "top unit",
+    "most attacks", "most damage", "most health", "most wounds",
+    "highest points", "lowest points", "fewest points",
+    "all units", "compare all", "list all", "overview",
+})
 
 
 def extract_candidate_phrases(question: str) -> List[str]:
@@ -581,6 +691,20 @@ def answer_question(
                 heading_vocab=heading_vocab,
             )
 
+    # 3. Faction-wide overview for comparative/recommendation questions.
+    # When a question asks about the "best/strongest/cheapest" unit in a
+    # specific faction, prepend a compact one-line-per-unit stats summary so
+    # the AI can compare all units without being limited to random semantic chunks.
+    faction_summary: Optional[str] = None
+    if sources:
+        faction_data = detect_faction_query(question, sources)
+        if faction_data:
+            faction_name, faction_text = faction_data
+            summary = build_unit_summary(faction_text, faction_name)
+            if summary:
+                faction_summary = summary
+                context_snippets = context_snippets[:5]
+
     # Reduce semantic noise when keyword search already covers all subjects with
     # precise points data. If only a subset of subjects is covered, keep more
     # semantic chunks so the remaining subjects can still be found.
@@ -593,8 +717,10 @@ def answer_question(
         elif points_found > 0:
             context_snippets = context_snippets[:6]
 
-    # Keyword snippets go first so the model sees the most precise matches upfront.
-    all_snippets = keyword_snippets + context_snippets
+    # Faction overview goes first (most informative for comparative queries),
+    # then precise keyword hits, then broad semantic chunks.
+    prefix = [faction_summary] if faction_summary else []
+    all_snippets = prefix + keyword_snippets + context_snippets
     context_block = "\n\n---\n\n".join(all_snippets)
 
     llm = ChatOpenAI(model=model_name, temperature=0.2)

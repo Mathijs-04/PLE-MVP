@@ -10,6 +10,7 @@ Request body:
 
 from __future__ import annotations
 
+import json
 import os
 from contextlib import asynccontextmanager
 from typing import Literal
@@ -70,22 +71,40 @@ class AskRequest(BaseModel):
 
 
 class AskResponse(BaseModel):
-    answer: str
+    short_answer: str
+    detailed_answer: str
+    source: str
+
+
+def _parse_answer(raw: str) -> AskResponse:
+    raw = raw.strip()
+    if raw.startswith("```"):
+        raw = raw.split("\n", 1)[-1]
+        raw = raw.rsplit("```", 1)[0]
+    try:
+        data = json.loads(raw)
+        return AskResponse(
+            short_answer=data.get("short_answer", ""),
+            detailed_answer=data.get("detailed_answer", ""),
+            source=data.get("source", ""),
+        )
+    except (json.JSONDecodeError, ValueError):
+        return AskResponse(short_answer=raw, detailed_answer="", source="")
 
 
 @app.post("/ask", response_model=AskResponse)
 def ask(req: AskRequest) -> AskResponse:
     question = (req.question or "").strip()
     if not question:
-        return AskResponse(answer="")
+        return AskResponse(short_answer="", detailed_answer="", source="")
 
     vectorstore = _VECTORSTORES.get(req.game)
     sources = _SOURCES.get(req.game)
     vocab = _HEADING_VOCABS.get(req.game)
     if vectorstore is None:
-        return AskResponse(answer="")
+        return AskResponse(short_answer="", detailed_answer="", source="")
 
-    answer = answer_question(
+    raw = answer_question(
         question=question,
         vectorstore=vectorstore,
         game_label=_GAME_LABELS[req.game],
@@ -93,7 +112,7 @@ def ask(req: AskRequest) -> AskResponse:
         rules_sources=sources,
         heading_vocab=vocab,
     )
-    return AskResponse(answer=answer)
+    return _parse_answer(raw)
 
 
 if __name__ == "__main__":
