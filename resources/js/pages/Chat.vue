@@ -1,6 +1,6 @@
 <script setup lang="js">
 import { computed, ref } from 'vue';
-import { Head } from '@inertiajs/vue3';
+import { Head, Link } from '@inertiajs/vue3';
 import { ChevronDown } from 'lucide-vue-next';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -195,14 +195,16 @@ const ask = async () => {
                         <h1 class="text-2xl font-bold tracking-tight">Warhammer Rule Assistant</h1>
                         <p class="mt-1 text-sm text-muted-foreground">Ask any rules question and get an answer based on the official rulebooks.</p>
                     </div>
-                    <img
-                        src="/Warhammer.png"
-                        alt="Warhammer"
-                        class="h-14 w-14 shrink-0 object-contain sm:h-16 sm:w-16"
-                        width="64"
-                        height="64"
-                        decoding="async"
-                    />
+                    <Link href="/rules" class="inline-flex shrink-0">
+                        <img
+                            src="/Warhammer.png"
+                            alt="Warhammer"
+                            class="h-14 w-14 shrink-0 object-contain sm:h-16 sm:w-16"
+                            width="64"
+                            height="64"
+                            decoding="async"
+                        />
+                    </Link>
                 </div>
 
                 <div class="space-y-1.5">

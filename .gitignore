@@ -30,3 +30,9 @@ yarn-error.log
 # Generated Python vector indexes
 /python/indexes/
 /python/__pycache__/
+
+# PDF.js viewer distribution
+/public/pdfjs/
+
+# PDF rule files served from public
+/public/rulebooks/
