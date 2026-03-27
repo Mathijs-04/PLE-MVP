@@ -254,123 +254,123 @@
         ]
     },
     "shooting_rules": {
-        "page": 20,
+        "page": 16,
         "aliases": [
             "shooting rules"
         ]
     },
     "hit_roll": {
-        "page": 20,
+        "page": 17,
         "aliases": [
             "hit roll"
         ]
     },
     "wound_roll": {
-        "page": 20,
+        "page": 17,
         "aliases": [
             "wound roll"
         ]
     },
     "rend": {
-        "page": 20,
+        "page": 17,
         "aliases": [
             "rend"
         ]
     },
     "saving_throw": {
-        "page": 21,
+        "page": 17,
         "aliases": [
             "save roll"
         ]
     },
     "damage_allocation": {
-        "page": 21,
+        "page": 18,
         "aliases": [
             "damage"
         ]
     },
     "combat_sequence": {
-        "page": 22,
+        "page": 17,
         "aliases": [
             "combat sequence"
         ]
     },
     "attack_sequence": {
-        "page": 22,
+        "page": 17,
         "aliases": [
             "attack sequence"
         ]
     },
     "unit_slain": {
-        "page": 23,
+        "page": 18,
         "aliases": [
             "slain"
         ]
     },
     "hero_phase": {
-        "page": 28,
+        "page": 29,
         "aliases": [
             "hero phase"
         ]
     },
     "magic": {
-        "page": 28,
+        "page": 33,
         "aliases": [
             "cast spell"
         ]
     },
     "unbind_spell": {
-        "page": 28,
+        "page": 33,
         "aliases": [
             "unbind"
         ]
     },
     "prayers": {
-        "page": 29,
+        "page": 33,
         "aliases": [
             "priest",
             "prayer"
         ]
     },
     "command_abilities": {
-        "page": 30,
+        "page": 29,
         "aliases": [
             "command ability"
         ]
     },
     "command_points": {
-        "page": 30,
+        "page": 29,
         "aliases": [
             "command point"
         ]
     },
     "battle_tactics": {
-        "page": 32,
+        "page": 40,
         "aliases": [
             "battle tactic"
         ]
     },
     "victory_points": {
-        "page": 32,
+        "page": 40,
         "aliases": [
             "victory point"
         ]
     },
     "advanced_terrain_rules": {
-        "page": 33,
+        "page": 31,
         "aliases": [
             "cover",
             "terrain bonus"
         ]
     },
     "battlepack_rules": {
-        "page": 40,
+        "page": 29,
         "aliases": [
             "battlepack"
         ]
     },
     "spearhead_rules": {
-        "page": 43,
+        "page": 29,
         "aliases": [
             "spearhead"
         ]

@@ -32,7 +32,9 @@
     "line_of_sight": {
         "page": 8,
         "aliases": [
-            "visibility"
+            "visibility",
+            "line of sight",
+            "los"
         ]
     },
     "dice_rules": {
@@ -44,7 +46,10 @@
     "rerolls": {
         "page": 9,
         "aliases": [
-            "reroll"
+            "reroll",
+            "rerolling",
+            "rerolled",
+            "rerolls"
         ]
     },
     "roll_off": {
@@ -162,25 +167,25 @@
         ]
     },
     "hit_roll": {
-        "page": 16,
+        "page": 21,
         "aliases": [
             "hit roll"
         ]
     },
     "wound_roll": {
-        "page": 17,
+        "page": 22,
         "aliases": [
             "wound roll"
         ]
     },
     "saving_throw": {
-        "page": 17,
+        "page": 22,
         "aliases": [
             "save"
         ]
     },
     "damage": {
-        "page": 17,
+        "page": 23,
         "aliases": [
             "damage"
         ]
@@ -215,20 +220,14 @@
             "consolidate"
         ]
     },
-    "morale": {
-        "page": 11,
-        "aliases": [
-            "battle shock"
-        ]
-    },
     "strategic_reserves": {
-        "page": 41,
+        "page": 43,
         "aliases": [
             "reserves"
         ]
     },
     "deep_strike": {
-        "page": 41,
+        "page": 39,
         "aliases": [
             "deep strike"
         ]
@@ -258,7 +257,7 @@
         ]
     },
     "army_building": {
-        "page": 55,
+        "page": 56,
         "aliases": [
             "muster army"
         ]

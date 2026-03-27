@@ -1,18 +1,46 @@
 <script setup lang="js">
-import { computed, ref } from 'vue';
-import { Head, Link } from '@inertiajs/vue3';
+import { Head, Link, router, usePage } from '@inertiajs/vue3';
+import { computed, ref, watch } from 'vue';
+
+const inertiaPage = usePage();
 
 const game = ref('aos');
+const pdfPage = ref(1);
 
 const pdfFiles = {
     aos: '/rulebooks/AOS_Core_Rules.pdf',
     '40k': '/rulebooks/40K_Core_Rules.pdf',
 };
 
+function parseUrl() {
+    const path = inertiaPage.url || '';
+    const query = path.includes('?') ? path.slice(path.indexOf('?') + 1) : '';
+    const params = new URLSearchParams(query);
+    const g = params.get('game');
+    game.value = g === '40k' || g === 'wh40k' ? '40k' : 'aos';
+    const p = parseInt(params.get('page') || '1', 10);
+    pdfPage.value = Number.isFinite(p) && p > 0 ? p : 1;
+}
+
+watch(() => inertiaPage.url, parseUrl, { immediate: true });
+
 const viewerSrc = computed(() => {
     const file = encodeURIComponent(pdfFiles[game.value]);
-    return `/pdfjs/web/viewer.html?file=${file}&zoom=FitH`;
+    const hash = pdfPage.value > 1 ? `#page=${pdfPage.value}` : '';
+
+    return `/pdfjs/web/viewer.html?file=${file}&zoom=FitH${hash}`;
 });
+
+const iframeKey = computed(() => `${game.value}-${pdfPage.value}`);
+
+function toggleGame() {
+    const next = game.value === 'aos' ? '40k' : 'aos';
+    router.get(
+        '/rules',
+        { game: next, page: 1 },
+        { preserveState: true, replace: true },
+    );
+}
 </script>
 
 <template>
@@ -51,7 +79,7 @@ const viewerSrc = computed(() => {
                         :aria-checked="game === '40k'"
                         class="relative inline-flex h-6 w-11 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                         :class="game === '40k' ? 'bg-primary' : 'bg-input'"
-                        @click="game = game === 'aos' ? '40k' : 'aos'"
+                        @click="toggleGame"
                     >
                         <span
                             class="pointer-events-none inline-block h-4 w-4 transform rounded-full bg-background shadow-lg ring-0 transition-transform"
@@ -68,7 +96,7 @@ const viewerSrc = computed(() => {
 
             <div class="flex justify-center">
                 <iframe
-                    :key="game"
+                    :key="iframeKey"
                     :src="viewerSrc"
                     class="rounded-xl border border-sidebar-border/70"
                     :style="{

@@ -1,9 +1,10 @@
 <script setup lang="js">
-import { computed, ref } from 'vue';
 import { Head, Link } from '@inertiajs/vue3';
 import { ChevronDown } from 'lucide-vue-next';
+import { computed, ref, watch } from 'vue';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { getTagsForGame, wrapRuleTagLinks } from '@/utils/ruleTagLinks';
 
 const question = ref('');
 const game = ref('aos');
@@ -35,6 +36,7 @@ const renderMarkdown = (markdown) => {
         codeBlocks.push(
             `<pre class="my-3 overflow-x-auto rounded-lg bg-sidebar/10 p-3 ring-1 ring-sidebar-border/70"><code class="${language} whitespace-pre">${code}</code></pre>`,
         );
+
         return `@@CODEBLOCK_${i}@@`;
     });
 
@@ -54,7 +56,11 @@ const renderMarkdown = (markdown) => {
 
     const flushParagraph = (paragraphLines) => {
         const text = paragraphLines.join('\n').trimEnd();
-        if (!text) return;
+
+        if (!text) {
+            return;
+        }
+
         parts.push(
             `<p class="my-2 whitespace-pre-wrap leading-relaxed">${renderInline(text)}</p>`,
         );
@@ -70,6 +76,7 @@ const renderMarkdown = (markdown) => {
         }
 
         const headingMatch = line.match(/^(#{1,6})\s+(.*)$/);
+
         if (headingMatch) {
             const level = headingMatch[1].length;
             const content = renderInline(headingMatch[2].trim());
@@ -80,39 +87,58 @@ const renderMarkdown = (markdown) => {
         }
 
         const ulMatch = line.match(/^\s*[-*+]\s+(.+)$/);
+
         if (ulMatch) {
             const items = [];
+
             while (i < lines.length) {
                 const m = lines[i].match(/^\s*[-*+]\s+(.+)$/);
-                if (!m) break;
+
+                if (!m) {
+                    break;
+                }
+
                 items.push(`<li class="my-1">${renderInline(m[1].trim())}</li>`);
                 i++;
             }
+
             parts.push(`<ul class="my-3 list-disc pl-6">${items.join('')}</ul>`);
             continue;
         }
 
         const olMatch = line.match(/^\s*\d+\.\s+(.+)$/);
+
         if (olMatch) {
             const items = [];
+
             while (i < lines.length) {
                 const m = lines[i].match(/^\s*\d+\.\s+(.+)$/);
-                if (!m) break;
+
+                if (!m) {
+                    break;
+                }
+
                 items.push(`<li class="my-1">${renderInline(m[1].trim())}</li>`);
                 i++;
             }
+
             parts.push(`<ol class="my-3 list-decimal pl-6">${items.join('')}</ol>`);
             continue;
         }
 
         const paragraphLines = [];
+
         while (i < lines.length && lines[i].trim() !== '') {
             const l = lines[i];
             const isNextBlock =
                 /^(#{1,6})\s+/.test(l) ||
                 /^\s*[-*+]\s+/.test(l) ||
                 /^\s*\d+\.\s+/.test(l);
-            if (isNextBlock) break;
+
+            if (isNextBlock) {
+                break;
+            }
+
             paragraphLines.push(l);
             i++;
         }
@@ -123,25 +149,47 @@ const renderMarkdown = (markdown) => {
     let html = parts.join('');
     html = html.replace(/@@CODEBLOCK_(\d+)@@/g, (match, idx) => {
         const codeIndex = Number(idx);
+
         return codeBlocks[codeIndex] ?? match;
     });
 
     return html;
 };
 
-const renderedDetailedAnswer = computed(() => (answer.value ? renderMarkdown(answer.value.detailed_answer) : ''));
+const baseDetailedHtml = computed(() => (answer.value ? renderMarkdown(answer.value.detailed_answer) : ''));
+
+const renderedDetailedAnswer = ref('');
+
+watch(
+    [baseDetailedHtml, game],
+    () => {
+        const base = baseDetailedHtml.value;
+
+        if (!base) {
+            renderedDetailedAnswer.value = '';
+
+            return;
+        }
+
+        renderedDetailedAnswer.value = wrapRuleTagLinks(base, game.value, getTagsForGame(game.value));
+    },
+    { immediate: true },
+);
 
 const ask = async () => {
     error.value = '';
     answer.value = null;
 
     const trimmed = question.value.trim();
+
     if (!trimmed) {
         error.value = 'Please enter a question.';
+
         return;
     }
 
     loading.value = true;
+
     try {
         const response = await fetch('/api/chat', {
             method: 'POST',
@@ -161,6 +209,7 @@ const ask = async () => {
             error.value = data?.error
                 ? `${data.error} (HTTP ${response.status})`
                 : `Request failed (HTTP ${response.status}).`;
+
             return;
         }
 
