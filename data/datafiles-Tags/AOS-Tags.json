@@ -8,7 +8,8 @@
     "measuring_distance": {
         "page": 6,
         "aliases": [
-            "measure distance"
+            "measure distance",
+            "measuring"
         ]
     },
     "within_wholly_within": {
@@ -84,15 +85,17 @@
         ]
     },
     "pile_in_move": {
-        "page": 9,
+        "page": 17,
         "aliases": [
-            "pile in"
+            "pile in",
+            "pile-in"
         ]
     },
     "combat_attacks": {
-        "page": 9,
+        "page": 18,
         "aliases": [
-            "combat attack"
+            "combat attack",
+            "melee attack"
         ]
     },
     "visibility": {
@@ -177,7 +180,19 @@
     "turn_structure": {
         "page": 14,
         "aliases": [
-            "turn phases"
+            "turn phases",
+            "battle sequence",
+            "turn order"
+        ]
+    },
+    "hero_phase": {
+        "page": 30,
+        "aliases": [
+            "hero phase",
+            "your hero phase",
+            "hero phase commands",
+            "magical intervention",
+            "rally"
         ]
     },
     "movement_phase": {
@@ -207,19 +222,22 @@
     "shooting_phase": {
         "page": 15,
         "aliases": [
+            "shooting phase",
             "shoot"
         ]
     },
     "charge_phase": {
         "page": 15,
         "aliases": [
+            "charge phase",
             "charge"
         ]
     },
     "charge_roll": {
         "page": 15,
         "aliases": [
-            "2d6 charge"
+            "2d6 charge",
+            "charge roll"
         ]
     },
     "movement_rules": {
@@ -254,131 +272,154 @@
         ]
     },
     "shooting_rules": {
-        "page": 16,
+        "page": 18,
         "aliases": [
-            "shooting rules"
+            "shooting rules",
+            "picking targets",
+            "16.0"
         ]
     },
     "hit_roll": {
-        "page": 17,
+        "page": 18,
         "aliases": [
-            "hit roll"
+            "hit roll",
+            "attack sequence"
         ]
     },
     "wound_roll": {
-        "page": 17,
+        "page": 18,
         "aliases": [
             "wound roll"
         ]
     },
     "rend": {
-        "page": 17,
+        "page": 18,
         "aliases": [
             "rend"
         ]
     },
     "saving_throw": {
-        "page": 17,
+        "page": 18,
         "aliases": [
-            "save roll"
+            "save roll",
+            "ward save"
         ]
     },
     "damage_allocation": {
-        "page": 18,
+        "page": 20,
         "aliases": [
-            "damage"
+            "damage",
+            "damage sequence",
+            "allocating damage",
+            "18.0"
         ]
     },
     "combat_sequence": {
-        "page": 17,
+        "page": 18,
         "aliases": [
             "combat sequence"
         ]
     },
     "attack_sequence": {
-        "page": 17,
+        "page": 18,
         "aliases": [
-            "attack sequence"
+            "attack sequence",
+            "17.0"
         ]
     },
     "unit_slain": {
-        "page": 18,
+        "page": 20,
         "aliases": [
-            "slain"
+            "slain",
+            "slain models"
         ]
     },
-    "hero_phase": {
-        "page": 29,
+    "mortal_damage": {
+        "page": 19,
         "aliases": [
-            "hero phase"
-        ]
-    },
-    "magic": {
-        "page": 33,
-        "aliases": [
-            "cast spell"
-        ]
-    },
-    "unbind_spell": {
-        "page": 33,
-        "aliases": [
-            "unbind"
-        ]
-    },
-    "prayers": {
-        "page": 33,
-        "aliases": [
-            "priest",
-            "prayer"
+            "mortal damage",
+            "mortal wounds"
         ]
     },
     "command_abilities": {
-        "page": 29,
+        "page": 30,
         "aliases": [
+            "command",
+            "commands",
             "command ability"
         ]
     },
     "command_points": {
-        "page": 29,
+        "page": 30,
         "aliases": [
             "command point"
         ]
     },
-    "battle_tactics": {
-        "page": 40,
+    "magic": {
+        "page": 34,
         "aliases": [
-            "battle tactic"
+            "cast spell",
+            "spell",
+            "wizard"
+        ]
+    },
+    "unbind_spell": {
+        "page": 34,
+        "aliases": [
+            "unbind",
+            "unbinding"
+        ]
+    },
+    "prayers": {
+        "page": 34,
+        "aliases": [
+            "priest",
+            "prayer",
+            "chanting"
+        ]
+    },
+    "battle_tactics": {
+        "page": 41,
+        "aliases": [
+            "battle tactic",
+            "tactical gambit"
         ]
     },
     "victory_points": {
-        "page": 40,
+        "page": 41,
         "aliases": [
-            "victory point"
+            "victory point",
+            "victory points"
         ]
     },
     "advanced_terrain_rules": {
-        "page": 31,
+        "page": 32,
         "aliases": [
             "cover",
-            "terrain bonus"
+            "terrain bonus",
+            "faction terrain",
+            "obscuring terrain"
         ]
     },
     "battlepack_rules": {
-        "page": 29,
+        "page": 5,
         "aliases": [
-            "battlepack"
+            "battlepack",
+            "battle pack"
         ]
     },
     "spearhead_rules": {
-        "page": 29,
+        "page": 46,
         "aliases": [
-            "spearhead"
+            "spearhead",
+            "spearhead battlepack"
         ]
     },
     "matched_play": {
-        "page": 41,
+        "page": 42,
         "aliases": [
-            "matched play"
+            "matched play",
+            "border war"
         ]
     },
     "glossary_terms": {
@@ -390,7 +431,8 @@
     "terrain_list": {
         "page": 65,
         "aliases": [
-            "terrain list"
+            "terrain list",
+            "citadel terrain"
         ]
     }
 }

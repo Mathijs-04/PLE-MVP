@@ -5,6 +5,14 @@
             "core concepts"
         ]
     },
+    "measuring_distance": {
+        "page": 7,
+        "aliases": [
+            "measuring distances",
+            "measure distance",
+            "measure"
+        ]
+    },
     "datasheets": {
         "page": 5,
         "aliases": [
@@ -142,6 +150,23 @@
             "desperate escape"
         ]
     },
+    "reinforcements": {
+        "page": 16,
+        "aliases": [
+            "reinforcements step",
+            "reserves unit",
+            "reserves"
+        ]
+    },
+    "transports": {
+        "page": 17,
+        "aliases": [
+            "transport",
+            "embark",
+            "disembark",
+            "dedicated transport"
+        ]
+    },
     "terrain_movement": {
         "page": 15,
         "aliases": [
@@ -155,21 +180,25 @@
         ]
     },
     "shooting_phase": {
-        "page": 16,
+        "page": 19,
         "aliases": [
             "shooting phase"
         ]
     },
     "ranged_attacks": {
-        "page": 16,
+        "page": 19,
         "aliases": [
-            "shooting attack"
+            "shooting attack",
+            "ranged attack",
+            "select targets",
+            "shoot"
         ]
     },
     "hit_roll": {
         "page": 21,
         "aliases": [
-            "hit roll"
+            "hit roll",
+            "making attacks"
         ]
     },
     "wound_roll": {
@@ -181,55 +210,83 @@
     "saving_throw": {
         "page": 22,
         "aliases": [
-            "save"
+            "save",
+            "saving throw",
+            "invulnerable save"
         ]
     },
     "damage": {
         "page": 23,
         "aliases": [
-            "damage"
+            "damage",
+            "inflict damage"
+        ]
+    },
+    "mortal_wounds": {
+        "page": 23,
+        "aliases": [
+            "mortal wound",
+            "mortal wounds"
         ]
     },
     "charge_phase": {
-        "page": 18,
+        "page": 29,
         "aliases": [
-            "charge phase"
+            "charge phase",
+            "declare a charge",
+            "charging with a unit"
         ]
     },
     "charge_roll": {
-        "page": 18,
+        "page": 29,
         "aliases": [
-            "charge roll"
+            "charge roll",
+            "2d6 charge"
         ]
     },
     "fight_phase": {
-        "page": 20,
+        "page": 32,
         "aliases": [
             "fight phase"
         ]
     },
+    "fights_first": {
+        "page": 32,
+        "aliases": [
+            "fights first",
+            "charge bonus"
+        ]
+    },
     "pile_in": {
-        "page": 20,
+        "page": 33,
         "aliases": [
             "pile in"
         ]
     },
     "consolidate": {
-        "page": 20,
+        "page": 35,
         "aliases": [
             "consolidate"
         ]
     },
-    "strategic_reserves": {
-        "page": 43,
+    "leader": {
+        "page": 39,
         "aliases": [
-            "reserves"
+            "leader",
+            "bodyguard"
         ]
     },
     "deep_strike": {
         "page": 39,
         "aliases": [
             "deep strike"
+        ]
+    },
+    "strategic_reserves": {
+        "page": 43,
+        "aliases": [
+            "strategic reserves",
+            "arriving from strategic reserves"
         ]
     },
     "stratagems": {
@@ -241,37 +298,47 @@
     "terrain_features": {
         "page": 44,
         "aliases": [
-            "terrain"
+            "terrain",
+            "terrain feature"
         ]
     },
     "cover": {
         "page": 44,
         "aliases": [
-            "cover"
+            "cover",
+            "benefit of cover"
         ]
     },
     "obscuring": {
-        "page": 45,
+        "page": 47,
         "aliases": [
-            "obscuring"
+            "obscuring",
+            "woods",
+            "fully visible",
+            "not fully visible"
         ]
     },
     "army_building": {
         "page": 56,
         "aliases": [
-            "muster army"
+            "muster army",
+            "army roster"
         ]
     },
     "missions": {
         "page": 57,
         "aliases": [
-            "mission"
+            "mission",
+            "only war"
         ]
     },
     "objective_control": {
-        "page": 57,
+        "page": 58,
         "aliases": [
-            "objective control"
+            "objective control",
+            "objective markers",
+            "level of control",
+            "oc"
         ]
     }
 }
