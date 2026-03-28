@@ -62,7 +62,7 @@ export function buildPatternEntries(tagsJson) {
 
             seen.add(dedupeKey);
             const re = aliasToRegex(trimmed.toLowerCase());
-            entries.push({ re, page, sortLen: trimmed.length });
+            entries.push({ re, page, sortLen: trimmed.length, conceptId: key });
         }
     }
 
@@ -71,10 +71,10 @@ export function buildPatternEntries(tagsJson) {
     return entries;
 }
 
-export function findMatchesInText(text, patternEntries) {
+export function findMatchesInText(text, patternEntries, usedConcepts) {
     const raw = [];
 
-    for (const { re, page } of patternEntries) {
+    for (const { re, page, conceptId } of patternEntries) {
         const r = new RegExp(re.source, re.flags);
         let m;
 
@@ -91,6 +91,7 @@ export function findMatchesInText(text, patternEntries) {
                 start: m.index,
                 end: m.index + m[0].length,
                 page,
+                conceptId,
             });
         }
     }
@@ -107,9 +108,10 @@ export function findMatchesInText(text, patternEntries) {
     let lastEnd = -1;
 
     for (const m of raw) {
-        if (m.start >= lastEnd) {
+        if (m.start >= lastEnd && !usedConcepts.has(m.conceptId)) {
             selected.push(m);
             lastEnd = m.end;
+            usedConcepts.add(m.conceptId);
         }
     }
 
@@ -127,7 +129,7 @@ function rulesHref(gameKey, page) {
     });
 }
 
-function walkAndWrap(node, patternEntries, gameKey) {
+function walkAndWrap(node, patternEntries, gameKey, usedConcepts) {
     if (node.nodeType === Node.TEXT_NODE) {
         const content = node.data;
 
@@ -135,7 +137,7 @@ function walkAndWrap(node, patternEntries, gameKey) {
             return;
         }
 
-        const matches = findMatchesInText(content, patternEntries);
+        const matches = findMatchesInText(content, patternEntries, usedConcepts);
 
         if (matches.length === 0) {
             return;
@@ -185,7 +187,7 @@ function walkAndWrap(node, patternEntries, gameKey) {
     const children = [...node.childNodes];
 
     for (const child of children) {
-        walkAndWrap(child, patternEntries, gameKey);
+        walkAndWrap(child, patternEntries, gameKey, usedConcepts);
     }
 }
 
@@ -214,7 +216,8 @@ export function wrapRuleTagLinks(html, gameKey, tagsJson) {
         return html;
     }
 
-    walkAndWrap(root, patternEntries, gameKey);
+    const usedConcepts = new Set();
+    walkAndWrap(root, patternEntries, gameKey, usedConcepts);
 
     return root.innerHTML;
 }

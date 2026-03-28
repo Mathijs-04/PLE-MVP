@@ -1,10 +1,15 @@
 <script setup lang="js">
 import { Head, Link } from '@inertiajs/vue3';
 import { ChevronDown } from 'lucide-vue-next';
-import { computed, ref, watch } from 'vue';
+import { computed, onMounted, ref, watch } from 'vue';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { getTagsForGame, wrapRuleTagLinks } from '@/utils/ruleTagLinks';
+
+onMounted(() => {
+    document.documentElement.classList.remove('overflow-y-hidden');
+    document.body.classList.remove('overflow-y-hidden');
+});
 
 const question = ref('');
 const game = ref('aos');
@@ -242,7 +247,7 @@ const ask = async () => {
                 <div class="flex items-start justify-between gap-4">
                     <div class="min-w-0 flex-1">
                         <h1 class="text-2xl font-bold tracking-tight">Warhammer Rule Assistant</h1>
-                        <p class="mt-1 text-sm text-muted-foreground">Ask any rules question and get an answer based on the official rulebooks.</p>
+                        <p class="mt-1 text-sm text-muted-foreground">Ask any rule related question and get an answer based on the official rules.</p>
                     </div>
                     <Link href="/rules" class="inline-flex shrink-0">
                         <img
@@ -261,7 +266,7 @@ const ask = async () => {
                     <Input
                         v-model="question"
                         class="w-full"
-                        placeholder="Ask a Warhammer rules question..."
+                        placeholder="Ask a rule related question..."
                         :disabled="loading"
                         @keyup.enter="ask"
                     />
@@ -369,7 +374,7 @@ const ask = async () => {
                 </template>
 
                 <template v-else>
-                    <p class="py-4 text-center text-sm text-muted-foreground">No answer yet. Ask a question above.</p>
+                    <p class="py-4 text-center text-sm text-muted-foreground">Ask a question to get an answer.</p>
                 </template>
 
             </div>
