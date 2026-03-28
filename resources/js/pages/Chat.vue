@@ -1,15 +1,58 @@
 <script setup lang="js">
 import { Head, Link } from '@inertiajs/vue3';
 import { ChevronDown } from 'lucide-vue-next';
-import { computed, onMounted, ref, watch } from 'vue';
+import { computed, nextTick, onMounted, ref, watch } from 'vue';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { getTagsForGame, wrapRuleTagLinks } from '@/utils/ruleTagLinks';
 
-onMounted(() => {
-    document.documentElement.classList.remove('overflow-y-hidden');
-    document.body.classList.remove('overflow-y-hidden');
-});
+const CHAT_DRAFT_KEY = 'warhammer_chat_draft_v1';
+
+function isDocumentReloadNavigation() {
+    const entry = performance.getEntriesByType?.('navigation')?.[0];
+
+    if (entry && 'type' in entry && entry.type === 'reload') {
+        return true;
+    }
+
+    if (typeof performance.navigation !== 'undefined' && performance.navigation.type === 1) {
+        return true;
+    }
+
+    return false;
+}
+
+function readChatDraft() {
+    try {
+        const raw = sessionStorage.getItem(CHAT_DRAFT_KEY);
+
+        if (!raw) {
+            return null;
+        }
+
+        return JSON.parse(raw);
+    } catch {
+        return null;
+    }
+}
+
+function writeChatDraft(payload) {
+    try {
+        sessionStorage.setItem(CHAT_DRAFT_KEY, JSON.stringify(payload));
+    } catch {
+        void 0;
+    }
+}
+
+function clearChatDraft() {
+    try {
+        sessionStorage.removeItem(CHAT_DRAFT_KEY);
+    } catch {
+        void 0;
+    }
+}
+
+let skipDraftPersist = false;
 
 const question = ref('');
 const game = ref('aos');
@@ -20,6 +63,84 @@ const answer = ref(null);
 const openShortAnswer = ref(true);
 const openDetailedAnswer = ref(true);
 const openSource = ref(true);
+
+onMounted(async () => {
+    document.documentElement.classList.remove('overflow-y-hidden');
+    document.body.classList.remove('overflow-y-hidden');
+
+    if (isDocumentReloadNavigation()) {
+        clearChatDraft();
+
+        return;
+    }
+
+    const draft = readChatDraft();
+
+    if (!draft || typeof draft !== 'object') {
+        return;
+    }
+
+    skipDraftPersist = true;
+
+    if (typeof draft.question === 'string') {
+        question.value = draft.question;
+    }
+
+    if (draft.game === '40k' || draft.game === 'aos') {
+        game.value = draft.game;
+    }
+
+    if (
+        draft.answer &&
+        typeof draft.answer === 'object' &&
+        typeof draft.answer.short_answer === 'string' &&
+        typeof draft.answer.detailed_answer === 'string'
+    ) {
+        answer.value = draft.answer;
+    }
+
+    if (typeof draft.openShortAnswer === 'boolean') {
+        openShortAnswer.value = draft.openShortAnswer;
+    }
+
+    if (typeof draft.openDetailedAnswer === 'boolean') {
+        openDetailedAnswer.value = draft.openDetailedAnswer;
+    }
+
+    if (typeof draft.openSource === 'boolean') {
+        openSource.value = draft.openSource;
+    }
+
+    await nextTick();
+    skipDraftPersist = false;
+});
+
+watch(
+    [question, game, answer, openShortAnswer, openDetailedAnswer, openSource],
+    () => {
+        if (skipDraftPersist || loading.value) {
+            return;
+        }
+
+        const q = question.value.trim();
+
+        if (!q && !answer.value) {
+            clearChatDraft();
+
+            return;
+        }
+
+        writeChatDraft({
+            question: question.value,
+            game: game.value,
+            answer: answer.value,
+            openShortAnswer: openShortAnswer.value,
+            openDetailedAnswer: openDetailedAnswer.value,
+            openSource: openSource.value,
+        });
+    },
+    { deep: true },
+);
 
 const escapeHtml = (value) => {
     return String(value)
@@ -321,7 +442,7 @@ const ask = async () => {
                             <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
                             <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                         </svg>
-                        <span class="text-sm">Looking up the rules…</span>
+                        <span class="text-sm">Searching the rules…</span>
                     </div>
                 </template>
 

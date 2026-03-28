@@ -28,7 +28,7 @@ watch(() => inertiaPage.url, parseUrl, { immediate: true });
 
 const viewerSrc = computed(() => {
     const file = encodeURIComponent(pdfFiles[game.value]);
-    const hash = pdfPage.value > 1 ? `#page=${pdfPage.value}` : '';
+    const hash = `#page=${pdfPage.value}`;
 
     return `/pdfjs/web/viewer.html?file=${file}&zoom=FitH${hash}`;
 });
