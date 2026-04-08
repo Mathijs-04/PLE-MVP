@@ -59,6 +59,7 @@ const game = ref('aos');
 const loading = ref(false);
 const error = ref('');
 const answers = reactive({ aos: null, '40k': null });
+const questions = reactive({ aos: null, '40k': null });
 const answer = computed(() => answers[game.value]);
 
 const openShortAnswer = ref(true);
@@ -108,6 +109,16 @@ onMounted(async () => {
         answers[draft.game === '40k' ? '40k' : 'aos'] = draft.answer;
     }
 
+    if (draft.questions && typeof draft.questions === 'object') {
+        if (typeof draft.questions.aos === 'string') {
+            questions.aos = draft.questions.aos;
+        }
+
+        if (typeof draft.questions['40k'] === 'string') {
+            questions['40k'] = draft.questions['40k'];
+        }
+    }
+
     if (typeof draft.openShortAnswer === 'boolean') {
         openShortAnswer.value = draft.openShortAnswer;
     }
@@ -125,7 +136,7 @@ onMounted(async () => {
 });
 
 watch(
-    [question, game, answers, openShortAnswer, openDetailedAnswer, openSource],
+    [question, game, answers, questions, openShortAnswer, openDetailedAnswer, openSource],
     () => {
         if (skipDraftPersist || loading.value) {
             return;
@@ -143,6 +154,7 @@ watch(
             question: question.value,
             game: game.value,
             answers: { aos: answers.aos, '40k': answers['40k'] },
+            questions: { aos: questions.aos, '40k': questions['40k'] },
             openShortAnswer: openShortAnswer.value,
             openDetailedAnswer: openDetailedAnswer.value,
             openSource: openSource.value,
@@ -311,6 +323,33 @@ watch(
     { immediate: true },
 );
 
+const formatSource = (source) => {
+    if (!source) return '';
+
+    const parts = String(source).split(' & ');
+
+    if (parts.length <= 2) return source;
+
+    return parts.slice(0, -1).join(', ') + ' & ' + parts[parts.length - 1];
+};
+
+const switchGame = (newGame) => {
+    if (answers[newGame]) {
+        question.value = questions[newGame] ?? '';
+    } else if (answers[game.value]) {
+        question.value = '';
+    }
+
+    game.value = newGame;
+};
+
+const clear = () => {
+    questions[game.value] = null;
+    answers[game.value] = null;
+    question.value = '';
+    error.value = '';
+};
+
 const ask = async () => {
     error.value = '';
     answers[game.value] = null;
@@ -352,6 +391,7 @@ const ask = async () => {
 
         if (data?.short_answer !== undefined) {
             answers[askedGame] = data;
+            questions[askedGame] = trimmed;
             openShortAnswer.value = true;
             openDetailedAnswer.value = true;
             openSource.value = true;
@@ -418,7 +458,7 @@ const ask = async () => {
                             :disabled="loading"
                             class="relative inline-flex h-6 w-11 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                             :class="game === '40k' ? 'bg-primary' : 'bg-input'"
-                            @click="game = game === 'aos' ? '40k' : 'aos'"
+                            @click="switchGame(game === 'aos' ? '40k' : 'aos')"
                         >
                             <span
                                 class="pointer-events-none inline-block h-4 w-4 transform rounded-full bg-background shadow-lg ring-0 transition-transform"
@@ -432,10 +472,15 @@ const ask = async () => {
                         >Warhammer 40.000</span>
                     </div>
 
-                    <Button :disabled="loading || !question.trim()" class="h-9 px-5" @click="ask">
-                        <span v-if="loading">Asking…</span>
-                        <span v-else>Ask</span>
-                    </Button>
+                    <div class="flex items-center gap-2">
+                        <Button variant="outline" :disabled="loading || !answer" class="h-9 px-5" @click="clear">
+                            Clear
+                        </Button>
+                        <Button :disabled="loading || !question.trim()" class="h-9 px-5" @click="ask">
+                            <span v-if="loading">Asking…</span>
+                            <span v-else>Ask</span>
+                        </Button>
+                    </div>
                 </div>
             </div>
 
@@ -498,7 +543,7 @@ const ask = async () => {
                                 <ChevronDown class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" :class="openSource ? 'rotate-180' : ''" />
                             </button>
                             <div v-show="openSource" class="border-t border-sidebar-border/70 bg-sidebar/10 px-4 py-4">
-                                <p class="text-sm text-muted-foreground">{{ answer.source }}</p>
+                                <p class="text-sm text-muted-foreground">{{ formatSource(answer.source) }}</p>
                             </div>
                         </div>
 

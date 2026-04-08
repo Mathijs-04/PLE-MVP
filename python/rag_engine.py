@@ -79,8 +79,17 @@ Always respond with a valid JSON object in exactly this format, and nothing else
 {
   "short_answer": "<one-line answer>",
   "detailed_answer": "<longer explanation with relevant conditions, edge cases, and quotations>",
-  "source": "<brief description of where this comes from in the provided context>"
+  "source": {
+    "has_core_rules": <true if the answer draws on any core/universal rules, false otherwise>,
+    "factions": ["<faction name as it appears in the rules, e.g. Skaven, Space Marines>"]
+  }
 }
+
+"has_core_rules" should be true whenever the answer references rules that apply to all players
+(movement, combat sequence, keywords, universal abilities, etc.), not just faction-specific ones.
+"factions" should list every faction whose specific rules (warscrolls, datasheets, army rules,
+faction abilities) contributed to the answer. Use an empty array when no faction-specific rules
+were needed.
 
 Do not include any text outside the JSON object. Do not wrap it in code fences.
 """.strip()

@@ -76,17 +76,51 @@ class AskResponse(BaseModel):
     source: str
 
 
-def _parse_answer(raw: str) -> AskResponse:
+_CORE_RULE_LABELS = {
+    "aos": "WH Age of Sigmar Core Rules (4th ed.)",
+    "wh40k": "WH 40.000 Core Rules (10th ed.)",
+}
+
+_FACTION_SUFFIXES = {
+    "aos": "Battletome",
+    "wh40k": "Codex",
+}
+
+
+def _clean_answer_text(text: str) -> str:
+    return text.replace('\\"', '"')
+
+
+def _format_source(game: str, has_core_rules: bool, factions: list) -> str:
+    parts = []
+    if has_core_rules:
+        parts.append(_CORE_RULE_LABELS.get(game, "Core Rules"))
+    suffix = _FACTION_SUFFIXES.get(game, "Rulebook")
+    for faction in factions:
+        parts.append(f"{faction} {suffix}")
+    return " & ".join(parts)
+
+
+def _parse_answer(raw: str, game: str) -> AskResponse:
     raw = raw.strip()
     if raw.startswith("```"):
         raw = raw.split("\n", 1)[-1]
         raw = raw.rsplit("```", 1)[0]
     try:
         data = json.loads(raw)
+        source_raw = data.get("source", {})
+        if isinstance(source_raw, dict):
+            source_str = _format_source(
+                game,
+                bool(source_raw.get("has_core_rules", False)),
+                list(source_raw.get("factions", [])),
+            )
+        else:
+            source_str = str(source_raw)
         return AskResponse(
-            short_answer=data.get("short_answer", ""),
-            detailed_answer=data.get("detailed_answer", ""),
-            source=data.get("source", ""),
+            short_answer=_clean_answer_text(data.get("short_answer", "")),
+            detailed_answer=_clean_answer_text(data.get("detailed_answer", "")),
+            source=source_str,
         )
     except (json.JSONDecodeError, ValueError):
         return AskResponse(short_answer=raw, detailed_answer="", source="")
@@ -112,7 +146,7 @@ def ask(req: AskRequest) -> AskResponse:
         rules_sources=sources,
         heading_vocab=vocab,
     )
-    return _parse_answer(raw)
+    return _parse_answer(raw, req.game)
 
 
 if __name__ == "__main__":
