@@ -1,5 +1,6 @@
 <script setup lang="js">
 import { Head, Link, router, usePage } from '@inertiajs/vue3';
+import { ArrowLeft } from 'lucide-vue-next';
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 
 const rulesOverflowClass = 'overflow-y-hidden';
@@ -8,6 +9,7 @@ const inertiaPage = usePage();
 
 const game = ref('aos');
 const pdfPage = ref(1);
+const fromChat = ref(false);
 
 const pdfFiles = {
     aos: '/rulebooks/AOS_Core_Rules.pdf',
@@ -22,6 +24,7 @@ function parseUrl() {
     game.value = g === '40k' || g === 'wh40k' ? '40k' : 'aos';
     const p = parseInt(params.get('page') || '1', 10);
     pdfPage.value = Number.isFinite(p) && p > 0 ? p : 1;
+    fromChat.value = params.get('from') === 'chat';
 }
 
 watch(() => inertiaPage.url, parseUrl, { immediate: true });
@@ -37,11 +40,13 @@ const iframeKey = computed(() => `${game.value}-${pdfPage.value}`);
 
 function toggleGame() {
     const next = game.value === 'aos' ? '40k' : 'aos';
-    router.get(
-        '/rules',
-        { game: next, page: 1 },
-        { preserveState: true, replace: true },
-    );
+    const params = { game: next, page: 1 };
+
+    if (fromChat.value) {
+        params.from = 'chat';
+    }
+
+    router.get('/rules', params, { preserveState: true, replace: true });
 }
 
 onMounted(() => {
@@ -62,6 +67,14 @@ onBeforeUnmount(() => {
         <div class="space-y-6 py-10">
 
             <div class="mx-auto max-w-3xl px-4">
+                <div class="relative">
+                    <Link
+                        v-if="fromChat"
+                        href="/"
+                        class="absolute -left-10 top-6.5 flex h-8 w-8 items-center justify-center rounded-full text-foreground opacity-60 transition-opacity hover:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                    >
+                        <ArrowLeft class="h-5 w-5" />
+                    </Link>
                 <div class="space-y-5 rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6">
                     <div class="flex items-start justify-between gap-4">
                         <div class="min-w-0 flex-1">
@@ -105,6 +118,7 @@ onBeforeUnmount(() => {
                             :class="game === '40k' ? 'font-semibold text-foreground' : 'text-muted-foreground'"
                         >Warhammer 40.000</span>
                     </div>
+                </div>
                 </div>
             </div>
 

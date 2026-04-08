@@ -1,7 +1,7 @@
 <script setup lang="js">
 import { Head, Link } from '@inertiajs/vue3';
 import { ChevronDown } from 'lucide-vue-next';
-import { computed, nextTick, onMounted, ref, watch } from 'vue';
+import { computed, nextTick, onMounted, reactive, ref, watch } from 'vue';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { getTagsForGame, wrapRuleTagLinks } from '@/utils/ruleTagLinks';
@@ -58,7 +58,8 @@ const question = ref('');
 const game = ref('aos');
 const loading = ref(false);
 const error = ref('');
-const answer = ref(null);
+const answers = reactive({ aos: null, '40k': null });
+const answer = computed(() => answers[game.value]);
 
 const openShortAnswer = ref(true);
 const openDetailedAnswer = ref(true);
@@ -90,13 +91,21 @@ onMounted(async () => {
         game.value = draft.game;
     }
 
-    if (
+    if (draft.answers && typeof draft.answers === 'object') {
+        if (draft.answers.aos && typeof draft.answers.aos.short_answer === 'string') {
+            answers.aos = draft.answers.aos;
+        }
+
+        if (draft.answers['40k'] && typeof draft.answers['40k'].short_answer === 'string') {
+            answers['40k'] = draft.answers['40k'];
+        }
+    } else if (
         draft.answer &&
         typeof draft.answer === 'object' &&
         typeof draft.answer.short_answer === 'string' &&
         typeof draft.answer.detailed_answer === 'string'
     ) {
-        answer.value = draft.answer;
+        answers[draft.game === '40k' ? '40k' : 'aos'] = draft.answer;
     }
 
     if (typeof draft.openShortAnswer === 'boolean') {
@@ -116,7 +125,7 @@ onMounted(async () => {
 });
 
 watch(
-    [question, game, answer, openShortAnswer, openDetailedAnswer, openSource],
+    [question, game, answers, openShortAnswer, openDetailedAnswer, openSource],
     () => {
         if (skipDraftPersist || loading.value) {
             return;
@@ -124,7 +133,7 @@ watch(
 
         const q = question.value.trim();
 
-        if (!q && !answer.value) {
+        if (!q && !answers.aos && !answers['40k']) {
             clearChatDraft();
 
             return;
@@ -133,7 +142,7 @@ watch(
         writeChatDraft({
             question: question.value,
             game: game.value,
-            answer: answer.value,
+            answers: { aos: answers.aos, '40k': answers['40k'] },
             openShortAnswer: openShortAnswer.value,
             openDetailedAnswer: openDetailedAnswer.value,
             openSource: openSource.value,
@@ -304,7 +313,7 @@ watch(
 
 const ask = async () => {
     error.value = '';
-    answer.value = null;
+    answers[game.value] = null;
 
     const trimmed = question.value.trim();
 
@@ -316,6 +325,8 @@ const ask = async () => {
 
     loading.value = true;
 
+    const askedGame = game.value;
+
     try {
         const response = await fetch('/api/chat', {
             method: 'POST',
@@ -325,7 +336,7 @@ const ask = async () => {
             },
             body: JSON.stringify({
                 question: trimmed,
-                game: game.value,
+                game: askedGame,
             }),
         });
 
@@ -340,14 +351,14 @@ const ask = async () => {
         }
 
         if (data?.short_answer !== undefined) {
-            answer.value = data;
+            answers[askedGame] = data;
             openShortAnswer.value = true;
             openDetailedAnswer.value = true;
             openSource.value = true;
         } else if (data?.error) {
             error.value = data.error;
         } else {
-            answer.value = null;
+            answers[askedGame] = null;
             error.value = 'No answer returned.';
         }
     } catch (e) {

@@ -125,6 +125,7 @@ function rulesHref(gameKey, page) {
         query: {
             game: g,
             page,
+            from: 'chat',
         },
     });
 }
