@@ -448,13 +448,13 @@ const ask = async () => {
             <Moon v-else class="h-4 w-4" />
         </button>
 
-        <div class="relative z-10 mx-auto max-w-3xl space-y-6 px-4 py-10">
+        <div class="relative z-10 mx-auto max-w-3xl space-y-6 px-4 pt-16 pb-10 sm:py-10">
 
             <div class="space-y-5 rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6">
                 <div class="flex items-start justify-between gap-4">
                     <div class="min-w-0 flex-1">
-                        <h1 class="text-2xl font-bold tracking-tight">Warhammer Rule Assistant</h1>
-                        <p class="mt-1 text-sm text-muted-foreground">Ask any rule related question and get an answer based on the official rules.</p>
+                        <h1 class="text-lg sm:text-2xl font-bold tracking-tight">Warhammer Rule Assistant</h1>
+                        <p class="mt-1 text-xs sm:text-sm text-muted-foreground">Ask any rule related question and get an answer based on the official rules.</p>
                     </div>
                     <Link href="/rules" class="inline-flex shrink-0">
                         <img
@@ -484,7 +484,7 @@ const ask = async () => {
                         <span
                             class="text-sm transition-colors"
                             :class="game === 'aos' ? 'font-semibold text-foreground' : 'text-muted-foreground'"
-                        >Warhammer Age of Sigmar</span>
+                        ><span class="sm:hidden">AOS</span><span class="hidden sm:inline">Warhammer Age of Sigmar</span></span>
 
                         <button
                             type="button"
@@ -504,7 +504,7 @@ const ask = async () => {
                         <span
                             class="text-sm transition-colors"
                             :class="game === '40k' ? 'font-semibold text-foreground' : 'text-muted-foreground'"
-                        >Warhammer 40.000</span>
+                        ><span class="sm:hidden">40K</span><span class="hidden sm:inline">Warhammer 40.000</span></span>
                     </div>
 
                     <div class="flex items-center gap-2">
@@ -551,7 +551,7 @@ const ask = async () => {
                             </button>
                             <div v-show="openShortAnswer" class="border-t border-sidebar-border/70 bg-sidebar/10 px-4 py-4">
                                 <div class="flex items-start justify-between gap-3">
-                                    <p class="text-xl font-bold leading-snug">{{ answer.short_answer }}</p>
+                                    <p class="text-base sm:text-xl font-bold leading-snug">{{ answer.short_answer }}</p>
                                     <span class="group relative mt-1 shrink-0">
                                         <span
                                             class="block h-3 w-3 rounded-full"

@@ -1,8 +1,15 @@
 <script setup lang="js">
 import { Head, Link, router, usePage } from '@inertiajs/vue3';
 import GameBackground from '@/components/GameBackground.vue';
-import { ArrowLeft } from 'lucide-vue-next';
+import { ArrowLeft, Moon, Sun } from 'lucide-vue-next';
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue';
+import { useAppearance } from '@/composables/useAppearance';
+
+const { resolvedAppearance, updateAppearance } = useAppearance();
+
+const toggleTheme = () => {
+    updateAppearance(resolvedAppearance.value === 'dark' ? 'light' : 'dark');
+};
 
 const rulesOverflowClass = 'overflow-y-hidden';
 
@@ -66,7 +73,18 @@ onBeforeUnmount(() => {
 
     <div class="relative min-h-screen bg-background text-foreground">
         <GameBackground :game="game" />
-        <div class="relative z-10 space-y-6 py-10">
+
+        <button
+            type="button"
+            class="fixed top-4 right-4 z-50 flex h-9 w-9 items-center justify-center rounded-full border border-sidebar-border/70 bg-sidebar/80 text-foreground shadow-sm backdrop-blur-sm transition-colors hover:bg-sidebar"
+            :aria-label="resolvedAppearance === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'"
+            @click="toggleTheme"
+        >
+            <Sun v-if="resolvedAppearance === 'dark'" class="h-4 w-4" />
+            <Moon v-else class="h-4 w-4" />
+        </button>
+
+        <div class="relative z-10 space-y-6 pt-16 pb-10 sm:py-10">
 
             <div class="mx-auto max-w-3xl px-4">
                 <div class="relative">
@@ -80,8 +98,8 @@ onBeforeUnmount(() => {
                 <div class="space-y-5 rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6">
                     <div class="flex items-start justify-between gap-4">
                         <div class="min-w-0 flex-1">
-                            <h1 class="text-2xl font-bold tracking-tight">Warhammer Core Rules</h1>
-                            <p class="mt-1 text-sm text-muted-foreground">Browse the official core rulebooks for Age of Sigmar and 40.000.</p>
+                            <h1 class="text-lg sm:text-2xl font-bold tracking-tight">Warhammer Core Rules</h1>
+                            <p class="mt-1 text-xs sm:text-sm text-muted-foreground">Browse the official core rulebooks for Age of Sigmar and 40.000.</p>
                         </div>
                         <Link href="/" class="inline-flex shrink-0">
                             <img
@@ -99,7 +117,7 @@ onBeforeUnmount(() => {
                         <span
                             class="text-sm transition-colors"
                             :class="game === 'aos' ? 'font-semibold text-foreground' : 'text-muted-foreground'"
-                        >Warhammer Age of Sigmar</span>
+                        ><span class="sm:hidden">AOS</span><span class="hidden sm:inline">Warhammer Age of Sigmar</span></span>
 
                         <button
                             type="button"
@@ -118,7 +136,7 @@ onBeforeUnmount(() => {
                         <span
                             class="text-sm transition-colors"
                             :class="game === '40k' ? 'font-semibold text-foreground' : 'text-muted-foreground'"
-                        >Warhammer 40.000</span>
+                        ><span class="sm:hidden">40K</span><span class="hidden sm:inline">Warhammer 40.000</span></span>
                     </div>
                 </div>
                 </div>
