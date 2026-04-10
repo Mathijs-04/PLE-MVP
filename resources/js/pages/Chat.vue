@@ -63,8 +63,8 @@ const questions = reactive({ aos: null, '40k': null });
 const answer = computed(() => answers[game.value]);
 
 const openShortAnswer = ref(true);
-const openDetailedAnswer = ref(true);
-const openSource = ref(true);
+const openDetailedAnswer = ref(false);
+const openSource = ref(false);
 
 onMounted(async () => {
     document.documentElement.classList.remove('overflow-y-hidden');
@@ -393,8 +393,8 @@ const ask = async () => {
             answers[askedGame] = data;
             questions[askedGame] = trimmed;
             openShortAnswer.value = true;
-            openDetailedAnswer.value = true;
-            openSource.value = true;
+            openDetailedAnswer.value = false;
+            openSource.value = false;
         } else if (data?.error) {
             error.value = data.error;
         } else {
