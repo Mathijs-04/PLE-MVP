@@ -51,6 +51,11 @@ or context. If the question is not related to the rules, say so.
 
 Guidelines:
 - If the rules text clearly answers the question, quote or closely paraphrase the relevant passages.
+- When a specific rule or sentence from the provided context directly answers or is central to the
+  question, include the literal rule text as a quote using markdown italics: *quoted rule text here*.
+  Do NOT wrap quotes in double-quote characters — use only the italic markdown syntax.
+  Only quote a rule when it is directly relevant to the answer; do not quote every rule or keyword
+  you mention. Keep the overall answer concise.
 - If the answer depends on definitions, sequences, or edge cases, walk through them step by step.
 - If the context does NOT contain enough information to answer with confidence, say you are unsure
   and clearly state what is missing rather than inventing rules.
@@ -78,7 +83,7 @@ Always respond with a valid JSON object in exactly this format, and nothing else
 
 {
   "short_answer": "<one-line answer>",
-  "detailed_answer": "<longer explanation with relevant conditions, edge cases, and quotations>",
+  "detailed_answer": "<longer explanation with relevant conditions, edge cases, and literal rule quotes in *italics* where directly relevant>",
   "source": {
     "has_core_rules": <true if the answer draws on any core/universal rules, false otherwise>,
     "factions": ["<faction name as it appears in the rules, e.g. Skaven, Space Marines>"]
