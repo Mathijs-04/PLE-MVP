@@ -1,11 +1,20 @@
 <script setup lang="js">
 import { Head, Link } from '@inertiajs/vue3';
-import { ChevronDown } from 'lucide-vue-next';
+import { ChevronDown, Moon, Sun } from 'lucide-vue-next';
 import { computed, nextTick, onMounted, reactive, ref, watch } from 'vue';
 import GameBackground from '@/components/GameBackground.vue';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { useAppearance } from '@/composables/useAppearance';
 import { getTagsForGame, wrapRuleTagLinks } from '@/utils/ruleTagLinks';
+
+const { resolvedAppearance, updateAppearance } = useAppearance();
+
+const toggleTheme = () => {
+    updateAppearance(resolvedAppearance.value === 'dark' ? 'light' : 'dark');
+};
+
+const warhammerLogo = computed(() => resolvedAppearance.value === 'light' ? '/Warhammer-Light.png' : '/Warhammer.png');
 
 const CHAT_DRAFT_KEY = 'warhammer_chat_draft_v1';
 
@@ -428,6 +437,17 @@ const ask = async () => {
 
     <div class="relative min-h-screen bg-background text-foreground">
         <GameBackground :game="game" />
+
+        <button
+            type="button"
+            class="fixed top-4 right-4 z-50 flex h-9 w-9 items-center justify-center rounded-full border border-sidebar-border/70 bg-sidebar/80 text-foreground shadow-sm backdrop-blur-sm transition-colors hover:bg-sidebar"
+            :aria-label="resolvedAppearance === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'"
+            @click="toggleTheme"
+        >
+            <Sun v-if="resolvedAppearance === 'dark'" class="h-4 w-4" />
+            <Moon v-else class="h-4 w-4" />
+        </button>
+
         <div class="relative z-10 mx-auto max-w-3xl space-y-6 px-4 py-10">
 
             <div class="space-y-5 rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6">
@@ -438,7 +458,7 @@ const ask = async () => {
                     </div>
                     <Link href="/rules" class="inline-flex shrink-0">
                         <img
-                            src="/Warhammer.png"
+                            :src="warhammerLogo"
                             alt="Warhammer"
                             class="h-14 w-14 shrink-0 object-contain sm:h-16 sm:w-16"
                             width="64"

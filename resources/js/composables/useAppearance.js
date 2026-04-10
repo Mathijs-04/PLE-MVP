@@ -66,20 +66,17 @@ export function initializeTheme() {
     }
 
     const savedAppearance = getStoredAppearance();
-    updateTheme(savedAppearance || 'system');
+    updateTheme(savedAppearance || 'dark');
 
     mediaQuery()?.addEventListener('change', handleSystemThemeChange);
 }
 
-const appearance = ref('system');
+const appearance = ref('dark');
 
 export function useAppearance() {
     onMounted(() => {
         const savedAppearance = localStorage.getItem('appearance');
-
-        if (savedAppearance) {
-            appearance.value = savedAppearance;
-        }
+        appearance.value = savedAppearance || 'dark';
     });
 
     const resolvedAppearance = computed(() => {

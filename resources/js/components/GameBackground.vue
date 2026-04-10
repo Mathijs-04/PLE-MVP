@@ -1,4 +1,5 @@
 <script setup lang="js">
+import { useAppearance } from '@/composables/useAppearance';
 import { computed } from 'vue';
 
 const props = defineProps({
@@ -8,10 +9,16 @@ const props = defineProps({
     },
 });
 
-const backgroundImage = computed(() => {
-    const path = props.game === '40k' ? '/40K-Background.png' : '/AOS-Background.png';
+const { resolvedAppearance } = useAppearance();
 
-    return `url('${path}')`;
+const backgroundImage = computed(() => {
+    const isLight = resolvedAppearance.value === 'light';
+
+    if (props.game === '40k') {
+        return `url('${isLight ? '/40K-Background-Light.png' : '/40K-Background.png'}')`;
+    }
+
+    return `url('${isLight ? '/AOS-Background-Light.png' : '/AOS-Background.png'}')`;
 });
 </script>
 
