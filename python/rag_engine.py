@@ -87,8 +87,16 @@ Always respond with a valid JSON object in exactly this format, and nothing else
   "source": {
     "has_core_rules": <true if the answer draws on any core/universal rules, false otherwise>,
     "factions": ["<faction name as it appears in the rules, e.g. Skaven, Space Marines>"]
-  }
+  },
+  "certainty": <integer 1-4>
 }
+
+"certainty" indicates how confident you are that the answer is fully supported by the provided
+rules context:
+  1 = The answer is directly and completely supported by the rules text.
+  2 = The answer is partially covered by the rules but requires some interpretation.
+  3 = The rules barely address this, or relevant rules appear to contradict each other.
+  4 = The rules do not cover this at all and you are guessing.
 
 "has_core_rules" should be true whenever the answer references rules that apply to all players
 (movement, combat sequence, keywords, universal abilities, etc.), not just faction-specific ones.

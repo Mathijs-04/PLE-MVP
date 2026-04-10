@@ -74,6 +74,7 @@ class AskResponse(BaseModel):
     short_answer: str
     detailed_answer: str
     source: str
+    certainty: int = 4
 
 
 _CORE_RULE_LABELS = {
@@ -117,10 +118,16 @@ def _parse_answer(raw: str, game: str) -> AskResponse:
             )
         else:
             source_str = str(source_raw)
+        certainty_raw = data.get("certainty", 4)
+        try:
+            certainty = max(1, min(4, int(certainty_raw)))
+        except (TypeError, ValueError):
+            certainty = 4
         return AskResponse(
             short_answer=_clean_answer_text(data.get("short_answer", "")),
             detailed_answer=_clean_answer_text(data.get("detailed_answer", "")),
             source=source_str,
+            certainty=certainty,
         )
     except (json.JSONDecodeError, ValueError):
         return AskResponse(short_answer=raw, detailed_answer="", source="")

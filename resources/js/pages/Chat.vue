@@ -323,6 +323,19 @@ watch(
     { immediate: true },
 );
 
+const certaintyConfig = {
+    1: { color: 'bg-green-500', label: 'High confidence — Answer is directly supported by the rules.' },
+    2: { color: 'bg-yellow-400', label: 'Moderate confidence — Answer is partially in the rules and requires some interpretation.' },
+    3: { color: 'bg-orange-500', label: 'Low confidence — The rules barely cover this, or may contradict.' },
+    4: { color: 'bg-red-500', label: 'Very low confidence — The rules do not cover this, treat with caution.' },
+};
+
+const certaintyLevel = computed(() => {
+    const raw = answer.value?.certainty;
+    if (raw >= 1 && raw <= 4) return raw;
+    return 4;
+});
+
 const formatSource = (source) => {
     if (!source) return '';
 
@@ -505,7 +518,7 @@ const ask = async () => {
                 <template v-else-if="answer">
                     <div class="space-y-3">
 
-                        <div class="overflow-hidden rounded-lg border border-sidebar-border/70">
+                        <div class="relative z-20 rounded-lg border border-sidebar-border/70">
                             <button
                                 type="button"
                                 class="flex w-full items-center justify-between px-4 py-3 text-left hover:bg-sidebar/10 transition-colors"
@@ -515,7 +528,18 @@ const ask = async () => {
                                 <ChevronDown class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" :class="openShortAnswer ? 'rotate-180' : ''" />
                             </button>
                             <div v-show="openShortAnswer" class="border-t border-sidebar-border/70 bg-sidebar/10 px-4 py-4">
-                                <p class="text-xl font-bold leading-snug">{{ answer.short_answer }}</p>
+                                <div class="flex items-start justify-between gap-3">
+                                    <p class="text-xl font-bold leading-snug">{{ answer.short_answer }}</p>
+                                    <span class="group relative mt-1 shrink-0">
+                                        <span
+                                            class="block h-3 w-3 rounded-full"
+                                            :class="certaintyConfig[certaintyLevel].color"
+                                        />
+                                        <span class="pointer-events-none absolute bottom-full right-0 z-50 mb-2 w-56 rounded-lg bg-popover px-3 py-2 text-xs leading-snug text-popover-foreground shadow-lg ring-1 ring-sidebar-border/70 opacity-0 transition-opacity group-hover:opacity-100">
+                                            {{ certaintyConfig[certaintyLevel].label }}
+                                        </span>
+                                    </span>
+                                </div>
                             </div>
                         </div>
 
