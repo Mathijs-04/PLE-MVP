@@ -373,7 +373,9 @@ _GAME_PROPERTY_WORDS = {
     "save", "wound", "wounds", "health",
     "attack", "attacks", "move", "movement",
     "control", "toughness", "keyword", "keywords",
-    "ability", "abilities", "stat", "stats",
+    "ability", "abilities", "trait", "traits", "passive", "passives",
+    "definition", "defenition", "text", "effect",
+    "stat", "stats",
     "profile", "warscroll", "datasheet", "rule", "rules",
 }
 
@@ -408,6 +410,27 @@ def extract_candidate_phrases(question: str) -> List[str]:
 
     # Anything the user explicitly quotes (ability / unit names).
     for m in re.finditer(r'["\u201c\u2018]([^"\u201d\u2019]{3,80})["\u201d\u2019]', question):
+        phrases.append(m.group(1).strip())
+
+    # "definition/effect/text of <name> trait|ability|rule|keyword|passive".
+    # This captures lower-case multi-word names such as "short tempered trait".
+    # Supports common misspelling "defenition".
+    for m in re.finditer(
+        r"\b(?:definition|defenition|meaning|effect|text)\s+of\s+(?:the\s+)?"
+        r"([A-Za-z][A-Za-z'\-]+(?:\s+[A-Za-z][A-Za-z'\-]+){0,5})\s+"
+        r"(?:trait|ability|rule|keyword|passive|passive trait|special rule)\b",
+        question,
+        re.IGNORECASE,
+    ):
+        phrases.append(m.group(1).strip())
+
+    # "what does <name> trait|ability|rule|keyword|passive do".
+    for m in re.finditer(
+        r"\bwhat\s+does\s+([A-Za-z][A-Za-z'\-]+(?:\s+[A-Za-z][A-Za-z'\-]+){0,5})\s+"
+        r"(?:trait|ability|rule|keyword|passive)\s+do\b",
+        question,
+        re.IGNORECASE,
+    ):
         phrases.append(m.group(1).strip())
 
     # Points queries: capture the noun after "unit <name>" or "points for/is <name>".
