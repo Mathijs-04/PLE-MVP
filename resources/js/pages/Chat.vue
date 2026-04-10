@@ -2,6 +2,7 @@
 import { Head, Link } from '@inertiajs/vue3';
 import { ChevronDown } from 'lucide-vue-next';
 import { computed, nextTick, onMounted, reactive, ref, watch } from 'vue';
+import GameBackground from '@/components/GameBackground.vue';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { getTagsForGame, wrapRuleTagLinks } from '@/utils/ruleTagLinks';
@@ -425,8 +426,9 @@ const ask = async () => {
 <template>
     <Head title="Warhammer Rule Assistant" />
 
-    <div class="min-h-screen bg-background text-foreground">
-        <div class="mx-auto max-w-3xl space-y-6 px-4 py-10">
+    <div class="relative min-h-screen bg-background text-foreground">
+        <GameBackground :game="game" />
+        <div class="relative z-10 mx-auto max-w-3xl space-y-6 px-4 py-10">
 
             <div class="space-y-5 rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6">
                 <div class="flex items-start justify-between gap-4">

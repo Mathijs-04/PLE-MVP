@@ -1,5 +1,6 @@
 <script setup lang="js">
 import { Head, Link, router, usePage } from '@inertiajs/vue3';
+import GameBackground from '@/components/GameBackground.vue';
 import { ArrowLeft } from 'lucide-vue-next';
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 
@@ -63,8 +64,9 @@ onBeforeUnmount(() => {
 <template>
     <Head title="Core Rules" />
 
-    <div class="min-h-screen bg-background text-foreground">
-        <div class="space-y-6 py-10">
+    <div class="relative min-h-screen bg-background text-foreground">
+        <GameBackground :game="game" />
+        <div class="relative z-10 space-y-6 py-10">
 
             <div class="mx-auto max-w-3xl px-4">
                 <div class="relative">
