@@ -1,6 +1,5 @@
 import fortyKTags from '../../../data/datafiles-Tags/40K-Tags.json';
 import aosTags from '../../../data/datafiles-Tags/AOS-Tags.json';
-import { rules } from '@/routes';
 
 const _patternCache = new Map();
 
@@ -120,14 +119,13 @@ export function findMatchesInText(text, patternEntries, usedConcepts) {
 
 function rulesHref(gameKey, page) {
     const g = gameKey === '40k' || gameKey === 'wh40k' ? '40k' : 'aos';
-
-    return rules.url({
-        query: {
-            game: g,
-            page,
-            from: 'chat',
-        },
+    const params = new URLSearchParams({
+        game: g,
+        page: String(page),
+        from: 'chat',
     });
+
+    return `/rules?${params.toString()}`;
 }
 
 function walkAndWrap(node, patternEntries, gameKey, usedConcepts) {

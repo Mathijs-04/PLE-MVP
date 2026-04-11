@@ -238,7 +238,7 @@ const renderMarkdown = (markdown) => {
             const level = headingMatch[1].length;
             const content = renderInline(headingMatch[2].trim());
             const sizeClass = level === 1 ? 'text-xl' : level === 2 ? 'text-lg' : 'text-base';
-            parts.push(`<h${level} class="mt-5 mb-2 ${sizeClass} font-bold tracking-tight">${content}</h${level}>`);
+            parts.push(`<h${level} class="font-title mt-5 mb-2 ${sizeClass} font-bold tracking-[0.03em]">${content}</h${level}>`);
             i++;
             continue;
         }
@@ -429,6 +429,8 @@ const ask = async () => {
     } finally {
         loading.value = false;
     }
+
+    await nextTick();
 };
 </script>
 
@@ -453,7 +455,7 @@ const ask = async () => {
             <div class="space-y-5 rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6">
                 <div class="flex items-start justify-between gap-4">
                     <div class="min-w-0 flex-1">
-                        <h1 class="text-lg sm:text-2xl font-bold tracking-tight">Warhammer Rule Assistant</h1>
+                        <h1 class="font-title text-lg sm:text-2xl font-bold tracking-[0.03em]">Warhammer Rule Assistant</h1>
                         <p class="mt-1 text-xs sm:text-sm text-muted-foreground">Ask any rule related question and get an answer based on the official rules.</p>
                     </div>
                     <Link href="/rules" class="inline-flex shrink-0">
@@ -527,16 +529,6 @@ const ask = async () => {
                     </div>
                 </template>
 
-                <template v-else-if="loading">
-                    <div class="flex flex-col items-center justify-center gap-3 py-12 text-muted-foreground">
-                        <svg class="h-8 w-8 animate-spin text-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
-                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
-                        </svg>
-                        <span class="text-sm">Searching the rules…</span>
-                    </div>
-                </template>
-
                 <template v-else-if="answer">
                     <div class="space-y-3">
 
@@ -546,7 +538,7 @@ const ask = async () => {
                                 class="flex w-full items-center justify-between px-4 py-3 text-left hover:bg-sidebar/10 transition-colors"
                                 @click="openShortAnswer = !openShortAnswer"
                             >
-                                <span class="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Short Answer</span>
+                                <span class="font-title text-xs font-semibold uppercase tracking-widest text-muted-foreground">Short Answer</span>
                                 <ChevronDown class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" :class="openShortAnswer ? 'rotate-180' : ''" />
                             </button>
                             <div v-show="openShortAnswer" class="border-t border-sidebar-border/70 bg-sidebar/10 px-4 py-4">
@@ -571,7 +563,7 @@ const ask = async () => {
                                 class="flex w-full items-center justify-between px-4 py-3 text-left hover:bg-sidebar/10 transition-colors"
                                 @click="openDetailedAnswer = !openDetailedAnswer"
                             >
-                                <span class="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Detailed Answer</span>
+                                <span class="font-title text-xs font-semibold uppercase tracking-widest text-muted-foreground">Detailed Answer</span>
                                 <ChevronDown class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" :class="openDetailedAnswer ? 'rotate-180' : ''" />
                             </button>
                             <div v-show="openDetailedAnswer" class="border-t border-sidebar-border/70 px-4 py-4 text-sm leading-relaxed">
@@ -585,7 +577,7 @@ const ask = async () => {
                                 class="flex w-full items-center justify-between px-4 py-3 text-left hover:bg-sidebar/10 transition-colors"
                                 @click="openSource = !openSource"
                             >
-                                <span class="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Source</span>
+                                <span class="font-title text-xs font-semibold uppercase tracking-widest text-muted-foreground">Source</span>
                                 <ChevronDown class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" :class="openSource ? 'rotate-180' : ''" />
                             </button>
                             <div v-show="openSource" class="border-t border-sidebar-border/70 bg-sidebar/10 px-4 py-4">
@@ -593,6 +585,16 @@ const ask = async () => {
                             </div>
                         </div>
 
+                    </div>
+                </template>
+
+                <template v-else-if="loading">
+                    <div class="flex flex-col items-center justify-center gap-3 py-12 text-muted-foreground">
+                        <svg class="h-8 w-8 animate-spin text-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
+                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                        </svg>
+                        <span class="text-sm">Searching the rules…</span>
                     </div>
                 </template>
 

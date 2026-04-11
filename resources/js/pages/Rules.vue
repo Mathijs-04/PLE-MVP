@@ -98,7 +98,7 @@ onBeforeUnmount(() => {
                 <div class="space-y-5 rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6">
                     <div class="flex items-start justify-between gap-4">
                         <div class="min-w-0 flex-1">
-                            <h1 class="text-lg sm:text-2xl font-bold tracking-tight">Warhammer Core Rules</h1>
+                            <h1 class="font-title text-lg sm:text-2xl font-bold tracking-[0.03em]">Warhammer Core Rules</h1>
                             <p class="mt-1 text-xs sm:text-sm text-muted-foreground">Browse the official core rulebooks for Age of Sigmar and 40.000.</p>
                         </div>
                         <Link href="/" class="inline-flex shrink-0">
