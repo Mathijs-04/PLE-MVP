@@ -1551,3 +1551,89 @@ Designer’s Note: *Place a Ratling Battlemutt token next to the unit, removing 
 - **Suppression Bombardment:** In your Shooting phase, after this model has shot, select one enemy unit (excluding Monsters and Vehicles) that was hit by one or more attacks made with this model’s Wyvern quad stormshard mortar. Unit the start of your next Shooting phase, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Cyclops Demolition Vehicle | 25 |
+| Commissar | 30 |
+| Ministorum Priest | 35 |
+| Ogryn Bodyguard | 40 |
+| Tech-Priest Enginseer | 45 |
+| Cadian Castellan | 55 |
+| Front-line Commander [Crucible] | 55 |
+| Sly Marbo | 55 |
+| Attilan Rough Riders | 60 |
+| Augmented Bone 'Ead [Crucible] | 60 |
+| Death Riders | 60 |
+| Krieg Combat Engineers | 60 |
+| Nork Deddog | 60 |
+| Ogryn Squad | 60 |
+| Primaris Psyker | 60 |
+| Ratlings | 60 |
+| Cadian Command Squad | 65 |
+| Cadian Heavy Weapons Squad | 65 |
+| Cadian Shock Troops | 65 |
+| Catachan Command Squad | 65 |
+| Catachan Heavy Weapons Squad | 65 |
+| Catachan Jungle Fighters | 65 |
+| Death Korps of Krieg | 65 |
+| Krieg Command Squad | 65 |
+| Tempestus Scions | 70 |
+| Krieg Heavy Weapons Squad | 75 |
+| Sentinel Commander [Crucible] | 75 |
+| Taurox | 75 |
+| Chimera | 85 |
+| Militarum Tempestus Command Squad | 85 |
+| Ursula Creed | 85 |
+| Taurox Prime | 90 |
+| Artillery Team | 95 |
+| Hydra | 95 |
+| Bullgryn Squad | 100 |
+| Gaunt’s Ghosts | 100 |
+| Lord Marshal Dreir | 100 |
+| Tempestus Aquilons | 100 |
+| Field Ordnance Battery | 110 |
+| Kasrkin | 110 |
+| Wyvern | 110 |
+| Hellhound | 125 |
+| Avenger Strike Fighter | 130 |
+| Lord Solar Leontus | 130 |
+| Armiger Helverin | 135 |
+| Armiger Warglaive | 140 |
+| Basilisk | 140 |
+| Aegis Defence Line | 145 |
+| Deathstrike | 145 |
+| Armiger Moirax | 150 |
+| Manticore | 165 |
+| Valkyrie | 190 |
+| Leman Russ Commander | 235 |
+| Rogal Dorn Battle Tank | 260 |
+| Rogal Dorn Commander | 290 |
+| Knight Errant | 355 |
+| Knight Gallant | 355 |
+| Knight Preceptor | 365 |
+| Knight Paladin | 375 |
+| Knight Warden | 375 |
+| Knight Crusader | 385 |
+| Questoris Knight Magaera | 385 |
+| Questoris Knight Styrix | 385 |
+| Cerastus Knight Acheron | 395 |
+| Cerastus Knight Castigator | 395 |
+| Cerastus Knight Lancer | 395 |
+| Cerastus Knight Atrapos | 405 |
+| Knight Castellan | 410 |
+| Knight Valiant | 410 |
+| Shadowsword | 410 |
+| Canis Rex | 415 |
+| Doomhammer | 415 |
+| Knight Defender | 415 |
+| Banehammer | 420 |
+| Hellhammer | 420 |
+| Stormlord | 430 |
+| Baneblade | 450 |
+| Banesword | 450 |
+| Stormsword | 465 |
+| Acastus Knight Porphyrion | 700 |
+| Acastus Knight Asterius | 765 |

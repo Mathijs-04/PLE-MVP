@@ -988,3 +988,36 @@ Designer's Note: *This artefact of power is given to the* Hero *during the deplo
 - **Effect:** Roll a dice. On a 4+:
 • If the target has an artefact of power, it no longer has that artefact of power.
 • The target has Strike-last for the rest of the turn.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Vanari Lord Regent | 110 |
+| Vanari Auralan Wardens | 120 |
+| Vanari Starshard Ballista | 120 |
+| Alarith Stoneguard | 130 |
+| Alarith Stonemage | 130 |
+| Myari's Purifiers | 130 |
+| Scinari Calligrave | 130 |
+| Scinari Cathallar | 130 |
+| Hurakan Windmage | 140 |
+| Scinari Loreseeker | 140 |
+| Vanari Auralan Sentinels | 140 |
+| Vanari Bannerblade | 140 |
+| Vanari Bannerblade (Scourge of Ghyran) | 140 |
+| Ydrilan Riverblades | 140 |
+| Vanari Bladelords | 150 |
+| Vanari Lord Regent on Lightcourser | 150 |
+| Hurakan Windchargers | 160 |
+| Scinari Enlightener | 180 |
+| Vanari Dawnriders | 180 |
+| Lyrior Uthralle, Warden of Ymetrica | 250 |
+| Hurakan Spirit of the Wind | 270 |
+| Ellania and Ellathor, Eclipsian Warsages | 290 |
+| The Light of Eltharion | 290 |
+| The Light of Eltharion (Scourge of Ghyran) | 290 |
+| Alarith Spirit of the Mountain | 340 |
+| Sevireth, Lord of the Seventh Wind | 340 |
+| Avalenor, the Stoneheart King | 420 |
+| Archmage Teclis and Celennar, Spirit of Hysh | 640 |

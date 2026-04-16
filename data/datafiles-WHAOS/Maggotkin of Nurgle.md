@@ -1196,3 +1196,45 @@ If there are no friendly Feculent Gnarlmaws on the battlefield, you can set up a
 
 ##### Foetid Orchardist (Passive)
 - **Effect:** Add 1 to hit rolls for this unit's combat attacks while it is wholly within 7" of any friendly Feculent Gnarlmaws.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Spoilpox Scrivener, Herald of Nurgle | 80 |
+| Poxbringer, Herald of Nurgle | 90 |
+| Lord of Plagues | 100 |
+| Nurglings | 100 |
+| Pox-Wretches | 100 |
+| Rotbringer Sorcerer | 100 |
+| Sloppity Bilepiper, Herald of Nurgle | 100 |
+| Grandfather's Gardeners | 110 |
+| Pusgoyle Blightlords | 110 |
+| Shaman Foulhoof | 110 |
+| Beast of Nurgle | 120 |
+| Belga the Cystwitch | 120 |
+| Gutrot Spume | 120 |
+| Rotmire Creed | 120 |
+| Epidemius, Tallyman of Nurgle | 130 |
+| Pestigors | 130 |
+| Plaguebearers | 130 |
+| Putrid Blightkings | 130 |
+| Harbinger of Decay | 140 |
+| Horticulous Slimux | 140 |
+| Lord of Blights | 140 |
+| Plague Drones | 150 |
+| The Wurmspat | 160 |
+| Lord of Afflictions | 170 |
+| Sloven Knights | 180 |
+| Cankerborn | 200 |
+| Rotswords | 200 |
+| Gelgus Pust, the Prince of Sores | 220 |
+| Morbidex Twiceborn | 260 |
+| Bloab Rotspawned | 270 |
+| Orghotts Daemonspew | 270 |
+| Festus the Leechlord | 320 |
+| Festus the Leechlord | 320 |
+| Rotigus | 410 |
+| Rotigus (Scourge of Ghyran) | 410 |
+| Great Unclean One | 430 |
+| The Glottkin | 470 |

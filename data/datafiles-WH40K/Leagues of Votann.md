@@ -539,3 +539,32 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
 - **Grim Efficiency:** Once per battle round, when a friendly Leagues of Votann unit within 12" of this model is targeted with a Stratagem, this model can use this ability. If it does, reduce the CP cost of that Stratagem by 1CP.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Memnyr Strategist | 45 |
+| Arkanyst Evaluator | 65 |
+| Grimnyr | 65 |
+| Kinhost Commander [Crucible] | 65 |
+| Kâhl | 65 |
+| Einhyr Champion | 70 |
+| Living Ancestor [Crucible] | 70 |
+| Brôkhyr Iron-master | 75 |
+| Kapricus Carrier | 75 |
+| Brôkhyr Thunderkyn | 80 |
+| Hernkyn Pioneers | 80 |
+| Steeljack Elder [Crucible] | 80 |
+| Ironkin Steeljacks with Heavy Volkanite Disintegrators | 85 |
+| Ironkin Steeljacks with Melee Weapons | 85 |
+| Hernkyn Yaegirs | 90 |
+| Sagitaur | 90 |
+| Buri Aegnirssen | 95 |
+| Ûthar the Destined | 95 |
+| Cthonian Beserks | 100 |
+| Hearthkyn Warriors | 100 |
+| Berehk Stornbröw | 110 |
+| Cthonian Earthshakers | 110 |
+| Einhyr Hearthguard | 135 |
+| Hekaton Land Fortress | 240 |

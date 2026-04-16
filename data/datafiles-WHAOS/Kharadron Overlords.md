@@ -867,3 +867,30 @@ The target(s) cannot use Charge abilities for the rest of the turn.
 
 ##### Flanking Fire (Passive)
 - **Effect:** Add 1 to hit rolls for shooting attacks made by friendly Magnate's Crew Skyvessels that target an enemy unit in combat with this unit.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Zontari Endrin Dock | 20 |
+| Arkanaut Company | 90 |
+| Codewright | 90 |
+| Codewright (Scourge of Ghyran) | 90 |
+| Endrinriggers | 110 |
+| Aether-Khemist | 120 |
+| Vongrim Harpoon Crew | 120 |
+| Vongrim Salvagers | 120 |
+| Aetheric Navigator | 130 |
+| Drekki Flynt | 130 |
+| Null-Khemist | 130 |
+| Skywardens | 130 |
+| Arkanaut Admiral | 140 |
+| Grundstok Thunderers | 140 |
+| Endrinmaster with Endrinharness | 150 |
+| Thundrik's Profiteers | 150 |
+| Endrinmaster with Dirigible Suit | 160 |
+| Grundstok Gunhauler | 160 |
+| Grundstok Gunhauler (Scourge of Ghyran) | 160 |
+| Brokk Grungsson, Lord-Magnate of Barak-Nar | 260 |
+| Arkanaut Frigate | 300 |
+| Arkanaut Ironclad | 460 |

@@ -1058,3 +1058,60 @@ in its place, with all of its wounds remaining (if the selected model was leadi
 - **Targeting Relay:** In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Canoptek Scarab Swarms | 40 |
+| Lokhust Destroyers | 40 |
+| Canoptek Tomb Crawlers | 50 |
+| Royal Warden | 50 |
+| Plasmancer | 55 |
+| Psychomancer | 55 |
+| Cryptothralls | 60 |
+| Deathmarks | 60 |
+| Flayed Ones | 60 |
+| Chronomancer | 65 |
+| Immortals | 70 |
+| Canoptek Reanimator | 75 |
+| Geomancer | 75 |
+| Hexmark Destroyer | 75 |
+| Tomb Blades | 75 |
+| Trazyn the Infinite | 75 |
+| Lokhust Lord | 80 |
+| Ophydian Destroyers | 80 |
+| Orikan the Diviner | 80 |
+| Technomancer | 80 |
+| Canoptek Macrocytes | 85 |
+| Dynastic Conqueror [Crucible] | 85 |
+| Hyperscientist [Crucible] | 85 |
+| Lychguard | 85 |
+| Overlord | 85 |
+| Overlord with Translocation Shroud | 85 |
+| Necron Warriors | 90 |
+| Skorpekh Destroyers | 90 |
+| Skorpekh Lord | 90 |
+| Triarch Praetorians | 90 |
+| Imotekh the Stormlord | 100 |
+| Annihilation Barge | 105 |
+| Canoptek Wraiths | 110 |
+| Triarch Stalker | 110 |
+| Ghost Ark | 115 |
+| Catacomb Command Barge | 120 |
+| Triarchal Overseer [Crucible] | 120 |
+| Canoptek Doomstalker | 140 |
+| Night Scythe | 145 |
+| Illuminor Szeras | 165 |
+| Nekrosor Ammentar | 185 |
+| Doomsday Ark | 200 |
+| Doom Scythe | 230 |
+| C'tan Shard of the Deceiver | 295 |
+| Obelisk | 300 |
+| Transcendent C'tan | 315 |
+| C'tan Shard of the Void Dragon | 320 |
+| C'tan Shard of the Nightbringer | 325 |
+| Monolith | 400 |
+| The Silent King | 400 |
+| Tesseract Vault | 425 |
+| Seraptek Heavy Construct | 540 |

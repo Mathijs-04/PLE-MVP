@@ -1235,3 +1235,70 @@ Wound roll.
 - **Striding Colossus:** Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Tzaangor Enlightened | 45 |
+| Tzaangor Enlightened with Fatecaster greatbows | 55 |
+| Brayherd Chieftain [Crucible] | 60 |
+| Brayherd Shaman [Crucible] | 60 |
+| Tzaangor Shaman | 60 |
+| Chaos Spawn | 65 |
+| Chaos Spawn (Flesh Change) | 65 |
+| Flamers | 65 |
+| Tzaangors | 70 |
+| Exalted Sorcerer | 80 |
+| Screamers | 80 |
+| Sekhetar Robots | 80 |
+| Sorcerer | 80 |
+| Sorcerer in Terminator Armour | 85 |
+| Blue Horrors | 90 |
+| Chaos Rhino | 90 |
+| Infernal Master | 95 |
+| Ahriman | 100 |
+| Exalted Sorcerer on Disc of Tzeentch | 100 |
+| Rubric Marines | 100 |
+| Magister [Crucible] | 105 |
+| Helbrute | 110 |
+| Pink Horrors | 115 |
+| Maulerfiend | 120 |
+| Chaos Predator Annihilator | 130 |
+| Chaos Predator Destructor | 130 |
+| Forgefiend | 130 |
+| War Dog Executioner | 130 |
+| War Dog Brigand | 140 |
+| War Dog Huntsman | 140 |
+| War Dog Stalker | 140 |
+| War Dog Karnivore | 150 |
+| War Dog Moirax | 150 |
+| Defiler | 165 |
+| Daemon Prince of Tzeentch with wings | 170 |
+| Mutalith Vortex Beast | 170 |
+| Daemon Prince of Tzeentch | 180 |
+| Scarab Occult Terminators | 180 |
+| Chaos Vindicator | 185 |
+| Heldrake | 215 |
+| Chaos Land Raider | 220 |
+| Lord of Change | 285 |
+| Kairos Fateweaver | 295 |
+| Knight Abominant | 355 |
+| Knight Desecrator | 355 |
+| Knight Ruinator | 355 |
+| Knight Rampager | 365 |
+| Chaos Questoris Knight Magaera | 375 |
+| Chaos Questoris Knight Styrix | 375 |
+| Chaos Cerastus Knight Acheron | 385 |
+| Chaos Cerastus Knight Castigator | 385 |
+| Chaos Cerastus Knight Lancer | 385 |
+| Knight Despoiler | 390 |
+| Chaos Cerastus Knight Atrapos | 395 |
+| Knight Tyrant | 410 |
+| Magnus the Red | 435 |
+| Chaos Acastus Knight Porphyrion | 700 |
+| Chaos Acastus Knight Asterius | 765 |
+| Warhound Titan | 1100 |
+| Reaver Titan | 2200 |
+| Warbringer Nemesis Titan | 2600 |
+| Warlord Titan | 3500 |

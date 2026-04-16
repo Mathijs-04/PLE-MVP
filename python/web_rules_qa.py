@@ -87,7 +87,6 @@ _FACTION_SUFFIXES = {
     "wh40k": "Codex",
 }
 
-
 def _clean_answer_text(text: str) -> str:
     return text.replace('\\"', '"')
 

@@ -2028,3 +2028,104 @@ Before the battle, at the start of the Declare Battle Formations step, you can 
 - **Servant of the Whispering God:** If your army includes Yvraine, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include Yvraine.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Warlock | 45 |
+| Warlock Skyrunners | 45 |
+| Ynnari Succubus | 45 |
+| Succubus | 50 |
+| Cronos | 55 |
+| Rangers | 55 |
+| Warlock Conclave | 55 |
+| Archtormentor [Crucible] | 60 |
+| Flesh Crafter [Crucible] | 60 |
+| Haemonculus | 60 |
+| Shadowseer | 60 |
+| Vibro Cannon Platform | 60 |
+| Wracks | 60 |
+| Corsair Voidreavers | 65 |
+| Spiritseer | 65 |
+| Ynnari Reavers | 65 |
+| Farseer | 70 |
+| Reavers | 70 |
+| Venom | 70 |
+| Ynnari Venom | 70 |
+| Corsair Skyreavers | 75 |
+| Craftworld Warleader [Crucible] | 75 |
+| Dire Avengers | 75 |
+| Mandrakes | 75 |
+| Scourges with Shardcarbines | 75 |
+| Shadow Weaver Platform | 75 |
+| Troupe Master | 75 |
+| Archon | 80 |
+| Autarch Wayleaper | 80 |
+| Corsair Voidscarred | 80 |
+| Farseer Skyrunner | 80 |
+| Shroud Runners | 80 |
+| Skyrunner [Crucible] | 80 |
+| Starweaver | 80 |
+| Talos | 80 |
+| Windriders | 80 |
+| Ynnari Raider | 80 |
+| Autarch | 85 |
+| Drazhar | 85 |
+| Hellions | 85 |
+| Lelith Hesperax | 85 |
+| Raider | 85 |
+| Striking Scorpions | 85 |
+| Troupe | 85 |
+| Ynnari Archon | 85 |
+| Ynnari Incubi | 85 |
+| Dark Reapers | 90 |
+| Death Jester | 90 |
+| Incubi | 90 |
+| The Visarch | 90 |
+| Wyches | 90 |
+| Ynnari Wyches | 90 |
+| Howling Banshees | 95 |
+| Kharseth | 95 |
+| Prince Yriel | 95 |
+| Skyweavers | 95 |
+| Swooping Hawks | 95 |
+| Guardian Defenders | 100 |
+| Lady Malys | 100 |
+| Maugan Ra | 100 |
+| Yvraine | 100 |
+| Warp Spiders | 105 |
+| Ravager | 110 |
+| Shining Spears | 110 |
+| Storm Guardians | 110 |
+| Ynnari Kabalite Warriors | 110 |
+| Baharroth | 115 |
+| Kabalite Warriors | 115 |
+| Solitaire | 115 |
+| Eldrad Ulthran | 120 |
+| Fire Dragons | 120 |
+| Fuegan | 120 |
+| Jain Zar | 120 |
+| D-Cannon Platform | 125 |
+| Voidweaver | 125 |
+| Wave Serpent | 125 |
+| Falcon | 130 |
+| Scourges with Heavy Weapons | 130 |
+| Wraithlord | 130 |
+| Asurmen | 135 |
+| Lhykhis | 135 |
+| Fire Prism | 150 |
+| Wraithblades | 150 |
+| Hemlock Wraithfighter | 155 |
+| Crimson Hunter | 160 |
+| Ghost Warrior [Crucible] | 160 |
+| Wraithguard | 160 |
+| Razorwing Jetfighter | 170 |
+| Night Spinner | 190 |
+| Voidraven Bomber | 245 |
+| The Yncarne | 260 |
+| Avatar of Khaine | 280 |
+| Wraithknight with Ghostglaive | 420 |
+| Wraithknight | 435 |
+| Revenant Titan | 1100 |
+| Phantom Titan | 2100 |

@@ -1760,3 +1760,98 @@ At the start of the Declare Battle Formations step, you can select one SISTERS O
 - **Sanctified Flames:** In your Shooting phase, after this unit has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Ministorum Priest | 40 |
+| Prosecutors | 40 |
+| Vigilators | 45 |
+| Witchseekers | 45 |
+| Inquisitorial Agents | 50 |
+| Voidsmen-at-Arms | 50 |
+| Inquisitor | 55 |
+| Knight-Centura | 55 |
+| Martial Agent [Crucible] | 60 |
+| Navigator | 60 |
+| Aleya | 65 |
+| Inquisitor Greyfax | 65 |
+| Null Maiden [Crucible] | 65 |
+| Watch Captain Artemis | 65 |
+| Inquisitorial Chimera | 70 |
+| Anathema Psykana Rhino | 75 |
+| Imperial Rhino | 75 |
+| Inquisitor Coteaz | 75 |
+| Inquisitor Draxus | 75 |
+| Rogue Trader Entourage | 75 |
+| Culexus Assassin | 85 |
+| Subductor Squad | 85 |
+| Vigilant Squad | 85 |
+| Exaction Squad | 90 |
+| Imperial Navy Breachers | 90 |
+| Watch Master | 95 |
+| Aquila Kill Team | 100 |
+| Callidus Assassin | 100 |
+| Deathwatch Kill Team | 100 |
+| Sanctifiers | 100 |
+| Sisters of Battle Immolator | 100 |
+| Sisters of Battle Squad | 100 |
+| Deathwatch Agent [Crucible] | 105 |
+| Pallas Grav-attack | 105 |
+| Allarus Custodians | 110 |
+| Eversor Assassin | 110 |
+| Valerian | 110 |
+| Vindicare Assassin | 110 |
+| Blade Champion | 120 |
+| Enthroned Agent [Crucible] | 120 |
+| Shield-Captain | 120 |
+| Guardian of the Throne [Crucible] | 130 |
+| Shield-Captain in Allarus Terminator Armour | 130 |
+| Armiger Helverin | 135 |
+| Armiger Warglaive | 140 |
+| Trajann Valoris | 140 |
+| Armiger Moirax | 150 |
+| Kataphraktoi Exemplar [Crucible] | 150 |
+| Shield-Captain on Dawneagle Jetbike | 150 |
+| Vertus Praetors | 150 |
+| Contemptor-Achillus Dreadnought | 155 |
+| Custodian Guard | 160 |
+| Contemptor-Galatus Dreadnought | 165 |
+| Venatari Custodians | 165 |
+| Venerable Contemptor Dreadnought | 170 |
+| Corvus Blackstar | 180 |
+| Grey Knights Terminator Squad | 190 |
+| Aquilon Custodians | 195 |
+| Coronus Grav-carrier | 200 |
+| Custodian Wardens | 210 |
+| Caladius Grav-tank | 215 |
+| Venerable Land Raider | 220 |
+| Agamatus Custodians | 225 |
+| Sagittarum Custodians | 225 |
+| Telemon Heavy Dreadnought | 225 |
+| Custodian Guard with Adrasite and Pyrithite spears | 250 |
+| Knight Errant | 355 |
+| Knight Gallant | 355 |
+| Knight Preceptor | 365 |
+| Knight Paladin | 375 |
+| Knight Warden | 375 |
+| Knight Crusader | 385 |
+| Questoris Knight Magaera | 385 |
+| Questoris Knight Styrix | 385 |
+| Cerastus Knight Acheron | 395 |
+| Cerastus Knight Castigator | 395 |
+| Cerastus Knight Lancer | 395 |
+| Cerastus Knight Atrapos | 405 |
+| Knight Castellan | 410 |
+| Knight Valiant | 410 |
+| Canis Rex | 415 |
+| Knight Defender | 415 |
+| Ares Gunship | 580 |
+| Orion Assault Dropship | 690 |
+| Acastus Knight Porphyrion | 700 |
+| Acastus Knight Asterius | 765 |
+| Warhound Titan | 1100 |
+| Reaver Titan | 2200 |
+| Warbringer Nemesis Titan | 2600 |
+| Warlord Titan | 3500 |

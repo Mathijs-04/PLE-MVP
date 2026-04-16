@@ -600,3 +600,42 @@
 - **Warp Field (Aura, Psychic):** While a friendly TYRANIDS unit is within 6" of this unit, models in that unit have a 6+ invulnerable save.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Pyrovores | 40 |
+| Neurogaunts | 45 |
+| Barbgaunts | 55 |
+| Spore Mines | 55 |
+| Termagants | 60 |
+| Hormagaunts | 65 |
+| Tyranid Warriors with Ranged Bio-Weapons | 65 |
+| Venomthropes | 70 |
+| Genestealers | 75 |
+| Tyranid Warriors with Melee Bio-Weapons | 75 |
+| Broodlord | 80 |
+| Tyrant Guard | 80 |
+| Tyranid Prime with Lash Whip | 85 |
+| Hive Guard | 90 |
+| Zoanthropes | 100 |
+| Neurotyrant | 105 |
+| Psychophage | 110 |
+| Haruspex | 125 |
+| Screamer-killer | 125 |
+| Exocrine | 140 |
+| Sporocyst | 145 |
+| Old One Eye | 150 |
+| Toxicrene | 150 |
+| Tervigon | 160 |
+| Maleceptor | 170 |
+| Hive Tyrant | 195 |
+| Hive Crone | 200 |
+| Tyrannofex | 200 |
+| Harpy | 215 |
+| The Swarmlord | 220 |
+| Norn Emissary | 260 |
+| Norn Assimilator | 275 |
+| Harridan | 610 |
+| Hierophant | 810 |

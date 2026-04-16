@@ -812,3 +812,37 @@ If an enemy unit is destroyed or removed from the battlefield while any of this
 ##### Prime Gutserver (Activated)
 - **Timing:** Once Per Battle Round (Army), Start of Battle Round
 - **Effect:** If this unit is a Head Butcher, gain 1 tasty morsel.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Frost Sabres | 70 |
+| Icebrow Hunter | 100 |
+| Icefall Yhetees | 100 |
+| Bloodpelt Hunter | 110 |
+| Gorlok Blackpowder | 120 |
+| Hrothgorn Mantrapper | 120 |
+| Leadbelchers | 120 |
+| Gnoblar Scraplauncher | 130 |
+| Gnoblar Scraplauncher (Scourge of Ghyran) | 130 |
+| Gnoblars | 130 |
+| Mantrapper | 130 |
+| Tyrant | 130 |
+| Firebelly | 140 |
+| Butcher | 150 |
+| Slaughtermaster | 150 |
+| Maneaters | 160 |
+| Mournfang Pack | 160 |
+| Ironblaster | 170 |
+| Ironblaster (Scourge of Ghyran) | 170 |
+| Thundertusk Beastriders | 200 |
+| Ogor Gluttons | 220 |
+| Ironguts | 230 |
+| Gorger Mawpack | 240 |
+| Huskard on Thundertusk | 250 |
+| Frostlord on Thundertusk | 260 |
+| Stonehorn Beastriders | 270 |
+| Huskard on Stonehorn | 300 |
+| Frostlord on Stonehorn | 330 |
+| Kragnos, the End of Empires | 580 |

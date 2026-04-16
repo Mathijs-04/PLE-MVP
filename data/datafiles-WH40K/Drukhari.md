@@ -792,3 +792,45 @@ This unit has a 4+ Invulnerable save against melee attacks.
 - **Acrobatic Gladiators (Pain):** At the start of your Charge phase, you can spend 1 Pain token to Empower this unit. While Empowered, this unit is eligible to declare a charge in a turn in which it Advanced or Fell Back.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Succubus | 50 |
+| Cronos | 55 |
+| Archtormentor [Crucible] | 60 |
+| Flesh Crafter [Crucible] | 60 |
+| Haemonculus | 60 |
+| Shadowseer | 60 |
+| Wracks | 60 |
+| Corsair Voidreavers | 65 |
+| Reavers | 70 |
+| Venom | 70 |
+| Corsair Skyreavers | 75 |
+| Mandrakes | 75 |
+| Scourges with Shardcarbines | 75 |
+| Troupe Master | 75 |
+| Archon | 80 |
+| Corsair Voidscarred | 80 |
+| Starweaver | 80 |
+| Talos | 80 |
+| Drazhar | 85 |
+| Hellions | 85 |
+| Lelith Hesperax | 85 |
+| Raider | 85 |
+| Troupe | 85 |
+| Death Jester | 90 |
+| Incubi | 90 |
+| Wyches | 90 |
+| Kharseth | 95 |
+| Prince Yriel | 95 |
+| Skyweavers | 95 |
+| Lady Malys | 100 |
+| Ravager | 110 |
+| Kabalite Warriors | 115 |
+| Solitaire | 115 |
+| Voidweaver | 125 |
+| Scourges with Heavy Weapons | 130 |
+| Razorwing Jetfighter | 170 |
+| Voidraven Bomber | 245 |

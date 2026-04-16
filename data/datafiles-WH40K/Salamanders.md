@@ -2069,3 +2069,125 @@ Attacks characteristic of 7.
 - **Pinning Bombardment:** In your Shooting phase, after this model has shot, if one or more of those attacks made with its Whirlwind vengeance launcher scored a hit against an enemy Infantry unit, that unit must take a Battle-shock test.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Ministorum Priest | 40 |
+| Bladeguard Ancient | 45 |
+| Ancient | 50 |
+| Apothecary | 50 |
+| Inquisitorial Agents | 50 |
+| Voidsmen-at-Arms | 50 |
+| Inquisitor | 55 |
+| Lieutenant | 55 |
+| Lieutenant in Phobos Armour | 55 |
+| Lieutenant in Reiver Armour | 55 |
+| Techmarine | 55 |
+| Chaplain | 60 |
+| Invader ATV | 60 |
+| Martial Agent [Crucible] | 60 |
+| Navigator | 60 |
+| Inquisitor Greyfax | 65 |
+| Librarian | 65 |
+| Watch Captain Artemis | 65 |
+| Apothecary Biologis | 70 |
+| Captain in Phobos Armour | 70 |
+| Champion of the Chapter [Crucible] | 70 |
+| Drop Pod | 70 |
+| Inquisitorial Chimera | 70 |
+| Judiciar | 70 |
+| Librarian in Phobos Armour | 70 |
+| Librarius Adept [Crucible] | 70 |
+| Scout Squad | 70 |
+| Ancient in Terminator Armor | 75 |
+| Assault Intercessor Squad | 75 |
+| Captain with Jump Pack | 75 |
+| Chaplain in Terminator Armour | 75 |
+| Chaplain on Bike | 75 |
+| Chaplain with Jump Pack | 75 |
+| Imperial Rhino | 75 |
+| Inquisitor Coteaz | 75 |
+| Inquisitor Draxus | 75 |
+| Librarian in Terminator Armour | 75 |
+| Rhino | 75 |
+| Rogue Trader Entourage | 75 |
+| Suppressor Squad | 75 |
+| Bladeguard Veteran Squad | 80 |
+| Captain | 80 |
+| Captain in Gravis Armour | 80 |
+| Impulsor | 80 |
+| Incursor Squad | 80 |
+| Intercessor Squad | 80 |
+| Outrider Squad | 80 |
+| Reiver Squad | 80 |
+| Adrax Agatone | 85 |
+| Culexus Assassin | 85 |
+| Eliminator Squad | 85 |
+| Lieutenant with Combi-weapon | 85 |
+| Subductor Squad | 85 |
+| Vigilant Squad | 85 |
+| Assault Intercessors with Jump Packs | 90 |
+| Eradicator Squad | 90 |
+| Exaction Squad | 90 |
+| Imperial Navy Breachers | 90 |
+| Infernus Squad | 90 |
+| Aggressor Squad | 95 |
+| Captain in Terminator Armour | 95 |
+| Razorback | 95 |
+| Watch Master | 95 |
+| Aquila Kill Team | 100 |
+| Callidus Assassin | 100 |
+| Deathwatch Kill Team | 100 |
+| Heavy Intercessor Squad | 100 |
+| Infiltrator Squad | 100 |
+| Sanctifiers | 100 |
+| Sisters of Battle Immolator | 100 |
+| Sisters of Battle Squad | 100 |
+| Sternguard Veteran Squad | 100 |
+| Vanguard Veteran Squad with Jump Packs | 100 |
+| Vulkan He'stan | 100 |
+| Company Heroes | 105 |
+| Deathwatch Agent [Crucible] | 105 |
+| Eversor Assassin | 110 |
+| Hellblaster Squad | 110 |
+| Vindicare Assassin | 110 |
+| Storm Speeder Hailstrike | 115 |
+| Devastator Squad | 120 |
+| Enthroned Agent [Crucible] | 120 |
+| Inceptor Squad | 120 |
+| Invictor Tactical Warsuit | 125 |
+| Storm Speeder Hammerstrike | 125 |
+| Dreadnought | 135 |
+| Predator Annihilator | 135 |
+| Storm Speeder Thunderstrike | 135 |
+| Predator Destructor | 140 |
+| Tactical Squad | 140 |
+| Ballistus Dreadnought | 150 |
+| Centurion Assault Squad | 150 |
+| Gladiator Valiant | 150 |
+| Stormhawk Interceptor | 155 |
+| Brutalis Dreadnought | 160 |
+| Gladiator Lancer | 160 |
+| Gladiator Reaper | 160 |
+| Venerable Battle-Brother [Crucible] | 160 |
+| Stormtalon Gunship | 165 |
+| Terminator Squad | 170 |
+| Centurion Devastator Squad | 175 |
+| Hammerfall Bunker | 175 |
+| Corvus Blackstar | 180 |
+| Repulsor | 180 |
+| Terminator Assault Squad | 180 |
+| Vindicator | 185 |
+| Grey Knights Terminator Squad | 190 |
+| Whirlwind | 190 |
+| Desolation Squad | 200 |
+| Redemptor Dreadnought | 205 |
+| Land Raider | 220 |
+| Land Raider Crusader | 220 |
+| Repulsor Executioner | 230 |
+| Land Raider Redeemer | 270 |
+| Stormraven Gunship | 280 |
+| Astraeus | 525 |
+| Thunderhawk Gunship | 840 |

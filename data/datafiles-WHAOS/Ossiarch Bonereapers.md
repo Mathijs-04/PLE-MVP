@@ -977,3 +977,36 @@ Each time a visible enemy unit within 12" of this unit is destroyed, roll a dic
 
 ##### Aura of Enervation (Passive)
 - **Effect:** Subtract 1 from wound rolls for shooting attacks that target friendly Null Myriad units while they are wholly within 12" of this unit.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Bone-tithe Nexus | 0 |
+| Mortis Reapers | 90 |
+| Teratic Cohort | 90 |
+| Mortek Guard | 110 |
+| Mortek Guard (Scourge of Ghyran) | 110 |
+| Mortisan Ossifector | 110 |
+| Liege-Mortek | 120 |
+| Mortisan Soulreaper | 130 |
+| Kainan's Reapers | 140 |
+| Mortek Triaxes | 140 |
+| Mortisan Boneshaper | 140 |
+| Mortisan Boneshaper (Scourge of Ghyran) | 140 |
+| Necropolis Stalkers | 140 |
+| Vokmortian, Master of the Bone-tithe | 140 |
+| Kavalos Deathriders | 150 |
+| Mortisan Soulmason | 150 |
+| Immortis Guard | 170 |
+| Kavalos War Chariot | 170 |
+| Liege-Kavalos | 180 |
+| Gothizzar Harvester | 200 |
+| Arch-Kavalos Zandtos | 220 |
+| Liege-Kavalos on War Chariot | 230 |
+| Morghast Harbingers | 250 |
+| Mortek Crawler | 250 |
+| Morghast Archai | 260 |
+| Arkhan the Black, Mortarch of Sacrament | 440 |
+| Katakros, Mortarch of the Necropolis | 500 |
+| Nagash, Supreme Lord of the Undead | 830 |

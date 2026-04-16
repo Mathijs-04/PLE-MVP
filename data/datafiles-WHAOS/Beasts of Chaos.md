@@ -554,3 +554,30 @@ If this terrain feature is wholly within 18" of the centre of the battlefield, 
 - **Effect:** Add 1 to hit rolls for this unit’s attacks while it is wholly outside friendly territory.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Beasts of Chaos Chaos Spawn | 70 |
+| Razorgor | 70 |
+| Ungor Raiders | 90 |
+| Ungors | 90 |
+| Gors | 100 |
+| Grashrak's Despoilers | 100 |
+| Tuskgor Chariots | 110 |
+| Chaos Warhounds | 130 |
+| Chaos Gargant | 140 |
+| Great Bray-Shaman | 140 |
+| Beastlord | 150 |
+| Cockatrice | 150 |
+| Bullgors | 170 |
+| Centigors | 170 |
+| Cygor | 170 |
+| Doombull | 170 |
+| Ghorgon | 180 |
+| Jabberslythe | 190 |
+| Chimera | 200 |
+| Dragon Ogors | 200 |
+| Bestigors | 220 |
+| Dragon Ogor Shaggoth | 220 |

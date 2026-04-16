@@ -287,3 +287,20 @@
 - **Effect:** Roll a dice. Add 1 to the roll if the target is a Monster. On a 4+, inflict 1 mortal damage on the target.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Hedkrakka's Madmob | 100 |
+| Wardokk | 100 |
+| Savage Big Boss | 110 |
+| Savage Big Stabbas | 130 |
+| Savage Boarboy Maniaks | 140 |
+| Savage Boarboys | 140 |
+| Savage Orruk Arrowboys | 140 |
+| Savage Orruks | 140 |
+| Maniak Weirdnob | 160 |
+| Savage Orruk Morboys | 160 |
+| Wurrgog Prophet | 160 |
+| Kragnos, the End of Empires | 580 |

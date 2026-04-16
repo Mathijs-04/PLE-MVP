@@ -2688,3 +2688,144 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 ■ LEGIONARIES
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Nurglings | 40 |
+| Cultist Firebrand | 45 |
+| Cultist Mob | 50 |
+| Poxbringer | 55 |
+| Sloppity Bilepiper | 55 |
+| Traitor Enforcer | 55 |
+| Changecaster | 60 |
+| Daemonic Herald [Crucible] | 60 |
+| Fluxmaster | 60 |
+| Infernal Enrapturess | 60 |
+| Master of Possession | 60 |
+| Sorcerer | 60 |
+| Spoilpox Scrivener | 60 |
+| Tranceweaver | 60 |
+| Bloodmaster | 65 |
+| Dark Apostle | 65 |
+| Exalted Flamer | 65 |
+| Flamers | 65 |
+| Chaos Bikers | 70 |
+| Chaos Spawn | 70 |
+| Fellgor Beastmen | 70 |
+| Traitor Guardsmen Squad | 70 |
+| Warpsmith | 70 |
+| Chaos Rhino | 75 |
+| Flesh Hounds | 75 |
+| Karanak | 75 |
+| Red Corsairs Reave-captain | 75 |
+| The Blue Scribes | 75 |
+| Chaos Lord with Jump Pack | 80 |
+| Epidemius | 80 |
+| Master of Executions | 80 |
+| Screamers | 80 |
+| Seekers | 80 |
+| Sorcerer in Terminator Armour | 80 |
+| Sorcerous Champion [Crucible] | 80 |
+| Chaos Lord in Terminator Armour | 85 |
+| Skulltaker | 85 |
+| Accursed Cultists | 90 |
+| Chaos Lord | 90 |
+| Cypher | 90 |
+| Dark Commune | 90 |
+| Exalted Champion [Crucible] | 90 |
+| Haarken Worldclaimer | 90 |
+| Legionaries | 90 |
+| The Changeling | 90 |
+| Fateskimmer | 95 |
+| Fiends | 95 |
+| Plague Marines | 95 |
+| Skull Cannon | 95 |
+| The Masque of Slaanesh | 95 |
+| Contorted Epitome | 100 |
+| Daemonettes | 100 |
+| Fabius Bile | 100 |
+| Feculent Gnarlmaw | 100 |
+| Rubric Marines | 100 |
+| Skullmaster | 100 |
+| Skull Altar | 105 |
+| Bloodcrushers | 110 |
+| Bloodletters | 110 |
+| Nemesis Claw | 110 |
+| Plague Drones | 110 |
+| Plaguebearers | 110 |
+| Raptors | 110 |
+| Red Corsairs Raiders | 110 |
+| Venomcrawler | 110 |
+| Burning Chariot | 115 |
+| Masters of the Maelstrom | 115 |
+| Daemonic Charioteer [Crucible] | 120 |
+| Horticulous Slimux | 120 |
+| Huron Blackheart | 120 |
+| Possessed | 120 |
+| Syll'esske | 120 |
+| Blue Horrors | 125 |
+| Chosen | 125 |
+| Havocs | 125 |
+| Noctilith Crown | 125 |
+| Warp Talons | 125 |
+| Helbrute | 130 |
+| Maulerfiend | 130 |
+| War Dog Executioner | 130 |
+| Chaos Predator Annihilator | 135 |
+| Chaos Predator Destructor | 140 |
+| Pink Horrors | 140 |
+| Tormentbringer | 140 |
+| War Dog Brigand | 140 |
+| War Dog Huntsman | 140 |
+| War Dog Stalker | 140 |
+| Noise Marines | 145 |
+| War Dog Karnivore | 150 |
+| War Dog Moirax | 150 |
+| Lord Discordant on Helstalker | 160 |
+| Obliterators | 160 |
+| Soul Forge Tyrant [Crucible] | 160 |
+| Heretic Astartes Daemon Prince | 165 |
+| Rendmaster on Blood Throne | 165 |
+| Forgefiend | 170 |
+| Vashtorr the Arkifane | 175 |
+| Chaos Terminator Squad | 180 |
+| Daemon Prince of Chaos with wings | 180 |
+| Heretic Astartes Daemon Prince with wings | 180 |
+| Immortal Champion [Crucible] | 180 |
+| Khorne Berzerkers | 180 |
+| Chaos Vindicator | 185 |
+| Daemon Prince of Chaos | 190 |
+| Defiler | 190 |
+| Heldrake | 205 |
+| Chaos Land Raider | 220 |
+| Keeper of Secrets | 240 |
+| Great Unclean One | 250 |
+| Rotigus | 265 |
+| Abaddon the Despoiler | 270 |
+| Lord of Change | 285 |
+| Kairos Fateweaver | 295 |
+| Bloodthirster | 305 |
+| Skarbrand | 305 |
+| Shalaxi Helbane | 340 |
+| Knight Abominant | 355 |
+| Knight Desecrator | 355 |
+| Knight Ruinator | 355 |
+| Knight Rampager | 365 |
+| Be'lakor | 375 |
+| Chaos Questoris Knight Magaera | 375 |
+| Chaos Questoris Knight Styrix | 375 |
+| Chaos Cerastus Knight Acheron | 385 |
+| Chaos Cerastus Knight Castigator | 385 |
+| Chaos Cerastus Knight Lancer | 385 |
+| Knight Despoiler | 390 |
+| Chaos Cerastus Knight Atrapos | 395 |
+| Knight Tyrant | 410 |
+| Khorne Lord of Skulls | 450 |
+| Chaos Acastus Knight Porphyrion | 700 |
+| Chaos Acastus Knight Asterius | 765 |
+| Warhound Titan | 1100 |
+| Reaver Titan | 2200 |
+| Warbringer Nemesis Titan | 2600 |
+| Warlord Titan | 3500 |

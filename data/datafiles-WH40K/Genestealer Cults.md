@@ -498,3 +498,35 @@ You can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if
 - Neophyte Hybrids
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Locus | 45 |
+| Acolyte Iconward | 50 |
+| Biophagus | 50 |
+| Clamavus | 50 |
+| Magus | 50 |
+| Sanctus | 50 |
+| Jackal Alphus | 55 |
+| Cult Guerrilla [Crucible] | 60 |
+| Kelermorph | 60 |
+| Nexos | 60 |
+| Acolyte Hybrids with Autopistols | 65 |
+| Neophyte Hybrids | 65 |
+| Reductus Saboteur | 65 |
+| Acolyte Hybrids with Hand Flamers | 70 |
+| Benefictus | 70 |
+| Hybrid Metamorphs | 70 |
+| Primus | 70 |
+| Voice of the Patriarch [Crucible] | 70 |
+| Patriarch | 75 |
+| Purestrain Genestealers | 75 |
+| Cult Insurrectionist [Crucible] | 80 |
+| Abominant | 85 |
+| Atalan Jackals | 85 |
+| Goliath Truck | 85 |
+| Achilles Ridgerunners | 95 |
+| Goliath Rockgrinder | 120 |
+| Aberrants | 135 |

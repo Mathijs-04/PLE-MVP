@@ -950,3 +950,37 @@ Once all of the standard bearers in the target unit have been slain, subtract 5 
 
 ##### Lord of Revelries (Passive)
 - **Effect:** Ignore the first damage point that would be allocated to this unit in each phase.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Charnel Throne | 10 |
+| Crypt Ghast Courtier | 80 |
+| The Grymwatch | 80 |
+| The Skinnerkin | 80 |
+| Crypt Horrors | 100 |
+| Marrowscroll Herald | 100 |
+| Royal Beastflayers | 110 |
+| Royal Decapitator | 110 |
+| Abhorrant Ghoul King | 120 |
+| Abhorrant Ghoul King (Scourge of Ghyran) | 120 |
+| Crypt Haunter Courtier | 120 |
+| Cryptguard | 120 |
+| High Falconer Felgryn | 120 |
+| Varghulf Courtier | 120 |
+| Abhorrant Cardinal | 130 |
+| Abhorrant Archregent | 140 |
+| Crypt Infernal Courtier | 140 |
+| Grand Justice Gormayne | 150 |
+| Crypt Flayers | 160 |
+| Crypt Ghouls | 160 |
+| Abhorrant Gorewarden | 180 |
+| Abhorrant Gorewarden (Scourge of Ghyran) | 180 |
+| Morbheg Knights | 180 |
+| Royal Terrorgheist | 230 |
+| Royal Zombie Dragon | 240 |
+| Abhorrant Ghoul King on Royal Terrorgheist | 360 |
+| Abhorrant Ghoul King on Royal Zombie Dragon | 360 |
+| Ushoran, Mortarch of Delusion | 450 |
+| Nagash, Supreme Lord of the Undead | 830 |

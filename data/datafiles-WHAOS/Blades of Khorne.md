@@ -1170,3 +1170,47 @@ That unit can move 2D6". It can end that move in combat with any units that had 
 ##### Unrivalled Battlelust (Activated)
 - **Timing:** Once Per Battle (Army), Any Combat Phase
 - **Effect:** For the rest of the turn, add 1 to the Attacks characteristic of friendly Baleful Lords units while they are wholly within 12" of this unit.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Garrek's Reavers | 70 |
+| Bloodreavers | 80 |
+| Kamandora's Blades | 90 |
+| Bloodstoker | 100 |
+| Claws of Karanak | 100 |
+| Flesh Hounds | 100 |
+| Karanak | 110 |
+| Skullgrinder | 110 |
+| Bloodmaster, Herald of Khorne | 120 |
+| Bloodsecrator | 120 |
+| Khorgorath | 120 |
+| Magore's Fiends | 120 |
+| Realmgore Ritualist | 120 |
+| Skulltaker | 120 |
+| Deathbringer | 130 |
+| Scyla Anfingrimm | 130 |
+| Skullmaster, Herald of Khorne | 130 |
+| Slaughterpriest | 130 |
+| Wrathmongers | 130 |
+| Bloodcrushers | 140 |
+| Bloodcrushers (Scourge of Ghyran) | 140 |
+| Mighty Lord of Khorne | 140 |
+| Mighty Lord of Khorne (Scourge of Ghyran) | 140 |
+| Skarr Bloodwrath | 140 |
+| Skull Cannon | 150 |
+| Bloodletters | 160 |
+| Herald of Khorne on Blood Throne | 160 |
+| Skullreapers | 180 |
+| Valkia the Bloody | 180 |
+| Blood Warriors | 190 |
+| Gorechosen of Dromm | 190 |
+| Lord of Khorne on Juggernaut | 200 |
+| Mighty Skullcrushers | 200 |
+| Khorgos Khul | 220 |
+| Khul Ascended | 310 |
+| Bloodthirster of Unfettered Fury | 390 |
+| Wrath of Khorne Bloodthirster | 400 |
+| Bloodthirster of Insensate Rage | 410 |
+| Skarbrand | 410 |

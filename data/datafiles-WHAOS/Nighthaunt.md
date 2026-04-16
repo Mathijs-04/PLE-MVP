@@ -1006,3 +1006,40 @@ Battle Round 2:
 ##### Damned Vessel (Activated)
 - **Timing:** Reaction: You declared a Spell ability for a friendly Nagash within 18" of this unit
 - **Effect:** Measure the range and visibility of that Spell ability from this unit instead of that Nagash.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Chainghasts | 90 |
+| Glaivewraith Stalkers | 100 |
+| Knight of Shrouds | 100 |
+| Myrmourn Banshees | 100 |
+| Chainrasps | 110 |
+| Craventhrone Guard | 110 |
+| Lord Vitriolic | 120 |
+| Scriptor Mortis | 120 |
+| Spirit Hosts | 120 |
+| Spirit Torment | 120 |
+| Cairn Wraith | 130 |
+| Guardian of Souls | 130 |
+| Tomb Banshee | 130 |
+| Thorns of the Briar Queen | 140 |
+| Awlrach the Drowner | 150 |
+| Dreadblade Harrows | 150 |
+| Krulghast Cruciator | 150 |
+| The Headsmen's Curse | 150 |
+| Hexwraiths | 160 |
+| Knight of Shrouds on Ethereal Steed | 160 |
+| Lord Executioner | 170 |
+| Pyregheists | 170 |
+| Kurdoss Valentian, the Craven King | 180 |
+| Kurdoss Valentian, the Craven King (Scourge of Ghyran) | 180 |
+| Bladegheist Revenants | 210 |
+| Dreadscythe Harridans | 210 |
+| Grimghast Reapers | 210 |
+| Reikenor the Grimhailer | 220 |
+| Black Coach | 230 |
+| Black Coach (Scourge of Ghyran) | 230 |
+| Lady Olynder, Mortarch of Grief | 320 |
+| Nagash, Supreme Lord of the Undead | 840 |

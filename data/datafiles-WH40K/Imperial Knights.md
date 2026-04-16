@@ -521,3 +521,33 @@ Armiger models from your army gain the Battleline keyword.
 - **Striding Colossus:** Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Armiger Helverin | 135 |
+| Armiger Warglaive | 140 |
+| Armiger Moirax | 150 |
+| Knight Errant | 355 |
+| Knight Gallant | 355 |
+| Knight Preceptor | 365 |
+| Knight Paladin | 375 |
+| Knight Warden | 375 |
+| Knight Crusader | 385 |
+| Questoris Knight Magaera | 385 |
+| Questoris Knight Styrix | 385 |
+| Cerastus Knight Acheron | 395 |
+| Cerastus Knight Castigator | 395 |
+| Cerastus Knight Lancer | 395 |
+| Cerastus Knight Atrapos | 405 |
+| Knight Castellan | 410 |
+| Knight Valiant | 410 |
+| Canis Rex | 415 |
+| Knight Defender | 415 |
+| Acastus Knight Porphyrion | 700 |
+| Acastus Knight Asterius | 765 |
+| Warhound Titan | 1100 |
+| Reaver Titan | 2200 |
+| Warbringer Nemesis Titan | 2600 |
+| Warlord Titan | 3500 |

@@ -812,3 +812,36 @@ While a friendly Cauldron of Blood unit is full:
 
 ##### Proselyte of Morai-Heg (Passive)
 - **Effect:** Enemy units cannot use commands while they are in combat with this unit.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Gryselle's Arenai | 70 |
+| The Shadeborn | 80 |
+| Witch Aelves with Bladed Bucklers | 90 |
+| High Gladiatrix | 100 |
+| Khinerai Heartrenders | 100 |
+| Khinerai Lifetakers | 100 |
+| Avatar of Khaine | 110 |
+| Sisters of Slaughter with Sacrificial Knives | 110 |
+| Khainite Shadowstalkers | 120 |
+| Morgwaeth's Blade-coven | 120 |
+| Sisters of Slaughter with Bladed Bucklers | 120 |
+| Witch Aelves with Paired Sciansá | 120 |
+| Blood Stalkers | 130 |
+| Hag Queen | 130 |
+| Slaughter Queen | 130 |
+| Blood Sisters | 140 |
+| Bloodwrack Medusa | 150 |
+| Doomfire Warlocks | 150 |
+| Melusai Ironscale | 150 |
+| Maleneth Witchblade | 170 |
+| Krethusa the Croneseer | 180 |
+| Krethusa the Croneseer (Scourge of Ghyran) | 180 |
+| Bloodwrack Shrine | 200 |
+| Bloodwrack Shrine (Scourge of Ghyran) | 200 |
+| Knives of the Crone | 220 |
+| Hag Queen on Cauldron of Blood | 330 |
+| Slaughter Queen on Cauldron of Blood | 330 |
+| Morathi-Khaine | 760 |

@@ -857,3 +857,53 @@ Designer’s Note: Place a Support Turret token next to this unit to remind you.
 Designer’s Note: Place an Oversight Drone token next to the bearer, removing it once this ability has been used.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Kroot Hounds | 40 |
+| Krootox Riders | 40 |
+| Kroot Flesh Shaper | 45 |
+| Cadre Fireblade | 50 |
+| Ethereal | 50 |
+| Kroot War Shaper | 50 |
+| Shas'nel [Crucible] | 50 |
+| Kinband Champion [Crucible] | 55 |
+| Kroot Trail Shaper | 55 |
+| Battlesuit Veteran [Crucible] | 60 |
+| Darkstrider | 60 |
+| Firesight Team | 60 |
+| Kroot Carnivores | 65 |
+| Vespid Stingwings | 65 |
+| Strike Team | 70 |
+| Broadside Battlesuits | 80 |
+| Commander in Enforcer Battlesuit | 80 |
+| Kroot Lone-spear | 80 |
+| Commander Farsight | 85 |
+| Devilfish | 85 |
+| Kroot Farstalkers | 85 |
+| Krootox Rampagers | 85 |
+| Tidewall Droneport | 85 |
+| Tidewall Shieldline | 85 |
+| Breacher Team | 90 |
+| Pathfinder Team | 90 |
+| Tidewall Gunrig | 90 |
+| Commander in Coldstar Battlesuit | 95 |
+| Commander Shadowsun | 100 |
+| Stealth Battlesuits | 100 |
+| Crisis Starscythe Battlesuits | 110 |
+| Crisis Fireknife Battlesuits | 120 |
+| Crisis Sunforge Battlesuits | 140 |
+| Hammerhead Gunship | 145 |
+| Sky Ray Gunship | 150 |
+| Ghostkeel Battlesuit | 160 |
+| Sun Shark Bomber | 160 |
+| The Twin Lance | 160 |
+| Razorshark Strike Fighter | 170 |
+| Riptide Battlesuit | 200 |
+| AX-1-0 Tiger Shark | 315 |
+| Tiger Shark | 325 |
+| Stormsurge | 360 |
+| Ta'unar Supremacy Armour | 790 |
+| Manta | 2100 |

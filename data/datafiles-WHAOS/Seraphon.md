@@ -936,3 +936,43 @@ Each time you make an unmodified save roll of 1 for this unit, remove 1 of its 
 - **Effect:** This unit’s Sotek’s Venomites is a token. If this unit’s Sotek’s Venomites is on the battlefield, roll a D3. On a 1, remove this unit’s Sotek’s Venomites from the battlefield. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Ripperdactyl Riders | 70 |
+| Terradon Riders | 70 |
+| Terrawings | 70 |
+| Hunters of Huanchi with Dartpipes | 80 |
+| Skinks | 80 |
+| Saurus Oldblood | 90 |
+| Saurus Oldblood on Carnosaur (Scourge of Ghyran) | 90 |
+| Skink Starpriest | 90 |
+| Spawn of Chotec | 90 |
+| Hunters of Huanchi with Starstone Bolas | 100 |
+| Terradon Chief | 100 |
+| Ripperdactyl Chief | 110 |
+| The Starblood Stalkers | 110 |
+| Raptadon Hunters | 120 |
+| Saurus Astrolith Bearer | 120 |
+| Saurus Guard | 120 |
+| The Jaws of Itzl | 120 |
+| Raptadon Chargers | 140 |
+| Saurus Scar-Veteran on Aggradon | 150 |
+| Saurus Warriors | 150 |
+| Sunblood Pack | 150 |
+| Engine of the Gods | 170 |
+| Skink Starseer | 170 |
+| Stegadon | 170 |
+| Stegadon Chief | 180 |
+| Kroxigor | 200 |
+| Aggradon Lancers | 210 |
+| Kroxigor Warspawned | 210 |
+| Saurus Scar-Veteran on Carnosaur | 210 |
+| Bastiladon with Solar Engine | 220 |
+| Bastiladon with Ark of Sotek | 230 |
+| Skink Oracle on Troglodon | 230 |
+| Saurus Oldblood on Carnosaur | 240 |
+| Slann Starmaster | 260 |
+| Lord Kroak | 440 |

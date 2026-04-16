@@ -827,3 +827,30 @@ On a 4+:
 
 ##### Serve the Enclave (Passive)
 - **Effect:** While this unit and a friendly Chorrileum Namarti unit are contesting the same objective, this unit has a control score of 10 that cannot be modified.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Elathain's Soulraid | 80 |
+| Akhelian Thrallmaster | 90 |
+| Akhelian Thrallmaster (Scourge of Ghyran) | 90 |
+| Isharann Soulrender | 90 |
+| Isharann Soulscryer | 100 |
+| Lotann, Warden of the Soul Ledgers | 100 |
+| Namarti Thralls | 100 |
+| Namarti Thralls (Scourge of Ghyran) | 100 |
+| Isharann Tidecaster | 110 |
+| Cyreni's Razors | 120 |
+| Ikon of the Sea | 120 |
+| Ikon of the Storm | 120 |
+| Namarti Reavers | 130 |
+| Akhelian King | 160 |
+| Mathaela, Oracle of the Abyss | 160 |
+| Akhelian Allopex | 170 |
+| Akhelian Ishlaen Guard | 170 |
+| Akhelian Morrsarr Guard | 170 |
+| Volturnos, High King of the Deep | 230 |
+| Eidolon of Mathlann, Aspect of the Storm | 300 |
+| Eidolon of Mathlann, Aspect of the Sea | 340 |
+| Akhelian Leviadon | 470 |

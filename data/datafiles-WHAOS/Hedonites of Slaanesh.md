@@ -934,3 +934,42 @@ Subtract 1 from hit rolls for shooting attacks that target this unit while it h
 - **Effect:** This unit can move up to 3" immediately after that command has been resolved, unless that command is a reaction, in which case this unit can move after the ability that it was reacting to has been resolved. That move can pass through the combat ranges of enemy units, and can end in combat.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Seeker Chariot | 80 |
+| Infernal Enrapturess, Herald of Slaanesh | 90 |
+| Daemonettes | 100 |
+| Lord of Hubris | 110 |
+| Myrmidesh Painbringers | 110 |
+| The Dread Pageant | 110 |
+| Exalted Chariot | 120 |
+| Lord of Pain | 120 |
+| Slaangor Fiendbloods | 120 |
+| Slaangor Fiendbloods (Scourge of Ghyran) | 120 |
+| Symbaresh Twinsouls | 120 |
+| Bladebringer, Herald on Exalted Chariot | 130 |
+| Bladebringer, Herald on Seeker Chariot | 130 |
+| Hellflayer | 130 |
+| Shardspeaker of Slaanesh | 130 |
+| The Masque | 130 |
+| The Thricefold Discord | 130 |
+| Bladebringer, Herald on Hellflayer | 140 |
+| Seekers | 140 |
+| Viceleader, Herald of Slaanesh | 140 |
+| Blissbarb Archers | 150 |
+| Contorted Epitome | 150 |
+| Fiends | 150 |
+| Hellstriders | 150 |
+| Dexcessa, the Talon of Slaanesh | 160 |
+| Blissbarb Seekers | 170 |
+| Slickblade Seekers | 180 |
+| Sigvald, Prince of Slaanesh | 190 |
+| Synessa, the Voice of Slaanesh | 190 |
+| Syll'Esske, the Vengeful Allegiance | 200 |
+| Syll'Esske, the Vengeful Allegiance (Scourge of Ghyran) | 200 |
+| Keeper of Secrets | 420 |
+| Glutos Orscollion, Lord of Gluttony | 440 |
+| Shalaxi Helbane | 450 |

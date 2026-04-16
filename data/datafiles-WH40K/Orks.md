@@ -986,3 +986,63 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
 - GRETCHIN
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Gretchin | 40 |
+| Upstart Gretchin [Crucible] | 40 |
+| Mek | 45 |
+| Lootas | 50 |
+| Burna Boyz | 60 |
+| Wurrboy | 60 |
+| Meganobz | 65 |
+| Stormboyz | 65 |
+| Warbikers | 65 |
+| Warphead [Crucible] | 65 |
+| Weirdboy | 65 |
+| Big Mek | 70 |
+| Boomdakka Snazzwagon | 70 |
+| Kustom Boosta-blasta | 70 |
+| Painboss | 70 |
+| Shokkjump Dragsta | 70 |
+| Trukk | 70 |
+| Boss Snikrot | 75 |
+| Hordeboss [Crucible] | 75 |
+| Megatrakk Scrapjet | 75 |
+| Warboss | 75 |
+| Beastboss | 80 |
+| Big Mek with Shokk Attack Gun | 80 |
+| Boyz | 80 |
+| Deffkilla Wartrike | 80 |
+| Deffkoptas | 80 |
+| Flash Gitz | 80 |
+| Painboy | 80 |
+| Warboss in Mega Armour | 80 |
+| Big Mek in Mega Armour | 90 |
+| Zodgrod Wortsnagga | 90 |
+| Beast Snagga Boyz | 95 |
+| Rukkatrukk Squigbuggy | 95 |
+| Nobz | 105 |
+| Beastboss on Squigosaur | 110 |
+| Blitza-bommer | 115 |
+| Deff Dread | 120 |
+| Kommandos | 120 |
+| Burna-bommer | 125 |
+| Killa Kans | 125 |
+| Big'ed Bossbunka | 135 |
+| Dakkajet | 135 |
+| Hunta Rig | 135 |
+| Breaka Boyz | 140 |
+| Tankbustas | 140 |
+| Mozrog Skragbad | 145 |
+| Squighog Boyz | 150 |
+| Kill Rig | 155 |
+| Battlewagon | 160 |
+| Wazbom Blastajet | 175 |
+| Ghazghkull Thraka | 235 |
+| Gorkanaut | 265 |
+| Morkanaut | 280 |
+| Gargantuan Squiggoth | 440 |
+| Stompa | 800 |

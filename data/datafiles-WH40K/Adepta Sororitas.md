@@ -1797,3 +1797,96 @@ If this unit made a Charge move this turn, until the end of the phase, select bo
 - **Invulnerable Save:** Models in this unit have an Invulnerable save of 5+.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Dialogus | 40 |
+| Arco-Flagellants | 45 |
+| Dogmata | 45 |
+| Inquisitorial Agents | 50 |
+| Inspiring Devotee [Crucible] | 50 |
+| Ministorum Priest | 50 |
+| Palatine | 50 |
+| Voidsmen-at-Arms | 50 |
+| Inquisitor | 55 |
+| Canoness | 60 |
+| Hospitaller | 60 |
+| Martial Agent [Crucible] | 60 |
+| Navigator | 60 |
+| Imagifier | 65 |
+| Inquisitor Greyfax | 65 |
+| Watch Captain Artemis | 65 |
+| Aestred Thurga and Agathae Dolan | 70 |
+| Celestian Sacresants | 70 |
+| Inquisitorial Chimera | 70 |
+| Mortifiers | 70 |
+| Canoness with Jump Pack | 75 |
+| Imperial Rhino | 75 |
+| Inquisitor Coteaz | 75 |
+| Inquisitor Draxus | 75 |
+| Militant Commander [Crucible] | 75 |
+| Penitent Engines | 75 |
+| Rogue Trader Entourage | 75 |
+| Sororitas Rhino | 75 |
+| Junith Eruita | 80 |
+| Seraphim Squad | 80 |
+| Zephyrim Squad | 80 |
+| Culexus Assassin | 85 |
+| Daemonifuge | 85 |
+| Subductor Squad | 85 |
+| Vigilant Squad | 85 |
+| Exaction Squad | 90 |
+| Imperial Navy Breachers | 90 |
+| Watch Master | 95 |
+| Aquila Kill Team | 100 |
+| Callidus Assassin | 100 |
+| Deathwatch Kill Team | 100 |
+| Reliquant Knight [Crucible] | 100 |
+| Sisters Novitiate Squad | 100 |
+| Sisters of Battle Immolator | 100 |
+| Sisters of Battle Squad | 100 |
+| Battle Sisters Squad | 105 |
+| Deathwatch Agent [Crucible] | 105 |
+| Eversor Assassin | 110 |
+| Sanctifiers | 110 |
+| Vindicare Assassin | 110 |
+| Immolator | 115 |
+| Celestian Insidiants | 120 |
+| Dominion Squad | 120 |
+| Enthroned Agent [Crucible] | 120 |
+| Retributor Squad | 120 |
+| Armiger Helverin | 135 |
+| Armiger Warglaive | 140 |
+| Armiger Moirax | 150 |
+| Saint Celestine | 150 |
+| Castigator | 160 |
+| Corvus Blackstar | 180 |
+| Morvenn Vahl | 185 |
+| Grey Knights Terminator Squad | 190 |
+| Exorcist | 210 |
+| Paragon Warsuits | 210 |
+| Triumph of Saint Katherine | 235 |
+| Knight Errant | 355 |
+| Knight Gallant | 355 |
+| Knight Preceptor | 365 |
+| Knight Paladin | 375 |
+| Knight Warden | 375 |
+| Knight Crusader | 385 |
+| Questoris Knight Magaera | 385 |
+| Questoris Knight Styrix | 385 |
+| Cerastus Knight Acheron | 395 |
+| Cerastus Knight Castigator | 395 |
+| Cerastus Knight Lancer | 395 |
+| Cerastus Knight Atrapos | 405 |
+| Knight Castellan | 410 |
+| Knight Valiant | 410 |
+| Canis Rex | 415 |
+| Knight Defender | 415 |
+| Acastus Knight Porphyrion | 700 |
+| Acastus Knight Asterius | 765 |
+| Warhound Titan | 1100 |
+| Reaver Titan | 2200 |
+| Warbringer Nemesis Titan | 2600 |
+| Warlord Titan | 3500 |

@@ -629,3 +629,27 @@ While a unit is krump'd:
 
 ##### Oi! Back To It! (Passive)
 - **Effect:** If a friendly Zoggrok's Ironmongers Ardboyz or Brutes unit wholly within 12" of this unit uses the 'Rally' command, you can make 3 additional rally rolls of D6.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Brute Ragerz | 100 |
+| Weirdbrute Wrekkaz | 100 |
+| Weirdbrute Wrekkaz (Scourge of Ghyran) | 100 |
+| Ardboy Big Boss | 110 |
+| Ironskull's Boyz | 110 |
+| Morgok's Krushas | 110 |
+| Warchanter | 110 |
+| Weirdnob Shaman | 120 |
+| Megaboss | 150 |
+| Zoggrok Anvilsmasha | 160 |
+| Ardboyz | 170 |
+| Gore-gruntas | 170 |
+| Gore-gruntas (Scourge of Ghyran) | 170 |
+| Brutes | 180 |
+| Maw-grunta Gougers | 200 |
+| Maw-grunta with Hakkin' Krew | 250 |
+| Tuskboss on Maw-grunta | 250 |
+| Megaboss on Maw-krusha | 330 |
+| Gordrakk, the Fist of Gork | 340 |

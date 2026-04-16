@@ -1127,3 +1127,41 @@ Destiny dice can be spent in place of the following dice rolls:
 ##### Nexus of Fate (Activated)
 - **Timing:** Your Hero Phase
 - **Effect:** Roll a dice. If you have 9 unspent destiny dice, you must replace 1 of your destiny dice with that roll. Otherwise, place that dice to one side as a destiny dice.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Chaos Spawn of Tzeentch | 60 |
+| Kairic Acolytes | 90 |
+| Kairic Acolytes (Scourge of Ghyran) | 90 |
+| Screamers of Tzeentch | 90 |
+| Tzaangor Enlightened on Foot | 90 |
+| Ephilim's Pandaemonium | 100 |
+| Eyes of the Nine | 100 |
+| Jade Obelisk | 100 |
+| Burning Chariot of Tzeentch | 110 |
+| Exalted Flamer of Tzeentch | 110 |
+| Blue Horrors and Brimstone Horrors | 120 |
+| Changecaster, Herald of Tzeentch | 130 |
+| Flamers of Tzeentch | 130 |
+| Ogroid Thaumaturge | 130 |
+| Ogroid Thaumaturge (Scourge of Ghyran) | 130 |
+| Tzaangor Shaman | 130 |
+| Fateskimmer, Herald of Tzeentch on Burning Chariot | 140 |
+| Magister | 140 |
+| Curseling, Eye of Tzeentch | 150 |
+| Fatemaster | 150 |
+| Fatemaster | 150 |
+| Magister on Disc of Tzeentch | 150 |
+| Tzaangor Skyfires | 160 |
+| Pink Horrors | 170 |
+| The Changeling | 170 |
+| Tzaangors | 170 |
+| Fluxmaster, Herald of Tzeentch on Disc | 180 |
+| Gaunt Summoner | 180 |
+| The Blue Scribes | 180 |
+| Tzaangor Enlightened | 200 |
+| Gaunt Summoner on Disc of Tzeentch | 210 |
+| Lord of Change | 380 |
+| Kairos Fateweaver | 400 |

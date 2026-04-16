@@ -1538,3 +1538,57 @@ Designer's Note: *These enhancements are given to the* Heroes *during the deploy
 ##### Loonstone Teef (Activated)
 - **Timing:** Once Per Battle, Any Combat Phase
 - **Effect:** This unit can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the turn.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Wolfgit Retinue | 70 |
+| Madcap Shaman | 80 |
+| Borgit's Beastgrabbaz | 90 |
+| Loonboss | 90 |
+| Loonboss on Giant Cave Squig | 90 |
+| Sporesplatta Fanatics | 90 |
+| Sporesplatta Fanatics (Scourge of Ghyran) | 90 |
+| Fungoid Cave-Shaman | 100 |
+| Grinkrak's Looncourt | 100 |
+| Rippa's Snarlfangs | 100 |
+| Sneaky Snufflers | 100 |
+| Squig Herd | 100 |
+| Webspinner Shaman | 100 |
+| Loonsmasha Fanatics | 110 |
+| Loonsmasha Fanatics (Scourge of Ghyran) | 110 |
+| Moonclan Stabbas | 110 |
+| Rabble-Rowza | 110 |
+| Snarlpack Cavalry | 110 |
+| Spider Riders | 110 |
+| Boingrot Bounderz | 120 |
+| Loonboss with Giant Cave Squig | 120 |
+| Moonclan Shootas | 120 |
+| Snarlboss | 120 |
+| Snarlfang Riders | 120 |
+| Squigboss with Gnasha-squig | 120 |
+| Sunsteala Wheelas | 130 |
+| Zarbag's Gitz | 130 |
+| Mangler Squigs | 140 |
+| Aleguzzler Gargant | 150 |
+| Dankhold Troggoth | 150 |
+| Frazzlegit Shaman on War-Wheela | 150 |
+| Gobbapalooza | 150 |
+| Snarlboss on War-Wheela | 150 |
+| Scuttleboss on Gigantic Spider | 160 |
+| Squig Hoppers | 160 |
+| Doom Diver Catapult | 170 |
+| Droggz da Sunchompa | 170 |
+| Fellwater Troggoths | 170 |
+| Loonboss on Mangler Squigs | 170 |
+| Rockgut Troggoths | 180 |
+| Skitterstrand Arachnarok | 190 |
+| Skragrott, the Loonking | 200 |
+| Mollog | 210 |
+| Arachnarok Spider with Spiderfang Warparty | 220 |
+| Dankhold Troggboss | 220 |
+| Arachnarok Spider with Flinger | 230 |
+| Webspinner Shaman on Arachnarok Spider | 250 |
+| Trugg, the Troggoth King | 360 |
+| Kragnos, the End of Empires | 580 |

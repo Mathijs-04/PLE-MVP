@@ -663,3 +663,27 @@ Battle Round 5:
 
 ##### Raging Animus (Passive)
 - **Effect:** Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict D3 mortal damage on the attacking unit after the Fight ability has been resolved.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Hobgrot Vandalz | 70 |
+| War Despot | 90 |
+| War Despot (Scourge of Ghyran) | 90 |
+| Infernal Cohort with Hashutite Blades | 100 |
+| Infernal Cohort with Hashutite Blades (Scourge of Ghyran) | 100 |
+| Infernal Razers with Flamehurlers | 100 |
+| Daemonsmith | 110 |
+| Infernal Cohort with Hashutite Spears | 110 |
+| Infernal Razers with Blunderbusses | 110 |
+| Ashen Elder | 120 |
+| The Blood of the Bull | 120 |
+| Tormentor Bombard | 130 |
+| Deathshrieker Rocket Battery | 140 |
+| Anointed Sentinels | 150 |
+| Dominator Engine with Bane Maces | 160 |
+| Bull Centaurs | 190 |
+| Dominator Engine with Immolation Cannons | 190 |
+| Daemonsmith on Infernal Taurus | 290 |
+| Urak Taar, the First Daemonsmith | 350 |

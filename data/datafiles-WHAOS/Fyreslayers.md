@@ -631,3 +631,28 @@ Remove the targets from the battlefield. After the Magmadroth ends its move, you
 
 ##### Raised Around Beasts (Passive)
 - **Effect:** The melee weapons of friendly non-Monster units have Anti-Monster (+1 Rend) while they are wholly within 9" of this unit.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Auric Flamekeeper | 80 |
+| Doomseeker | 80 |
+| Auric Runeson | 90 |
+| Auric Runeson on Magmadroth (Scourge of Ghyran) | 90 |
+| Battlesmith | 100 |
+| Grimhold Exile | 100 |
+| Grimwrath Berzerker | 110 |
+| Auric Runesmiter | 120 |
+| Hearthguard Berzerkers with Berzerker Broadaxes | 120 |
+| Hearthguard Berzerkers with Flamestrike Poleaxes | 120 |
+| The Chosen Axes | 120 |
+| Vulkite Berzerkers with Fyresteel Weapons | 120 |
+| Auric Hearthguard | 130 |
+| Auric Runefather | 130 |
+| Vulkite Berzerkers with Bladed Slingshields | 140 |
+| Vulkyn Flameseekers | 170 |
+| Auric Runemaster | 190 |
+| Auric Runeson on Magmadroth | 250 |
+| Auric Runesmiter on Magmadroth | 300 |
+| Auric Runefather on Magmadroth | 330 |

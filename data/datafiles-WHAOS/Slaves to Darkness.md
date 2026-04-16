@@ -1685,3 +1685,64 @@ Designer’s Note: *The abilities listed above are abilities on Darkoath warscr
 - **Timing:** Once Per Battle (Army), Any Movement Phase
 - **Declare:** Pick a friendly Snow Peaks Wilderfiend within 9" of this unit to be the target
 - **Effect:** Give the target D6 sacrifice points.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Chaos Spawn | 60 |
+| Chaos Legionnaires | 80 |
+| Darkoath Chieftain | 80 |
+| Darkoath Marauders | 80 |
+| Chaos Chariot | 90 |
+| Darkoath Savagers | 90 |
+| Exalted Hero of Chaos | 90 |
+| Chaos Lord | 100 |
+| Corvus Cabal | 100 |
+| Cypher Lords | 100 |
+| Darkoath Chieftain on Warsteed | 100 |
+| Darkoath Warqueen | 100 |
+| Gorebeast Chariot | 100 |
+| Iron Golem | 100 |
+| Raptoryx | 100 |
+| Godsworn Hunt | 110 |
+| Spire Tyrants | 110 |
+| Splintered Fang | 110 |
+| The Gnarlspirit Pack | 110 |
+| The Unmade | 110 |
+| Untamed Beasts | 110 |
+| Centaurion Marshal | 120 |
+| Chaos Furies | 120 |
+| Chaos Sorcerer Lord | 120 |
+| Fomoroid Crusher | 120 |
+| Horns of Hashut | 120 |
+| Ogroid Myrmidon | 120 |
+| Scions of the Flame | 120 |
+| Darkoath Wilderfiend | 130 |
+| Chaos Lord on Daemonic Mount | 140 |
+| Athol Khul | 150 |
+| Darkoath Fellriders | 150 |
+| Mindstealer Sphiranx | 150 |
+| Tarantulos Brood | 150 |
+| Khagra's Ravagers | 170 |
+| Mutalith Vortex Beast | 170 |
+| Ogroid Theridons | 170 |
+| Eternus, Blade of the First Prince | 180 |
+| Gaunt Summoner | 180 |
+| Chaos Lord on Karkadrak | 190 |
+| Chaos Warriors | 190 |
+| Gunnar Brand | 200 |
+| Slaughterbrute | 200 |
+| Gaunt Summoner on Disc of Tzeentch | 210 |
+| Chaos Knights | 250 |
+| Chaos Warshrine | 250 |
+| Daemon Prince | 250 |
+| Abraxia, Spear of the Everchosen | 260 |
+| Abraxia, Spear of the Everchosen (Scourge of Ghyran) | 260 |
+| Chaos Lord on Manticore | 260 |
+| Chaos Chosen | 280 |
+| Chaos Sorcerer Lord on Manticore | 280 |
+| Varanguard | 320 |
+| Soul Grinder | 330 |
+| Be'lakor, the Dark Master | 450 |
+| Archaon, the Everchosen | 810 |

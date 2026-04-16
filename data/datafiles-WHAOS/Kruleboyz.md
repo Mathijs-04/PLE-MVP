@@ -707,3 +707,29 @@ After this ability has been resolved, this unit cannot use any other Rampage abi
 
 ##### Grim Diet (Passive)
 - **Effect:** This unit has Ward (5+)
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Skaregob Totem | 20 |
+| Hobgrot Slittaboss | 70 |
+| Hobgrot Slittaz | 80 |
+| Killaboss with Stab-grot | 80 |
+| Murknob with Belcha-banna | 90 |
+| Man-skewer Boltboyz | 100 |
+| Da Kunnin' Krew | 120 |
+| Daggok's Stab-ladz | 120 |
+| Kruleboyz Monsta-killaz | 120 |
+| Swampcalla Shaman with Pot-grot | 120 |
+| Beast-skewer Killbow | 140 |
+| Marshcrawla Sloggoth | 140 |
+| Killaboss on Great Gnashtoof | 150 |
+| Killaboss on Great Gnashtoof (Scourge of Ghyran) | 150 |
+| Gutrippaz | 160 |
+| Breaka-boss on Mirebrute Troggoth | 200 |
+| Snatchaboss on Sludgeraker Beast | 200 |
+| Swampboss Skumdrekk | 200 |
+| Swampboss Skumdrekk (Scourge of Ghyran) | 200 |
+| Gobsprakk, the Mouth of Mork | 260 |
+| Killaboss on Corpse-rippa Vulcha | 260 |

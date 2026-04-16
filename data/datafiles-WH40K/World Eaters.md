@@ -1097,3 +1097,65 @@ Each time a World Eaters unit from your army disembarks from a Transport, until 
 - **Striding Colossus:** Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Bloodcult Champion [Crucible] | 60 |
+| Master of Executions | 60 |
+| Jakhals | 65 |
+| Flesh Hounds | 75 |
+| Goremongers | 75 |
+| Chaos Rhino | 85 |
+| Bloodletters | 90 |
+| Butcherlord [Crucible] | 90 |
+| Chaos Spawn | 90 |
+| Eight-blessed Lord [Crucible] | 90 |
+| Khârn the Betrayer | 100 |
+| Slaughterbound | 100 |
+| Lord on Juggernaut | 105 |
+| Bloodcrushers | 110 |
+| Lord Invocatus | 110 |
+| Helbrute | 120 |
+| War Dog Executioner | 130 |
+| Eightbound | 135 |
+| Exalted Eightbound | 140 |
+| War Dog Brigand | 140 |
+| War Dog Huntsman | 140 |
+| War Dog Stalker | 140 |
+| Chaos Predator Annihilator | 145 |
+| Chaos Predator Destructor | 145 |
+| Maulerfiend | 150 |
+| War Dog Karnivore | 150 |
+| War Dog Moirax | 150 |
+| Forgefiend | 165 |
+| Chaos Terminators | 175 |
+| Daemon Prince of Khorne with wings | 180 |
+| Defiler | 180 |
+| Khorne Berzerkers | 180 |
+| Daemon Prince of Khorne | 200 |
+| Heldrake | 200 |
+| Chaos Land Raider | 220 |
+| Bloodthirster | 305 |
+| Skarbrand | 305 |
+| Angron | 340 |
+| Knight Abominant | 355 |
+| Knight Desecrator | 355 |
+| Knight Ruinator | 355 |
+| Knight Rampager | 365 |
+| Chaos Questoris Knight Magaera | 375 |
+| Chaos Questoris Knight Styrix | 375 |
+| Chaos Cerastus Knight Acheron | 385 |
+| Chaos Cerastus Knight Castigator | 385 |
+| Chaos Cerastus Knight Lancer | 385 |
+| Knight Despoiler | 390 |
+| Chaos Cerastus Knight Atrapos | 395 |
+| Knight Tyrant | 410 |
+| Khorne Lord of Skulls | 505 |
+| Chaos Acastus Knight Porphyrion | 700 |
+| Chaos Acastus Knight Asterius | 765 |
+| Warhound Titan | 1100 |
+| Reaver Titan | 2200 |
+| Warbringer Nemesis Titan | 2600 |
+| Warlord Titan | 3500 |

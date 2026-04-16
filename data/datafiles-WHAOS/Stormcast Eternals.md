@@ -2272,3 +2272,94 @@ Each time a combat attack made by a friendly Astral Templars unit scores a criti
 
 ##### Corven Lord (Passive)
 - **Effect:** If this unit has the ‘Ruination Chamber’, ability, it can use that ability once per turn regardless of whether another friendly unit has used it during the same turn.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Stormreach Portal | 20 |
+| Aetherwings | 80 |
+| Dracothian Guard Tempestors | 90 |
+| Gryph-hounds | 90 |
+| Liberators | 90 |
+| Vindictors | 90 |
+| Dracothian Guard Desolators | 100 |
+| Dracothian Guard Fulminators | 100 |
+| Knight-Vexillor | 100 |
+| Lord-Celestant | 100 |
+| Lord-Ordinator | 100 |
+| The Farstriders | 100 |
+| Vanquishers | 100 |
+| Castigators | 110 |
+| Knight-Heraldor | 110 |
+| Knight-Questor | 110 |
+| Lord-Imperatant | 110 |
+| Lord-Veritant | 110 |
+| Steelheart's Champions | 110 |
+| Vanguard-Raptors with Hurricane Crossbows | 110 |
+| Celestar Ballista | 120 |
+| Dracothian Guard Concussors | 120 |
+| Gavriel Sureheart | 120 |
+| Knight-Arcanum | 120 |
+| Knight-Azyros | 120 |
+| Knight-Relictor | 120 |
+| Lord-Relictor | 120 |
+| Sequitors | 120 |
+| Stormstrike Chariot | 120 |
+| Vanguard-Hunters | 120 |
+| Annihilators | 130 |
+| Knight-Judicator with Gryph-hounds | 130 |
+| Knight-Zephyros | 130 |
+| Praetors | 130 |
+| Stormsire's Cursebreakers | 130 |
+| Xandire's Truthseekers | 130 |
+| Judicators with Skybolt Bows | 140 |
+| Knight-Incantor | 140 |
+| Lord-Aquilor | 140 |
+| Lord-Arcanum | 140 |
+| Lord-Terminos | 140 |
+| Lord-Vigilant on Gryph-stalker | 140 |
+| Reclusians | 140 |
+| The Emberwatch | 140 |
+| Vigilors | 140 |
+| Lord-Castellant | 150 |
+| Lord-Exorcist | 150 |
+| Prosecutors | 150 |
+| Tornus the Redeemed | 150 |
+| Gardus Steel Soul | 160 |
+| Judicators with Boltstorm Crossbows | 160 |
+| Lord-Celestant on Dracoth | 160 |
+| Stormdrake Guard | 160 |
+| Knight-Venator | 170 |
+| Retributors | 170 |
+| Vandus Hammerhand | 170 |
+| Annihilators with Meteoric Grandhammers | 180 |
+| Evocators | 180 |
+| Stormstrike Palladors | 190 |
+| Lord-Vigilant on Morrgryph | 200 |
+| Questor Soulsworn | 200 |
+| Vanguard-Raptors with Longstrike Crossbows | 200 |
+| Domitan's Stormcoven | 210 |
+| Lord-Arcanum on Celestial Dracoline | 210 |
+| Lord-Commander Bastian Carthalos | 210 |
+| Stormcoven | 210 |
+| Astreia Solbright | 220 |
+| Lord-Arcanum on Gryph-charger | 220 |
+| Protectors | 220 |
+| Knight-Draconis | 230 |
+| Decimators | 240 |
+| Evocators on Celestial Dracolines | 240 |
+| Vanguard-Palladors with Shock Handaxes | 250 |
+| Vanguard-Palladors with Starstrike Javelins | 250 |
+| Iridan the Witness | 260 |
+| Iridan the Witness (Scourge of Ghyran) | 260 |
+| Celestant-Prime, Hammer of Sigmar | 270 |
+| Lord-Arcanum on Tauralon | 280 |
+| Yndrasta, the Celestial Spear | 290 |
+| Neave Blacktalon | 300 |
+| Aventis Firestrike, Magister of Hammerhal | 310 |
+| Ionus Cryptborn, Warden of Lost Souls | 380 |
+| Drakesworn Templar | 420 |
+| Karazai the Scarred | 460 |
+| Lord-Celestant on Stardrake | 480 |
+| Krondys, Son of Dracothion | 520 |

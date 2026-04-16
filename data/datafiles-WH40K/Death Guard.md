@@ -1200,3 +1200,69 @@ While Typhus is leading this unit, enemy models destroyed as a result of Typhus�
 - **Striding Colossus:** Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Nurglings | 40 |
+| Icon Bearer | 45 |
+| Noxious Blightbringer | 50 |
+| Plague Surgeon | 50 |
+| Tallyman | 50 |
+| Biologus Putrifier | 60 |
+| Malignant Plaguecaster | 60 |
+| Poxwalkers | 65 |
+| Plague Sorcerer [Crucible] | 70 |
+| Foul Blightspawn | 75 |
+| Lord of Poxes | 75 |
+| Chaos Spawn | 80 |
+| Plague Lord [Crucible] | 80 |
+| Chaos Rhino | 85 |
+| Plague Marines | 95 |
+| Foetid Bloat-drone | 100 |
+| Lord of Virulence | 100 |
+| Typhus | 100 |
+| Miasmic Malignifier | 105 |
+| Plaguebearers | 110 |
+| Blightlord Terminators | 115 |
+| Helbrute | 115 |
+| Plague Drones | 115 |
+| Foetid Bloat-drone with heavy blight launcher | 120 |
+| Lord of Contagion | 120 |
+| Tri-lobe Vectors [Crucible] | 120 |
+| War Dog Executioner | 130 |
+| Chaos Predator Annihilator | 135 |
+| War Dog Brigand | 140 |
+| War Dog Huntsman | 140 |
+| War Dog Stalker | 140 |
+| Chaos Predator Destructor | 145 |
+| War Dog Karnivore | 150 |
+| War Dog Moirax | 150 |
+| Deathshroud Terminators | 160 |
+| Defiler | 165 |
+| Daemon Prince of Nurgle with wings | 180 |
+| Daemon Prince of Nurgle | 195 |
+| Plagueburst Crawler | 210 |
+| Chaos Land Raider | 220 |
+| Great Unclean One | 250 |
+| Rotigus | 265 |
+| Knight Abominant | 355 |
+| Knight Desecrator | 355 |
+| Knight Ruinator | 355 |
+| Knight Rampager | 365 |
+| Chaos Questoris Knight Magaera | 375 |
+| Chaos Questoris Knight Styrix | 375 |
+| Mortarion | 380 |
+| Chaos Cerastus Knight Acheron | 385 |
+| Chaos Cerastus Knight Castigator | 385 |
+| Chaos Cerastus Knight Lancer | 385 |
+| Knight Despoiler | 390 |
+| Chaos Cerastus Knight Atrapos | 395 |
+| Knight Tyrant | 410 |
+| Chaos Acastus Knight Porphyrion | 700 |
+| Chaos Acastus Knight Asterius | 765 |
+| Warhound Titan | 1100 |
+| Reaver Titan | 2200 |
+| Warbringer Nemesis Titan | 2600 |
+| Warlord Titan | 3500 |

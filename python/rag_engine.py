@@ -107,6 +107,206 @@ were needed.
 Do not include any text outside the JSON object. Do not wrap it in code fences.
 """.strip()
 
+ARMY_LIST_SYSTEM_PROMPT = """
+You are a Warhammer army-list builder. You receive a faction points table,
+a pre-computed balanced army list, and possibly some warscroll snippets.
+Your job is to present a legal, balanced army list that fits the requested
+points budget.
+
+ARMY COMPOSITION — a good list MUST include a mix of:
+- 1-2 Heroes (leaders/characters)
+- 2-3 Infantry/Battleline units (the core of any army)
+- 1-2 heavier units: Monsters, Vehicles, War Machines, or Cavalry
+- Optionally: cheap support or ranged units to fill remaining points
+NEVER recommend an army of only 2-3 elite monsters or only heroes.
+A real army needs bodies on the board.
+
+STRICT OUTPUT RULES — you MUST follow these:
+1. Return EXACTLY ONE recommended list. Never show rejected attempts, failed
+   totals, or iterative recalculations.
+2. The "short_answer" is a single sentence naming a few key units and the total.
+3. The "detailed_answer" contains ONLY:
+   - The unit list as bullet points (unit name — points).
+   - A "**Total: X points**" line.
+   - 2-3 short sentences explaining why this is a balanced list.
+   - Nothing else. No alternative lists. No disclaimers about missing data.
+4. The total MUST be at or below the requested budget. Double-check your
+   arithmetic before responding.
+5. Do NOT explain your reasoning process or show working.
+6. If a pre-computed list is provided, use it as-is unless you can clearly
+   improve it while keeping a similar role balance and staying under budget.
+
+Always respond with a valid JSON object in exactly this format, and nothing else:
+
+{
+  "short_answer": "<one-line summary>",
+  "detailed_answer": "<bullet list + total + 2-3 sentences>",
+  "source": {
+    "has_core_rules": false,
+    "factions": ["<faction name>"]
+  },
+  "certainty": 2
+}
+
+Do not include any text outside the JSON object. Do not wrap it in code fences.
+""".strip()
+
+
+def _extract_points_budget(question: str) -> Optional[int]:
+    m = re.search(r"(\d{3,5})\s*(?:point|points|pts)", question, re.IGNORECASE)
+    return int(m.group(1)) if m else None
+
+
+_ROLE_KEYWORDS_AOS = {
+    "hero": {"HERO"},
+    "infantry": {"INFANTRY"},
+    "monster": {"MONSTER"},
+    "cavalry": {"CAVALRY"},
+    "war_machine": {"WAR MACHINE"},
+}
+
+_ROLE_KEYWORDS_40K = {
+    "hero": {"Character"},
+    "infantry": {"Infantry"},
+    "monster": {"Monster"},
+    "vehicle": {"Vehicle"},
+    "mounted": {"Mounted"},
+}
+
+_UNIT_HEADING_RE = re.compile(r"^###\s+(.+?)\s*$", re.MULTILINE)
+_POINTS_LINE_RE = re.compile(r"\*\*Points:\*\*\s*(\d+)")
+_KEYWORDS_LINE_RE = re.compile(r"^\*\*Keywords:\*\*\s*(.+)$", re.MULTILINE)
+
+
+def _parse_units_with_roles(
+    faction_text: str,
+    game: str = "aos",
+) -> list[dict]:
+    units_match = re.search(
+        r"^## Units\s*$([\s\S]+?)(?=^## (?!Units)|\Z)",
+        faction_text,
+        re.MULTILINE,
+    )
+    if not units_match:
+        return []
+
+    units_text = units_match.group(1)
+    headings = list(_UNIT_HEADING_RE.finditer(units_text))
+    role_map = _ROLE_KEYWORDS_40K if game == "wh40k" else _ROLE_KEYWORDS_AOS
+    parsed: list[dict] = []
+
+    for i, heading in enumerate(headings):
+        start = heading.start()
+        end = headings[i + 1].start() if i + 1 < len(headings) else len(units_text)
+        section = units_text[start:end]
+
+        pts_m = _POINTS_LINE_RE.search(section[:400])
+        if not pts_m:
+            continue
+        kw_m = _KEYWORDS_LINE_RE.search(section[:500])
+        kw_text = kw_m.group(1) if kw_m else ""
+        kw_upper = kw_text.upper()
+
+        roles: set[str] = set()
+        for role, triggers in role_map.items():
+            for trigger in triggers:
+                if trigger.upper() in kw_upper:
+                    roles.add(role)
+
+        is_unique = "UNIQUE" in kw_upper or "EPIC HERO" in kw_upper
+        is_battleline = "BATTLELINE" in kw_upper
+
+        parsed.append({
+            "name": heading.group(1).strip(),
+            "pts": int(pts_m.group(1)),
+            "roles": roles,
+            "unique": is_unique,
+            "battleline": is_battleline,
+        })
+
+    return parsed
+
+
+def _pick_from(
+    pool: list[dict],
+    remaining: int,
+    used_names: set[str],
+    count: int,
+) -> list[dict]:
+    picked: list[dict] = []
+    for u in pool:
+        if len(picked) >= count:
+            break
+        if u["pts"] <= remaining and u["name"] not in used_names:
+            picked.append(u)
+            remaining -= u["pts"]
+            used_names.add(u["name"])
+    return picked
+
+
+def _build_army_list_from_table(
+    faction_text: str,
+    budget: int,
+    game: str = "aos",
+) -> Optional[str]:
+    all_units = _parse_units_with_roles(faction_text, game)
+    if not all_units:
+        return None
+
+    heroes = [u for u in all_units if "hero" in u["roles"] and not u["unique"]]
+    battleline = [u for u in all_units if u["battleline"]]
+    infantry = [u for u in all_units
+                if "infantry" in u["roles"] and "hero" not in u["roles"]]
+    monsters = [u for u in all_units
+                if ("monster" in u["roles"] or "vehicle" in u["roles"])
+                and "hero" not in u["roles"]]
+    machines = [u for u in all_units
+                if "war_machine" in u["roles"] and "hero" not in u["roles"]]
+    cavalry = [u for u in all_units
+               if ("cavalry" in u["roles"] or "mounted" in u["roles"])
+               and "hero" not in u["roles"]]
+
+    for pool in (heroes, battleline, infantry, monsters, machines, cavalry):
+        pool.sort(key=lambda u: u["pts"])
+
+    picked: list[dict] = []
+    used: set[str] = set()
+    remaining = budget
+
+    hero_target = max(1, budget // 500 + 1)
+    bl_target = max(1, budget // 400)
+    inf_target = max(1, budget // 500)
+    heavy_target = max(1, budget // 600)
+
+    def _pick(pool: list[dict], n: int) -> None:
+        nonlocal remaining
+        chosen = _pick_from(pool, remaining, used, n)
+        picked.extend(chosen)
+        remaining -= sum(u["pts"] for u in chosen)
+
+    _pick(heroes, hero_target)
+    if battleline:
+        _pick(battleline, bl_target)
+    else:
+        _pick(infantry, bl_target)
+    _pick(infantry, inf_target)
+    if monsters or machines:
+        _pick(monsters + machines, heavy_target)
+    if cavalry:
+        _pick(cavalry, 1)
+
+    remaining_units = [u for u in all_units if u["name"] not in used]
+    remaining_units.sort(key=lambda u: u["pts"])
+    _pick(remaining_units, 10)
+
+    if not picked:
+        return None
+
+    total = sum(u["pts"] for u in picked)
+    lines = [f"- {u['name']}: {u['pts']} pts" for u in picked]
+    lines.append(f"Total: {total}/{budget} points")
+    return "\n".join(lines)
+
 
 # ---------------------------------------------------------------------------
 # Index loading
@@ -290,39 +490,12 @@ def detect_faction_query(
 
     Returns None otherwise.
     """
-    q_lower = question.lower()
-
-    # Multi-word signals (e.g. "all units") are satisfied when all their tokens
-    # appear anywhere in the question, not necessarily adjacent.
-    def _has_signal(q: str) -> bool:
-        for sig in _FACTION_COMPARATIVE_SIGNALS:
-            words = sig.split()
-            if all(w in q for w in words):
-                return True
-        return False
-
-    if not _has_signal(q_lower):
-        return None
-
-    q_toks = set(_tokenize(question))
-    best_match: Optional[Tuple[str, str]] = None
-    best_score = 0.0
-
-    for path, text in sources:
-        if "## Units" not in text:
-            continue
-
-        faction_name = os.path.splitext(os.path.basename(path))[0]
-        faction_toks = [t for t in _tokenize(faction_name) if len(t) > 3]
-        if not faction_toks:
-            continue
-
-        overlap = len(set(faction_toks) & q_toks) / len(faction_toks)
-        if overlap > best_score:
-            best_score = overlap
-            best_match = (faction_name, text)
-
-    return best_match if best_score > 0 else None
+    return detect_faction_source(
+        question,
+        sources,
+        require_units=True,
+        signals=_FACTION_COMPARATIVE_SIGNALS,
+    )
 
 
 def build_unit_summary(faction_text: str, faction_name: str) -> str:
@@ -355,6 +528,19 @@ def build_unit_summary(faction_text: str, faction_name: str) -> str:
         f"[{faction_name} | all units with stats — use for faction-wide comparisons]\n"
         + "\n".join(lines)
     )
+
+
+def build_points_table_summary(faction_text: str, faction_name: str) -> str:
+    match = re.search(
+        r"^## Points Table\s*$([\s\S]+?)(?=^##\s+|\Z)",
+        faction_text,
+        re.MULTILINE,
+    )
+    if not match:
+        return ""
+
+    section = match.group(0).strip()
+    return f"[{faction_name} | full faction points table]\n{section}"
 
 
 _FILTER_WORDS = {
@@ -397,6 +583,21 @@ _FACTION_COMPARATIVE_SIGNALS = frozenset({
     "most attacks", "most damage", "most health", "most wounds",
     "highest points", "lowest points", "fewest points",
     "all units", "compare all", "list all", "overview",
+})
+
+_FACTION_POINTS_SIGNALS = frozenset({
+    "1000 point", "1000 points", "2000 point", "2000 points",
+    "army", "army list", "list", "roster", "build", "building",
+    "good", "best", "recommend", "recommended",
+    "point", "points", "pts", "cheap", "cheapest",
+    "expensive", "cost", "costs",
+    "all units", "list all", "overview",
+})
+
+_ARMY_LIST_QUERY_SIGNALS = frozenset({
+    "1000 point", "1000 points", "2000 point", "2000 points",
+    "army", "army list", "list", "roster", "build", "building",
+    "good", "recommend", "recommended",
 })
 
 
@@ -528,6 +729,46 @@ def extract_candidate_phrases(question: str) -> List[str]:
             result.append(p)
 
     return result
+
+
+def _has_any_signal(question: str, signals: Sequence[str]) -> bool:
+    q_lower = question.lower()
+    for sig in signals:
+        words = sig.split()
+        if all(word in q_lower for word in words):
+            return True
+    return False
+
+
+def detect_faction_source(
+    question: str,
+    sources: Sequence[Tuple[str, str]],
+    *,
+    require_units: bool = True,
+    signals: Sequence[str] | None = None,
+) -> Optional[Tuple[str, str]]:
+    if signals and not _has_any_signal(question, signals):
+        return None
+
+    q_toks = set(_tokenize(question))
+    best_match: Optional[Tuple[str, str]] = None
+    best_score = 0.0
+
+    for path, text in sources:
+        if require_units and "## Units" not in text:
+            continue
+
+        faction_name = os.path.splitext(os.path.basename(path))[0]
+        faction_toks = [t for t in _tokenize(faction_name) if len(t) > 3]
+        if not faction_toks:
+            continue
+
+        overlap = len(set(faction_toks) & q_toks) / len(faction_toks)
+        if overlap > best_score:
+            best_score = overlap
+            best_match = (faction_name, text)
+
+    return best_match if best_score > 0 else None
 
 
 def _extract_markdown_section(text: str, start: int, level: int) -> str:
@@ -750,6 +991,21 @@ def answer_question(
                 faction_summary = summary
                 context_snippets = context_snippets[:5]
 
+    points_table_summary: Optional[str] = None
+    if sources:
+        faction_points_data = detect_faction_source(
+            question,
+            sources,
+            require_units=True,
+            signals=_FACTION_POINTS_SIGNALS,
+        )
+        if faction_points_data:
+            faction_name, faction_text = faction_points_data
+            summary = build_points_table_summary(faction_text, faction_name)
+            if summary:
+                points_table_summary = summary
+                context_snippets = context_snippets[:4]
+
     # Reduce semantic noise when keyword search already covers all subjects with
     # precise points data. If only a subset of subjects is covered, keep more
     # semantic chunks so the remaining subjects can still be found.
@@ -762,27 +1018,69 @@ def answer_question(
         elif points_found > 0:
             context_snippets = context_snippets[:6]
 
-    # Faction overview goes first (most informative for comparative queries),
-    # then precise keyword hits, then broad semantic chunks.
-    prefix = [faction_summary] if faction_summary else []
+    prefix: List[str] = []
+    if points_table_summary:
+        prefix.append(points_table_summary)
+    if faction_summary:
+        prefix.append(faction_summary)
     all_snippets = prefix + keyword_snippets + context_snippets
     context_block = "\n\n---\n\n".join(all_snippets)
 
     llm = ChatOpenAI(model=model_name, temperature=0.2)
 
-    messages = [
-        (
-            "system",
-            f"{system_prompt}\n\nYou are answering rules questions for: {game_label}.",
-        ),
-        (
-            "system",
-            "Below is the relevant rules context retrieved from the selected game's "
-            "rules files. Answer ONLY using information that appears here.\n\n"
-            f"{context_block}",
-        ),
-        ("user", question),
-    ]
+    army_list_query = _has_any_signal(question, _ARMY_LIST_QUERY_SIGNALS)
+    budget = _extract_points_budget(question) if army_list_query else None
+
+    game_key = "wh40k" if "40" in game_label else "aos"
+
+    if army_list_query and budget and points_table_summary:
+        precomputed = None
+        faction_pts_data = detect_faction_source(
+            question, sources or [],
+            require_units=True, signals=_FACTION_POINTS_SIGNALS,
+        )
+        if faction_pts_data:
+            precomputed = _build_army_list_from_table(
+                faction_pts_data[1], budget, game=game_key,
+            )
+
+        hint = ""
+        if precomputed:
+            hint = (
+                f"\n\nA balanced army list fitting {budget} points has been "
+                f"pre-computed for you (with heroes, infantry, monsters/vehicles, "
+                f"and support). You may use it as-is or tweak individual units, "
+                f"but the total MUST stay at or below {budget} and MUST keep a "
+                f"similar role balance.\n{precomputed}"
+            )
+
+        messages = [
+            (
+                "system",
+                f"{ARMY_LIST_SYSTEM_PROMPT}\n\nYou are building an army for: {game_label}.",
+            ),
+            (
+                "system",
+                f"Rules context:\n\n{context_block}{hint}",
+            ),
+            ("user", question),
+        ]
+    else:
+        messages = [
+            (
+                "system",
+                f"{system_prompt}\n\nYou are answering rules questions for: {game_label}.",
+            ),
+            (
+                "system",
+                "Below is the relevant rules context retrieved from the selected game's "
+                "rules files. When a faction points table is present, you may use it to "
+                "reason about army construction, unit costs, and broad faction overviews. "
+                "Answer ONLY using information that appears here.\n\n"
+                f"{context_block}",
+            ),
+            ("user", question),
+        ]
 
     response = llm.invoke(messages)
     return response.content.strip()

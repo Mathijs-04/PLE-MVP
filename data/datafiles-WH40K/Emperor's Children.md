@@ -969,3 +969,57 @@ Once per battle round, when you target a Fulgrim unit from your army with the Si
 - **Striding Colossus:** Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Excruciator [Crucible] | 60 |
+| Sorcerer | 60 |
+| Chaos Spawn | 70 |
+| Lord Kakophonist | 70 |
+| Champion of Excess [Crucible] | 80 |
+| Chaos Rhino | 80 |
+| Lord Exultant | 80 |
+| Seekers | 80 |
+| Infractors | 85 |
+| Tormentors | 85 |
+| Daemonettes | 90 |
+| Fiends | 95 |
+| Flawless Blades | 100 |
+| Flawless Champion [Crucible] | 100 |
+| Maulerfiend | 130 |
+| War Dog Executioner | 130 |
+| War Dog Brigand | 140 |
+| War Dog Huntsman | 140 |
+| War Dog Stalker | 140 |
+| Chaos Terminators | 145 |
+| Noise Marines | 145 |
+| Lucius the Eternal | 150 |
+| War Dog Karnivore | 150 |
+| War Dog Moirax | 150 |
+| Daemon Prince of Slaanesh | 180 |
+| Heldrake | 195 |
+| Daemon Prince of Slaanesh with Wings | 215 |
+| Chaos Land Raider | 220 |
+| Keeper of Secrets | 240 |
+| Fulgrim | 340 |
+| Shalaxi Helbane | 340 |
+| Knight Abominant | 355 |
+| Knight Desecrator | 355 |
+| Knight Ruinator | 355 |
+| Knight Rampager | 365 |
+| Chaos Questoris Knight Magaera | 375 |
+| Chaos Questoris Knight Styrix | 375 |
+| Chaos Cerastus Knight Acheron | 385 |
+| Chaos Cerastus Knight Castigator | 385 |
+| Chaos Cerastus Knight Lancer | 385 |
+| Knight Despoiler | 390 |
+| Chaos Cerastus Knight Atrapos | 395 |
+| Knight Tyrant | 410 |
+| Chaos Acastus Knight Porphyrion | 700 |
+| Chaos Acastus Knight Asterius | 765 |
+| Warhound Titan | 1100 |
+| Reaver Titan | 2200 |
+| Warbringer Nemesis Titan | 2600 |
+| Warlord Titan | 3500 |

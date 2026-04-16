@@ -393,3 +393,17 @@ Strike-last for the rest of the turn.
 
 ##### Lucky Shiny Hat (Passive)
 - **Effect:** This unit has Ward (4+) against damage points inflicted by Spell and Prayer abilities and by abilities used by Manifestations.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Mancrusher Gargant | 120 |
+| Mancrusher Mob | 370 |
+| Kraken-eater Mega-Gargant | 450 |
+| Kraken-eater Mega-Gargant (Scourge of Ghyran) | 450 |
+| Warstomper Mega-Gargant | 460 |
+| Beast-smasher Mega-Gargant | 470 |
+| Gatebreaker Mega-Gargant | 500 |
+| King Brodd | 540 |
+| Kragnos, the End of Empires | 590 |

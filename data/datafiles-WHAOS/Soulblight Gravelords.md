@@ -1623,3 +1623,58 @@ In addition, at the end of this turn, after determining control of objectives, 
 - **Timing:** Your Hero Phase
 - **Declare:** Pick a friendly Dire Wolves or Fell Bats unit that has been destroyed to be the target.
 - **Effect:** Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12" of this unit and more than 9" from all enemy units.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Corpse Cart | 70 |
+| Corpse Cart (Scourge of Ghyran) | 70 |
+| Kritza, the Rat Prince | 70 |
+| Deathrattle Skeletons | 90 |
+| Fell Bats | 90 |
+| Wight King | 90 |
+| Kosargi Nightguard | 110 |
+| Lady Annika, the Thirsting Blade | 110 |
+| The Sepulchral Guard | 110 |
+| Watch Captain Halgrim | 110 |
+| Gorslav the Gravekeeper | 120 |
+| Ivya Volga, the Outcast | 120 |
+| Vargheists | 120 |
+| Wight Lord on Skeletal Steed | 120 |
+| Zondara's Gravebreakers | 120 |
+| Askurgan Trueblades | 130 |
+| Radukar the Wolf | 130 |
+| The Sons of Velmorn | 130 |
+| Deadwalker Zombies | 140 |
+| Necromancer | 140 |
+| The Exiled Dead | 140 |
+| Vampire Lord | 140 |
+| Barrow Guard | 150 |
+| Cado Ezechiar, the Hollow King | 150 |
+| Dire Wolves | 150 |
+| Vyrkos Blood-born | 150 |
+| Vargskyr | 160 |
+| Sekhar, Fang of Nulahmia | 180 |
+| Sekhar, Fang of Nulahmia (Scourge of Ghyran) | 180 |
+| Torgillius the Chamberlain | 180 |
+| Revenant Draconith | 190 |
+| Vampire Lord on Nightmare Steed | 190 |
+| Wight King on Skeletal Steed | 200 |
+| Barrow Knights | 210 |
+| The Crimson Court | 210 |
+| Belladamma Volga, First of the Vyrkos | 220 |
+| Blood Knights | 220 |
+| Bloodseeker Palanquin | 220 |
+| Terrorgheist | 220 |
+| Vengorian Lord | 220 |
+| Coven Throne | 230 |
+| Lauka Vai, Mother of Nightmares | 230 |
+| Mortis Engine | 230 |
+| Radukar the Beast | 250 |
+| Blades of the Hollow King | 290 |
+| Vampire Lord on Zombie Dragon | 400 |
+| Mannfred von Carstein, Mortarch of Night | 450 |
+| Neferata, Mortarch of Blood | 450 |
+| Prince Vhordrai | 470 |
+| Nagash, Supreme Lord of the Undead | 800 |

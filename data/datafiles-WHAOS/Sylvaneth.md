@@ -845,3 +845,33 @@ feature. For each additional scenery piece in this terrain feature that is plac
 ##### Heartwood Hunting Horn (Activated)
 - **Timing:** Once Per Battle (Army), Any Hero Phase
 - **Effect:** You gain 1 chord.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Spite-Revenants | 80 |
+| Dryads | 90 |
+| Skaeth's Wild Hunt | 90 |
+| Tree-Revenants | 90 |
+| The Twistweald | 100 |
+| Arch-Revenant | 110 |
+| Branchwych | 110 |
+| Kurnoth's Heralds | 110 |
+| Gossamid Archers | 120 |
+| Ylthari's Guardians | 140 |
+| Revenant Seekers | 180 |
+| Revenant Seekers (Scourge of Ghyran) | 180 |
+| Kurnoth Hunters with Kurnoth Scythes | 190 |
+| Spiterider Lancers | 190 |
+| Kurnoth Hunters with Kurnoth Greatbows | 200 |
+| Kurnoth Hunters with Kurnoth Greatswords | 200 |
+| Warsong Revenant | 200 |
+| The Lady of Vines | 210 |
+| Treelord | 210 |
+| Drycha Hamadreth | 220 |
+| Drycha Hamadreth (Scourge of Ghyran) | 220 |
+| Treelord Ancient | 230 |
+| Spirit of Durthu | 320 |
+| Belthanos, First Thorn of Kurnoth | 350 |
+| Alarielle the Everqueen | 680 |

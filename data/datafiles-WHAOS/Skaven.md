@@ -1442,3 +1442,56 @@ After this ability has been resolved, this unit cannot use any other Rampage abi
 ##### Icon of Great-total Supremacy (Activated)
 - **Timing:** Once Per Battle, Your Hero Phase
 - **Effect:** You can return up to D3 slain models to each friendly Gnawhore Infantry unit with a Health characteristic of up to 3.
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Clawlord | 70 |
+| Master Moulder | 80 |
+| Acolyte Globadiers | 90 |
+| Warlock Bombardier | 90 |
+| Doomwheel | 100 |
+| Plagueclaw | 100 |
+| Skabbik's Plaguepack | 100 |
+| Skittershank's Clawpack | 100 |
+| Spiteclaw's Swarm | 100 |
+| Clawlord on Gnaw-beast | 110 |
+| Doom-flayers | 110 |
+| Gutter Runners | 110 |
+| Plague Priest | 110 |
+| Stormvermin | 110 |
+| Warlock Engineer | 110 |
+| Zikkit's Tunnelpack | 110 |
+| Grey Seer | 120 |
+| Grey Seer on Screaming Bell (Scourge of Ghyran) | 120 |
+| Night Runners | 120 |
+| Ratling Warpblaster | 120 |
+| Warp Lightning Cannon | 120 |
+| Warp-Grinder | 120 |
+| Deathmaster | 130 |
+| Plaguepack | 130 |
+| Warpfire Throwers | 130 |
+| Warplock Jezzails | 130 |
+| Plague Monks | 140 |
+| Rat Ogors | 140 |
+| Warlock Galvaneer | 140 |
+| Arch-Warlock | 150 |
+| Clanrats | 150 |
+| Krittok Foulblade | 150 |
+| Plague Censer Bearers | 160 |
+| Ratling Guns | 170 |
+| Warpvolt Scourgers | 180 |
+| Hell Pit Abomination | 200 |
+| Brood Terror | 230 |
+| Brood Terror (Scourge of Ghyran) | 230 |
+| Stormfiends | 240 |
+| Verminlord Corruptor | 300 |
+| Verminlord Warbringer | 300 |
+| Grey Seer on Screaming Bell | 310 |
+| Verminlord Warpseer | 320 |
+| Plague Priest on Plague Furnace | 340 |
+| Thanquol on Boneripper | 340 |
+| Vizzik Skour, Prophet of the Horned Rat | 360 |
+| Lord Skreech Verminking | 380 |
+| Verminlord Deceiver | 390 |

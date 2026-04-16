@@ -1531,3 +1531,85 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 - **Striding Colossus:** Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Nurglings | 40 |
+| Poxbringer | 55 |
+| Sloppity Bilepiper | 55 |
+| Changecaster | 60 |
+| Daemonic Herald [Crucible] | 60 |
+| Fluxmaster | 60 |
+| Infernal Enrapturess | 60 |
+| Spoilpox Scrivener | 60 |
+| Tranceweaver | 60 |
+| Bloodmaster | 65 |
+| Exalted Flamer | 65 |
+| Flamers | 65 |
+| Flesh Hounds | 75 |
+| Karanak | 75 |
+| The Blue Scribes | 75 |
+| Epidemius | 80 |
+| Screamers | 80 |
+| Seekers | 80 |
+| Skulltaker | 85 |
+| The Changeling | 90 |
+| Fateskimmer | 95 |
+| Fiends | 95 |
+| Skull Cannon | 95 |
+| The Masque of Slaanesh | 95 |
+| Contorted Epitome | 100 |
+| Daemonettes | 100 |
+| Feculent Gnarlmaw | 100 |
+| Skullmaster | 100 |
+| Skull Altar | 105 |
+| Bloodcrushers | 110 |
+| Bloodletters | 110 |
+| Plague Drones | 110 |
+| Plaguebearers | 110 |
+| Burning Chariot | 115 |
+| Daemonic Charioteer [Crucible] | 120 |
+| Horticulous Slimux | 120 |
+| Syll'esske | 120 |
+| Blue Horrors | 125 |
+| War Dog Executioner | 130 |
+| Pink Horrors | 140 |
+| Tormentbringer | 140 |
+| War Dog Brigand | 140 |
+| War Dog Huntsman | 140 |
+| War Dog Stalker | 140 |
+| War Dog Karnivore | 150 |
+| War Dog Moirax | 150 |
+| Rendmaster on Blood Throne | 165 |
+| Daemon Prince of Chaos with wings | 180 |
+| Immortal Champion [Crucible] | 180 |
+| Daemon Prince of Chaos | 190 |
+| Keeper of Secrets | 240 |
+| Great Unclean One | 250 |
+| Rotigus | 265 |
+| Lord of Change | 285 |
+| Kairos Fateweaver | 295 |
+| Bloodthirster | 305 |
+| Skarbrand | 305 |
+| Shalaxi Helbane | 340 |
+| Knight Abominant | 355 |
+| Knight Desecrator | 355 |
+| Knight Ruinator | 355 |
+| Knight Rampager | 365 |
+| Be'lakor | 375 |
+| Chaos Questoris Knight Magaera | 375 |
+| Chaos Questoris Knight Styrix | 375 |
+| Chaos Cerastus Knight Acheron | 385 |
+| Chaos Cerastus Knight Castigator | 385 |
+| Chaos Cerastus Knight Lancer | 385 |
+| Knight Despoiler | 390 |
+| Chaos Cerastus Knight Atrapos | 395 |
+| Knight Tyrant | 410 |
+| Chaos Acastus Knight Porphyrion | 700 |
+| Chaos Acastus Knight Asterius | 765 |
+| Warhound Titan | 1100 |
+| Reaver Titan | 2200 |
+| Warbringer Nemesis Titan | 2600 |
+| Warlord Titan | 3500 |

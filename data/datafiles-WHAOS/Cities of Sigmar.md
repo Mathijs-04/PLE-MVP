@@ -1428,3 +1428,62 @@ If this unit is destroyed, remove its Relic Envoy from the battlefield.
 - **Effect:** Roll a dice. On a 3+, ignore positive modifiers to save rolls for the target for the rest of the turn.
 
 ---
+
+## Points Table
+
+| Unit | Points |
+| --- | ---: |
+| Flagellants | 80 |
+| Assassin | 90 |
+| Black Ark Fleetmaster | 90 |
+| Freeguild Steelhelms | 90 |
+| Battlemage | 100 |
+| Bleakswords | 100 |
+| Brethren of the Bolt | 100 |
+| Freeguild Marshal and Relic Envoy | 100 |
+| Cogsmith | 110 |
+| Drakespawn Chariot | 110 |
+| Dreadspears | 110 |
+| Freeguild Cavalier-Marshal | 110 |
+| Freeguild Fusiliers | 110 |
+| Ironweld Great Cannon | 110 |
+| Longbeards | 110 |
+| Scourgerunner Chariot | 110 |
+| Wildercorps Hunters | 110 |
+| Alchemite Warforger | 120 |
+| Black Ark Corsairs | 120 |
+| Gyrobomber | 120 |
+| Gyrocopter | 120 |
+| Hexbane's Hunters | 120 |
+| Kharibdyss | 120 |
+| Warden King | 120 |
+| Black Guard | 130 |
+| Runelord | 130 |
+| Sorceress | 130 |
+| Ironbreakers | 140 |
+| Irondrakes | 140 |
+| Darkshards | 150 |
+| Freeguild Cavaliers | 150 |
+| Freeguild Cavaliers (Scourge of Ghyran) | 150 |
+| Fusil-Major on Ogor Warhulk | 150 |
+| Executioners | 160 |
+| War Hydra | 160 |
+| Dark Riders | 170 |
+| Galen ven Denst | 170 |
+| Pontifex Zenestra, Matriarch of the Great Wheel | 170 |
+| Pontifex Zenestra, Matriarch of the Great Wheel (Scourge of Ghyran) | 170 |
+| Celestial Hurricanum | 180 |
+| Freeguild Command Corps | 180 |
+| Hammerers | 180 |
+| Drakespawn Knights | 190 |
+| Luminark of Hysh | 210 |
+| Freeguild Marshal on Griffon | 230 |
+| Battlemage on Celestial Hurricanum | 240 |
+| Callis and Toll | 240 |
+| Steam Tank | 240 |
+| Steam Tank Commander | 250 |
+| Battlemage on Griffon | 260 |
+| Battlemage on Luminark of Hysh | 260 |
+| Dreadlord on Black Dragon | 270 |
+| Sorceress on Black Dragon | 280 |
+| Tahlia Vedra, Lioness of the Parch | 280 |
