@@ -2,7 +2,7 @@ Warhammer RAG rules assistant (answers Warhammer tabletop rule questions).
 
 Stack: Laravel (Vite + Vue) + Python (AI backend). JS preferred over TS.
 
-Flow: Laravels /api/chat endpoint accepts user input, which is then send to Pythons /ask which answers the question and returns response.
+Flow: Laravels /api/chat endpoint accepts user input, which is then send to Pythons /ask which answers the question and returns response. /rules includes a pdf-viewer with core rule PDFs.
 
 Rules:
 - Never commit or push without explicit permission.
