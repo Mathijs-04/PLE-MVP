@@ -1,8 +1,9 @@
 <script setup lang="js">
-import { Head, Link } from '@inertiajs/vue3';
+import { Head } from '@inertiajs/vue3';
 import { ChevronDown, Moon, Sun } from 'lucide-vue-next';
 import { computed, nextTick, onMounted, reactive, ref, watch } from 'vue';
 import GameBackground from '@/components/GameBackground.vue';
+import PrimaryNav from '@/components/PrimaryNav.vue';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useAppearance } from '@/composables/useAppearance';
@@ -440,6 +441,8 @@ const ask = async () => {
     <div class="relative min-h-screen bg-background text-foreground">
         <GameBackground :game="game" />
 
+        <PrimaryNav />
+
         <button
             type="button"
             class="fixed top-4 right-4 z-50 flex h-9 w-9 items-center justify-center rounded-full border border-sidebar-border/70 bg-sidebar/80 text-foreground shadow-sm backdrop-blur-sm transition-colors hover:bg-sidebar"
@@ -450,7 +453,7 @@ const ask = async () => {
             <Moon v-else class="h-4 w-4" />
         </button>
 
-        <div class="relative z-10 mx-auto max-w-3xl space-y-6 px-4 pt-16 pb-10 sm:py-10">
+        <div class="relative z-10 mx-auto max-w-3xl space-y-6 px-4 pt-16 pb-10 sm:pt-[68px]">
 
             <div class="space-y-5 rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6">
                 <div class="flex items-start justify-between gap-4">
@@ -458,16 +461,14 @@ const ask = async () => {
                         <h1 class="font-title text-lg sm:text-2xl font-bold tracking-[0.03em]">Warhammer Rule Assistant</h1>
                         <p class="mt-1 text-xs sm:text-sm text-muted-foreground">Ask any rule related question and get an answer based on the official rules.</p>
                     </div>
-                    <Link href="/rules" class="inline-flex shrink-0">
-                        <img
-                            :src="warhammerLogo"
-                            alt="Warhammer"
-                            class="h-14 w-14 shrink-0 object-contain sm:h-16 sm:w-16"
-                            width="64"
-                            height="64"
-                            decoding="async"
-                        />
-                    </Link>
+                    <img
+                        :src="warhammerLogo"
+                        alt="Warhammer"
+                        class="h-14 w-14 shrink-0 object-contain sm:h-16 sm:w-16"
+                        width="64"
+                        height="64"
+                        decoding="async"
+                    />
                 </div>
 
                 <div class="space-y-1.5">
