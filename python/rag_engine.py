@@ -57,8 +57,12 @@ Guidelines:
   Only quote a rule when it is directly relevant to the answer; do not quote every rule or keyword
   you mention. Keep the overall answer concise.
 - If the answer depends on definitions, sequences, or edge cases, walk through them step by step.
-- If the context does NOT contain enough information to answer with confidence, say you are unsure
-  and clearly state what is missing rather than inventing rules.
+- When the general rules framework (phase order, sequencing, ability timing, fight order, etc.) is
+  present in the context, answer confidently by applying that framework — even if the question also
+  mentions a specific ability or unit whose exact text you don't have. Do NOT pad the answer with a
+  list of things the context is missing; only flag a genuine gap when it materially changes the
+  answer.
+- If the context truly lacks the rule needed to answer, say so briefly in one sentence and stop.
 - Do NOT reference page numbers unless they are explicitly present in the provided context.
 - Be concise, but do not omit important conditions or exceptions.
 
@@ -93,10 +97,13 @@ Always respond with a valid JSON object in exactly this format, and nothing else
 
 "certainty" indicates how confident you are that the answer is fully supported by the provided
 rules context:
-  1 = The answer is directly and completely supported by the rules text.
+  1 = The answer is directly and completely supported by the rules text (including cases where
+      the general framework in the core rules clearly resolves the question).
   2 = The answer is partially covered by the rules but requires some interpretation.
   3 = The rules barely address this, or relevant rules appear to contradict each other.
   4 = The rules do not cover this at all and you are guessing.
+Do not lower certainty just because a specific named ability wasn't quoted in the context — if
+the universal timing/sequencing/phase rules decide the outcome, that counts as certainty 1.
 
 "has_core_rules" should be true whenever the answer references rules that apply to all players
 (movement, combat sequence, keywords, universal abilities, etc.), not just faction-specific ones.
@@ -601,6 +608,201 @@ _ARMY_LIST_QUERY_SIGNALS = frozenset({
 })
 
 
+# ---------------------------------------------------------------------------
+# Core-rules concept retrieval
+# ---------------------------------------------------------------------------
+# Maps question trigger phrases -> canonical core-rules heading names per game.
+# When a question mentions one of the triggers, the corresponding heading
+# section is pulled from the core-rules markdown and prepended to context.
+# This guarantees multi-rule timing / phase / sequencing questions always have
+# the relevant framework available, instead of relying on MMR luck.
+#
+# Heading names are matched case-insensitively against H2/H3/H4 headings in
+# files whose stem contains "core" and "rule" (i.e. 40K_Core_Rules.md /
+# AOS_Core_Rules.md).
+_CORE_CONCEPTS_40K: list[tuple[frozenset[str], tuple[str, ...]]] = [
+    (
+        frozenset({
+            "same time", "simultaneous", "simultaneously", "sequenc",
+            "resolve first", "resolve order", "order of resolution",
+            "which resolves first", "who resolves first",
+            "resolve before", "resolves before", "resolved before",
+            "resolve after", "resolves after", "resolved after",
+            "take effect", "takes effect",
+        }),
+        ("SEQUENCING",),
+    ),
+    (
+        frozenset({
+            "fight first", "fights first", "strike first", "strike-first",
+            "fight order", "who fights first", "fight immediately",
+            "fight before", "interrupt", "pre-empt", "preempt",
+        }),
+        ("FIGHT PHASE", "FIGHTS FIRST"),
+    ),
+    (
+        frozenset({
+            "charge phase", "finish a charge", "finishes a charge",
+            "ends a charge", "charge ends", "end of charge",
+            "when a charge", "after charging", "after a charge",
+            "charge move", "when a unit charges", "declare a charge",
+        }),
+        ("CHARGE PHASE", "CHARGING WITH A UNIT"),
+    ),
+    (
+        frozenset({"fight phase", "combat phase", "melee phase"}),
+        ("FIGHT PHASE",),
+    ),
+    (
+        frozenset({"command phase"}),
+        ("COMMAND PHASE",),
+    ),
+    (
+        frozenset({"movement phase", "normal move", "advance"}),
+        ("MOVEMENT PHASE",),
+    ),
+    (
+        frozenset({"shooting phase", "shoot", "ranged attack"}),
+        ("SHOOTING PHASE",),
+    ),
+    (
+        frozenset({"battle round", "turn order", "turn sequence"}),
+        ("THE BATTLE ROUND",),
+    ),
+]
+
+_CORE_CONCEPTS_AOS: list[tuple[frozenset[str], tuple[str, ...]]] = [
+    (
+        frozenset({
+            "strike first", "strike-first", "strike last", "strike-last",
+            "fight first", "fights first", "fight order",
+            "who fights first", "fight immediately", "interrupt",
+        }),
+        ("STRIKE-FIRST AND STRIKE-LAST", "FIGHT ABILITIES", "COMBAT PHASE"),
+    ),
+    (
+        frozenset({
+            "same time", "simultaneous", "simultaneously",
+            "resolve first", "resolve order", "battle sequence",
+            "resolve before", "resolves before", "resolved before",
+            "resolve after", "resolves after", "resolved after",
+            "take effect", "takes effect",
+        }),
+        ("BATTLE SEQUENCE",),
+    ),
+    (
+        frozenset({
+            "charge phase", "finish a charge", "finishes a charge",
+            "ends a charge", "charge ends", "end of charge",
+            "when a charge", "after charging", "after a charge",
+            "counter-charge", "counter charge", "when a unit charges",
+        }),
+        ("CHARGE PHASE", "CHARGE PHASE COMMANDS"),
+    ),
+    (
+        frozenset({"combat phase", "fight phase", "melee phase"}),
+        ("COMBAT PHASE", "FIGHT ABILITIES"),
+    ),
+    (
+        frozenset({"hero phase"}),
+        ("HERO PHASE COMMANDS",),
+    ),
+    (
+        frozenset({"movement phase", "normal move", "run", "retreat"}),
+        ("MOVEMENT PHASE",),
+    ),
+    (
+        frozenset({"shooting phase", "shoot", "ranged attack"}),
+        ("SHOOTING PHASE", "SHOOTING PHASE COMMANDS"),
+    ),
+    (
+        frozenset({"turn phases", "turn order", "turn sequence", "battle round"}),
+        ("TURN PHASES", "BATTLE SEQUENCE"),
+    ),
+    (
+        frozenset({
+            "trigger", "triggered", "reactive", "reaction",
+            "enemy phase", "any phase", "when an enemy",
+            "ability timing", "timing", "once per",
+        }),
+        ("ADVANCED ABILITY RULES", "'ONCE PER' TIMINGS"),
+    ),
+]
+
+
+def _is_core_rules_file(path: str) -> bool:
+    stem = os.path.splitext(os.path.basename(path))[0].lower()
+    return "core" in stem and "rule" in stem
+
+
+def _find_heading_section(text: str, heading_name: str) -> Optional[str]:
+    """Locate an H2/H3/H4 heading whose name matches `heading_name` (case- and
+    numbering-insensitive) and return its full section."""
+    target_norm = _normalize(heading_name)
+    if not target_norm:
+        return None
+    for m in re.finditer(r"^(#{2,4})\s+(.+?)\s*$", text, re.MULTILINE):
+        level = len(m.group(1))
+        heading = m.group(2).strip()
+        # Strip leading numbering like "14.3 " or "1. " so "CHARGE PHASE"
+        # matches "14.3 CHARGE PHASE".
+        heading_bare = re.sub(r"^[\d.\s]+", "", heading)
+        if _normalize(heading_bare) == target_norm:
+            section = _extract_markdown_section(text, m.start(), level)
+            if section:
+                return section
+    return None
+
+
+def retrieve_concept_sections(
+    question: str,
+    sources: Sequence[Tuple[str, str]],
+    game: str,
+    max_sections: int = 4,
+) -> List[str]:
+    """
+    Return canonical core-rule sections whose concepts are referenced by the
+    question (e.g. sequencing, fight order, charge phase triggers).
+
+    Unlike the unit/ability keyword search, this targets *rules-terminology*
+    in the question and pulls the authoritative core-rules heading so the model
+    always has the governing framework for multi-rule timing questions.
+    """
+    q_lower = question.lower()
+    concepts = _CORE_CONCEPTS_40K if game == "wh40k" else _CORE_CONCEPTS_AOS
+
+    wanted: list[str] = []
+    seen: set[str] = set()
+    for triggers, headings in concepts:
+        if not any(trig in q_lower for trig in triggers):
+            continue
+        for heading in headings:
+            key = heading.lower()
+            if key not in seen:
+                seen.add(key)
+                wanted.append(heading)
+
+    if not wanted:
+        return []
+
+    core_sources = [(p, t) for p, t in sources if _is_core_rules_file(p)]
+    if not core_sources:
+        return []
+
+    out: list[str] = []
+    for heading in wanted:
+        if len(out) >= max_sections:
+            break
+        for path, text in core_sources:
+            section = _find_heading_section(text, heading)
+            if section:
+                label = f"[{os.path.basename(path)} | {heading}]"
+                out.append(f"{label}\n{section}")
+                break
+
+    return out
+
+
 def extract_candidate_phrases(question: str) -> List[str]:
     """
     Extract proper-noun-like phrases from the question that likely refer to
@@ -953,29 +1155,44 @@ def answer_question(
     Returns:
         The model's answer as a string.
     """
+    game_key = "wh40k" if "40" in game_label else "aos"
+
+    # Detect whether the question looks conceptual (timing, sequencing, phase
+    # interactions) rather than a specific unit/ability lookup. Conceptual
+    # questions benefit from a wider semantic net because the relevant core
+    # rules are split across several independent headings.
+    phrases = extract_candidate_phrases(question)
+    is_conceptual = not phrases or all(len(p.split()) == 1 for p in phrases)
+    effective_k = max(k, 14) if is_conceptual else k
+
     # 1. Semantic retrieval.
-    context_snippets = retrieve_context(vectorstore, question, k=k)
+    context_snippets = retrieve_context(vectorstore, question, k=effective_k)
 
     # 2. Keyword retrieval (augments semantic search for specific unit/ability lookups).
     keyword_snippets: List[str] = []
     sources = rules_sources
-    phrases = None
 
+    if sources is None and data_dir and phrases:
+        sources = load_rules_sources(data_dir)
+
+    if sources and phrases:
+        max_kw = min(6, max(3, len(phrases)))
+        keyword_snippets = find_keyword_snippets(
+            sources, question, phrases,
+            max_snippets=max_kw,
+            heading_vocab=heading_vocab,
+        )
+
+    # 2b. Concept retrieval: pull canonical core-rule sections for timing /
+    # sequencing / phase-interaction questions so the governing framework is
+    # always in context, regardless of semantic-search noise.
+    concept_snippets: List[str] = []
     if sources is None and data_dir:
-        phrases = extract_candidate_phrases(question)
-        if phrases:
-            sources = load_rules_sources(data_dir)
-
+        sources = load_rules_sources(data_dir)
     if sources:
-        if phrases is None:
-            phrases = extract_candidate_phrases(question)
-        if phrases:
-            max_kw = min(6, max(3, len(phrases)))
-            keyword_snippets = find_keyword_snippets(
-                sources, question, phrases,
-                max_snippets=max_kw,
-                heading_vocab=heading_vocab,
-            )
+        concept_snippets = retrieve_concept_sections(
+            question, sources, game=game_key, max_sections=4,
+        )
 
     # 3. Faction-wide overview for comparative/recommendation questions.
     # When a question asks about the "best/strongest/cheapest" unit in a
@@ -1023,15 +1240,15 @@ def answer_question(
         prefix.append(points_table_summary)
     if faction_summary:
         prefix.append(faction_summary)
-    all_snippets = prefix + keyword_snippets + context_snippets
+    # Concept sections come before generic semantic chunks but after
+    # faction-specific overviews so unit/ability details stay most prominent.
+    all_snippets = prefix + keyword_snippets + concept_snippets + context_snippets
     context_block = "\n\n---\n\n".join(all_snippets)
 
     llm = ChatOpenAI(model=model_name, temperature=0.2)
 
     army_list_query = _has_any_signal(question, _ARMY_LIST_QUERY_SIGNALS)
     budget = _extract_points_budget(question) if army_list_query else None
-
-    game_key = "wh40k" if "40" in game_label else "aos"
 
     if army_list_query and budget and points_table_summary:
         precomputed = None
