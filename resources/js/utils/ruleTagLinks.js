@@ -136,7 +136,11 @@ function walkAndWrap(node, patternEntries, gameKey, usedConcepts) {
             return;
         }
 
-        const matches = findMatchesInText(content, patternEntries, usedConcepts);
+        const matches = findMatchesInText(
+            content,
+            patternEntries,
+            usedConcepts,
+        );
 
         if (matches.length === 0) {
             return;
@@ -153,7 +157,9 @@ function walkAndWrap(node, patternEntries, gameKey, usedConcepts) {
 
         for (const m of matches) {
             if (m.start > cursor) {
-                frag.appendChild(document.createTextNode(content.slice(cursor, m.start)));
+                frag.appendChild(
+                    document.createTextNode(content.slice(cursor, m.start)),
+                );
             }
 
             const a = document.createElement('a');
@@ -208,7 +214,10 @@ export function wrapRuleTagLinks(html, gameKey, tagsJson) {
     }
 
     const parser = new DOMParser();
-    const doc = parser.parseFromString(`<div class="rule-tag-root">${html}</div>`, 'text/html');
+    const doc = parser.parseFromString(
+        `<div class="rule-tag-root">${html}</div>`,
+        'text/html',
+    );
     const root = doc.body.querySelector('.rule-tag-root');
 
     if (!root) {

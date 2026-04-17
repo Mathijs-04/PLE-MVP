@@ -30,7 +30,6 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 
-# Paths are relative to this script's location (python/)
 _HERE = os.path.dirname(os.path.abspath(__file__))
 _PROJECT_ROOT = os.path.dirname(_HERE)
 
@@ -170,9 +169,6 @@ Do not include any text outside the JSON object. Do not wrap it in code fences.
 """.strip()
 
 
-# ---------------------------------------------------------------------------
-# Points budget extraction
-# ---------------------------------------------------------------------------
 
 def _extract_points_budget(question: str) -> Optional[int]:
     """
@@ -202,9 +198,6 @@ def _extract_points_budget(question: str) -> Optional[int]:
     return None
 
 
-# ---------------------------------------------------------------------------
-# Unit parsing
-# ---------------------------------------------------------------------------
 
 _ROLE_KEYWORDS_AOS = {
     "hero": {"HERO"},
@@ -222,27 +215,18 @@ _ROLE_KEYWORDS_40K = {
     "mounted": {"Mounted"},
 }
 
-# Keywords that are universal / role / alliance markers — not useful as a
-# sub-faction theme. Compared case-insensitively after stripping "(X+)".
 _NON_THEME_KEYWORDS = frozenset({
-    # Role / structural
     "HERO", "INFANTRY", "MONSTER", "CAVALRY", "WAR MACHINE",
     "VEHICLE", "CHARACTER", "BATTLELINE", "MOUNTED", "TITANIC",
     "CHAMPION", "VETERAN", "WARMASTER", "EPIC HERO", "UNIQUE",
     "WIZARD", "PRIEST", "WEAPON TEAM",
-    # Alliance / grand army
     "CHAOS", "ORDER", "DEATH", "DESTRUCTION",
     "IMPERIUM", "AELDARI", "TYRANIDS", "NECRONS", "ORK", "ORKS",
     "ASURYANI", "GENESTEALER CULTS",
-    # Universal status
     "FLY", "WARD", "DAEMON", "GRENADES", "LEGENDS",
-    # Non-combatant entries
     "MANIFESTATION", "ENDLESS SPELL", "FACTION TERRAIN",
     "INVOCATION", "REGIMENTS OF RENOWN",
-    # Generic descriptors found on some 40K units
     "IMPERIAL", "CHAOS KNIGHTS",
-    # 40K universal unit-type modifiers (apply to many faction vehicles /
-    # monsters and would otherwise dominate theme detection).
     "WALKER", "SMOKE", "TOWERING", "TRANSPORT", "AIRCRAFT",
     "HOVER", "DEEP STRIKE", "DEEP-STRIKE", "JUMP PACK", "SCOUT",
     "LONE OPERATIVE", "STEALTH", "FIRING DECK", "PSYKER",
@@ -291,7 +275,6 @@ def _parse_units_with_roles(
         keywords = {_clean_keyword(tok) for tok in kw_text.split(",") if tok.strip()}
         keywords.discard("")
 
-        # Skip entries that aren't deployable units (endless spells, terrain, etc.)
         if keywords & {"MANIFESTATION", "ENDLESS SPELL", "FACTION TERRAIN", "INVOCATION"}:
             continue
 
@@ -304,7 +287,6 @@ def _parse_units_with_roles(
         is_unique = "UNIQUE" in keywords or "EPIC HERO" in keywords
         is_battleline = "BATTLELINE" in keywords
 
-        # Sub-faction candidates = keywords that aren't universal markers.
         sub_factions = {kw for kw in keywords if kw not in _NON_THEME_KEYWORDS}
 
         parsed.append({
@@ -320,9 +302,6 @@ def _parse_units_with_roles(
     return parsed
 
 
-# ---------------------------------------------------------------------------
-# Theme detection
-# ---------------------------------------------------------------------------
 
 def _detect_theme_candidates(
     all_units: Sequence[dict],
@@ -372,9 +351,6 @@ def _select_theme(
     return theme_candidates[0][0]
 
 
-# ---------------------------------------------------------------------------
-# Army list builder
-# ---------------------------------------------------------------------------
 
 def _budget_to_dupe_cap(budget: int) -> int:
     if budget < 750:
@@ -421,7 +397,6 @@ def _build_army_list_from_table(
     if not all_units:
         return None
 
-    # Guard: if the budget is below the cheapest non-unique unit we can't build.
     cheapest = min((u["pts"] for u in all_units), default=budget + 1)
     if cheapest > budget:
         return None
@@ -459,7 +434,6 @@ def _build_army_list_from_table(
             and not is_infantry_core(u)
         )
 
-    # Picked inventory (ordered list of unit dicts with multiplicity tracked).
     picks: list[dict] = []
     counts: dict[str, int] = {}
     remaining = budget
@@ -496,7 +470,6 @@ def _build_army_list_from_table(
     battleline = [u for u in infantry_core if u["battleline"]] or infantry_core
     support = [u for u in all_units if is_support(u)]
 
-    # 1. Centerpiece (skip for tiny budgets).
     centerpiece_min = budget * 0.14
     centerpiece_max = budget * 0.33
     centerpiece_pool = [
@@ -510,7 +483,6 @@ def _build_army_list_from_table(
             lambda u: (-_theme_bonus(u, theme), -u["pts"]),
         )
 
-    # 2. Support heroes (1-2 mid-cost, closest to ~8% of budget).
     support_hero_target = 2 if budget >= 1200 else 1
     support_hero_ideal = budget * 0.07
     taken_heroes = sum(1 for p in picks if is_leader(p))
@@ -529,7 +501,6 @@ def _build_army_list_from_table(
             break
         taken_heroes += 1
 
-    # 3. Battleline backbone — pick 2 different core units and reinforce them.
     bl_target_units = 2 if budget < 1500 else 3
     bl_ideal = budget * 0.09
     bl_pool = sorted(
@@ -545,17 +516,13 @@ def _build_army_list_from_table(
         if not take(u):
             continue
         distinct_bl_picked += 1
-        # Reinforce: take a second copy if budget allows comfortably and we
-        # still need to hit ~35% of the budget in infantry bodies.
         bl_spend = sum(p["pts"] * counts[p["name"]] for p in picks if is_infantry_core(p))
-        # Double-count protection — use a simpler running check:
         bl_spend = sum(p["pts"] for p in picks if is_infantry_core(p))
         if bl_spend < budget * 0.35 and can_take(u):
             take(u)
         if bl_spend < budget * 0.25 and can_take(u):
             take(u)
 
-    # 4. Heavy support (outside the centerpiece).
     heavy_target = 2 if budget >= 1500 else 1
     heavies_taken = sum(
         1 for p in picks if is_heavy(p) and p is not centerpiece_taken
@@ -578,7 +545,6 @@ def _build_army_list_from_table(
             break
         heavies_taken += 1
 
-    # 5. Auxiliary support (shooting teams, cavalry, specialists).
     support_target = 1 if budget < 1500 else 2
     support_ideal = budget * 0.08
     support_taken = 0
@@ -597,8 +563,6 @@ def _build_army_list_from_table(
             break
         support_taken += 1
 
-    # 6. Fill remaining budget — first try duplicating existing battleline
-    # (keeps the army thematic), then cheap extras.
     min_useful = max(40, cheapest)
     progressed = True
     while remaining >= min_useful and progressed:
@@ -623,7 +587,6 @@ def _build_army_list_from_table(
     if not picks:
         return None
 
-    # Collapse duplicates into "Name x2 — pts".
     ordered_names: list[str] = []
     pts_by_name: dict[str, int] = {}
     for p in picks:
@@ -647,9 +610,6 @@ def _build_army_list_from_table(
     return f"{header}\n" + "\n".join(lines)
 
 
-# ---------------------------------------------------------------------------
-# Index loading
-# ---------------------------------------------------------------------------
 
 def load_index(index_dir: str) -> FAISS:
     """Load a FAISS index from disk."""
@@ -662,9 +622,6 @@ def load_index(index_dir: str) -> FAISS:
     return FAISS.load_local(index_dir, embeddings, allow_dangerous_deserialization=True)
 
 
-# ---------------------------------------------------------------------------
-# Data loading helpers
-# ---------------------------------------------------------------------------
 
 def load_rules_sources(data_dir: str) -> List[Tuple[str, str]]:
     """Return all markdown files as (path, text) pairs for keyword lookups."""
@@ -683,9 +640,6 @@ def load_rules_sources(data_dir: str) -> List[Tuple[str, str]]:
     return sources
 
 
-# ---------------------------------------------------------------------------
-# Semantic retrieval
-# ---------------------------------------------------------------------------
 
 def retrieve_context(vectorstore: FAISS, question: str, k: int = 10) -> List[str]:
     """
@@ -708,7 +662,6 @@ def retrieve_context(vectorstore: FAISS, question: str, k: int = 10) -> List[str
             label_parts.append(str(meta["doc_kind"]))
         if meta.get("faction"):
             label_parts.append(str(meta["faction"]))
-        # Include the most specific heading available for orientation.
         for heading_key in ("h3", "h2", "h1"):
             if meta.get(heading_key):
                 label_parts.append(str(meta[heading_key]))
@@ -720,9 +673,6 @@ def retrieve_context(vectorstore: FAISS, question: str, k: int = 10) -> List[str
     return snippets
 
 
-# ---------------------------------------------------------------------------
-# Keyword / structure-aware retrieval
-# ---------------------------------------------------------------------------
 
 _STOPWORDS = {
     "a", "an", "and", "the", "of", "for", "to", "in", "on", "with",
@@ -748,9 +698,6 @@ def _overlap(a: Sequence[str], b: Sequence[str]) -> float:
     return len(sa & sb) / len(sa | sb)
 
 
-# ---------------------------------------------------------------------------
-# Heading vocabulary & spell correction
-# ---------------------------------------------------------------------------
 
 def build_heading_vocabulary(sources: Sequence[Tuple[str, str]]) -> List[Tuple[str, str]]:
     """
@@ -809,9 +756,6 @@ def spell_correct_phrase(
     return phrase
 
 
-# ---------------------------------------------------------------------------
-# Faction-level overview retrieval
-# ---------------------------------------------------------------------------
 
 def detect_faction_query(
     question: str,
@@ -912,9 +856,6 @@ _GAME_PROPERTY_STOP = _FILTER_WORDS | _GAME_PROPERTY_WORDS | {
     "will", "cant", "can", "its", "the", "are", "for",
 }
 
-# Signals that indicate a faction-wide comparison or recommendation query.
-# When one of these appears alongside a faction name, a compact unit-stats
-# overview is built and prepended to context so the AI can compare all units.
 _FACTION_COMPARATIVE_SIGNALS = frozenset({
     "best", "worst", "strongest", "weakest", "toughest", "fastest",
     "cheapest", "most expensive", "most powerful", "most versatile",
@@ -933,16 +874,12 @@ _FACTION_POINTS_SIGNALS = frozenset({
     "all units", "list all", "overview",
 })
 
-# Fixed phrases that unambiguously signal an army-list request.
 _ARMY_LIST_STRONG_PHRASES = frozenset({
     "army list", "army build", "army composition", "army roster",
     "starter army", "starter force", "starter list",
     "list building", "list-building",
 })
 
-# Verb + (optional filler) + army-noun. Catches free-form phrasings such as
-# "build me a Pestilens Skaven army", "recommend a Space Marine list",
-# "make us an Ork roster", without trying to enumerate every permutation.
 _ARMY_LIST_VERB_PATTERN = re.compile(
     r"\b(?:build|make|create|design|recommend|suggest|write|give|draft|put\s+together)"
     r"(?:\s+(?:me|us|a|an|the))*"
@@ -951,16 +888,11 @@ _ARMY_LIST_VERB_PATTERN = re.compile(
     re.IGNORECASE,
 )
 
-# Weak signals only trigger army mode when combined with an explicit points
-# budget. Keeps "good Skaven hero" in rule mode while still catching
-# "good 1500 point Skaven army".
 _ARMY_LIST_WEAK_SIGNALS = frozenset({
     "army", "list", "roster", "build", "building", "good",
     "recommend", "recommended", "suggest", "force",
 })
 
-# Default budget to assume when the user asks for an army without a number.
-# 2000 is the standard matched-play target for both AoS 4th and 40K 10th.
 _DEFAULT_ARMY_BUDGET = 2000
 
 
@@ -988,18 +920,6 @@ def _detect_army_query(question: str) -> tuple[bool, Optional[int]]:
     return False, None
 
 
-# ---------------------------------------------------------------------------
-# Core-rules concept retrieval
-# ---------------------------------------------------------------------------
-# Maps question trigger phrases -> canonical core-rules heading names per game.
-# When a question mentions one of the triggers, the corresponding heading
-# section is pulled from the core-rules markdown and prepended to context.
-# This guarantees multi-rule timing / phase / sequencing questions always have
-# the relevant framework available, instead of relying on MMR luck.
-#
-# Heading names are matched case-insensitively against H2/H3/H4 headings in
-# files whose stem contains "core" and "rule" (i.e. 40K_Core_Rules.md /
-# AOS_Core_Rules.md).
 _CORE_CONCEPTS_40K: list[tuple[frozenset[str], tuple[str, ...]]] = [
     (
         frozenset({
@@ -1124,8 +1044,6 @@ def _find_heading_section(text: str, heading_name: str) -> Optional[str]:
     for m in re.finditer(r"^(#{2,4})\s+(.+?)\s*$", text, re.MULTILINE):
         level = len(m.group(1))
         heading = m.group(2).strip()
-        # Strip leading numbering like "14.3 " or "1. " so "CHARGE PHASE"
-        # matches "14.3 CHARGE PHASE".
         heading_bare = re.sub(r"^[\d.\s]+", "", heading)
         if _normalize(heading_bare) == target_norm:
             section = _extract_markdown_section(text, m.start(), level)
@@ -1191,13 +1109,9 @@ def extract_candidate_phrases(question: str) -> List[str]:
     phrases: List[str] = []
     q_lower = question.lower()
 
-    # Anything the user explicitly quotes (ability / unit names).
     for m in re.finditer(r'["\u201c\u2018]([^"\u201d\u2019]{3,80})["\u201d\u2019]', question):
         phrases.append(m.group(1).strip())
 
-    # "definition/effect/text of <name> trait|ability|rule|keyword|passive".
-    # This captures lower-case multi-word names such as "short tempered trait".
-    # Supports common misspelling "defenition".
     for m in re.finditer(
         r"\b(?:definition|defenition|meaning|effect|text)\s+of\s+(?:the\s+)?"
         r"([A-Za-z][A-Za-z'\-]+(?:\s+[A-Za-z][A-Za-z'\-]+){0,5})\s+"
@@ -1207,7 +1121,6 @@ def extract_candidate_phrases(question: str) -> List[str]:
     ):
         phrases.append(m.group(1).strip())
 
-    # "what does <name> trait|ability|rule|keyword|passive do".
     for m in re.finditer(
         r"\bwhat\s+does\s+([A-Za-z][A-Za-z'\-]+(?:\s+[A-Za-z][A-Za-z'\-]+){0,5})\s+"
         r"(?:trait|ability|rule|keyword|passive)\s+do\b",
@@ -1216,7 +1129,6 @@ def extract_candidate_phrases(question: str) -> List[str]:
     ):
         phrases.append(m.group(1).strip())
 
-    # Points queries: capture the noun after "unit <name>" or "points for/is <name>".
     if any(kw in q_lower for kw in ("point", "points", "pts")):
         for pattern in (
             r"\bunit\s+([A-Za-z][A-Za-z'\-]+(?:\s+[A-Za-z][A-Za-z'\-]+){0,4})",
@@ -1225,23 +1137,18 @@ def extract_candidate_phrases(question: str) -> List[str]:
             for m in re.finditer(pattern, question, re.IGNORECASE):
                 phrases.append(m.group(1).strip())
 
-    # Two or more consecutive Title-Case words, including hyphenated tokens
-    # (e.g. "Chaos Warriors", "Lord-Aquilor on Gryph-charger").
     for m in re.finditer(
         r"([A-Z][A-Za-z]+(?:-[A-Za-z]+)*(?: [A-Z][A-Za-z]+(?:-[A-Za-z]+)*)+)",
         question,
     ):
         phrases.append(m.group(1).strip())
 
-    # Single long Title-Case token (e.g. "Stormvermin", "DeepStrike").
     for m in re.finditer(r"\b([A-Z][A-Za-z]{3,})\b", question):
         phrases.append(m.group(1).strip())
 
-    # Hyphenated Title-Case names not captured above (e.g. "Lord-Aquilor").
     for m in re.finditer(r"\b([A-Z][A-Za-z]{1,}(?:-[A-Za-z]{2,})+)\b", question):
         phrases.append(m.group(1).strip())
 
-    # Lowercase "unit <name>" fallback.
     if "unit " in q_lower:
         for m in re.finditer(
             r"\bunit\s+([a-z][a-z'\-]{3,}(?:\s+[a-z][a-z'\-]{3,}){0,4})\b",
@@ -1250,7 +1157,6 @@ def extract_candidate_phrases(question: str) -> List[str]:
         ):
             phrases.append(m.group(1).strip())
 
-    # "X or Y", "X vs Y", "X versus Y" — extracts both subjects even when lowercase.
     for m in re.finditer(
         r"\b([A-Za-z][A-Za-z'\-]{2,}(?:\s+[A-Za-z][A-Za-z'\-]{2,}){0,2})"
         r"\s+(?:or|vs\.?|versus)\s+"
@@ -1262,8 +1168,6 @@ def extract_candidate_phrases(question: str) -> List[str]:
             if _normalize(grp) not in _FILTER_WORDS:
                 phrases.append(grp)
 
-    # "between X and Y" — covers "difference between X and Y" questions.
-    # Non-greedy so it snaps to the nearest "and", not words before both subjects.
     for m in re.finditer(
         r"\bbetween\s+([A-Za-z][A-Za-z'\-]{2,}(?:\s+[A-Za-z][A-Za-z'\-]{2,}){0,2}?)"
         r"\s+and\s+"
@@ -1275,8 +1179,6 @@ def extract_candidate_phrases(question: str) -> List[str]:
             if _normalize(grp) not in _FILTER_WORDS:
                 phrases.append(grp)
 
-    # "X and Y" when the question signals a comparison/relationship.
-    # Restricted to single-word subjects to avoid over-greedily matching whole clauses.
     if any(sig in q_lower for sig in _COMPARISON_SIGNALS):
         for m in re.finditer(
             r"\b([A-Za-z][A-Za-z'\-]{3,})\s+and\s+([A-Za-z][A-Za-z'\-]{3,})\b",
@@ -1287,11 +1189,6 @@ def extract_candidate_phrases(question: str) -> List[str]:
                 if _normalize(grp) not in _FILTER_WORDS:
                     phrases.append(grp)
 
-    # Bare lowercase nouns when a game property word is present.
-    # Catches questions like "how many attacks do plague marines have?" where
-    # the unit name is all-lowercase. Single-word matches only; the heading
-    # search's token-overlap scoring then reunites related words (e.g. "plague"
-    # + "marines" both independently score well against "### Plague Marines").
     if any(kw in q_lower for kw in _GAME_PROPERTY_WORDS):
         for m in re.finditer(r"\b([a-z][a-z'\-]{3,})\b", question):
             candidate = m.group(1).strip()
@@ -1301,7 +1198,6 @@ def extract_candidate_phrases(question: str) -> List[str]:
             ):
                 phrases.append(candidate)
 
-    # Deduplicate, preserve order, drop very short entries.
     seen: set = set()
     result: List[str] = []
     for p in phrases:
@@ -1502,9 +1398,6 @@ def find_keyword_snippets(
     return out[:max_snippets]
 
 
-# ---------------------------------------------------------------------------
-# Main QA function
-# ---------------------------------------------------------------------------
 
 def answer_question(
     question: str,
@@ -1537,18 +1430,12 @@ def answer_question(
     """
     game_key = "wh40k" if "40" in game_label else "aos"
 
-    # Detect whether the question looks conceptual (timing, sequencing, phase
-    # interactions) rather than a specific unit/ability lookup. Conceptual
-    # questions benefit from a wider semantic net because the relevant core
-    # rules are split across several independent headings.
     phrases = extract_candidate_phrases(question)
     is_conceptual = not phrases or all(len(p.split()) == 1 for p in phrases)
     effective_k = max(k, 14) if is_conceptual else k
 
-    # 1. Semantic retrieval.
     context_snippets = retrieve_context(vectorstore, question, k=effective_k)
 
-    # 2. Keyword retrieval (augments semantic search for specific unit/ability lookups).
     keyword_snippets: List[str] = []
     sources = rules_sources
 
@@ -1563,9 +1450,6 @@ def answer_question(
             heading_vocab=heading_vocab,
         )
 
-    # 2b. Concept retrieval: pull canonical core-rule sections for timing /
-    # sequencing / phase-interaction questions so the governing framework is
-    # always in context, regardless of semantic-search noise.
     concept_snippets: List[str] = []
     if sources is None and data_dir:
         sources = load_rules_sources(data_dir)
@@ -1574,10 +1458,6 @@ def answer_question(
             question, sources, game=game_key, max_sections=4,
         )
 
-    # 3. Faction-wide overview for comparative/recommendation questions.
-    # When a question asks about the "best/strongest/cheapest" unit in a
-    # specific faction, prepend a compact one-line-per-unit stats summary so
-    # the AI can compare all units without being limited to random semantic chunks.
     faction_summary: Optional[str] = None
     if sources:
         faction_data = detect_faction_query(question, sources)
@@ -1603,9 +1483,6 @@ def answer_question(
                 points_table_summary = summary
                 context_snippets = context_snippets[:4]
 
-    # Reduce semantic noise when keyword search already covers all subjects with
-    # precise points data. If only a subset of subjects is covered, keep more
-    # semantic chunks so the remaining subjects can still be found.
     prefer_points = any(kw in question.lower() for kw in ("point", "points", "pts"))
     if prefer_points and keyword_snippets:
         points_found = sum(1 for s in keyword_snippets if "**Points:**" in s)
@@ -1620,8 +1497,6 @@ def answer_question(
         prefix.append(points_table_summary)
     if faction_summary:
         prefix.append(faction_summary)
-    # Concept sections come before generic semantic chunks but after
-    # faction-specific overviews so unit/ability details stay most prominent.
     all_snippets = prefix + keyword_snippets + concept_snippets + context_snippets
     context_block = "\n\n---\n\n".join(all_snippets)
 
@@ -1629,8 +1504,6 @@ def answer_question(
 
     army_list_query, budget = _detect_army_query(question)
 
-    # Only proceed in army mode if we also managed to find a matching faction
-    # points table — otherwise we'd be guessing at unit names.
     if army_list_query and budget and points_table_summary:
         precomputed = None
         faction_pts_data = detect_faction_source(
@@ -1689,9 +1562,6 @@ def answer_question(
     return response.content.strip()
 
 
-# ---------------------------------------------------------------------------
-# CLI entry point
-# ---------------------------------------------------------------------------
 
 def main() -> int:
     load_dotenv(os.path.join(_PROJECT_ROOT, ".env"))

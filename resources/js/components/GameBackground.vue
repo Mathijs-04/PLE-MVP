@@ -1,6 +1,6 @@
 <script setup lang="js">
-import { useAppearance } from '@/composables/useAppearance';
 import { computed } from 'vue';
+import { useAppearance } from '@/composables/useAppearance';
 
 const props = defineProps({
     game: {

@@ -15,7 +15,11 @@ const toggleTheme = () => {
     updateAppearance(resolvedAppearance.value === 'dark' ? 'light' : 'dark');
 };
 
-const warhammerLogo = computed(() => resolvedAppearance.value === 'light' ? '/Warhammer-Light.png' : '/Warhammer.png');
+const warhammerLogo = computed(() =>
+    resolvedAppearance.value === 'light'
+        ? '/Warhammer-Light.png'
+        : '/Warhammer.png',
+);
 
 const CHAT_DRAFT_KEY = 'warhammer_chat_draft_v1';
 
@@ -26,7 +30,10 @@ function isDocumentReloadNavigation() {
         return true;
     }
 
-    if (typeof performance.navigation !== 'undefined' && performance.navigation.type === 1) {
+    if (
+        typeof performance.navigation !== 'undefined' &&
+        performance.navigation.type === 1
+    ) {
         return true;
     }
 
@@ -104,11 +111,17 @@ onMounted(async () => {
     }
 
     if (draft.answers && typeof draft.answers === 'object') {
-        if (draft.answers.aos && typeof draft.answers.aos.short_answer === 'string') {
+        if (
+            draft.answers.aos &&
+            typeof draft.answers.aos.short_answer === 'string'
+        ) {
             answers.aos = draft.answers.aos;
         }
 
-        if (draft.answers['40k'] && typeof draft.answers['40k'].short_answer === 'string') {
+        if (
+            draft.answers['40k'] &&
+            typeof draft.answers['40k'].short_answer === 'string'
+        ) {
             answers['40k'] = draft.answers['40k'];
         }
     } else if (
@@ -147,7 +160,15 @@ onMounted(async () => {
 });
 
 watch(
-    [question, game, answers, questions, openShortAnswer, openDetailedAnswer, openSource],
+    [
+        question,
+        game,
+        answers,
+        questions,
+        openShortAnswer,
+        openDetailedAnswer,
+        openSource,
+    ],
     () => {
         if (skipDraftPersist || loading.value) {
             return;
@@ -188,22 +209,34 @@ const renderMarkdown = (markdown) => {
     const escaped = escapeHtml(input);
 
     const codeBlocks = [];
-    const tokenized = escaped.replace(/```(\w+)?\n([\s\S]*?)```/g, (match, lang, code) => {
-        const i = codeBlocks.length;
-        const language = lang ? ` language-${String(lang)}` : '';
-        codeBlocks.push(
-            `<pre class="my-3 overflow-x-auto rounded-lg bg-sidebar/10 p-3 ring-1 ring-sidebar-border/70"><code class="${language} whitespace-pre">${code}</code></pre>`,
-        );
+    const tokenized = escaped.replace(
+        /```(\w+)?\n([\s\S]*?)```/g,
+        (match, lang, code) => {
+            const i = codeBlocks.length;
+            const language = lang ? ` language-${String(lang)}` : '';
+            codeBlocks.push(
+                `<pre class="my-3 overflow-x-auto rounded-lg bg-sidebar/10 p-3 ring-1 ring-sidebar-border/70"><code class="${language} whitespace-pre">${code}</code></pre>`,
+            );
 
-        return `@@CODEBLOCK_${i}@@`;
-    });
+            return `@@CODEBLOCK_${i}@@`;
+        },
+    );
 
     const renderInline = (value) => {
         let html = value;
 
-        html = html.replace(/`([^`]+)`/g, '<code class="rounded bg-sidebar/10 px-1 py-0.5 ring-1 ring-sidebar-border/70">$1</code>');
-        html = html.replace(/\*\*([^*]+)\*\*/g, '<strong class="font-semibold">$1</strong>');
-        html = html.replace(/(^|[^*])\*([^*]+)\*(?!\*)/g, '$1<em class="italic">$2</em>');
+        html = html.replace(
+            /`([^`]+)`/g,
+            '<code class="rounded bg-sidebar/10 px-1 py-0.5 ring-1 ring-sidebar-border/70">$1</code>',
+        );
+        html = html.replace(
+            /\*\*([^*]+)\*\*/g,
+            '<strong class="font-semibold">$1</strong>',
+        );
+        html = html.replace(
+            /(^|[^*])\*([^*]+)\*(?!\*)/g,
+            '$1<em class="italic">$2</em>',
+        );
 
         return html;
     };
@@ -238,8 +271,11 @@ const renderMarkdown = (markdown) => {
         if (headingMatch) {
             const level = headingMatch[1].length;
             const content = renderInline(headingMatch[2].trim());
-            const sizeClass = level === 1 ? 'text-xl' : level === 2 ? 'text-lg' : 'text-base';
-            parts.push(`<h${level} class="font-title mt-5 mb-2 ${sizeClass} font-bold tracking-[0.03em]">${content}</h${level}>`);
+            const sizeClass =
+                level === 1 ? 'text-xl' : level === 2 ? 'text-lg' : 'text-base';
+            parts.push(
+                `<h${level} class="font-title mt-5 mb-2 ${sizeClass} font-bold tracking-[0.03em]">${content}</h${level}>`,
+            );
             i++;
             continue;
         }
@@ -256,11 +292,15 @@ const renderMarkdown = (markdown) => {
                     break;
                 }
 
-                items.push(`<li class="my-1">${renderInline(m[1].trim())}</li>`);
+                items.push(
+                    `<li class="my-1">${renderInline(m[1].trim())}</li>`,
+                );
                 i++;
             }
 
-            parts.push(`<ul class="my-3 list-disc pl-6">${items.join('')}</ul>`);
+            parts.push(
+                `<ul class="my-3 list-disc pl-6">${items.join('')}</ul>`,
+            );
             continue;
         }
 
@@ -276,11 +316,15 @@ const renderMarkdown = (markdown) => {
                     break;
                 }
 
-                items.push(`<li class="my-1">${renderInline(m[1].trim())}</li>`);
+                items.push(
+                    `<li class="my-1">${renderInline(m[1].trim())}</li>`,
+                );
                 i++;
             }
 
-            parts.push(`<ol class="my-3 list-decimal pl-6">${items.join('')}</ol>`);
+            parts.push(
+                `<ol class="my-3 list-decimal pl-6">${items.join('')}</ol>`,
+            );
             continue;
         }
 
@@ -314,7 +358,9 @@ const renderMarkdown = (markdown) => {
     return html;
 };
 
-const baseDetailedHtml = computed(() => (answer.value ? renderMarkdown(answer.value.detailed_answer) : ''));
+const baseDetailedHtml = computed(() =>
+    answer.value ? renderMarkdown(answer.value.detailed_answer) : '',
+);
 
 const renderedDetailedAnswer = ref('');
 
@@ -329,30 +375,54 @@ watch(
             return;
         }
 
-        renderedDetailedAnswer.value = wrapRuleTagLinks(base, game.value, getTagsForGame(game.value));
+        renderedDetailedAnswer.value = wrapRuleTagLinks(
+            base,
+            game.value,
+            getTagsForGame(game.value),
+        );
     },
     { immediate: true },
 );
 
 const certaintyConfig = {
-    1: { color: 'bg-green-500', label: 'High confidence — Answer is directly supported by the rules.' },
-    2: { color: 'bg-yellow-400', label: 'Moderate confidence — Answer is partially in the rules and requires some interpretation.' },
-    3: { color: 'bg-orange-500', label: 'Low confidence — The rules barely cover this, or may contradict.' },
-    4: { color: 'bg-red-500', label: 'Very low confidence — The rules do not cover this, treat with caution.' },
+    1: {
+        color: 'bg-green-500',
+        label: 'High confidence — Answer is directly supported by the rules.',
+    },
+    2: {
+        color: 'bg-yellow-400',
+        label: 'Moderate confidence — Answer is partially in the rules and requires some interpretation.',
+    },
+    3: {
+        color: 'bg-orange-500',
+        label: 'Low confidence — The rules barely cover this, or may contradict.',
+    },
+    4: {
+        color: 'bg-red-500',
+        label: 'Very low confidence — The rules do not cover this, treat with caution.',
+    },
 };
 
 const certaintyLevel = computed(() => {
     const raw = answer.value?.certainty;
-    if (raw >= 1 && raw <= 4) return raw;
+
+    if (raw >= 1 && raw <= 4) {
+        return raw;
+    }
+
     return 4;
 });
 
 const formatSource = (source) => {
-    if (!source) return '';
+    if (!source) {
+        return '';
+    }
 
     const parts = String(source).split(' & ');
 
-    if (parts.length <= 2) return source;
+    if (parts.length <= 2) {
+        return source;
+    }
 
     return parts.slice(0, -1).join(', ') + ' & ' + parts[parts.length - 1];
 };
@@ -446,20 +516,36 @@ const ask = async () => {
         <button
             type="button"
             class="fixed top-4 right-4 z-50 flex h-9 w-9 items-center justify-center rounded-full border border-sidebar-border/70 bg-sidebar/80 text-foreground shadow-sm backdrop-blur-sm transition-colors hover:bg-sidebar"
-            :aria-label="resolvedAppearance === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'"
+            :aria-label="
+                resolvedAppearance === 'dark'
+                    ? 'Switch to light mode'
+                    : 'Switch to dark mode'
+            "
             @click="toggleTheme"
         >
             <Sun v-if="resolvedAppearance === 'dark'" class="h-4 w-4" />
             <Moon v-else class="h-4 w-4" />
         </button>
 
-        <div class="relative z-10 mx-auto max-w-3xl space-y-6 px-4 pt-16 pb-10 sm:pt-[68px]">
-
-            <div class="space-y-5 rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6">
+        <div
+            class="relative z-10 mx-auto max-w-3xl space-y-6 px-4 pt-16 pb-10 sm:pt-[68px]"
+        >
+            <div
+                class="space-y-5 rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6"
+            >
                 <div class="flex items-start justify-between gap-4">
                     <div class="min-w-0 flex-1">
-                        <h1 class="font-title text-lg sm:text-2xl font-bold tracking-[0.03em]">Warhammer Rule Assistant</h1>
-                        <p class="mt-1 text-xs sm:text-sm text-muted-foreground">Ask any rule related question and get an answer based on the official rules.</p>
+                        <h1
+                            class="font-title text-lg font-bold tracking-[0.03em] sm:text-2xl"
+                        >
+                            Warhammer Rule Assistant
+                        </h1>
+                        <p
+                            class="mt-1 text-xs text-muted-foreground sm:text-sm"
+                        >
+                            Ask any rule-related question and get an answer
+                            based on the official rules.
+                        </p>
                     </div>
                     <img
                         :src="warhammerLogo"
@@ -472,11 +558,13 @@ const ask = async () => {
                 </div>
 
                 <div class="space-y-1.5">
-                    <label class="text-sm font-medium text-foreground">Your question</label>
+                    <label class="text-sm font-medium text-foreground"
+                        >Your question</label
+                    >
                     <Input
                         v-model="question"
                         class="w-full"
-                        placeholder="Ask a rule related question..."
+                        placeholder="Ask a rule-related question..."
                         :disabled="loading"
                         @keyup.enter="ask"
                     />
@@ -486,35 +574,64 @@ const ask = async () => {
                     <div class="flex items-center gap-3">
                         <span
                             class="text-sm transition-colors"
-                            :class="game === 'aos' ? 'font-semibold text-foreground' : 'text-muted-foreground'"
-                        ><span class="sm:hidden">AOS</span><span class="hidden sm:inline">Warhammer Age of Sigmar</span></span>
+                            :class="
+                                game === 'aos'
+                                    ? 'font-semibold text-foreground'
+                                    : 'text-muted-foreground'
+                            "
+                            ><span class="sm:hidden">AOS</span
+                            ><span class="hidden sm:inline"
+                                >Warhammer Age of Sigmar</span
+                            ></span
+                        >
 
                         <button
                             type="button"
                             role="switch"
                             :aria-checked="game === '40k'"
                             :disabled="loading"
-                            class="relative inline-flex h-6 w-11 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                            class="relative inline-flex h-6 w-11 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
                             :class="game === '40k' ? 'bg-primary' : 'bg-input'"
                             @click="switchGame(game === 'aos' ? '40k' : 'aos')"
                         >
                             <span
                                 class="pointer-events-none inline-block h-4 w-4 transform rounded-full bg-background shadow-lg ring-0 transition-transform"
-                                :class="game === '40k' ? 'translate-x-5' : 'translate-x-0'"
+                                :class="
+                                    game === '40k'
+                                        ? 'translate-x-5'
+                                        : 'translate-x-0'
+                                "
                             />
                         </button>
 
                         <span
                             class="text-sm transition-colors"
-                            :class="game === '40k' ? 'font-semibold text-foreground' : 'text-muted-foreground'"
-                        ><span class="sm:hidden">40K</span><span class="hidden sm:inline">Warhammer 40.000</span></span>
+                            :class="
+                                game === '40k'
+                                    ? 'font-semibold text-foreground'
+                                    : 'text-muted-foreground'
+                            "
+                            ><span class="sm:hidden">40K</span
+                            ><span class="hidden sm:inline"
+                                >Warhammer 40.000</span
+                            ></span
+                        >
                     </div>
 
                     <div class="flex items-center gap-2">
-                        <Button variant="outline" :disabled="loading || !answer" class="h-9 px-5" @click="clear">
+                        <Button
+                            variant="outline"
+                            :disabled="loading || !answer"
+                            class="h-9 px-5"
+                            @click="clear"
+                        >
                             Clear
                         </Button>
-                        <Button :disabled="loading || !question.trim()" class="h-9 px-5" @click="ask">
+                        <Button
+                            :disabled="loading || !question.trim()"
+                            class="h-9 px-5"
+                            @click="ask"
+                        >
                             <span v-if="loading">Asking…</span>
                             <span v-else>Ask</span>
                         </Button>
@@ -522,87 +639,160 @@ const ask = async () => {
                 </div>
             </div>
 
-            <div class="rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6">
-
+            <div
+                class="rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6"
+            >
                 <template v-if="error">
-                    <div class="rounded-lg bg-red-50 p-4 text-red-700 ring-1 ring-red-200 dark:bg-red-950/30 dark:text-red-100 dark:ring-red-900/40">
+                    <div
+                        class="rounded-lg bg-red-50 p-4 text-red-700 ring-1 ring-red-200 dark:bg-red-950/30 dark:text-red-100 dark:ring-red-900/40"
+                    >
                         {{ error }}
                     </div>
                 </template>
 
                 <template v-else-if="answer">
                     <div class="space-y-3">
-
-                        <div class="relative z-20 rounded-lg border border-sidebar-border/70">
+                        <div
+                            class="relative z-20 rounded-lg border border-sidebar-border/70"
+                        >
                             <button
                                 type="button"
-                                class="flex w-full items-center justify-between px-4 py-3 text-left hover:bg-sidebar/10 transition-colors"
+                                class="flex w-full items-center justify-between px-4 py-3 text-left transition-colors hover:bg-sidebar/10"
                                 @click="openShortAnswer = !openShortAnswer"
                             >
-                                <span class="font-title text-xs font-semibold uppercase tracking-widest text-muted-foreground">Short Answer</span>
-                                <ChevronDown class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" :class="openShortAnswer ? 'rotate-180' : ''" />
+                                <span
+                                    class="font-title text-xs font-semibold tracking-widest text-muted-foreground uppercase"
+                                    >Short Answer</span
+                                >
+                                <ChevronDown
+                                    class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200"
+                                    :class="openShortAnswer ? 'rotate-180' : ''"
+                                />
                             </button>
-                            <div v-show="openShortAnswer" class="border-t border-sidebar-border/70 bg-sidebar/10 px-4 py-4">
-                                <div class="flex items-start justify-between gap-3">
-                                    <p class="text-base sm:text-xl font-bold leading-snug">{{ answer.short_answer }}</p>
+                            <div
+                                v-show="openShortAnswer"
+                                class="border-t border-sidebar-border/70 bg-sidebar/10 px-4 py-4"
+                            >
+                                <div
+                                    class="flex items-start justify-between gap-3"
+                                >
+                                    <p
+                                        class="text-base leading-snug font-bold sm:text-xl"
+                                    >
+                                        {{ answer.short_answer }}
+                                    </p>
                                     <span class="group relative mt-1 shrink-0">
                                         <span
                                             class="block h-3 w-3 rounded-full"
-                                            :class="certaintyConfig[certaintyLevel].color"
+                                            :class="
+                                                certaintyConfig[certaintyLevel]
+                                                    .color
+                                            "
                                         />
-                                        <span class="pointer-events-none absolute bottom-full right-0 z-50 mb-2 w-56 rounded-lg bg-popover px-3 py-2 text-xs leading-snug text-popover-foreground shadow-lg ring-1 ring-sidebar-border/70 opacity-0 transition-opacity group-hover:opacity-100">
-                                            {{ certaintyConfig[certaintyLevel].label }}
+                                        <span
+                                            class="pointer-events-none absolute right-0 bottom-full z-50 mb-2 w-56 rounded-lg bg-popover px-3 py-2 text-xs leading-snug text-popover-foreground opacity-0 shadow-lg ring-1 ring-sidebar-border/70 transition-opacity group-hover:opacity-100"
+                                        >
+                                            {{
+                                                certaintyConfig[certaintyLevel]
+                                                    .label
+                                            }}
                                         </span>
                                     </span>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="overflow-hidden rounded-lg border border-sidebar-border/70">
+                        <div
+                            class="overflow-hidden rounded-lg border border-sidebar-border/70"
+                        >
                             <button
                                 type="button"
-                                class="flex w-full items-center justify-between px-4 py-3 text-left hover:bg-sidebar/10 transition-colors"
-                                @click="openDetailedAnswer = !openDetailedAnswer"
+                                class="flex w-full items-center justify-between px-4 py-3 text-left transition-colors hover:bg-sidebar/10"
+                                @click="
+                                    openDetailedAnswer = !openDetailedAnswer
+                                "
                             >
-                                <span class="font-title text-xs font-semibold uppercase tracking-widest text-muted-foreground">Detailed Answer</span>
-                                <ChevronDown class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" :class="openDetailedAnswer ? 'rotate-180' : ''" />
+                                <span
+                                    class="font-title text-xs font-semibold tracking-widest text-muted-foreground uppercase"
+                                    >Detailed Answer</span
+                                >
+                                <ChevronDown
+                                    class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200"
+                                    :class="
+                                        openDetailedAnswer ? 'rotate-180' : ''
+                                    "
+                                />
                             </button>
-                            <div v-show="openDetailedAnswer" class="border-t border-sidebar-border/70 px-4 py-4 text-sm leading-relaxed">
+                            <div
+                                v-show="openDetailedAnswer"
+                                class="border-t border-sidebar-border/70 px-4 py-4 text-sm leading-relaxed"
+                            >
                                 <div v-html="renderedDetailedAnswer" />
                             </div>
                         </div>
 
-                        <div class="overflow-hidden rounded-lg border border-sidebar-border/70">
+                        <div
+                            class="overflow-hidden rounded-lg border border-sidebar-border/70"
+                        >
                             <button
                                 type="button"
-                                class="flex w-full items-center justify-between px-4 py-3 text-left hover:bg-sidebar/10 transition-colors"
+                                class="flex w-full items-center justify-between px-4 py-3 text-left transition-colors hover:bg-sidebar/10"
                                 @click="openSource = !openSource"
                             >
-                                <span class="font-title text-xs font-semibold uppercase tracking-widest text-muted-foreground">Source</span>
-                                <ChevronDown class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" :class="openSource ? 'rotate-180' : ''" />
+                                <span
+                                    class="font-title text-xs font-semibold tracking-widest text-muted-foreground uppercase"
+                                    >Source</span
+                                >
+                                <ChevronDown
+                                    class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200"
+                                    :class="openSource ? 'rotate-180' : ''"
+                                />
                             </button>
-                            <div v-show="openSource" class="border-t border-sidebar-border/70 bg-sidebar/10 px-4 py-4">
-                                <p class="text-sm text-muted-foreground">{{ formatSource(answer.source) }}</p>
+                            <div
+                                v-show="openSource"
+                                class="border-t border-sidebar-border/70 bg-sidebar/10 px-4 py-4"
+                            >
+                                <p class="text-sm text-muted-foreground">
+                                    {{ formatSource(answer.source) }}
+                                </p>
                             </div>
                         </div>
-
                     </div>
                 </template>
 
                 <template v-else-if="loading">
-                    <div class="flex flex-col items-center justify-center gap-3 py-12 text-muted-foreground">
-                        <svg class="h-8 w-8 animate-spin text-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
-                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                    <div
+                        class="flex flex-col items-center justify-center gap-3 py-12 text-muted-foreground"
+                    >
+                        <svg
+                            class="h-8 w-8 animate-spin text-primary"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                        >
+                            <circle
+                                class="opacity-25"
+                                cx="12"
+                                cy="12"
+                                r="10"
+                                stroke="currentColor"
+                                stroke-width="4"
+                            />
+                            <path
+                                class="opacity-75"
+                                fill="currentColor"
+                                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+                            />
                         </svg>
                         <span class="text-sm">Searching the rules…</span>
                     </div>
                 </template>
 
                 <template v-else>
-                    <p class="py-4 text-center text-sm text-muted-foreground">Ask a question to get an answer.</p>
+                    <p class="py-4 text-center text-sm text-muted-foreground">
+                        Ask a question to get an answer.
+                    </p>
                 </template>
-
             </div>
         </div>
     </div>
