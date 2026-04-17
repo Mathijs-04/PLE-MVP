@@ -115,33 +115,44 @@ Do not include any text outside the JSON object. Do not wrap it in code fences.
 """.strip()
 
 ARMY_LIST_SYSTEM_PROMPT = """
-You are a Warhammer army-list builder. You receive a faction points table,
-a pre-computed balanced army list, and possibly some warscroll snippets.
-Your job is to present a legal, balanced army list that fits the requested
-points budget.
+You are a Warhammer army-list builder. You will ALMOST ALWAYS receive a
+pre-computed army list that already respects the requested points budget,
+includes a centerpiece, reinforces battleline, and biases toward one
+sub-faction for cohesion.
 
-ARMY COMPOSITION — a good list MUST include a mix of:
-- 1-2 Heroes (leaders/characters)
-- 2-3 Infantry/Battleline units (the core of any army)
-- 1-2 heavier units: Monsters, Vehicles, War Machines, or Cavalry
-- Optionally: cheap support or ranged units to fill remaining points
-NEVER recommend an army of only 2-3 elite monsters or only heroes.
-A real army needs bodies on the board.
+DEFAULT BEHAVIOUR — when a pre-computed list is present:
+- Copy its bullet list and total into "detailed_answer" VERBATIM. Do not
+  rename, swap, add, or remove any units. Do not recalculate totals.
+- If an entry shows "(x2)" or "(x3)", keep it exactly like that.
+- Preserve the order of the bullets.
+- The only writing you do is a short explanation (2-3 sentences) of why
+  the composition works.
 
-STRICT OUTPUT RULES — you MUST follow these:
-1. Return EXACTLY ONE recommended list. Never show rejected attempts, failed
-   totals, or iterative recalculations.
-2. The "short_answer" is a single sentence naming a few key units and the total.
-3. The "detailed_answer" contains ONLY:
-   - The unit list as bullet points (unit name — points).
-   - A "**Total: X points**" line.
-   - 2-3 short sentences explaining why this is a balanced list.
+WHEN NO PRE-COMPUTED LIST IS PROVIDED (rare fallback), build a list that:
+- Has a centerpiece unit (~20-30% of the budget).
+- Has 1-2 supporting heroes at mid-cost.
+- Has 2-3 battleline/infantry units, with at least one taken twice.
+- Has 1-2 heavier units (Monsters, Vehicles, War Machines).
+- Optional: a support or ranged unit to fill out remaining points.
+- Shares a sub-faction/keyword where possible for cohesion.
+NEVER submit an army of only 2-3 elite monsters or only heroes — a real
+army needs bodies on the board. NEVER submit an army of only the cheapest
+datasheets either — include at least one expensive centerpiece.
+
+STRICT OUTPUT RULES:
+1. Return EXACTLY ONE recommended list. Never show rejected attempts,
+   failed totals, or iterative recalculations.
+2. "short_answer" is one sentence: the centerpiece, the theme (if any),
+   and the total.
+3. "detailed_answer" contains ONLY:
+   - The unit list as bullet points ("- Unit Name (x2): 300 pts").
+   - A "**Total: X/BUDGET points**" line.
+   - 2-3 short sentences about why the composition works (centerpiece,
+     core, support, shared sub-faction).
    - Nothing else. No alternative lists. No disclaimers about missing data.
-4. The total MUST be at or below the requested budget. Double-check your
-   arithmetic before responding.
+4. The total MUST be at or below the requested budget. If you are copying
+   a pre-computed list, the arithmetic is already correct — trust it.
 5. Do NOT explain your reasoning process or show working.
-6. If a pre-computed list is provided, use it as-is unless you can clearly
-   improve it while keeping a similar role balance and staying under budget.
 
 Always respond with a valid JSON object in exactly this format, and nothing else:
 
@@ -159,10 +170,41 @@ Do not include any text outside the JSON object. Do not wrap it in code fences.
 """.strip()
 
 
-def _extract_points_budget(question: str) -> Optional[int]:
-    m = re.search(r"(\d{3,5})\s*(?:point|points|pts)", question, re.IGNORECASE)
-    return int(m.group(1)) if m else None
+# ---------------------------------------------------------------------------
+# Points budget extraction
+# ---------------------------------------------------------------------------
 
+def _extract_points_budget(question: str) -> Optional[int]:
+    """
+    Parse a points budget from the question. Accepts:
+      - "1500 points", "1500 pts", "1500 pt", "1500-point", "1500point"
+      - "1,500 points"
+      - "2k", "2k points", "1.5k points"
+      - "for 1500", "at 2000", "of 1500"
+    Returns None when no budget is found.
+    """
+    q = question.lower()
+
+    m = re.search(r"(\d[\d,]{2,5})\s*[-\s]?\s*(?:point|points|pts|pt)\b", q)
+    if m:
+        return int(m.group(1).replace(",", ""))
+
+    m = re.search(r"\b(\d(?:\.\d)?)\s*k\s*(?:point|points|pts|pt)?\b", q)
+    if m:
+        return int(round(float(m.group(1)) * 1000))
+
+    m = re.search(r"\b(?:for|at|of|with|around|about)\s+(\d[\d,]{2,5})\b", q)
+    if m:
+        val = int(m.group(1).replace(",", ""))
+        if 250 <= val <= 10000:
+            return val
+
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Unit parsing
+# ---------------------------------------------------------------------------
 
 _ROLE_KEYWORDS_AOS = {
     "hero": {"HERO"},
@@ -180,9 +222,41 @@ _ROLE_KEYWORDS_40K = {
     "mounted": {"Mounted"},
 }
 
+# Keywords that are universal / role / alliance markers — not useful as a
+# sub-faction theme. Compared case-insensitively after stripping "(X+)".
+_NON_THEME_KEYWORDS = frozenset({
+    # Role / structural
+    "HERO", "INFANTRY", "MONSTER", "CAVALRY", "WAR MACHINE",
+    "VEHICLE", "CHARACTER", "BATTLELINE", "MOUNTED", "TITANIC",
+    "CHAMPION", "VETERAN", "WARMASTER", "EPIC HERO", "UNIQUE",
+    "WIZARD", "PRIEST", "WEAPON TEAM",
+    # Alliance / grand army
+    "CHAOS", "ORDER", "DEATH", "DESTRUCTION",
+    "IMPERIUM", "AELDARI", "TYRANIDS", "NECRONS", "ORK", "ORKS",
+    "ASURYANI", "GENESTEALER CULTS",
+    # Universal status
+    "FLY", "WARD", "DAEMON", "GRENADES", "LEGENDS",
+    # Non-combatant entries
+    "MANIFESTATION", "ENDLESS SPELL", "FACTION TERRAIN",
+    "INVOCATION", "REGIMENTS OF RENOWN",
+    # Generic descriptors found on some 40K units
+    "IMPERIAL", "CHAOS KNIGHTS",
+    # 40K universal unit-type modifiers (apply to many faction vehicles /
+    # monsters and would otherwise dominate theme detection).
+    "WALKER", "SMOKE", "TOWERING", "TRANSPORT", "AIRCRAFT",
+    "HOVER", "DEEP STRIKE", "DEEP-STRIKE", "JUMP PACK", "SCOUT",
+    "LONE OPERATIVE", "STEALTH", "FIRING DECK", "PSYKER",
+    "SYNAPSE",  # universal Tyranids battlefield role, not a sub-faction
+})
+
 _UNIT_HEADING_RE = re.compile(r"^###\s+(.+?)\s*$", re.MULTILINE)
 _POINTS_LINE_RE = re.compile(r"\*\*Points:\*\*\s*(\d+)")
 _KEYWORDS_LINE_RE = re.compile(r"^\*\*Keywords:\*\*\s*(.+)$", re.MULTILINE)
+
+
+def _clean_keyword(kw: str) -> str:
+    """Normalise a raw keyword token ("WIZARD (2)" -> "WIZARD")."""
+    return re.sub(r"\s*\([^)]*\)", "", kw).strip().upper()
 
 
 def _parse_units_with_roles(
@@ -214,14 +288,24 @@ def _parse_units_with_roles(
         kw_text = kw_m.group(1) if kw_m else ""
         kw_upper = kw_text.upper()
 
+        keywords = {_clean_keyword(tok) for tok in kw_text.split(",") if tok.strip()}
+        keywords.discard("")
+
+        # Skip entries that aren't deployable units (endless spells, terrain, etc.)
+        if keywords & {"MANIFESTATION", "ENDLESS SPELL", "FACTION TERRAIN", "INVOCATION"}:
+            continue
+
         roles: set[str] = set()
         for role, triggers in role_map.items():
             for trigger in triggers:
                 if trigger.upper() in kw_upper:
                     roles.add(role)
 
-        is_unique = "UNIQUE" in kw_upper or "EPIC HERO" in kw_upper
-        is_battleline = "BATTLELINE" in kw_upper
+        is_unique = "UNIQUE" in keywords or "EPIC HERO" in keywords
+        is_battleline = "BATTLELINE" in keywords
+
+        # Sub-faction candidates = keywords that aren't universal markers.
+        sub_factions = {kw for kw in keywords if kw not in _NON_THEME_KEYWORDS}
 
         parsed.append({
             "name": heading.group(1).strip(),
@@ -229,90 +313,338 @@ def _parse_units_with_roles(
             "roles": roles,
             "unique": is_unique,
             "battleline": is_battleline,
+            "keywords": keywords,
+            "sub_factions": sub_factions,
         })
 
     return parsed
 
 
-def _pick_from(
-    pool: list[dict],
-    remaining: int,
-    used_names: set[str],
-    count: int,
-) -> list[dict]:
-    picked: list[dict] = []
-    for u in pool:
-        if len(picked) >= count:
-            break
-        if u["pts"] <= remaining and u["name"] not in used_names:
-            picked.append(u)
-            remaining -= u["pts"]
-            used_names.add(u["name"])
-    return picked
+# ---------------------------------------------------------------------------
+# Theme detection
+# ---------------------------------------------------------------------------
+
+def _detect_theme_candidates(
+    all_units: Sequence[dict],
+    faction_name: str,
+) -> list[tuple[str, int]]:
+    """
+    Rank candidate sub-faction keywords by how many units carry them, excluding
+    keywords that essentially tag the whole faction (appear on >80% of units)
+    or the faction name itself.
+    """
+    if not all_units:
+        return []
+
+    faction_toks = {t for t in re.split(r"[^A-Za-z]+", faction_name.upper()) if t}
+
+    counts: dict[str, int] = {}
+    for u in all_units:
+        for kw in u.get("sub_factions", set()):
+            if kw in faction_toks or len(kw) < 3:
+                continue
+            counts[kw] = counts.get(kw, 0) + 1
+
+    total = len(all_units)
+    ranked: list[tuple[str, int]] = []
+    for kw, cnt in counts.items():
+        if cnt < 2:
+            continue
+        if cnt / total > 0.80:
+            continue
+        ranked.append((kw, cnt))
+
+    ranked.sort(key=lambda t: (-t[1], t[0]))
+    return ranked
+
+
+def _select_theme(
+    question: str,
+    theme_candidates: Sequence[tuple[str, int]],
+) -> Optional[str]:
+    """Pick a sub-faction theme, preferring one the user explicitly named."""
+    if not theme_candidates:
+        return None
+    q_upper = question.upper()
+    for kw, _cnt in theme_candidates:
+        if kw in q_upper:
+            return kw
+    return theme_candidates[0][0]
+
+
+# ---------------------------------------------------------------------------
+# Army list builder
+# ---------------------------------------------------------------------------
+
+def _budget_to_dupe_cap(budget: int) -> int:
+    if budget < 750:
+        return 1
+    if budget < 1400:
+        return 2
+    if budget < 2500:
+        return 3
+    return 4
+
+
+def _theme_bonus(unit: dict, theme: Optional[str]) -> int:
+    if theme and theme in unit.get("sub_factions", set()):
+        return 1
+    return 0
 
 
 def _build_army_list_from_table(
     faction_text: str,
     budget: int,
     game: str = "aos",
+    question: str = "",
 ) -> Optional[str]:
+    """
+    Build a cohesive, budget-respecting army list.
+
+    The picker works in tiers so the final list feels like a real army rather
+    than a bag of cheapest units:
+
+      1. Centerpiece   — one expensive themed hero/monster (~20-30% of budget).
+      2. Support heroes — 1-2 mid-cost heroes that share the theme.
+      3. Battleline    — 2-3 core infantry units, duplicated to form a backbone.
+      4. Heavy support — 1-2 monsters/vehicles/war machines (not the cheapest).
+      5. Auxiliary     — 0-2 support pieces (shooting, cavalry, specialists).
+      6. Fill          — cheapest remaining picks until the remainder is too
+                          small to matter.
+
+    Theme detection keeps the army lorewise-cohesive (e.g. a Skaven list biases
+    toward one of VERMINUS / PESTILENS / SKRYRE / ESHIN / MOULDER / MASTERCLAN).
+    Duplication (`_budget_to_dupe_cap`) reflects how real armies field multiple
+    Clanrats or Intercessor squads instead of one of every datasheet.
+    """
     all_units = _parse_units_with_roles(faction_text, game)
     if not all_units:
         return None
 
-    heroes = [u for u in all_units if "hero" in u["roles"] and not u["unique"]]
-    battleline = [u for u in all_units if u["battleline"]]
-    infantry = [u for u in all_units
-                if "infantry" in u["roles"] and "hero" not in u["roles"]]
-    monsters = [u for u in all_units
-                if ("monster" in u["roles"] or "vehicle" in u["roles"])
-                and "hero" not in u["roles"]]
-    machines = [u for u in all_units
-                if "war_machine" in u["roles"] and "hero" not in u["roles"]]
-    cavalry = [u for u in all_units
-               if ("cavalry" in u["roles"] or "mounted" in u["roles"])
-               and "hero" not in u["roles"]]
-
-    for pool in (heroes, battleline, infantry, monsters, machines, cavalry):
-        pool.sort(key=lambda u: u["pts"])
-
-    picked: list[dict] = []
-    used: set[str] = set()
-    remaining = budget
-
-    hero_target = max(1, budget // 500 + 1)
-    bl_target = max(1, budget // 400)
-    inf_target = max(1, budget // 500)
-    heavy_target = max(1, budget // 600)
-
-    def _pick(pool: list[dict], n: int) -> None:
-        nonlocal remaining
-        chosen = _pick_from(pool, remaining, used, n)
-        picked.extend(chosen)
-        remaining -= sum(u["pts"] for u in chosen)
-
-    _pick(heroes, hero_target)
-    if battleline:
-        _pick(battleline, bl_target)
-    else:
-        _pick(infantry, bl_target)
-    _pick(infantry, inf_target)
-    if monsters or machines:
-        _pick(monsters + machines, heavy_target)
-    if cavalry:
-        _pick(cavalry, 1)
-
-    remaining_units = [u for u in all_units if u["name"] not in used]
-    remaining_units.sort(key=lambda u: u["pts"])
-    _pick(remaining_units, 10)
-
-    if not picked:
+    # Guard: if the budget is below the cheapest non-unique unit we can't build.
+    cheapest = min((u["pts"] for u in all_units), default=budget + 1)
+    if cheapest > budget:
         return None
 
-    total = sum(u["pts"] for u in picked)
-    lines = [f"- {u['name']}: {u['pts']} pts" for u in picked]
+    faction_name = ""
+    h1_m = re.match(r"^#\s+(.+)", faction_text)
+    if h1_m:
+        faction_name = h1_m.group(1).strip()
+    theme_candidates = _detect_theme_candidates(all_units, faction_name)
+    theme = _select_theme(question, theme_candidates)
+
+    dupe_cap = _budget_to_dupe_cap(budget)
+
+    def is_leader(u: dict) -> bool:
+        return "hero" in u["roles"]
+
+    def is_heavy(u: dict) -> bool:
+        return (
+            ("monster" in u["roles"] or "vehicle" in u["roles"]
+             or "war_machine" in u["roles"])
+            and not is_leader(u)
+        )
+
+    def is_infantry_core(u: dict) -> bool:
+        return (
+            ("infantry" in u["roles"] or u["battleline"])
+            and not is_leader(u)
+            and not u["unique"]
+        )
+
+    def is_support(u: dict) -> bool:
+        return (
+            not is_leader(u)
+            and not is_heavy(u)
+            and not is_infantry_core(u)
+        )
+
+    # Picked inventory (ordered list of unit dicts with multiplicity tracked).
+    picks: list[dict] = []
+    counts: dict[str, int] = {}
+    remaining = budget
+
+    def can_take(u: dict, extra_copies: int = 1) -> bool:
+        if u["pts"] * extra_copies > remaining:
+            return False
+        if u["unique"] and counts.get(u["name"], 0) >= 1:
+            return False
+        if counts.get(u["name"], 0) + extra_copies > dupe_cap:
+            return False
+        return True
+
+    def take(u: dict) -> bool:
+        nonlocal remaining
+        if not can_take(u):
+            return False
+        picks.append(u)
+        counts[u["name"]] = counts.get(u["name"], 0) + 1
+        remaining -= u["pts"]
+        return True
+
+    def take_one(pool: Sequence[dict], scorer) -> Optional[dict]:
+        ranked = sorted(pool, key=scorer)
+        for u in ranked:
+            if can_take(u) and take(u):
+                return u
+        return None
+
+    heroes = [u for u in all_units if is_leader(u) and not u["unique"]]
+    epic_heroes = [u for u in all_units if is_leader(u) and u["unique"]]
+    heavies = [u for u in all_units if is_heavy(u)]
+    infantry_core = [u for u in all_units if is_infantry_core(u)]
+    battleline = [u for u in infantry_core if u["battleline"]] or infantry_core
+    support = [u for u in all_units if is_support(u)]
+
+    # 1. Centerpiece (skip for tiny budgets).
+    centerpiece_min = budget * 0.14
+    centerpiece_max = budget * 0.33
+    centerpiece_pool = [
+        u for u in (heroes + heavies + epic_heroes)
+        if centerpiece_min <= u["pts"] <= centerpiece_max
+    ]
+    centerpiece_taken: Optional[dict] = None
+    if budget >= 750 and centerpiece_pool:
+        centerpiece_taken = take_one(
+            centerpiece_pool,
+            lambda u: (-_theme_bonus(u, theme), -u["pts"]),
+        )
+
+    # 2. Support heroes (1-2 mid-cost, closest to ~8% of budget).
+    support_hero_target = 2 if budget >= 1200 else 1
+    support_hero_ideal = budget * 0.07
+    taken_heroes = sum(1 for p in picks if is_leader(p))
+    while taken_heroes < support_hero_target + (1 if centerpiece_taken and is_leader(centerpiece_taken) else 0):
+        pool = [u for u in heroes if counts.get(u["name"], 0) == 0]
+        if not pool:
+            break
+        picked = take_one(
+            pool,
+            lambda u: (
+                -_theme_bonus(u, theme),
+                abs(u["pts"] - support_hero_ideal),
+            ),
+        )
+        if not picked:
+            break
+        taken_heroes += 1
+
+    # 3. Battleline backbone — pick 2 different core units and reinforce them.
+    bl_target_units = 2 if budget < 1500 else 3
+    bl_ideal = budget * 0.09
+    bl_pool = sorted(
+        battleline,
+        key=lambda u: (-_theme_bonus(u, theme), abs(u["pts"] - bl_ideal), u["pts"]),
+    )
+    distinct_bl_picked = 0
+    for u in bl_pool:
+        if distinct_bl_picked >= bl_target_units:
+            break
+        if counts.get(u["name"], 0) > 0:
+            continue
+        if not take(u):
+            continue
+        distinct_bl_picked += 1
+        # Reinforce: take a second copy if budget allows comfortably and we
+        # still need to hit ~35% of the budget in infantry bodies.
+        bl_spend = sum(p["pts"] * counts[p["name"]] for p in picks if is_infantry_core(p))
+        # Double-count protection — use a simpler running check:
+        bl_spend = sum(p["pts"] for p in picks if is_infantry_core(p))
+        if bl_spend < budget * 0.35 and can_take(u):
+            take(u)
+        if bl_spend < budget * 0.25 and can_take(u):
+            take(u)
+
+    # 4. Heavy support (outside the centerpiece).
+    heavy_target = 2 if budget >= 1500 else 1
+    heavies_taken = sum(
+        1 for p in picks if is_heavy(p) and p is not centerpiece_taken
+    )
+    if centerpiece_taken is not None and is_heavy(centerpiece_taken):
+        heavies_taken += 0  # centerpiece already counted separately
+    heavy_ideal = budget * 0.11
+    while heavies_taken < heavy_target:
+        pool = [u for u in heavies if counts.get(u["name"], 0) == 0]
+        if not pool:
+            break
+        picked = take_one(
+            pool,
+            lambda u: (
+                -_theme_bonus(u, theme),
+                abs(u["pts"] - heavy_ideal),
+            ),
+        )
+        if not picked:
+            break
+        heavies_taken += 1
+
+    # 5. Auxiliary support (shooting teams, cavalry, specialists).
+    support_target = 1 if budget < 1500 else 2
+    support_ideal = budget * 0.08
+    support_taken = 0
+    while support_taken < support_target:
+        pool = [u for u in support if counts.get(u["name"], 0) == 0]
+        if not pool:
+            break
+        picked = take_one(
+            pool,
+            lambda u: (
+                -_theme_bonus(u, theme),
+                abs(u["pts"] - support_ideal),
+            ),
+        )
+        if not picked:
+            break
+        support_taken += 1
+
+    # 6. Fill remaining budget — first try duplicating existing battleline
+    # (keeps the army thematic), then cheap extras.
+    min_useful = max(40, cheapest)
+    progressed = True
+    while remaining >= min_useful and progressed:
+        progressed = False
+        for u in bl_pool:
+            if can_take(u):
+                take(u)
+                progressed = True
+                break
+        if progressed:
+            continue
+        fill_pool = sorted(
+            [u for u in all_units if u["pts"] <= remaining],
+            key=lambda u: (-_theme_bonus(u, theme), u["pts"]),
+        )
+        for u in fill_pool:
+            if can_take(u):
+                take(u)
+                progressed = True
+                break
+
+    if not picks:
+        return None
+
+    # Collapse duplicates into "Name x2 — pts".
+    ordered_names: list[str] = []
+    pts_by_name: dict[str, int] = {}
+    for p in picks:
+        if p["name"] not in pts_by_name:
+            ordered_names.append(p["name"])
+            pts_by_name[p["name"]] = p["pts"]
+
+    total = sum(p["pts"] for p in picks)
+    lines: list[str] = []
+    for name in ordered_names:
+        n = counts[name]
+        per = pts_by_name[name]
+        suffix = f" (x{n})" if n > 1 else ""
+        lines.append(f"- {name}{suffix}: {per * n} pts")
     lines.append(f"Total: {total}/{budget} points")
-    return "\n".join(lines)
+
+    header_bits = [f"{faction_name or 'Army'} — {budget} pts"]
+    if theme:
+        header_bits.append(f"theme: {theme}")
+    header = " | ".join(header_bits)
+    return f"{header}\n" + "\n".join(lines)
 
 
 # ---------------------------------------------------------------------------
@@ -601,11 +933,59 @@ _FACTION_POINTS_SIGNALS = frozenset({
     "all units", "list all", "overview",
 })
 
-_ARMY_LIST_QUERY_SIGNALS = frozenset({
-    "1000 point", "1000 points", "2000 point", "2000 points",
-    "army", "army list", "list", "roster", "build", "building",
-    "good", "recommend", "recommended",
+# Fixed phrases that unambiguously signal an army-list request.
+_ARMY_LIST_STRONG_PHRASES = frozenset({
+    "army list", "army build", "army composition", "army roster",
+    "starter army", "starter force", "starter list",
+    "list building", "list-building",
 })
+
+# Verb + (optional filler) + army-noun. Catches free-form phrasings such as
+# "build me a Pestilens Skaven army", "recommend a Space Marine list",
+# "make us an Ork roster", without trying to enumerate every permutation.
+_ARMY_LIST_VERB_PATTERN = re.compile(
+    r"\b(?:build|make|create|design|recommend|suggest|write|give|draft|put\s+together)"
+    r"(?:\s+(?:me|us|a|an|the))*"
+    r"(?:\s+\w+){0,6}?"
+    r"\s+(?:army|list|roster|force)\b",
+    re.IGNORECASE,
+)
+
+# Weak signals only trigger army mode when combined with an explicit points
+# budget. Keeps "good Skaven hero" in rule mode while still catching
+# "good 1500 point Skaven army".
+_ARMY_LIST_WEAK_SIGNALS = frozenset({
+    "army", "list", "roster", "build", "building", "good",
+    "recommend", "recommended", "suggest", "force",
+})
+
+# Default budget to assume when the user asks for an army without a number.
+# 2000 is the standard matched-play target for both AoS 4th and 40K 10th.
+_DEFAULT_ARMY_BUDGET = 2000
+
+
+def _detect_army_query(question: str) -> tuple[bool, Optional[int]]:
+    """
+    Return (is_army_query, budget). Order of precedence:
+      1. Fixed strong phrase or verb-pattern match -> army mode, budget from
+         text or default.
+      2. Budget present + weak signal -> army mode, explicit budget.
+      3. Otherwise -> rule mode.
+    """
+    q = question.lower()
+    budget = _extract_points_budget(question)
+
+    strong = (
+        any(phrase in q for phrase in _ARMY_LIST_STRONG_PHRASES)
+        or bool(_ARMY_LIST_VERB_PATTERN.search(question))
+    )
+    weak = any(sig in q for sig in _ARMY_LIST_WEAK_SIGNALS)
+
+    if strong:
+        return True, budget or _DEFAULT_ARMY_BUDGET
+    if budget and weak:
+        return True, budget
+    return False, None
 
 
 # ---------------------------------------------------------------------------
@@ -1247,9 +1627,10 @@ def answer_question(
 
     llm = ChatOpenAI(model=model_name, temperature=0.2)
 
-    army_list_query = _has_any_signal(question, _ARMY_LIST_QUERY_SIGNALS)
-    budget = _extract_points_budget(question) if army_list_query else None
+    army_list_query, budget = _detect_army_query(question)
 
+    # Only proceed in army mode if we also managed to find a matching faction
+    # points table — otherwise we'd be guessing at unit names.
     if army_list_query and budget and points_table_summary:
         precomputed = None
         faction_pts_data = detect_faction_source(
@@ -1258,17 +1639,22 @@ def answer_question(
         )
         if faction_pts_data:
             precomputed = _build_army_list_from_table(
-                faction_pts_data[1], budget, game=game_key,
+                faction_pts_data[1], budget, game=game_key, question=question,
             )
 
         hint = ""
         if precomputed:
             hint = (
-                f"\n\nA balanced army list fitting {budget} points has been "
-                f"pre-computed for you (with heroes, infantry, monsters/vehicles, "
-                f"and support). You may use it as-is or tweak individual units, "
-                f"but the total MUST stay at or below {budget} and MUST keep a "
-                f"similar role balance.\n{precomputed}"
+                f"\n\nA balanced, thematic army list fitting {budget} points has "
+                f"been pre-computed for you. It already respects the budget, "
+                f"reinforces core battleline, includes a centerpiece, and biases "
+                f"toward a single sub-faction for cohesion.\n\n"
+                f"{precomputed}\n\n"
+                f"STRICT: use this list as-is. Do NOT add, remove, or swap units. "
+                f"Do NOT recalculate — just copy the bullet list and total into "
+                f"your answer verbatim. Your 2-3 explanatory sentences should "
+                f"describe why this composition works (centerpiece, core, "
+                f"support roles, shared sub-faction keyword if present)."
             )
 
         messages = [
