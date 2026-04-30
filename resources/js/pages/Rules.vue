@@ -19,6 +19,8 @@ const inertiaPage = usePage();
 const game = ref('aos');
 const pdfPage = ref(1);
 const fromChat = ref(false);
+const isMobileViewer = ref(false);
+let mobileViewerMediaQuery = null;
 
 const pdfFiles = {
     aos: '/rulebooks/AOS_Core_Rules.pdf',
@@ -40,12 +42,19 @@ watch(() => inertiaPage.url, parseUrl, { immediate: true });
 
 const viewerSrc = computed(() => {
     const file = encodeURIComponent(pdfFiles[game.value]);
-    const hash = `#page=${pdfPage.value}`;
+    const zoom = isMobileViewer.value ? 'Fit' : 'FitH';
+    const hash = `#page=${pdfPage.value}&zoom=${zoom}`;
 
-    return `/pdfjs/web/viewer.html?file=${file}&zoom=FitH${hash}`;
+    return `/pdfjs/web/viewer.html?file=${file}${hash}`;
 });
 
-const iframeKey = computed(() => `${game.value}-${pdfPage.value}`);
+const iframeKey = computed(
+    () => `${game.value}-${pdfPage.value}-${isMobileViewer.value}`,
+);
+
+function updateMobileViewerFlag() {
+    isMobileViewer.value = mobileViewerMediaQuery?.matches ?? false;
+}
 
 function toggleGame() {
     const next = game.value === 'aos' ? '40k' : 'aos';
@@ -61,9 +70,17 @@ function toggleGame() {
 onMounted(() => {
     document.documentElement.classList.add(rulesOverflowClass);
     document.body.classList.add(rulesOverflowClass);
+
+    mobileViewerMediaQuery = window.matchMedia('(max-width: 639px)');
+    updateMobileViewerFlag();
+    mobileViewerMediaQuery.addEventListener('change', updateMobileViewerFlag);
 });
 
 onBeforeUnmount(() => {
+    mobileViewerMediaQuery?.removeEventListener(
+        'change',
+        updateMobileViewerFlag,
+    );
     document.documentElement.classList.remove(rulesOverflowClass);
     document.body.classList.remove(rulesOverflowClass);
 });

@@ -1,7 +1,15 @@
 <script setup lang="js">
 import { Head } from '@inertiajs/vue3';
 import { ChevronDown, Moon, Sun } from 'lucide-vue-next';
-import { computed, nextTick, onMounted, reactive, ref, watch } from 'vue';
+import {
+    computed,
+    nextTick,
+    onBeforeUnmount,
+    onMounted,
+    reactive,
+    ref,
+    watch,
+} from 'vue';
 import GameBackground from '@/components/GameBackground.vue';
 import PrimaryNav from '@/components/PrimaryNav.vue';
 import { Button } from '@/components/ui/button';
@@ -73,6 +81,7 @@ function clearChatDraft() {
 let skipDraftPersist = false;
 
 const question = ref('');
+const questionTextarea = ref(null);
 const game = ref('aos');
 const loading = ref(false);
 const loadingQuestion = ref('');
@@ -139,9 +148,33 @@ const loadingText = computed(() =>
         : 'Searching the rules…',
 );
 
+function resizeQuestionTextarea() {
+    const el = questionTextarea.value;
+
+    if (!el) {
+        return;
+    }
+
+    el.style.height = 'auto';
+    el.style.height = `${Math.min(el.scrollHeight, 160)}px`;
+}
+
+function submitQuestionFromTextarea(event) {
+    if (event.shiftKey) {
+        return;
+    }
+
+    event.preventDefault();
+    ask();
+}
+
 onMounted(async () => {
     document.documentElement.classList.remove('overflow-y-hidden');
     document.body.classList.remove('overflow-y-hidden');
+    window.addEventListener('resize', resizeQuestionTextarea);
+
+    await nextTick();
+    resizeQuestionTextarea();
 
     if (isDocumentReloadNavigation()) {
         clearChatDraft();
@@ -211,7 +244,17 @@ onMounted(async () => {
     }
 
     await nextTick();
+    resizeQuestionTextarea();
     skipDraftPersist = false;
+});
+
+onBeforeUnmount(() => {
+    window.removeEventListener('resize', resizeQuestionTextarea);
+});
+
+watch(question, async () => {
+    await nextTick();
+    resizeQuestionTextarea();
 });
 
 watch(
@@ -619,10 +662,21 @@ const ask = async () => {
                     >
                     <Input
                         v-model="question"
-                        class="w-full"
+                        class="w-full sm:hidden"
                         placeholder="Ask your question..."
                         :disabled="loading"
                         @keyup.enter="ask"
+                    />
+                    <textarea
+                        ref="questionTextarea"
+                        v-model="question"
+                        rows="1"
+                        wrap="soft"
+                        class="question-textarea hidden max-h-40 min-h-9 w-full min-w-0 resize-none overflow-y-auto rounded-md border border-input bg-transparent px-3 py-1 text-base leading-[26px] shadow-xs transition-[color,box-shadow] outline-none selection:bg-primary selection:text-primary-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 sm:block md:text-sm dark:bg-input/30 dark:aria-invalid:ring-destructive/40"
+                        placeholder="Ask your question..."
+                        :disabled="loading"
+                        @input="resizeQuestionTextarea"
+                        @keydown.enter="submitQuestionFromTextarea"
                     />
                 </div>
 
@@ -853,3 +907,14 @@ const ask = async () => {
         </div>
     </div>
 </template>
+
+<style scoped>
+.question-textarea {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.question-textarea::-webkit-scrollbar {
+    display: none;
+}
+</style>
