@@ -517,7 +517,6 @@ def _build_army_list_from_table(
             continue
         distinct_bl_picked += 1
         bl_spend = sum(p["pts"] * counts[p["name"]] for p in picks if is_infantry_core(p))
-        bl_spend = sum(p["pts"] for p in picks if is_infantry_core(p))
         if bl_spend < budget * 0.35 and can_take(u):
             take(u)
         if bl_spend < budget * 0.25 and can_take(u):

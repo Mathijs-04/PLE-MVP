@@ -16,7 +16,7 @@ from contextlib import asynccontextmanager
 from typing import Literal
 
 from dotenv import load_dotenv
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -37,20 +37,35 @@ load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".env
 _VECTORSTORES = {}
 _SOURCES: dict[str, list[tuple[str, str]]] = {}
 _HEADING_VOCABS: dict[str, list[tuple[str, str]]] = {}
+_STARTUP_ERRORS: dict[str, str] = {}
 _GAME_LABELS = {
     "aos": "Warhammer Age of Sigmar",
     "wh40k": "Warhammer 40,000",
 }
 
 
+def _load_game_resources(game: str, index_dir: str, data_dir: str) -> None:
+    try:
+        _VECTORSTORES[game] = load_index(index_dir=index_dir)
+        _SOURCES[game] = load_rules_sources(data_dir)
+        _HEADING_VOCABS[game] = build_heading_vocabulary(_SOURCES[game])
+        _STARTUP_ERRORS.pop(game, None)
+    except SystemExit as exc:
+        _VECTORSTORES.pop(game, None)
+        _SOURCES.pop(game, None)
+        _HEADING_VOCABS.pop(game, None)
+        _STARTUP_ERRORS[game] = str(exc)
+    except Exception as exc:
+        _VECTORSTORES.pop(game, None)
+        _SOURCES.pop(game, None)
+        _HEADING_VOCABS.pop(game, None)
+        _STARTUP_ERRORS[game] = f"{type(exc).__name__}: {exc}"
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    _VECTORSTORES["aos"] = load_index(index_dir=DEFAULT_AOS_INDEX_DIR)
-    _VECTORSTORES["wh40k"] = load_index(index_dir=DEFAULT_WH40K_INDEX_DIR)
-    _SOURCES["aos"] = load_rules_sources(DEFAULT_AOS_DATA_DIR)
-    _SOURCES["wh40k"] = load_rules_sources(DEFAULT_WH40K_DATA_DIR)
-    _HEADING_VOCABS["aos"] = build_heading_vocabulary(_SOURCES["aos"])
-    _HEADING_VOCABS["wh40k"] = build_heading_vocabulary(_SOURCES["wh40k"])
+    _load_game_resources("aos", DEFAULT_AOS_INDEX_DIR, DEFAULT_AOS_DATA_DIR)
+    _load_game_resources("wh40k", DEFAULT_WH40K_INDEX_DIR, DEFAULT_WH40K_DATA_DIR)
     yield
 
 
@@ -136,22 +151,30 @@ def _parse_answer(raw: str, game: str) -> AskResponse:
 def ask(req: AskRequest) -> AskResponse:
     question = (req.question or "").strip()
     if not question:
-        return AskResponse(short_answer="", detailed_answer="", source="")
+        raise HTTPException(status_code=422, detail="Question is required.")
 
     vectorstore = _VECTORSTORES.get(req.game)
     sources = _SOURCES.get(req.game)
     vocab = _HEADING_VOCABS.get(req.game)
-    if vectorstore is None:
-        return AskResponse(short_answer="", detailed_answer="", source="")
+    if vectorstore is None or sources is None or vocab is None:
+        detail = _STARTUP_ERRORS.get(req.game, "Rules resources are not loaded.")
+        raise HTTPException(status_code=503, detail=detail)
 
-    raw = answer_question(
-        question=question,
-        vectorstore=vectorstore,
-        game_label=_GAME_LABELS[req.game],
-        system_prompt=SYSTEM_PROMPT,
-        rules_sources=sources,
-        heading_vocab=vocab,
-    )
+    try:
+        raw = answer_question(
+            question=question,
+            vectorstore=vectorstore,
+            game_label=_GAME_LABELS[req.game],
+            system_prompt=SYSTEM_PROMPT,
+            rules_sources=sources,
+            heading_vocab=vocab,
+        )
+    except Exception as exc:
+        raise HTTPException(
+            status_code=502,
+            detail="AI service failed while generating an answer.",
+        ) from exc
+
     return _parse_answer(raw, req.game)
 
 
