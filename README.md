@@ -3,6 +3,13 @@
 ## Project Summary
 Warhammer Rule Assistant is a question-answering tool for tabletop Warhammer rules. It answers rule-related questions using official rule sources.
 
+## Core Functionality
+- **Rules Chat:** Users ask rules questions and receive a short answer, detailed explanation, source summary, and certainty rating.
+- **Game Selection:** The chat supports Warhammer Age of Sigmar and Warhammer 40,000.
+- **Rules Retrieval:** The Python service searches indexed rules text before asking the AI model to answer from that context.
+- **Faction Support:** Faction rule data can be used for unit, ability, points, and army-list style questions.
+- **Rules Library:** The `/rules` page provides access to core rule PDFs through the app.
+
 ## Tech Summary
 - **Backend:** Laravel API endpoint (`/api/chat`) receives user questions.
 - **AI Service:** Python FastAPI endpoint (`/ask`) processes questions using AI and returns answers.
