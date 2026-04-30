@@ -75,6 +75,7 @@ let skipDraftPersist = false;
 const question = ref('');
 const game = ref('aos');
 const loading = ref(false);
+const loadingQuestion = ref('');
 const error = ref('');
 const answers = reactive({ aos: null, '40k': null });
 const questions = reactive({ aos: null, '40k': null });
@@ -83,6 +84,60 @@ const answer = computed(() => answers[game.value]);
 const openShortAnswer = ref(true);
 const openDetailedAnswer = ref(false);
 const openSource = ref(false);
+
+const armyListStrongPhrases = [
+    'army list',
+    'army build',
+    'army composition',
+    'army roster',
+    'starter army',
+    'starter force',
+    'starter list',
+    'list building',
+    'list-building',
+];
+
+const armyListWeakSignals = [
+    'army',
+    'list',
+    'roster',
+    'build',
+    'building',
+    'good',
+    'recommend',
+    'recommended',
+    'suggest',
+    'force',
+];
+
+const armyListVerbPattern =
+    /\b(?:build|make|create|design|recommend|suggest|write|give|draft|put\s+together)(?:\s+(?:me|us|a|an|the))*(?:\s+\w+){0,6}?\s+(?:army|list|roster|force)\b/i;
+
+function hasPointsBudget(value) {
+    const q = value.toLowerCase();
+
+    return (
+        /(\d[\d,]{2,5})\s*[-\s]?\s*(?:point|points|pts|pt)\b/.test(q) ||
+        /\b(\d(?:\.\d)?)\s*k\s*(?:point|points|pts|pt)?\b/.test(q) ||
+        /\b(?:for|at|of|with|around|about)\s+(\d[\d,]{2,5})\b/.test(q)
+    );
+}
+
+function isArmyQuestionText(value) {
+    const q = value.toLowerCase();
+    const strong =
+        armyListStrongPhrases.some((phrase) => q.includes(phrase)) ||
+        armyListVerbPattern.test(value);
+    const weak = armyListWeakSignals.some((signal) => q.includes(signal));
+
+    return strong || (hasPointsBudget(value) && weak);
+}
+
+const loadingText = computed(() =>
+    isArmyQuestionText(loadingQuestion.value)
+        ? 'Building an army...'
+        : 'Searching the rules…',
+);
 
 onMounted(async () => {
     document.documentElement.classList.remove('overflow-y-hidden');
@@ -387,19 +442,19 @@ watch(
 const certaintyConfig = {
     1: {
         color: 'bg-green-500',
-        label: 'High confidence — Answer is directly supported by the rules.',
+        label: 'High confidence: Answer is directly supported by the rules.',
     },
     2: {
         color: 'bg-yellow-400',
-        label: 'Moderate confidence — Answer is partially in the rules and requires some interpretation.',
+        label: 'Moderate confidence: Answer is partially in the rules and requires some interpretation.',
     },
     3: {
         color: 'bg-orange-500',
-        label: 'Low confidence — The rules barely cover this, or may contradict.',
+        label: 'Low confidence: The rules barely cover this, or may contradict.',
     },
     4: {
         color: 'bg-red-500',
-        label: 'Very low confidence — The rules do not cover this, treat with caution.',
+        label: 'Very low confidence: The rules do not cover this, treat with caution.',
     },
 };
 
@@ -414,14 +469,14 @@ const certaintyLevel = computed(() => {
 });
 
 const formatSource = (source) => {
-    if (!source) {
-        return '';
+    if (!source || !String(source).trim()) {
+        return 'No relevant source';
     }
 
     const parts = String(source).split(' & ');
 
     if (parts.length <= 2) {
-        return source;
+        return String(source);
     }
 
     return parts.slice(0, -1).join(', ') + ' & ' + parts[parts.length - 1];
@@ -457,6 +512,7 @@ const ask = async () => {
     }
 
     loading.value = true;
+    loadingQuestion.value = trimmed;
 
     const askedGame = game.value;
 
@@ -564,7 +620,7 @@ const ask = async () => {
                     <Input
                         v-model="question"
                         class="w-full"
-                        placeholder="Ask a rule-related question..."
+                        placeholder="Ask your question..."
                         :disabled="loading"
                         @keyup.enter="ask"
                     />
@@ -784,7 +840,7 @@ const ask = async () => {
                                 d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
                             />
                         </svg>
-                        <span class="text-sm">Searching the rules…</span>
+                        <span class="text-sm">{{ loadingText }}</span>
                     </div>
                 </template>
 
