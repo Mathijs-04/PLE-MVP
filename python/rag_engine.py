@@ -351,6 +351,10 @@ def _select_theme(
     return theme_candidates[0][0]
 
 
+def _user_requests_legends(question: str) -> bool:
+    return bool(re.search(r"\b(?:legends?|legendary)\b", question, re.IGNORECASE))
+
+
 
 def _budget_to_dupe_cap(budget: int) -> int:
     if budget < 750:
@@ -394,6 +398,9 @@ def _build_army_list_from_table(
     Clanrats or Intercessor squads instead of one of every datasheet.
     """
     all_units = _parse_units_with_roles(faction_text, game)
+    if not _user_requests_legends(question):
+        all_units = [u for u in all_units if "LEGENDS" not in u["keywords"]]
+
     if not all_units:
         return None
 
