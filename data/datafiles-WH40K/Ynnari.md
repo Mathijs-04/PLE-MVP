@@ -1,4 +1,4 @@
-# Craftworlds
+# Ynnari
 
 ## Units
 
@@ -25,30 +25,44 @@
 
 ---
 
-### Asurmen
-**Points:** 135 | **M:** 7" | **T:** 3 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Epic Hero, Character, Phoenix Lord, Asurmen, Asuryani, Aeldari, Grenades, Aspect Warrior
+### Archon
+**Points:** 80 | **M:** 7" | **T:** 3 | **SV:** 4+ | **W:** 4 | **LD:** 6+ | **OC:** 1
+**Keywords:** Character, Infantry, Kabal, Aeldari, Archon, Drukhari
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| The Bloody Twins | Ranged | 24" | 6 | 2+ | 5 | -1 | 2 | Assault, Pistol |
-| The Sword of Asur | Melee | Melee | 6 | 2+ | 6 | -3 | 3 | Devastating Wounds |
+| Splinter pistol | Ranged | 12" | 1 | 2+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
+| Blast pistol | Ranged | 6" | 1 | 2+ | 8 | -3 | D3 | Pistol |
+| Huskblade | Melee | Melee | 4 | 2+ | 3 | -2 | 3 | Devastating Wounds |
+| Agoniser | Melee | Melee | 6 | 2+ | 3 | -2 | 1 | Anti-Infantry 3+ |
+| Master-crafted power weapon | Melee | Melee | 5 | 2+ | 4 | -2 | 2 | - |
 
 **Abilities:**
 
-#### Invulnerable Save (Asurmen) (Abilities)
-- **Description:** Asurmen has a 4+ Invulnerable save
-
-#### Hand of Asuryan (Abilities)
-- **Description:** Once per battle, when this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its Bloody Twins weapon has a Damage characteristic of 3 and the [Anti-Infantry 5+] and [Devastating Wounds] abilities.
-
-#### Tactical Acumen (Abilities)
-- **Description:** While this model is leading a unit, in your Shooting phase, after that unit has shot, it can make a Normal move of up to 6". If it does, until the end of the turn, that unit is not eligible to declare a charge.
+#### Soul Trap (Abilities)
+- **Description:** Add 1 to the Attacks and Strength characteristics of the bearer's melee weapons. The first time the bearer makes a melee attack that destroys an enemy model, after all the bearer's attacks have been resolved, until the end of the battle, add an additional 1 to the Attacks and Strength characteristics of the bearer's melee weapons.
 
 #### Leader (Abilities)
-- **Description:** This model can be attached to the following unit:
-■ Dire Avengers
+- **Description:** This model can be attached to the following units:
+■ Hand of the Archon
+■ Incubi
+■ Kabalite Warriors
+
+#### Overlord (Abilities)
+- **Description:** Once per battle, at the start of any phase, you can select one friendly **Drukhari** unit that is Battle-shocked and within 12" of this model. That unit is no longer Battle-shocked.
+
+#### Devious Mastermind (Abilities)
+- **Description:** Once per battle round, one model from your army with this ability can use it when its unit is targeted with a stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.
+
+#### Shadowfield (Abilities)
+- **Description:** You cannot re-roll invulnerable saving throws made for the bearer. The first time an invulnerable saving throw made for the bearer is failed, until the end of the battle, the bearer has no invulnerable save.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 2+ invulnerable save. (See Shadowfield ability)
+
+#### Hatred Eternal (Pain) (Abilities)
+- **Description:** In your Shooting or the Fight phase, when you select this model's unit to shoot or fight, you can spend 1 Pain token to Empower that unit. While that unit is Empowered, each time a model in that unit makes an attack, you can re-roll the Hit roll.
 
 ---
 
@@ -96,7 +110,7 @@ While this model is leading a Striking Scorpions unit, it has the Infiltrators, 
 
 ---
 
-### Autarch Skyrunner [Legends]
+### Autarch Skyrunner
 **Points:** 90 | **M:** 14" | **T:** 4 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 2
 **Keywords:** Autarch, Autarch Skyrunner, Character, Mounted, Fly, Asuryani, Aeldari
 
@@ -163,57 +177,29 @@ While this model is leading a Striking Scorpions unit, it has the Infiltrators, 
 
 ---
 
-### Avatar of Khaine
-**Points:** 280 | **M:** 10" | **T:** 11 | **SV:** 2+ | **W:** 14 | **LD:** 6+ | **OC:** 5
-**Keywords:** Daemon, Epic Hero, Character, Monster, Avatar of Khaine, Asuryani, Aeldari
+### Beastmaster
+**Points:** 135 | **M:** 12" | **T:** 4 | **SV:** 6+ | **W:** 3 | **LD:** 7+ | **OC:** 1
+**Keywords:** Aeldari, Drukhari, Beast, Character
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| The Wailing Doom | Ranged | 12" | 1 | 2+ | 16 | -4 | D6+2 | Sustained Hits D3 |
-| ➤ The Wailing Doom - Strike | Melee | Melee | 6 | 2+ | 16 | -4 | D6+2 | - |
-| ➤ The Wailing Doom - Sweep | Melee | Melee | 12 | 2+ | 8 | -2 | 2 | - |
+| Agonizer | Melee | Melee | 3 | 3+ | 3 | -2 | 1 | Anti-Infantry 3+ |
+| Splinter pods | Ranged | 18" | 2 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Twin-Linked |
+| Clawed Fiend fists | Melee | Melee | 5 | 4+ | 5 | -2 | 2 | Devastating Wounds |
+| Khymerae talons | Melee | Melee | 4 | 4+ | 5 | -1 | 1 | Lethal Hits |
+| Razorwing Feathers | Melee | Melee | 6 | 4+ | 3 | 0 | 1 | Sustained Hits 1 |
 
 **Abilities:**
 
-#### Molten Form (Abilities)
-- **Description:** Each time an attack is allocated to this model, halve the Damage characteristic of that attack.
+#### Beastmaster (Abilities)
+- **Description:** While this unit contains a Beastmaster model, you can re-roll Charge rolls made for this unit.
 
-#### The Bloody Handed (Aura) (Abilities)
-- **Description:** While a friendly Aeldari unit is within 6" of this model, add 1 to Advance and Charge rolls made for that unit.
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 6+ Invulnerable save
 
-#### Damaged: 1-5 Wounds Remaining (Abilities)
-- **Description:** While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.
-
-#### Invulnerable Save (Avatar) (Abilities)
-- **Description:** The Avatar of Khaine has a 4+ Invulnerable save
-
----
-
-### Baharroth
-**Points:** 115 | **M:** 14" | **T:** 3 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Epic Hero, Character, Infantry, Grenades, Fly, Phoenix Lord, Baharroth, Asuryani, Aspect Warrior, Aeldari, Jump Pack
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Fury of the Tempest | Ranged | 24" | 4 | 2+ | 6 | -1 | 2 | Assault, Lethal Hits |
-| The Shining Blade | Melee | Melee | 6 | 2+ | 5 | -2 | 2 | Sustained Hits 1 |
-
-**Abilities:**
-
-#### Invulnerable Save (Baharroth) (Abilities)
-- **Description:** Baharroth has a 4+ Invulnerable save
-
-#### Leader (Abilities)
-- **Description:** This model can be attached to the following unit:
-■ Swooping Hawks
-
-#### Cry of the Wind (Abilities)
-- **Description:** Each time this model is set-up on the battlefield, until the end of the turn, each time this model makes a ranged attack, a successful unmodified Hit roll scores a Critical Hit.
-
-#### Cloudstrider (Abilities)
-- **Description:** While this model is leading a unit, at the end of your opponent's turn, if that unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves. In addition, while this model is leading a unit, when that unit is set-up on the battlefield using the Deep Strike ability, in your Movement phase, it can use this ability. if it does, that unit can be set-up anywhere on the battlefield that is more than 6" horizontally away from all enemy models, but until the end of the turn, it is not eligible to declare a charge.
+#### Goaded Savagery (Pain) (Abilities)
+- **Description:** In the Fight phase, when you select this unit to fight, you can spend 1 of your Pain tokens to Empower this unit. While this unit is Empowered, if it contains a **Beastmaster model, each time a Beast** model in this unit makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll.
 
 ---
 
@@ -248,7 +234,7 @@ While this model is leading a Striking Scorpions unit, it has the Infiltrators, 
 
 ---
 
-### Cobra [Legends]
+### Cobra
 **Points:** 415 | **M:** 14" | **T:** 11 | **SV:** 2+ | **W:** 24 | **LD:** 6+ | **OC:** 8
 **Keywords:** Vehicle, Titanic, Fly, Asuryani, Cobra, Aeldari
 
@@ -273,52 +259,38 @@ makes an attack, subtract 1 from the Hit roll
 
 ---
 
-### Corsair Cloud Dancer Band [Legends]
-**Points:** 105 | **M:** 14" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 2
-**Keywords:** Mounted, Grenades, Anhrathe, Corsair Cloud Dancer Band, Corsairs and Travelling Players, Aeldari
+### Court of the Archon
+**Points:** 95 | **M:** 7" | **T:** 3 | **SV:** 5+ | **W:** 2 | **LD:** 7+ | **OC:** 1
+**Keywords:** Court of the Archon, Aeldari, Kabal, Drukhari, Infantry
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
+| Shaimeshi Blade | Melee | Melee | 4 | 3+ | 4 | -2 | 1 | Anti-Infantry 2+ |
+| Shardcarbine | Ranged | 18" | 3 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault |
+| Splinter pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
+| Sslyth battle-blade | Melee | Melee | 3 | 3+ | 5 | -2 | 2 | - |
+| Eyeburst | Ranged | 12" | D6 | N/A | 6 | -2 | 1 | Pistol, Torrent |
 | Close combat weapon | Melee | Melee | 2 | 3+ | 3 | 0 | 1 | - |
-| Twin shuriken catapult | Ranged | 18" | 2 | 3+ | 4 | -1 | 1 | Assault, Twin-linked |
-| Shuriken cannon | Ranged | 24" | 3 | 3+ | 6 | -1 | 2 | Sustained Hits 1 |
-| Dark lance | Ranged | 36" | 1 | 3+ | 12 | -3 | D6+2 | - |
-| Dissonance cannon | Ranged | 24" | 3 | 3+ | 6 | -1 | 2 | Devastating Wounds |
-| Splinter cannon | Ranged | 36" | 3 | 3+ | 3 | -1 | 2 | Anti-Infantry 3+, Sustained Hits 1 |
-| Void sabre | Melee | Melee | 3 | 3+ | 4 | -2 | 1 | - |
-| Dissonance pistol | Ranged | 12" | 1 | 3+ | 6 | -1 | 1 | Devastating Wounds, Pistol |
-| Close combat weapon | Melee | Melee | 2 | 3+ | 3 | 0 | 1 | - |
-| Twin shuriken catapult | Ranged | 18" | 2 | 3+ | 4 | -1 | 1 | Assault, Twin-linked |
-| Shuriken cannon | Ranged | 24" | 3 | 3+ | 6 | -1 | 2 | Sustained Hits 1 |
-| Dark lance | Ranged | 36" | 1 | 3+ | 12 | -3 | D6+2 | - |
-| Dissonance cannon | Ranged | 24" | 3 | 3+ | 6 | -1 | 2 | Devastating Wounds |
-| Splinter cannon | Ranged | 36" | 3 | 3+ | 3 | -1 | 2 | Anti-Infantry 3+, Sustained Hits 1 |
+| Ur-ghul Talons | Melee | Melee | 6 | 3+ | 4 | 0 | 1 | Sustained Hits 1 |
 
 **Abilities:**
 
-#### Reckless Abandon (Abilities)
-- **Description:** You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase.
+#### Court of the Archon (Abilities)
+- **Description:** While a **Character model is leading a unit that contains one or more Lhamaean, Medusae, Sslyth and/or Ur-ghul models, that Character** model has the Feel No Pain 4+ ability.
 
----
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 5+ Invulnerable save
 
-### Craftworld Warleader [Crucible]
-**Points:** 75 | **M:** 7" | **T:** 3 | **SV:** 6+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Aeldari, Craftworld Warleader, Asuryani, Crucible
+#### Deadly Retinue (Pain) (Abilities)
+- **Description:** At the start of your Shooting phase or at the start of the Fight phase, you can spend 1 Pain token to Empower this unit. While this unit is Empowered:
+■ If it contains one or more Lhamaean models, melee weapons equipped by models in this unit have the **[LETHAL HITS]** ability.
+■ If it contains one or more Medusae models, ranged weapons equipped by models in this unit have the **[IGNORES COVER]** ability.
+■ If it contains one or more Sslyth models, each time a melee attack targets this unit, subtract 1 from the Wound roll.
+■ If this unit contains one or more Ur-ghul models, this unit has the Fights First ability.
 
-**Abilities:**
-
-#### Invulnerable Save (Craftworld Warleader) (Abilities)
-- **Description:** A Craftworld Warleader has a 4+ Invulnerable save.
-
-#### Guided by Fate (Abilities)
-- **Description:** Each time this model makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll.
-
-#### Leader (Abilities)
-- **Description:** This model can be attached to the following units:
-■ Guardian Defenders
-■ Storm Guardian
-■ Warlock Conclave
+#### Court of the Archon [Legends] (Abilities)
+- **Description:** This unit can be led by an **Archon. Alternatively, in the Declare Battle Formations step, this unit can join one Kabalite Warriors or Hand of the Archon unit from your army that is being led by an Archon (a unit cannot have more than one Court of the Archon unit joined to it). If it does, until the end of the battle, every model in this unit counts as part of that Kabalite Warriors or Hand of the Archon **unit, and its Starting Strength is increased accordingly.
 
 ---
 
@@ -344,22 +316,6 @@ makes an attack, subtract 1 from the Hit roll
 
 #### Invulnerable Save (Abilities)
 - **Description:** This unit has a 5+ Invulnerable save
-
----
-
-### D-Cannon Platform
-**Points:** 125 | **M:** 7" | **T:** 6 | **SV:** 4+ | **W:** 5 | **LD:** 7+ | **OC:** 1
-**Keywords:** Support Weapon, Asuryani, Infantry, Aeldari, D-Cannon Platform, Ynnari
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| D-cannon | Ranged | 24" | D3 | 3+ | 16 | -4 | D6+2 | Blast, Devastating Wounds, Indirect Fire |
-
-**Abilities:**
-
-#### Structural Collapse (Abilities)
-- **Description:** Each time this model makes an attack with its D-Cannon, re-roll a Damage roll of 1. If that attack targets a Titanic unit, you can re-roll the Damage roll instead.
 
 ---
 
@@ -449,6 +405,36 @@ makes an attack, subtract 1 from the Hit roll
 
 #### Invulnerable Save (Abilities)
 - **Description:** This unit has a 5+ Invulnerable save
+
+---
+
+### Drazhar
+**Points:** 85 | **M:** 7" | **T:** 3 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 1
+**Keywords:** Epic Hero, Drazhar, Aeldari, Drukhari, Infantry, Character, Blades for Hire
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| ➤ The Executioner's demiklaives - Dual Blades | Melee | Melee | 8 | 2+ | 5 | -2 | 2 | Devastating Wounds |
+| ➤ The Executioner's demiklaives - Single Blade | Melee | Melee | 6 | 2+ | 6 | -2 | 3 | Devastating Wounds |
+
+**Abilities:**
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following unit:
+■ Incubi
+
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 4+ invulnerable save.
+
+#### Master of Blades (Pain) (Abilities)
+- **Description:** In the Fight phase, when you select this model's unit to fight, you can spend 1 Pain token to Empower that unit. While that unit is Empowered, each time a model in that unit makes a melee attack, add 1 to the Wound roll.
+
+#### Onslaught (Abilities)
+- **Description:** While this model is leading a unit, each time a model in that unit makes a Pile-In or Consolidation move, it can move up to 6" instead of up to 3".
+
+#### Silent Executioner (Abilities)
+- **Description:** Each time this model make an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that target is Below Half-Strength, you can re-roll the Wound roll as well.
 
 ---
 
@@ -639,45 +625,6 @@ makes an attack, subtract 1 from the Hit roll
 
 ---
 
-### Fuegan
-**Points:** 120 | **M:** 7" | **T:** 3 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Epic Hero, Infantry, Phoenix Lord, Fuegan, Asuryani, Aeldari, Aspect Warrior, Grenades
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Searsong - Beam | Ranged | 12" | 3 | 2+ | 8 | -3 | 2 | Assault, Melta 1, Sustained hits 2 |
-| ➤ Searsong - Lance | Ranged | 18" | 1 | 2+ | 14 | -4 | D6 | Assault, Melta 6 |
-| The Fire Axe | Melee | Melee | 6 | 2+ | 5 | -4 | 3 | - |
-
-**Abilities:**
-
-#### Invulnerable Save (Fuegan) (Abilities)
-- **Description:** Fuegan has a 4+ Invulnerable save
-
-#### Burning Lance (Abilities)
-- **Description:** While this model is leading a unit, add 6" to the Range characteristic of Melta weapons equipped by models in that unit.
-
-#### Unquenchable Resolve (Abilities)
-- **Description:** The first time this model is destroyed, at the end of the phase, roll one D6. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining.
-
-#### Leader (Abilities)
-- **Description:** This model can be attached to the following unit:
-■ Fire Dragons
-
----
-
-### Ghost Warrior [Crucible]
-**Points:** 160 | **M:** 8" | **T:** 10 | **SV:** 2+ | **W:** 10 | **LD:** 6+ | **OC:** 3
-**Keywords:** Character, Aeldari, Asuryani, Crucible, Monster, Walker, Ghost Warrior, Wraith Construct
-
-**Abilities:**
-
-#### Awakened Spirit (Abilities)
-- **Description:** Each time this model makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.
-
----
-
 ### Guardian Defenders
 **Points:** 100 | **M:** 7" | **T:** 3 | **SV:** 4+ | **W:** 1 | **LD:** 7+ | **OC:** 2
 **Keywords:** Guardian Defenders, Battleline, Infantry, Grenades, Guardians, Asuryani, Aeldari, Ynnari
@@ -689,6 +636,40 @@ makes an attack, subtract 1 from the Hit roll
 
 #### Crewed Platform (Abilities)
 - **Description:** When the last Guardian Defender model in this unit is destroyed, any remaining Heavy Weapon Platform models in this unit are also destroyed.
+
+---
+
+### Hellions
+**Points:** 85 | **M:** 14" | **T:** 4 | **SV:** 4+ | **W:** 2 | **LD:** 7+ | **OC:** 1
+**Keywords:** Hellions, Aeldari, Wych Cult, Drukhari, Mounted, Fly
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Hellglaive | Melee | Melee | 3 | 3+ | 4 | -1 | 2 | Lance, Sustained Hits 1 |
+| Splinter Pods | Ranged | 18" | 2 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Twin Linked |
+| Hellglaive | Melee | Melee | 3 | 3+ | 4 | -1 | 2 | Lance, Sustained Hits 1 |
+| Power weapon | Melee | Melee | 4 | 3+ | 3 | -2 | 1 | Anti-Infantry 3+, Lance, Sustained Hits 1 |
+| Splinter Pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-infantry 3+, Assault, Pistol |
+| Hellglaive | Melee | Melee | 3 | 3+ | 4 | -1 | 2 | Lance, Sustained Hits 1 |
+| Stunclaw | Melee | Melee | 4 | 3+ | 3 | -1 | 1 | Devastating Wounds, Lance, Precision |
+| Splinter Pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-infantry 3+, Assault, Pistol |
+| Hellglaive | Melee | Melee | 3 | 3+ | 4 | -1 | 2 | Lance, Sustained Hits 1 |
+| Splinter Pods | Ranged | 18" | 2 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Twin Linked |
+
+**Abilities:**
+
+#### Phantasm Grenade Launcher (Abilities)
+- **Description:** The bearer’s unit has the Grenades keyword.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 6+ Invulnerable save
+
+#### Battlefield Butchery (Pain) (Abilities)
+- **Description:** In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. While Empowered, add 1 to the Attacks and Strength characteristics of this unit's melee weapons.
+
+#### Skyboard Evasion (Abilities)
+- **Description:** Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9" of this unit, this unit can make a Normal move of up to D6".
 
 ---
 
@@ -712,7 +693,7 @@ makes an attack, subtract 1 from the Hit roll
 
 ---
 
-### Hornet [Legends]
+### Hornet
 **Points:** 100 | **M:** 14" | **T:** 7 | **SV:** 3+ | **W:** 8 | **LD:** 6+ | **OC:** 2
 **Keywords:** Vehicle, Fly, Asuryani, Hornet, Aeldari
 
@@ -763,7 +744,7 @@ makes an attack, subtract 1 from the Hit roll
 
 ---
 
-### Illic Nightspear [Legends]
+### Illic Nightspear
 **Points:** 70 | **M:** 7" | **T:** 3 | **SV:** 5+ | **W:** 3 | **LD:** 6+ | **OC:** 1
 **Keywords:** Infantry, Character, Epic Hero, Illic Nightspear, Asuryani, Aeldari
 
@@ -791,148 +772,106 @@ makes an attack, subtract 1 from the Hit roll
 
 ---
 
-### Irillyth [Legends]
-**Points:** 105 | **M:** 12" | **T:** 3 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Epic Hero, Infantry, Character, Fly, Asuryani, Irillyth, Phoenix Lord, Aeldari, Jump Pack
+### Incubi
+**Points:** 90 | **M:** 7" | **T:** 3 | **SV:** 3+ | **W:** 1 | **LD:** 6+ | **OC:** 1
+**Keywords:** Incubi, Aeldari, Drukhari, Infantry, Blades for Hire
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Spear of Starlight | Ranged | 24" | 3 | 3+ | 8 | -2 | 4 | - |
-| Spear of Starlight | Melee | Melee | 4 | 3+ | 5 | -2 | 1 | - |
+| Klaive | Melee | Melee | 3 | 3+ | 5 | -2 | 2 | - |
+| ➤ Demiklaives - Dual Blades | Melee | Melee | 6 | 3+ | 4 | -2 | 1 | - |
+| ➤ Demiklaives - Single Blade | Melee | Melee | 4 | 3+ | 5 | -2 | 2 | - |
+| Klaive | Melee | Melee | 3 | 3+ | 5 | -2 | 2 | - |
 
 **Abilities:**
 
-#### Invulnerable Save (Phoenix Lord) (Abilities)
-- **Description:** Irillyth has a 4+ Invulnerable save
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 5+ Invulnerable save
 
-#### Leader (Abilities)
-- **Description:** This model can be attached to the following unit:
-■ Shadow Spectres
+#### Tormentors (Abilities)
+- **Description:** At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test. Each time a model in this unit makes a melee attack that targets a Battle-shocked unit, add 1 to the Hit roll.
 
-#### Reaper of Souls (Abilities)
-- **Description:** While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll
+#### Decapitating Strikes (Pain) (Abilities)
+- **Description:** In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes a melee attack that targets an **Infantry unit, that attack has the [Devastating Wounds]** ability.
 
-#### Shadow of Death (Aura) (Abilities)
-- **Description:** While an enemy unit is within 6" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test.
+#### Incubi Shrine Token (Abilities)
+- **Description:** Once per battle for each Incubi Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a Klaivex or Incubi model in this unit to an unmodified 6.
 
 ---
 
-### Jain Zar
-**Points:** 120 | **M:** 8" | **T:** 3 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Jain Zar, Phoenix Lord, Character, Epic Hero, Infantry, Asuryani, Aeldari, Aspect Warrior
+### Kabalite Warriors
+**Points:** 115 | **M:** 7" | **T:** 3 | **SV:** 4+ | **W:** 1 | **LD:** 7+ | **OC:** 2
+**Keywords:** Kabalite Warriors, Aeldari, Kabal, Drukhari, Battleline, Infantry
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Silent Death | Ranged | 12" | 6 | 2+ | 6 | -2 | 1 | Assault |
-| Blade of Destruction | Melee | Melee | 8 | 2+ | 6 | -3 | 2 | Anti-Infantry 3+ |
+| Shredder | Ranged | 18" | D6 | N/A | 6 | 0 | 1 | Assault, Torrent |
+| Close Combat Weapon | Melee | Melee | 2 | 3+ | 3 | 0 | 1 | - |
+| Splinter Rifle | Ranged | 24" | 2 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault |
+| Close Combat Weapon | Melee | Melee | 2 | 3+ | 3 | 0 | 1 | - |
+| Blaster | Ranged | 18" | 1 | 3+ | 8 | -4 | D6+1 | Assault |
+| Close Combat Weapon | Melee | Melee | 2 | 3+ | 3 | 0 | 1 | - |
+| Splinter Cannon | Ranged | 36" | 3 | 4+ | 3 | -1 | 2 | Anti-Infantry 3+, Heavy, Sustained Hits 1 |
+| Close Combat Weapon | Melee | Melee | 2 | 3+ | 3 | 0 | 1 | - |
+| Dark Lance | Ranged | 36" | 1 | 4+ | 12 | -3 | D6+2 | Heavy |
+| Close Combat Weapon | Melee | Melee | 2 | 3+ | 3 | 0 | 1 | - |
+| Blast Pistol | Ranged | 6" | 1 | 3+ | 8 | -3 | D3 | Pistol |
+| Splinter Pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
+| Splinter Rifle | Ranged | 24" | 2 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault |
+| Close Combat Weapon | Melee | Melee | 2 | 3+ | 3 | 0 | 1 | - |
+| Power Weapon | Melee | Melee | 3 | 3+ | 3 | -2 | 1 | Anti-Infantry 3+ |
 
 **Abilities:**
 
-#### Invulnerable Save (Jain Zar) (Abilities)
-- **Description:** Jain Zar has a 4+ Invulnerable save
+#### Phantasm Grenade Launcher (Abilities)
+- **Description:** The bearer’s unit has the **Smoke and Grenades** keywords.
 
-#### Leader (Abilities)
-- **Description:** This model can be attached to the following unit:
-■ Howling Banshees
+#### Kabalite Icon (Abilities)
+- **Description:** While the bearer's unit is not Battle-shocked, add 1 to the bearer's Objective Control characteristic.
 
-#### Whirling Death (Abilities)
-- **Description:** While this model is leading a unit, each time that unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6" to the Move characteristic of models in that unit and each time a model in that unit makes an Advance move, ignore any vertical distance when determining the total distance that model can be moved during that move.
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 6+ Invulnerable save
 
-#### Storm of Silence (Abilities)
-- **Description:** Each time this model makes an attack that targets a Character unit, you can re-roll the Wound roll.
+#### Cruel Enforcers (Abilities)
+- **Description:** At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under you control, until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.
+
+#### Sadistic Raiders (Pain) (Abilities)
+- **Description:** In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker, you can re-roll the Wound roll instead.
 
 ---
 
-### Karandras [Legends]
-**Points:** 90 | **M:** 7" | **T:** 3 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Epic Hero, Character, Infantry, Karandras, Phoenix Lord, Asuryani, Aeldari
+### Lelith Hesperax
+**Points:** 85 | **M:** 8" | **T:** 3 | **SV:** 6+ | **W:** 4 | **LD:** 6+ | **OC:** 1
+**Keywords:** Lelith Hesperax, Aeldari, Wych Cult, Succubus, Drukhari, Epic Hero, Character, Infantry
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Arhra's Bane | Ranged | 12" | 2 | 2+ | 5 | -1 | 2 | Assault, Pistol |
-| Arhra's Bane | Melee | Melee | 5 | 2+ | 8 | -3 | 2 | Sustained Hits 1 |
-| Isirmathil | Melee | Melee | 8 | 2+ | 6 | -1 | 1 | Sustained Hits 1 |
-
-**Abilities:**
-
-#### Invulnerable Save (Phoenix Lord) (Abilities)
-- **Description:** Karandras has a 4+ Invulnerable save
-
-#### Leader (Abilities)
-- **Description:** This model can be attached to the following unit:
-■ Striking Scorpions
-
-#### Shadow Hunter (Abilities)
-- **Description:** While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll.
-
-#### Sustained Assault (Abilities)
-- **Description:** Each time this model makes a melee attack, if it made a Charge move this turn, a successful unmodified Hit roll of 4+ scores a Critical Hit
-
-#### The Scorpion's Bite (Abilities)
-- **Description:** Melee weapons equipped by the bearer have the [DEVASTATING WOUNDS] ability when targeting units without the Titanic keyword
-
----
-
-### Kharseth
-**Points:** 95 | **M:** 7" | **T:** 3 | **SV:** 6+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Aeldari, Asuryani, Character, Epic Hero, Psyker, Anhrathe, Kharseth
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Dread of the Deep Void | Ranged | 24" | D6+2 | 3+ | 3 | -2 | 1 | Anti-Infantry 2+, Blast, Hazardous, Ignores Cover, Psychic |
-| Waystave | Melee | Melee | 3 | 2+ | 3 | 0 | 3 | Anti-Infantry 2+, Psychic |
-
-**Abilities:**
-
-#### Invulnerable Save (Kharseth) (Abilities)
-- **Description:** Kharseth has a 4+ Invulnerable save
-
-#### Leader (Abilities)
-- **Description:** This model can be attached to the following units:
-■ Corsair Voidreavers
-■ Corsair Voidscarred
-
-#### Aethersense (Psychic) (Abilities)
-- **Description:** Enemy units that are set up on the battlefield from Reserves cannot be set up within 12" of this model.
-
-#### Fury of the Void (Psychic) (Abilities)
-- **Description:** In your Shooting phase, after this model’s unit has shot, select one enemy unit hit by one or more attacks made with this model’s Dread of the Deep Void. Until the end of the turn, that unit is riven. Each time an **Aeldari** model from your army makes an attack that targets a riven unit, add 1 to the Strength characteristic of that attack.
-
----
-
-### Lhykhis
-**Points:** 135 | **M:** 12" | **T:** 3 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Epic Hero, Infantry, Aeldari, Asuryani, Jump Pack, Fly, Aspect Warrior, Phoenix Lord, Lhykhis
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Brood Twain | Ranged | 12" | D6+3 | N/A | 6 | -2 | 1 | Ignores Cover, Torrent, Twin-Linked |
-| Spider's Fangs | Melee | Melee | 5 | 2+ | 4 | -2 | 1 | Extra Attacks, Lethal Hits |
-| Weaverender | Melee | Melee | 5 | 2+ | 6 | -2 | 2 | Lethal Hits |
+| Lelith's blades | Melee | Melee | 8 | 2+ | 3 | -2 | 1 | Anti-Infantry 2+, Precision, Sustained Hits 2 |
 
 **Abilities:**
 
 #### Leader (Abilities)
 - **Description:** This model can be attached to the following unit:
-■ Warp Spiders
+■ Wyches
 
-#### Invulnerable Save (Lhykhis) (Abilities)
-- **Description:** Lhykhis has a 4+ Invulnerable save
+#### Brides of Death (Pain) (Abilities)
+- **Description:** In the Fight phase, when you select this model's unit to fight, you can spend 1 Pain token to Empower that unit. While that unit is Empowered, each time a model in that unit makes a melee attack, improve the Strength and Armour Penetration characteristics of that attack by 1.
 
-#### Empyric Ambush (Abilities)
-- **Description:** While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it used its Flickerjump ability.
+#### Thrilling Spectacle (Abilities)
+- **Description:** Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, this model has a 3+ invulnerable save and change the Attacks characteristic of melee weapons equipped by this model to 12.
 
-#### Whispering Web (Abilities)
-- **Description:** In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly Aeldari model makes an attack that targets that unit, an unmodified Hit roll of 5+ scores a Critical Hit.
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 4+ Invulnerable save
+
+#### Blur of Blades (Abilities)
+- **Description:** While this model is leading a unit, models in that unit have the Fights First ability.
 
 ---
 
-### Lynx [Legends]
+### Lynx
 **Points:** 180 | **M:** 14" | **T:** 9 | **SV:** 3+ | **W:** 16 | **LD:** 6+ | **OC:** 4
 **Keywords:** Vehicle, Fly, Asuryani, Lynx, Aeldari
 
@@ -955,30 +894,28 @@ makes an attack, subtract 1 from the Hit roll
 
 ---
 
-### Maugan Ra
-**Points:** 100 | **M:** 7" | **T:** 3 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Phoenix Lord, Maugan Ra, Infantry, Epic Hero, Character, Asuryani, Aeldari, Aspect Warrior
+### Mandrakes
+**Points:** 75 | **M:** 8" | **T:** 3 | **SV:** 7+ | **W:** 1 | **LD:** 7+ | **OC:** 1
+**Keywords:** Mandrakes, Aeldari, Drukhari, Infantry, Blades for Hire
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Maugetar | Ranged | 36" | 6 | 2+ | 7 | -2 | 2 | Devastating wounds, Ignores cover |
-| Maugetar | Melee | Melee | 5 | 2+ | 6 | -2 | 2 | - |
+| Baleblast | Ranged | 18" | 2 | 3+ | 5 | -1 | 1 | Assault, Devastating Wounds, Ignores Cover |
+| Glimmersteel Blade | Melee | Melee | 3 | 3+ | 5 | -1 | 1 | Devastating Wounds |
+| Baleblast | Ranged | 18" | 2 | 3+ | 5 | -1 | 1 | Assault, Devastating Wounds, Ignores Cover |
+| Glimmersteel Blade | Melee | Melee | 3 | 3+ | 5 | -1 | 1 | Devastating Wounds |
 
 **Abilities:**
 
-#### Leader (Abilities)
-- **Description:** This model can be attached to the following unit:
-■ Dark Reapers
+#### Fade Away (Pain) (Abilities)
+- **Description:** At the end of your opponent’s Fight phase, if this unit is not within Engagement Range of one or more enemy units, you can spend 1 Pain token to Empower this unit. Each time you do, remove this unit from the battlefield and place it into Strategic Reserves.
 
-#### Invulnerable Save (Maugan Ra) (Abilities)
-- **Description:** Maugan Ra has a 4+ Invulnerable save
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 5+ invulnerable save.
 
-#### Harvester of Souls (Abilities)
-- **Description:** While this model is leading a unit, in your Shooting phase, after selecting targets for that unit's attacks, if every attack targets the same unit, roll one D6 for the target unit and one D6 for every other enemy unit within 3" of the target unit. On a 5+, the unit being rolled for is struck by explosive debris; after resolving all of that unit's attacks against the target unit, each unit struck by explosive debris suffers D3 mortal wounds.
-
-#### Face of Death (Abilities)
-- **Description:** In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test, subtracting 1 from the result.
+#### Shade Weavers (Abilities)
+- **Description:** This unit cannot be targeted by ranged attacks unless the attacking model is within 18".
 
 ---
 
@@ -1004,7 +941,7 @@ makes an attack, subtract 1 from the Hit roll
 
 ---
 
-### Nightwing [Legends]
+### Nightwing
 **Points:** 150 | **M:** 20+" | **T:** 8 | **SV:** 3+ | **W:** 12 | **LD:** 6+ | **OC:** 0
 **Keywords:** Vehicle, Fly, Aircraft, Asuryani, Nightwing, Aeldari
 
@@ -1081,35 +1018,6 @@ makes an attack, subtract 1 from the Hit roll
 ---
 
 ### Prince Yriel
-**Points:** 95 | **M:** 7" | **T:** 3 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Prince Yriel, Infantry, Character, Epic Hero, Asuryani, Aeldari, Anhrathe
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| The Eye of Wrath | Ranged | 6" | 3 | 2+ | 6 | -2 | 2 | Assault, Pistol |
-| The Spear of Twilight | Melee | Melee | 5 | 2+ | 7 | -3 | 3 | Lance |
-| Shuriken Pistol | Ranged | 12" | 1 | 2+ | 4 | -1 | 1 | Assault, Pistol |
-
-**Abilities:**
-
-#### Invulnerable Save (Prince Yriel) (Abilities)
-- **Description:** Prince Yriel has a 4+ Invulnerable save
-
-#### Leader (Abilities)
-- **Description:** This model can be attached to the following units:
-■ Corsair Voidreavers
-■ Corsair Voidscarred
-
-#### Piratical Hero (Abilities)
-- **Description:** While this model is leading a unit, each time a model in that unit makes an attack, that attack has the **[Sustained Hits 1]** ability and add 1 to the Hit roll.
-
-#### Prince of Corsairs (Abilities)
-- **Description:** After both players have deployed their armies, if this model is on the battlefield (or any **Transport it is embarked within is on the battlefield), select up to three Aeldari** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.
-
----
-
-### Prince Yriel [Legends]
 **Points:** 100 | **M:** 7" | **T:** 3 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
 **Keywords:** Prince Yriel, Infantry, Character, Epic Hero, Asuryani, Aeldari
 
@@ -1139,6 +1047,42 @@ makes an attack, subtract 1 from the Hit roll
 
 ---
 
+### Raider
+**Points:** 85 | **M:** 14" | **T:** 8 | **SV:** 4+ | **W:** 10 | **LD:** 7+ | **OC:** 2
+**Keywords:** Raider, Aeldari, Drukhari, Dedicated Transport, Fly, Vehicle, Transport
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Bladevanes and chainsnares | Melee | Melee | D3+3 | 4+ | 6 | -1 | 1 | - |
+| Disintegrator Cannon | Ranged | 36" | 3 | 3+ | 6 | -3 | 2 | - |
+| Dark Lance | Ranged | 36" | 1 | 3+ | 12 | -3 | D6+2 | - |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 6+ Invulnerable save
+
+#### Aethersails (Abilities)
+- **Description:** While one or more **Drukhari** units are embarked within this model, you can re-roll Advance and Charge rolls made for this model.
+
+#### Splinter Racks (Pain) (Abilities)
+- **Description:** In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, if one or more units are embarked within this model, each time this model makes an attack with a ranged weapon that has the **Anti** ability, you can re-roll the Hit roll.
+
+#### Vanguard of the Dark City (Abilities)
+- **Description:** At the start of your Command phase, select one of the abilities in the Vanguard of the Dark City section (see left) for this model. Until the start of your next Command phase, this model has that ability.
+
+#### Masters of the Shadowed Sky (Abilities)
+- **Description:** At the end of your Command phase, if this model is within range of an objective marker you control, and if one or more **Kabalite Warriors** units are embarked within it, that objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.
+
+#### Speed of the Kill (Abilities)
+- **Description:** Each time a **Wyches unit disembarks from this model (excluding Emergency Disembarkations), models in that Wyches** unit must be setup wholly within 6" of this model.
+
+#### Visions of Butchery (Abilities)
+- **Description:** While one or more **Wracks units are embarked within this model, for each Wracks** model embarked within this model, add 1 to the Attacks characteristic of this model's Bladevanes and chainsnares.
+
+---
+
 ### Rangers
 **Points:** 55 | **M:** 7" | **T:** 3 | **SV:** 5+ | **W:** 1 | **LD:** 7+ | **OC:** 1
 **Keywords:** Rangers, Infantry, Asuryani, Aeldari, Ynnari
@@ -1155,6 +1099,151 @@ makes an attack, subtract 1 from the Hit roll
 
 #### Path of the Outcast (Abilities)
 - **Description:** Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9" of this unit, it can make a Normal move of up to D6".
+
+---
+
+### Ravager
+**Points:** 110 | **M:** 14" | **T:** 9 | **SV:** 4+ | **W:** 11 | **LD:** 7+ | **OC:** 3
+**Keywords:** Ravager, Aeldari, Kabal, Drukhari, Fly, Vehicle
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Bladevanes | Melee | Melee | 3 | 4+ | 6 | -1 | 1 | - |
+| Disintegrator Cannon | Ranged | 36" | 3 | 3+ | 6 | -3 | 2 | - |
+| Dark Lance | Ranged | 36" | 1 | 3+ | 12 | -3 | D6+2 | - |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 6+ Invulnerable save
+
+#### Damaged: 1-4 Wounds Remaining (Abilities)
+- **Description:** While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.
+
+#### Eradicate the Foe (Abilities)
+- **Description:** Each time this model makes an attack that targets an enemy unit that is at its Starting Strength, you can re-roll the Hit roll.
+
+#### Agonising Suppression (Pain) (Abilities)
+- **Description:** In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.
+
+---
+
+### Raven Strike Fighter [Legends]
+**Points:** 170 | **M:** 20+" | **T:** 8 | **SV:** 4+ | **W:** 10 | **LD:** 7+ | **OC:** 0
+**Keywords:** Drukhari, Vehicle, Fly, Aircraft, Aeldari, Raven Strike Fighter
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Bladed wings | Melee | Melee | 3 | 4+ | 6 | -1 | 1 | - |
+| Dark lance | Ranged | 36" | 1 | 3+ | 12 | -3 | D6+2 | - |
+| Splinterstorm cannon | Ranged | 36" | 8 | 3+ | 3 | -1 | 2 | Anti-Infantry 3+, Sustained Hits 2 |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
+
+#### Ground-attack Craft (Abilities)
+- **Description:** Each time a model in this unit makes a ranged attack that targets an enemy unit (excluding unit that can **Fly**), add 1 to the Hit roll.
+
+#### Shredding Fire (Pain) (Abilities)
+- **Description:** In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, the Armour Penetration characteristic of its ranged weapons is increased by 1.
+
+---
+
+### Razorwing Jetfighter
+**Points:** 170 | **M:** 20+" | **T:** 8 | **SV:** 4+ | **W:** 10 | **LD:** 7+ | **OC:** 0
+**Keywords:** Razorwing Jetfighter, Aeldari, Drukhari, Aircraft, Vehicle, Fly
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Bladed Wings | Melee | Melee | 3 | 4+ | 6 | -1 | 1 | - |
+| ➤ Razorwing Missiles - Monoscythe Missiles | Ranged | 48" | D6 | 3+ | 6 | -1 | 2 | Blast |
+| ➤ Razorwing Missiles - Neurotoxin Missiles | Ranged | 48" | D6+3 | 3+ | 2 | 0 | 1 | Anti-Infantry 2+, Blast |
+| ➤ Razorwing Missiles - Shatterfield Missiles | Ranged | 48" | D6 | 3+ | 7 | -2 | 1 | Blast |
+| Dark Lance | Ranged | 36" | 1 | 3+ | 12 | -3 | D6+2 | - |
+| Disintegrator Cannon | Ranged | 36" | 3 | 3+ | 6 | -3 | 2 | - |
+| Splinter Cannon | Ranged | 36" | 3 | 3+ | 3 | -1 | 2 | Anti-Infantry 3+, Sustained Hits 1 |
+| Twin Splinter Rifle | Ranged | 24" | 2 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Rapid Fire 2, Twin Linked |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 6+ Invulnerable save
+
+#### Ground-attack Craft (Abilities)
+- **Description:** Each time a model in this unit makes a ranged attack that targets an enemy unit (excluding units that can **Fly**), add 1 to the Hit roll.
+
+#### Nowhere to Run (Pain) (Abilities)
+- **Description:** In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, after this unit has shot, select one enemy unit (excluding **Monsters and Vehicles**) hit by one or more of those attacks; until the start of your next turn, that enemy unit is pinned. While a unit is pinned, subtract 2 from that unit's Move characteristic and subtract 2 from Charge rolls made for that unit.
+
+---
+
+### Reaper [Legends]
+**Points:** 115 | **M:** 14" | **T:** 9 | **SV:** 4+ | **W:** 11 | **LD:** 7+ | **OC:** 3
+**Keywords:** Drukhari, Vehicle, Kabal, Fly, Aeldari, Reaper
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Bladevanes | Melee | Melee | 3 | 4+ | 6 | -1 | 1 | - |
+| Prow blade | Melee | Melee | 1 | 4+ | 8 | -2 | 2 | Extra Attacks, Lance, Sustained Hits 3 |
+| ➤ Storm vortex projector - beam | Ranged | 36" | 3 | 3+ | 12 | -3 | D6 | - |
+| ➤ Storm vortex projector - blast | Ranged | 24" | D6+3 | 3+ | 6 | -2 | 2 | Blast |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 6+ invulnerable save.
+
+#### Eradicate the Foe (Abilities)
+- **Description:** Each time this model makes an attack that targets an enemy unit that is at its Starting Strength, re-roll a Hit roll of 1. If the target unit has a Starting Strength of 1, this ability only applies if that unit has its starting number of wounds.
+
+#### Damaged: 1-4 Wounds Remaining (Abilities)
+- **Description:** While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.
+
+#### Electromagnetic Cascade (Pain) (Abilities)
+- **Description:** In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered: 
+■ Each time this model makes a ranged attack that targets a **Vehicle unit, that attack has the [SUSTAINED HITS 2]** ability. 
+■ Each time this model makes a ranged attack that targets a non-**Vehicle unit, that attack has the [SUSTAINED HITS 1]** ability.
+
+---
+
+### Reavers
+**Points:** 70 | **M:** 16" | **T:** 4 | **SV:** 4+ | **W:** 2 | **LD:** 7+ | **OC:** 2
+**Keywords:** Reavers, Wych Cult, Aeldari, Drukhari, Fly, Mounted
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Splinter Rifle | Ranged | 24" | 2 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault |
+| Splinter Pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
+| Bladevanes | Melee | Melee | 4 | 3+ | 4 | -1 | 1 | Lance |
+| Blaster | Ranged | 18" | 1 | 3+ | 8 | -4 | D6+1 | Assault |
+| Splinter Pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
+| Bladevanes | Melee | Melee | 4 | 3+ | 4 | -1 | 1 | Lance |
+| Splinter Pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
+| Heat Lance | Ranged | 18" | 1 | 3+ | 14 | -4 | D6 | Assault, Melta 3 |
+| Bladevanes | Melee | Melee | 4 | 3+ | 4 | -1 | 1 | Lance |
+| Splinter Pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
+| Bladevanes | Melee | Melee | 4 | 3+ | 4 | -1 | 1 | Lance |
+| Splinter Rifle | Ranged | 24" | 2 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault |
+| Blaster | Ranged | 18" | 1 | 3+ | 8 | -4 | D6+1 | Assault |
+| Heat Lance | Ranged | 18" | 1 | 3+ | 14 | -4 | D6 | Assault, Melta 3 |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 6+ invulnerable save.
+
+#### Eviscerating Fly-by (Abilities)
+- **Description:** Each time this unit ends a Normal or Advance move, you can select one enemy unit (excluding **Monster and Vehicle** units) that it moved over during that move, then roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound.
+
+#### Matchless Swiftness (Pain) (Abilities)
+- **Description:** In your Movement phase, when you select this unit to Advance, you can spend 1 Pain token to Empower this unit. While Empowered, each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 8" to the Move characteristic of models in this unit.
 
 ---
 
@@ -1191,7 +1280,7 @@ makes an attack, subtract 1 from the Hit roll
 
 ---
 
-### Scorpion [Legends]
+### Scorpion
 **Points:** 410 | **M:** 14" | **T:** 11 | **SV:** 2+ | **W:** 24 | **LD:** 6+ | **OC:** 8
 **Keywords:** Scorpion, Asuryani, Vehicle, Fly, Titanic, Aeldari
 
@@ -1216,7 +1305,41 @@ makes an attack, subtract 1 from the Hit roll
 
 ---
 
-### Shadow Spectres [Legends]
+### Scourges
+**Points:** 130 | **M:** 14" | **T:** 3 | **SV:** 4+ | **W:** 1 | **LD:** 7+ | **OC:** 1
+**Keywords:** Scourges, Aeldari, Drukhari, Fly, Grenades, Infantry, Jump Pack, Blades for Hire, Scourges with Heavy Weapons
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Blaster | Ranged | 18" | 1 | 3+ | 8 | -4 | D6+1 | Assault |
+| Heat Lance | Ranged | 18" | 1 | 4+ | 14 | -4 | D6 | Assault, Heavy, Melta 3 |
+| Splinter Cannon | Ranged | 36" | 3 | 4+ | 3 | -1 | 2 | Anti-Infantry 3+, Heavy, Sustained Hits 1 |
+| Shredder | Ranged | 18" | D6 | N/A | 6 | 0 | 1 | Assault, Torrent |
+| Dark Lance | Ranged | 36" | 1 | 4+ | 12 | -3 | D6+2 | Heavy |
+| Haywire Blaster | Ranged | 24" | 2 | 4+ | 3 | -1 | 3 | Anti-Vehicle 4+, Devastating Wounds, Heavy |
+| Close combat weapon | Melee | Melee | 2 | 3+ | 3 | 0 | 1 | - |
+| Shardcarbine | Ranged | 18" | 3 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault |
+| Blast Pistol | Ranged | 6" | 1 | 3+ | 8 | -3 | D3 | Pistol |
+| Power Weapon | Melee | Melee | 3 | 3+ | 3 | -2 | 1 | Anti-Infantry 3+ |
+| Power Weapon | Melee | Melee | 3 | 3+ | 3 | -2 | 1 | Anti-Infantry 3+ |
+| Splinter Pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
+| Close combat weapon | Melee | Melee | 2 | 3+ | 3 | 0 | 1 | - |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 5+ Invulnerable save
+
+#### Airborne Evasion (Abilities)
+- **Description:** In your Shooting phase, after this unit has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to 6". If it does, until the end of the turn, this unit is not eligible to declare a charge.
+
+#### Winged Strike (Pain) (Abilities)
+- **Description:** In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes a range attack, you can re-roll the Hit roll.
+
+---
+
+### Shadow Spectres
 **Points:** 115 | **M:** 12" | **T:** 3 | **SV:** 3+ | **W:** 1 | **LD:** 6+ | **OC:** 1
 **Keywords:** Infantry, Fly, Asuryani, Shadow Spectres, Jump Pack, Aeldari
 
@@ -1237,22 +1360,6 @@ makes an attack, subtract 1 from the Hit roll
 
 #### Shade of Twilight (Abilities)
 - **Description:** In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6". If it does, until the end of the turn, this unit is not eligible to declare a charge.
-
----
-
-### Shadow Weaver Platform
-**Points:** 75 | **M:** 7" | **T:** 6 | **SV:** 4+ | **W:** 5 | **LD:** 7+ | **OC:** 1
-**Keywords:** Support Weapon, Asuryani, Aeldari, Infantry, Shadow Weaver Platform, Ynnari
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Shadow weaver | Ranged | 48" | D6+2 | 3+ | 6 | -1 | 1 | Blast, Indirect Fire |
-
-**Abilities:**
-
-#### Monofilament Snare (Abilities)
-- **Description:** In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with its Shadow Weaver. Until the start of your next turn, that enemy unit it snared. While a unit is snared, each time that unit makes a Normal, Advance or Fall Back move, roll one D6 for each model in that unit: for each 1, that unit suffers 1 mortal wound.
 
 ---
 
@@ -1335,7 +1442,7 @@ makes an attack, subtract 1 from the Hit roll
 
 ---
 
-### Skathach Wraithknight [Legends]
+### Skathach Wraithknight
 **Points:** 490 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 18 | **LD:** 6+ | **OC:** 10
 **Keywords:** Skathach Wraithknight, Wraith Construct, Asuryani, Towering, Titanic, Walker, Monster, Aeldari
 
@@ -1369,20 +1476,6 @@ makes an attack, subtract 1 from the Hit roll
 
 ---
 
-### Skyrunner [Crucible]
-**Points:** 80 | **M:** 14" | **T:** 4 | **SV:** 6+ | **W:** 5 | **LD:** 6+ | **OC:** 2
-**Keywords:** Character, Aeldari, Asuryani, Crucible, Mounted, Skyrunner, Fly
-
-**Abilities:**
-
-#### Invulnerable Save (Skyrunner) (Abilities)
-- **Description:** A Craftworld Warleader has a 4+ Invulnerable save.
-
-#### Winds of War (Abilities)
-- **Description:** This model’s unit is eligible to declare a charge in a turn in which it Advanced.
-
----
-
 ### Skyweavers
 **Points:** 95 | **M:** 14" | **T:** 4 | **SV:** 4+ | **W:** 3 | **LD:** 6+ | **OC:** 2
 **Keywords:** Skyweavers, Fly, Mounted, Smoke, Harlequin Allies, Aeldari, Harlequins, Corsairs and Travelling Players
@@ -1402,30 +1495,6 @@ makes an attack, subtract 1 from the Hit roll
 
 #### Acrobatic Grace (Abilities)
 - **Description:** Each time an attack targets this unit, subtract 1 from the Hit roll.
-
----
-
-### Solitaire
-**Points:** 115 | **M:** 12" | **T:** 3 | **SV:** 6+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Solitaire, Character, Epic Hero, Infantry, Harlequin Allies, Harlequins, Aeldari, Corsairs and Travelling Players
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Solitaire Weapons | Melee | Melee | 9 | 2+ | 6 | -2 | 2 | Precision |
-
-**Abilities:**
-
-#### Invulnerable Save (Abilities)
-- **Description:** This unit has a 4+ Invulnerable save
-
-#### Blitz (Abilities)
-- **Description:** Once per battle, in your Movement phase, before this model makes a Normal move it can use this ability. If it does, until the end of
-the turn, add 2D6" to this model’s Move characteristic and add 3 to the
-Attacks characteristic of this model’s Solitaire weapons.
-
-#### Blur of Movement (Abilities)
-- **Description:** This model is eligible to declare a charge in a turn in which it Advanced.
 
 ---
 
@@ -1517,6 +1586,51 @@ Attacks characteristic of this model’s Solitaire weapons.
 
 ---
 
+### Succubus
+**Points:** 50 | **M:** 8" | **T:** 3 | **SV:** 6+ | **W:** 4 | **LD:** 7+ | **OC:** 1
+**Keywords:** Succubus, Wych Cult, Aeldari, Drukhari, Character, Infantry
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Archite glaive and agoniser | Melee | Melee | 7 | 2+ | 3 | -2 | 1 | Anti-Infantry 3+, Precision |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 4+ Invulnerable save
+
+#### Lithe Agility (Pain) (Abilities)
+- **Description:** In your Movement phase when you select this model's unit to Advance, or in your Charge phase before you make a Charge roll for this model's unit, you can spend 1 Pain token to Empower that unit. While that unit is Empowered, you can re-roll Advance and Charge rolls made for that unit.
+
+#### Storm of Blades (Abilities)
+- **Description:** While this model is leading a unit, melee weapons equipped by models in that unit have the **[Sustained Hits 1]** ability.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following unit:
+■ Wyches
+
+#### Bloody Spectacle (Abilities)
+- **Description:** Each time this model makes a melee attack that targets a **Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model's unit destroys a Character** model, you gain 1CP.
+
+---
+
+### Support Weapons
+**Points:** 125 | **M:** 7" | **T:** 6 | **SV:** 4+ | **W:** 5 | **LD:** 7+ | **OC:** 1
+**Keywords:** Support Weapon, Asuryani, Infantry, Aeldari, D-Cannon Platform, Ynnari
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| D-cannon | Ranged | 24" | D3 | 3+ | 16 | -4 | D6+2 | Blast, Devastating Wounds, Indirect Fire |
+
+**Abilities:**
+
+#### Structural Collapse (Abilities)
+- **Description:** Each time this model makes an attack with its D-Cannon, re-roll a Damage roll of 1. If that attack targets a Titanic unit, you can re-roll the Damage roll instead.
+
+---
+
 ### Swooping Hawks
 **Points:** 95 | **M:** 14" | **T:** 3 | **SV:** 4+ | **W:** 1 | **LD:** 6+ | **OC:** 1
 **Keywords:** Swooping Hawks, Infantry, Fly, Grenades, Asuryani, Aeldari, Jump Pack, Aspect Warrior, Ynnari
@@ -1540,6 +1654,32 @@ Attacks characteristic of this model’s Solitaire weapons.
 
 #### Grenade Pack Flyover (Abilities)
 - **Description:** Once per turn, in your Movement phase, when this unit is set-up on the battlefield or ends a Normal, Advance or Fall Back move, it can use this ability. If it does, select one enemy unit within 8" of and visible to this unit and roll one D6 for each Swooping Hawks model in this unit. For each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). Each time this unit uses this ability , until the end of the turn, you cannot target this unit with the Grenades Stratagem.
+
+---
+
+### Tantalus
+**Points:** 230 | **M:** 16" | **T:** 10 | **SV:** 4+ | **W:** 18 | **LD:** 7+ | **OC:** 5
+**Keywords:** Vehicle, Transport, Fly, Drukhari, Aeldari
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Dire Scythe Blades | Melee | Melee | 6 | 4+ | 8 | -1 | 2 | - |
+| Pulse Disintegrators | Ranged | 36" | 12 | 3+ | 10 | -2 | 2 | Assault |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 5+ Invulnerable save
+
+#### Damaged: 1-6 Wounds Remaining (Abilities)
+- **Description:** While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.
+
+#### Scything Charge (Abilities)
+- **Description:** Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.
+
+#### Engine of Destruction (Pain) (Abilities)
+- **Description:** In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, this model’s pulse disintegrators have the **[RAPID FIRE 8]** ability.
 
 ---
 
@@ -1690,19 +1830,57 @@ You can attach this unit to one of the above units, even if Yvraine has already 
 
 ---
 
-### Vibro Cannon Platform
-**Points:** 60 | **M:** 7" | **T:** 6 | **SV:** 4+ | **W:** 5 | **LD:** 7+ | **OC:** 1
-**Keywords:** Support Weapon, Asuryani, Infantry, Aeldari, Vibro Cannon Platform, Ynnari
+### Venom
+**Points:** 70 | **M:** 14" | **T:** 6 | **SV:** 4+ | **W:** 6 | **LD:** 7+ | **OC:** 1
+**Keywords:** Venom, Aeldari, Drukhari, Fly, Dedicated Transport, Transport, Vehicle
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Vibro Cannon | Ranged | 48" | D6 | 3+ | 9 | -1 | 2 | - |
+| Bladevanes | Melee | Melee | 3 | 4+ | 5 | -1 | 1 | - |
+| Splinter Cannon | Ranged | 36" | 3 | 3+ | 3 | -1 | 2 | Anti-Infantry 3+, Sustained hits 1 |
+| Splinter Cannon | Ranged | 36" | 3 | 3+ | 3 | -1 | 2 | Anti-Infantry 3+, Sustained hits 1 |
+| Twin Splinter Rifle | Ranged | 24" | 2 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Rapid Fire 2, Twin Linked |
 
 **Abilities:**
 
-#### Sonic Destruction (Abilities)
-- **Description:** In your Shooting phase, each time this model makes an attack with its Vibro Cannon that targets an enemy unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1 for each other friendly Vibro Cannon Platform model that made one or more attacks with its Vibro Cannon that also targeted that enemy unit this phase.
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 6+ Invulnerable save
+
+#### Aerialists (Abilities)
+- **Description:** At the end of the Fight phase, if there are no models currently embarked within this **Transport, you can select one friendly Drukhari Infantry unit that has 6 or fewer models that is wholly within 6" of this Transport (you cannot select a unit that can Fly). Unless that unit is within Engagement Range of one or more enemy units, it can embark within this Transport**.
+
+#### Rapid Deployment (Pain) (Abilities)
+- **Description:** In your Movement phase, when you select this model to Advance, you can spend 1 Pain token to Empower this model. While Empowered, units can disembark from this model after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn.
+
+---
+
+### Voidraven Bomber
+**Points:** 245 | **M:** 20+" | **T:** 9 | **SV:** 4+ | **W:** 12 | **LD:** 7+ | **OC:** 0
+**Keywords:** Voidraven, Aeldari, Drukhari, Aircraft, Vehicle, Fly
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Bladed Wings | Melee | Melee | 3 | 4+ | 6 | -1 | 1 | - |
+| ➤ Voidraven Missiles - Implosion Missiles | Ranged | 48" | D3 | 3+ | 9 | -2 | 3 | Blast |
+| ➤ Voidraven Missiles - Shatterfield Missiles | Ranged | 48" | D6 | 3+ | 7 | -2 | 1 | Blast |
+| Void Lance | Ranged | 36" | 2 | 3+ | 14 | -4 | D6+2 | - |
+| Dark Scythe | Ranged | 24" | 6 | 3+ | 8 | -4 | 2 | - |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This unit has a 6+ Invulnerable save
+
+#### Damaged: 1-4 Wounds Remaining (Abilities)
+- **Description:** While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.
+
+#### Void Mine (Abilities)
+- **Description:** Once per battle, after this unit ends a Normal move, you can select one enemy model that it moved over during that move, then roll one D6 for each enemy unit within D6" of that enemy model: on a 4+, that enemy unit suffers D6 mortal wounds.
+
+#### Nowhere to Hide (Pain) (Abilities)
+- **Description:** In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.
 
 ---
 
@@ -1785,7 +1963,7 @@ You can attach this model to a unit, even if one Autarch or Farseer model has al
 
 ---
 
-### Warlock Skyrunners
+### Warlock Skyrunner
 **Points:** 45 | **M:** 14" | **T:** 4 | **SV:** 6+ | **W:** 3 | **LD:** 6+ | **OC:** 2
 **Keywords:** Psyker, Asuryani, Mounted, Warlock Skyrunners, Warlock, Aeldari, Fly, Ynnari
 
@@ -1816,7 +1994,7 @@ You can attach this model to a unit, even if one Autarch or Farseer model has al
 
 ---
 
-### Warp Hunter [Legends]
+### Warp Hunter
 **Points:** 145 | **M:** 14" | **T:** 9 | **SV:** 3+ | **W:** 12 | **LD:** 6+ | **OC:** 3
 **Keywords:** Vehicle, Fly, Asuryani, Warp Hunter, Aeldari
 
@@ -1913,7 +2091,7 @@ You can attach this model to a unit, even if one Autarch or Farseer model has al
 
 ---
 
-### Webway Gate [Legends]
+### Webway Gate
 **Points:** 105 | **M:** - | **T:** 12 | **SV:** 3+ | **W:** 14 | **LD:** 6+ | **OC:** 0
 **Keywords:** Webway Gate, Fortification, Asuryani, Aeldari
 
@@ -2007,33 +2185,6 @@ It can also move through sections of terrain features that are more than 4" in h
 
 ---
 
-### Wraithknight with Ghostglaive
-**Points:** 420 | **M:** 12" | **T:** 12 | **SV:** 2+ | **W:** 18 | **LD:** 6+ | **OC:** 10
-**Keywords:** Wraith Construct, Monster, Titanic, Towering, Walker, Asuryani, Aeldari, Wraithknight with Ghostglaive, Ynnari
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Titanic Ghostglaive - Strike | Melee | Melee | 5 | 3+ | 16 | -3 | 6 | - |
-| ➤ Titanic Ghostglaive - Sweep | Melee | Melee | 15 | 3+ | 8 | -2 | 2 | - |
-| Heavy Wraithcannon | Ranged | 36" | D3 | 3+ | 20 | -4 | 2D6 | Devastating Wounds |
-| Scatter Laser | Ranged | 36" | 6 | 3+ | 5 | 0 | 1 | Sustained Hits 1 |
-| Shuriken Cannon | Ranged | 24" | 3 | 3+ | 6 | -1 | 2 | Lethal Hits |
-| Starcannon | Ranged | 36" | 2 | 3+ | 8 | -3 | 2 | - |
-
-**Abilities:**
-
-#### Scattershield (Abilities)
-- **Description:** The bearer has a 4+ invulnerable save and each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack.
-
-#### Damaged: 1-6 Wounds Remaining (Abilities)
-- **Description:** While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
-
-#### Titanic Agility (Abilities)
-- **Description:** Each time this model makes a Normal, Advance or Fall Back move, it can move through models and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them.
-
----
-
 ### Wraithlord
 **Points:** 130 | **M:** 8" | **T:** 10 | **SV:** 2+ | **W:** 10 | **LD:** 8+ | **OC:** 3
 **Keywords:** Wraithlord, Wraith Construct, Monster, Walker, Asuryani, Aeldari, Ynnari
@@ -2063,7 +2214,7 @@ It can also move through sections of terrain features that are more than 4" in h
 
 ---
 
-### Wraithseer [Legends]
+### Wraithseer
 **Points:** 160 | **M:** 8" | **T:** 11 | **SV:** 2+ | **W:** 10 | **LD:** 6+ | **OC:** 3
 **Keywords:** Walker, Monster, Asuryani, Wraith Construct, Wraithseer, Psyker, Aeldari
 
@@ -2091,181 +2242,32 @@ It can also move through sections of terrain features that are more than 4" in h
 
 ---
 
-### Ynnari Archon
-**Points:** 85 | **M:** 8" | **T:** 3 | **SV:** 4+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Aeldari, Archon, Ynnari
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Huskblade | Melee | Melee | 5 | 2+ | 3 | -2 | 2 | Anti-Infantry 3+ |
-| Splinter Pistol | Ranged | 12" | 1 | 2+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
-| Blast Pistol | Ranged | 6" | 1 | 2+ | 8 | -3 | D3 | Pistol |
-
-**Abilities:**
-
-#### Invulnerable Save - Shadow Field (Abilities)
-- **Description:** An Archon has an Invulnerable Save of 2+. You cannot re-roll invulnerable saving throws made for the bearer. The first time an invulnerable saving throw made for the bearer is failed, until the end of the battle, the bearer has no invulnerable saving throw.
-
-#### Leader (Abilities)
-- **Description:** This model can be attached to the following units:
-■ Ynnari Incubi
-■ Ynnari Kabalite Warriors
-
-#### Overlord (Abilities)
-- **Description:** While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Wound roll of 1. While that unit is below its Starting Strength, each time a model in that unit makes an attack, you can re-roll the Wound roll instead.
-
-#### Reborn Mastermind (Abilities)
-- **Description:** Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratgem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP.
-
----
-
-### Ynnari Incubi
-**Points:** 85 | **M:** 7" | **T:** 3 | **SV:** 3+ | **W:** 1 | **LD:** 6+ | **OC:** 1
-**Keywords:** Incubi, Aeldari, Infantry, Ynnari
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Klaive | Melee | Melee | 3 | 3+ | 4 | -2 | 2 | - |
-| ➤ Demiklaives - Dual Blades | Melee | Melee | 6 | 3+ | 4 | -1 | 1 | Twin-Linked |
-| ➤ Demiklaives - Single Blade | Melee | Melee | 3 | 3+ | 4 | -2 | 2 | - |
-| Klaive | Melee | Melee | 3 | 3+ | 4 | -2 | 2 | - |
-
-**Abilities:**
-
-#### Invulnerable Save (Abilities)
-- **Description:** This unit has a 5+ Invulnerable save
-
-#### Tormentors (Abilities)
-- **Description:** At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test.
-
----
-
-### Ynnari Raider
-**Points:** 80 | **M:** 14" | **T:** 8 | **SV:** 4+ | **W:** 10 | **LD:** 6+ | **OC:** 2
-**Keywords:** Raider, Aeldari, Dedicated Transport, Fly, Vehicle, Transport, Ynnari
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Bladevanes | Melee | Melee | 3 | 4+ | 6 | 0 | 1 | - |
-| Disintegrator Cannon | Ranged | 36" | 3 | 3+ | 5 | -2 | 2 | - |
-| Dark Lance | Ranged | 36" | 1 | 3+ | 12 | -3 | D6+2 | - |
-
-**Abilities:**
-
-#### Invulnerable Save (Abilities)
-- **Description:** This unit has a 6+ Invulnerable save
-
-#### Aethersails (Abilities)
-- **Description:** Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6" to the Move characteristic of this model.
-
----
-
-### Ynnari Reavers
-**Points:** 65 | **M:** 16" | **T:** 4 | **SV:** 4+ | **W:** 2 | **LD:** 6+ | **OC:** 2
-**Keywords:** Reavers, Aeldari, Fly, Mounted, Ynnari
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Splinter Rifle | Ranged | 24" | 2 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault |
-| Splinter Pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
-| Bladevanes | Melee | Melee | 3 | 3+ | 4 | 0 | 1 | - |
-| Blaster | Ranged | 18" | 1 | 3+ | 8 | -4 | D6+1 | Assault |
-| Splinter Pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
-| Bladevanes | Melee | Melee | 3 | 3+ | 4 | 0 | 1 | - |
-| Splinter Pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
-| Heat Lance | Ranged | 18" | 1 | 3+ | 14 | -4 | D6 | Assault, Melta 3 |
-| Bladevanes | Melee | Melee | 3 | 3+ | 4 | 0 | 1 | - |
-| Splinter Pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
-| Agonizer | Melee | Melee | 4 | 3+ | 3 | -1 | 1 | Anti-Infantry 3+ |
-| Bladevanes | Melee | Melee | 3 | 3+ | 4 | 0 | 1 | - |
-| Splinter Rifle | Ranged | 24" | 2 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault |
-| Blaster | Ranged | 18" | 1 | 3+ | 8 | -4 | D6+1 | Assault |
-| Heat Lance | Ranged | 18" | 1 | 3+ | 14 | -4 | D6 | Assault, Melta 3 |
-
-**Abilities:**
-
-#### Invulnerable Save (Abilities)
-- **Description:** This unit has a 6+ invulnerable save.
-
-#### Eviscerating Fly-by (Abilities)
-- **Description:** Each time this unit ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move. If you do, roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound.
-
----
-
-### Ynnari Succubus
-**Points:** 45 | **M:** 8" | **T:** 3 | **SV:** 6+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Succubus, Aeldari, Character, Infantry, Ynnari
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Succubus Weapons | Melee | Melee | 6 | 2+ | 3 | -2 | 1 | Anti-Infantry 3+ |
-| Splinter Pistol | Ranged | 12" | 1 | 2+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
-| Blast Pistol | Ranged | 6" | 1 | 2+ | 8 | -3 | D3 | Pistol |
-
-**Abilities:**
-
-#### Invulnerable Save (Abilities)
-- **Description:** This unit has a 4+ Invulnerable save
-
-#### Empowered by Death (Abilities)
-- **Description:** At the start of the Fight phase, if this model's unit is below its Starting Strength, models in that unit have the Fights First ability.
-
-#### Storm of Blades (Abilities)
-- **Description:** While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.
-
-#### Leader (Abilities)
-- **Description:** This model can be attached to the following unit:
-■ Ynnari Wyches
-
----
-
-### Ynnari Venom
-**Points:** 70 | **M:** 14" | **T:** 6 | **SV:** 4+ | **W:** 6 | **LD:** 6+ | **OC:** 1
-**Keywords:** Venom, Aeldari, Fly, Dedicated Transport, Transport, Vehicle, Ynnari
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Bladevanes | Melee | Melee | 3 | 4+ | 5 | 0 | 1 | - |
-| Splinter Cannon | Ranged | 36" | 3 | 3+ | 3 | -1 | 2 | Anti-Infantry 3+, Sustained hits 1 |
-| Splinter Cannon | Ranged | 36" | 3 | 3+ | 3 | -1 | 2 | Anti-Infantry 3+, Sustained hits 1 |
-| Twin Splinter Rifle | Ranged | 24" | 2 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Rapid Fire 1, Twin Linked |
-
-**Abilities:**
-
-#### Invulnerable Save (Abilities)
-- **Description:** This unit has a 6+ Invulnerable save
-
-#### Lithe Embarkation (Abilities)
-- **Description:** At the end of the Fight phase, if there are no models currently embarked within this Transport, you can select one friendly Ynnari Infantry unit that only includes models from the units listed in this unit's Transport section, that has 6 or fewer models and that is wholly within 6" of this Transport. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this Transport.
-
----
-
-### Ynnari Wyches
-**Points:** 90 | **M:** 8" | **T:** 3 | **SV:** 6+ | **W:** 1 | **LD:** 6+ | **OC:** 2
-**Keywords:** Wyches, Aeldari, Battleline, Infantry, Grenades, Ynnari
+### Wyches
+**Points:** 90 | **M:** 8" | **T:** 3 | **SV:** 6+ | **W:** 1 | **LD:** 7+ | **OC:** 2
+**Keywords:** Wyches, Wych Cult, Aeldari, Drukhari, Battleline, Infantry, Grenades
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
 | Splinter Pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
-| Hekatarii Blade | Melee | Melee | 3 | 3+ | 3 | -1 | 1 | - |
+| Hekatarii Blade | Melee | Melee | 4 | 3+ | 3 | -1 | 1 | - |
+| Gladiatorial weapons | Melee | Melee | 5 | 3+ | 4 | -2 | 1 | - |
 | Splinter Pistol | Ranged | 12" | 1 | 3+ | 2 | 0 | 1 | Anti-Infantry 3+, Assault, Pistol |
-| Blast Pistol | Ranged | 6" | 1 | 3+ | 8 | -3 | D3 | Pistol |
-| Hekatarii Blade | Melee | Melee | 3 | 3+ | 3 | -1 | 1 | - |
+| Blast Pistol | Ranged | 6" | 1 | 3+ | 8 | -4 | D3 | Pistol |
+| Hekatarii Blade | Melee | Melee | 4 | 3+ | 3 | -1 | 1 | - |
+| Power weapon | Melee | Melee | 5 | 3+ | 3 | -2 | 1 | Anti-Infantry 3+ |
 
 **Abilities:**
 
 #### Invulnerable Save (Abilities)
-- **Description:** This unit has a 6+ Invulnerable save against ranged attacks, and 4+ Invulnerable save against melee attacks.
+- **Description:** This unit has a 6+ Invulnerable save.
+This unit has a 4+ Invulnerable save against melee attacks.
 
 #### No Escape (Abilities)
-- **Description:** Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.
+- **Description:** Each time an enemy unit (excluding **Monsters and Vehicles**) within Engagement Range of one or more units from your army with this ability Falls Back, all models in that enemy unit must take Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.
+
+#### Acrobatic Gladiators (Pain) (Abilities)
+- **Description:** At the start of your Charge phase, you can spend 1 Pain token to Empower this unit. While Empowered, this unit is eligible to declare a charge in a turn in which it Advanced or Fell Back.
 
 ---
 
@@ -2311,90 +2313,85 @@ It can also move through sections of terrain features that are more than 4" in h
 | --- | ---: |
 | Bonesinger [Legends] | 45 |
 | Warlock | 45 |
-| Warlock Skyrunners | 45 |
-| Ynnari Succubus | 45 |
+| Warlock Skyrunner | 45 |
+| Succubus | 50 |
 | Rangers | 55 |
 | Warlock Conclave | 55 |
 | Shadowseer | 60 |
-| Vibro Cannon Platform | 60 |
 | Spiritseer | 65 |
-| Ynnari Reavers | 65 |
 | Farseer | 70 |
-| Illic Nightspear [Legends] | 70 |
-| Ynnari Venom | 70 |
+| Illic Nightspear | 70 |
+| Reavers | 70 |
+| Venom | 70 |
 | Amallyn Shadowguide [Legends] | 75 |
-| Craftworld Warleader [Crucible] | 75 |
 | Dire Avengers | 75 |
-| Shadow Weaver Platform | 75 |
+| Mandrakes | 75 |
 | Troupe Master | 75 |
+| Archon | 80 |
 | Autarch Wayleaper | 80 |
 | Farseer Skyrunner | 80 |
 | Shroud Runners | 80 |
-| Skyrunner [Crucible] | 80 |
 | Starweaver | 80 |
-| Ynnari Raider | 80 |
 | Autarch | 85 |
+| Drazhar | 85 |
+| Hellions | 85 |
+| Lelith Hesperax | 85 |
+| Raider | 85 |
 | Striking Scorpions | 85 |
-| Ynnari Archon | 85 |
-| Ynnari Incubi | 85 |
-| Autarch Skyrunner [Legends] | 90 |
+| Autarch Skyrunner | 90 |
 | Dark Reapers | 90 |
 | Death Jester | 90 |
-| Karandras [Legends] | 90 |
+| Incubi | 90 |
 | The Visarch | 90 |
-| Ynnari Wyches | 90 |
+| Wyches | 90 |
+| Court of the Archon | 95 |
 | Howling Banshees | 95 |
-| Kharseth | 95 |
-| Prince Yriel | 95 |
 | Skyweavers | 95 |
 | Swooping Hawks | 95 |
 | Wasp Assault Walker [Legends] | 95 |
 | Guardian Defenders | 100 |
-| Hornet [Legends] | 100 |
-| Maugan Ra | 100 |
-| Prince Yriel [Legends] | 100 |
+| Hornet | 100 |
+| Prince Yriel | 100 |
 | Yvraine | 100 |
-| Corsair Cloud Dancer Band [Legends] | 105 |
-| Irillyth [Legends] | 105 |
 | Warp Spiders | 105 |
-| Webway Gate [Legends] | 105 |
+| Webway Gate | 105 |
+| Ravager | 110 |
 | Shining Spears | 110 |
 | Storm Guardians | 110 |
-| Baharroth | 115 |
 | Firestorm [Legends] | 115 |
-| Shadow Spectres [Legends] | 115 |
-| Solitaire | 115 |
+| Kabalite Warriors | 115 |
+| Reaper [Legends] | 115 |
+| Shadow Spectres | 115 |
 | Eldrad Ulthran | 120 |
 | Fire Dragons | 120 |
-| Fuegan | 120 |
-| Jain Zar | 120 |
-| D-Cannon Platform | 125 |
+| Support Weapons | 125 |
 | Voidweaver | 125 |
 | Wave Serpent | 125 |
 | Falcon | 130 |
+| Scourges | 130 |
 | Wraithlord | 130 |
-| Asurmen | 135 |
-| Lhykhis | 135 |
-| Warp Hunter [Legends] | 145 |
+| Beastmaster | 135 |
+| Warp Hunter | 145 |
 | Fire Prism | 150 |
-| Nightwing [Legends] | 150 |
+| Nightwing | 150 |
 | Wraithblades | 150 |
 | Hemlock Wraithfighter | 155 |
 | Crimson Hunter | 160 |
-| Ghost Warrior [Crucible] | 160 |
 | Wraithguard | 160 |
-| Wraithseer [Legends] | 160 |
+| Wraithseer | 160 |
+| Raven Strike Fighter [Legends] | 170 |
+| Razorwing Jetfighter | 170 |
 | Phoenix [Legends] | 175 |
-| Lynx [Legends] | 180 |
+| Lynx | 180 |
 | Night Spinner | 190 |
+| Tantalus | 230 |
+| Voidraven Bomber | 245 |
 | The Yncarne | 260 |
-| Avatar of Khaine | 280 |
-| Scorpion [Legends] | 410 |
-| Cobra [Legends] | 415 |
-| Wraithknight with Ghostglaive | 420 |
+| Scorpion | 410 |
+| Cobra | 415 |
 | Vampire Raider [Legends] | 430 |
 | Wraithknight | 435 |
 | Vampire Hunter [Legends] | 460 |
-| Skathach Wraithknight [Legends] | 490 |
+| Skathach Wraithknight | 490 |
 | Revenant Titan | 1100 |
 | Phantom Titan | 2100 |

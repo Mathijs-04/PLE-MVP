@@ -1,136 +1,10 @@
 # Chaos Space Marines
 
-## Army Rules
-
-### Dark Pacts
-If your Army Faction is Heretic Astartes, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of the Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:
-■ [LETHAL HITS]
-■ [SUSTAINED HITS 1]
-
-## Detachments
-
-### Pactbound Zealots
-
-#### Marks of Chaos
-When mustering your army, when you select a Heretic Astartes unit to include in your army, if that unit is not an Epic Hero and does not already have one of the following keywords, you must select one for that unit to gain and note it on your Army Roster: Khorne, Tzeentch, Nurgle, Slaanesh, Chaos Undivided.
-
-Each time a unit with one of these keywords gains a weapon ability as the result of a Dark Pact and does not fail the resulting Leadership test, until the end of the phase, that unit gains the associated ability below.
-
-RESTRICTIONS
-- You cannot select the Khorne keyword for a Psyker unit.
-- A Character unit can only be attached to a unit if both units share the same keyword from the list below.
-- A unit can only embark within (or start the battle embarked within) a Transport if both of those units share the same keyword from the list above.’
-
-### Veterans of the Long War
-
-#### Focus of Hatred
-At the start of your Command phase, select one unit from your opponent's army to be your focus of hatred. Until the start of your next Command phase, each time a Heretic Astartes model from your army (excluding Damned models) makes an attack that targets your focus of hatred, you can re-roll the Hit roll.
-
-### Deceptors
-
-#### Masters of Misdirection
-In the Declare Battle Formations step, you can select a number of Legionaries and Cultist Mob units from your army; until the end of the battle, those units, and any Character units attached to them (excluding Epic Heroes), have the Infiltrator ability. The maximum number of units you can select in this way depends on the battle size, as shown below.
-
-Battle Size | Legionaries | Cultist Mobs
-Incursion | Up to 2 units | Up to 2 units
-Strike Force | Up to 3 units | Up to 3 units
-Onslaught | Up to 4 units | Up to 4 units
-
-### Renegade Raiders
-
-#### Raiders and Reavers
-Ranged weapons equipped by Heretic Astartes models from your army have the [ASSAULT] ability, and each time a Heretic Astartes model from your army makes an attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1.
-
-### Dread Talons
-
-#### Terror Descends (Aura)
-In the Battle-shock step of your opponent's Command phase, if an enemy unit that is below its Starting Strength is within 12" of one or more Heretic Astartes units from your army, that enemy unit must take a Battle-shock test.
-Each time an enemy unit within 12" of one or more Heretic Astartes units from your army takes a Battle-shock test, subtract 1 from the result.
-Enemy units affected by this Detachment rule do not need to take any other Battle-shock tests in the same phase.
-
-### Fellhammer Siege-host
-
-#### Iron Fortitude
-Each time a ranged attack targets a Heretic Astartes unit from your army (excluding Damned units), if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll.
-
-### Chaos Cult
-
-#### Desperate Devotion
-Each time a Damned unit from your army with the Dark Pacts ability is selected to make a Normal or Advance move or declare a charge (excluding units that arrived from Reserves this turn) it can make a Desperate Pact. If it does, until the end of the phase, add 2" to the Move characteristic of models in that unit and add 2 to Charge rolls made for that unit.
-
-Desperate Pacts
-Each time a unit makes a Desperate Pact, it must first take a Leadership test; if that test is failed, the unit suffers D3 mortal wounds before any effects of the Desperate Pact are resolved.
-
-### Soulforged Warpack
-
-#### Debt to the Soulforge
-Each time a Heretic Astartes Daemon Vehicle model from your army makes a Dark Pact, it can invoke its contract. If it does, subtract 1 from the resulting Leadership test when making that Dark Pact and, until the end of the phase:
-- Each time a model in that unit makes a ranged attack, add 1 to the Wound roll.
-- Add 2 to the Attacks characteristic of melee weapons equipped by models in that unit.
-
-### Creations of Bile
-
-#### Creations of Bile
-At the start of the battle, select which augmentations are active for Heretic Astartes Infantry models (excluding Damned models) from your army until the end of the battle. To do so, either select one from the list below, or randomly determine two by rolling two D6. If Fabius Bile is your Warlord, when randomly determining your augmentations, you can re‑roll one or both of the dice. Duplicated augmentations have no additional effect.
-
-1 - Cholinergic Accelerants: Add 1 to the Attacks characteristic of melee weapons equipped by this model.
-2 - Hyperadrenal Infusion: Add 2" to the Move characteristic of this model.
-3 - Paraneural Reactions: Improve the Weapon Skill characteristic of melee weapons equipped by this model by 1.
-4 - Supracutaneous Chitination: Improve the Toughness characteristic of this model by 1.
-5 - Macrotensile Sinews: Add 1 to the Strength characteristic of melee weapons equipped by this model.
-6 - Ophthalmic Enhancement: Improve the Ballistic Skill characteristic of ranged weapons equipped by this model by 1.
-
-### Cabal of Chaos
-
-#### Empyric Wellspring
-Each time a unit from your army makes a Dark Pact, select one of the following abilities. Your unit has that ability until the end of the phase. 
-
-Leaping Warpflame
-While this unit is within 9" of one or more friendly Heretic Astartes Psyker models, improve the Strength characteristic of ranged weapons equipped by models in this unit by 1. 
-
-Monstrous Manifestation
-While this unit is within 9" of one or more friendly Heretic Astartes Daemon Prince or Heretic Astartes Daemon Prince with Wings models, improve the Armour Penetration characteristic of melee weapons equipped by models in this unit by 1.
-
-### Nightmare Hunt
-
-#### Terror Made Manifest
-In the Battle‑shock step of your opponent’s Command phase, if an enemy unit that is below its Starting Strength is within 12" of one or more Heretic Astartes units from your army, that enemy unit must take a Battle‑shock test, subtracting 1 from the result. Enemy units affected by this Detachment rule do not need to take any other Battle‑shock tests in the same phase. 
-Each time a Heretic Astartes model from your army makes an attack that targets a unit that is Below Half‑strength, add 1 to the Hit roll. 
-Each time an attack targets a Heretic Astartes unit from your army, if the attacking model is Battle‐shocked, subtract 1 from the Hit roll. 
-Each time a Heretic Astartes model from your army makes an attack that targets a Battle‐shocked unit, add 1 to the Wound roll.
-
-### Huron's Marauders
-
-#### Tyrannical Motivation
-In your Command phase, select one of the following abilities. Until the start of your next Command phase, each Heretic Astartes Infantry unit from your army has that ability. At the start of each phase, if such a unit is visible to a friendly Huron Blackheart model, until the end of the phase, it has both of the following abilities.
-
-Huron's Elite
-Each time a model in this unit makes an attack, add 1 to the Hit roll.
-
-Mobile Marauders
-This unit is eligible to shoot and declare a charge in a turn in which it Fell Back. 
-*Designer’s Note: If a unit is gaining eligibility to shoot and declare a charge in a turn in which it Fell Back as a result of being visible to Huron Blackheart, but after making a Fall Back move it is no longer visible to Huron Blackheart, that unit will not be eligible to shoot in your Shooting phase or to declare a charge in your Charge phase unless it is visible again at the start of the respective phase.*
-
-### Renegade Warband
-
-#### Slaves to None
-Heretic Astartes models from your army lose the Dark Pacts ability. Ranged weapons equipped by Heretic Astartes models from your army have the [ASSAULT] ability.
-
-When mustering your army, you cannot use the Cults of the Dark Gods rule.
-
-#### Vendetta
-At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Vendetta target. Each time a Heretic Astartes model from your army (excluding Damned models) makes an attack that targets your Vendetta target, you can re‑roll the Hit roll.
-
-#### Twisted Doctrine
-In your Movement phase, each time you set up or select a Heretic Astartes unit (excluding Battle‑shocked units) from your army to move, it can choose to Default to Doctrine. If it does, it must first take a Battle‑shock test. Then, select one of the following: 
-- Until the end of the turn, this unit is eligible to shoot and declare a charge in a turn in which it Fell Back. 
-- Until the end of the turn, this unit is eligible to declare a charge in a turn in which it Advanced.
-
 ## Units
 
 ### Abaddon the Despoiler
 **Points:** 270 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 9 | **LD:** 5+ | **OC:** 4
-**Keywords:** Infantry, Character, Epic Hero, Terminator, Chaos Undivided, Chaos, Abaddon the Despoiler
+**Keywords:** Heretic Astartes, Infantry, Character, Epic Hero, Terminator, Chaos Undivided, Chaos, Abaddon the Despoiler
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -141,18 +15,25 @@ In your Movement phase, each time you set up or select a Heretic Astartes unit (
 
 **Abilities:**
 
-- **The Warmaster:** In your Command phase, select one Warmaster ability. Until the start of your next Command phase, this model has that ability.
-- **Dark Destiny:** Each time this model makes a Dark Pact and does not fail the resulting Leadership test, if the result of that test was 7+, you gain 1CP.
-- **Leader:** This model can be attached to the following units:
+#### The Warmaster (Abilities)
+- **Description:** In your Command phase, select one Warmaster ability. Until the start of your next Command phase, this model has that ability.
+
+#### Dark Destiny (Abilities)
+- **Description:** Each time this model makes a Dark Pact and does not fail the resulting Leadership test, if the result of that test was 7+, you gain 1CP.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ CHAOS TERMINATOR SQUAD
 ■ CHOSEN
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
 
 ---
 
 ### Accursed Cultists
 **Points:** 90 | **M:** 6" | **T:** 4 | **SV:** 6+ | **W:** 3 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Chaos, Accursed Cultists, Damned
+**Keywords:** Heretic Astartes, Infantry, Chaos, Accursed Cultists, Damned
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -162,197 +43,118 @@ In your Movement phase, each time you set up or select a Heretic Astartes unit (
 
 **Abilities:**
 
-- **Howling Horde:** Each time an enemy unit has shot, if one or more models from this unit were destroyed as a result of those attacks, this unit can make a Horde move. To do so, roll one D6; this unit can move a number of inches up to the result, but this unit must finish that move as close as possible to the nearest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Horde move while it is Battle-shocked.
+#### Howling Horde (Abilities)
+- **Description:** Each time an enemy unit has shot, if one or more models from this unit were destroyed as a result of those attacks, this unit can make a Horde move. To do so, roll one D6; this unit can move a number of inches up to the result, but this unit must finish that move as close as possible to the nearest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Horde move while it is Battle-shocked.
 
 ---
 
-### Be'lakor
-**Points:** 375 | **M:** 12" | **T:** 11 | **SV:** 3+ | **W:** 20 | **LD:** 6+ | **OC:** 5
-**Keywords:** Monster, Character, Fly, Epic Hero, Psyker, Chaos, Daemon, Be'lakor, Shadow Legion, Undivided
+### Accursed weapon and combi-bolter
+**Points:** 0 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 3 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+---
+
+### Accursed weapon and combi-weapon
+**Points:** 0 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 3 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+---
+
+### Aspiring Champion
+**Points:** 0 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 2
+**Keywords:** Chaos Space Marines
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Betraying Shades - witchfire | Ranged | 18" | 9 | 2+ | 5 | -2 | 1 | Devastating Wounds, Ignores Cover, Psychic |
-| ➤ Betraying Shades - focused witchfire | Ranged | 18" | 12 | 2+ | 6 | -3 | 1 | Devastating Wounds, Hazardous, Ignores Cover, Psychic |
-| ➤ The Blade of Shadows - sweep | Melee | Melee | 14 | 2+ | 8 | -3 | 1 | Sustained Hits 1 |
-| ➤ The Blade of Shadows - strike | Melee | Melee | 7 | 2+ | 14 | -4 | D6+1 | Devastating Wounds |
-
-**Abilities:**
-
-- **The Dark Master (Aura):** The area of the battlefield within 6" of this model is considered to be within your army’s Shadow of Chaos.
-- **Shadow Form:** At the start of the battle round, select one Shadow Form ability. Until the end of the battle round, this model has that ability.
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
+| Accursed weapon | Melee | Melee | 4 | 3+ | 5 | -2 | 1 | - |
+| Accursed weapon | Melee | Melee | 4 | 3+ | 5 | -2 | 1 | - |
 
 ---
 
-### Beasts of Nurgle
-**M:** 6" | **T:** 9 | **SV:** 6+ | **W:** 7 | **LD:** 7+ | **OC:** 3
-**Keywords:** Beast, Chaos, Daemon, Nurgle, Beasts of Nurgle, Nurgle non-Battleline, Shadow Legion
+### Aspiring Sorcerer
+**Points:** 0 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 2
+**Keywords:** Psyker
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Putrid appendages | Melee | Melee | 6 | 4+ | 6 | -1 | 2 | Devastating Wounds |
-
-**Abilities:**
-
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
-- **Grotesque Regeneration:** At the end of each phase, if a Beasts of Nurgle model in this unit has lost any wounds but is not destroyed, that model regains all of its lost wounds.
+| Force weapon | Melee | Melee | 3 | 3+ | 6 | -1 | D3 | Psychic |
+| Malefic Curse | Ranged | 24" | 3 | 3+ | 4 | -3 | 1 | Anti-INFANTRY 4+, Devastating Wounds, Psychic |
+| Inferno bolt pistol | Ranged | 12" | 1 | 3+ | 4 | -1 | 1 | Pistol |
+| Warpflame pistol | Ranged | 12" | D6 | N/A | 3 | -1 | 1 | Ignores Cover, Pistol, Torrent |
 
 ---
 
-### Bloodcrushers
-**Points:** 110 | **M:** 10" | **T:** 7 | **SV:** 3+ | **W:** 4 | **LD:** 7+ | **OC:** 2
-**Keywords:** Mounted, Chaos, Daemon, Khorne, Bloodcrushers, Khorne non-Battleline, Shadow Legion
-
-**Abilities:**
-
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
-- **Brass Stampede:** Each time this unit ends a Charge move, select one enemy unit within Engagement Range of this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers D3 mortal wounds.
+### Biker Champion
+**Points:** 0 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 2
+**Keywords:** Unit Champion
 
 ---
 
-### Bloodletters
-**Points:** 110 | **M:** 8" | **T:** 4 | **SV:** 7+ | **W:** 1 | **LD:** 7+ | **OC:** 2
-**Keywords:** Infantry, Battleline, Chaos, Daemon, Khorne, Bloodletters, Khorne Battleline, Shadow Legion
-
-**Abilities:**
-
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
-- **Bane of Cowards:** Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is also Battle-shocked, subtract 1 from each of those Desperate Escape tests.
-
----
-
-### Bloodmaster
-**Points:** 65 | **M:** 8" | **T:** 4 | **SV:** 5+ | **W:** 4 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Character, Chaos, Daemon, Khorne, Bloodmaster, Khorne non-Battleline, Shadow Legion
-
-**Abilities:**
-
-- **Leader:** This model can be attached to the following unit:
-■ BLOODLETTERS
-- **Invulnerable Save: Bloodmaster:** This model has a 4+ invulnerable save.
-- **Bloodmaster:** While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Wound roll.
-- **A Gory Path:** Each time this model’s unit Consolidates, it can move up to 6" instead of up to 3".
-
----
-
-### Bloodthirster
-**Points:** 305 | **M:** 12" | **T:** 11 | **SV:** 3+ | **W:** 18 | **LD:** 6+ | **OC:** 5
-**Keywords:** Monster, Character, Fly, Chaos, Daemon, Khorne, Bloodthirster, Khorne non-Battleline, Shadow Legion
+### Blessed Blades
+**Points:** 0 | **M:** 6" | **T:** 3 | **SV:** 6+ | **W:** 1 | **LD:** 7+ | **OC:** 1
+**Keywords:** Chaos Space Marines
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Hellfire breath | Ranged | 12" | D6 | N/A | 5 | -1 | 1 | Ignores Cover, Torrent |
-| ➤ Great axe of Khorne - strike | Melee | Melee | 7 | 2+ | 16 | -4 | D6+2 | - |
-| ➤ Great axe of Khorne - sweep | Melee | Melee | 14 | 2+ | 10 | -2 | 2 | - |
-| Bloodflail | Ranged | 12" | 1 | 2+ | 16 | -3 | D6+1 | Devastating Wounds |
-| Lash of Khorne | Ranged | 12" | 6 | 2+ | 8 | -1 | 2 | - |
-
-**Abilities:**
-
-- **Daemon Lord of Khorne (Aura):** While a friendly Khorne Legiones Daemonica unit is within 6" of this model, each time a model in that unit makes a melee attack, add 1 to the Hit roll.
-- **Relentless Carnage:** At the end of the Fight phase, you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound.
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
+| Commune blade | Melee | Melee | 2 | 4+ | 4 | -2 | 1 | - |
 
 ---
 
-### Blue Horrors
-**Points:** 125 | **M:** 6" | **T:** 3 | **SV:** 7+ | **W:** 1 | **LD:** 8+ | **OC:** 1
-**Keywords:** Infantry, Battleline, Chaos, Daemon, Tzeentch, Tzeentch Battleline, Shadow Legion
+### Blood Slaughterer [Legends]
+**Points:** 160 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 10 | **LD:** 6+ | **OC:** 3
+**Keywords:** Heretic Astartes, Heretic Astartes Vehicle, Vehicle, Walker, Chaos, Khorne, Daemon, Blood Slaughterer
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Coruscating Yellow flames (ref. only) | Ranged | 18" | 2 | 5+ | 2 | -1 | 1 | Pistol, Psychic |
-| Yellow claws (ref. only) | Melee | Melee | 2 | 5+ | 2 | 0 | 1 | - |
-| Coruscating Blue flames | Ranged | 18" | 2 | 4+ | 3 | -1 | 1 | Pistol, Psychic |
-| Blue claws | Melee | Melee | 1 | 5+ | 3 | 0 | 1 | - |
+| Impaler harpoon | Ranged | 12" | 1 | 3+ | 12 | -2 | 3 | Anti-MONSTER 2+, Anti-VEHICLE 2+, Impaled |
+| Slaughter blade | Melee | Melee | 5 | 3+ | 12 | -3 | 3 | - |
+| Twin slaughter blade | Melee | Melee | 5 | 3+ | 12 | -3 | 3 | Twin-linked |
 
 **Abilities:**
 
-- **Invulnerable Save:** Models in this unit have a 4+ invulnerable save.
-- **Split:** Each time a Blue Horror model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, add one Brimstone Horror model to this unit.
-- **Sullen Malevolence (Aura):** While an enemy unit is within 6" of this unit, if this unit contains one or more Blue Horror models, worsen the Leadership characteristic of models in that enemy unit by 1.
-- **Exploding Horrors:** Each time this unit is selected to fight, you can select one enemy unit within Engagement Range of it, then select one or more Brimstone Horror models in this unit. For each Brimstone Horror model you select, roll one D6: on a 4+, that model is destroyed and that enemy unit suffers 1 mortal wound.
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
+
+#### Scuttling Gait (Abilities)
+- **Description:** Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6" to the Move characteristic of models in this unit.
 
 ---
 
-### Burning Chariot
-**Points:** 115 | **M:** 12" | **T:** 8 | **SV:** 7+ | **W:** 9 | **LD:** 7+ | **OC:** 3
-**Keywords:** Mounted, Chaos, Daemon, Tzeentch, Burning Chariot, Fly, Tzeentch non-Battleline, Shadow Legion
+### Cerberus [Legends]
+**Points:** 270 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 18 | **LD:** 6+ | **OC:** 6
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Smoke, Cerberus
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Flamer mouths | Melee | Melee | 6 | 4+ | 5 | 0 | 1 | - |
-| Screamer bites | Melee | Melee | 6 | 3+ | 6 | -2 | 2 | Anti-MONSTER 4+, Anti-VEHICLE 4+, Extra Attacks |
+| Cerberus neutron pulse array | Ranged | 48" | 3 | 3+ | 16 | -4 | D6+3 | Twin-linked |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Eldritch Flames (Psychic):** In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover.
+#### Atomantic Arc-reactor (Abilities)
+- **Description:** Each time this unit shoots its Cerberus neutron pulse array in your Shooting phase, provided it Remained Stationary this turn, that weapon has the [LETHAL HITS] ability.
 
 ---
 
-### Changecaster
-**Points:** 60 | **M:** 6" | **T:** 3 | **SV:** 6+ | **W:** 3 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Character, Psyker, Chaos, Daemon, Tzeentch, Changecaster, Tzeentch non-Battleline, Shadow Legion
-
-**Abilities:**
-
-- **Changecaster:** While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.
-- **Storm of Mutating Sorcery (Psychic):** In your Shooting phase, after this model has shot, select one enemy Infantry unit hit by one or more of those attacks. That unit must take a Battle-shock test.
-- **Leader:** This model can be attached to the following units:
-■ PINK HORRORS
-■ BLUE HORRORS
-- **Invulnerable Save: Changecaster:** This model has a 4+ invulnerable save.
+### Chainfist and combi-bolter
+**Points:** 0 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 3 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
 
 ---
 
-### Chaos Acastus Knight Asterius
-**Points:** 765 | **M:** 8" | **T:** 13 | **SV:** 2+ | **W:** 30 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Chaos, Acastus, Knight Asterius
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Asterius volkite culverin | Ranged | 24" | 6 | 3+ | 6 | 0 | 2 | Devastating Wounds |
-| Karacnos mortar battery | Ranged | 48" | D6+3 | 3+ | 6 | -1 | 1 | Anti-INFANTRY 2+, Blast, Ignores Cover, Indirect Fire |
-| Twin conversion beam cannon | Ranged | 48" | 3 | 3+ | 16 | -2 | 6 | Conversion, Twin-linked, Sustained Hits D3 |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-- **Sunderer of Fortresses:** Each time this model makes an attack that targets a Vehicle, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a Fortification, improve the Strength and Damage characteristics of that attack by 2 instead).
-
----
-
-### Chaos Acastus Knight Porphyrion
-**Points:** 700 | **M:** 8" | **T:** 13 | **SV:** 2+ | **W:** 30 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Chaos, Acastus, Knight Porphyrion
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Twin magna lascannon | Ranged | 72" | D6 | 3+ | 18 | -4 | D6+6 | Blast, Twin-linked |
-| Acastus ironstorm missile pod | Ranged | 48" | D6+6 | 3+ | 5 | 0 | 1 | Blast, Heavy, Indirect Fire |
-| Helios defence missiles | Ranged | 48" | 3 | 3+ | 10 | -2 | D6 | Anti-FLY 2+, Heavy |
-| Acastus autocannon | Ranged | 48" | 2 | 3+ | 9 | -1 | 3 | - |
-| Lascannon | Ranged | 48" | 1 | 3+ | 12 | -3 | D6+1 | - |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-- **Bastion of Firepower:** Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability.
+### Chainfist and combi-weapon
+**Points:** 0 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 3 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
 
 ---
 
 ### Chaos Bikers
 **Points:** 70 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 2
-**Keywords:** Mounted, Grenades, Chaos, Chaos Bikers
+**Keywords:** Heretic Astartes, Mounted, Grenades, Chaos, Chaos Bikers
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -361,94 +163,34 @@ In your Movement phase, each time you set up or select a Heretic Astartes unit (
 
 **Abilities:**
 
-- **Rapid Assault:** Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength characteristic of that attack by 1.
+#### Rapid Assault (Abilities)
+- **Description:** Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength characteristic of that attack by 1.
 
 ---
 
-### Chaos Cerastus Knight Acheron
-**Points:** 385 | **M:** 12" | **T:** 11 | **SV:** 3+ | **W:** 28 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Character, Titanic, Towering, Cerastus, Knight Acheron, Knight Character
+### Chaos Deimos Predator [Legends]
+**Points:** 115 | **M:** 10" | **T:** 10 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 3
+**Keywords:** Heretic Astartes, Vehicle, Smoke, Chaos, Deimos Predator
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Acheron flame cannon | Ranged | 18" | 2D6 | N/A | 8 | -1 | 2 | Ignores Cover, Torrent |
-| ➤ Reaper chainfist - strike | Melee | Melee | 4 | 3+ | 14 | -4 | 6 | - |
-| ➤ Reaper chainfist - sweep | Melee | Melee | 12 | 3+ | 9 | -3 | 2 | - |
-| Twin heavy bolter | Ranged | 36" | 3 | 3+ | 5 | -1 | 2 | Sustained Hits 1, Twin-linked |
+| ➤ Plasma destroyer - standard | Ranged | 36" | D3 | 3+ | 8 | -2 | 2 | Blast |
+| ➤ Plasma destroyer - supercharge | Ranged | 36" | D3 | 3+ | 9 | -3 | 3 | Blast, Hazardous |
+| Conversion beam cannon | Ranged | 24" | 1 | 3+ | 7 | -1 | 3 | Conversion, Sustained Hits D3 |
+| Magna-melta cannon | Ranged | 18" | 2 | 3+ | 12 | -4 | D6 | Melta 4 |
+| Infernus cannon | Ranged | 12" | 2D6 | N/A | 6 | -1 | 1 | Ignores Cover, Torrent |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-- **Searing Flames:** In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.
-- **Unrestrained Terror (Aura):** While a friendly War Dog model is within 6" of this model, it is affected by this ability. At the start of the Fight phase, each enemy unit within Engagement Range of one or more War Dog units affected by this ability must take a Battle-shock test.
-
----
-
-### Chaos Cerastus Knight Atrapos
-**Points:** 395 | **M:** 12" | **T:** 11 | **SV:** 3+ | **W:** 28 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Character, Titanic, Towering, Chaos, Cerastus, Knight Atrapos, Knight Character
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Atrapos lascutter - low intensity | Melee | Melee | 12 | 3+ | 7 | -1 | 2 | Sustained Hits 1 |
-| ➤ Atrapos lascutter - low intensity | Ranged | 36" | 2D6 | 3+ | 7 | -1 | 2 | Sustained Hits 1 |
-| ➤ Atrapos lascutter - high intensity | Ranged | 24" | D6 | 3+ | 14 | -3 | 4 | Sustained Hits 1 |
-| ➤ Atrapos lascutter - high intensity | Melee | Melee | 6 | 3+ | 14 | -3 | 4 | Sustained Hits 1 |
-| ➤ Graviton singularity cannon - contained | Ranged | 24" | D3 | 3+ | 16 | -4 | D6+1 | Blast |
-| ➤ Graviton singularity cannon - singularity | Ranged | 24" | D3 | 3+ | 16 | -4 | D6+1 | Blast, Devastating Wounds, Hazardous |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 5+ invulnerable save.
-- **Macro-extinction Protocols:** Each time this model makes an attack that targets a Monster or Vehicle unit, add 1 to the Hit roll. If that target is Titanic or Towering, add 1 to the Wound roll as well.
-- **Consumed with Hunger (Aura):** While a friendly War Dog model is within 6" of this model, each time that War Dog model makes an attack that targets a Titanic or Towering unit, you can re-roll the Hit roll.
-
----
-
-### Chaos Cerastus Knight Castigator
-**Points:** 385 | **M:** 12" | **T:** 11 | **SV:** 3+ | **W:** 28 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Character, Titanic, Towering, Chaos, Cerastus, Knight Castigator, Knight Character
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Castigator bolt cannon | Ranged | 36" | 18 | 3+ | 6 | -2 | 2 | Twin-linked |
-| ➤ Tempest warblade - strike | Melee | Melee | 4 | 3+ | 14 | -4 | 6 | - |
-| ➤ Tempest warblade - sweep | Melee | Melee | 12 | 3+ | 9 | -3 | 2 | - |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-- **Storm of Bolts:** In your Shooting phase, after this model has shot, select one unit (excluding Monsters and Vehicles) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.
-- **Offerings for the Dark Gods (Aura):** While a friendly War Dog model is within 6" of this model, ranged weapons equipped by that War Dog model have the [SUSTAINED HITS 1] ability.
-
----
-
-### Chaos Cerastus Knight Lancer
-**Points:** 385 | **M:** 14" | **T:** 11 | **SV:** 3+ | **W:** 28 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Character, Titanic, Towering, Chaos, Cerastus, Knight Lancer, Knight Character
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Cerastus shock lance | Ranged | 12" | 6 | 3+ | 6 | 0 | 2 | Assault, Sustained Hits 2 |
-| ➤ Cerastus shock lance - strike | Melee | Melee | 5 | 2+ | 20 | -3 | 8 | Lance |
-| ➤ Cerastus shock lance - sweep | Melee | Melee | 10 | 2+ | 10 | -2 | 3 | - |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Shock Charge:** You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.
-- **Dark Fervour (Aura):** While a friendly War Dog model is within 6" of this model, ranged weapons equipped by that War Dog model have the [ASSAULT] ability.
+#### Armoured Spearhead (Abilities)
+- **Description:** Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.
 
 ---
 
 ### Chaos Land Raider
 **Points:** 220 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 16 | **LD:** 6+ | **OC:** 5
-**Keywords:** Vehicle, Transport, Smoke, Chaos, Land Raider
-**Transport:** This model has a transport capacity of 12 HERETIC ASTARTES INFANTRY (excluding OBLITERATOR and JUMP PACK models). Each POSSESSED and TERMINATOR model takes up the space of 2 models.
+**Keywords:** Heretic Astartes, Vehicle, Transport, Smoke, Chaos, Land Raider
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -458,13 +200,14 @@ In your Movement phase, each time you set up or select a Heretic Astartes unit (
 
 **Abilities:**
 
-- **Assault Ramp:** Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
+#### Assault Ramp (Abilities)
+- **Description:** Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
 
 ---
 
 ### Chaos Lord
 **Points:** 90 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Grenades, Chaos, Chaos Lord
+**Keywords:** Heretic Astartes, Infantry, Character, Grenades, Chaos, Chaos Lord
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -476,18 +219,23 @@ In your Movement phase, each time you set up or select a Heretic Astartes unit (
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Leader:** This model can be attached to the following units:
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ CHOSEN
 ■ LEGIONARIES
-- **Chance for Glory:** Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength, Attacks, Armour
+
+#### Chance for Glory (Abilities)
+- **Description:** Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength, Attacks, Armour
 Penetration and Damage characteristics of melee weapons equipped by this model by 1.
 
 ---
 
 ### Chaos Lord in Terminator Armour
 **Points:** 85 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 6 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Chaos, Terminator, Chaos Lord in Terminator Armour, Chaos Lord
+**Keywords:** Heretic Astartes, Infantry, Character, Chaos, Terminator, Chaos Lord in Terminator Armour, Chaos Lord
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -501,16 +249,180 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Leader:** This model can be attached to the following units:
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ CHAOS TERMINATOR SQUAD
-- **Formidably Resilient:** Each time an attack is allocated to this model, halve the Damage characteristic of that attack.
+
+#### Formidably Resilient (Abilities)
+- **Description:** Each time an attack is allocated to this model, halve the Damage characteristic of that attack.
+
+---
+
+### Chaos Lord on Bike [Legends]
+**Points:** 95 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 6 | **LD:** 6+ | **OC:** 2
+**Keywords:** Heretic Astartes, Mounted, Character, Grenades, Chaos, Chaos Lord on Bike
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Close combat weapon | Melee | Melee | 6 | 2+ | 4 | 0 | 1 | - |
+| Combi-bolter | Ranged | 24" | 2 | 2+ | 4 | 0 | 1 | Rapid Fire 2 |
+| Astartes chainsword | Melee | Melee | 7 | 2+ | 4 | -1 | 1 | - |
+| Accursed weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 1 | - |
+| Power fist | Melee | Melee | 5 | 2+ | 8 | -2 | 2 | - |
+| Paired accursed weapons | Melee | Melee | 7 | 2+ | 4 | -1 | 1 | Twin-linked |
+| Accursed weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 1 | - |
+| Power fist | Melee | Melee | 5 | 2+ | 8 | -2 | 2 | - |
+| Combi-bolter | Ranged | 24" | 2 | 2+ | 4 | 0 | 1 | Rapid Fire 2 |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following unit:
+■ CHAOS BIKERS
+
+#### Swift Assault (Abilities)
+- **Description:** While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability.
+
+---
+
+### Chaos Lord on Disc of Tzeentch [Legends]
+**Points:** 100 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 6 | **LD:** 6+ | **OC:** 1
+**Keywords:** Infantry, Character, Grenades, Heretic Astartes, Fly, Chaos, Tzeentch, Chaos Lord, Disc of Tzeentch
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Close combat weapon | Melee | Melee | 6 | 2+ | 4 | 0 | 1 | - |
+| Astartes chainsword | Melee | Melee | 7 | 2+ | 4 | -1 | 1 | - |
+| Accursed weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 1 | - |
+| Power fist | Melee | Melee | 5 | 2+ | 8 | -2 | 2 | - |
+| Paired accursed weapons | Melee | Melee | 7 | 2+ | 4 | -1 | 1 | Twin-linked |
+| Accursed weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 1 | - |
+| Power fist | Melee | Melee | 5 | 2+ | 8 | -2 | 2 | - |
+| Combi-bolter | Ranged | 24" | 2 | 2+ | 4 | 0 | 1 | Rapid Fire 2 |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following unit:
+■ CHOSEN
+■ LEGIONARIES
+■ RUBRIC MARINES
+
+#### Lord of Fate (Abilities)
+- **Description:** While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability against mortal wounds.
+
+---
+
+### Chaos Lord on Juggernaut [Legends]
+**Points:** 115 | **M:** 10" | **T:** 6 | **SV:** 2+ | **W:** 7 | **LD:** 6+ | **OC:** 2
+**Keywords:** Heretic Astartes, Mounted, Character, Grenades, Chaos, Khorne, Chaos Lord, Juggernaut
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Bladed horn | Melee | Melee | 4 | 4+ | 6 | -1 | 1 | Extra Attacks, Lance |
+| Close combat weapon | Melee | Melee | 6 | 2+ | 4 | 0 | 1 | - |
+| Astartes chainsword | Melee | Melee | 7 | 2+ | 4 | -1 | 1 | - |
+| Accursed weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 1 | - |
+| Power fist | Melee | Melee | 5 | 2+ | 8 | -2 | 2 | - |
+| Paired accursed weapons | Melee | Melee | 7 | 2+ | 4 | -1 | 1 | Twin-linked |
+| Accursed weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 1 | - |
+| Power fist | Melee | Melee | 5 | 2+ | 8 | -2 | 2 | - |
+| Combi-bolter | Ranged | 24" | 2 | 2+ | 4 | 0 | 1 | Rapid Fire 2 |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following unit:
+■ CHAOS BIKERS
+■ KHORNE BERSERKERS
+
+#### Bloody Stampede (Abilities)
+- **Description:** Each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.
+
+---
+
+### Chaos Lord on Palanquin of Nurgle [Legends]
+**Points:** 90 | **M:** 5" | **T:** 5 | **SV:** 3+ | **W:** 8 | **LD:** 6+ | **OC:** 2
+**Keywords:** Infantry, Character, Grenades, Chaos, Nurgle, Chaos Lord, Palanquin of Nurgle, Heretic Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Close combat weapon | Melee | Melee | 6 | 2+ | 4 | 0 | 1 | - |
+| Nurgling's claws and teeth | Melee | Melee | 4 | 5+ | 2 | 0 | 1 | Extra Attacks |
+| Astartes chainsword | Melee | Melee | 7 | 2+ | 4 | -1 | 1 | - |
+| Accursed weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 1 | - |
+| Power fist | Melee | Melee | 5 | 2+ | 8 | -2 | 2 | - |
+| Paired accursed weapons | Melee | Melee | 7 | 2+ | 4 | -1 | 1 | Twin-linked |
+| Accursed weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 1 | - |
+| Power fist | Melee | Melee | 5 | 2+ | 8 | -2 | 2 | - |
+| Combi-bolter | Ranged | 24" | 2 | 2+ | 4 | 0 | 1 | Rapid Fire 2 |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following unit:
+■ CHOSEN
+■ LEGIONARIES
+■ PLAGUE MARINES
+
+#### Revolting Regeneration (Abilities)
+- **Description:** At the start of your Command phase, this model regains up to D3 lost wounds.
+
+---
+
+### Chaos Lord on Steed of Slaanesh [Legends]
+**Points:** 100 | **M:** 14" | **T:** 5 | **SV:** 3+ | **W:** 6 | **LD:** 6+ | **OC:** 2
+**Keywords:** Heretic Astartes, Mounted, Character, Grenades, Chaos, Slaanesh, Chaos Lord, Steed of Slaanesh
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Close combat weapon | Melee | Melee | 6 | 2+ | 4 | 0 | 1 | - |
+| Lashing tongue | Melee | Melee | 3 | 4+ | 4 | 0 | 1 | Extra Attacks, Lethal Hits |
+| Astartes chainsword | Melee | Melee | 7 | 2+ | 4 | -1 | 1 | - |
+| Accursed weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 1 | - |
+| Power fist | Melee | Melee | 5 | 2+ | 8 | -2 | 2 | - |
+| Paired accursed weapons | Melee | Melee | 7 | 2+ | 4 | -1 | 1 | Twin-linked |
+| Accursed weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 1 | - |
+| Power fist | Melee | Melee | 5 | 2+ | 8 | -2 | 2 | - |
+| Combi-bolter | Ranged | 24" | 2 | 2+ | 4 | 0 | 1 | Rapid Fire 2 |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following unit:
+■ CHAOS BIKERS
+
+#### Cut Off Their Escape (Abilities)
+- **Description:** Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of this model’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests.
 
 ---
 
 ### Chaos Lord with Jump Pack
 **Points:** 80 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Chaos Lord, Jump Pack, Character, Infantry, Fly, Grenades, Chaos
+**Keywords:** Heretic Astartes, Chaos Lord, Jump Pack, Character, Infantry, Fly, Grenades, Chaos
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -521,16 +433,21 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Leader:** This model can be attached to the following units:
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ RAPTORS
-- **Cruel Hunter:** While this model is leading a unit, each time that unit Piles In or Consolidates, each model in that unit can move up to 6" instead of up to 3".
+
+#### Cruel Hunter (Abilities)
+- **Description:** While this model is leading a unit, each time that unit Piles In or Consolidates, each model in that unit can move up to 6" instead of up to 3".
 
 ---
 
 ### Chaos Predator Annihilator
 **Points:** 135 | **M:** 10" | **T:** 10 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Smoke, Chaos, Predator Annihilator
+**Keywords:** Heretic Astartes, Vehicle, Smoke, Chaos, Predator Annihilator
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -539,13 +456,14 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Annihilator:** Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, you can re-roll the Damage roll.
+#### Annihilator (Abilities)
+- **Description:** Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, you can re-roll the Damage roll.
 
 ---
 
 ### Chaos Predator Destructor
 **Points:** 140 | **M:** 10" | **T:** 10 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Smoke, Chaos, Predator Destructor
+**Keywords:** Heretic Astartes, Vehicle, Smoke, Chaos, Predator Destructor
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -554,65 +472,25 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Destructor:** Each time a ranged attack made by this model targets an enemy INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1.
-
----
-
-### Chaos Questoris Knight Magaera
-**Points:** 375 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Character, Titanic, Towering, Chaos, Abhorrent, Knight Magaera, Knight Character
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Lightning cannon | Ranged | 48" | 12 | 3+ | 9 | 0 | 2 | Sustained Hits 2 |
-| Phased plasma-fusil | Ranged | 24" | 2 | 3+ | 8 | -3 | 2 | Rapid Fire 2 |
-| Twin rad cleanser | Ranged | 12" | D6 | N/A | 2 | 0 | 1 | Anti-INFANTRY 2+, Ignores Cover, Torrent, Twin-linked |
-| ➤ Hekaton siege claw - strike | Melee | Melee | 4 | 3+ | 20 | -3 | 8 | - |
-| ➤ Hekaton siege claw - sweep | Melee | Melee | 8 | 3+ | 10 | -2 | 3 | - |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 5+ invulnerable save.
-- **Repair Auto-simulacra:** At the end of your Command phase, this model regains up to D3 lost wounds.
-
----
-
-### Chaos Questoris Knight Styrix
-**Points:** 375 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Character, Titanic, Towering, Chaos, Abhorrent, Knight Styrix, Knight Character
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Graviton crusher | Ranged | 18" | 3 | 3+ | 6 | -1 | 2 | Anti-VEHICLE 2+, Blast |
-| Volkite chierovile | Ranged | 30" | 12 | 3+ | 12 | 0 | 3 | Devastating Wounds |
-| Twin rad cleanser | Ranged | 12" | D6 | N/A | 2 | 0 | 1 | Anti-INFANTRY 2+, Ignores Cover, Torrent, Twin-linked |
-| ➤ Hekaton siege claw - strike | Melee | Melee | 4 | 3+ | 20 | -3 | 8 | - |
-| ➤ Hekaton siege claw - sweep | Melee | Melee | 8 | 3+ | 10 | -2 | 3 | - |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 5+ invulnerable save.
-- **Grav-pinned:** In your Shooting phase, after this model has shot, if an enemy Infantry unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Advance and Charge rolls made for that unit.
-- **Preysight (Aura):** While a friendly War Dog model is within 6" of this model, ranged weapons equipped by that War Dog model have the [IGNORES COVER] ability.
+#### Destructor (Abilities)
+- **Description:** Each time a ranged attack made by this model targets an enemy INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1.
 
 ---
 
 ### Chaos Rhino
 **Points:** 75 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 10 | **LD:** 6+ | **OC:** 2
-**Keywords:** Vehicle, Transport, Dedicated Transport, Chaos, Rhino, Smoke
-**Transport:** This model has a transport capacity of 12 HERETIC ASTARTES INFANTRY models. It cannot transport TERMINATOR, JUMP PACK, OBLITERATOR or POSSESSED models.
+**Keywords:** Heretic Astartes, Vehicle, Transport, Dedicated Transport, Chaos, Rhino, Smoke
 
 **Abilities:**
 
-- **Self-repair:** At the start of your Command phase, this model regains 1 lost wound.
+#### Self-repair (Abilities)
+- **Description:** At the start of your Command phase, this model regains 1 lost wound.
 
 ---
 
 ### Chaos Spawn
 **Points:** 70 | **M:** 8" | **T:** 5 | **SV:** 4+ | **W:** 4 | **LD:** 7+ | **OC:** 0
-**Keywords:** Beast, Chaos, Chaos Spawn
+**Keywords:** Heretic Astartes, Beast, Chaos, Chaos Spawn
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -621,13 +499,14 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Mind-breaking Mutations (Aura):** While an enemy unit (excluding VEHICLES) is within 3" of this unit, subtract 1 from the Objective Control characteristic of models in that enemy unit.
+#### Mind-breaking Mutations (Aura) (Abilities)
+- **Description:** While an enemy unit (excluding VEHICLES) is within 3" of this unit, subtract 1 from the Objective Control characteristic of models in that enemy unit.
 
 ---
 
 ### Chaos Terminator Squad
 **Points:** 180 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 3 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Chaos, Terminator, Chaos Terminator Squad
+**Keywords:** Heretic Astartes, Infantry, Chaos, Terminator, Chaos Terminator Squad
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -637,14 +516,41 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Despoilers:** Each time this unit makes a Dark Pact, until the end of the phase, each time a model in this unit makes an attack, you can re-roll the Hit roll.
-- **Invulnerable Save:** Models in this unit have a 4+ invulnerable save.
+#### Despoilers (Abilities)
+- **Description:** Each time this unit makes a Dark Pact, until the end of the phase, each time a model in this unit makes an attack, you can re-roll the Hit roll.
+
+#### Invulnerable Save (Abilities)
+- **Description:** Models in this unit have a 4+ invulnerable save.
+
+---
+
+### Chaos Thunderhawk [Legends]
+**Points:** 840 | **M:** 20"+ | **T:** 12 | **SV:** 2+ | **W:** 30 | **LD:** 6+ | **OC:** 0
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Titanic, Fly, Aircraft, Transport, Thunderhawk
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Hellstrike missile array | Ranged | 72" | 4 | 3+ | 8 | -2 | 3 | Anti-Fly 3+ |
+| Thunderhawk heavy cannon | Ranged | 48" | D6+6 | 3+ | 10 | -2 | 3 | Blast |
+| Turbo-laser destructor | Ranged | 96" | D3+1 | 3+ | 20 | -4 | D6+6 | Blast |
+
+**Abilities:**
+
+#### Damaged: 1-10 wounds remaining (Abilities)
+- **Description:** While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.
+
+#### Aerial Assault (Abilities)
+- **Description:** Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
+
+#### Thunderhawk cluster bombs (Abilities)
+- **Description:** Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound.
 
 ---
 
 ### Chaos Vindicator
 **Points:** 185 | **M:** 9" | **T:** 11 | **SV:** 2+ | **W:** 11 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Smoke, Chaos, Vindicator
+**Keywords:** Heretic Astartes, Vehicle, Smoke, Chaos, Vindicator
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -653,43 +559,49 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Siege Shield:** When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units.
+#### Siege Shield (Abilities)
+- **Description:** When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units.
 
 ---
 
 ### Chosen
 **Points:** 125 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Chaos, Chosen
+**Keywords:** Heretic Astartes, Infantry, Grenades, Chaos, Chosen
 
 **Abilities:**
 
-- **Chosen Marauders:** This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.
+#### Chosen Marauders (Abilities)
+- **Description:** This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.
 
 ---
 
-### Contorted Epitome
-**Points:** 100 | **M:** 9" | **T:** 6 | **SV:** 5+ | **W:** 8 | **LD:** 7+ | **OC:** 2
-**Keywords:** Infantry, Character, Psyker, Chaos, Slaanesh, Contorted Epitome, Slaanesh non-Battleline, Shadow Legion
+### Cult Demagogue
+**Points:** 0 | **M:** 6" | **T:** 3 | **SV:** 6+ | **W:** 4 | **LD:** 6+ | **OC:** 1
+**Keywords:** Character, Cult Demagogue
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Coiled tentacles | Melee | Melee | D6 | 4+ | 5 | -1 | 2 | Extra Attacks |
-| Ravaging claws | Melee | Melee | 8 | 2+ | 4 | -1 | 1 | Devastating Wounds |
+| Autopistol | Ranged | 12" | 1 | 4+ | 3 | 0 | 1 | Pistol |
+| Commune stave | Melee | Melee | 2 | 4+ | 3 | 0 | D3 | Devastating Wounds |
 
-**Abilities:**
+---
 
-- **Invulnerable Save: Contorted Epitome:** This model has a 4+ invulnerable save.
-- **Swallow Energy (Psychic):** While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks.
-- **Horrible Fascination (Psychic):** At the start of your opponent’s Shooting phase, one PSYKER model from your army with this ability can use it. If it does, select one enemy unit within 12" of and visible to that PSYKER model and roll one D6: on a 1, that PSYKER model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, that enemy unit is not eligible to shoot this phase.
-- **Leader:** This model can be attached to the following unit:
-■ DAEMONETTES
+### Cultist Champion
+**Points:** 0 | **M:** 6" | **T:** 3 | **SV:** 6+ | **W:** 1 | **LD:** 7+ | **OC:** 1
+**Keywords:** Unit Champion
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Bolt pistol | Ranged | 12" | 1 | 4+ | 4 | 0 | 1 | Pistol |
+| Autopistol | Ranged | 12" | 1 | 4+ | 3 | 0 | 1 | Pistol |
 
 ---
 
 ### Cultist Firebrand
 **Points:** 45 | **M:** 6" | **T:** 4 | **SV:** 4+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Chaos, Damned, Cultist Firebrand
+**Keywords:** Character, Heretic Astartes, Infantry, Grenades, Chaos, Damned, Cultist Firebrand
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -699,9 +611,14 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Fiery Faith:** While this model is leading a unit, you can re-roll Leadership tests taken for that unit.
-- **Cursed Flames:** In your Shooting phase, after this model has shot, select one enemy INFANTRY unit hit by one or more of those attacks. That unit must make a Battle-shock test.
-- **Leader:** This model can be attached to the following units:
+#### Fiery Faith (Abilities)
+- **Description:** While this model is leading a unit, you can re-roll Leadership tests taken for that unit.
+
+#### Cursed Flames (Abilities)
+- **Description:** In your Shooting phase, after this model has shot, select one enemy INFANTRY unit hit by one or more of those attacks. That unit must make a Battle-shock test.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ ACCURSED CULTISTS
 ■ CULTIST MOB
 
@@ -709,23 +626,47 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 ### Cultist Mob
 **Points:** 50 | **M:** 6" | **T:** 3 | **SV:** 6+ | **W:** 1 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Battleline, Grenades, Chaos, Cultist Mob, Damned
+**Keywords:** Heretic Astartes, Infantry, Battleline, Grenades, Chaos, Cultist Mob, Damned
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
 | Bolt pistol | Ranged | 12" | 1 | 4+ | 4 | 0 | 1 | Pistol |
 | Autopistol | Ranged | 12" | 1 | 4+ | 3 | 0 | 1 | Pistol |
+| Autopistol | Ranged | 12" | 1 | 4+ | 3 | 0 | 1 | Pistol |
 
 **Abilities:**
 
-- **For the Dark Gods:** At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.
+#### For the Dark Gods (Abilities)
+- **Description:** At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.
+
+---
+
+### Cultist Mob with Firearms [Legends]
+**Points:** 50 | **M:** 6" | **T:** 3 | **SV:** 6+ | **W:** 1 | **LD:** 7+ | **OC:** 1
+**Keywords:** Heretic Astartes, Infantry, Battleline, Grenades, Chaos, Damned, Cultist Mob with Firearms
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Bolt pistol | Ranged | 12" | 1 | 4+ | 4 | 0 | 1 | Pistol |
+| Autopistol | Ranged | 12" | 1 | 4+ | 3 | 0 | 1 | Pistol |
+| Autopistol | Ranged | 12" | 1 | 4+ | 3 | 0 | 1 | Pistol |
+| Flamer | Ranged | 12" | D6 | N/A | 4 | 0 | 1 | Ignores Cover, Torrent |
+| ➤ Cultist grenade launcher - frag | Ranged | 24" | D3 | 4+ | 4 | 0 | 1 | Blast |
+| ➤ Cultist grenade launcher - krak | Ranged | 24" | 1 | 4+ | 9 | -2 | D3 | - |
+| Heavy stubber | Ranged | 36" | 4 | 5+ | 4 | 0 | 1 | Heavy, Rapid Fire 3 |
+
+**Abilities:**
+
+#### For the Dark Gods (Abilities)
+- **Description:** At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.
 
 ---
 
 ### Cypher
 **Points:** 90 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Epic Hero, Chaos, Cypher, Fallen
+**Keywords:** Heretic Astartes, Infantry, Character, Epic Hero, Chaos, Cypher, Fallen
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -737,95 +678,20 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Agent of Discord (Aura):** Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12" of this model, increase the cost of that use of that Stratagem by 1CP (this is not cumulative with any other rules that would increase the CP cost of that Stratagem).
-- **Guns Blazing:** Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attacks that targets a friendly HERETIC ASTARTES unit within 3" of this model, after that enemy unit has shot, this model can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so and can only do so if that enemy unit is an eligible target.
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
 
----
+#### Agent of Discord (Aura) (Abilities)
+- **Description:** Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12" of this model, increase the cost of that use of that Stratagem by 1CP (this is not cumulative with any other rules that would increase the CP cost of that Stratagem).
 
-### Daemon Prince of Chaos
-**Points:** 190 | **M:** 8" | **T:** 10 | **SV:** 2+ | **W:** 10 | **LD:** 6+ | **OC:** 3
-**Keywords:** Monster, Character, Chaos, Daemon, Daemon Prince of Chaos
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Hellforged weapons - strike | Melee | Melee | 6 | 2+ | 8 | -2 | 3 | - |
-| ➤ Hellforged weapons - sweep | Melee | Melee | 14 | 2+ | 6 | 0 | 1 | - |
-| Infernal cannon | Ranged | 24" | 3 | 2+ | 5 | -1 | 2 | - |
-
-**Abilities:**
-
-- **Prince of Darkness (Aura):** While a friendly LEGIONES DAEMONICA unit is within 6" of this model, models in that unit have the Stealth ability.
-- **Unholy Vigour:** Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 3+ invulnerable save.
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Daemonic Lord:** While this model is within 3" of one or more friendly Legiones Daemonica Infantry units, this model has the Lone Operative ability.
-
----
-
-### Daemon Prince of Chaos with wings
-**Points:** 180 | **M:** 12" | **T:** 9 | **SV:** 2+ | **W:** 10 | **LD:** 6+ | **OC:** 3
-**Keywords:** Monster, Character, Chaos, Daemon, Daemon Prince of Chaos with wings, Fly
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Hellforged weapons - strike | Melee | Melee | 6 | 2+ | 8 | -2 | 3 | - |
-| ➤ Hellforged weapons - sweep | Melee | Melee | 14 | 2+ | 6 | 0 | 1 | - |
-| Infernal cannon | Ranged | 24" | 3 | 2+ | 5 | -1 | 2 | - |
-
-**Abilities:**
-
-- **Malefic Destruction:** Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of this model’s hellforged weapons.
-- **Harbinger of Death:** Each time this model is selected to fight, select one of the following abilities. Until the end of the phase, this model’s hellforged weapons have that ability:
-■ [LETHAL HITS]
-■ [PRECISION]
-■ [SUSTAINED HITS 1]
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-
----
-
-### Daemonettes
-**Points:** 100 | **M:** 9" | **T:** 3 | **SV:** 7+ | **W:** 1 | **LD:** 7+ | **OC:** 2
-**Keywords:** Infantry, Battleline, Chaos, Daemon, Slaanesh, Daemonettes, Slaanesh Battleline, Shadow Legion
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Slashing claws | Melee | Melee | 3 | 3+ | 4 | -1 | 1 | Devastating Wounds |
-
-**Abilities:**
-
-- **Horrifying Beauty :** At the start of the Fight phase, each enemy unit within Engagement Range of one of more units from your army with this ability must take a Battle-shock test, subtracting 1 from the result if that enemy unit is Below Half-strength.
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
-
----
-
-### Daemonic Charioteer [Crucible]
-**Points:** 120 | **M:** 6" | **T:** 7 | **SV:** 6+ | **W:** 8 | **LD:** 7+ | **OC:** 3
-**Keywords:** Character, Chaos, Daemon, Crucible, Mounted, Daemonic Charioteer
-
-**Abilities:**
-
-- **Malefic Impact:** Melee weapons equipped by models in this unit have the [Lance] ability.
-- **Leader:** This model can be attached to the following unit: Mounted Daemon units which share one of the following keywords with this model Khorne, Nurgle, Slaanesh, Tzeentch
-
----
-
-### Daemonic Herald [Crucible]
-**Points:** 60 | **M:** 6" | **T:** 3 | **SV:** 7+ | **W:** 3 | **LD:** 7+ | **OC:** 1
-**Keywords:** Character, Infantry, Chaos, Daemon, Summoned, Daemonic Herald, Crucible
-
-**Abilities:**
-
-- **Daemonic Locus:** While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model, or D3 destroyed models with the Battleline keyword, to that unit.
-- **Leader:** This model can be attached to the following unit: Infantry Daemon units (excluding Possessed units) which share one of the following keywords with this model Khorne, Nurgle, Slaanesh, Tzeentch
+#### Guns Blazing (Abilities)
+- **Description:** Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attacks that targets a friendly HERETIC ASTARTES unit within 3" of this model, after that enemy unit has shot, this model can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so and can only do so if that enemy unit is an eligible target.
 
 ---
 
 ### Dark Apostle
 **Points:** 65 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 5+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Chaos
+**Keywords:** Character, Heretic Astartes, Infantry, Grenades, Chaos
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -835,21 +701,30 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Leader:** This model can be attached to the following units:
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ ACCURSED CULTISTS
 ■ CHOSEN
 ■ CULTIST MOB
 ■ LEGIONARIES
-- **Dark Zealotry:** While this unit is leading a unit and contains a DARK APOSTLE model, each time a model in that unit makes a melee attack, add 1 to the Wound roll.
-- **Demagogue:** Once per battle, at the start of any phase, you can select one friendly HERETIC ASTARTES unit that is Battle-shocked and within 12" of this unit’s DARK APOSTLE model. That unit is no longer Battle-shocked.
-- **Malign Sacrifice:** At the start of the Fight phase, if this unit contains one or more Dark Disciple models, you can select one of those models and one enemy unit within Engagement Range of this unit, then roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that enemy unit suffers D3 mortal wounds. That Dark Disciple model is then destroyed.
-- **Invulnerable Save:** Models in this unit have a 4+ invulnerable save.
+
+#### Dark Zealotry (Abilities)
+- **Description:** While this unit is leading a unit and contains a DARK APOSTLE model, each time a model in that unit makes a melee attack, add 1 to the Wound roll.
+
+#### Demagogue (Abilities)
+- **Description:** Once per battle, at the start of any phase, you can select one friendly HERETIC ASTARTES unit that is Battle-shocked and within 12" of this unit’s DARK APOSTLE model. That unit is no longer Battle-shocked.
+
+#### Malign Sacrifice (Abilities)
+- **Description:** At the start of the Fight phase, if this unit contains one or more Dark Disciple models, you can select one of those models and one enemy unit within Engagement Range of this unit, then roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that enemy unit suffers D3 mortal wounds. That Dark Disciple model is then destroyed.
+
+#### Invulnerable Save (Abilities)
+- **Description:** Models in this unit have a 4+ invulnerable save.
 
 ---
 
 ### Dark Commune
 **Points:** 90 | **M:** 6" | **T:** 3 | **SV:** 6+ | **W:** 1 | **LD:** 7+ | **OC:** 1
-**Keywords:** Character, Damned, Infantry, Grenades, Dark Commune, Chaos
+**Keywords:** Character, Damned, Heretic Astartes, Infantry, Grenades, Dark Commune, Chaos
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -857,88 +732,180 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 | Commune blade | Melee | Melee | 2 | 4+ | 4 | -2 | 1 | - |
 | Autopistol | Ranged | 12" | 1 | 4+ | 3 | 0 | 1 | Pistol |
 | Close combat weapon | Melee | Melee | 1 | 4+ | 3 | 0 | 1 | - |
+| Close combat weapon | Melee | Melee | 1 | 4+ | 3 | 0 | 1 | - |
 | ➤ Warp Curse - witchfire | Ranged | 18" | 3 | 3+ | 4 | -1 | 2 | Psychic |
 | ➤ Warp Curse - focused witchfire | Ranged | 18" | 3 | 3+ | 5 | -1 | 2 | Hazardous, Psychic, Sustained Hits 2 |
+| Autopistol | Ranged | 12" | 1 | 4+ | 3 | 0 | 1 | Pistol |
 | Commune stave | Melee | Melee | 2 | 4+ | 3 | 0 | D3 | Devastating Wounds |
 
 **Abilities:**
 
-- **Leader:** This model can be attached to the following units:
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ ACCURSED CULTISTS
 ■ CULTIST MOB
-- **Faithful Flock:** While this unit is leading a unit and contains a CULT DEMAGOGUE model, models in that unit have a 5+ invulnerable save.
-- **Dark Ritual:** Once per battle, in your Command phase, if this unit contains a CULT DEMAGOGUE model, it can use this ability. If it does, until the end of the turn, this unit can declare a charge in a turn in which it Advanced and each time a model in this unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll.
+
+#### Faithful Flock (Abilities)
+- **Description:** While this unit is leading a unit and contains a CULT DEMAGOGUE model, models in that unit have a 5+ invulnerable save.
+
+#### Dark Ritual (Abilities)
+- **Description:** Once per battle, in your Command phase, if this unit contains a CULT DEMAGOGUE model, it can use this ability. If it does, until the end of the turn, this unit can declare a charge in a turn in which it Advanced and each time a model in this unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll.
+
+---
+
+### Dark Disciple
+**Points:** 0 | **M:** 6" | **T:** 4 | **SV:** 6+ | **W:** 1 | **LD:** 7+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Close combat weapon | Melee | Melee | 1 | 4+ | 3 | 0 | 1 | - |
+
+---
+
+### Decimator [Legends]
+**Points:** 165 | **M:** 10" | **T:** 10 | **SV:** 3+ | **W:** 12 | **LD:** 6+ | **OC:** 4
+**Keywords:** Heretic Astartes, Heretic Astartes Vehicle, Vehicle, Walker, Chaos, Daemon, Decimator
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Decimator butcher cannon | Ranged | 36" | 4 | 3+ | 9 | -1 | 2 | - |
+| Decimator conversion beamer | Ranged | 24" | 1 | 3+ | 7 | -1 | 3 | Conversion, Sustained Hits D3 |
+| Soulburner petard | Ranged | 24" | 4 | 3+ | 2 | 0 | 1 | Anti-INFANTRY 3+, Devastating Wounds, Hazardous |
+| Storm laser | Ranged | 36" | 8 | 3+ | 6 | -1 | 1 | Sustained Hits 1 |
+| Decimator claw | Melee | Melee | 5 | 3+ | 14 | -3 | 3 | - |
+| Twin decimator claw | Melee | Melee | 5 | 3+ | 14 | -3 | 3 | Twin-linked |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
+
+#### Infernal Regeneration (Abilities)
+- **Description:** The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining.
 
 ---
 
 ### Defiler
-**Points:** 190 | **M:** 8" | **T:** 10 | **SV:** 3+ | **W:** 14 | **LD:** 6+ | **OC:** 5
-**Keywords:** Vehicle, Walker, Smoke, Chaos, Daemon, Defiler
+**Points:** 250 | **M:** 12" | **T:** 11 | **SV:** 3+ | **W:** 18 | **LD:** 6+ | **OC:** 5
+**Keywords:** Vehicle, Walker, Chaos, Daemon, Heretic Astartes, Defiler
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Defiler cannon | Ranged | 48" | D6+3 | 3+ | 10 | -1 | 3 | Blast |
-| Defiler claws | Melee | Melee | 5 | 3+ | 16 | -3 | D6+1 | - |
-| Reaper autocannon | Ranged | 48" | 4 | 3+ | 7 | -1 | 1 | Devastating Wounds, Sustained Hits 1 |
-| Twin heavy flamer | Ranged | 12" | D6 | N/A | 5 | -1 | 1 | Ignores Cover, Torrent, Twin-linked |
-| Defiler scourge | Melee | Melee | 3 | 3+ | 12 | -1 | 2 | Extra Attacks |
+| Shearing claws - strike | Melee | Melee | 5 | 3+ | 16 | -3 | D6+1 | - |
+| Shearing claws - sweep | Melee | Melee | 10 | 3+ | 6 | -2 | 1 | - |
+| ➤ Heavy missile launcher - frag | Ranged | 48" | 2D6 | 3+ | 5 | -1 | 1 | Blast |
+| ➤ Heavy missile launcher - krak | Ranged | 48" | 2 | 3+ | 10 | -2 | D6+1 | - |
+| Hades battle cannon | Ranged | 48" | D6+3 | 3+ | 10 | -1 | 3 | Blast |
+| Ectoplasma destructor | Ranged | 36" | D6 | 3+ | 12 | -3 | 3 | Blast |
+| Heavy baleflamer | Ranged | 12" | D6+3 | N/A | 7 | -2 | 2 | Ignores Cover, Torrent |
+| Excruciator cannon | Ranged | 36" | 6 | 3+ | 6 | -1 | 2 | - |
+| Magma cutter | Ranged | 12" | 2 | 3+ | 9 | -4 | D6 | Melta 2 |
 
 **Abilities:**
 
-- **Scuttling Walker:** Each time this model makes a Normal, Advance or Fall Back move, it can be moved over friendly MONSTER and VEHICLE models as if they were not there. This model can move over terrain features that are 4" or less in height as if they were not there.
-- **Invulnerable Save:** This model has a 5+ invulnerable save.
-- **Daemonforge:** Once per Fight phase, one unit from your army with this ability can be targeted with the Counter-Offensive Stratagem for 0CP, even if you have already targeted a different unit with that Stratagem this phase.
+#### Scuttling Walker (Abilities)
+- **Description:** Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding **Titanic** models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.
+
+#### Daemonforge (Abilities)
+- **Description:** Each time this unit makes a Dark Pact, until the end of the phase, each time this model makes an attack, re-roll a Wound roll of 1. In addition, once per battle, when this unit makes a Dark Pact, before making the resulting Leadership test, you can declare it will overcharge its daemonforge. If it does: 
+- If the resulting Leadership test is failed, this model suffers 3 mortal wounds instead of D3 mortal wounds.
+- Until the end of the phase, each time this model makes an attack, you can re-roll the Wound roll.
 
 ---
 
-### Epidemius
-**Points:** 80 | **M:** 5" | **T:** 5 | **SV:** 6+ | **W:** 8 | **LD:** 7+ | **OC:** 2
-**Keywords:** Infantry, Character, Epic Hero, Chaos, Daemon, Nurgle, Epidemius, Nurgle non-Battleline
+### Deredeo Dreadnought [Legends]
+**Points:** 160 | **M:** 6" | **T:** 9 | **SV:** 2+ | **W:** 12 | **LD:** 6+ | **OC:** 3
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Walker, Smoke, Dreadnought, Deredeo Dreadnought
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Balesword and nurgling attendants | Melee | Melee | D6+3 | 3+ | 5 | -2 | 2 | Lethal Hits |
+| Aiolos missile launcher | Ranged | 48" | D6+3 | 3+ | 5 | 0 | 1 | Blast |
+| Boreas air defence missiles | Ranged | 48" | 1 | 3+ | 12 | -3 | D6+1 | Anti-FLY 2+ |
+| Anvilus autocannon battery | Ranged | 48" | 4 | 3+ | 9 | -1 | 3 | Twin-linked |
+| Arachnus heavy lascannon battery | Ranged | 48" | 2 | 3+ | 12 | -3 | D6+1 | - |
+| Volkite falconet battery | Ranged | 30" | 6 | 3+ | 9 | 0 | 2 | Devastating Wounds |
+| ➤ Hellfire plasma carronade - standard | Ranged | 36" | 6 | 3+ | 7 | -2 | 2 | - |
+| ➤ Hellfire plasma carronade - supercharge | Ranged | 36" | 6 | 3+ | 8 | -3 | 3 | Hazardous |
 
 **Abilities:**
 
-- **Invulnerable Save: Epidemius:** This model has a 5+ invulnerable save.
-- **Leader:** This model can be attached to the following unit:
-■ PLAGUEBEARERS
-- **Blessed by the Plague God:** While this model is leading a unit, models in that unit have a 4+ invulnerable save.
-- **Tally of Pestilence:** Keep a tally of how many enemy models are destroyed by NURGLE LEGIONES DAEMONICA models from your army during the battle. At the start of your Command phase, if this tally is 7 or more, you gain 1CP and the tally is reset to 0.
+#### Deredeo Strike (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll.
+
+#### Invunerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
+
+---
+
+### Disharmonist
+**Points:** 0 | **M:** 6" | **T:** 5 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Power sword | Melee | Melee | 4 | 3+ | 5 | -2 | 1 | - |
+| Screamer pistol | Ranged | 12" | 3 | 3+ | 5 | -1 | 2 | Ignores Cover, Pistol |
+
+---
+
+### Dreadclaw Drop Pod [Legends]
+**Points:** 115 | **M:** 12" | **T:** 7 | **SV:** 3+ | **W:** 9 | **LD:** 6+ | **OC:** 2
+**Keywords:** Heretic Astartes, Heretic Astartes Vehicle, Vehicle, Chaos, Transport, Fly, Dreadclaw Drop Pod
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Blade struts | Melee | Melee | 8 | 4+ | 6 | -2 | 1 | - |
+
+**Abilities:**
+
+#### Dreadclaw Assault (Abilities)
+- **Description:** This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9" away from all enemy models.
 
 ---
 
 ### Exalted Champion [Crucible]
 **Points:** 90 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Chaos, Exalted Champion
+**Keywords:** Character, Infantry, Grenades, Chaos, Exalted Champion, Heretic Astartes
 
 **Abilities:**
 
-- **Leader:** This model can be attached to the following units: Chosen, Havocs, Legionaries, Nemesis Claw, Raiders
-- **Marked by the Dark Gods:** Each time this model makes an attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units: **Chosen, Havocs, Legionaries, Nemesis Claw, Raiders**
+
+#### Marked by the Dark Gods (Abilities)
+- **Description:** Each time this model makes an attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.
 
 ---
 
-### Exalted Flamer
-**Points:** 65 | **M:** 9" | **T:** 4 | **SV:** 7+ | **W:** 6 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Character, Fly, Chaos, Daemon, Tzeentch, Exalted Flamer, Tzeentch non-Battleline, Shadow Legion
+### Exalted Champion [Legends]
+**Points:** 70 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
+**Keywords:** Heretic Astartes, Infantry, Character, Grenades, Chaos, Exalted Champion
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Flamer mouths | Melee | Melee | 4 | 4+ | 5 | 0 | 1 | - |
+| Exalted weapon | Melee | Melee | 5 | 2+ | 5 | -2 | 2 | - |
 
 **Abilities:**
 
-- **Leader:** This model can be attached to the following unit:
-■ FLAMERS
-- **Blazing Warpfire (Psychic):** While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability.
-- **Flames of Change (Psychic):** In your Shooting phase, after this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks, and roll one D6. On a 4+, until the end of your opponent’s next turn, that enemy unit is aflame. While a unit is aflame, subtract 2" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it.
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Manifestation of Destruction:** This model cannot be your Warlord and cannot be given Enhancements.
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+■ CHOSEN
+■ LEGIONARIES
+You can attach this model to one of the above units even if one other CHARACTER model has already been attached to it (a unit cannot have two EXALTED CHAMPIONS attached to it). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
+
+#### Dark Champion (Abilities)
+- **Description:** While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll.
+
+#### Aspire to Glory (Abilities)
+- **Description:** Each time this model’s unit makes a Dark Pact, until the end of the phase, add D3 to the Strength characteristic of weapons equipped by this model.
 
 ---
 
@@ -956,50 +923,66 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Enhanced Warriors:** If this unit is attached to a unit at the start of the battle, until the end of the battle, add 1 to the Strength characteristic of melee weapons equipped by Bodyguard models in that unit and add 1 to the Toughness characteristic of Bodyguard models in that unit.
-- **Leader:** This model can be attached to the following units:
+#### Enhanced Warriors (Abilities)
+- **Description:** If this unit is attached to a unit at the start of the battle, until the end of the battle, add 1 to the Strength characteristic of melee weapons equipped by Bodyguard models in that unit and add 1 to the Toughness characteristic of Bodyguard models in that unit.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ ACCURSED CULTISTS
 ■ CHOSEN
 ■ CULTIST MOB
 ■ LEGIONARIES
-- **Surgeon Acolyte:** Once per turn, when an attack is allocated to a model in this unit, if this unit contains Fabius Bile, you can change the Damage characteristic of that attack to 0.
-- **Chirurgeon:** The first time this unit’s Fabius Bile model is destroyed, at the end of the phase, roll one D6: on a 2+, set it back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with its full wounds remaining. If that model was attached to a unit when it was destroyed, it must be set up attached to that unit.
+
+#### Surgeon Acolyte (Abilities)
+- **Description:** Once per turn, when an attack is allocated to a model in this unit, if this unit contains **Fabius Bile**, you can change the Damage characteristic of that attack to 0.
+
+#### Chirurgeon (Abilities)
+- **Description:** The first time this unit’s **Fabius Bile** model is destroyed, at the end of the phase, roll one D6: on a 2+, set it back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with its full wounds remaining. If that model was attached to a unit when it was destroyed, it must be set up attached to that unit.
 
 ---
 
-### Fateskimmer
-**Points:** 95 | **M:** 12" | **T:** 7 | **SV:** 6+ | **W:** 9 | **LD:** 7+ | **OC:** 3
-**Keywords:** Mounted, Character, Fly, Psyker, Chaos, Daemon, Tzeentch, Fateskimmer, Tzeentch non-Battleline, Shadow Legion
+### Falchion [Legends]
+**Points:** 420 | **M:** 9" | **T:** 13 | **SV:** 2+ | **W:** 24 | **LD:** 6+ | **OC:** 8
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Titanic, Smoke, Falchion
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Screamer bites | Melee | Melee | 6 | 3+ | 6 | -2 | 2 | Anti-MONSTER 4+, Anti-VEHICLE 4+, Extra Attacks |
+| Twin Falchion volcano cannon | Ranged | 120" | D3+1 | 3+ | 24 | -5 | 12 | Blast, Twin-linked |
+| Quad lascannon | Ranged | 48" | 4 | 3+ | 12 | -3 | D6+1 | - |
+| Laser destroyer | Ranged | 36" | 3 | 3+ | 14 | -4 | D6+1 | Heavy |
 
 **Abilities:**
 
-- **Leader:** This model can be attached to the following unit:
-■ SCREAMERS
-- **Fateskimmer:** While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability.
-- **Rider of the Immaterial Winds:** Once per battle, at the end of your opponent’s turn, if this model’s unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves.
-- **Invulnerable Save: Fateskimmer:** This model has a 4+ invulnerable save.
+#### Titan-killer (Abilities)
+- **Description:** Each time this model makes a ranged attack with its twin Falchion volcano cannon that targets a MONSTER or VEHICLE unit, that attack has the [DEVASTATING WOUNDS] ability.
 
 ---
 
-### Feculent Gnarlmaw
-**Points:** 100 | **M:** - | **T:** 9 | **SV:** 4+ | **W:** 9 | **LD:** 7+ | **OC:** 0
-**Keywords:** Fortification, Chaos, Daemon, Nurgle, Feculent Gnarlmaw, Nurgle non-Battleline, Shadow Legion
+### Fellblade [Legends]
+**Points:** 480 | **M:** 9" | **T:** 13 | **SV:** 2+ | **W:** 24 | **LD:** 6+ | **OC:** 8
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Titanic, Smoke, Fellblade
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Demolisher cannon | Ranged | 24" | D6+3 | 3+ | 14 | -3 | D6 | Blast |
+| ➤ Fellblade accelerator cannon - AP shells | Ranged | 72" | 2 | 3+ | 14 | -3 | 6 | - |
+| ➤ Fellblade accelerator cannon - HE shells | Ranged | 72" | 2D6 | 3+ | 8 | -1 | 2 | Blast |
+| Quad lascannon | Ranged | 48" | 4 | 3+ | 12 | -3 | D6+1 | - |
+| Laser destroyer | Ranged | 36" | 3 | 3+ | 14 | -4 | D6+1 | Heavy |
+| Quad heavy bolter | Ranged | 36" | 6 | 3+ | 5 | -1 | 2 | Sustained Hits 1, Twin-linked |
 
 **Abilities:**
 
-- **Shroud of Flies (Aura):** While a friendly NURGLE LEGIONES DAEMONICA unit is within 6" of this Fortification, models in that unit have the Stealth ability.
-- **Diseased Cover:** Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.
+#### Rolling Fortress (Abilities)
+- **Description:** Each time a ranged attack is allocated to a model from your army, if that model is not fully visible to every model in the attacking unit because of this Fellblade model, that model has the Benefit of Cover against that attack.
 
 ---
 
 ### Fellgor Beastmen
 **Points:** 70 | **M:** 6" | **T:** 4 | **SV:** 5+ | **W:** 1 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Chaos, Fellgor Beastmen, Damned
+**Keywords:** Heretic Astartes, Infantry, Grenades, Chaos, Fellgor Beastmen, Damned
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1011,82 +994,39 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 | Autopistol | Ranged | 12" | 1 | 4+ | 3 | 0 | 1 | Pistol |
 | Close combat weapon | Melee | Melee | 2 | 4+ | 4 | 0 | 1 | - |
 | Great weapon | Melee | Melee | 2 | 5+ | 8 | -1 | 2 | - |
+| Autopistol | Ranged | 12" | 1 | 4+ | 3 | 0 | 1 | Pistol |
 | Corrupted stave | Melee | Melee | 2 | 4+ | 4 | -1 | D3 | Devastating Wounds, Psychic |
 | Corrupted stave | Ranged | 18" | D3 | 4+ | 5 | -1 | 1 | Devastating Wounds, Psychic |
+| Autopistol | Ranged | 12" | 1 | 4+ | 3 | 0 | 1 | Pistol |
 
 **Abilities:**
 
-- **Bestial Raiders:** If this unit begins the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. If this unit is in Strategic Reserves, for the purposes of setting it up on the battlefield, treat the current battle round number as being one higher than it actually is.
+#### Bestial Raiders (Abilities)
+- **Description:** If this unit begins the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. If this unit is in Strategic Reserves, for the purposes of setting it up on the battlefield, treat the current battle round number as being one higher than it actually is.
 
 ---
 
-### Fiends
-**Points:** 95 | **M:** 12" | **T:** 5 | **SV:** 7+ | **W:** 4 | **LD:** 7+ | **OC:** 2
-**Keywords:** Beast, Chaos, Daemon, Slaanesh, Fiends, Slaanesh non-Battleline, Shadow Legion
+### Fire Raptor Gunship [Legends]
+**Points:** 290 | **M:** 20+" | **T:** 10 | **SV:** 3+ | **W:** 18 | **LD:** 6+ | **OC:** 0
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Fly, Aircraft, Fire Raptor Gunship
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Barbed tail and dissecting claws | Melee | Melee | 5 | 3+ | 5 | -2 | 2 | Devastating Wounds |
+| Twin avenger bolt cannon | Ranged | 36" | 10 | 3+ | 6 | -1 | 2 | Twin-linked |
+| Quad heavy bolter | Ranged | 36" | 6 | 3+ | 5 | -1 | 2 | Twin-linked, Sustained Hits 1 |
+| Twin hellstrike launcher | Ranged | 72" | 2 | 3+ | 10 | -3 | D6 | Anti-Fly 2+, Twin-linked |
 
 **Abilities:**
 
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
-- **Soporific Musk:** Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is also Battle-shocked, subtract 1 from each of those Desperate Escape tests.
-
----
-
-### Flamers
-**Points:** 65 | **M:** 9" | **T:** 4 | **SV:** 7+ | **W:** 3 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Fly, Chaos, Daemon, Tzeentch, Flamers, Tzeentch non-Battleline, Shadow Legion
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Flickering Flames | Ranged | 12" | D6 | N/A | 4 | -1 | 1 | Ignores Cover, Psychic, Torrent |
-| Flamer mouths | Melee | Melee | 3 | 4+ | 4 | 0 | 1 | - |
-
-**Abilities:**
-
-- **Invulnerable Save:** Models in this unit have a 4+ invulnerable save.
-- **Bounding Leaps:** This unit is eligible to shoot in a turn in which it Fell Back.
-
----
-
-### Flesh Hounds
-**Points:** 75 | **M:** 12" | **T:** 4 | **SV:** 7+ | **W:** 2 | **LD:** 7+ | **OC:** 1
-**Keywords:** Beast, Chaos, Daemon, Khorne, Flesh Hounds, Khorne non-Battleline, Shadow Legion
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Burning roar | Ranged | 12" | D6 | N/A | 4 | 0 | 1 | Ignores Cover, Torrent |
-
-**Abilities:**
-
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
-- **Hunters from the Warp:** At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.
-
----
-
-### Fluxmaster
-**Points:** 60 | **M:** 12" | **T:** 4 | **SV:** 6+ | **W:** 4 | **LD:** 7+ | **OC:** 1
-**Keywords:** Mounted, Character, Fly, Psyker, Chaos, Daemon, Tzeentch, Fluxmaster, Tzeentch non-Battleline, Shadow Legion
-
-**Abilities:**
-
-- **Leader:** This model can be attached to the following units:
-■ PINK HORRORS
-■ BLUE HORRORS
-- **Fluxmaster:** While this model is leading a unit, each time an attack is made against that unit, subtract 1 form the Hit roll.
-- **Altered Reality (Psychic):** Once per battle round, after a Hit roll, a Wound roll or a saving throw is made for this model, you can change the result of that roll to a 6.
-- **Invulnerable Save: Fluxmaster:** This model has a 4+ invulnerable save.
+#### Strafing Run (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll.
 
 ---
 
 ### Forgefiend
 **Points:** 170 | **M:** 8" | **T:** 10 | **SV:** 3+ | **W:** 12 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Walker, Chaos, Daemon, Forgefiend
+**Keywords:** Heretic Astartes, Vehicle, Walker, Chaos, Daemon, Forgefiend
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1096,36 +1036,83 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Daemonic Ordnance:** Each time this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its ranged weapons have the [DEVASTATING WOUNDS] and [HAZARDOUS] abilities.
-- **Invulnerable Save:** This model has a 5+ invulnerable save.
+#### Daemonic Ordnance (Abilities)
+- **Description:** Each time this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its ranged weapons have the [DEVASTATING WOUNDS] and [HAZARDOUS] abilities.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
 
 ---
 
-### Great Unclean One
-**Points:** 250 | **M:** 7" | **T:** 12 | **SV:** 5+ | **W:** 20 | **LD:** 6+ | **OC:** 5
-**Keywords:** Monster, Character, Psyker, Chaos, Daemon, Nurgle, Great Unclean One, Nurgle non-Battleline, Shadow Legion
+### Gellerpox Infected [Legends]
+**Points:** 125 | **M:** 5" | **T:** 5 | **SV:** 6+ | **W:** 1 | **LD:** 7+ | **OC:** 1
+**Keywords:** Infantry, Chaos, Nurgle, Gellerpox Infected, Heretic Astartes, Damned
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Putrid vomit | Ranged | 12" | D6+3 | N/A | 5 | -2 | 1 | Ignores Cover, Torrent |
-| ➤ Bilesword - strike | Melee | Melee | 6 | 2+ | 10 | -2 | D6+1 | Lethal Hits |
-| ➤ Bilesword - sweep | Melee | Melee | 12 | 2+ | 6 | -1 | 1 | Lethal Hits |
-| Doomsday bell | Melee | Melee | 6 | 2+ | 7 | -1 | 2 | Lethal Hits, Reverberating Summons |
-| Plague flail | Ranged | 6" | D6+1 | 3+ | 7 | -2 | 2 | - |
-| Bileblade | Melee | Melee | 3 | 2+ | 6 | -2 | 2 | Extra Attacks, Lethal Hits |
+| Brutal weapons | Melee | Melee | 2 | 4+ | 4 | 0 | 1 | - |
+| Hideous mutations | Melee | Melee | 4 | 4+ | 6 | -1 | 2 | - |
+| Belly flamer | Ranged | 12" | D6 | N/A | 5 | 0 | 1 | Ignores Cover, Torrent |
+| Hideous mutations | Melee | Melee | 4 | 4+ | 6 | -1 | 2 | - |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Daemon Lord of Nurgle (Aura):** While a friendly Nurgle Legiones Daemonica unit is within 6" of this model, add 1 to the Toughness characteristic of models in that unit.
-- **Nurgle’s Rot (Psychic):** At the end of your Movement phase, you can select one enemy unit within 12" of this model. Until the start of your next Movement phase, subtract 1 from the Toughness characteristic of models in that unit.
+#### Fearsome (Aura) (Abilities)
+- **Description:** While an enemy unit is within 6" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result.
+
+---
+
+### Greater Blight Drone [Legends]
+**Points:** 150 | **M:** 10" | **T:** 9 | **SV:** 3+ | **W:** 10 | **LD:** 6+ | **OC:** 3
+**Keywords:** Heretic Astartes, Heretic Astartes Vehicle, Vehicle, Fly, Chaos, Nurgle, Daemon, Greater Blight Drone
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Bile maw | Ranged | 12" | 3 | 3+ | 5 | 0 | 1 | Lethal Hits |
+| Blightreaper cannon | Ranged | 36" | 6 | 3+ | 8 | -2 | 2 | Lethal Hits |
+| Greater plague probe | Ranged | Melee | 4 | 3+ | 6 | -1 | 1 | Lethal Hits |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
+
+#### Hovering Death (Abilities)
+- **Description:** This model is eligible to shoot and declare a charge in a turn in which it Fell Back.
+
+---
+
+### Greater Brass Scorpion [Legends]
+**Points:** 500 | **M:** 12" | **T:** 12 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
+**Keywords:** Heretic Astartes, Heretic Astartes Vehicle, Vehicle, Titanic, Walker, Chaos, Khorne, Daemon, Greater Brass Scorpion
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Demolisher cannon | Ranged | 24" | D6+3 | 3+ | 14 | -3 | D6 | Blast |
+| ➤ Hellcrusher claws - strike | Melee | Melee | 6 | 3+ | 14 | -3 | 6 | - |
+| ➤ Hellcrusher claws - sweep | Melee | Melee | 18 | 3+ | 8 | -2 | 2 | - |
+| Hellmaw flame cannons | Ranged | 12" | 2D6 | N/A | 8 | -1 | 1 | Ignores Cover, Torrent |
+| Scorpion cannon | Ranged | 36" | 15 | 3+ | 5 | -1 | 2 | Sustained Hits 1 |
+
+**Abilities:**
+
+#### Runes of the Blood God (Abilities)
+- **Description:** This model has the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks.
+
+#### Damaged: 1-9 wounds remaining (Abilities)
+- **Description:** While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
 
 ---
 
 ### Haarken Worldclaimer
 **Points:** 90 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Epic Hero, Fly, Jump Pack, Chaos, Chaos Undivided, Haarken Worldclaimer
+**Keywords:** Heretic Astartes, Infantry, Character, Epic Hero, Fly, Jump Pack, Chaos, Chaos Undivided, Haarken Worldclaimer
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1136,17 +1123,86 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Leader:** This model can be attached to the following units:
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ RAPTORS
-- **Head Taker:** While this model is leading a unit, each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model’s unit and roll one D6 for each model in this model’s unit which is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound.
-- **Herald of the Apocalypse (Aura):** While an enemy unit is within 6" of this model, in the Battle-shock step of your opponent’s Command phase, if that enemy unit is below its Starting Strength, it must take a Battle-shock test. This ability cannot cause a unit to take two Battle-shock tests in the same phase.
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
+
+#### Head Taker (Abilities)
+- **Description:** While this model is leading a unit, each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model’s unit and roll one D6 for each model in this model’s unit which is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound.
+
+#### Herald of the Apocalypse (Aura) (Abilities)
+- **Description:** While an enemy unit is within 6" of this model, in the Battle-shock step of your opponent’s Command phase, if that enemy unit is below its Starting Strength, it must take a Battle-shock test. This ability cannot cause a unit to take two Battle-shock tests in the same phase.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
+
+---
+
+### Havoc Champion
+**Points:** 0 | **M:** 5" | **T:** 5 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+---
+
+### Havoc w/ autocannon
+**Points:** 0 | **M:** 5" | **T:** 5 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Havoc autocannon | Ranged | 48" | 2 | 3+ | 9 | -1 | 3 | - |
+
+---
+
+### Havoc w/ heavy bolter
+**Points:** 0 | **M:** 5" | **T:** 5 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Havoc heavy bolter | Ranged | 36" | 3 | 3+ | 5 | -1 | 2 | Sustained Hits 1 |
+
+---
+
+### Havoc w/ lascannon
+**Points:** 0 | **M:** 5" | **T:** 5 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Havoc lascannon | Ranged | 48" | 1 | 3+ | 12 | -3 | D6+1 | - |
+
+---
+
+### Havoc w/ missile launcher
+**Points:** 0 | **M:** 5" | **T:** 5 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| ➤ Havoc missile launcher - frag | Ranged | 48" | D6 | 3+ | 4 | 0 | 1 | Blast |
+| ➤ Havoc missile launcher - krak | Ranged | 48" | 1 | 3+ | 9 | -2 | D6 | - |
+
+---
+
+### Havoc w/ reaper chaincannon
+**Points:** 0 | **M:** 5" | **T:** 5 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Havoc reaper chaincannon | Ranged | 24" | 8 | 3+ | 5 | 0 | 1 | - |
 
 ---
 
 ### Havocs
 **Points:** 125 | **M:** 5" | **T:** 5 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Chaos, Havocs
+**Keywords:** Heretic Astartes, Infantry, Chaos, Havocs
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1160,13 +1216,26 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Stabilisation Talons:** Each time a model in this unit makes an attack with a ranged weapon, you can ignore any or all modifiers to the Hit roll and any or all modifiers to the Ballistic Skill characteristic of that weapon.
+#### Stabilisation Talons (Abilities)
+- **Description:** Each time a model in this unit makes an attack with a ranged weapon, you can ignore any or all modifiers to the Hit roll and any or all modifiers to the Ballistic Skill characteristic of that weapon.
+
+---
+
+### Heavy weapon
+**Points:** 0 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 3 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Heavy flamer | Ranged | 12" | D6 | N/A | 5 | -1 | 1 | Ignores Cover, Torrent |
+| Reaper autocannon | Ranged | 36" | 4 | 3+ | 7 | -1 | 1 | Devastating Wounds, Sustained Hits 1 |
 
 ---
 
 ### Helbrute
 **Points:** 130 | **M:** 6" | **T:** 9 | **SV:** 2+ | **W:** 8 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Walker, Chaos, Helbrute
+**Keywords:** Heretic Astartes, Vehicle, Walker, Chaos, Helbrute
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1182,14 +1251,17 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Dark Ascension (Aura):** While a friendly HERETIC ASTARTES unit is within 6" of this model, each time that unit makes a Dark Pact, until the end of the phase, its weapons gain both abilities conferred by that pact (instead of only one).
-- **Devoted to Destruction:** If this model is equipped with 2 melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristics of those 2 weapons.
+#### Dark Ascension (Aura) (Abilities)
+- **Description:** While a friendly HERETIC ASTARTES unit is within 6" of this model, each time that unit makes a Dark Pact, until the end of the phase, its weapons gain both abilities conferred by that pact (instead of only one).
+
+#### Devoted to Destruction (Abilities)
+- **Description:** If this model is equipped with 2 melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristics of those 2 weapons.
 
 ---
 
 ### Heldrake
 **Points:** 205 | **M:** 20"+ | **T:** 9 | **SV:** 3+ | **W:** 12 | **LD:** 6+ | **OC:** 0
-**Keywords:** Vehicle, Fly, Aircraft, Chaos, Daemon, Heldrake
+**Keywords:** Heretic Astartes, Vehicle, Fly, Aircraft, Chaos, Daemon, Heldrake
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1199,33 +1271,56 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Airborne Predator:** Each time this model makes an attack that targets a unit that can FLY, add 1 to the Hit roll.
-- **Invulnerable Save:** This model has a 5+ invulnerable save.
+#### Airborne Predator (Abilities)
+- **Description:** Each time this model makes an attack that targets a unit that can FLY, add 1 to the Hit roll.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
 
 ---
 
-### Hellflayers
-**M:** 14" | **T:** 6 | **SV:** 5+ | **W:** 7 | **LD:** 7+ | **OC:** 3
-**Keywords:** Mounted, Chaos, Daemon, Slaanesh, Hellflayer, Slaanesh non-Battleline, Shadow Legion
+### Hell Talon [Legends]
+**Points:** 140 | **M:** 20+" | **T:** 9 | **SV:** 3+ | **W:** 14 | **LD:** 6+ | **OC:** 0
+**Keywords:** Vehicle, Aircraft, Fly, Chaos, Hell Talon, Heretic Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Lashes of torment | Ranged | 12" | 3 | 3+ | 4 | -1 | 2 | Anti-INFANTRY 3+, Assault, Pistol |
-| Lashes of torment | Melee | Melee | 3 | 3+ | 4 | -1 | 2 | Anti-INFANTRY 3+, Extra Attacks |
-| Seeker tongues | Melee | Melee | 4 | 4+ | 4 | 0 | 1 | Extra Attacks, Lethal Hits |
-| Slashing claws | Melee | Melee | 8 | 3+ | 4 | -1 | 1 | Devastating Wounds |
+| Armoured hull | Melee | Melee | 6 | 4+ | 6 | 0 | 1 | - |
+| Autocannon | Ranged | 48" | 2 | 3+ | 9 | -1 | 3 | - |
 
 **Abilities:**
 
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
-- **Cutting Down the Foe:** Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength and Damage characteristics of that attack by 1.
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
+
+#### Bomb Rack (Abilities)
+- **Description:** Each time this model ends a Normal move, you can select one enemy unit it moved across during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound.
+
+---
+
+### Hellblade [Legends]
+**Points:** 115 | **M:** 20+" | **T:** 8 | **SV:** 3+ | **W:** 10 | **LD:** 6+ | **OC:** 0
+**Keywords:** Vehicle, Aircraft, Fly, Chaos, Hellblade, Heretic Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Armoured hull | Melee | Melee | 3 | 4+ | 6 | 0 | 1 | - |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
+
+#### Interceptor (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll.
 
 ---
 
 ### Heretic Astartes Daemon Prince
 **Points:** 165 | **M:** 8" | **T:** 10 | **SV:** 2+ | **W:** 10 | **LD:** 6+ | **OC:** 3
-**Keywords:** Monster, Character, Chaos, Daemon, Daemon Prince
+**Keywords:** Heretic Astartes, Monster, Character, Chaos, Daemon, Daemon Prince
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1236,16 +1331,23 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Dark Blessing (Aura):** While a friendly HERETIC ASTARTES INFANTRY unit is within 6" of this model, each time a ranged attack is allocated to a model in that unit, that model has the Benefit of Cover against that attack.
-- **Ascended Daemon:** Each time this model shoot or fights, while resolving those attacks, you can re-roll one Hit roll and you can re-roll one Wound roll.
-- **Lord of Chaos:** While this model is within 3" of one or more friendly Heretic Astartes Infantry units, this model has the Lone Operative ability.
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
+
+#### Dark Blessing (Aura) (Abilities)
+- **Description:** While a friendly HERETIC ASTARTES INFANTRY unit is within 6" of this model, each time a ranged attack is allocated to a model in that unit, that model has the Benefit of Cover against that attack.
+
+#### Ascended Daemon (Abilities)
+- **Description:** Each time this model shoot or fights, while resolving those attacks, you can re-roll one Hit roll and you can re-roll one Wound roll.
+
+#### Lord of Chaos (Abilities)
+- **Description:** While this model is within 3" of one or more friendly **Heretic Astartes Infantry** units, this model has the Lone Operative ability.
 
 ---
 
 ### Heretic Astartes Daemon Prince with wings
 **Points:** 180 | **M:** 12" | **T:** 9 | **SV:** 2+ | **W:** 10 | **LD:** 6+ | **OC:** 3
-**Keywords:** Monster, Character, Chaos, Daemon, Fly, Daemon Prince with Wings, Daemon Prince
+**Keywords:** Heretic Astartes, Monster, Character, Chaos, Daemon, Fly, Daemon Prince with Wings, Daemon Prince
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1256,35 +1358,20 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Flying Horror:** Each time this model ends a Normal or Advance move, select one enemy unit it moved over during that move. That unit must take a Battle-shock test.
-- **Daemonic Destruction:** Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each of this model’s remaining wounds: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
 
----
+#### Flying Horror (Abilities)
+- **Description:** Each time this model ends a Normal or Advance move, select one enemy unit it moved over during that move. That unit must take a Battle-shock test.
 
-### Horticulous Slimux
-**Points:** 120 | **M:** 6" | **T:** 10 | **SV:** 3+ | **W:** 10 | **LD:** 7+ | **OC:** 2
-**Keywords:** Mounted, Character, Epic Hero, Chaos, Daemon, Nurgle, Horticulous Slimux, Nurgle non-Battleline
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Acidic maw | Melee | Melee | 2 | 4+ | 7 | -4 | 3 | Devastating Wounds, Extra Attacks |
-| Lopping shears | Melee | Melee | 4 | 3+ | 6 | -2 | 3 | Lethal Hits |
-
-**Abilities:**
-
-- **Leader:** This model can be attached to the following unit:
-■ BEASTS OF NURGLE
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Beast Handler:** While this model is leading a unit, you can re-roll Charge rolls made for that unit. In addition, once per battle, you can target that unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase.
-- **Seed the Garden of Nurgle:** At the end of your Movement phase, if this model is within one AREA TERRAIN feature, until the end of the battle, that AREA TERRAIN feature is considered to be within your army’s Shadow of Chaos.
+#### Daemonic Destruction (Abilities)
+- **Description:** Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each of this model’s remaining wounds: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).
 
 ---
 
 ### Huron Blackheart
 **Points:** 120 | **M:** 6" | **T:** 5 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Epic Hero, Chaos, Chaos Undivided, Huron Blackheart
+**Keywords:** Heretic Astartes, Infantry, Character, Epic Hero, Chaos, Chaos Undivided, Huron Blackheart
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1294,126 +1381,85 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Invulnerable Save (4+):** This model has a 4+ invulnerable save.
-- **Leader:** This model can be attached to the following units:
-- Chosen 
-- Chaos Terminator Squad 
-- Legionaries 
-- Masters of the Maelstrom 
-- Red Corsairs Raiders
-- **Lord of Badab (Aura):** While a friendly Heretic Astartes Infantry unit (excluding Battle-shocked units and Damned units) is within 6" of this model, add 1 to the Objective Control characteristic of models in that unit.
-- **Hamadrya’s Knowledge (Psychic):** Once per battle round, when an enemy unit ends a Normal, Advance or Fall Back move within 9" of this model’s unit, if this model’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D3+3".
+#### Invulnerable Save (4+) (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+- **Chosen** 
+- **Chaos Terminator Squad** 
+- **Legionaries** 
+- **Masters of the Maelstrom** 
+- **Red Corsairs Raiders**
+
+#### Lord of Badab (Aura) (Abilities)
+- **Description:** While a friendly **Heretic Astartes Infantry unit (excluding Battle-shocked units and Damned** units) is within 6" of this model, add 1 to the Objective Control characteristic of models in that unit.
+
+#### Hamadrya’s Knowledge (Psychic) (Abilities)
+- **Description:** Once per battle round, when an enemy unit ends a Normal, Advance or Fall Back move within 9" of this model’s unit, if this model’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D3+3".
 
 ---
 
-### Immortal Champion [Crucible]
-**Points:** 180 | **M:** 8" | **T:** 10 | **SV:** 2+ | **W:** 10 | **LD:** 6+ | **OC:** 3
-**Keywords:** Character, Chaos, Daemon, Crucible, Monster, Immortal Champion
-
-**Abilities:**
-
-- **Infernal Attendants:** While this model is within 3" of one or more friendly Daemon Infantry units, this model has the Lone Operative ability.
-- **Font of Unreality:** Each time an attack is allocated to a friendly Daemon model within 3" of this model, subtract 1 from the Hit roll.
-
----
-
-### Infernal Enrapturess
-**Points:** 60 | **M:** 9" | **T:** 3 | **SV:** 7+ | **W:** 3 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Character, Chaos, Daemon, Slaanesh, Infernal Enrapturess, Slaanesh non-Battleline, Shadow Legion
+### Iconarch
+**Points:** 0 | **M:** 6" | **T:** 3 | **SV:** 6+ | **W:** 1 | **LD:** 7+ | **OC:** 1
+**Keywords:** Chaos Space Marines
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Heartstring lyre - cacophonous melody | Ranged | 18" | 6 | 3+ | 6 | 0 | 1 | Assault |
-| ➤ Heartstring lyre - euphonic blast | Ranged | 24" | 1 | 3+ | 12 | -3 | D6+1 | Assault |
-| Ravaging claws | Melee | Melee | 5 | 2+ | 4 | -1 | 1 | Devastating Wounds |
-
-**Abilities:**
-
-- **Leader:** This model can be attached to the following unit:
-■ DAEMONETTES
-- **Invulnerable Save: Infernal Enrapturess:** This model has a 5+ invulnerable save.
-- **Harmonic Alignment:** While this model is leading a unit, in your Command phase, you can return D3 destroyed Bodyguard models to that unit.
-- **Discordant Disruption (Aura):** While an enemy Psyker unit is within 12" of this model, Psychic weapons equipped by models in that unit have the [HAZARDOUS] ability.
+| Autopistol | Ranged | 12" | 1 | 4+ | 3 | 0 | 1 | Pistol |
+| Close combat weapon | Melee | Melee | 1 | 4+ | 3 | 0 | 1 | - |
 
 ---
 
-### Kairos Fateweaver
-**Points:** 295 | **M:** 12" | **T:** 10 | **SV:** 6+ | **W:** 20 | **LD:** 6+ | **OC:** 5
-**Keywords:** Monster, Character, Epic Hero, Fly, Psyker, Chaos, Daemon, Tzeentch, Kairos Fateweaver, Tzeentch non-Battleline
+### Kharybdis Assault Claw [Legends]
+**Points:** 300 | **M:** 12" | **T:** 11 | **SV:** 3+ | **W:** 20 | **LD:** 6+ | **OC:** 4
+**Keywords:** Heretic Astartes, Heretic Astartes Vehicle, Vehicle, Titanic, Chaos, Transport, Fly, Kharybdis Assault Claw
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Staff of Tomorrow | Melee | Melee | 5 | 3+ | 8 | -2 | 2D3 | Psychic |
-| ➤ Infernal Gateway - witchfire | Ranged | 24" | D6+3 | 2+ | 9 | -2 | D3 | Blast, Indirect Fire, Psychic |
-| ➤ Infernal Gateway - focused witchfire | Ranged | 24" | D3+6 | 2+ | 9 | -2 | 3 | Blast, Indirect Fire, Hazardous, Psychic |
+| Blade struts | Melee | Melee | 12 | 4+ | 8 | -2 | 1 | - |
+| ➤ Kharybdis storm launcher - frag | Ranged | 36" | 2D6 | 3+ | 4 | 0 | 1 | Blast |
+| ➤ Kharybdis storm launcher - krak | Ranged | 36" | 2 | 3+ | 9 | -2 | D6 | - |
+| Melta array | Melee | Melee | 1 | 4+ | 12 | -4 | D6+2 | Extra Attacks |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **One Head Looks Forward:** At the end of your Command phase, if this model is on the battlefield, take a Leadership test for this model; if that test is passed, you gain 1CP.
-- **One Head Looks Back (Aura):** Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12" of this model, increase the cost of that use of that Stratagem by 1CP (this is not cumulative with any other rules that would increase the CP cost of that Stratagem).
+#### Kharybdis Assault (Abilities)
+- **Description:** This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9" away from all enemy models.
+
+#### Damaged: 1-7 wounds remaining (Abilities)
+- **Description:** While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.
 
 ---
 
-### Karanak
-**Points:** 75 | **M:** 12" | **T:** 4 | **SV:** 7+ | **W:** 5 | **LD:** 7+ | **OC:** 3
-**Keywords:** Beast, Character, Epic Hero, Chaos, Daemon, Khorne, Karanak, Khorne non-Battleline
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Soul-rending fangs | Melee | Melee | 6 | 2+ | 6 | -2 | 2 | Anti-Character 3+, Precision |
-| Scalding Roar | Ranged | 12" | D6+3 | N/A | 5 | -1 | 1 | Ignores Cover, Torrent |
-
-**Abilities:**
-
-- **Pack Leader:** While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit.
-- **Prey of the Blood God:** At the start of the first battle round, select one enemy unit to be this model’s prey. Each time a model in this model’s unit makes a melee attack that targets its prey, you can re-roll the Wound roll. Each time this model’s prey is destroyed, select one new enemy unit to be this model’s prey.
-- **Leader:** This model can be attached to the following unit:
-■ FLESH HOUNDS
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Brass Collar of Bloody Vengeance:** The bearer has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds.
+### Khorne Berzerker
+**Points:** 0 | **M:** 8" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 2
+**Keywords:** Chaos Space Marines
 
 ---
 
-### Keeper of Secrets
-**Points:** 240 | **M:** 14" | **T:** 10 | **SV:** 5+ | **W:** 18 | **LD:** 6+ | **OC:** 5
-**Keywords:** Monster, Character, Psyker, Chaos, Daemon, Slaanesh, Keeper of Secrets, Slaanesh non-Battleline, Shadow Legion
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Phantasmagoria - witchfire | Ranged | 18" | 6 | 2+ | 6 | -2 | 1 | Devastating Wounds, Psychic |
-| ➤ Phantasmagoria - focused witchfire | Ranged | 18" | 9 | 2+ | 6 | -2 | 1 | Devastating Wounds, Hazardous, Psychic |
-| Snapping claws | Melee | Melee | 4 | 2+ | 6 | -2 | 3 | Devastating Wounds, Extra Attacks |
-| Witstealer sword | Melee | Melee | 6 | 2+ | 8 | -2 | 3 | - |
-| Living whip | Ranged | 12" | 6 | 2+ | 6 | -1 | 2 | Assault |
-| Ritual knife | Melee | Melee | 3 | 2+ | 6 | -2 | 2 | Extra Attacks |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Daemon Lord of Slaanesh (Aura):** While a friendly Slaanesh Legiones Daemonica unit is within 6" of this model, improve the Armour Penetration of melee weapons in that unit by 1.
-- **Mesmerising Form:** Each time an attack targets this model, subtract 1 from the Hit roll.
-- **Shining aegis:** The bearer has a Save Characteristic of 3+.
+### Khorne Berzerker Champion
+**Points:** 0 | **M:** 8" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 2
+**Keywords:** Chaos Space Marines
 
 ---
 
 ### Khorne Berzerkers
 **Points:** 180 | **M:** 8" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 2
-**Keywords:** Infantry, Battleline, Grenades, Chaos, Khorne, Berzerkers
+**Keywords:** Heretic Astartes, Infantry, Battleline, Grenades, Chaos, Khorne, Berzerkers
 
 **Abilities:**
 
-- **Blood Surge:** In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must finish that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase.
+#### Blood Surge (Abilities)
+- **Description:** In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must finish that move as close as possible to the closest enemy unit (excluding **Aircraft**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase.
 
 ---
 
 ### Khorne Lord of Skulls
 **Points:** 450 | **M:** 8" | **T:** 13 | **SV:** 3+ | **W:** 24 | **LD:** 6+ | **OC:** 8
-**Keywords:** Vehicle, Titanic, Towering, Chaos, Khorne, Daemon, Lord of Skulls
+**Keywords:** Heretic Astartes, Vehicle, Titanic, Towering, Chaos, Khorne, Daemon, Lord of Skulls
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1428,136 +1474,125 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Plough Through the Enemy:** In the Fight phase, after this model has finished making its attacks, if this model destroyed one or more enemy units this phase, each enemy unit within 6" of this model must take a Battle-shock test.
-- **Damaged: 1-8 wounds remaining:** While this model has 1-8 wounds remaining, subtract 4 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
-- **Invulnerable Save:** This model has a 5+ invulnerable save.
+#### Plough Through the Enemy (Abilities)
+- **Description:** In the Fight phase, after this model has finished making its attacks, if this model destroyed one or more enemy units this phase, each enemy unit within 6" of this model must take a Battle-shock test.
+
+#### Damaged: 1-8 wounds remaining (Abilities)
+- **Description:** While this model has 1-8 wounds remaining, subtract 4 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
 
 ---
 
-### Knight Abominant
-**Points:** 355 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Abhorrent, Character, Chaos, Knight Abominant, Psyker, Knight Character
+### Kratos [Legends]
+**Points:** 240 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 18 | **LD:** 6+ | **OC:** 6
+**Keywords:** Heretic Astartes, Chaos, Vehicle, Smoke, Kratos
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Balemace | Melee | Melee | 3 | 3+ | 8 | -1 | 2 | Extra Attacks |
-| Electroscourge | Melee | Melee | 9 | 3+ | 10 | -2 | 3 | Sustained Hits 1 |
-| Volkite combustor | Ranged | 30" | 12 | 3+ | 12 | 0 | 3 | Devastating Wounds |
+| Volkite caliver | Ranged | 24" | 2 | 3+ | 5 | 0 | 2 | Devastating Wounds |
+| ➤ Kratos battlecannon - AP | Ranged | 36" | 1 | 3+ | 18 | -4 | D6+3 | Heavy |
+| ➤ Kratos battlecannon - HE | Ranged | 36" | D6+3 | 3+ | 10 | -1 | 3 | Blast |
+| Melta blast-gun | Ranged | 24" | 4 | 3+ | 12 | -4 | D6 | Melta 2 |
+| Volkite cardanelle | Ranged | 36" | 9 | 3+ | 9 | 0 | 3 | Devastating Wounds |
+| Twin boltgun | Ranged | 24" | 2 | 3+ | 4 | 0 | 1 | Twin-linked |
+| Volkite culverin | Ranged | 36" | 4 | 3+ | 6 | 0 | 2 | Devastating Wounds |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-- **Vortex Terrors (Psychic):** At the start of your Shooting phase, select one enemy unit within 24" of and visible to this model. That enemy unit must take a Battle-shock test.
-- **Warp Storms (Psychic):** At the end of your Movement phase, roll one D6 for each enemy unit within 9" of one or more models with this ability: on a 3+, that enemy unit suffers D3 mortal wounds.
+#### Line-breaker (Abilities)
+- **Description:** When making ranged attacks, this model can target enemy units within Engagement Range of it with Blast weapons (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units.
 
 ---
 
-### Knight Desecrator
-**Points:** 355 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Abhorrent, Character, Chaos, Knight Desecrator, Knight Character
+### Kravek Morne
+**Points:** 120 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 6 | **LD:** 6+ | **OC:** 1
+**Keywords:** Heretic Astartes, Infantry, Character, Epic Hero, Chaos, Chaos Undivided, Terminator, Kravek Morne
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Desecrator laser destructor | Ranged | 72" | 3 | 2+ | 18 | -4 | D6+3 | - |
-| Diabolus heavy stubber | Ranged | 36" | 3 | 2+ | 5 | 0 | 1 | Rapid Fire 3 |
+| Baleflamer | Ranged | 12" | D6+3 | N/A | 6 | -1 | 2 | Ignores Cover, Torrent |
+| Combi-bolter | Ranged | 24" | 2 | 2+ | 4 | 0 | 1 | Rapid Fire 2 |
+| Last Argument and power fist | Melee | Melee | 7 | 2+ | 10 | -2 | 2 | Devastating Wounds |
+| Servo-harness | Melee | Melee | 3 | 2+ | 6 | -2 | 2 | Anti-Vehicle 2+, Extra Attacks |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-- **Taskmaster (Aura):** While a friendly War Dog model is within 9" of this model, each time that War Dog model makes a ranged attack, re-roll a Hit roll of 1.
-- **Obsessive Ruthlessness:** Each time this model makes a ranged attack that targets a Monster or Vehicle unit, that attack has the [DEVASTATING WOUNDS] ability.
+#### Headlong Destruction (Abilities)
+- **Description:** Each time a model in this unit makes an attack that targets the closest eligible enemy unit, improve the Armour Penetration characteristic of that attack by 1.
+
+#### Architect of Ruin (Abilities)
+- **Description:** At the start of the battle, select one unit in your opponent’s army to be this model’s hated foe. Each time this model makes an attack that targets its hated foe, you can re-roll the Wound roll. Each time this model’s hated foe is destroyed, you can select a new unit from your opponent’s army to be its hated foe.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units: **Chaos Terminator Squad, Mutilators, Obliterators.**
 
 ---
 
-### Knight Despoiler
-**Points:** 390 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Abhorrent, Character, Chaos, Knight Despoiler, Knight Character
+### Kytan Ravager [Legends]
+**Points:** 400 | **M:** 10" | **T:** 12 | **SV:** 3+ | **W:** 24 | **LD:** 6+ | **OC:** 10
+**Keywords:** Heretic Astartes, Heretic Astartes Vehicle, Vehicle, Titanic, Walker, Chaos, Khorne, Daemon, Kytan Ravager
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Titanic feet | Melee | Melee | 4 | 4+ | 8 | -1 | 2 | - |
+| ➤ Kytan cleaver - strike | Melee | Melee | 4 | 3+ | 14 | -4 | 6 | - |
+| ➤ Kytan cleaver - sweep | Melee | Melee | 12 | 3+ | 9 | -3 | 2 | - |
+| Kytan gatling cannon | Ranged | 36" | 18 | 3+ | 6 | -2 | 2 | - |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-- **Dread Dominion (Aura):** While a friendly War Dog model is within 9" of this model, improve that War Dog model's Leadership  and Objective Control characteristics by 1.
-- **Seething Hatred:** Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks.
+#### Damaged: 1-8 wounds remaining (Abilities)
+- **Description:** While this model has 1-8 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
+
+#### Bloodlust (Abilities)
+- **Description:** Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [SUSTAINED HITS 1] ability. In addition, once per battle, this model is eligible to declare a charge in a turn in which it Advanced.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
 
 ---
 
-### Knight Rampager
-**Points:** 365 | **M:** 12" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Abhorrent, Character, Chaos, Knight Rampager, Knight Character
+### Land Raider Achilles [Legends]
+**Points:** 230 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 16 | **LD:** 6+ | **OC:** 5
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Transport, Smoke, Land Raider Achilles
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Reaper chainsword - strike | Melee | Melee | 6 | 2+ | 14 | -4 | 6 | Sustained Hits 1 |
-| ➤ Reaper chainsword - sweep | Melee | Melee | 18 | 2+ | 9 | -3 | 2 | Sustained Hits 1 |
-| ➤ Warpstrike claw - strike | Melee | Melee | 6 | 2+ | 20 | -3 | 8 | Sustained Hits 1 |
-| ➤ Warpstrike claw - sweep | Melee | Melee | 12 | 2+ | 10 | -2 | 3 | Sustained Hits 1 |
+| ➤ Quad launcher - shatter shells | Ranged | 24" | 4 | 3+ | 9 | -2 | 3 | - |
+| ➤ Quad launcher - thunderfire shells | Ranged | 60" | D6+4 | 3+ | 5 | 0 | 1 | Blast, Indirect Fire |
+| Twin multi-melta | Ranged | 18" | 2 | 3+ | 9 | -4 | D6 | Melta 2, Twin-linked |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-- **Frenzied Rampage (Aura):** While a friendly War Dog model is within 9" of this model, each time that War Dog model makes a melee attack, re-roll a Hit roll of 1.
-- **Bloodlust:** Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [Devastating Wounds] ability.
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
 
 ---
 
-### Knight Ruinator
-**Points:** 355 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Abhorrent, Character, Chaos, Knight Ruinator, Knight Character
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Darkflame lance | Ranged | 18" | 2D6 | N/A | 8 | -1 | 2 | Ignores Cover, Torrent |
-| ➤ Fellbore - strike | Melee | Melee | 4 | 3+ | 14 | -3 | 6 | Anti-Monster 2+, Anti-Vehicle 2+ |
-| ➤ Fellbore - sweep | Melee | Melee | 10 | 3+ | 9 | -2 | 2 | - |
-| Terrorpulse missiles | Ranged | 36" | 2D6 | 3+ | 8 | -2 | 2 | Blast |
+### Land Raider Proteus [Legends]
+**Points:** 220 | **M:** 12" | **T:** 12 | **SV:** 2+ | **W:** 16 | **LD:** 6+ | **OC:** 5
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Transport, Smoke, Land Raider Proteus
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-- **Methodical Destruction:** At the start of the first battle round, select one unit from your opponent's army to be this model's victim. Each time this model makes an attack that targets its victim, you can re-roll the Wound roll. Each time this model's victim is destroyed, select one new enemy unit to be this model's victim.
-- **Close-range Killers (Aura):** While a friendly War Dog model is within 9" of this model, each time that War Dog model makes an attack that targets the closest enemy unit, improve the Armour Penetration characteristic of that attack by 1.
-
----
-
-### Knight Tyrant
-**Points:** 410 | **M:** 8" | **T:** 12 | **SV:** 3+ | **W:** 28 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Character, Chaos, Knight Tyrant, Knight Character
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Titanic feet | Melee | Melee | 4 | 4+ | 8 | -1 | 2 | - |
-| Twin daemonbreath meltagun | Ranged | 12" | 1 | 3+ | 9 | -4 | D6 | Melta 2, Twin-linked |
-| Brimstone volcano lance | Ranged | 60" | D3 | 3+ | 20 | -5 | D6+8 | Blast |
-| ➤ Ectoplasma decimator - standard | Ranged | 36" | D6+3 | 3+ | 8 | -3 | 2 | Blast |
-| ➤ Ectoplasma decimator - supercharge | Ranged | 36" | D6+3 | 3+ | 9 | -4 | 3 | Blast, Hazardous |
-| Darkflame cannon | Ranged | 18" | 3D6 | N/A | 8 | -1 | 2 | Ignores Cover, Torrent |
-| Warpshock harpoon | Ranged | 12" | D3 | 3+ | 24 | -6 | 12 | Blast, Devastating Wounds |
-
-**Abilities:**
-
-- **Infernal Aegis (Aura):** While a friendly War Dog model is within 6" of this model, that War Dog model has the Benefit of Cover.
-- **Bastion of Corruption:** Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12" of this model.
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
+#### Explorator Augury Web (Abilities)
+- **Description:** Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12" of the bearer, but the bearer must halve its Transport Capacity.
 
 ---
 
 ### Legionaries
 **Points:** 90 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 2
-**Keywords:** Infantry, Battleline, Chaos, Grenades, Legionaries
+**Keywords:** Heretic Astartes, Infantry, Battleline, Chaos, Grenades, Legionaries
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
+| Accursed weapon | Melee | Melee | 4 | 3+ | 5 | -2 | 1 | - |
 | Accursed weapon | Melee | Melee | 4 | 3+ | 5 | -2 | 1 | - |
 | Balefire tome | Ranged | 18" | 2 | 3+ | 5 | -1 | 1 | Psychic |
 | Flamer | Ranged | 12" | D6 | N/A | 4 | 0 | 1 | Ignores Cover, Torrent |
@@ -1570,13 +1605,38 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Veterans of the Long War:** Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead.
+#### Veterans of the Long War (Abilities)
+- **Description:** Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead.
+
+---
+
+### Leviathan Dreadnought [Legends]
+**Points:** 160 | **M:** 8" | **T:** 10 | **SV:** 2+ | **W:** 12 | **LD:** 6+ | **OC:** 4
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Walker, Smoke, Dreadnought, Leviathan Dreadnought
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Grav-flux bombard | Ranged | 24" | 2D3 | 3+ | 8 | -1 | 2 | Anti-Vehicle 2+, Blast |
+| Cyclonic melta-lance | Ranged | 18" | D6 | 3+ | 9 | -4 | D6 | Melta 2 |
+| Storm cannon | Ranged | 36" | 4 | 3+ | 9 | -1 | 3 | Twin-linked |
+| Leviathan siege claw | Melee | Melee | 5 | 3+ | 12 | -2 | 3 | - |
+| Leviathan siege drill | Melee | Melee | 4 | 3+ | 12 | -2 | 3 | Anti-VEHICLE 3+ |
+| Twin volkite caliver | Ranged | 24" | 2 | 3+ | 5 | 0 | 2 | Devastating Wounds, Twin-linked |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
+
+#### Duty Eternal (Abilities)
+- **Description:** Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.
 
 ---
 
 ### Lord Discordant on Helstalker
 **Points:** 160 | **M:** 14" | **T:** 9 | **SV:** 2+ | **W:** 10 | **LD:** 6+ | **OC:** 4
-**Keywords:** Mounted, Character, Chaos, Daemon, Lord Discordant
+**Keywords:** Heretic Astartes, Mounted, Character, Chaos, Daemon, Lord Discordant
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1590,36 +1650,17 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Corrupt Machine Spirits:** At the start of your Shooting phase, select one visible enemy Vehicle unit within 12" of this model and roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.’
-- **Spirit Thief:** At the start of your Shooting phase, select one visible enemy Vehicle unit. Until the end of the phase, each time a friendly Heretic Astartes model makes an attack that targets that unit, re-roll a Wound roll of 1.
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
+#### Corrupt Machine Spirits (Abilities)
+- **Description:** At the start of your Shooting phase, select one visible enemy **Vehicle** unit within 12" of this model and roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.’
 
----
-
-### Lord of Change
-**Points:** 285 | **M:** 12" | **T:** 10 | **SV:** 6+ | **W:** 18 | **LD:** 6+ | **OC:** 5
-**Keywords:** Monster, Character, Fly, Psyker, Chaos, Daemon, Tzeentch, Lord of Change, Tzeentch non-Battleline, Shadow Legion
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Bolt of Change - witchfire | Ranged | 18" | 9 | 2+ | 9 | -1 | 1 | Psychic |
-| ➤ Bolt of Change - focused witchfire | Ranged | 18" | 9 | 2+ | 9 | -2 | 3 | Hazardous, Psychic |
-| Staff of Tzeentch | Melee | Melee | 5 | 3+ | 6 | -1 | 3 | Psychic |
-| Rod of sorcery | Ranged | 18" | 6 | 2+ | 8 | -1 | 2 | Psychic |
-| Baleful sword | Melee | Melee | 3 | 3+ | 7 | -2 | 3 | Extra Attacks |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Daemon Lord of Tzeentch (Aura):** While a friendly TZEENTCH LEGIONES DAEMONICA unit is within 6" of this model, each time a model in that unit makes a ranged attack, add 1 to the Strength characteristic of that attack.
-- **Master of Magicks (Psychic):** In your Shooting phase, select one of the following abilities: [IGNORES COVER]; [LETHAL HITS]; [SUSTAINED HITS D3]. Until the end of the phase, this model’s Bolt of Change has that ability.
+#### Spirit Thief (Abilities)
+- **Description:** At the start of your Shooting phase, select one visible enemy **Vehicle** unit. Until the end of the phase, each time a friendly **Heretic Astartes** model makes an attack that targets that unit, re-roll a Wound roll of 1.
 
 ---
 
 ### Master of Executions
 **Points:** 80 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Grenades, Chaos, Master of Executions
+**Keywords:** Heretic Astartes, Infantry, Character, Grenades, Chaos, Master of Executions
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1628,19 +1669,23 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 
 **Abilities:**
 
-- **Leader:** This model can be attached to the following units:
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ CHOSEN
 ■ LEGIONARIES
-
 You can attach this model to one of the above units even if one other CHARACTER model has already been attached to it (a unit cannot have two MASTERS OF EXECUTIONS attached to it). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
-- **Warp-sighted Butcher:** While this model is leading a unit, each time a model in that unit makes a melee attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that unit is Below Half-strength, you can re-roll the Wound roll as well.
-- **Trophy Taker:** Each time this model destroys an enemy CHARACTER model, you gain 1CP.
+
+#### Warp-sighted Butcher (Abilities)
+- **Description:** While this model is leading a unit, each time a model in that unit makes a melee attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that unit is Below Half-strength, you can re-roll the Wound roll as well.
+
+#### Trophy Taker (Abilities)
+- **Description:** Each time this model destroys an enemy CHARACTER model, you gain 1CP.
 
 ---
 
 ### Master of Possession
 **Points:** 60 | **M:** 8" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Psyker, Chaos, Master of Possession
+**Keywords:** Heretic Astartes, Infantry, Character, Psyker, Chaos, Master of Possession
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1651,19 +1696,26 @@ You can attach this model to one of the above units even if one other CHARACTER 
 
 **Abilities:**
 
-- **Leader:** This model can be attached to the following units:
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ CHOSEN
 ■ LEGIONARIES
 ■ POSSESSED
-- **Daemonkin (Psychic):** While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit.
-- **Sacrificial Dagger:** Once per phase, when this model is selected to shoot or fight, it can use this ability. If it does, this model’s unit suffers 1 mortal wound and, until the end of the phase, each time this model makes a Psychic Attack, add 1 to the Hit roll and add 1 to the Wound roll.
-- **Invulnerable Save:** This model has a 5+ invulnerable save.
+
+#### Daemonkin (Psychic) (Abilities)
+- **Description:** While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit.
+
+#### Sacrificial Dagger (Abilities)
+- **Description:** Once per phase, when this model is selected to shoot or fight, it can use this ability. If it does, this model’s unit suffers 1 mortal wound and, until the end of the phase, each time this model makes a Psychic Attack, add 1 to the Hit roll and add 1 to the Wound roll.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
 
 ---
 
 ### Masters of the Maelstrom
 **Points:** 115 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Epic Hero, Infantry, Grenades, Chaos, Chaos Undivided, Masters of the Maelstrom
+**Keywords:** Epic Hero, Infantry, Grenades, Chaos, Chaos Undivided, Masters of the Maelstrom, Heretic Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1681,19 +1733,45 @@ You can attach this model to one of the above units even if one other CHARACTER 
 
 **Abilities:**
 
-- **Choice Samples:** While this unit's Garreon the Corpsemaster model is on the battlefield, in your Command phase, select one of the following: you can return one destroyed model (excluding Character models) to this unit, or, if one or more Heretic Astartes Infantry units from your army are below Starting Strength and within 3" of this unit, you gain 1CP.
-- **Fleet Command:** After both players have deployed their armies, if this unit is on the battlefield (or any Transport it is embarked within is on the battlefield) select up to three Heretic Astartes units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.
-- **Plunder:** Once per battle, after this unit ends a Normal move, you can select one visible enemy unit within 12" of it and roll one D6: on a 2+, that enemy unit suffers D3+1 mortal wounds.
-- **Masters of the Maelstrom:** At the start of the Declare Battle Formations step, this unit can join one of the following units. This unit then counts as part of that unit for the rest of the battle, and that unit’s Starting Strength is increased accordingly.
-- Chosen, Legionaries, Red Corsairs Raiders
+#### Choice Samples (Abilities)
+- **Description:** While this unit's Garreon the Corpsemaster model is on the battlefield, in your Command phase, select one of the following: you can return one destroyed model (excluding **Character models) to this unit, or, if one or more Heretic Astartes Infantry** units from your army are below Starting Strength and within 3" of this unit, you gain 1CP.
 
-This unit cannot join an Attached unit, and only Huron Blackheart can join a unit this unit has joined.
+#### Fleet Command (Abilities)
+- **Description:** After both players have deployed their armies, if this unit is on the battlefield (or any **Transport it is embarked within is on the battlefield) select up to three Heretic Astartes** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.
+
+#### Plunder (Abilities)
+- **Description:** Once per battle, after this unit ends a Normal move, you can select one visible enemy unit within 12" of it and roll one D6: on a 2+, that enemy unit suffers D3+1 mortal wounds.
+
+#### Masters of the Maelstrom (Abilities)
+- **Description:** At the start of the Declare Battle Formations step, this unit can join one of the following units. This unit then counts as part of that unit for the rest of the battle, and that unit’s Starting Strength is increased accordingly.
+- **Chosen, Legionaries, Red Corsairs Raiders**
+This unit cannot join an Attached unit, and only **Huron Blackheart** can join a unit this unit has joined.
+
+---
+
+### Mastodon [Legends]
+**Points:** 540 | **M:** 9" | **T:** 14 | **SV:** 2+ | **W:** 30 | **LD:** 6+ | **OC:** 12
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Titanic, Transport, Smoke, Mastodon
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Siege melta array | Ranged | 24" | 6 | 3+ | 9 | -4 | D6 | Melta 2 |
+| Skyreaper battery | Ranged | 48" | 8 | 3+ | 7 | -1 | 2 | Anti-FLY 4+ |
+
+**Abilities:**
+
+#### Damaged: 1-10 wounds remaining (Abilities)
+- **Description:** While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
+
+#### Inviolable Transport (Abilities)
+- **Description:** Once per battle round, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0.
 
 ---
 
 ### Maulerfiend
 **Points:** 130 | **M:** 10" | **T:** 10 | **SV:** 3+ | **W:** 12 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Walker, Chaos, Daemon, Maulerfiend
+**Keywords:** Heretic Astartes, Vehicle, Walker, Chaos, Daemon, Maulerfiend
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1704,14 +1782,97 @@ This unit cannot join an Attached unit, and only Huron Blackheart can join a uni
 
 **Abilities:**
 
-- **Siege Crawler:** You can ignore any or all modifiers to this model's Move characteristic and to Advance and Charge rolls made for it.
-- **Invulnerable Save:** This model has a 5+ invulnerable save.
+#### Siege Crawler (Abilities)
+- **Description:** You can ignore any or all modifiers to this model's Move characteristic and to Advance and Charge rolls made for it.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
+
+---
+
+### Mindwitch
+**Points:** 0 | **M:** 6" | **T:** 3 | **SV:** 6+ | **W:** 1 | **LD:** 7+ | **OC:** 1
+**Keywords:** Psyker
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Close combat weapon | Melee | Melee | 1 | 4+ | 3 | 0 | 1 | - |
+| ➤ Warp Curse - witchfire | Ranged | 18" | 3 | 3+ | 4 | -1 | 2 | Psychic |
+| ➤ Warp Curse - focused witchfire | Ranged | 18" | 3 | 3+ | 5 | -1 | 2 | Hazardous, Psychic, Sustained Hits 2 |
+
+---
+
+### Mutant
+**Points:** 0 | **M:** 6" | **T:** 4 | **SV:** 6+ | **W:** 1 | **LD:** 7+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Blasphemous appendages | Melee | Melee | 2 | 4+ | 4 | 0 | 1 | - |
+
+---
+
+### Mutilators
+**Points:** 200 | **M:** 5" | **T:** 7 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 2
+**Keywords:** Heretic Astartes, Infantry, Chaos, Daemon, Mutilators
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| ➤ Fleshmetal weapons - rending strikes | Melee | Melee | 4 | 3+ | 9 | -3 | 3 | - |
+| ➤ Fleshmetal weapons - clawed sweeps | Melee | Melee | 6 | 3+ | 6 | -2 | 1 | - |
+| ➤ Fleshmetal weapons - thunderous blows | Melee | Melee | 2 | 3+ | 12 | -4 | D6+2 | - |
+
+**Abilities:**
+
+#### Crushing Charge (Abilities)
+- **Description:** You can re-roll charge rolls made for this unit, and each time this unit makes a Charge move, select one enemy unit and roll one D6 for each model in this unit that is within Engagement Range of that unit: for each 4+, that enemy unit suffers D3 mortal wounds.
+
+---
+
+### Mutoid Vermin [Legends]
+**Points:** 85 | **M:** 8" | **T:** 2 | **SV:** 7+ | **W:** 1 | **LD:** 8+ | **OC:** 0
+**Keywords:** Swarm, Chaos, Nurgle, Mutoid Vermin, Heretic Astartes, Damned
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Diseased claws and fangs | Melee | Melee | 2 | 4+ | 2 | 0 | 1 | Lethal Hits |
+
+**Abilities:**
+
+#### Mischief Makers (Aura) (Abilities)
+- **Description:** While an enemy unit (excluding MONSTERS and VEHICLES) is within 6" of this unit, each time a model in that unit makes a melee attack, subtract 1 from the Hit roll.
+
+---
+
+### Negavolt Cultists [Legends]
+**Points:** 55 | **M:** 6" | **T:** 3 | **SV:** 7+ | **W:** 1 | **LD:** 7+ | **OC:** 1
+**Keywords:** Heretic Astartes, Infantry, Chaos, Negavolt Cultists, Damned
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Electro-goads | Melee | Melee | 3 | 3+ | 4 | 0 | 1 | Sustained Hits 2 |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** Models in this unit have a 5+ invulnerable save.
+
+#### Voltagheist Field (Abilities)
+- **Description:** Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound.
+
+#### Servants of the Abyss (Abilities)
+- **Description:** If a unit from your army with the Leader ability can be attached to a CULTIST MOB, it can be attached to this unit instead.
 
 ---
 
 ### Nemesis Claw
 **Points:** 110 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Psyker, Grenades, Nemesis Claw, Chaos
+**Keywords:** Infantry, Psyker, Grenades, Nemesis Claw, Heretic Astartes, Chaos
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1725,15 +1886,20 @@ This unit cannot join an Attached unit, and only Huron Blackheart can join a uni
 
 **Abilities:**
 
-- **Voice eater:** Enemy units (excluding MONSTERS and VEHICLES) cannot be targeted with Stratagems while they are within Engagement Range of the bearer’s unit.
-- **Visions of Suffering (Psychic):** Each time a model in this unit makes an attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll. If that enemy unit is Below Half-strength, add 1 to the Wound roll as well.
-- **Attached Unit:** If a CHARACTER UNIT unit from your army with the Leader ability (excluding EPIC HEROES) can be attached to a LEGIONARIES unit, it can be attached to this unit instead.
+#### Voice eater (Abilities)
+- **Description:** Enemy units (excluding MONSTERS and VEHICLES) cannot be targeted with Stratagems while they are within Engagement Range of the bearer’s unit.
+
+#### Visions of Suffering (Psychic) (Abilities)
+- **Description:** Each time a model in this unit makes an attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll. If that enemy unit is Below Half-strength, add 1 to the Wound roll as well.
+
+#### Attached Unit (Abilities)
+- **Description:** If a CHARACTER UNIT unit from your army with the Leader ability (excluding EPIC HEROES) can be attached to a LEGIONARIES unit, it can be attached to this unit instead.
 
 ---
 
 ### Noctilith Crown
 **Points:** 125 | **M:** - | **T:** 11 | **SV:** 3+ | **W:** 14 | **LD:** 6+ | **OC:** 0
-**Keywords:** Fortification, Chaos, Noctilith Crown
+**Keywords:** Heretic Astartes, Fortification, Chaos, Noctilith Crown
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1742,14 +1908,35 @@ This unit cannot join an Attached unit, and only Huron Blackheart can join a uni
 
 **Abilities:**
 
-- **Malevolent Locus (Aura):** While a friendly HERETIC ASTARTES unit is within 9" of this Fortification, improve that unit's Leadership characteristic by 1.
-- **Malign Cover:** Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack.
+#### Malevolent Locus (Aura) (Abilities)
+- **Description:** While a friendly HERETIC ASTARTES unit is within 9" of this Fortification, improve that unit's Leadership characteristic by 1.
+
+#### Malign Cover (Abilities)
+- **Description:** Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack.
+
+---
+
+### Noise Marine w/ blastmaster
+**Points:** 0 | **M:** 6" | **T:** 5 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| ➤ Blastmaster - varied frequency | Ranged | 18" | 6 | 3+ | 6 | -2 | 1 | Ignores Cover |
+| ➤ Blastmaster - single frequency | Ranged | 18" | 3 | 3+ | 10 | -2 | 3 | Ignores Cover |
+
+---
+
+### Noise Marine w/ sonic blaster
+**Points:** 0 | **M:** 6" | **T:** 5 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
 
 ---
 
 ### Noise Marines
 **Points:** 145 | **M:** 6" | **T:** 5 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Chaos, Slaanesh, Noise Marines, Cults of the Dark Gods
+**Keywords:** Infantry, Chaos, Slaanesh, Heretic Astartes, Noise Marines, Cults of the Dark Gods
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1761,29 +1948,14 @@ This unit cannot join an Attached unit, and only Huron Blackheart can join a uni
 
 **Abilities:**
 
-- **Terrifying Crescendo:** In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test.
-
----
-
-### Nurglings
-**Points:** 40 | **M:** 5" | **T:** 3 | **SV:** 7+ | **W:** 4 | **LD:** 8+ | **OC:** 0
-**Keywords:** Swarm, Battleline, Chaos, Daemon, Nurgle, Nurglings, Nurgle Battleline, Shadow Legion
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Diseased claws and teeth | Melee | Melee | 4 | 5+ | 2 | 0 | 1 | Lethal Hits |
-
-**Abilities:**
-
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
-- **Mischief Makers (Aura):** Each time an enemy unit (excluding Titanic units) within Engagement Range of one or more units with this ability is selected to fight, until the end of the phase, each time a model in that enemy unit makes a melee attack, subtract 1 from the Hit roll.
+#### Terrifying Crescendo (Abilities)
+- **Description:** In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test.
 
 ---
 
 ### Obliterators
 **Points:** 160 | **M:** 4" | **T:** 7 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 2
-**Keywords:** Infantry, Chaos, Daemon, Obliterators
+**Keywords:** Heretic Astartes, Infantry, Chaos, Daemon, Obliterators
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1795,56 +1967,17 @@ This unit cannot join an Attached unit, and only Huron Blackheart can join a uni
 
 **Abilities:**
 
-- **Warp Rift Firepower:** Once per battle, during the Shooting phase, this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [INDIRECT FIRE] ability.
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
+#### Warp Rift Firepower (Abilities)
+- **Description:** Once per battle, during the Shooting phase, this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [INDIRECT FIRE] ability.
 
----
-
-### Pink Horrors
-**Points:** 140 | **M:** 6" | **T:** 3 | **SV:** 7+ | **W:** 1 | **LD:** 8+ | **OC:** 1
-**Keywords:** Infantry, Battleline, Chaos, Daemon, Tzeentch, Tzeentch Battleline, Shadow Legion
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Coruscating Yellow flames (ref. only) | Ranged | 18" | 2 | 5+ | 2 | -1 | 1 | Pistol, Psychic |
-| Yellow claws (ref. only) | Melee | Melee | 2 | 5+ | 2 | 0 | 1 | - |
-| Blue claws (ref. only) | Melee | Melee | 1 | 5+ | 3 | 0 | 1 | - |
-| Coruscating Blue flames (ref. only) | Ranged | 18" | 2 | 4+ | 3 | -1 | 1 | Pistol, Psychic |
-| Coruscating Pink flames | Ranged | 18" | 2 | 3+ | 4 | -1 | 1 | Pistol, Psychic |
-| Pink claws | Melee | Melee | 1 | 4+ | 3 | 0 | 1 | - |
-
-**Abilities:**
-
-- **Invulnerable Save:** Models in this unit have a 4+ invulnerable save.
-- **Split:** Each time a Pink Horror or Blue Horror model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, if it was a Pink Horror, add two Blue Horror models to this unit, and if it was a Blue Horror, add one Brimstone Horror model to this unit.
-- **Horrors are Pink. Horrors are Blue. Where once there was one, now there are two.:** If, at any point, this unit contains no Pink Horrors models, use the Blue Horrors datasheet for this unit. 
-
-_Designer’s Note: While this unit contains one or more Pink Horrors models, the Cackling Horrors and Exploding Horrors abilities from the Blue Horrors datasheet do not apply to this unit._
-
----
-
-### Plague Drones
-**Points:** 110 | **M:** 10" | **T:** 8 | **SV:** 6+ | **W:** 5 | **LD:** 7+ | **OC:** 2
-**Keywords:** Mounted, Fly, Chaos, Daemon, Nurgle, Plague Drones, Nurgle non-Battleline, Shadow Legion
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Death's heads | Ranged | 12" | D3 | 4+ | 4 | 0 | 1 | Blast, Lethal Hits |
-| Foul mouthparts | Melee | Melee | 2 | 4+ | 5 | -1 | 2 | Extra Attacks, Lethal Hits |
-| Plaguesword | Melee | Melee | 2 | 3+ | 4 | -1 | 1 | Lethal Hits |
-
-**Abilities:**
-
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
-- **Death’s Heads:** In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly NURGLE LEGIONES DAEMONICA unit makes an attack that targets that unit, you can re-roll the Wound roll.
+#### Invulnerable Save (Abilities)
+- **Description:** Models in this unit have a 5+ invulnerable save.
 
 ---
 
 ### Plague Marines
 **Points:** 95 | **M:** 5" | **T:** 6 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 2
-**Keywords:** Infantry, Battleline, Grenades, Chaos, Nurgle, Plague Marines
+**Keywords:** Heretic Astartes, Infantry, Battleline, Grenades, Chaos, Nurgle, Plague Marines
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1857,30 +1990,17 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 
 **Abilities:**
 
-- **Infused with the Blessings of Nurgle:** In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is Afflicted.
-- **Icon of Despair:** While an enemy unit is within 6" of the bearer, worsen the Leadership characteristic of models in that unit by 1.
+#### Infused with the Blessings of Nurgle (Abilities)
+- **Description:** In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is Afflicted.
 
----
-
-### Plaguebearers
-**Points:** 110 | **M:** 5" | **T:** 5 | **SV:** 7+ | **W:** 2 | **LD:** 7+ | **OC:** 2
-**Keywords:** Infantry, Battleline, Chaos, Daemon, Nurgle, Plaguebearers, Nurgle Battleline, Shadow Legion
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Plaguesword | Melee | Melee | 2 | 3+ | 4 | -1 | 1 | Lethal Hits |
-
-**Abilities:**
-
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
-- **Infected Outbreak:** If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.
+#### Icon of Despair (Abilities)
+- **Description:** While an enemy unit is within 6" of the bearer, worsen the Leadership characteristic of models in that unit by 1.
 
 ---
 
 ### Possessed
 **Points:** 120 | **M:** 9" | **T:** 6 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Chaos, Daemon, Possessed
+**Keywords:** Heretic Astartes, Infantry, Chaos, Daemon, Possessed
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1889,33 +2009,57 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 
 **Abilities:**
 
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
-- **Unholy Bloodshed:** Once per battle, when this unit makes a Dark Pact, until the end of the phase, weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability.
+#### Invulnerable Save (Abilities)
+- **Description:** Models in this unit have a 5+ invulnerable save.
+
+#### Unholy Bloodshed (Abilities)
+- **Description:** Once per battle, when this unit makes a Dark Pact, until the end of the phase, weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability.
 
 ---
 
-### Poxbringer
-**Points:** 55 | **M:** 5" | **T:** 5 | **SV:** 7+ | **W:** 5 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Character, Psyker, Chaos, Daemon, Nurgle, Poxbringer, Nurgle non-Battleline, Shadow Legion
+### Power fist and combi-bolter
+**Points:** 0 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 3 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+---
+
+### Power fist and combi-weapon
+**Points:** 0 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 3 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+---
+
+### Rapier Carrier [Legends]
+**Points:** 90 | **M:** 3" | **T:** 6 | **SV:** 2+ | **W:** 6 | **LD:** 6+ | **OC:** 2
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Artillery, Vehicle, Rapier Carrier
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Foul balesword | Melee | Melee | 4 | 3+ | 5 | -2 | 2 | Lethal Hits |
+| Boltgun | Ranged | 24" | 2 | 3+ | 4 | 0 | 1 | - |
+| Close combat weapon | Melee | Melee | 2 | 3+ | 4 | 0 | 1 | - |
+| Graviton cannon | Ranged | 36" | D6 | 3+ | 6 | -2 | 2 | Anti-Vehicle 2+, Blast, Heavy |
+| Laser destroyer | Ranged | 36" | 3 | 3+ | 14 | -4 | D6+1 | Heavy |
+| Quad heavy bolter | Ranged | 36" | 6 | 3+ | 5 | -1 | 2 | Heavy, Twin-linked, Sustained Hits 1 |
+| ➤ Quad launcher - shatter shells | Ranged | 24" | 4 | 3+ | 9 | -2 | 3 | Heavy |
+| ➤ Quad launcher - thunderfire shells | Ranged | 60" | D6+4 | 3+ | 5 | 0 | 1 | Blast, Heavy, Indirect Fire |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 5+ invulnerable save.
-- **Leader:** This model can be attached to the following unit:
-■ PLAGUEBEARERS
-- **Poxbringer:** While this model is leading a unit, each time a model in that unit makes an attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.
-- **Feculent Despair (Aura, Psychic):** While an enemy unit is within 6" of this model, each time that unit takes a Battle-shock test, subtract 1 from that test.
+#### Powerful Volley (Abilities)
+- **Description:** Each time this model shoots in your Shooting phase, provided it Remained Stationary this turn, all [HEAVY] weapons equipped by models in this unit have the [LETHAL HITS] ability.
+
+---
+
+### Raptor Champion
+**Points:** 0 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
 
 ---
 
 ### Raptors
 **Points:** 110 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Fly, Jump Pack, Chaos, Raptors, Grenades
+**Keywords:** Heretic Astartes, Infantry, Fly, Jump Pack, Chaos, Raptors, Grenades
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1924,39 +2068,17 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 
 **Abilities:**
 
-- **Fearsome (Aura):** While an enemy unit is within 6" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result.
-- **Terrifying Assault:** At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test.
+#### Fearsome (Aura) (Abilities)
+- **Description:** While an enemy unit is within 6" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result.
 
----
-
-### Reaver Titan
-**Points:** 2200 | **M:** 12" | **T:** 14 | **SV:** 2+ | **W:** 60 | **LD:** 6+ | **OC:** 20
-**Keywords:** Vehicle, Walker, Titanic, Towering, Reaver Titan
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Reaver gatling blaster | Ranged | 72" | 12 | 3+ | 8 | -2 | 3 | Sustained Hits 1 |
-| Reaver laser blaster | Ranged | 72" | 8 | 3+ | 20 | -3 | D6+2 | Blast |
-| Reaver melta cannon | Ranged | 48" | D6+2 | 3+ | 13 | -4 | 6 | Blast, Melta 4 |
-| Reaver volcano cannon | Ranged | 120" | D3+1 | 3+ | 24 | -5 | 14 | Blast, Heavy |
-| ➤ Reaver power fist - strike | Melee | Melee | 6 | 4+ | 20 | -4 | 14 | - |
-| ➤ Reaver power fist - sweep | Melee | Melee | 12 | 4+ | 12 | -3 | 6 | - |
-| Reaver feet | Melee | Melee | 8 | 4+ | 12 | -2 | 4 | - |
-| Reaver apocalypse launcher | Ranged | 200" | 3D6 | 3+ | 7 | -1 | 2 | Blast, Indirect Fire |
-
-**Abilities:**
-
-- **Damaged: 1-20 wounds remaining:** While this model has 1-20 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks only.
-- **God-machine:** This model is eligible to shoot and declare a charge in a turn in which it Fell Back.
-- **Striding Colossus:** Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.
+#### Terrifying Assault (Abilities)
+- **Description:** At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test.
 
 ---
 
 ### Red Corsairs Raiders
 **Points:** 110 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 2
-**Keywords:** Infantry, Grenades, Red Corsairs Raiders, Chaos
+**Keywords:** Heretic Astartes, Infantry, Grenades, Red Corsairs Raiders, Chaos
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1965,14 +2087,17 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 
 **Abilities:**
 
-- **Trophy Takers:** The first time this unit destroys an enemy unit, until the end of the battle, while this unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in this unit.
-- **Attached Unit:** If a Character unit from your army with the Leader ability can be attached to a Legionaries unit, it can be attached to this unit instead.
+#### Trophy Takers (Abilities)
+- **Description:** The first time this unit destroys an enemy unit, until the end of the battle, while this unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in this unit.
+
+#### Attached Unit (Abilities)
+- **Description:** If a **Character unit from your army with the Leader ability can be attached to a Legionaries** unit, it can be attached to this unit instead.
 
 ---
 
 ### Red Corsairs Reave-captain
 **Points:** 75 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Chaos, Red Corsairs Reave-captain
+**Keywords:** Heretic Astartes, Character, Infantry, Chaos, Red Corsairs Reave-captain
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1982,52 +2107,188 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 
 **Abilities:**
 
-- **Invulnerable Save (4+):** This model has a 4+ invulnerable save.
-- **Brutal Raider:** Each time this model's unit ends a Charge move, until the end of the turn, add 1 to the Strength characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1.
-- **Raider's Due:** Each time this unit declares a Charge that targets one or more units that are within range of one or more objective markers, you can re-roll the Charge roll.
-- **Leader:** This model can be attached to the following units: Chosen, Legionaries, Red Corsairs Raiders
+#### Invulnerable Save (4+) (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
+
+#### Brutal Raider (Abilities)
+- **Description:** Each time this model's unit ends a Charge move, until the end of the turn, add 1 to the Strength characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1.
+
+#### Raider's Due (Abilities)
+- **Description:** Each time this unit declares a Charge that targets one or more units that are within range of one or more objective markers, you can re-roll the Charge roll.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units: **Chosen, Legionaries, Red Corsairs Raiders**
 
 ---
 
-### Rendmaster on Blood Throne
-**Points:** 165 | **M:** 8" | **T:** 9 | **SV:** 4+ | **W:** 9 | **LD:** 7+ | **OC:** 3
-**Keywords:** Mounted, Character, Chaos, Daemon, Khorne, Rendmaster on Blood Throne, Khorne non-Battleline, Shadow Legion
+### Relic Contemptor Dreadnought [Legends]
+**Points:** 140 | **M:** 6" | **T:** 9 | **SV:** 2+ | **W:** 10 | **LD:** 6+ | **OC:** 3
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Walker, Dreadnought, Relic Contemptor Dreadnought
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Attendant's hellblades | Melee | Melee | 4 | 3+ | 5 | -2 | 2 | Extra Attacks |
+| ➤ Cyclone missile launcher - frag | Ranged | 36" | 2D6 | 3+ | 4 | 0 | 1 | Blast |
+| ➤ Cyclone missile launcher - krak | Ranged | 36" | 2 | 3+ | 9 | -2 | D6 | - |
+| ➤ Heavy plasma cannon - standard | Ranged | 36" | D3 | 3+ | 7 | -2 | 2 | Blast |
+| ➤ Heavy plasma cannon - supercharge | Ranged | 36" | D3 | 3+ | 8 | -3 | 3 | Blast, Hazardous |
+| Conversion beam cannon | Ranged | 24" | 1 | 3+ | 7 | -1 | 3 | Conversion, Sustained Hits D3 |
+| Kheres assault cannon | Ranged | 24" | 6 | 3+ | 7 | -1 | 1 | Devastating Wounds |
+| Dreadnought chainfist | Melee | Melee | 4 | 3+ | 12 | -2 | 3 | Anti-VEHICLE 3+ |
+| Dreadnought combat weapon | Melee | Melee | 5 | 3+ | 12 | -2 | 3 | - |
+| Combi-bolter | Ranged | 24" | 2 | 3+ | 4 | 0 | 1 | Rapid Fire 2 |
+| ➤ Plasma blaster - standard | Ranged | 18" | 2 | 3+ | 7 | -2 | 1 | - |
+| ➤ Plasma blaster - supercharge | Ranged | 18" | 2 | 3+ | 8 | -3 | 2 | Hazardous |
+| Graviton blaster | Ranged | 18" | 2 | 3+ | 5 | -1 | 1 | Anti-Vehicle 2+ |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Blood Throne:** At the start of the Fight phase, select one enemy unit within 18" of and visible to this model. Until the end of the phase, each time a friendly KHORNE LEGIONES DAEMONICA unit makes an attack that targets that unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1.
-- **Champion Slayer:** Each time this model makes a melee attack that targets a CHARACTER or MONSTER unit, you can re-roll the Wound roll. Each time this model destroys an enemy CHARACTER or MONSTER unit, this model regains up to D6 lost wounds.
+#### Even In Death I Serve (Abilities)
+- **Description:** The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
 
 ---
 
-### Rotigus
-**Points:** 265 | **M:** 7" | **T:** 12 | **SV:** 5+ | **W:** 22 | **LD:** 6+ | **OC:** 5
-**Keywords:** Monster, Character, Epic Hero, Psyker, Chaos, Daemon, Nurgle, Rotigus, Nurgle non-Battleline
+### Renegade Enforcer [Legends]
+**Points:** 65 | **M:** 6" | **T:** 3 | **SV:** 5+ | **W:** 3 | **LD:** 6+ | **OC:** 1
+**Keywords:** Heretic Astartes, Infantry, Character, Grenades, Chaos, Renegade Enforcer, Damned
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Streams of brackish filth | Ranged | 12" | 2D6 | N/A | 8 | -2 | 1 | Devastating Wounds, Ignores Cover, Torrent |
-| ➤ Gnarlrod - strike | Melee | Melee | 7 | 2+ | 10 | -3 | 3 | Lethal Hits, Psychic |
-| ➤ Gnarlrod - sweep | Melee | Melee | 14 | 2+ | 8 | -1 | 1 | Lethal Hits, Psychic |
+| Enforcer melee weapon | Melee | Melee | 4 | 3+ | 4 | 0 | 1 | - |
+| Power weapon | Melee | Melee | 3 | 3+ | 4 | -2 | 1 | - |
+| Power fist | Melee | Melee | 3 | 3+ | 6 | -2 | 2 | - |
+| Enforcer pistol | Ranged | 12" | 1 | 3+ | 4 | 0 | 1 | Pistol |
+| Autogun | Ranged | 24" | 1 | 3+ | 3 | 0 | 1 | Rapid Fire 1 |
+| Lasgun | Ranged | 24" | 1 | 3+ | 3 | 0 | 1 | Rapid Fire 1 |
+| Shotgun | Ranged | 18" | 2 | 3+ | 4 | 0 | 1 | Assault |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Virulent Blessing (Psychic):** At the start of the Fight phase, you can select one enemy unit within 24" of and visible to this model. Until the end of the phase, each time an attack made by a NURGLE LEGIONES DAEMONICA model is allocated to a model in that unit, add 1 to the Damage characteristic of that attack.
-- **Deluge of Nurgle (Aura):** While an enemy unit is within 6" of this model, subtract 2 from the Move characteristic and subtract 1 from the Objective Control characteristic of models in that unit.
+#### Brutal Example (Abilities)
+- **Description:** While this model is leading a unit, you can target that unit with the Insane Bravery Stratagem for 0CP, and can do so even if another unit from your army has already been targeted with that Stratagem this phase. Each time you use this ability, one Bodyguard model in that unit is destroyed.
+
+#### Enforcer (Abilities)
+- **Description:** This model's unit is eligible to declare a charge in a turn in which it Fell Back.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+■ TRAITOR GUARDSMEN SQUAD
+■ RENEGADE HEAVY WEAPONS SQUAD
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
+
+---
+
+### Renegade Heavy Weapons Squad [Legends]
+**Points:** 75 | **M:** 6" | **T:** 3 | **SV:** 5+ | **W:** 2 | **LD:** 7+ | **OC:** 2
+**Keywords:** Heretic Astartes, Infantry, Grenades, Chaos, Renegade Heavy Weapons Squad, Damned
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Renegade firearm | Ranged | 24" | 1 | 4+ | 3 | 0 | 1 | Rapid Fire 1 |
+| Close combat weapons | Melee | Melee | 2 | 4+ | 3 | 0 | 1 | - |
+| Heavy stubber | Ranged | 36" | 4 | 5+ | 4 | 0 | 1 | Heavy, Rapid Fire 3 |
+| Heavy bolter | Ranged | 36" | 3 | 5+ | 5 | -1 | 2 | Heavy, Sustained Hits 1 |
+| Autocannon | Ranged | 48" | 2 | 5+ | 9 | -1 | 3 | Heavy |
+| Lascannon | Ranged | 48" | 1 | 5+ | 12 | -3 | D6+1 | Heavy |
+| ➤ Missile launcher - frag | Ranged | 48" | D6 | 5+ | 4 | 0 | 1 | Blast, Heavy |
+| ➤ Missile launcher - krak | Ranged | 48" | 1 | 5+ | 9 | -2 | D6 | Blast |
+| Mortar | Ranged | 48" | D6 | 5+ | 5 | 0 | 1 | Blast, Heavy, Indirect Fire |
+
+**Abilities:**
+
+#### Covering Fire (Abilities)
+- **Description:** Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+.
+
+---
+
+### Renegade Ogryn Beast Handler [Legends]
+**Points:** 40 | **M:** 6" | **T:** 6 | **SV:** 5+ | **W:** 4 | **LD:** 7+ | **OC:** 1
+**Keywords:** Heretic Astartes, Beast, Chaos, Renegade Ogryn Beast Handler, Damned
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Mauler goad and ripper claw | Melee | Melee | 4 | 3+ | 6 | -1 | 2 | - |
+| Befouled fangs and claws | Melee | Melee | 2 | 3+ | 5 | 0 | 1 | - |
+
+**Abilities:**
+
+#### Beastmaster (Abilities)
+- **Description:** While this unit contains an Ogryn Pack Master model, you can re-roll Charge rolls made for this unit, and each time a Chaos Mauler Hound model in this unit makes an attack, re-roll a Hit roll of 1.
+
+---
+
+### Renegade Ogryn Brutes [Legends]
+**Points:** 95 | **M:** 6" | **T:** 6 | **SV:** 5+ | **W:** 3 | **LD:** 7+ | **OC:** 1
+**Keywords:** Heretic Astartes, Infantry, Chaos, Renegade Ogryn Brutes, Damned
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Ogryn weapon | Melee | Melee | 3 | 3+ | 6 | -1 | 2 | - |
+| Ogryn power drill | Melee | Melee | 3 | 3+ | 10 | -2 | 2 | - |
+
+**Abilities:**
+
+#### Ogryn Combat Stimms (Abilities)
+- **Description:** Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.
+
+---
+
+### Renegade Plague Ogryns [Legends]
+**Points:** 95 | **M:** 5" | **T:** 7 | **SV:** 5+ | **W:** 3 | **LD:** 7+ | **OC:** 1
+**Keywords:** Heretic Astartes, Infantry, Chaos, Nurgle, Renegade Plague Ogryns, Damned
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Ogryn plague claws | Melee | Melee | 3 | 3+ | 6 | -1 | 2 | Lethal Hits |
+
+**Abilities:**
+
+#### Wall of Muscle (Abilities)
+- **Description:** Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack.
+
+---
+
+### Rogue Psyker [Legends]
+**Points:** 60 | **M:** 6" | **T:** 3 | **SV:** 5+ | **W:** 3 | **LD:** 7+ | **OC:** 1
+**Keywords:** Heretic Astartes, Infantry, Character, Psyker, Chaos, Rogue Psyker, Damned
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Chaos stave | Melee | Melee | 1 | 4+ | 6 | -1 | D3 | Psychic |
+| Laspistol | Ranged | 12" | 1 | 4+ | 3 | 0 | 1 | Pistol |
+| ➤ Psychic Strike - focused witchfire | Ranged | 12" | D6+3 | 3+ | 6 | -2 | 2 | Blast, Devastating Wounds, Hazardous, Psychic |
+| ➤ Psychic Strike - witchfire | Ranged | 12" | D6 | 3+ | 6 | -2 | 1 | Blast, Devastating Wounds, Psychic |
+
+**Abilities:**
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+■ ACCURSED CULTISTS
+■ CULTIST MOB
+■ NEGAVOLT CULTISTS
+
+#### Cursed Wardings (Psychic) (Abilities)
+- **Description:** While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks.
+
+#### Psychic Barrier (Psychic) (Abilities)
+- **Description:** At the start of your opponent’s Shooting phase, you can roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, models in this PSYKER’s unit have a 4+ invulnerable save.
 
 ---
 
 ### Rubric Marines
 **Points:** 100 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 7+ | **OC:** 2
-**Keywords:** Infantry, Battleline, Chaos, Tzeentch, Rubric Marines, Rubricae
+**Keywords:** Heretic Astartes, Infantry, Battleline, Chaos, Tzeentch, Rubric Marines, Rubricae
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2039,188 +2300,116 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 | Inferno boltgun | Ranged | 24" | 2 | 3+ | 4 | -2 | 1 | - |
 | Close combat weapon | Melee | Melee | 2 | 3+ | 4 | 0 | 1 | - |
 | Warpflamer | Ranged | 12" | D6 | N/A | 4 | -1 | 1 | Ignores Cover, Torrent |
+| Close combat weapon | Melee | Melee | 2 | 3+ | 4 | 0 | 1 | - |
+| Close combat weapon | Melee | Melee | 2 | 3+ | 4 | 0 | 1 | - |
 | Soulreaper cannon | Ranged | 24" | 6 | 3+ | 6 | -2 | 1 | Devastating Wounds |
 
 **Abilities:**
 
-- **Bringers of Change:** Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If the target of that attack is within range of an objective marker you do not control, you can re-roll the Wound roll instead.
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
-- **Icon of Flame:** Ranged weapons equipped by models in this unit (excluding Characters) have the [Ignores Cover] ability.
+#### Bringers of Change (Abilities)
+- **Description:** Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If the target of that attack is within range of an objective marker you do not control, you can re-roll the Wound roll instead.
+
+#### Invulnerable Save (Abilities)
+- **Description:** Models in this unit have a 5+ invulnerable save.
+
+#### Icon of Flame (Abilities)
+- **Description:** Ranged weapons equipped by models in this unit (excluding **Characters**) have the [Ignores Cover] ability.
 
 ---
 
-### Screamers
-**Points:** 80 | **M:** 14" | **T:** 4 | **SV:** 6+ | **W:** 3 | **LD:** 7+ | **OC:** 1
-**Keywords:** Beast, Fly, Chaos, Daemon, Tzeentch, Screamers, Tzeentch non-Battleline, Shadow Legion
+### Sicaran Battle Tank [Legends]
+**Points:** 160 | **M:** 10" | **T:** 11 | **SV:** 2+ | **W:** 14 | **LD:** 6+ | **OC:** 4
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Smoke, Sicaran Battle Tank
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Lamprey bite | Melee | Melee | 3 | 3+ | 6 | -2 | 2 | Anti-MONSTER 4+, Anti-VEHICLE 4+ |
+| Herakles-pattern autocannon | Ranged | 48" | 6 | 3+ | 9 | -1 | 3 | Rapid Fire 2 |
 
 **Abilities:**
 
-- **Invulnerable Save:** Models in this unit have a 4+ invulnerable save.
-- **Slashing Dive:** In your Movement phase, after this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound.
+#### Armoured Spearhead (Abilities)
+- **Description:** Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.
 
 ---
 
-### Seekers
-**Points:** 80 | **M:** 14" | **T:** 4 | **SV:** 7+ | **W:** 2 | **LD:** 7+ | **OC:** 1
-**Keywords:** Mounted, Chaos, Daemon, Slaanesh, Seekers, Slaanesh non-Battleline, Shadow Legion
+### Sicaran Punisher [Legends]
+**Points:** 160 | **M:** 10" | **T:** 11 | **SV:** 2+ | **W:** 14 | **LD:** 6+ | **OC:** 4
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Smoke, Sicaran Punisher
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Lashing tongues | Melee | Melee | 2 | 4+ | 4 | 0 | 1 | Extra Attacks, Lethal Hits |
-| Slashing claws | Melee | Melee | 3 | 3+ | 4 | -1 | 1 | Devastating Wounds |
+| Punisher rotary cannon | Ranged | 36" | 18 | 4+ | 6 | 0 | 1 | Devastating Wounds |
 
 **Abilities:**
 
-- **Unholy Speed:** You can re-roll Advance and Charge rolls made for this unit.
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
+#### Rotating Death (Abilities)
+- **Description:** This model’s Punisher rotary cannon has the [SUSTAINED HITS 1] ability when targeting INFANTRY units.
 
 ---
 
-### Shalaxi Helbane
-**Points:** 340 | **M:** 14" | **T:** 10 | **SV:** 3+ | **W:** 20 | **LD:** 6+ | **OC:** 5
-**Keywords:** Monster, Character, Epic Hero, Psyker, Chaos, Daemon, Slaanesh, Shalaxi Helbane, Slaanesh non-Battleline
+### Sicaran Venator [Legends]
+**Points:** 180 | **M:** 10" | **T:** 11 | **SV:** 2+ | **W:** 14 | **LD:** 6+ | **OC:** 4
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Smoke, Sicaran Venator
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Lash of Slaanesh | Ranged | 12" | 6 | 2+ | 6 | -1 | 2 | Assault |
-| ➤ Pavane of Slaanesh - witchfire | Ranged | 18" | D6 | 2+ | 9 | -1 | D3 | Devastating Wounds, Psychic |
-| ➤ Pavane of Slaanesh - focused witchfire | Ranged | 18" | D6 | 2+ | 9 | -2 | D3 | Hazardous, Devastating Wounds, Psychic, Sustained Hits 3 |
-| Snapping claws | Melee | Melee | 4 | 2+ | 6 | -2 | 3 | Devastating Wounds, Extra Attacks |
-| Soulpiercer | Melee | Melee | 6 | 2+ | 12 | -3 | D6+2 | Precision |
+| Venator neutron laser | Ranged | 48" | 3 | 3+ | 16 | -4 | D3+3 | Heavy |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **No Prey Can Evade:** You can re-roll Advance and Charge rolls made for this model.
-- **Monarch of the Hunt:** At the start of the first battle round, select one enemy unit to be this model’s quarry. Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model’s quarry is destroyed, select one new enemy unit to be this model’s quarry.
+#### Ferocious Assault (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll.
 
 ---
 
-### Skarbrand
-**Points:** 305 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 20 | **LD:** 6+ | **OC:** 5
-**Keywords:** Monster, Character, Epic Hero, Chaos, Daemon, Khorne, Skarbrand, Khorne non-Battleline
+### Sokar-pattern Stormbird [Legends]
+**Points:** 900 | **M:** 20"+ | **T:** 13 | **SV:** 2+ | **W:** 40 | **LD:** 6+ | **OC:** 0
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Titanic, Fly, Transport, Sokar-pattern Stormbird, Aircraft
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Bellow of endless fury | Ranged | 12" | 2D6 | N/A | 8 | -1 | 1 | Ignores Cover, Torrent |
-| ➤ Slaughter and Carnage - strike | Melee | Melee | 8 | 2+ | 16 | -4 | 6 | - |
-| ➤ Slaughter and Carnage - sweep | Melee | Melee | 16 | 2+ | 8 | -2 | 2 | - |
+| Armoured hull | Melee | Melee | 9 | 4+ | 9 | 0 | 1 | - |
+| Hellstrike missile battery | Ranged | 48" | 4 | 3+ | 10 | -3 | D6 | Anti-Fly 3+ |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Rage Embodied (Aura):** While a friendly Khorne Legiones Daemonica unit is within 6" of this model, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit.
-- **Murderlust:** This unit is eligible to declare a charge in a turn in which it Advanced.
-- **Damaged: 1-7 wounds remaining:** While this model has 1-7 wounds remaining, add 2 to the Attacks characteristic of this model’s Slaughter and Carnage.
+#### Damaged: 1-13 wounds remaining (Abilities)
+- **Description:** While this model has 1-13 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.
 
----
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save against ranged attacks
 
-### Skull Altar
-**Points:** 105 | **M:** - | **T:** 12 | **SV:** 3+ | **W:** 10 | **LD:** 7+ | **OC:** 0
-**Keywords:** Fortification, Chaos, Daemon, Khorne, Skull Altar, Khorne non-Battleline, Shadow Legion
-
-**Abilities:**
-
-- **Shadow of Khorne (Aura):** The area of the battlefield within 6" of this FORTIFICATION is considered to be within your army’s Shadow of Chaos. In addition, while a friendly KHORNE LEGIONES DAEMONICA unit is within 6" of this Fortification, each time you take a Battle-shock test for that unit, you can re-roll that test.
-- **Cover:** Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack.
-
----
-
-### Skull Cannon
-**Points:** 95 | **M:** 8" | **T:** 9 | **SV:** 4+ | **W:** 9 | **LD:** 7+ | **OC:** 3
-**Keywords:** Mounted, Chaos, Daemon, Khorne, Skull Cannon, Khorne non-Battleline, Shadow Legion
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Attendant's hellblades | Melee | Melee | 4 | 3+ | 5 | -2 | 2 | Extra Attacks |
-| Biting maw | Melee | Melee | 2 | 4+ | 6 | 0 | 2 | - |
-| Skull cannon | Ranged | 48" | D6+2 | 3+ | 9 | -1 | 2 | Blast |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Skulls of the Fallen:** In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test.
-
----
-
-### Skullmaster
-**Points:** 100 | **M:** 10" | **T:** 7 | **SV:** 3+ | **W:** 6 | **LD:** 7+ | **OC:** 2
-**Keywords:** Mounted, Character, Chaos, Daemon, Khorne, Skullmaster, Khorne non-Battleline, Shadow Legion
-
-**Abilities:**
-
-- **Invulnerable Save: Skullmaster:** This model has a 4+ invulnerable save.
-- **Skullmaster’s Fury:** While this model is leading a unit, each time that unit ends a Charge move, until the end of the turn, Juggernaut’s bladed horns equipped by models in that unit have the [DEVASTATING WOUNDS] ability.
-- **Devastating Charge:** Each time this model’s unit ends a Charge move, each enemy unit within Engagement Range of that unit must take a Battle-shock test.
-- **Leader:** This model can be attached to the following units:
-■ BLOODCRUSHERS
-
----
-
-### Skulltaker
-**Points:** 85 | **M:** 8" | **T:** 4 | **SV:** 4+ | **W:** 5 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Character, Epic Hero, Chaos, Daemon, Khorne, Skulltaker, Khorne non-Battleline
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| The Slayer Sword | Melee | Melee | 6 | 2+ | 6 | -2 | 3 | Devastating Wounds, Precision |
-
-**Abilities:**
-
-- **Invulnerable Save: Skulltaker:** This model has a 4+ invulnerable save.
-- **Lord of Decapitations:** While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability.
-- **Skulls for Khorne:** Each time this model makes an attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model destroys an enemy Character unit, you gain 1CP.
-- **Leader:** This model can be attached to the following unit:
-■ BLOODLETTERS
-
----
-
-### Sloppity Bilepiper
-**Points:** 55 | **M:** 5" | **T:** 5 | **SV:** 7+ | **W:** 5 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Character, Chaos, Daemon, Nurgle, Sloppity Bilepiper, Nurgle non-Battleline, Shadow Legion
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Marotter | Melee | Melee | 4 | 3+ | 5 | 0 | 1 | Lethal Hits |
-
-**Abilities:**
-
-- **Invulnerable Save: Sloppity Bilepiper:** This model has a 5+ invulnerable save.
-- **Leader:** This model can be attached to the following unit:
-■ PLAGUEBEARERS
-- **Jolly Gutpipes:** While this model is leading a unit, add 1 to the Move characteristic of models in that unit and you can re-roll Advance rolls made for that unit.
-- **Disease of Mirth (Aura):** At the start of the Fight phase, every enemy unit (excluding Monsters and Vehicles) within 6" of this model must take a Battle-shock test.
+#### Aerial Assault (Abilities)
+- **Description:** Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
 
 ---
 
 ### Sorcerer
 **Points:** 60 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Psyker, Grenades, Chaos, Sorcerer
+**Keywords:** Heretic Astartes, Infantry, Character, Psyker, Grenades, Chaos, Sorcerer
 
 **Abilities:**
 
-- **Leader:** This model can be attached to the following units:
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ CHOSEN
 ■ LEGIONARIES
-- **Prescience (Psychic):** While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll.
-- **Gift of Chaos (Psychic):** Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC] ability. That unit must take a Leadership test: if that test is failed, that unit suffers D3 mortal wounds.
+
+#### Prescience (Psychic) (Abilities)
+- **Description:** While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll.
+
+#### Gift of Chaos (Psychic) (Abilities)
+- **Description:** Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC] ability. That unit must take a Leadership test: if that test is failed, that unit suffers D3 mortal wounds.
 
 ---
 
 ### Sorcerer in Terminator Armour
 **Points:** 80 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Psyker, Chaos, Terminator, Sorcerer in Terminator Armour
+**Keywords:** Heretic Astartes, Infantry, Character, Psyker, Chaos, Terminator, Sorcerer in Terminator Armour
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2230,155 +2419,231 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Leader:** This model can be attached to the following units:
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ CHAOS TERMINATOR SQUAD
-- **Warptime (Psychic):** While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit.
-- **Death Hex (Psychic):** At the start of your Shooting phase, one PSYKER with this ability can use it. If it does, select one enemy unit within 12" of and visible to that PSYKER and roll one D6: on a 1, that PSYKER's unit suffers D3 mortal wounds; on a 2+, until the start of your next Movement phase, each time an attack targets that enemy unit, improve the Armour Penetration  characteristic of that attack by 1.
-- **Chaos Familiar:** Once per battle, when an attack is allocated to the bearer, you can change the Damage characteristic to 0.
+
+#### Warptime (Psychic) (Abilities)
+- **Description:** While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit.
+
+#### Death Hex (Psychic) (Abilities)
+- **Description:** At the start of your Shooting phase, one PSYKER with this ability can use it. If it does, select one enemy unit within 12" of and visible to that PSYKER and roll one D6: on a 1, that PSYKER's unit suffers D3 mortal wounds; on a 2+, until the start of your next Movement phase, each time an attack targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.
+
+#### Chaos Familiar (Abilities)
+- **Description:** Once per battle, when an attack is allocated to the bearer, you can change the Damage characteristic to 0.
+
+---
+
+### Sorcerer on Bike [Legends]
+**Points:** 75 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 2
+**Keywords:** Heretic Astartes, Mounted, Character, Grenades, Psyker, Chaos, Sorcerer on Bike
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Combi-bolter | Ranged | 24" | 2 | 2+ | 4 | 0 | 1 | Rapid Fire 2 |
+| Accursed weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 1 | - |
+| Combi-bolter | Ranged | 24" | 2 | 2+ | 4 | 0 | 1 | Rapid Fire 2 |
+| Power fist | Melee | Melee | 5 | 2+ | 8 | -2 | 2 | - |
+| Combi-weapon | Ranged | 24" | 1 | 2+ | 4 | 0 | 1 | Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1 |
+| Astartes chainsword | Melee | Melee | 5 | 3+ | 4 | -1 | 1 | - |
+
+**Abilities:**
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following unit:
+- CHAOS BIKERS
+
+#### Prescience (Psychic) (Abilities)
+- **Description:** While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll.
+
+#### Unholy Power (Abilities)
+- **Description:** Each time this model's unit makes a Dark Pact, until the end of the phase, each time this model makes a Psychic Attack, add 1 to the Wound roll.
+
+---
+
+### Sorcerer on Disc of Tzeentch [Legends]
+**Points:** 80 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 1
+**Keywords:** Infantry, Character, Grenades, Psyker, Fly, Chaos, Tzeentch, Sorcerer, Disc of Tzeentch, Heretic Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Accursed weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 1 | - |
+| Combi-bolter | Ranged | 24" | 2 | 2+ | 4 | 0 | 1 | Rapid Fire 2 |
+| Power fist | Melee | Melee | 5 | 2+ | 8 | -2 | 2 | - |
+| Combi-weapon | Ranged | 24" | 1 | 2+ | 4 | 0 | 1 | Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1 |
+| Astartes chainsword | Melee | Melee | 5 | 3+ | 4 | -1 | 1 | - |
+
+**Abilities:**
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following unit:
+- RUBRIC MARINES
+
+#### Flames of Change (Psychic) (Abilities)
+- **Description:** While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability.
+
+#### Altered Reality (Psychic) (Abilities)
+- **Description:** Once per battle round, after a Hit roll, a Wound roll or a saving throw is made for this model, you can change the result of that roll to a 6.
+
+---
+
+### Sorcerer on Palanquin of Nurgle [Legends]
+**Points:** 80 | **M:** 5" | **T:** 5 | **SV:** 3+ | **W:** 7 | **LD:** 6+ | **OC:** 2
+**Keywords:** Heretic Astartes, Infantry, Character, Grenades, Psyker, Chaos, Nurgle, Sorcerer, Palanquin of Nurgle
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Nurgling's claws and teeth | Melee | Melee | 4 | 5+ | 2 | 0 | 1 | Extra Attacks, Lethal Hits |
+| Accursed weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 1 | - |
+| Combi-bolter | Ranged | 24" | 2 | 2+ | 4 | 0 | 1 | Rapid Fire 2 |
+| Power fist | Melee | Melee | 5 | 2+ | 8 | -2 | 2 | - |
+| Astartes chainsword | Melee | Melee | 5 | 3+ | 4 | -1 | 1 | - |
+
+**Abilities:**
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following unit:
+■ PLAGUE MARINES
+
+#### Gift of Poxes (Psychic) (Abilities)
+- **Description:** While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.
+
+#### Feculent Despair (Aura, Psychic) (Abilities)
+- **Description:** While an enemy unit is within 6" of this model, each time that unit takes a Battle-shock test, subtract 1 from that test.
+
+---
+
+### Sorcerer on Steed of Slaanesh [Legends]
+**Points:** 85 | **M:** 14" | **T:** 5 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 2
+**Keywords:** Heretic Astartes, Mounted, Character, Grenades, Psyker, Chaos, Slaanesh, Sorcerer, Steed of Slaanesh
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Lashing tongue | Melee | Melee | 3 | 4+ | 4 | 0 | 1 | Extra Attacks, Lethal Hits |
+| Accursed weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 1 | - |
+| Combi-bolter | Ranged | 24" | 2 | 2+ | 4 | 0 | 1 | Rapid Fire 2 |
+| Power fist | Melee | Melee | 5 | 2+ | 8 | -2 | 2 | - |
+| Combi-weapon | Ranged | 24" | 1 | 2+ | 4 | 0 | 1 | Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1 |
+| Astartes chainsword | Melee | Melee | 5 | 3+ | 4 | -1 | 1 | - |
+
+**Abilities:**
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following unit:
+- CHAOS BIKERS
+
+#### Infernal Speed (Abilities)
+- **Description:** While this model is leading a unit, change the Move characteristic of models in that unit to 14".
+
+#### Dark Favour (Psychic) (Abilities)
+- **Description:** While this model is leading a unit, models in that unit have a 4+ invulnerable save.
 
 ---
 
 ### Sorcerous Champion [Crucible]
 **Points:** 80 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Chaos, Psyker, Sorcerous Champion
+**Keywords:** Character, Infantry, Grenades, Chaos, Psyker, Sorcerous Champion, Heretic Astartes
 
 **Abilities:**
 
-- **Leader:** This model can be attached to the following units: Chosen, Havocs, Legionaries, Nemesis Claw, Raiders
-- **Gift of Chaos (Psychic):** Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC} ability. That unit must take a Leadership test. If it fails, it suffers D3 mortal wounds.
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units: **Chosen, Havocs, Legionaries, Nemesis Claw, Raiders**
+
+#### Gift of Chaos (Psychic) (Abilities)
+- **Description:** Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC} ability. That unit must take a Leadership test. If it fails, it suffers D3 mortal wounds.
 
 ---
 
 ### Soul Forge Tyrant [Crucible]
 **Points:** 160 | **M:** 10" | **T:** 9 | **SV:** 2+ | **W:** 10 | **LD:** 6+ | **OC:** 4
-**Keywords:** Character, Chaos, Mounted, Daemon, Helstalker, Soul Forge Tyrant
+**Keywords:** Character, Chaos, Mounted, Daemon, Helstalker, Heretic Astartes, Soul Forge Tyrant
 
 **Abilities:**
 
-- **Leader:** This model can be attached to the following units: Chosen, Havocs, Legionaries, Nemesis Claw, Raiders
-- **Skulking Nightmare:** While this model is within 3" of one or more friendly Heretic Astartes Infantry units, this model has the Lone Operative ability.
-- **Invulnerable Save (5+):** This model has a 5+ invulnerable save.
+#### Skulking Nightmare (Abilities)
+- **Description:** While this model is within 3" of one or more friendly **Heretic Astartes Infantry** units, this model has the Lone Operative ability.
+
+#### Invulnerable Save (5+) (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
 
 ---
 
-### Spoilpox Scrivener
-**Points:** 60 | **M:** 5" | **T:** 5 | **SV:** 7+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Chaos, Daemon, Nurgle, Spoilpox Scrivener, Nurgle non-Battleline, Shadow Legion
+### Spartan [Legends]
+**Points:** 300 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 18 | **LD:** 6+ | **OC:** 6
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Transport, Smoke, Spartan
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Disgusting Sneezes | Ranged | 6" | D6 | N/A | 3 | 0 | 1 | Pistol, Torrent |
-| Plaguesword and distended maw | Melee | Melee | 6 | 3+ | 5 | -1 | 1 | Lethal Hits |
-
-**Abilities:**
-
-- **Leader:** This model can be attached to the following unit:
-■ PLAGUE BEARERS
-- **Invulnerable Save:** This model has a 5+ invulnerable save.
-- **Keep Counting!:** While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.
-- **Meet Your Quota!:** While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit.
+| Quad lascannon | Ranged | 48" | 4 | 3+ | 12 | -3 | D6+1 | - |
+| Laser destroyer | Ranged | 36" | 3 | 3+ | 14 | -4 | D6+1 | Heavy |
 
 ---
 
-### Syll'esske
-**Points:** 120 | **M:** 9" | **T:** 6 | **SV:** 6+ | **W:** 9 | **LD:** 6+ | **OC:** 2
-**Keywords:** Monster, Character, Epic Hero, Psyker, Chaos, Daemon, Slaanesh, Syll'esske, Slaanesh non-Battleline
+### Storm Eagle Gunship [Legends]
+**Points:** 250 | **M:** 20+" | **T:** 10 | **SV:** 3+ | **W:** 18 | **LD:** 6+ | **OC:** 0
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Fly, Aircraft, Transport, Storm Eagle Gunship
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Axe of Dominion | Melee | Melee | 6 | 3+ | 7 | -2 | 3 | - |
-| Scourging whip | Melee | Melee | 6 | 2+ | 4 | -1 | 1 | Extra Attacks |
-| Scourging whip | Ranged | 9" | 6 | 3+ | 4 | -1 | 1 | Assault |
-| ➤ Cacophonic choir - witchfire | Ranged | 12" | D6 | N/A | 6 | -1 | 1 | Devastating Wounds, Ignores Cover, Psychic, Torrent |
-| ➤ Cacophonic choir - focused witchfire | Ranged | 12" | 2D6 | N/A | 6 | -1 | 1 | Devastating Wounds, Hazardous, Ignores Cover, Psychic, Torrent |
+| Vengeance launcher | Ranged | 48" | 2D6 | 3+ | 6 | 0 | 1 | Blast |
+| Twin multi-melta | Ranged | 18" | 2 | 3+ | 9 | -4 | D6 | Melta 2, Twin-linked |
+| ➤ Typhoon missile launcher - frag | Ranged | 48" | 2D6 | 3+ | 4 | 0 | 1 | Blast |
+| ➤ Typhoon missile launcher - krak | Ranged | 48" | 2 | 3+ | 9 | -2 | D6 | - |
+| Twin hellstrike launcher | Ranged | 72" | 2 | 3+ | 10 | -3 | D6 | Anti-Fly 2+, Twin-linked |
 
 **Abilities:**
 
-- **Invulnerable Save: Syll'esske:** This model has a 4+ invulnerable save.
-- **Prince of Slaanesh:** While this model is leading a unit, each time a model in that unit makes a melee attack, a successful unmodified Wound roll of 5+ scores a Critical Wound.
-- **Delightful Agonies:** The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining.
-- **Leader:** This model can be attached to the following unit:
-■ DAEMONETTES
+#### Armoured Resilience (Abilities)
+- **Description:** Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.
 
 ---
 
-### The Blue Scribes
-**Points:** 75 | **M:** 12" | **T:** 4 | **SV:** 6+ | **W:** 6 | **LD:** 8+ | **OC:** 2
-**Keywords:** Mounted, Character, Epic Hero, Fly, Chaos, Daemon, Tzeentch, The Blue Scribes, Tzeentch non-Battleline
+### Surgeon Acolyte
+**Points:** 0 | **M:** 6" | **T:** 4 | **SV:** 6+ | **W:** 1 | **LD:** 7+ | **OC:** 1
+**Keywords:** Infantry, Chaos, Chaos Undivided
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Sharp quills | Melee | Melee | 4 | 5+ | 2 | 0 | 1 | Anti-PSYKER 2+ |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **P’tarix’s Sorcerous Syphon (Aura):** While an enemy unit is within 12" of this model, each time a model in that unit makes a Psychic Attack, subtract 1 from the Wound roll.
-- **Xirat’p’s Sorcerous Barrages (Psychic):** At the end of your Movement phase, roll one D6 for each enemy unit within 6" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds.
+| Surgeon Acolyte's tools | Melee | Melee | 1 | 5+ | 3 | 0 | 1 | - |
 
 ---
 
-### The Changeling
-**Points:** 90 | **M:** 6" | **T:** 3 | **SV:** 7+ | **W:** 5 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Character, Epic Hero, Psyker, Chaos, Daemon, Tzeentch, The Changeling, Tzeentch non-Battleline
+### Terrax-pattern Termite [Legends]
+**Points:** 200 | **M:** 8" | **T:** 10 | **SV:** 3+ | **W:** 14 | **LD:** 6+ | **OC:** 2
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Transport, Dedicated Transport, Terrax-pattern Termite
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| The Trickster's Staff | Melee | Melee | 3 | 4+ | 4 | -1 | D3 | Psychic |
-| ➤ Infernal Flames - witchfire | Ranged | 12" | D6 | N/A | 6 | -1 | 1 | Ignores Cover, Psychic, Torrent |
-| ➤ Infernal Flames - focused witchfire | Ranged | 12" | D6+3 | N/A | 6 | -1 | D3 | Hazardous, Ignores Cover, Psychic, Torrent |
+| Termite drill | Melee | Melee | 6 | 4+ | 14 | -2 | D3+3 | Anti-VEHICLE 3+ |
+| Terrax melta cutter | Ranged | 12" | 5 | 3+ | 9 | -4 | D6 | Melta 2 |
+| Twin volkite charger | Ranged | 18" | 2 | 3+ | 5 | 0 | 2 | Devastating Wounds, Twin-linked |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Formless Horror:** Each time an enemy unit wishes to select this model as the target of an attack, that unit must first take a Battle-shock test. If that test is failed, in addition to being Battle-shocked, that enemy unit cannot target this model this phase.
-- **Mischief and Confusion:** At the start of your opponent’s Shooting phase, select one enemy unit within 12" of and visible to this model and roll one D6: on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, that enemy unit is not eligible to shoot this phase
+#### Termite Assault (Abilities)
+- **Description:** This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9" away from all enemy models.
 
 ---
 
-### The Masque of Slaanesh
-**Points:** 95 | **M:** 9" | **T:** 3 | **SV:** 7+ | **W:** 4 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Character, Epic Hero, Fly, Chaos, Daemon, Slaanesh, The Masque of Slaanesh, Slaanesh non-Battleline
+### Torment
+**Points:** 0 | **M:** 6" | **T:** 4 | **SV:** 6+ | **W:** 3 | **LD:** 7+ | **OC:** 1
+**Keywords:** Chaos Space Marines
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Serrated claws | Melee | Melee | 6 | 2+ | 4 | -1 | 2 | Devastating Wounds |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **The Eternal Dance:** At the start of the Fight phase, select one enemy unit within 6" of this model. Until the end of the phase:
-■ Each time a friendly SLAANESH LEGIONES DAEMONICA model makes a melee attack that targets that enemy unit, add 1 to the Wound roll.
-■ Each time a model in that enemy unit makes a melee attack, subtract 1 from the Wound roll.
-- **Dazzling Acrobatics:** This model is eligible to declare a charge in a turn in which it Advanced or Fell Back.
-
----
-
-### Tormentbringer
-**Points:** 140 | **M:** 14" | **T:** 6 | **SV:** 5+ | **W:** 12 | **LD:** 7+ | **OC:** 3
-**Keywords:** Mounted, Character, Psyker, Chaos, Daemon, Slaanesh, Tormentbringer, Slaanesh non-Battleline, Shadow Legion
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Lashes of torment | Ranged | 12" | 6 | 2+ | 4 | -1 | 2 | Anti-INFANTRY 3+, Assault, Pistol |
-| Lashes of torment | Melee | Melee | 6 | 2+ | 4 | -1 | 2 | Anti-INFANTRY 3+, Extra Attacks |
-| Seeker tongues | Melee | Melee | 4 | 4+ | 4 | 0 | 1 | Extra Attacks, Lethal Hits |
-| Slashing claws | Melee | Melee | 8 | 3+ | 4 | -1 | 1 | Devastating Wounds |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Tormentbringer (Aura):** While a friendly Slaanesh Legions Daemonica unit is within 6" of this model, melee weapons in that unit have the [SUSTAINED HITS 1] ability.
-- **Hysterical Frenzy:** Each time a model in this model’s unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.
-- **Leader:** This model can be attached to the following unit: 
-- Hellflayers
+| Hideous mutations | Melee | Melee | D6+2 | 4+ | 5 | -1 | 2 | - |
 
 ---
 
@@ -2394,17 +2659,24 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 
 **Abilities:**
 
-- **Leader:** This unit can be attached to the following unit:
+#### Leader (Abilities)
+- **Description:** This unit can be attached to the following unit:
 ■ TRAITOR GUARDSMAN SQUAD
-- **Brutal Example:** Once per turn, while this unit is leading a unit and contains a TRAITOR ENFORCER model, you can target that unit with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted a different unit from your army with that Stratagem this phase. Each time you use this ability, one Bodyguard model in that unit is destroyed.
-- **Mutated Bodyguard:** While this unit contains a Traitor Ogryn model, CHARACTER models in this unit have the Feel No Pain 4+ ability.
-- **Invulnerable Save:** This unit's TRAITOR ENFORCER model has a 5+ invulnerable save
+
+#### Brutal Example (Abilities)
+- **Description:** Once per turn, while this unit is leading a unit and contains a TRAITOR ENFORCER model, you can target that unit with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted a different unit from your army with that Stratagem this phase. Each time you use this ability, one Bodyguard model in that unit is destroyed.
+
+#### Mutated Bodyguard (Abilities)
+- **Description:** While this unit contains a Traitor Ogryn model, CHARACTER models in this unit have the Feel No Pain 4+ ability.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This unit's TRAITOR ENFORCER model has a 5+ invulnerable save
 
 ---
 
 ### Traitor Guardsmen Squad
 **Points:** 70 | **M:** 6" | **T:** 3 | **SV:** 5+ | **W:** 1 | **LD:** 7+ | **OC:** 2
-**Keywords:** Infantry, Grenades, Chaos, Traitor Guardsmen Squad, Damned
+**Keywords:** Heretic Astartes, Infantry, Grenades, Chaos, Traitor Guardsmen Squad, Damned
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2424,32 +2696,41 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 
 **Abilities:**
 
-- **Twisted Defence Force:** While this unit is within range of an objective marker, each time a ranged attack targets this unit, models in this unit have the Benefit of Cover against that attack.
+#### Twisted Defence Force (Abilities)
+- **Description:** While this unit is within range of an objective marker, each time a ranged attack targets this unit, models in this unit have the Benefit of Cover against that attack.
 
 ---
 
-### Tranceweaver
-**Points:** 60 | **M:** 9" | **T:** 3 | **SV:** 7+ | **W:** 3 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Character, Psyker, Chaos, Daemon, Slaanesh, Tranceweaver, Slaanesh non-Battleline, Shadow Legion
+### Traitor Ogryn
+**Points:** 0 | **M:** 6" | **T:** 6 | **SV:** 5+ | **W:** 4 | **LD:** 7+ | **OC:** 1
+**Keywords:** Heretic Astartes, Infantry, Grenades, Chaos
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Ravaging claws | Melee | Melee | 6 | 2+ | 4 | -1 | 1 | Devastating Wounds |
+| Ogryn weapons | Melee | Melee | 5 | 3+ | 7 | -1 | 2 | - |
+
+---
+
+### Typhon [Legends]
+**Points:** 320 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 18 | **LD:** 6+ | **OC:** 6
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Smoke, Typhon
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Dreadhammer siege cannon | Ranged | 24" | D6+6 | 3+ | 14 | -3 | D6 | Blast |
 
 **Abilities:**
 
-- **Invulnerable Save: Tranceweaver:** This model has a 5+ invulnerable save.
-- **Tranceweaver:** Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker, you can re-roll the Hit roll instead.
-- **Symphony of Pain (Psychic):** At the end of your Movement phase, you can select one enemy unit that is Battle-shocked and within 12" of this model. Until the end of the turn, each time a SLAANESH LEGIONES DAEMONICA model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll.
-- **Leader:** This model can be attached to the following unit:
-■ DAEMONETTES
+#### Sunderer of Fortresses (Abilities)
+- **Description:** Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristic of that attack by 1 (if that attack targets a FORTIFICATION unit, improve the Strength and Damage characteristics of that attack by 2 instead).
 
 ---
 
 ### Vashtorr the Arkifane
 **Points:** 175 | **M:** 12" | **T:** 10 | **SV:** 2+ | **W:** 14 | **LD:** 6+ | **OC:** 3
-**Keywords:** Monster, Character, Epic Hero, Fly, Chaos, Daemon, Vashtorr the Arkifane
+**Keywords:** Heretic Astartes, Monster, Character, Epic Hero, Fly, Chaos, Daemon, Vashtorr the Arkifane
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2460,16 +2741,20 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Unholy Mechanisms (Aura):** While a friendly Daemon Vehicle unit is within 6" of this model, add 2 to the Strength characteristic of weapons equipped by models in that unit.
-- **Reorder Reality:** Each time an enemy unit within 18" of this model targets this model, subtract 1 from the Hit roll and, until the end of the phase, that enemy unit’s ranged weapons have the [HAZARDOUS] ability.
-- **Indentured Daemon Engines:** While this model is within 3" of one or more friendly Daemon Vehicle units, this model has the Lone Operative ability.
+#### Unholy Mechanisms (Aura) (Abilities)
+- **Description:** While a friendly **Daemon Vehicle** unit is within 6" of this model, add 2 to the Strength characteristic of weapons equipped by models in that unit.
+
+#### Reorder Reality (Abilities)
+- **Description:** Each time an enemy unit within 18" of this model targets this model, subtract 1 from the Hit roll and, until the end of the phase, that enemy unit’s ranged weapons have the [HAZARDOUS] ability.
+
+#### Indentured Daemon Engines (Abilities)
+- **Description:** While this model is within 3" of one or more friendly **Daemon Vehicle** units, this model has the Lone Operative ability.
 
 ---
 
 ### Venomcrawler
 **Points:** 110 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 9 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Walker, Chaos, Daemon, Venomcrawler
+**Keywords:** Heretic Astartes, Vehicle, Walker, Chaos, Daemon, Venomcrawler
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2479,196 +2764,59 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 5+ invulnerable save
-- **Soul Eater:** At the end of the Fight phase, if one or more attacks made by this model that phase destroyed one or more enemy units, until the end of the battle, add 1 to the Attacks characteristic of this model’s weapons.
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save
+
+#### Soul Eater (Abilities)
+- **Description:** At the end of the Fight phase, if one or more attacks made by this model that phase destroyed one or more enemy units, until the end of the battle, add 1 to the Attacks characteristic of this model’s weapons.
 
 ---
 
-### War Dog Brigand
-**Points:** 140 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 14 | **LD:** 7+ | **OC:** 6
-**Keywords:** Vehicle, Walker, Chaos, War Dog, Brigand
-
-**Abilities:**
-
-- **Brigand:** Ranged weapons equipped by this model have the [Ignores Cover] ability while targeting enemy units in range of one or more objective markers.
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-
----
-
-### War Dog Executioner
-**Points:** 130 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 14 | **LD:** 7+ | **OC:** 6
-**Keywords:** Vehicle, Walker, Chaos, War Dog, Executioner
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| War Dog autocannon | Ranged | 48" | 4 | 3+ | 9 | -1 | 3 | - |
-
-**Abilities:**
-
-- **Executioner:** Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll. Each time an enemy unit is destroyed as the result of this model's attacks, before removing the last model in that unit from the battlefield, each other unit from your opponent's army that is within 3" of it must take a Battle-shock test.
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-
----
-
-### War Dog Huntsman
-**Points:** 140 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 14 | **LD:** 7+ | **OC:** 6
-**Keywords:** Vehicle, Walker, Chaos, War Dog, Huntsman
-
-**Abilities:**
-
-- **Huntsman:** Each time this model makes an attack that targets a Monster or Vehicle unit, you can re-roll the Wound roll.
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-
----
-
-### War Dog Karnivore
-**Points:** 150 | **M:** 14" | **T:** 9 | **SV:** 3+ | **W:** 14 | **LD:** 7+ | **OC:** 6
-**Keywords:** Vehicle, Walker, Chaos, War Dog, Karnivore
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Reaper chaintalon | Melee | Melee | 12 | 3+ | 8 | -2 | 1 | Sustained Hits 1 |
-| Slaughterclaw | Melee | Melee | 6 | 3+ | 12 | -3 | D6+2 | Sustained Hits 1 |
-
-**Abilities:**
-
-- **Karnivore:** You can re-roll Advance and Charge rolls made for this model.
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-
----
-
-### War Dog Moirax
-**Points:** 150 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 14 | **LD:** 7+ | **OC:** 6
-**Keywords:** Vehicle, Walker, Chaos, War Dog, Moirax
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Volkite veuglaire | Ranged | 36" | 4 | 3+ | 8 | 0 | 2 | Devastating Wounds |
-| Conversion beam cannon | Ranged | 24" | 1 | 3+ | 10 | -2 | 3 | Conversion, Sustained Hits D3 |
-| Graviton pulsar | Ranged | 24" | D6 | 3+ | 7 | -1 | 2 | Anti-VEHICLE 2+, Blast |
-| Lightning lock | Ranged | 36" | 6 | 3+ | 8 | 0 | 1 | Sustained Hits 2 |
-| Rad cleanser | Ranged | 12" | D6 | N/A | 2 | 0 | 1 | Anti-INFANTRY 2+, Ignores Cover, Torrent |
-| Siege claw | Melee | Melee | 4 | 3+ | 12 | -3 | D6+2 | - |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-- **Protection Protocols:** You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.
-
----
-
-### War Dog Stalker
-**Points:** 140 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 14 | **LD:** 7+ | **OC:** 6
-**Keywords:** Vehicle, Walker, Chaos, War Dog, Stalker
-
-**Abilities:**
-
-- **Stalker:** Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6" of that target, add 1 to the Wound roll.
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
-
----
-
-### Warbringer Nemesis Titan
-**Points:** 2600 | **M:** 12" | **T:** 14 | **SV:** 2+ | **W:** 80 | **LD:** 6+ | **OC:** 20
-**Keywords:** Vehicle, Walker, Titanic, Towering, Warbringer Nemesis Titan
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Anvillus defence battery | Ranged | 72" | 8 | 3+ | 8 | -1 | 2 | Anti-FLY 4+ |
-| Ardex-defensor mauler | Ranged | 36" | 6 | 3+ | 6 | -2 | 2 | - |
-| Nemesis feet | Melee | Melee | 6 | 4+ | 12 | -2 | 4 | - |
-| Nemesis quake cannon | Ranged | 480" | D6+6 | 3+ | 16 | -4 | 4 | Blast, Indirect Fire |
-| Nemesis volcano cannon | Ranged | 120" | D3+3 | 3+ | 24 | -5 | 14 | Blast |
-| Reaver gatling blaster | Ranged | 72" | 12 | 3+ | 8 | -2 | 3 | Sustained Hits 1 |
-| Reaver laser blaster | Ranged | 72" | 8 | 3+ | 20 | -3 | D6+2 | Blast |
-| Reaver melta cannon | Ranged | 48" | D6+2 | 3+ | 13 | -4 | 6 | Blast, Melta 4 |
-| Reaver volcano cannon | Ranged | 120" | D3+1 | 3+ | 24 | -5 | 14 | Blast, Heavy |
-
-**Abilities:**
-
-- **Damaged: 1-26 wounds remaining:** While this model has 1-26 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks only.
-- **Titanic Fire Support:** In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.
-- **Striding Colossus:** Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.
-
----
-
-### Warhound Titan
-**Points:** 1100 | **M:** 14" | **T:** 13 | **SV:** 2+ | **W:** 40 | **LD:** 6+ | **OC:** 16
-**Keywords:** Vehicle, Walker, Titanic, Towering, Warhound Titan
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Warhound feet | Melee | Melee | 8 | 4+ | 10 | -1 | 2 | - |
-| Warhound vulcan mega-bolter | Ranged | 48" | 20 | 3+ | 6 | -1 | 2 | Sustained Hits 1 |
-| Warhound inferno gun | Ranged | 24" | 3D6 | N/A | 7 | -2 | 3 | Ignores Cover, Torrent |
-| ➤ Warhound plasma blastgun - standard | Ranged | 72" | 2D6+3 | 3+ | 9 | -3 | 4 | Blast |
-| ➤ Warhound plasma blastgun - supercharge | Ranged | 72" | 2D6+3 | 3+ | 10 | -3 | 5 | Blast, Hazardous |
-| Warhound turbo-laser destructor | Ranged | 72" | D3+3 | 3+ | 20 | -3 | 2D6 | Blast |
-
-**Abilities:**
-
-- **Flank Speed:** Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 8" to the Move characteristic of this model.
-- **Damaged: 1-13 wounds remaining:** While this model has 1-13 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks only.
-- **Striding Colossus:** Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so.
-
----
-
-### Warlord Titan
-**Points:** 3500 | **M:** 10" | **T:** 16 | **SV:** 2+ | **W:** 100 | **LD:** 6+ | **OC:** 30
-**Keywords:** Vehicle, Walker, Titanic, Towering, Warlord Titan
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Arioch power claw | Ranged | 48" | 20 | 3+ | 6 | -1 | 2 | Sustained Hits 1 |
-| ➤ Arioch power claw - strike | Melee | Melee | 6 | 4+ | 20 | -4 | 24 | - |
-| ➤ Arioch power claw - sweep | Melee | Melee | 12 | 4+ | 12 | -3 | 8 | - |
-| Belicosa volcano cannon | Ranged | 120" | D3+3 | 3+ | 32 | -5 | 18 | Blast |
-| Macro gatling blaster | Ranged | 100" | 30 | 3+ | 9 | -2 | 3 | Sustained Hits 1 |
-| Mori quake cannon | Ranged | 280" | 3D6 | 3+ | 16 | -4 | 6 | Blast, Ignores Cover |
-| ➤ Sunfury plasma annihilator - standard | Ranged | 72" | 2D6+6 | 3+ | 10 | -3 | 5 | Blast |
-| ➤ Sunfury plasma annihilator - supercharge | Ranged | 72" | 2D6+6 | 3+ | 12 | -3 | 8 | Blast, Hazardous |
-| Apocalypse launcher | Ranged | 200" | 20 | 3+ | 8 | -2 | 2 | Blast, Indirect Fire |
-| Laser blaster | Ranged | 72" | 6 | 3+ | 16 | -4 | D6+3 | Blast |
-| Ardex-defensor lascannon | Ranged | 48" | 1 | 3+ | 12 | -3 | D6+1 | - |
-| Ardex-defensor mauler | Ranged | 36" | 6 | 3+ | 6 | -2 | 2 | - |
-| Warlord feet | Melee | Melee | 6 | 4+ | 12 | -2 | 4 | - |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks only.
-- **Damaged: 1-33 wounds remaining:** While this model has 1-33 wounds remaining, subtract 15 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
-- **Wrath of the Omnissiah:** In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.
-- **Striding Colossus:** Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so.
-
----
-
-### Warp Talons
-**Points:** 125 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Fly, Jump Pack, Chaos, Daemon, Warp Talons, Grenades
+### Warp Talon
+**Points:** 0 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
 | Warp claws | Melee | Melee | 4 | 3+ | 5 | -2 | 1 | Twin-linked |
 
+---
+
+### Warp Talon Champion
+**Points:** 0 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Chaos Space Marines
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Warp claws | Melee | Melee | 4 | 3+ | 5 | -2 | 1 | Twin-linked |
+
+---
+
+### Warp Talons
+**Points:** 125 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Heretic Astartes, Infantry, Fly, Jump Pack, Chaos, Daemon, Warp Talons, Grenades
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Warp claws | Melee | Melee | 4 | 3+ | 5 | -2 | 1 | Twin-linked |
+| Warp claws | Melee | Melee | 4 | 3+ | 5 | -2 | 1 | Twin-linked |
+
 **Abilities:**
 
-- **Warp Strike:** At the end of the Fight phase, if this unit destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves.
-- **Invulnerable Save (5+):** Models in this unit have a 5+ invulnerable save.
+#### Warp Strike (Abilities)
+- **Description:** At the end of the Fight phase, if this unit destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves.
+
+#### Invulnerable Save (5+) (Abilities)
+- **Description:** Models in this unit have a 5+ invulnerable save.
 
 ---
 
 ### Warpsmith
 **Points:** 70 | **M:** 6" | **T:** 4 | **SV:** 2+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Chaos, Warpsmith
+**Keywords:** Heretic Astartes, Infantry, Character, Chaos, Warpsmith
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2679,13 +2827,50 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 
 **Abilities:**
 
-- **Warpsmith:** While this model is within 3" of one or more friendly HERETIC ASTARTES VEHICLE units, this model has the Lone Operative ability.
-- **Master of Mechanisms:** In your Command phase, select one friendly HERETIC ASTARTES VEHICLE model within 3" of this model. That VEHICLE model regains up to D3 lost wounds and, until the start of your next Command phase, each time that VEHICLE makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per Command phase.
-- **Enrage Machine Spirits:** At the end of your Movement phase, select one enemy VEHICLE unit within 12" of this model. That unit must take a Battle-shock test.
-- **Leader:** This model can be attached to the following units:
-■ CHOSEN
-■ HAVOCS
-■ LEGIONARIES
+#### Warpsmith (Abilities)
+- **Description:** While this model is within 3" of one or more friendly **Heretic Astartes Vehicle** units, this model has the Lone Operative ability.
+
+#### Master of Mechanisms (Abilities)
+- **Description:** In your Command phase, select one friendly **Heretic Astartes Vehicle** model within 3" of this model. That ** Vehicle** model regains up to D3 lost wounds and, until the start of your next Command phase, each time that **Vehicle** makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per Command phase.
+
+#### Enrage Machine Spirits (Abilities)
+- **Description:** At the end of your Movement phase, select one enemy **Vehicle** unit within 12" of this model. That unit must take a Battle-shock test.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units: **Chosen, Havocs, Legionaires**
+
+---
+
+### Whirlwind Scorpius [Legends]
+**Points:** 115 | **M:** 10" | **T:** 10 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 3
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Smoke, Whirlwind Scorpius
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Scorpius multi-launcher | Ranged | 48" | 2D3+3 | 3+ | 6 | -1 | 2 | Blast, Indirect Fire |
+
+**Abilities:**
+
+#### Pinning Bombardment (Abilities)
+- **Description:** In your Shooting phase, after this model has shot, if one or more of those attacks made with its Scorpius multi-launcher scored a hit against an enemy INFANTRY unit, that unit must take a Battle-shock test.
+
+---
+
+### Xiphon Interceptor [Legends]
+**Points:** 115 | **M:** 20+ | **T:** 9 | **SV:** 3+ | **W:** 12 | **LD:** 6+ | **OC:** 0
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Fly, Aircraft, Xiphon Interceptor
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Armoured hull | Melee | Melee | 3 | 4+ | 6 | 0 | 1 | - |
+| Xiphon missile battery | Ranged | 60" | 3 | 3+ | 7 | -1 | 3 | Anti-FLY 2+ |
+
+**Abilities:**
+
+#### Interceptor (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll.
 
 ---
 
@@ -2693,139 +2878,151 @@ _Designer’s Note: While this unit contains one or more Pink Horrors models, th
 
 | Unit | Points |
 | --- | ---: |
-| Nurglings | 40 |
+| Accursed weapon and combi-bolter | 0 |
+| Accursed weapon and combi-weapon | 0 |
+| Aspiring Champion | 0 |
+| Aspiring Sorcerer | 0 |
+| Biker Champion | 0 |
+| Blessed Blades | 0 |
+| Chainfist and combi-bolter | 0 |
+| Chainfist and combi-weapon | 0 |
+| Cult Demagogue | 0 |
+| Cultist Champion | 0 |
+| Dark Disciple | 0 |
+| Disharmonist | 0 |
+| Havoc Champion | 0 |
+| Havoc w/ autocannon | 0 |
+| Havoc w/ heavy bolter | 0 |
+| Havoc w/ lascannon | 0 |
+| Havoc w/ missile launcher | 0 |
+| Havoc w/ reaper chaincannon | 0 |
+| Heavy weapon | 0 |
+| Iconarch | 0 |
+| Khorne Berzerker | 0 |
+| Khorne Berzerker Champion | 0 |
+| Mindwitch | 0 |
+| Mutant | 0 |
+| Noise Marine w/ blastmaster | 0 |
+| Noise Marine w/ sonic blaster | 0 |
+| Power fist and combi-bolter | 0 |
+| Power fist and combi-weapon | 0 |
+| Raptor Champion | 0 |
+| Surgeon Acolyte | 0 |
+| Torment | 0 |
+| Traitor Ogryn | 0 |
+| Warp Talon | 0 |
+| Warp Talon Champion | 0 |
+| Renegade Ogryn Beast Handler [Legends] | 40 |
 | Cultist Firebrand | 45 |
 | Cultist Mob | 50 |
-| Poxbringer | 55 |
-| Sloppity Bilepiper | 55 |
+| Cultist Mob with Firearms [Legends] | 50 |
+| Negavolt Cultists [Legends] | 55 |
 | Traitor Enforcer | 55 |
-| Changecaster | 60 |
-| Daemonic Herald [Crucible] | 60 |
-| Fluxmaster | 60 |
-| Infernal Enrapturess | 60 |
 | Master of Possession | 60 |
+| Rogue Psyker [Legends] | 60 |
 | Sorcerer | 60 |
-| Spoilpox Scrivener | 60 |
-| Tranceweaver | 60 |
-| Bloodmaster | 65 |
 | Dark Apostle | 65 |
-| Exalted Flamer | 65 |
-| Flamers | 65 |
+| Renegade Enforcer [Legends] | 65 |
 | Chaos Bikers | 70 |
 | Chaos Spawn | 70 |
+| Exalted Champion [Legends] | 70 |
 | Fellgor Beastmen | 70 |
 | Traitor Guardsmen Squad | 70 |
 | Warpsmith | 70 |
 | Chaos Rhino | 75 |
-| Flesh Hounds | 75 |
-| Karanak | 75 |
 | Red Corsairs Reave-captain | 75 |
-| The Blue Scribes | 75 |
+| Renegade Heavy Weapons Squad [Legends] | 75 |
+| Sorcerer on Bike [Legends] | 75 |
 | Chaos Lord with Jump Pack | 80 |
-| Epidemius | 80 |
 | Master of Executions | 80 |
-| Screamers | 80 |
-| Seekers | 80 |
 | Sorcerer in Terminator Armour | 80 |
+| Sorcerer on Disc of Tzeentch [Legends] | 80 |
+| Sorcerer on Palanquin of Nurgle [Legends] | 80 |
 | Sorcerous Champion [Crucible] | 80 |
 | Chaos Lord in Terminator Armour | 85 |
-| Skulltaker | 85 |
+| Mutoid Vermin [Legends] | 85 |
+| Sorcerer on Steed of Slaanesh [Legends] | 85 |
 | Accursed Cultists | 90 |
 | Chaos Lord | 90 |
+| Chaos Lord on Palanquin of Nurgle [Legends] | 90 |
 | Cypher | 90 |
 | Dark Commune | 90 |
 | Exalted Champion [Crucible] | 90 |
 | Haarken Worldclaimer | 90 |
 | Legionaries | 90 |
-| The Changeling | 90 |
-| Fateskimmer | 95 |
-| Fiends | 95 |
+| Rapier Carrier [Legends] | 90 |
+| Chaos Lord on Bike [Legends] | 95 |
 | Plague Marines | 95 |
-| Skull Cannon | 95 |
-| The Masque of Slaanesh | 95 |
-| Contorted Epitome | 100 |
-| Daemonettes | 100 |
+| Renegade Ogryn Brutes [Legends] | 95 |
+| Renegade Plague Ogryns [Legends] | 95 |
+| Chaos Lord on Disc of Tzeentch [Legends] | 100 |
+| Chaos Lord on Steed of Slaanesh [Legends] | 100 |
 | Fabius Bile | 100 |
-| Feculent Gnarlmaw | 100 |
 | Rubric Marines | 100 |
-| Skullmaster | 100 |
-| Skull Altar | 105 |
-| Bloodcrushers | 110 |
-| Bloodletters | 110 |
 | Nemesis Claw | 110 |
-| Plague Drones | 110 |
-| Plaguebearers | 110 |
 | Raptors | 110 |
 | Red Corsairs Raiders | 110 |
 | Venomcrawler | 110 |
-| Burning Chariot | 115 |
+| Chaos Deimos Predator [Legends] | 115 |
+| Chaos Lord on Juggernaut [Legends] | 115 |
+| Dreadclaw Drop Pod [Legends] | 115 |
+| Hellblade [Legends] | 115 |
 | Masters of the Maelstrom | 115 |
-| Daemonic Charioteer [Crucible] | 120 |
-| Horticulous Slimux | 120 |
+| Whirlwind Scorpius [Legends] | 115 |
+| Xiphon Interceptor [Legends] | 115 |
 | Huron Blackheart | 120 |
+| Kravek Morne | 120 |
 | Possessed | 120 |
-| Syll'esske | 120 |
-| Blue Horrors | 125 |
 | Chosen | 125 |
+| Gellerpox Infected [Legends] | 125 |
 | Havocs | 125 |
 | Noctilith Crown | 125 |
 | Warp Talons | 125 |
 | Helbrute | 130 |
 | Maulerfiend | 130 |
-| War Dog Executioner | 130 |
 | Chaos Predator Annihilator | 135 |
 | Chaos Predator Destructor | 140 |
-| Pink Horrors | 140 |
-| Tormentbringer | 140 |
-| War Dog Brigand | 140 |
-| War Dog Huntsman | 140 |
-| War Dog Stalker | 140 |
+| Hell Talon [Legends] | 140 |
+| Relic Contemptor Dreadnought [Legends] | 140 |
 | Noise Marines | 145 |
-| War Dog Karnivore | 150 |
-| War Dog Moirax | 150 |
+| Greater Blight Drone [Legends] | 150 |
+| Blood Slaughterer [Legends] | 160 |
+| Deredeo Dreadnought [Legends] | 160 |
+| Leviathan Dreadnought [Legends] | 160 |
 | Lord Discordant on Helstalker | 160 |
 | Obliterators | 160 |
+| Sicaran Battle Tank [Legends] | 160 |
+| Sicaran Punisher [Legends] | 160 |
 | Soul Forge Tyrant [Crucible] | 160 |
+| Decimator [Legends] | 165 |
 | Heretic Astartes Daemon Prince | 165 |
-| Rendmaster on Blood Throne | 165 |
 | Forgefiend | 170 |
 | Vashtorr the Arkifane | 175 |
 | Chaos Terminator Squad | 180 |
-| Daemon Prince of Chaos with wings | 180 |
 | Heretic Astartes Daemon Prince with wings | 180 |
-| Immortal Champion [Crucible] | 180 |
 | Khorne Berzerkers | 180 |
+| Sicaran Venator [Legends] | 180 |
 | Chaos Vindicator | 185 |
-| Daemon Prince of Chaos | 190 |
-| Defiler | 190 |
+| Mutilators | 200 |
+| Terrax-pattern Termite [Legends] | 200 |
 | Heldrake | 205 |
 | Chaos Land Raider | 220 |
-| Keeper of Secrets | 240 |
-| Great Unclean One | 250 |
-| Rotigus | 265 |
+| Land Raider Proteus [Legends] | 220 |
+| Land Raider Achilles [Legends] | 230 |
+| Kratos [Legends] | 240 |
+| Defiler | 250 |
+| Storm Eagle Gunship [Legends] | 250 |
 | Abaddon the Despoiler | 270 |
-| Lord of Change | 285 |
-| Kairos Fateweaver | 295 |
-| Bloodthirster | 305 |
-| Skarbrand | 305 |
-| Shalaxi Helbane | 340 |
-| Knight Abominant | 355 |
-| Knight Desecrator | 355 |
-| Knight Ruinator | 355 |
-| Knight Rampager | 365 |
-| Be'lakor | 375 |
-| Chaos Questoris Knight Magaera | 375 |
-| Chaos Questoris Knight Styrix | 375 |
-| Chaos Cerastus Knight Acheron | 385 |
-| Chaos Cerastus Knight Castigator | 385 |
-| Chaos Cerastus Knight Lancer | 385 |
-| Knight Despoiler | 390 |
-| Chaos Cerastus Knight Atrapos | 395 |
-| Knight Tyrant | 410 |
+| Cerberus [Legends] | 270 |
+| Fire Raptor Gunship [Legends] | 290 |
+| Kharybdis Assault Claw [Legends] | 300 |
+| Spartan [Legends] | 300 |
+| Typhon [Legends] | 320 |
+| Kytan Ravager [Legends] | 400 |
+| Falchion [Legends] | 420 |
 | Khorne Lord of Skulls | 450 |
-| Chaos Acastus Knight Porphyrion | 700 |
-| Chaos Acastus Knight Asterius | 765 |
-| Warhound Titan | 1100 |
-| Reaver Titan | 2200 |
-| Warbringer Nemesis Titan | 2600 |
-| Warlord Titan | 3500 |
+| Fellblade [Legends] | 480 |
+| Greater Brass Scorpion [Legends] | 500 |
+| Mastodon [Legends] | 540 |
+| Chaos Thunderhawk [Legends] | 840 |
+| Sokar-pattern Stormbird [Legends] | 900 |

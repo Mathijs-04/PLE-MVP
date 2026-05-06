@@ -1,446 +1,38 @@
 # Space Marines
 
-## Army Rules
-
-### Oath of Moment
-If your Army Faction is Adeptus Astartes, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:
-■ You can reroll the Hit roll
-■ If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well.
-
-### Templar Vows
-If your Army Faction is Adeptus Astartes, at the start of the first battle round, select one of the following Vows to be active for Adeptus Astartes units from your army. While a Vow is active for your army, that unit has the associated ability below. 
-
-Abhor the Witch, Destroy the Witch
-■ Each time this unit declares a charge, if one or more targets of that charge have the Psyker keyword, you can re-roll the Charge roll. Melee weapons equipped by models in this unit have the [PRECISION] ability while targeting Psyker units. 
-
-Accept Any Challenge, No Matter the Odds
-■ Each time a model in this unit makes a melee attack, if the Strength characteristic of that attack is less than or equal to the Toughness characteristic of the target, add 1 to the wound roll
-
-Suffer Not the Unclean to Live
-■ This unit is eligible to declare a charge in a turn in which it Fell Back, and each time a model in this unit makes a Pile-in or Consolidation move, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the nearest enemy unit. 
-
-Uphold the Honour of the Emperor
-If this unit has the Infantry keyword:
-■ At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's level of control over that objective marker is greater than yours at the end of the phase. 
-■ If the mission you are playing features Actions, this unit is eligible to start to perform an Action in a turn in which it Advanced.
-
-## Detachments
-
-### Gladius Task Force
-
-#### Combat Doctrines
-At the start of your Command phase, you can select one of the Combat Doctrines listed below. Until the start of your next Command phase, that Combat Doctrine is active and its effects apply to all Adeptus Astartes units from your army. You can only select each Combat Doctrine once per battle.
-
-DEVASTATOR DOCTRINE 
-This unit is eligible to shoot in a turn in which it Advanced.
-
-TACTICAL DOCTRINE
-This unit is eligible to shoot and declare a charge in a turn in which it Fell Back.
-
-ASSAULT DOCTRINE
-This unit is eligible to declare a charge in a turn in which it Advanced.
-
-### Unforgiven Task Force
-
-#### Grim Resolve
-While an Adeptus Astartes unit from your army is Battle-shocked, change the Objective Control characteristic of models in that unit to 1, instead of 0.
-In your Command phase, select one Adeptus Astartes unit from your army; until the start of your next Command phase, add 1 to the Objective Control characteristic of models in that unit.
-
-### Black Spear Task Force
-
-#### Kill Teams
-Each time an attack targets a KILL TEAM unit from your army that contains models with different Toughness characteristics, until the attacking unit has finished making its attacks, use the Toughness characteristic of the majority of the models in that unit when determining what result is required for that attack to successfully wound. If two or more Toughness characteristics are tied for majority, use the highest Toughness characteristic.
-
-For the purposes of determining which models can embark within a TRANSPORT model, KILL TEAM models follow the normal restrictions listed on the TRANSPORT model.
-
-#### Mission Tactics
-At the start of your Command phase, you can select one of the Mission Tactics listed below. Until the start of your next Command phase, that Mission Tactic is active and its effects apply to all units from your army with this ability. Each Mission Tactic can only be selected once per battle. 
-
-FUROR TACTICS
- While this Mission Tactic is active, weapons equipped by ADEPTUS ASTARTES units from your army have the [SUSTAINED HITS 1] ability. 
-
-MALLEUS TACTICS 
-
-While this Mission Tactic is active, weapons equipped by ADEPTUS ASTARTES units from your army have the [LETHAL HITS] ability. 
-
-PURGATUS TACTICS 
-
-While this Mission Tactic is active, each time an ADEPTUS ASTARTES unit from your army makes an attack, if a Critical Hit is scored, that attack has the [PRECISION] ability.
-
-### Liberator Assault Group
-
-#### The Red Thirst
-Each time an Adeptus Astartes unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 2 to the Strength characteristic and add 1 to the Attacks characteristic of melee weapons equipped by models in that unit.
-
-### Anvil Siege Force
-
-#### Shield of the Imperium
-Ranged weapons equipped by Adeptus Astartes models from your army have the [HEAVY] ability. If such a weapon already has this ability, each time an attack is made with that weapon, if the attacking model's unit Remained Stationary this turn, add 1 to the Wound roll.
-
-### Ironstorm Spearhead
-
-#### Armoured Wrath
-Once per phase for each Adeptus Astartes unit in your army, you can re-roll one Hit roll, one Wound roll, or one Damage roll made for a model in that unit.
-
-### Firestorm Assault Force
-
-#### Close-Range Eradication
-Ranged weapons equipped by Adeptus Astartes models from your army have the [ASSAULT] ability, and each time an attack made such a weapon targets a unit within 12", add 1 to the Strength characteristic of that attack.
-
-### Stormlance Task Force
-
-#### Lightning Assault
-Adeptus Astartes units from your army are eligible to declare a charge in a turn in which they Advanced or Fell Back.
-
-### Vanguard Spearhead
-
-#### Shadow Masters
-Each time a ranged attack targets an Adeptus Astartes unit from your army, unless the attacking model is within 12", subtract 1 from the Hit roll and the target has the Benefit of Cover against that attack.
-
-### 1st Company Task Force
-
-#### Extremis-level Threat
-Once per battle, in your Command phase, you can use this ability. If you do, until the start of your next Command phase, each time a model from your army with the Oath of Moment ability makes an attack that targets your Oath of Moment target, you can re-roll the Wound roll as well.
-
-### Inner Circle Task Force
-
-#### Vowed Target
-At the start of your Movement phase, select one of the following:
-- Defensive Footing: Select one objective marker you control. Until the start of your next Movement phase, that objective marker is your Vowed objective marker.
-- Aggressive Push: Select one or more objective markers you do not control. Until the start of your next Movement phase, each of those objective markers is one of your Vowed objective markers. If a rule refers to a unit or model being within range of your Vowed objective marker, that rule takes effect if that unit or model is within range of one or more of your Vowed objective markers.
-
-Each time a Deathwing Infantry unit from your army makes an attack that targets a unit within range of one or more of your Vowed objective markers, add 1 to the Wound roll.
-
-### Company of Hunters
-
-#### Masters of Manoeuvre
-Adeptus Astartes units from your army are eligible to shoot in a turn in which they Advanced or Fell Back.
-Adeptus Astartes Mounted units from your army are eligible to shoot and declare a charge in a turn in which they Advanced or Fell Back.
-Outrider Squad units from your army gain the Battleline keyword.
-
-### The Lost Brethren
-
-#### A Noble Death in Combat
-Each time a Death Company model from your army makes a melee attack, re-roll a Wound roll of 1 if that model's unit is below Starting Strength; if that model's unit is Below Half-strength, you can re-roll the Wound roll instead.
-
-### The Angelic Host
-
-#### Upon Wings of Fire
-At the end of your opponent's turn, you can select a number of Adeptus Astartes Jump Pack units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:
-
-Incursion - Up to 1 unit
-Strike Force - Up to 2 units
-Onslaught - Up to 3 units
-
-Once you have made your selections, remove those units from the battlefield and place them into Strategic Reserves. In the Reinforcements step of your next Movement phase, set each of those units up using their Deep Strike ability.
-
-### Lion's Blade Task Force
-
-#### In the Lion's Claws
-- Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more Ravenwing units from your army Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle‑shocked, subtract 1 from each of those tests. 
-- Each time a Deathwing unit from your army declares a charge, if one or more targets of that charge are within Engagement Range of one or more Ravenwing  units from your army, add 2 to the Charge roll.
-
-### Librarius Conclave
-
-#### Psychic Disciplines
-At the start of the battle round, select one of the following Psychic Disciplines. Until the end of the battle round, that Psychic Discipline is active and its effects apply to all Adeptus Astartes Psyker units from your army. 
-
-Biomancy Discipline
-Add 2" to the Move characteristic of models in this unit. 
-
-Divination Discipline
-Each time a model in this unit makes an attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1.
-
-Pyromancy Discipline
-Each time a ranged attack made by a model in this unit targets an enemy unit within 12", improve the Armour Penetration characteristic of that attack by 1.
-
-Telekinesis Discipline
-Each time a ranged attack targets this unit, subtract 1 from the Strength characteristic of that attack.
-
-Telepathy Discipline
-
-Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack’s Weapon Skill or Ballistic Skill characteristics and/or any or all modifiers to the Hit roll.
-
-### Wrathful Procession
-
-#### Wrathful Procession
-At the start of the battle round, you can select one of the Litanies listed below. If you do, until the end of the battle round, that Litany is active and its effects apply to all Adeptus Astartes Infantry and Adeptus Astartes Mounted units from your army.
-
-Chorus of Relentless Hate
-Add 2" to the Move characteristic of models in this unit and add 1 to Advance rolls made for it.
-
-Rite of Perfervid Wrath
-Add 1 to the Strength characteristic of melee weapons equipped by models in this unit.
-
-Chant of Deathless Devotion
-Models in this unit have a 5+ invulnerable save against ranged attacks.
-
-### Champions of Fenris
-
-#### The Great Wolf Watches
-At the end of your opponent’s Charge phase, each Adeptus Astartes Infantry and Adeptus Astartes Walker unit from your army that is within 3" of one or more enemy units and would be eligible to declare a charge against one or more of those units can declare a charge against one or more of those units, and you resolve that charge as if it were your Charge phase. If that charge is successful, your unit does not receive any Charge bonus this turn. 
-
-While Adeptus Astartes Terminator units from your army are not Battle‑shocked, add 1 to the Objective Control characteristic of models in those units.
-
-### Angelic Inheritors
-
-#### Legacy of the Angel
-At the start of the first battle round, select two of the Angelic Legacy abilities listed below. Until the end of the battle, those Angelic Legacy abilities are active and their effects apply to all Adeptus Astartes Character units from your army.
-
-Sanguinary Grace: This unit is eligible to shoot and declare a charge in a turn in which it Fell Back.
-
-Carmine Wrath: Each time a model in this unit makes an attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1.
-
-Their Appointed Hour: You can re‑roll Advance and Charge rolls made for this unit.
-
-### Wrath of the Rock
-
-#### Dutiful Tenacity
-Each time an attack targets an Adeptus Astartes Infantry or Adeptus Astartes Mounted unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll.
-
-### Saga of the Hunter
-
-#### Pack's Quarry
-Each time a model in a Space Wolves unit from your army makes a melee attack that targets an enemy unit, if that enemy unit is within Engagement Range of one or more other Adeptus Astartes units from your army, or if the attacking unit contains more models than that enemy unit.
-
-■ Add 1 to the Hit roll.
-■ If your Saga is completed(see below), add 1 to the Wound roll as well.
-
-Saga of the Hunter
-
-At the start of the first battle round your Quarry tally is 0. Each time an ADEPTUS ASTARTES unit from your army fights, after all those attacks have been resolved, add 1 to your Quarry tally for each enemy unit destroyed by those attacks. 
-
-Once your Quarry tally is equal to or greater than the number shown in the table below(depending on the battle size), you Saga is completed. 
-
-Incursion - 2
-Strike Force - 3
-Onslaught - 4
-
-### Saga of the Bold
-
-#### Heroes All
-Each time an Adeptus Astartes unit from your army is selected to shoot or fight, apply one of the following when resolving those attacks
-
-■ If you Saga is completed (see below), you can re-roll one Hit roll, one Wound roll, and one Damage roll. 
-■ Otherwise, if that unit is a Space Wolves Character unit, you can re-roll one Hit roll, one Wound roll, or one Damage roll. 
-
-Saga of the Bold
-Each time a Space Wolves Character unit from your army does one of the following, that unit achieves a Boast. Once three or more different Boasts have been achieved by units from your army, your saga is completed
-
-■ Your Hide as a Trophy: That unit destroys your Oath of Moment target
-■ Slay Them All: That unit destroys your Oath of Moment target, and that is the second Oath of Moment target destroyed by that unit in this battle. 
-■ Overrun Their Position: At the end of either player's turn, that unit is wholly within your opponent's deployment zone. 
-■ Hold the Line: From the second battle round onwards, at the end of your Command phase, that unit is within range of an objective marker you control that is not within your deployment zone.
-
-### Saga of the Beastslayer
-
-#### Legendary Slayers
-Each time an Adeptus Astartes model from your army makes an attack, if that attack targets a Character, Monster or Vehicle unit or if your Saga is completed(see below), that attack has the [LETHAL HITS] ability.
-
-Saga of the Beastslayer
-At the start of the first battle round, your Beastslayer tally is 0, and you determine your Beastslayer target by halving the number of units from your opponent's army (including those embarked within Transports) that have one or more of the following keywords (rounding up): Character, Monster, Vehicle.
-
-Each time an Adeptus Astartes unit from your army shoots or fights, after all of those attacks have been resolved, add 1 to your Beastslayer tally for each enemy unit with one or more of the keywords destroyed by those attacks: Character, Monster, Vehicle.
-
-Once your Beastslayer tally is equal to or greater than your Beastslayer target your Saga is completed.
-
-### Companions of Vehemence
-
-#### Righteous Fervour
-You can re-roll Advance and Charge rolls made for Adeptus Astartes unit from your army.
-
-### Vindication Task Force
-
-#### Purge and Sanctify
-- Each time an attack targets an Ancient unit from your army, if that unit is within range of one or more objective markers and the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll. 
-
-- Each time a Crusader Squad unit from your army makes a Righteous Zeal move, that unit can end that move as close as possible to the closest objective marker instead of as close as possible to the closest enemy unit.
-
-### Godhammer Assault Force
-
-#### Shock and Awe
-- Each time an Adeptus Astartes unit from your army declares a charge, if it disembarked from a Transport this turn, after selecting the targets of that charge, select one of those targets; that enemy unit must take a Battle-shock test. 
-
-- Each time an Adeptus Astartes unit from your army makes a melee attack, if it disembarked from a Transport this turn, add 1 to the Hit roll.
-
-### Forgefather's Seekers
-
-#### Vulkan's Quest
-Ranged weapons equipped by Adeptus Astartes models from your army have the [ASSAULT] ability, and each time an attack made such a weapon targets a unit within 12", add 1 to the Strength characteristic of that attack.
-
-Seeker's Companions
-
-If your army includes Vulkan He'stan, during your turn, each Infernus Squad unit from your army is eligible to do one of the following
-- Start to perform an Action in a turn in which it Advanced
-
-- Shoot in a turn in which it started to perform an Action
-
-### Emperor's Shield
-
-#### Wrath of Dorn
-Each time a model from your army with the Oath of Moment ability makes an attack that targets your Oath of Moment target, you can re-roll a Wound roll of 1.
-
-Each time a model in a Darnath Lysander unit from your army makes an attack that targets your Oath of Moment target, you can re-roll the Wound roll.
-
-### Shadowmark Talon
-
-#### Masters of Shadow
-Each time a ranged attack targets an Adeptus Astartes unit from your army, unless the attacking model is within 12", subtract 1 from the Hit roll and the target has the Benefit of Cover against that attack.
-
-Unparalled Tactician
-
-Once per battle round, if an Aethon Shaan model from your army is on the battlefield, you can use the Into Darkness Stratagem for 0CP.
-
-### Hammer of Avernii
-
-#### Calculated Annihilation
-Each time a model from your army with the Oath of Moment ability makes an attack that targets your Oath of Moment target, you can re‑roll a Wound roll of 1.
-
-RECALCULATING
-
-Once per battle round, after your Oath of Moment target is destroyed, if a Caanok Var model from your army is on the battlefield, select one enemy unit visible to that model. That enemy unit becomes your Oath of Moment target until you select a new one.
-
-### Spearpoint Task Force
-
-#### Storm-Swift Onslaught
-Adeptus Astartes units from your army are eligible to declare a charge in a turn in which they Advanced or Fell Back.
-
-Wrath of the First Khan
-
-At the end of the Fight phase, if a Suboden Khan unit from your army destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, that unit can make a Normal move of up to 6".
-
-### Blade of Ultramar
-
-#### Mastered Doctrines
-At the start of up to three of your Command phases, you can select one of the Combat Doctrines listed below. Until the start of your next Command phase, that Combat Doctrine is active and its effects apply to all Adeptus Astartes units from your army. You cannot select a Combat Doctrine you have already selected this battle, unless a friendly Marneus Calgar model is on the battlefield.
-
-DEVASTATOR DOCTRINE
-This unit is eligible to shoot in a turn in which it Advanced.
-
-TACTICAL DOCTRINE
-This unit is eligible to shoot and declare a charge in a turn in which it Fell Back.
-
-ASSAULT DOCTRINE
-This unit is eligible to declare a charge in a turn in which it Advanced.
-
-### Saga of the Great Wolf
-
-#### Master of Wolves
-At the start of your Command phase, you can select one of the Hunting Packs listed below. Until the start of your next Command phase, that Hunting Pack is active and its effects apply to all |Adeptus Astartes units from your army. You can only select each Hunting Pack once per battle.
-
-- Encircling Jaws: This unit can re-roll Advance rolls and Charge rolls.
-
-- Hunter’s Eye: Each time a model in this unit makes a ranged attack, add 1 to the Hit roll.
-
-- Ferocious Strike: Each time this unit is selected to fight, select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in this unit have the selected ability.
-
-Howling Onslaught
-
-Once per battle, when selecting a Hunting Pack for the Master of Wolves Detachment rule (see above), if a Logan Grimnar model from your army is on the battlefield, you can select a Hunting Pack you have already selected this battle
-
-### Rage-Cursed Onslaught
-
-#### Maddened Ferocity
-Each time an Adeptus Astartes model from your army makes a melee attack, re-roll a Wound roll of 1.
-
-Each time an Adeptus Astartes unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit. If your unit is Battle-shocked, add 2 to the Attacks characteristic of melee weapons equipped by models in that unit instead.
-
-### Bastion Task Force
-
-#### Interlocking Tactics
-Adeptus Astartes Battleline units from your army:
-
-- Are eligible to shoot and declare a charge in a turn in which they Advanced or Fell Back.
-
-- Are eligible to start to perform an Action in a turn in which they Advanced or Fell Back.
-
-Each time an Adeptus Astartes Battleline unit from your army is selected to attack, after resolving those attacks, select one enemy unit hit by one or more of those attacks. Until the end of the turn, that enemy unit is auspex scanned. Each time an Adeptus Astartes model from your army makes an attack that targets an auspex scanned unit, re‑roll a Hit roll of 1.
-
-### Orbital Assault Force
-
-#### Rapid-drop Deployment
-At the start of the Declare Battle Formations step, select a number of Adeptus Astartes units (excluding Titanic units) from your army based on the battle size, as shown below. Models in those units have the Deep Strike ability.
-
-Incursion - 2 Units
-Strike Force - 3 Units
-Onslaught - 4 Units
-
-Each time an Adeptus Astartes model from your army makes an attack, if it was set up on the battlefield this turn, re‑roll a Wound roll of 1. If it disembarked from a Drop Pod this turn, re‑roll a Hit roll of 1 as well.
-
-### Reclamation Force
-
-#### Oath of Reclamation
-- Each time an Adeptus Astartes model from your army makes a melee attack that targets a unit within range of an
-objective marker, improve the Armour Penetration characteristic of that attack by 1.
-
-- Each time an attack targets an Adeptus Astartes unit from your army, if your unit is within range of an objective
-marker that you controlled at the start of the phase and if the Strength characteristic of that attack is greater
-than the Toughness characteristic of your unit or your unit has the Titus keyword, subtract 1 from the Wound roll.
-
 ## Units
-
-### Acastus Knight Asterius
-**Points:** 765 | **M:** 8" | **T:** 13 | **SV:** 2+ | **W:** 30 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Imperium, Knight Asterius, Acastus
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Twin conversion beam cannon | Ranged | 48" | 3 | 3+ | 16 | -2 | 6 | Conversion, Twin-linked, Sustained Hits D3 |
-| Asterius volkite culverin | Ranged | 24" | 6 | 3+ | 6 | 0 | 2 | Devastating Wounds |
-| Karacnos mortar battery | Ranged | 48" | D6+3 | 3+ | 6 | -1 | 1 | Anti-Infantry 2+, Blast, Ignores Cover, Indirect Fire |
-
-**Abilities:**
-
-- **Sunderer of Fortresses:** Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1. If that attack targets a FORTIFICATION, improve the Strength and Damage characteristics of that attack by 2 instead.
-
----
-
-### Acastus Knight Porphyrion
-**Points:** 700 | **M:** 8" | **T:** 13 | **SV:** 2+ | **W:** 30 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Imperium, Acastus, Knight Porphyrion
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Twin magna lascannon | Ranged | 72" | D6 | 3+ | 18 | -4 | D6+6 | Blast, Twin-linked |
-| Acastus autocannon | Ranged | 48" | 2 | 3+ | 9 | -1 | 3 | - |
-| Lascannon | Ranged | 48" | 1 | 3+ | 12 | -3 | D6+1 | - |
-| Acastus ironstorm missile pod | Ranged | 48" | D6+6 | 3+ | 5 | 0 | 1 | Blast, Heavy, Indirect Fire |
-| Helios defence missiles | Ranged | 48" | 3 | 3+ | 10 | -2 | D6 | Anti-Fly 2+, Heavy |
-
-**Abilities:**
-
-- **Bastion of Firepower:** Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability.
-
----
 
 ### Aggressor Squad
 **Points:** 95 | **M:** 5" | **T:** 6 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Imperium, Gravis, Aggressor Squad
+**Keywords:** Infantry, Imperium, Gravis, Aggressor Squad, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
 | Auto Boltstorm Gauntlets | Ranged | 18" | 3 | 3+ | 4 | 0 | 1 | Twin-linked |
 | Flamestorm Gauntlets | Ranged | 12" | D6+1 | N/A | 4 | 0 | 1 | Ignores Cover, Torrent, Twin-linked |
+| Auto Boltstorm Gauntlets | Ranged | 18" | 3 | 3+ | 4 | 0 | 1 | Twin-linked |
+| Flamestorm Gauntlets | Ranged | 12" | D6+1 | N/A | 4 | 0 | 1 | Ignores Cover, Torrent, Twin-linked |
 
 **Abilities:**
 
-- **Close-quarters Firepower:** Each time a model in this unit makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack
+#### Close-quarters Firepower (Abilities)
+- **Description:** Each time a model in this unit makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack
 by 1.
 
 ---
 
 ### Ancient
 **Points:** 50 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Grenades, Imperium, Tacticus, Ancient
+**Keywords:** Infantry, Character, Grenades, Imperium, Tacticus, Adeptus Astartes, Ancient
 
 **Abilities:**
 
-- **Unbreakable Duty:** While this model is within range of an objective marker and/or within 6" of the centre of the battlefield, this model has the Feel No Pain 4+ ability.
-- **Leader:** This model can be attached to the following units:
+#### Unbreakable Duty (Abilities)
+- **Description:** While this model is within range of an objective marker and/or within 6" of the centre of the battlefield, this model has the Feel No Pain 4+ ability.
 
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Assault Intercessor Squad
 ■ Devastator Squad
 ■ Hellblaster Squad
@@ -449,31 +41,49 @@ by 1.
 ■ Sternguard Veteran Squad
 ■ Desolation Squad
 ■ Tactical Squad
-
-You can attach this model to one of the above units even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
+You can attach this model to one of the above units even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
 
 ---
 
 ### Ancient in Terminator Armor
 **Points:** 75 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Imperium, Terminator, Ancient
+**Keywords:** Character, Infantry, Imperium, Terminator, Ancient, Adeptus Astartes
 
 **Abilities:**
 
-- **Keep the Banner High:** While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength
-- **Leader:** This model can be attached to the following units:
+#### Keep the Banner High (Abilities)
+- **Description:** While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength
 
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Terminator Squad
 ■ Terminator Assault Squad
+You can attach this model to one of the above units even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
 
-You can attach this model to one of the above units even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
-- **Terminator Storm Shield:** The bearer has a Wounds characteristic of 6.
+#### Terminator Storm Shield (Abilities)
+- **Description:** The bearer has a Wounds characteristic of 6.
+
+---
+
+### Ancient on Bike [Legends]
+**Points:** 90 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 2
+**Keywords:** Character, Mounted, Grenades, Imperium, Ancient, Adeptus Astartes
+
+**Abilities:**
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+■ Bike Squad
+■ Outrider Squad
+
+#### Unbreakable Duty (Abilities)
+- **Description:** While this model is within range of an objective marker and/or within 6" of the centre of the battlefield, this model has the Feel No Pain 4+ ability.
 
 ---
 
 ### Apothecary
 **Points:** 50 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Grenades, Imperium, Tacticus, Infantry, Apothecary
+**Keywords:** Character, Grenades, Imperium, Adeptus Astartes, Tacticus, Infantry, Apothecary
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -482,10 +92,14 @@ You can attach this model to one of the above units even if one Captain, Chapte
 
 **Abilities:**
 
-- **Narthecium:** While this model is leading a unit, in your Command phase, you can return 1 destroyed model (excluding Character models) to that unit.
-- **Gene Seed Recovery:** When this model’s Bodyguard unit is destroyed, roll one D6: on a 2+, you gain 1CP.
-- **Leader:** This model can be attached to the following units:
+#### Narthecium (Abilities)
+- **Description:** While this model is leading a unit, in your Command phase, you can return 1 destroyed model (excluding Character models) to that unit.
 
+#### Gene Seed Recovery (Abilities)
+- **Description:** When this model’s Bodyguard unit is destroyed, roll one D6: on a 2+, you gain 1CP.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Assault Intercessor Squad
 ■ Desolation Squad
 ■ Devastator Squad
@@ -494,131 +108,129 @@ You can attach this model to one of the above units even if one Captain, Chapte
 ■ Intercessor Squad
 ■ Sternguard Veteran Squad
 ■ Tactical Squad
-
-You can attach this model to one of the above units even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
+You can attach this model to one of the above units even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
 
 ---
 
 ### Apothecary Biologis
 **Points:** 70 | **M:** 5" | **T:** 6 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 3
-**Keywords:** Character, Infantry, Imperium, Gravis, Apothecary, Biologis
+**Keywords:** Character, Infantry, Imperium, Gravis, Adeptus Astartes, Apothecary, Biologis
 
 **Abilities:**
 
-- **Surgical Precision:** While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.
-- **Vivispectrum:** If this model’s unit destroys an enemy unit as the result of a melee attack, until the end of the battle, this model has an Objective Control characteristic of 9.
-- **Leader:** This model can be attached to the following units:
+#### Surgical Precision (Abilities)
+- **Description:** While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.
 
+#### Vivispectrum (Abilities)
+- **Description:** If this model’s unit destroys an enemy unit as the result of a melee attack, until the end of the battle, this model has an Objective Control characteristic of 9.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Aggressor Squad
 ■ Eradicator Squad
 ■ Heavy Intercessor Squad
-
-You can attach this model to one of the above units even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
-
----
-
-### Aquila Kill Team
-**Points:** 100 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 2
-**Keywords:** Infantry, Battleline, Grenades, Imperium, Deathwatch, Aquila Kill Team, Retinue, Ordo Xenos
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Deathwatch marksman bolt carbine | Ranged | 24" | 2 | 3+ | 5 | -1 | 1 | Heavy, Lethal Hits |
-| Combat knife | Melee | Melee | 4 | 3+ | 4 | -1 | 1 | Precision |
-| Frag cannon | Ranged | 18" | D3 | 3+ | 7 | -2 | 2 | Blast, Heavy, Lethal Hits, Rapid Fire D3 |
-| Hellstorm bolt rifle | Ranged | 30" | 2 | 3+ | 5 | -2 | 2 | Assault, Heavy, Lethal Hits |
-| ➤ Astartes grenade launcher - frag | Ranged | 24" | D3 | 3+ | 4 | 0 | 1 | Blast |
-| ➤ Astartes grenade launcher - krak | Ranged | 24" | 1 | 3+ | 9 | -2 | D3 | - |
-| ➤ Infernus heavy bolter - heavy bolter | Ranged | 36" | 3 | 3+ | 5 | -1 | 2 | Sustained Hits 1 |
-| ➤ Infernus heavy bolter - heavy flamer | Ranged | 12" | D6 | N/A | 5 | -1 | 1 | Ignores cover, Torrent |
-| Heavy thunder hammer | Melee | Melee | 3 | 4+ | 10 | -2 | 3 | Devastating Wounds |
-| Stalker bolt rifle | Ranged | 30" | 2 | 3+ | 5 | -2 | 2 | Heavy, Lethal Hits, Precision |
-| Special-issue bolt pistol | Ranged | 18" | 1 | 3+ | 4 | -1 | 1 | Pistol, Precision, Lethal Hits |
-
-**Abilities:**
-
-- **Death to the Alien:** Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack does not have the Imperium or Chaos keywords, you can re-roll the Hit roll instead.
-- **Attached Unit:** If a Character unit from your army can be attached to a Deathwatch Kill Team unit, it can be attached to this unit instead.
-- **Astartes shield:** The bearer has a 4+ invulnerable save.
+You can attach this model to one of the above units even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
 
 ---
 
-### Armiger Helverin
-**Points:** 135 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 14 | **LD:** 7+ | **OC:** 6
-**Keywords:** Vehicle, Walker, Imperium, Helverin, Armiger
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Armiger autocannon | Ranged | 48" | 4 | 3+ | 9 | -1 | 3 | - |
+### Apothecary on Bike [Legends]
+**Points:** 65 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 2
+**Keywords:** Character, Mounted, Grenades, Imperium, Apothecary, Adeptus Astartes
 
 **Abilities:**
 
-- **Suppression Protocols:** In your Shooting phase, after this model has shot, select one enemy unit (excluding Monsters and Vehicles) hit by one or more of those attacks made with an Armiger autocannon. Until the start of your next turn, that enemy unit is suppressed. While that unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+■ Bike Squad
+■ Outrider Squad
 
----
+#### Gene Seed Recovery (Abilities)
+- **Description:** When this model’s Bodyguard unit is destroyed, roll one D6: on a 2+, you gain 1CP.
 
-### Armiger Moirax
-**Points:** 150 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 14 | **LD:** 7+ | **OC:** 6
-**Keywords:** Vehicle, Walker, Imperium, Armiger, Moirax
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Volkite veuglaire | Ranged | 36" | 4 | 3+ | 8 | 0 | 2 | Devastating Wounds |
-| Graviton pulsar | Ranged | 24" | D6 | 3+ | 7 | -1 | 2 | Anti-Vehicle 2+, Blast |
-| Lightning lock | Ranged | 36" | 6 | 3+ | 8 | 0 | 1 | Sustained Hits 2 |
-| Conversion beam cannon | Ranged | 24" | 1 | 3+ | 10 | -2 | 3 | Conversion, Sustained Hits D3 |
-| Siege claw | Melee | Melee | 4 | 3+ | 12 | -3 | D6+2 | - |
-| Rad cleanser | Ranged | 12" | D6 | N/A | 2 | 0 | 1 | Anti-Infantry 2+, Ignores Cover, Torrent |
-
-**Abilities:**
-
-- **Protection Protocols:** You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.
-
----
-
-### Armiger Warglaive
-**Points:** 140 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 14 | **LD:** 7+ | **OC:** 6
-**Keywords:** Vehicle, Walker, Imperium, Warglaive, Armiger
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Reaper chain-cleaver - strike | Melee | Melee | 4 | 3+ | 10 | -3 | 3 | - |
-| ➤ Reaper chain-cleaver - sweep | Melee | Melee | 8 | 3+ | 8 | -2 | 1 | - |
-| Thermal spear | Ranged | 18" | 2 | 3+ | 12 | -4 | D6 | Melta 4 |
-
-**Abilities:**
-
-- **Impetuous Glory:** Each time this model makes a charge move, until the end of the turn, add 1 to the Attacks characteristic of this model's reaper chain-cleaver - strike profile, and add 2 to the Attacks characteristic of this model's reaper chain-cleaver - sweep profile.
+#### Narthecium (Abilities)
+- **Description:** While this model is leading a unit, in your Command phase, you can return 1 destroyed model (excluding Character models) to that unit.
 
 ---
 
 ### Assault Intercessor Squad
 **Points:** 75 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 2
-**Keywords:** Infantry, Battleline, Grenades, Imperium, Assault Intercessor Squad, Tacticus
+**Keywords:** Infantry, Battleline, Grenades, Adeptus Astartes, Imperium, Assault Intercessor Squad, Tacticus
 
 **Abilities:**
 
-- **Shock Assault:** Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead.
+#### Shock Assault (Abilities)
+- **Description:** Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead.
 
 ---
 
 ### Assault Intercessors with Jump Packs
 **Points:** 90 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Fly, Tacticus, Jump Pack, Assault Intercessors with Jump Packs
+**Keywords:** Infantry, Grenades, Imperium, Fly, Tacticus, Jump Pack, Adeptus Astartes, Assault Intercessors with Jump Packs
 
 **Abilities:**
 
-- **Hammer of Wrath:** Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound.
+#### Hammer of Wrath (Abilities)
+- **Description:** Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound.
+
+---
+
+### Assault Squad [Legends]
+**Points:** 95 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Infantry, Grenades, Imperium, Assault Squad, Adeptus Astartes
+
+**Abilities:**
+
+#### Astartes Shield (Abilities)
+- **Description:** The bearer has a 4+ invulnerable save.
+
+#### Chainsword Doctrines (Abilities)
+- **Description:** Each time this unit is selected to fight, select one of the following abilities to apply to all Astartes chainswords equipped by models in this unit until the end of the phase: 
+■ [SUSTAINED HITS 1]
+■ [LETHAL HITS]
+■ [LANCE]
+
+---
+
+### Assault Squad with Jump Packs [Legends]
+**Points:** 115 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Infantry, Grenades, Imperium, Adeptus Astartes, Assault Squad with Jump Packs, Jump Pack, Fly
+
+**Abilities:**
+
+#### Astartes Shield (Abilities)
+- **Description:** The bearer has a 4+ invulnerable save.
+
+#### Hammer of Wrath (Abilities)
+- **Description:** Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound.
+
+---
+
+### Astartes Servitors [Legends]
+**Points:** 55 | **M:** 6" | **T:** 4 | **SV:** 4+ | **W:** 1 | **LD:** 8+ | **OC:** 0
+**Keywords:** Infantry, Imperium, Adeptus Astartes, Astartes Servitors
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Servitor Servo Arm | Melee | Melee | 1 | 5+ | 6 | -2 | 3 | - |
+| Close Combat Weapon | Melee | Melee | 1 | 5+ | 3 | 0 | 1 | - |
+
+**Abilities:**
+
+#### Mindlock (Abilities)
+- **Description:** While a Techmarine model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by Astartes Servitor models in this unit by 1.
+
+#### Invulnerable Save (Abilities)
+- **Description:** 6+
+
+#### Servitor Retinue (Abilities)
+- **Description:** At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a Techmarine. If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly.
 
 ---
 
 ### Astraeus
 **Points:** 525 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 24 | **LD:** 6+ | **OC:** 8
-**Keywords:** Vehicle, Titanic, Imperium, Astraeus
+**Keywords:** Adeptus Astartes, Vehicle, Titanic, Imperium, Astraeus
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -630,14 +242,23 @@ You can attach this model to one of the above units even if one Captain or Chap
 
 **Abilities:**
 
-- **Suppression Fire:** In your Shooting phase, after this model has shot, select one enemy unit hit by one or more attacks made with its twin macro-accelerator cannon this phase. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks.
+#### Suppression Fire (Abilities)
+- **Description:** In your Shooting phase, after this model has shot, select one enemy unit hit by one or more attacks made with its twin macro-accelerator cannon this phase. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save against ranged attacks.
+
+---
+
+### Attack Bike
+**Points:** 55 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 2
+**Keywords:** Space Marines
 
 ---
 
 ### Ballistus Dreadnought
 **Points:** 150 | **M:** 8" | **T:** 10 | **SV:** 2+ | **W:** 12 | **LD:** 6+ | **OC:** 4
-**Keywords:** Vehicle, Walker, Imperium, Ballistus Dreadnought, Dreadnought
+**Keywords:** Vehicle, Walker, Imperium, Ballistus Dreadnought, Adeptus Astartes, Dreadnought
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -649,28 +270,41 @@ You can attach this model to one of the above units even if one Captain or Chap
 
 **Abilities:**
 
-- **Ballistus Strike:** Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll.
+#### Ballistus Strike (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll.
+
+---
+
+### Bike Squad [Legends]
+**Points:** 80 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 2
+**Keywords:** Mounted, Grenades, Imperium, Adeptus Astartes, Bike Squad
+
+**Abilities:**
+
+#### Turbo Boost (Abilities)
+- **Description:** Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6" to the Move characteristic of models in this unit
 
 ---
 
 ### Bladeguard Ancient
 **Points:** 45 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Grenades, Imperium, Bladeguard Ancient, Tacticus, Ancient
+**Keywords:** Infantry, Character, Grenades, Imperium, Bladeguard Ancient, Adeptus Astartes, Tacticus, Ancient
 
 **Abilities:**
 
-- **Deeds of Heroism:** Once per battle, when this model is selected to fight, it can use this ability. If it does, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in this model’s unit
-- **Leader:** This model can be attached to the following unit:
+#### Deeds of Heroism (Abilities)
+- **Description:** Once per battle, when this model is selected to fight, it can use this ability. If it does, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in this model’s unit
 
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following unit:
 ■ Bladeguard Veteran Squad
-
-You can attach this model to the above unit even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
+You can attach this model to the above unit even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
 
 ---
 
 ### Bladeguard Veteran Squad
 **Points:** 80 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Tacticus, Bladeguard Veteran Squad
+**Keywords:** Infantry, Grenades, Imperium, Tacticus, Bladeguard Veteran Squad, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -679,8 +313,8 @@ You can attach this model to the above unit even if one Captain, Chapter Master
 
 **Abilities:**
 
-- **Bladeguard:** At the start of the Fight phase, you can select one of the following abilities to apply to models in this unit until the end of the phase:
-
+#### Bladeguard (Abilities)
+- **Description:** At the start of the Fight phase, you can select one of the following abilities to apply to models in this unit until the end of the phase:
 ■ Swords of the Imperium: Each time a model in this unit makes a melee attack, re-roll a Hit roll of 1.
 ■ Shields of the Imperium: Each time an invulnerable saving throw is made for a model in this unit, re-roll a saving throw of 1.
 
@@ -688,7 +322,7 @@ You can attach this model to the above unit even if one Captain, Chapter Master
 
 ### Brutalis Dreadnought
 **Points:** 160 | **M:** 8" | **T:** 10 | **SV:** 2+ | **W:** 12 | **LD:** 6+ | **OC:** 4
-**Keywords:** Vehicle, Walker, Brutalis Dreadnought, Imperium, Dreadnought
+**Keywords:** Vehicle, Walker, Brutalis Dreadnought, Imperium, Adeptus Astartes, Dreadnought
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -700,55 +334,35 @@ You can attach this model to the above unit even if one Captain, Chapter Master
 
 **Abilities:**
 
-- **Brutalis Charge:** Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds
+#### Brutalis Charge (Abilities)
+- **Description:** Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds
 
 ---
 
-### Callidus Assassin
-**Points:** 100 | **M:** 7" | **T:** 4 | **SV:** 6+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Epic Hero, Imperium, Callidus Assassin, Officio Assassinorum
+### Caestus Assault Ram [Legends]
+**Points:** 215 | **M:** 20+" | **T:** 10 | **SV:** 3+ | **W:** 18 | **LD:** 6+ | **OC:** 0
+**Keywords:** Vehicle, Aircraft, Transport, Fly, Imperium, Caestus Assault Ram, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Neural shredder | Ranged | 12" | D6 | N/A | 5 | -2 | 1 | Anti-INFANTRY 2+, Precision, Torrent |
-| Phase sword and poison blades | Melee | Melee | 5 | 2+ | 5 | -4 | 2 | Lethal Hits, Precision |
+| Armoured Hull | Melee | Melee | 6 | 4+ | 8 | 0 | 1 | Lance |
+| Firefury Missile Batteries | Ranged | 36" | 2D6 | 3+ | 6 | -1 | 1 | Blast, Ignores Cover |
+| Twin Magna-Melta | Ranged | 18" | 2 | 3+ | 12 | -4 | D6 | Melta 4, Twin-Linked |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Reign of Confusion:** Once per battle, after your opponent uses a Stratagem, this model can use this ability. If it does, until the end of the battle, the CP cost your opponent must pay to use that Stratagem again is increased by 1CP.
-- **Acrobatic Escape:** At the end of the Fight phase, if this model is within Engagement Range of one or more enemy units, it can make a Fall Back move of up to D6". In addition, at the end of your opponent's turn, if this model is not within 3" of one or more enemy units, you can remove it from the battlefield and then, in the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9" horizontally away from all enemy models. If the battle ends and this model is not on the battlefield, it is destroyed.
-- **Decoy Targets:** Twice per battle, in your Movement phase, you can select one other friendly INFANTRY model that is on the battlefield and not within Engagement Range of one or more enemy units. The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and this model is removed from the battlefield and set up again as close as possible to where that destroyed model was and not within Engagement Range of one or more enemy units. This ability cannot be used more than once in the same battle round.
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.
 
----
-
-### Canis Rex
-**Points:** 415 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 5+ | **OC:** 10
-**Keywords:** Epic Hero, Character, Imperium
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Las-impulsor - high intensity | Ranged | 24" | D6 | 2+ | 14 | -3 | 4 | Blast, Sustained Hits 1 |
-| ➤ Las-impulsor - low intensity | Ranged | 36" | 2D6 | 2+ | 7 | -1 | 2 | Blast, Sustained Hits 1 |
-| ➤ Freedom's Hand - strike | Melee | Melee | 5 | 2+ | 20 | -3 | 9 | Sustained Hits 1 |
-| ➤ Freedom's Hand - sweep | Melee | Melee | 10 | 2+ | 10 | -2 | 3 | Sustained Hits 1 |
-| Questoris multi-laser | Ranged | 36" | 4 | 2+ | 6 | 0 | 1 | Sustained Hits 1 |
-| Close combat weapon | Melee | Melee | 2 | 2+ | 3 | 0 | 1 | - |
-| Hekhtur's pistol | Ranged | 12" | 1 | 2+ | 5 | -1 | 2 | Pistol |
-
-**Abilities:**
-
-- **Chainbreaker:** Once per battle, at the start of any phase, you can select one friendly Imperium unit that is Battle-shocked and within 12" of this model. That unit is no longer Battle-shocked.
-- **Legendary Freeblade:** Once per turn, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.
-- **Using Sir Hekhtur:** If your Canis Rex model is destroyed, this model is treated as a model disembarking from a destroyed Transport and must perform an Emergency Disembarkation. Sir Hekhtur cannot be selected as the target of any of your Stratagems other than Core Stratagems. Your Canis Rex unit is not considered to be destroyed until Sir Hekhtur is also destroyed.
+#### Into the Foe (Abilities)
+- **Description:** If a unit disembarks from this Transport before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced.
 
 ---
 
 ### Captain
 **Points:** 80 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Captain, Grenades, Imperium, Tacticus
+**Keywords:** Character, Infantry, Captain, Grenades, Imperium, Tacticus, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -757,8 +371,8 @@ You can attach this model to the above unit even if one Captain, Chapter Master
 
 **Abilities:**
 
-- **Leader:** This model can be attached to the following units:
-
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Assault Intercessor Squad
 ■ Bladeguard Veteran Squad*
 ■ Hellblaster Squad*
@@ -767,15 +381,16 @@ You can attach this model to the above unit even if one Captain, Chapter Master
 ■ Sternguard Veteran Squad
 ■ Company Heroes
 ■ Tactical Squad
-
 * This model cannot be attached to a Bladeguard Veteran Squad unless it is equipped with a relic shield, and cannot be attached to a Hellblaster Squad unless it is equipped with a plasma pistol.
-- **Relic Shield:** The bearer has a Wounds characteristic of 6.
+
+#### Relic Shield (Abilities)
+- **Description:** The bearer has a Wounds characteristic of 6.
 
 ---
 
 ### Captain in Gravis Armour
 **Points:** 80 | **M:** 5" | **T:** 6 | **SV:** 3+ | **W:** 6 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Captain, Grenades, Imperium, Gravis
+**Keywords:** Character, Infantry, Captain, Grenades, Imperium, Adeptus Astartes, Gravis
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -787,9 +402,11 @@ You can attach this model to the above unit even if one Captain, Chapter Master
 
 **Abilities:**
 
-- **Refuse to Yield:** Each time an attack is allocated to this model, halve the Damage characteristic of that attack.
-- **Leader:** This model can be attached to the following units:
+#### Refuse to Yield (Abilities)
+- **Description:** Each time an attack is allocated to this model, halve the Damage characteristic of that attack.
 
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Aggressor Squad
 ■ Eradicator Squad
 ■ Heavy Intercessor Squad
@@ -798,7 +415,7 @@ You can attach this model to the above unit even if one Captain, Chapter Master
 
 ### Captain in Phobos Armour
 **Points:** 70 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Imperium, Captain, Phobos
+**Keywords:** Character, Infantry, Grenades, Imperium, Captain, Phobos, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -808,9 +425,11 @@ You can attach this model to the above unit even if one Captain, Chapter Master
 
 **Abilities:**
 
-- **Master of Deceit:** After both players have deployed their armies, if your army includes one or more models with this ability, you can select up to three friendly ADEPTUS ASTARTES INFANTRY units and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.
-- **Leader:** This model can be attached to the following units:
+#### Master of Deceit (Abilities)
+- **Description:** After both players have deployed their armies, if your army includes one or more models with this ability, you can select up to three friendly ADEPTUS ASTARTES INFANTRY units and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.
 
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Eliminator Squad
 ■ Incursor Squad
 ■ Infiltrator Squad
@@ -821,7 +440,7 @@ You can attach this model to the above unit even if one Captain, Chapter Master
 
 ### Captain in Terminator Armour
 **Points:** 95 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 6 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Captain, Imperium, Terminator
+**Keywords:** Character, Infantry, Captain, Adeptus Astartes, Imperium, Terminator
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -830,32 +449,71 @@ You can attach this model to the above unit even if one Captain, Chapter Master
 
 **Abilities:**
 
-- **Leader:** This model can be attached to the following units:
-
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Relic Terminator Squad
 ■ Terminator Assault Squad
 ■ Terminator Squad
-- **Unstoppable Valour:** You can re-roll Charge rolls made for this model’s unit.
+
+#### Unstoppable Valour (Abilities)
+- **Description:** You can re-roll Charge rolls made for this model’s unit.
+
+---
+
+### Captain on Bike [Legends]
+**Points:** 95 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 6 | **LD:** 6+ | **OC:** 2
+**Keywords:** Character, Grenades, Captain, Imperium, Adeptus Astartes, Mounted
+
+**Abilities:**
+
+#### Swift Assault (Abilities)
+- **Description:** While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+■ Bike Squad
+■ Outrider Squad
 
 ---
 
 ### Captain with Jump Pack
 **Points:** 75 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Captain, Imperium, Fly, Jump Pack, Tacticus
+**Keywords:** Character, Infantry, Grenades, Captain, Imperium, Adeptus Astartes, Fly, Jump Pack, Tacticus
 
 **Abilities:**
 
-- **Angel's Wrath:** While this model is leading a unit, each time that unit ends a Charge move, until the end of the turn, add 1 to the Strength characteristic of melee  weapons equipped by models in that unit.
-- **Leader:** This model can be attached to the following units:
+#### Angel's Wrath (Abilities)
+- **Description:** While this model is leading a unit, each time that unit ends a Charge move, until the end of the turn, add 1 to the Strength characteristic of melee weapons equipped by models in that unit.
 
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Assault Intercessors with Jump Packs
 ■ Vanguard Veteran Squad with Jump Packs
 
 ---
 
+### Carab Culln the Risen [Legends]
+**Points:** 250 | **M:** 8" | **T:** 10 | **SV:** 2+ | **W:** 12 | **LD:** 6+ | **OC:** 4
+**Keywords:** Vehicle, Walker, Imperium, Smoke, Character, Epic Hero, Dreadnought, Carab Culln the Risen, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Tarsus Scorpii | Melee | Melee | 5 | 3+ | 12 | -3 | 4 | - |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** 5+
+
+#### Death-hold (Abilities)
+- **Description:** When making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units.
+
+---
+
 ### Centurion Assault Squad
 **Points:** 150 | **M:** 4" | **T:** 7 | **SV:** 2+ | **W:** 4 | **LD:** 6+ | **OC:** 2
-**Keywords:** Infantry, Imperium, Centurion Assault Squad, Centurion
+**Keywords:** Infantry, Imperium, Centurion Assault Squad, Adeptus Astartes, Centurion
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -864,126 +522,75 @@ You can attach this model to the above unit even if one Captain, Chapter Master
 
 **Abilities:**
 
-- **Annihilator Protocols:** Melee weapons equipped by models in this unit have the [SUSTAINED HITS 2] ability when targeting Monster, Vehicle or Fortification units
-- **Centurion Assault Launchers:** The bearer has the Grenades keyword.
+#### Annihilator Protocols (Abilities)
+- **Description:** Melee weapons equipped by models in this unit have the [SUSTAINED HITS 2] ability when targeting Monster, Vehicle or Fortification units
+
+#### Centurion Assault Launchers (Abilities)
+- **Description:** The bearer has the Grenades keyword.
+
+#### Centurion Assault Launchers (Abilities)
+- **Description:** The bearer has the Grenades keyword.
 
 ---
 
 ### Centurion Devastator Squad
 **Points:** 175 | **M:** 4" | **T:** 7 | **SV:** 2+ | **W:** 4 | **LD:** 6+ | **OC:** 2
-**Keywords:** Infantry, Imperium, Centurion Devastator Squad, Centurion
+**Keywords:** Infantry, Imperium, Centurion Devastator Squad, Centurion, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
 | Grav-cannon | Ranged | 24" | 3 | 3+ | 6 | -1 | 3 | Anti-vehicle 2+ |
 | Centurion Fists | Melee | Melee | 3 | 4+ | 5 | -1 | 2 | - |
+| Grav-cannon | Ranged | 24" | 3 | 3+ | 6 | -1 | 3 | Anti-Vehicle 2+ |
 
 **Abilities:**
 
-- **Decimator Protocols:** Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead.
+#### Decimator Protocols (Abilities)
+- **Description:** Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead.
 
 ---
 
-### Cerastus Knight Acheron
-**Points:** 395 | **M:** 12" | **T:** 11 | **SV:** 3+ | **W:** 28 | **LD:** 6+ | **OC:** 10
-**Keywords:** Character, Vehicle, Walker, Titanic, Towering, Imperium, Cerastus, Knight Acheron
+### Cerberus [Legends]
+**Points:** 270 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 18 | **LD:** 6+ | **OC:** 6
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Smoke, Cerberus
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Twin heavy bolter | Ranged | 36" | 3 | 3+ | 5 | -1 | 2 | Sustained Hits 1, Twin-linked |
-| Acheron flame cannon | Ranged | 18" | 2D6 | N/A | 8 | -1 | 2 | Torrent, Ignores Cover |
-| ➤ Reaper chainfist - strike | Melee | Melee | 4 | 3+ | 14 | -4 | 6 | - |
-| ➤ Reaper chainfist - sweep | Melee | Melee | 12 | 3+ | 9 | -3 | 2 | - |
+| Cerberus neutron pulse array | Ranged | 48" | 3 | 3+ | 16 | -4 | D6+3 | Twin-linked |
 
 **Abilities:**
 
-- **Searing Flames:** In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.
-- **Cerastus Knight Acheron:** This model has a 5+ invulnerable save against ranged attacks only.
-- **Acheron’s Duty (Bondsman):** While a model is affected by this ability, at the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test, subtracting 1 from the result when they do.
-
----
-
-### Cerastus Knight Atrapos
-**Points:** 405 | **M:** 12" | **T:** 11 | **SV:** 3+ | **W:** 28 | **LD:** 6+ | **OC:** 10
-**Keywords:** Character, Vehicle, Walker, Titanic, Towering, Imperium, Cerastus, Knight Atrapos
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Atrapos lascutter - high intensity (melee) | Melee | Melee | 6 | 3+ | 14 | -3 | 4 | Sustained Hits 1 |
-| ➤ Atrapos lascutter - low intensity (melee) | Melee | Melee | 12 | 3+ | 7 | -1 | 2 | Sustained Hits 1 |
-| ➤ Atrapos lascutter - high intensity (ranged) | Ranged | 24" | D6 | 3+ | 14 | -3 | 4 | Sustained Hits 1 |
-| ➤ Atrapos lascutter - low intensity (ranged) | Ranged | 36" | 2D6 | 3+ | 7 | -1 | 2 | Sustained Hits 1 |
-| ➤ Graviton singularity cannon - singularity | Ranged | 24" | D3 | 3+ | 16 | -4 | D6+1 | Blast, Devastating Wounds, Hazardous |
-| ➤ Graviton singularity cannon - contained | Ranged | 24" | D3 | 3+ | 16 | -4 | D6+1 | Blast |
-
-**Abilities:**
-
-- **Macro-extinction Protocols:** Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll. If that target is TITANIC or TOWERING, add 1 to the Wound roll as well.
-- **Invulnerable Save (5+):** This model has a 5+ invulnerable save.
-- **Atrapos’ Duty (Bondsman):** While a model is affected by this ability, each time that model makes an attack that targets a TITANIC or TOWERING model, you can re-roll the Hit roll and you can re-roll the Wound roll.
-
----
-
-### Cerastus Knight Castigator
-**Points:** 395 | **M:** 12" | **T:** 11 | **SV:** 3+ | **W:** 28 | **LD:** 6+ | **OC:** 10
-**Keywords:** Character, Vehicle, Walker, Titanic, Towering, Imperium, Cerastus, Knight Castigator
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Castigator bolt cannon | Ranged | 36" | 18 | 3+ | 6 | -2 | 2 | Twin-linked |
-| ➤ Tempest warblade - strike | Melee | Melee | 4 | 3+ | 14 | -4 | 6 | - |
-| ➤ Tempest warblade - sweep | Melee | Melee | 12 | 3+ | 9 | -3 | 2 | - |
-
-**Abilities:**
-
-- **Storm of Bolts:** In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.
-- **Castigator’s Duty (Bondsman):** While a model is affected by this ability, its ranged weapons have the [SUSTAINED HITS 1] ability and the Armour Penetration characteristic of its ranged weapons is improved by 1.
-
----
-
-### Cerastus Knight Lancer
-**Points:** 395 | **M:** 14" | **T:** 11 | **SV:** 3+ | **W:** 28 | **LD:** 6+ | **OC:** 10
-**Keywords:** Character, Vehicle, Walker, Titanic, Towering, Imperium, Knight Lancer, Cerastus
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Cerastus shock lance - strike | Melee | Melee | 5 | 2+ | 20 | -3 | 8 | Lance |
-| Cerastus shock lance | Ranged | 12" | 6 | 3+ | 6 | 0 | 2 | Assault, Sustained Hits 2 |
-| ➤ Cerastus shock lance - sweep | Melee | Melee | 10 | 2+ | 10 | -2 | 3 | - |
-
-**Abilities:**
-
-- **Shock Charge:** You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.
-- **Lancer’s Duty (Bondsman):** While a model is affected by this ability, it is eligible to declare a charge in a turn in which it Advanced.
+#### Atomantic Arc-reactor (Abilities)
+- **Description:** Each time this unit shoots its Cerberus neutron pulse array in your Shooting phase, provided it Remained Stationary this turn, that weapon has the [LETHAL HITS] ability.
 
 ---
 
 ### Champion of the Chapter [Crucible]
 **Points:** 70 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Imperium, Champion of the Chapter, Tacticus, Crucible
+**Keywords:** Character, Infantry, Grenades, Imperium, Champion of the Chapter, Tacticus, Adeptus Astartes, Crucible
 
 **Abilities:**
 
-- **Exemplar Warrior:** Once per turn, when this model's unit is selected to shoot or fight, it can use this ability. If it does, until the end of the phase, each time this model makes an attack, you can re-roll the Wound Roll.
-- **Leader:** This model can be attached to the following units:
-- Tacticus (Excluding Character and Fly)
+#### Exemplar Warrior (Abilities)
+- **Description:** Once per turn, when this model's unit is selected to shoot or fight, it can use this ability. If it does, until the end of the phase, each time this model makes an attack, you can re-roll the Wound Roll.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+- Tacticus (Excluding **Character** and **Fly**)
 - Tactical Squad
 
 ---
 
 ### Chaplain
 **Points:** 60 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 5+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Tacticus, Imperium, Chaplain
+**Keywords:** Character, Infantry, Grenades, Tacticus, Imperium, Adeptus Astartes, Chaplain
 
 **Abilities:**
 
-- **Leader:** This model can be attached to the following units:
-
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Assault Intercessor Squad
 ■ Bladeguard Veteran Squad
 ■ Hellblaster Squad
@@ -996,13 +603,15 @@ You can attach this model to the above unit even if one Captain, Chapter Master
 
 ### Chaplain in Terminator Armour
 **Points:** 75 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 5 | **LD:** 5+ | **OC:** 1
-**Keywords:** Character, Infantry, Terminator, Chaplain, Imperium
+**Keywords:** Character, Infantry, Terminator, Chaplain, Imperium, Adeptus Astartes
 
 **Abilities:**
 
-- **Recitation of Faith:** While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds.
-- **Leader:** This model can be attached to the following units:
+#### Recitation of Faith (Abilities)
+- **Description:** While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds.
 
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Terminator Assault Squad
 ■ Terminator Squad
 
@@ -1010,36 +619,111 @@ You can attach this model to the above unit even if one Captain, Chapter Master
 
 ### Chaplain on Bike
 **Points:** 75 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 5 | **LD:** 5+ | **OC:** 1
-**Keywords:** Character, Mounted, Imperium, Grenades, Chaplain
+**Keywords:** Character, Mounted, Imperium, Grenades, Chaplain, Adeptus Astartes
 
 **Abilities:**
 
-- **Catechism of Fire:** Each time this model’s unit is selected to shoot, you can select one enemy unit within 12" of and visible to this model. Until the end of the phase, ranged
-weapons equipped by models in this model’s unit have the [DEVASTATING WOUNDS] ability when targeting that enemy unit.
-- **Leader:** This model can be attached to the following units:
+#### Catechism of Fire (Abilities)
+- **Description:** Each time this model’s unit is selected to shoot, you can select one enemy unit within 12" of and visible to this model. Until the end of the phase, ranged
+weapons equipped by models in this model’s unit have the [DEVASTATING WOUNDS] ability when targeting that enemy unit.
 
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Bike Squad
 ■ Outrider Squad
 
 ---
 
-### Chaplain with Jump Pack
-**Points:** 75 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 5+ | **OC:** 1
-**Keywords:** Character, Infantry, Imperium, Chaplain, Fly, Jump Pack
+### Chaplain Venerable Dreadnought [Legends]
+**Points:** 150 | **M:** 6" | **T:** 9 | **SV:** 2+ | **W:** 8 | **LD:** 6+ | **OC:** 3
+**Keywords:** Vehicle, Walker, Imperium, Dreadnought, Chaplain Venerable Dreadnought, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Dreadnought Inferno Cannon | Ranged | 12" | 2D6 | N/A | 6 | -1 | 1 | Ignores Cover, Torrent |
 
 **Abilities:**
 
-- **Exhortation of Rage:** Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model’s unit and roll one D6: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.
-- **Leader:** This model can be attached to the following units:
+#### Invulnerable Save (Abilities)
+- **Description:** 5+
 
+---
+
+### Chaplain with Jump Pack
+**Points:** 75 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 5+ | **OC:** 1
+**Keywords:** Character, Infantry, Imperium, Chaplain, Adeptus Astartes, Fly, Jump Pack
+
+**Abilities:**
+
+#### Exhortation of Rage (Abilities)
+- **Description:** Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model’s unit and roll one D6: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Assault Intercessors with Jump Packs
 ■ Vanguard Veteran Squad with Jump Packs
 
 ---
 
+### Command Squad [Legends]
+**Points:** 165 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 1
+**Keywords:** Infantry, Grenades, Imperium, Command Squad, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Champion's Blade | Melee | Melee | 4 | 3+ | 5 | -2 | 2 | Precision |
+
+**Abilities:**
+
+#### Narthecium (Abilities)
+- **Description:** While this unit contains an Apothecary, in your Command phase, you can return 1 destroyed model (excluding Character models) to this unit
+
+#### Astartes Banner (Abilities)
+- **Description:** While this unit contains a Company Ancient, add 1 to the Objective Control characteristic of models in this unit.
+
+#### Astartes Shield (Abilities)
+- **Description:** The bearer has a 4+ invulnerable save.
+
+#### Honour or Death (Abilities)
+- **Description:** While this unit contains a Company Champion, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic Intervention Stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase.
+
+#### Astartes Shield (Abilities)
+- **Description:** The bearer has a 4+ invulnerable save.
+
+#### Astartes Shield (Abilities)
+- **Description:** The bearer has a 4+ invulnerable save.
+
+---
+
+### Company Champion on Bike [Legends]
+**Points:** 60 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 2
+**Keywords:** Character, Mounted, Grenades, Imperium, Company Champion, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Master-crafted Power Weapon | Melee | Melee | 4 | 2+ | 5 | -2 | 2 | Precision |
+
+**Abilities:**
+
+#### Martial Superiority (Abilities)
+- **Description:** Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll
+
+#### Honour or Death (Abilities)
+- **Description:** While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit and you can target that unit with the Heroic Intervention stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+■ Bike Squad
+■ Outrider Squad
+
+---
+
 ### Company Heroes
 **Points:** 105 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Tacticus, Company Heroes
+**Keywords:** Infantry, Grenades, Imperium, Tacticus, Company Heroes, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1051,119 +735,148 @@ weapons equipped by models in this model’s unit have the [DEVASTATING WOUNDS]
 
 **Abilities:**
 
-- **Ancient Banner:** While this unit contains an Ancient, add 1 to the Objective Control characteristic of models in this unit
-- **Command Squad:** While a Character model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll.
-- **Company Heroes:** You must attach one Captain or Chapter Master model to this unit. If this is not possible, this unit does not take part in the battle and counts as having been destroyed.
+#### Ancient Banner (Abilities)
+- **Description:** While this unit contains an Ancient, add 1 to the Objective Control characteristic of models in this unit
+
+#### Command Squad (Abilities)
+- **Description:** While a Character model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll.
+
+#### Company Heroes (Abilities)
+- **Description:** You must attach one Captain or Chapter Master model to this unit. If this is not possible, this unit does not take part in the battle and counts as having been destroyed.
 
 ---
 
-### Corvus Blackstar
-**Points:** 180 | **M:** 20+" | **T:** 10 | **SV:** 3+ | **W:** 14 | **LD:** 6+ | **OC:** 0
-**Keywords:** Fly, Vehicle, Aircraft, Imperium, Transport, Retinue, Corvus Blackstar, Ordo Xenos, Deathwatch
+### Company Veterans on Bikes [Legends]
+**Points:** 110 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 2
+**Keywords:** Mounted, Imperium, Grenades, Company Veterans, Adeptus Astartes
+
+**Abilities:**
+
+#### Vanguard Assault (Abilities)
+- **Description:** Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.
+
+#### Storm Shield (Abilities)
+- **Description:** The bearer has a 4+ invulnerable save
+
+#### Storm Shield (Abilities)
+- **Description:** The bearer has a 4+ invulnerable save
+
+---
+
+### Deathstorm Drop Pod [Legends]
+**Points:** 95 | **M:** - | **T:** 7 | **SV:** 3+ | **W:** 8 | **LD:** 6+ | **OC:** 2
+**Keywords:** Adeptus Astartes, Vehicle, Imperium, Deathstorm Drop Pod
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Armoured hull | Melee | Melee | 3 | 4+ | 6 | 0 | 1 | - |
-| Hurricane bolter | Ranged | 24" | 6 | 3+ | 4 | 0 | 1 | Rapid Fire 6, Twin-Linked |
-| Twin assault cannon | Ranged | 24" | 6 | 3+ | 6 | 0 | 1 | Devastating Wounds, Twin-Linked |
-| Twin lascannon | Ranged | 48" | 1 | 3+ | 12 | -3 | D6+1 | Twin-Linked |
-| Blackstar rocket launcher | Ranged | 30" | D6+1 | 3+ | 5 | 0 | 1 | Blast |
-| Stormstrike missile launcher | Ranged | 48" | 1 | 3+ | 10 | -2 | 3 | - |
+| Deathstorm cannon array | Ranged | 18" | 12 | 4+ | 6 | 0 | 1 | Sustained Hits 2 |
+| Deathstorm missile array | Ranged | 18" | 2D6 | 4+ | 8 | -2 | 2 | Blast |
 
 **Abilities:**
 
-- **Blackstar Cluster Launcher:** Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 5+, that unit suffers 1 mortal wound.
-- **Damaged: 1-5 Wounds Remaining:** While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.
-- **Transport:** This model has a transport capacity of 12 DEATHWATCH INFANTRY models.
-- **Auspex Array:** Ranged weapons equipped by the bearer have the [IGNORES COVER] ability.
-- **Infernum Halo-launcher:** The bearer has the SMOKE keyword.
+#### Deathstorm Assault (Abilities)
+- **Description:** This model must start the battle in Reserves, but it is not counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.
 
 ---
 
-### Culexus Assassin
-**Points:** 85 | **M:** 7" | **T:** 4 | **SV:** 6+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Epic Hero, Grenades, Imperium, Culexus Assassin, Officio Assassinorum
+### Deimos Predator [Legends]
+**Points:** 115 | **M:** 10" | **T:** 10 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 3
+**Keywords:** Vehicle, Smoke, Imperium, Deimos Predator, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Life-draining touch | Melee | Melee | 4 | 2+ | 4 | -2 | 2 | Anti-PSYKER 2+, Devastating Wounds, Precision |
-| Animus speculum | Ranged | 24" | 3 | 2+ | 5 | -2 | D3 | Anti-PSYKER 2+, Assault, Precision, Psychic Assassin |
+| ➤ Plasma Destroyer - Standard | Ranged | 36" | D3 | 3+ | 8 | -2 | 2 | Blast |
+| ➤ Plasma Destroyer - Supercharge | Ranged | 36" | D3 | 3+ | 9 | -3 | 3 | Blast, Hazardous |
+| Infernus Cannon | Ranged | 12" | 2D6 | N/A | 6 | -1 | 1 | Ignores Cover, Torrent |
+| Conversion Beam Cannon | Ranged | 24" | 1 | 3+ | 7 | -1 | 3 | Conversion, Sustained Hits D3 |
+| Magna-Melta Cannon | Ranged | 18" | 2 | 3+ | 12 | -4 | D6 | Melta 4 |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Abomination:** This model has the Feel No Pain 2+ ability against Psychic Attacks.
-- **Soulless Horror:** Once per battle, at the start of any Command phase, this model can use this ability. If it does, each enemy unit within 9" of this model must take a Battle-shock test, subtracting 1 from that test (or subtracting 2 if that unit is a PSYKER).
-- **Etheric Emergence:** In your Movement phase, when this model is set up on the battlefield using the Deep Strike ability, it can perform an etheric emergence. If it does, this model can be set up anywhere on the battlefield that is more than 6" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge.
-- **Esoteric Explosives:** Each time this model is targeted with the Grenades Stratagem, 1 mortal wound is inflicted for each D6 roll of 3+ instead of for each 4+
+#### Armoured Spearhead (Abilities)
+- **Description:** Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.
 
 ---
 
-### Deathwatch Agent [Crucible]
-**Points:** 105 | **M:** 6" | **T:** 3 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Grenades, Imperium, Crucible, Ordo Xenos, Deathwatch, Deathwatch Agent
-
-**Abilities:**
-
-- **Invulnerable Save (4+):** This model has a 4+ invulnerable save.
-- **Your Vigil is Not Yet Ended:** While this model is leading a unit, in your Command phase, you can returned 1 destroyed model (excluding Character models) to that unit.
-- **Leader:** This model can be attached to the following unit: Deathwatch Kill Team
-- **High-handed Authority:** While this model is leading a unit, it can embark within any Transport that its Bodyguard unit can embark within.
-
----
-
-### Deathwatch Kill Team
-**Points:** 100 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 2
-**Keywords:** Infantry, Battleline, Grenades, Imperium, Retinue, Ordo Xenos, Deathwatch, Kill Team
+### Deredeo Dreadnought [Legends]
+**Points:** 160 | **M:** 6" | **T:** 9 | **SV:** 2+ | **W:** 12 | **LD:** 6+ | **OC:** 3
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Walker, Smoke, Dreadnought, Deredeo Dreadnought
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Combi-weapon | Ranged | 24" | 1 | 4+ | 4 | 0 | 1 | Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1 |
-| Xenophase blade | Melee | Melee | 4 | 3+ | 5 | -2 | 1 | Devastating Wounds |
+| Aiolos missile launcher | Ranged | 48" | D6+3 | 3+ | 5 | 0 | 1 | Blast |
+| Boreas air defence missiles | Ranged | 48" | 1 | 3+ | 12 | -3 | D6+1 | Anti-FLY 2+ |
+| Anvilus autocannon battery | Ranged | 48" | 4 | 3+ | 9 | -1 | 3 | Twin-linked |
+| Arachnus heavy lascannon battery | Ranged | 48" | 2 | 3+ | 12 | -3 | D6+1 | - |
+| Volkite falconet battery | Ranged | 30" | 6 | 3+ | 9 | 0 | 2 | Devastating Wounds |
+| ➤ Hellfire plasma carronade - standard | Ranged | 36" | 6 | 3+ | 7 | -2 | 2 | - |
+| ➤ Hellfire plasma carronade - supercharge | Ranged | 36" | 6 | 3+ | 8 | -3 | 3 | Hazardous |
 
 **Abilities:**
 
-- **Death to the Alien:** Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack does not have the IMPERIUM or CHAOS keywords, you can re-roll the Hit roll instead.
+#### Deredeo Strike (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll.
+
+#### Invunerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
 
 ---
 
 ### Desolation Squad
 **Points:** 200 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Tacticus, Desolation Squad
+**Keywords:** Infantry, Grenades, Imperium, Tacticus, Desolation Squad, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
 | Superfrag Rocket Launcher | Ranged | 48" | D6+1 | 4+ | 5 | 0 | 1 | Blast, Heavy |
 | Superkrak Rocket Launcher | Ranged | 48" | 1 | 4+ | 10 | -2 | D6+1 | Heavy |
+| Superfrag Rocket Launcher | Ranged | 48" | D6+1 | 4+ | 5 | 0 | 1 | Blast, Heavy |
+| Superkrak Rocket Launcher | Ranged | 48" | 1 | 4+ | 10 | -2 | D6+1 | Heavy |
 
 **Abilities:**
 
-- **Targeter Optics:** Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the  [IGNORES COVER] ability.
+#### Targeter Optics (Abilities)
+- **Description:** Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability.
 
 ---
 
 ### Devastator Squad
 **Points:** 120 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Devastator Squad
+**Keywords:** Infantry, Grenades, Imperium, Devastator Squad, Adeptus Astartes
 
 **Abilities:**
 
-- **Signum:** Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability.
-- **Armorium Cherub:** Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6.
+#### Signum (Abilities)
+- **Description:** Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability.
+
+#### Armorium Cherub (Abilities)
+- **Description:** Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6.
 
 ---
 
 ### Dreadnought
 **Points:** 135 | **M:** 6" | **T:** 9 | **SV:** 2+ | **W:** 8 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Smoke, Imperium, Walker, Dreadnought
+**Keywords:** Vehicle, Smoke, Imperium, Adeptus Astartes, Walker, Dreadnought
 
 **Abilities:**
 
-- **Wisdom of the Ancients [Aura]:** While a friendly Adeptus Astartes Infantry unit is within 6" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1.
+#### Wisdom of the Ancients [Aura] (Abilities)
+- **Description:** While a friendly Adeptus Astartes Infantry unit is within 6" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1.
+
+---
+
+### Dreadnought Drop Pod [Legends]
+**Points:** 75 | **M:** - | **T:** 7 | **SV:** 3+ | **W:** 8 | **LD:** 6+ | **OC:** 2
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Transport, Dreadnought Drop Pod
+
+**Abilities:**
+
+#### Drop Pod Assault (Abilities)
+- **Description:** This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 9" away from all enemy models. After this model has been set up on the battlefield, no units can embark within it.
 
 ---
 
@@ -1173,16 +886,23 @@ weapons equipped by models in this model’s unit have the [DEVASTATING WOUNDS]
 
 **Abilities:**
 
-- **Drop Pod Assault:** This model must start the battle in Reserves and can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 9" away from all enemy models.
-- **Transport:** This model has a transport capacity of 12 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Gravis, Centurion or Terminator models.
-- **Combat Disembarkation:** Each time a unit disembarks from this model after it has been set up on the battlefield, that unit is still eligible to declare a charge this turn
-- **Deployment Complete:** Once this unit is set up on the battlefield and all units within it have disembarked, until the end of the battle, units cannot embark within this TRANSPORT
+#### Drop Pod Assault (Abilities)
+- **Description:** This model must start the battle in Reserves and can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 9" away from all enemy models.
+
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 12 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Gravis, Centurion or Terminator models.
+
+#### Combat Disembarkation (Abilities)
+- **Description:** Each time a unit disembarks from this model after it has been set up on the battlefield, that unit is still eligible to declare a charge this turn
+
+#### Deployment Complete (Abilities)
+- **Description:** Once this unit is set up on the battlefield and all units within it have disembarked, until the end of the battle, units cannot embark within this TRANSPORT
 
 ---
 
 ### Eliminator Squad
 **Points:** 85 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Imperium, Grenades, Phobos, Eliminator Squad
+**Keywords:** Infantry, Imperium, Grenades, Phobos, Adeptus Astartes, Eliminator Squad
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1192,78 +912,120 @@ weapons equipped by models in this model’s unit have the [DEVASTATING WOUNDS]
 
 **Abilities:**
 
-- **Reposition Under Covering Fire:** In your Shooting phase, after this unit has shot, if it contains an Eliminator Sergeant equipped with an instigator bolt carbine, this unit can make a
+#### Reposition Under Covering Fire (Abilities)
+- **Description:** In your Shooting phase, after this unit has shot, if it contains an Eliminator Sergeant equipped with an instigator bolt carbine, this unit can make a
 Normal move. If it does so, until the end of the turn, this unit is not eligible to declare a charge.
-- **Mark the Target:** Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability.
 
----
-
-### Enthroned Agent [Crucible]
-**Points:** 120 | **M:** 8" | **T:** 7 | **SV:** 3+ | **W:** 9 | **LD:** 6+ | **OC:** 3
-**Keywords:** Character, Imperium, Crucible, Vehicle, Walker, Enthroned Agent
-
-**Abilities:**
-
-- **Invulnerable Save (4+):** This model has a 4+ invulnerable save.
-- **Towering Reputation (Aura):** While a friendly unit is within 6" of this model, improve the Leadership characteristic of models in that unit by 1. While an enemy unit is within 6" of this model, worsen the Leadership characteristic of models in that unit by 1.
-- **High-handed Authority:** While this model is leading a unit, it can embark within any Transport that its Bodyguard unit can embark within.
+#### Mark the Target (Abilities)
+- **Description:** Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability.
 
 ---
 
 ### Eradicator Squad
 **Points:** 90 | **M:** 5" | **T:** 6 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Gravis, Eradicator Squad
+**Keywords:** Infantry, Grenades, Imperium, Gravis, Eradicator Squad, Adeptus Astartes
 
 **Abilities:**
 
-- **Total Obliteration:** Each time a ranged attack made by a model in this unit targets a Monster or Vehicle model, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll.
+#### Total Obliteration (Abilities)
+- **Description:** Each time a ranged attack made by a model in this unit targets a Monster or Vehicle model, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll.
 
 ---
 
-### Eversor Assassin
-**Points:** 110 | **M:** 9" | **T:** 4 | **SV:** 6+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Epic Hero, Grenades, Imperium, Eversor Assassin, Officio Assassinorum
+### Falchion [Legends]
+**Points:** 420 | **M:** 9" | **T:** 13 | **SV:** 2+ | **W:** 24 | **LD:** 6+ | **OC:** 8
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Titanic, Smoke, Falchion
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Executioner pistol | Ranged | 12" | 4 | 2+ | 4 | 0 | 1 | Anti-INFANTRY 3+, Pistol, Precision, Sustained Hits 3 |
-| Power sword and neuro gauntlet | Melee | Melee | 6 | 2+ | 5 | -2 | 2 | Anti-INFANTRY 3+, Precision, Sustained Hits 3 |
+| Twin Falchion volcano cannon | Ranged | 120" | D3+1 | 3+ | 24 | -5 | 12 | Blast, Twin-linked |
+| Quad lascannon | Ranged | 48" | 4 | 3+ | 12 | -3 | D6+1 | - |
+| Laser destroyer | Ranged | 36" | 3 | 3+ | 14 | -4 | D6+1 | Heavy |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Frenzon:** This model is eligible to shoot and declare a charge in a turn in which it Advanced.
-- **Overkill:** Once per battle, in your Movement phase, this model can use this ability before it makes a Normal move. If it does, until the end of the turn, add 6" to this model's Movement characteristic and add 3 to the Attacks characteristic of this model's melee weapons.
-- **Intra-neural Biotech:** Once per battle round, you can target this model with the Heroic Intervention or Counter‑offensive Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase.
+#### Titan-killer (Abilities)
+- **Description:** Each time this model makes a ranged attack with its twin Falchion volcano cannon that targets a MONSTER or VEHICLE unit, that attack has the [DEVASTATING WOUNDS] ability.
 
 ---
 
-### Exaction Squad
-**Points:** 90 | **M:** 6" | **T:** 3 | **SV:** 4+ | **W:** 1 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Retinue, Exaction Squad, Adeptus Arbites
+### Fellblade [Legends]
+**Points:** 480 | **M:** 9" | **T:** 13 | **SV:** 2+ | **W:** 24 | **LD:** 6+ | **OC:** 8
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Titanic, Smoke, Fellblade
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Excruciator maul | Melee | Melee | 2 | 3+ | 4 | -1 | 2 | - |
-| ➤ Arbites grenade launcher - frag | Ranged | 24" | D3 | 4+ | 4 | 0 | 1 | Blast |
-| ➤ Arbites grenade launcher - krak | Ranged | 24" | 1 | 4+ | 9 | -2 | D3 | - |
-| Executioner shotgun | Ranged | 24" | 1 | 4+ | 5 | -1 | 1 | Ignores Cover, Precision |
-| Heavy stubber | Ranged | 36" | 3 | 4+ | 4 | 0 | 1 | Rapid Fire 3 |
-| Webber | Ranged | 12" | D6 | N/A | 2 | 0 | 1 | Assault, Devastating Wounds, Torrent |
+| Demolisher cannon | Ranged | 24" | D6+3 | 3+ | 14 | -3 | D6 | Blast |
+| ➤ Fellblade accelerator cannon - AP shells | Ranged | 72" | 2 | 3+ | 14 | -3 | 6 | - |
+| ➤ Fellblade accelerator cannon - HE shells | Ranged | 72" | 2D6 | 3+ | 8 | -1 | 2 | Blast |
+| Quad lascannon | Ranged | 48" | 4 | 3+ | 12 | -3 | D6+1 | - |
+| Laser destroyer | Ranged | 36" | 3 | 3+ | 14 | -4 | D6+1 | Heavy |
+| Quad heavy bolter | Ranged | 36" | 6 | 3+ | 5 | -1 | 2 | Sustained Hits 1, Twin-linked |
 
 **Abilities:**
 
-- **Arbites medi-kit:** At the start of your Command phase, if the bearer's unit is below its Starting Strength, you can return up to D3 destroyed Exaction Vigilants to this unit.
-- **Soulguilt scanner:** Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability.
-- **Imperial Law:** At the start of the battle, select one unit from your opponent's army. Each time a model in this unit makes an attack that targets that unit, that attack has the [Lethal Hits] and [Precision] abilities.
+#### Rolling Fortress (Abilities)
+- **Description:** Each time a ranged attack is allocated to a model from your army, if that model is not fully visible to every model in the attacking unit because of this Fellblade model, that model has the Benefit of Cover against that attack.
 
 ---
 
-### Firestrike Servo-Turrets
-**M:** 3" | **T:** 6 | **SV:** 2+ | **W:** 6 | **LD:** 6+ | **OC:** 2
-**Keywords:** Artillery, Vehicle, Imperium, Firestrike Servo-turrets
+### Ferren Areios [Legends]
+**Points:** 80 | **M:** 6" | **T:** 4 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 1
+**Keywords:** Character, Epic Hero, Infantry, Captain, Grenades, Adeptus Astartes, Imperium, Tacticus, Ferren Areios
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Relic Thunder Hammer | Melee | Melee | 5 | 2+ | 8 | -2 | 3 | Devastating Wounds |
+
+**Abilities:**
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+■ Assault Intercessor Squad
+■ Bladeguard Veteran Squad
+■ Company Heroes
+■ Hellblaster Squad
+■ Infernus Squad
+■ Intercessor Squad
+■ Sternguard Veteran Squad
+■ Tactical Squad
+
+#### Master of Rites (Abilities)
+- **Description:** In your Command phase, select one of the following to apply to this model’s unit until the end of the turn: 
+■ This model’s unit is eligible to shoot in a turn in which it Advanced.
+■ This model’s unit is eligible to declare a charge in a turn in it which it Advanced.
+■ This model’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back.
+
+#### Unrelenting and Uncompromising (Abilities)
+- **Description:** While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or all modifiers to
+the Hit roll.
+
+---
+
+### Fire Raptor Gunship [Legends]
+**Points:** 290 | **M:** 20+" | **T:** 10 | **SV:** 3+ | **W:** 18 | **LD:** 6+ | **OC:** 0
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Fly, Aircraft, Fire Raptor Gunship
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Twin avenger bolt cannon | Ranged | 36" | 10 | 3+ | 6 | -1 | 2 | Twin-linked |
+| Quad heavy bolter | Ranged | 36" | 6 | 3+ | 5 | -1 | 2 | Twin-linked, Sustained Hits 1 |
+| Twin hellstrike launcher | Ranged | 72" | 2 | 3+ | 10 | -3 | D6 | Anti-Fly 2+, Twin-linked |
+
+**Abilities:**
+
+#### Strafing Run (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll.
+
+---
+
+### Firestrike Servo-Turret
+**Points:** 75 | **M:** 3" | **T:** 6 | **SV:** 2+ | **W:** 6 | **LD:** 6+ | **OC:** 2
+**Keywords:** Space Marines
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1271,15 +1033,11 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
 | Twin Firestrike Las-talon | Ranged | 36" | 2 | 2+ | 10 | -3 | D6+1 | Twin-linked |
 | Twin Firestrike Autocannon | Ranged | 48" | 3 | 2+ | 9 | -1 | 3 | Twin-linked |
 
-**Abilities:**
-
-- **Sentinel Protocols:** Each time you select this unit for the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 4+ when resolving that Stratagem.
-
 ---
 
 ### Gladiator Lancer
 **Points:** 160 | **M:** 10" | **T:** 10 | **SV:** 3+ | **W:** 12 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Imperium, Smoke, Gladiator Lancer
+**Keywords:** Vehicle, Imperium, Smoke, Gladiator Lancer, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1288,13 +1046,14 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
 
 **Abilities:**
 
-- **Aqullon Optics:** Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks
+#### Aqullon Optics (Abilities)
+- **Description:** Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks
 
 ---
 
 ### Gladiator Reaper
 **Points:** 160 | **M:** 10" | **T:** 10 | **SV:** 3+ | **W:** 12 | **LD:** 6+ | **OC:** 3
-**Keywords:** Smoke, Imperium, Vehicle, Gladiator Reaper
+**Keywords:** Smoke, Imperium, Vehicle, Adeptus Astartes, Gladiator Reaper
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1304,13 +1063,14 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
 
 **Abilities:**
 
-- **Rotating Death:** This model’s twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting Infantry units.
+#### Rotating Death (Abilities)
+- **Description:** This model’s twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting Infantry units.
 
 ---
 
 ### Gladiator Valiant
 **Points:** 150 | **M:** 10" | **T:** 10 | **SV:** 3+ | **W:** 12 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Smoke, Imperium, Gladiator Valiant
+**Keywords:** Vehicle, Smoke, Imperium, Gladiator Valiant, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1319,33 +1079,14 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
 
 **Abilities:**
 
-- **Ferocious Assault:** Each time this model makes an attack with its twin las-talon that targets the closest eligible Monster or Vehicle unit, add 1 to the Hit roll
-
----
-
-### Grey Knights Terminator Squad
-**Points:** 190 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 3 | **LD:** 6+ | **OC:** 2
-**Keywords:** Infantry, Psyker, Terminator, Grenades, Imperium, Ordo Malleus, Requisitioned, Grey Knights Terminator Squad
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Incinerator | Ranged | 12" | D6 | N/A | 6 | -1 | 1 | Ignores Cover, Torrent |
-| Psilencer | Ranged | 24" | 6 | 3+ | 5 | 0 | 1 | Psychic, Sustained Hits 1 |
-| Psycannon | Ranged | 24" | 3 | 3+ | 8 | -1 | 2 | Psychic |
-
-**Abilities:**
-
-- **Invulnerable Save:** Models in this unit have a 4+ invulnerable save.
-- **Rites of Teleportation:** If one or more INQUISITOR units are attached to this unit during the Declare Battle Formations step, models in those units have the Deep Strike ability.
-- **Hammerhand (Psychic):** Each time this unit makes a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.
-- **Narthecium:** In your Command phase, you can return 1 destroyed model (excluding CHARACTERS) to the bearer's unit.
+#### Ferocious Assault (Abilities)
+- **Description:** Each time this model makes an attack with its twin las-talon that targets the closest eligible Monster or Vehicle unit, add 1 to the Hit roll
 
 ---
 
 ### Hammerfall Bunker
 **Points:** 175 | **M:** - | **T:** 12 | **SV:** 2+ | **W:** 14 | **LD:** 6+ | **OC:** 0
-**Keywords:** Fortification, Imperium, Hammerfall Bunker
+**Keywords:** Fortification, Imperium, Hammerfall Bunker, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1357,33 +1098,43 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
 
 **Abilities:**
 
-- **Fortification:** While an enemy unit is only within Engagement Range of one or more Fortifications from your army:
-■ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.
-■ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.
-- **Ceramite Cover:** Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack.
-- **Defensive Array:** You can target this Fortification with the Fire Overwatch Strategem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be targeted with that Stratagem once per turn.
+#### Fortification (Abilities)
+- **Description:** While an enemy unit is only within Engagement Range of one or more Fortifications from your army:
+■ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.
+■ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.
+
+#### Ceramite Cover (Abilities)
+- **Description:** Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack.
+
+#### Defensive Array (Abilities)
+- **Description:** You can target this Fortification with the Fire Overwatch Strategem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be targeted with that Stratagem once per turn.
+
+#### Defensive Array (Abilities)
+- **Description:** You can target this Fortification with the Fire Overwatch Strategem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be targeted with that Stratagem once per turn.
 
 ---
 
 ### Heavy Intercessor Squad
 **Points:** 100 | **M:** 5" | **T:** 6 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 2
-**Keywords:** Infantry, Battleline, Grenades, Imperium, Gravis, Heavy Intercessor Squad
+**Keywords:** Infantry, Battleline, Grenades, Imperium, Gravis, Adeptus Astartes, Heavy Intercessor Squad
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
 | Heavy Bolt Rifle | Ranged | 30" | 2 | 3+ | 5 | -1 | 2 | Assault, Heavy |
+| Heavy Bolt Rifle | Ranged | 30" | 2 | 3+ | 5 | -1 | 2 | Assault, Heavy |
 
 **Abilities:**
 
-- **Unyielding in the Face of the Foe:** While this unit is within range of an objective marker you control, each time an attack with a Damage characteristic of 1 is allocated to a model in 
+#### Unyielding in the Face of the Foe (Abilities)
+- **Description:** While this unit is within range of an objective marker you control, each time an attack with a Damage characteristic of 1 is allocated to a model in 
 this unit, add 1 to any armour saving throw made against that attack.
 
 ---
 
 ### Hellblaster Squad
 **Points:** 110 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Hellblaster Squad, Tacticus
+**Keywords:** Infantry, Grenades, Imperium, Adeptus Astartes, Hellblaster Squad, Tacticus
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1393,56 +1144,59 @@ this unit, add 1 to any armour saving throw made against that attack.
 
 **Abilities:**
 
-- **For the Chapter!:** Each time a model in this unit is destroyed, roll one D6: on a 3+, do not remove it from play. The destroyed model can shoot after the attacking model’s unit has finished making its attacks, and is then removed from play. When resolving these attacks, any Hazardous tests taken for that attack are automatically passed.
+#### For the Chapter! (Abilities)
+- **Description:** Each time a model in this unit is destroyed, roll one D6: on a 3+, do not remove it from play. The destroyed model can shoot after the attacking model’s unit has finished making its attacks, and is then removed from play. When resolving these attacks, any Hazardous tests taken for that attack are automatically passed.
 
 ---
 
-### Imperial Navy Breachers
-**Points:** 90 | **M:** 6" | **T:** 3 | **SV:** 4+ | **W:** 1 | **LD:** 7+ | **OC:** 2
-**Keywords:** Infantry, Grenades, Imperium, Retinue, Imperial Navy Breachers, Battleline, Smoke, Voidfarers
+### Hunter [Legends]
+**Points:** 100 | **M:** 9" | **T:** 11 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 3
+**Keywords:** Vehicle, Smoke, Imperium, Hunter, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Chainsword | Melee | Melee | 3 | 4+ | 3 | 0 | 1 | - |
-| Autopistol | Ranged | 12" | 1 | 4+ | 3 | 0 | 1 | Pistol |
-| Bolt pistol | Ranged | 12" | 1 | 4+ | 4 | 0 | 1 | Pistol |
-| Power weapon | Melee | Melee | 2 | 4+ | 4 | -2 | 1 | - |
-| Demolition charge | Ranged | 6" | D6 | 5+ | 9 | -2 | 2 | Assault, Blast, Hazardous, One Shot |
-| Navis heavy shotgun | Ranged | 12" | 4 | 4+ | 4 | 0 | 1 | Assault |
-| Navis las-volley | Ranged | 18" | 4 | 4+ | 6 | 0 | 1 | - |
-| ➤ Plasma gun - standard | Ranged | 24" | 1 | 4+ | 7 | -1 | 1 | Rapid Fire 1 |
-| ➤ Plasma gun - supercharge | Ranged | 24" | 1 | 4+ | 8 | -2 | 2 | Hazardous, Rapid Fire 1 |
-| Chainfist | Melee | Melee | 1 | 5+ | 6 | -2 | 2 | Anti-VEHICLE 3+ |
+| Skyspear Missile Launcher | Ranged | 36" | 1 | 2+ | 10 | -3 | D6+2 | Anti-Fly 3+, Devastating Wounds, Heavy |
 
 **Abilities:**
 
-- **Breaching Team:** Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead.
-- **Gheistskull:** Once per battle, when you select this unit as the target of the Grenade Stratagem, you can target one enemy unit visible to and within 18" of this unit that is not within Engagement Range of any units from your army, instead of one within 8".
-- **CAT Unit:** Once per battle, when this unit is selected to shoot, until the end of the phase, ranged weapons equipped by this unit gain the [Ignores Cover] ability.
-- **Endurant shield:** The bearer has a 4+ invulnerable save.
+#### Hunter Missile Targeting (Abilities)
+- **Description:** Each time this model makes an attack with its skyspear missile launcher that targets a Monster or Vehicle unit, that attack scores a hit on an unmodified Hit roll of 2+.
 
 ---
 
-### Imperial Rhino
-**Points:** 75 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 10 | **LD:** 6+ | **OC:** 2
-**Keywords:** Dedicated Transport, Vehicle, Smoke, Transport, Imperium, Imperial Rhino
-**Transport:** This model has a transport capacity of 12 AGENTS OF THE IMPERIUM INFANTRY models. It cannot transport TERMINATOR or OFFICIO ASSASSINORUM models.
+### Imperial Space Marine [Legends]
+**Points:** 40 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
+**Keywords:** Character, Infantry, Imperium, Imperial Space Marine, Grenades, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Storm bolter | Ranged | 24" | 2 | 3+ | 4 | 0 | 1 | Rapid Fire 2 |
+| Disintegration Combi-gun | Ranged | 24" | 1 | 4+ | 5 | -1 | 1 | Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1 |
+| Disintegration Pistol | Ranged | 12" | 1 | 3+ | 5 | -1 | 1 | Anti-Infantry 4+, Devastating Wounds, Pistol |
 
 **Abilities:**
 
-- **Self-repair:** At the start of your Command phase, this model regains 1 lost wound.
+#### Swift Assault (Abilities)
+- **Description:** While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability.
+
+#### Unbreakable Duty (Abilities)
+- **Description:** While this model is within range of an objective marker and/or within 6" of the centre of the battlefield, this model has the Feel No Pain 4+ ability.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+■ Assault Squad
+■ Command Squad
+■ Tactical Squad
+■ Vanguard Veteran Squad
+■ Devastator Squad
+You can attach this model to one of the above units even if one Character model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
 
 ---
 
 ### Impulsor
 **Points:** 80 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 2
-**Keywords:** Vehicle, Transport, Dedicated Transport, Imperium, Impulsor
+**Keywords:** Vehicle, Transport, Dedicated Transport, Imperium, Adeptus Astartes, Impulsor
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1451,16 +1205,23 @@ this unit, add 1 to any armour saving throw made against that attack.
 
 **Abilities:**
 
-- **Transport:** This model has a transport capacity of 7 TACTICUS or PHOBOS INFANTRY models. It cannot transport JUMP PACK models.
-- **Assault Vehicle:** Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move, and cannot declare a charge that turn.
-- **Orbital Comms Array [Aura]:** While a friendly Adeptus Astartes unit is within 6" of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP
-- **Shield Dome:** The bearer has a 5+ invulnerable save.
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 7 TACTICUS or PHOBOS INFANTRY models. It cannot transport JUMP PACK models.
+
+#### Assault Vehicle (Abilities)
+- **Description:** Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move, and cannot declare a charge that turn.
+
+#### Orbital Comms Array [Aura] (Abilities)
+- **Description:** While a friendly Adeptus Astartes unit is within 6" of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP
+
+#### Shield Dome (Abilities)
+- **Description:** The bearer has a 5+ invulnerable save.
 
 ---
 
 ### Inceptor Squad
 **Points:** 120 | **M:** 10" | **T:** 6 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Fly, Jump Pack, Imperium, Gravis, Inceptor Squad
+**Keywords:** Infantry, Fly, Jump Pack, Imperium, Gravis, Adeptus Astartes, Inceptor Squad
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1468,206 +1229,101 @@ this unit, add 1 to any armour saving throw made against that attack.
 | Assault Bolters | Ranged | 18" | 3 | 3+ | 5 | -1 | 2 | Assault, Pistol, Sustained Hits 2, Twin-linked |
 | ➤ Plasma Exterminators - Standard | Ranged | 18" | 2 | 3+ | 7 | -2 | 2 | Assault, Pistol, Twin-linked |
 | ➤ Plasma Exterminators - Supercharge | Ranged | 18" | 2 | 3+ | 8 | -3 | 3 | Assault, Pistol, Hazardous, Twin-linked |
+| Assault Bolters | Ranged | 18" | 3 | 3+ | 5 | -1 | 2 | Assault, Pistol, Sustained Hits 2, Twin-linked |
+| ➤ Plasma Exterminators - Standard | Ranged | 18" | 2 | 3+ | 7 | -2 | 2 | Assault, Pistol, Twin-linked |
+| ➤ Plasma Exterminators - Supercharge | Ranged | 18" | 2 | 3+ | 8 | -3 | 3 | Assault, Pistol, Hazardous, Twin-linked |
 
 **Abilities:**
 
-- **Meteoric Descent:** In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can perform a meteoric descent. If it does, this unit can be set up anywhere on the battlefield that is more than 6" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge.
+#### Meteoric Descent (Abilities)
+- **Description:** In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can perform a meteoric descent. If it does, this unit can be set up anywhere on the battlefield that is more than 6" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge.
 
 ---
 
 ### Incursor Squad
 **Points:** 80 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Smoke, Phobos, Incursor Squad
+**Keywords:** Infantry, Grenades, Imperium, Smoke, Phobos, Incursor Squad, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
 | Occulus Bolt Carbine | Ranged | 24" | 2 | 3+ | 4 | 0 | 1 | Assault, Ignores Cover |
 | Paired Combat Blades | Melee | Melee | 3 | 3+ | 4 | -1 | 1 | Sustained Hits 1 |
+| Occulus Bolt Carbine | Ranged | 24" | 2 | 3+ | 4 | 0 | 1 | Assault, Ignores Cover |
+| Paired Combat Blades | Melee | Melee | 3 | 3+ | 4 | -1 | 1 | Sustained Hits 1 |
 
 **Abilities:**
 
-- **Multi-spectrum Array:** In your Shooting phase, after this unit has shot, select one enemy unit that was hit by one or more attacks made by this unit this phase. Until the end of the phase, each time a friendly Adeptus Astartes unit makes an attack that targets that enemy unit, add 1 to the Hit roll.
-- **Haywire Mine:** Once per battle, at the start of any phase, you can select one enemy unit within 3" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a Vehicle unit.
+#### Multi-spectrum Array (Abilities)
+- **Description:** In your Shooting phase, after this unit has shot, select one enemy unit that was hit by one or more attacks made by this unit this phase. Until the end of the phase, each time a friendly Adeptus Astartes unit makes an attack that targets that enemy unit, add 1 to the Hit roll.
+
+#### Haywire Mine (Abilities)
+- **Description:** Once per battle, at the start of any phase, you can select one enemy unit within 3" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a Vehicle unit.
 
 ---
 
 ### Infernus Squad
 **Points:** 90 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Tacticus, Infernus Squad
+**Keywords:** Infantry, Grenades, Imperium, Adeptus Astartes, Tacticus, Infernus Squad
 
 **Abilities:**
 
-- **Purge the Foe:** In your Shooting phase, after this unit has shot, you can select one enemy Infantry unit hit by one or more of those attacks made with a pyreblaster. That enemy unit must take a Battle-shock test, subtracting 1 from that test.
+#### Purge the Foe (Abilities)
+- **Description:** In your Shooting phase, after this unit has shot, you can select one enemy Infantry unit hit by one or more of those attacks made with a pyreblaster. That enemy unit must take a Battle-shock test, subtracting 1 from that test.
 
 ---
 
 ### Infiltrator Squad
 **Points:** 100 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Smoke, Phobos, Infiltrator Squad
+**Keywords:** Infantry, Grenades, Imperium, Smoke, Phobos, Adeptus Astartes, Infiltrator Squad
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
 | Marksman Bolt Carbine | Ranged | 24" | 2 | 3+ | 4 | 0 | 1 | Heavy |
+| Marksman Bolt Carbine | Ranged | 24" | 2 | 3+ | 4 | 0 | 1 | Heavy |
 
 **Abilities:**
 
-- **Omni-scramblers:** Enemy units that are set up on the battlefield from Reserves cannot be set up within 12" of this unit.
-- **Helix Gauntlet:** Models in the bearer’s unit have the Feel No Pain 6+ ability.
-- **Infiltrator Comms Array:** Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP
+#### Omni-scramblers (Abilities)
+- **Description:** Enemy units that are set up on the battlefield from Reserves cannot be set up within 12" of this unit.
 
----
+#### Helix Gauntlet (Abilities)
+- **Description:** Models in the bearer’s unit have the Feel No Pain 6+ ability.
 
-### Inquisitor
-**Points:** 55 | **M:** 6" | **T:** 3 | **SV:** 4+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Grenades, Imperium, Inquisitor
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Inquisitorial melee weapon | Melee | Melee | 5 | 3+ | 4 | -2 | 1 | - |
-| Force weapon | Melee | Melee | 4 | 3+ | 5 | -2 | D3 | Psychic |
-| Bolt pistol | Ranged | 12" | 1 | 3+ | 4 | 0 | 1 | Pistol |
-| Combi-weapon | Ranged | 24" | 1 | 3+ | 4 | -2 | 1 | Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1 |
-| Psychic Shock Wave | Ranged | 18" | 2D6 | N/A | 3 | -2 | 1 | Devastating Wounds, Psychic, Torrent |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 5+ invulnerable save.
-- **Leader:** This model can be attached to the following units: EXACTION SQUAD, GREY KNIGHTS TERMINATOR SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SISTERS OF BATTLE SQUAD, SUBDUCTOR SQUAD, VIGILANT SQUAD
-- **Blessed Wardings:** While this model is leading a unit, models in that unit have a 6+ invulnerable save.
-- **Psychic gifts:** The bearer has the PSYKER keyword.
-
----
-
-### Inquisitor Coteaz
-**Points:** 75 | **M:** 6" | **T:** 3 | **SV:** 2+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Epic Hero, Psyker, Imperium, Inquisitor, Coteaz, Ordo Malleus
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Bolt pistol | Ranged | 12" | 1 | 3+ | 4 | 0 | 1 | Pistol |
-| Psychic Blast | Ranged | 18" | D6 | 3+ | 3 | -1 | 1 | Anti-DAEMON 4+, Anti-INFANTRY 5+, Devastating Wounds, Psychic |
-| Nemesis daemon hammer | Melee | Melee | 3 | 3+ | 9 | -3 | 3 | Psychic |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Malefic Wardings (Psychic):** While this model is leading a unit, models in that unit have a 6+ invulnerable save, and 4+ invulnerable save against Psychic Attacks and attacks made by DAEMON models.
-- **Spy Network:** Each time your opponent gains a CP as the result of an ability, roll one D6: on a 2+, you also gain 1CP.
-- **Leader:** This model can be attached to the following units: EXACTION SQUAD, GREY KNIGHTS TERMINATOR SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SUBDUCTOR SQUAD, VIGILANT SQUAD
-- **Glovodan Psyber-eagle:** In your Command phase, you can select one enemy unit within 18" of the bearer. Until the start of your next Command phase, that unit cannot have the Benefit of Cover.
-
----
-
-### Inquisitor Draxus
-**Points:** 75 | **M:** 6" | **T:** 3 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Epic Hero, Psyker, Grenades, Imperium, Inquisitor, Draxus, Ordo Xenos
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Dirgesinger | Ranged | 18" | 4 | 3+ | 4 | 0 | 2 | Anti-INFANTRY 4+, Assault, Devastating Wounds |
-| Psychic Tempest | Ranged | 18" | 6 | 3+ | 6 | 0 | 2 | Psychic, Sustained Hits 2 |
-| Power fist | Melee | Melee | 3 | 3+ | 6 | -2 | 2 | - |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 5+ invulnerable save.
-- **Xenos Hunter:** While this model is leading a unit, each time a model in that unit makes an attack that targets an enemy unit that does not have the IMPERIUM or CHAOS keywords, add 1 to the Hit roll.
-- **Psychic Veil (Psychic):** In your Command phase, this PSYKER can use this ability. If it does, roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the start of your next Command phase, this PSYKER’s unit can only be selected as the target of a ranged attack if the attacking model is within 18".
-- **Leader:** This model can be attached to the following units: EXACTION SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SUBDUCTOR SQUAD, VIGILANT SQUAD
-
----
-
-### Inquisitor Greyfax
-**Points:** 65 | **M:** 6" | **T:** 3 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Epic Hero, Psyker, Grenades, Imperium, Inquisitor, Greyfax, Ordo Hereticus
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Castigation | Ranged | 18" | 1 | 3+ | 8 | -2 | 3 | Anti-CHARACTER 4+, Devastating Wounds, Precision, Psychic |
-| Condemnor stake | Ranged | 24" | 1 | 3+ | 4 | 0 | 1 | Anti-PSYKER 2+, Devastating Wounds, Precision, Rapid Fire 1 |
-| Master-crafted power sword | Melee | Melee | 4 | 3+ | 4 | -2 | 2 | - |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 5+ invulnerable save.
-- **Psyoculum:** While this model is leading a unit, ranged weapons equipped by models in that unit have the [ANTI-PSYKER 4+] ability.
-- **No Mercy:** While this model is leading a unit, each time a model in that unit makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll.
-- **Leader:** This model can be attached to the following units: EXACTION SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SISTERS OF BATTLE SQUAD, SUBDUCTOR SQUAD, VIGILANT SQUAD
-
----
-
-### Inquisitorial Agents
-**Points:** 50 | **M:** 6" | **T:** 3 | **SV:** 5+ | **W:** 1 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Retinue, Inquisitorial Agents
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Plasma pistol - standard | Ranged | 12" | 1 | 3+ | 7 | -1 | 1 | Pistol |
-| ➤ Plasma pistol - supercharge | Ranged | 12" | 1 | 3+ | 8 | -2 | 2 | Hazardous, Pistol |
-| Eviscerator | Melee | Melee | 2 | 3+ | 6 | -2 | 2 | Devastating Wounds |
-| Mystic stave | Melee | Melee | 2 | 3+ | 5 | -1 | D3 | Anti-INFANTRY 4+, Psychic |
-| Heavy bolter | Ranged | 36" | 3 | 4+ | 5 | -1 | 2 | Heavy, Sustained Hits 1 |
-| ➤ Plasma cannon - standard | Ranged | 36" | D3 | 4+ | 7 | -1 | 1 | Blast, Heavy |
-| ➤ Plasma cannon - supercharge | Ranged | 36" | D3 | 4+ | 8 | -2 | 2 | Blast, Hazardous, Heavy |
-
-**Abilities:**
-
-- **Loyal Henchmen:** While an INQUISITOR model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll.
-- **Inquisitorial Henchmen:** If your Army Faction is not AGENTS OF THE IMPERIUM, then for each INQUISITOR unit you include in your army, you can include one INQUISITORIAL AGENTS unit in your army that does not count towards the number of RETINUE units your army can include.
-- **Tome-skull:** Once per battle for each Tome-skull this unit is equipped with, at the start of any phase, you can select one other friendly AGENTS OF THE IMPERIUM unit that is Battle-shocked and within 6" of this unit or one enemy unit within 6" of this unit. If you select a friendly unit, that unit is no longer Battle-shocked. If you select an enemy unit, it must take a Battle-shock test.
-
----
-
-### Inquisitorial Chimera
-**Points:** 70 | **M:** 10" | **T:** 9 | **SV:** 3+ | **W:** 11 | **LD:** 7+ | **OC:** 2
-**Keywords:** Dedicated Transport, Vehicle, Smoke, Transport, Imperium, Inquisitorial Chimera
-**Transport:** This model has a transport capacity of 13 INQUISITOR INFANTRY and INQUISITORIAL AGENT models. It cannot transport TERMINATOR models.
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Lasgun array | Ranged | 24" | 6 | 4+ | 3 | 0 | 1 | Rapid Fire 6 |
-| Storm bolter | Ranged | 24" | 2 | 4+ | 4 | 0 | 1 | Rapid Fire 2 |
-| Heavy stubber | Ranged | 36" | 3 | 4+ | 4 | 0 | 1 | Rapid Fire 3 |
-| Multi-laser | Ranged | 36" | 4 | 4+ | 6 | 0 | 1 | - |
-
-**Abilities:**
-
-- **Rapid Deployment:** Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally.
+#### Infiltrator Comms Array (Abilities)
+- **Description:** Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP
 
 ---
 
 ### Intercessor Squad
 **Points:** 80 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 2
-**Keywords:** Infantry, Battleline, Grenades, Imperium, Tacticus, Intercessor Squad
+**Keywords:** Infantry, Battleline, Grenades, Imperium, Tacticus, Intercessor Squad, Adeptus Astartes
 
 **Abilities:**
 
-- **Objective Secured:** If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.
-- **Target Elimination:** Each time this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, add 2 to the Attacks characteristic of bolt rifles equipped by models in this unit and you can only select one enemy unit as the target of all of this unit's attacks
+#### Objective Secured (Abilities)
+- **Description:** If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.
+
+#### Target Elimination (Abilities)
+- **Description:** Each time this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, add 2 to the Attacks characteristic of bolt rifles equipped by models in this unit and you can only select one enemy unit as the target of all of this unit's attacks
 
 ---
 
 ### Invader ATV
 **Points:** 60 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 8 | **LD:** 6+ | **OC:** 2
-**Keywords:** Mounted, Grenades, Imperium, Invader ATV
+**Keywords:** Mounted, Grenades, Imperium, Invader ATV, Adeptus Astartes
 
 **Abilities:**
 
-- **Outrider Escort:** Once per turn, in your opponent's Shooting phase, when another friendly Adeptus Astartes Mounted unit within 6" of this model is selected as the target of an attack, one model from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, that model can shoot as if it were your Shooting phase , but when resolving those attacks it can only target that enemy unit [and only if it is an eligible target).
+#### Outrider Escort (Abilities)
+- **Description:** Once per turn, in your opponent's Shooting phase, when another friendly Adeptus Astartes Mounted unit within 6" of this model is selected as the target of an attack, one model from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, that model can shoot as if it were your Shooting phase , but when resolving those attacks it can only target that enemy unit [and only if it is an eligible target).
 
 ---
 
 ### Invictor Tactical Warsuit
 **Points:** 125 | **M:** 8" | **T:** 8 | **SV:** 3+ | **W:** 12 | **LD:** 6+ | **OC:** 4
-**Keywords:** Vehicle, Walker, Invictor Tactical Warsuit, Imperium, Phobos
+**Keywords:** Vehicle, Walker, Invictor Tactical Warsuit, Adeptus Astartes, Imperium, Phobos
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1678,13 +1334,52 @@ this unit, add 1 to any armour saving throw made against that attack.
 
 **Abilities:**
 
-- **Combat Support:** Once per turn, in your opponent’s Shooting phase, when a friendly Adeptus Astartes Phobos Infantry unit within 6" of this model is selected as the target of an attack, this model can use this ability. If it does, after that enemy model’s unit has finished making its attacks, this model can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).
+#### Combat Support (Abilities)
+- **Description:** Once per turn, in your opponent’s Shooting phase, when a friendly Adeptus Astartes Phobos Infantry unit within 6" of this model is selected as the target of an attack, this model can use this ability. If it does, after that enemy model’s unit has finished making its attacks, this model can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).
+
+---
+
+### Ironclad Dreadnought [Legends]
+**Points:** 150 | **M:** 6" | **T:** 10 | **SV:** 2+ | **W:** 8 | **LD:** 6+ | **OC:** 3
+**Keywords:** Vehicle, Walker, Smoke, Imperium, Ironclad Dreadnought, Adeptus Astartes, Dreadnought
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Dreadnought Chainfist | Melee | Melee | 4 | 3+ | 12 | -2 | 3 | Anti-vehicle 3+ |
+| Seismic Hammer | Melee | Melee | 3 | 3+ | 14 | -3 | D6+2 | - |
+
+**Abilities:**
+
+#### Siege-breaker Protocols (Abilities)
+- **Description:** Each time this model makes a melee attack that targets a Vehicle or Fortification unit, add 1 to the Hit roll and add 1 to the Wound roll
+
+#### Ironclad Assault Launchers (Abilities)
+- **Description:** The bearer has the Grenades keyword.
+
+---
+
+### Javelin Attack Speeder [Legends]
+**Points:** 110 | **M:** 14" | **T:** 8 | **SV:** 3+ | **W:** 9 | **LD:** 6+ | **OC:** 3
+**Keywords:** Adeptus Astartes, Vehicle, Fly, Imperium, Javelin Attack Speeder
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Close combat weapon | Melee | Melee | 4 | 3+ | 4 | 0 | 1 | - |
+| ➤ Javelin missile launcher - frag | Ranged | 36" | 3D6 | 3+ | 4 | 0 | 1 | Blast |
+| ➤ Javelin missile launcher - krak | Ranged | 36" | 3 | 3+ | 9 | -2 | D6 | - |
+
+**Abilities:**
+
+#### Fire and Redeploy (Abilities)
+- **Description:** In your Shooting phase, each time this model has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to D6". If it does, until the end of the turn, this model is not eligible to declare a charge.
 
 ---
 
 ### Judiciar
 **Points:** 70 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 5+ | **OC:** 1
-**Keywords:** Character, Infantry, Imperium, Tacticus, Judiciar
+**Keywords:** Character, Infantry, Imperium, Tacticus, Judiciar, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1693,12 +1388,18 @@ this unit, add 1 to any armour saving throw made against that attack.
 
 **Abilities:**
 
-- **Tempormortis:** While this model is leading a unit, that unit has the Fights First ability.
-- **Silent Fury:** Each time this model destroys an enemy Character model, until the end of the battle, add 1 to the Attacks characteristic of its executioner relic blade.
-- **Invulnerable Save*:** 4+
-* This model has a 4+ invulnerable save against melee attacks.
-- **Leader:** This model can be attached to the following units:
+#### Tempormortis (Abilities)
+- **Description:** While this model is leading a unit, that unit has the Fights First ability.
 
+#### Silent Fury (Abilities)
+- **Description:** Each time this model destroys an enemy Character model, until the end of the battle, add 1 to the Attacks characteristic of its executioner relic blade.
+
+#### Invulnerable Save* (Abilities)
+- **Description:** 4+
+* This model has a 4+ invulnerable save against melee attacks.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Assault Intercessor Squad
 ■ Bladeguard Veteran Squad
 ■ Infernus Squad
@@ -1708,148 +1409,31 @@ this unit, add 1 to any armour saving throw made against that attack.
 
 ---
 
-### Knight Castellan
-**Points:** 410 | **M:** 8" | **T:** 12 | **SV:** 3+ | **W:** 28 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Character, Imperium, Knight Castellan, Dominus
+### Kratos [Legends]
+**Points:** 240 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 18 | **LD:** 6+ | **OC:** 6
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Smoke, Kratos
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Plasma decimator - standard | Ranged | 48" | D6+3 | 3+ | 8 | -3 | 2 | Blast |
-| ➤ Plasma decimator - supercharge | Ranged | 48" | D6+3 | 3+ | 9 | -4 | 3 | Blast, Hazardous |
-| Volcano lance | Ranged | 72" | D3 | 3+ | 18 | -5 | D6+8 | Blast |
+| Volkite caliver | Ranged | 24" | 2 | 3+ | 5 | 0 | 2 | Devastating Wounds |
+| ➤ Kratos battlecannon - AP | Ranged | 36" | 1 | 3+ | 18 | -4 | D6+3 | Heavy |
+| ➤ Kratos battlecannon - HE | Ranged | 36" | D6+3 | 3+ | 10 | -1 | 3 | Blast |
+| Melta blast-gun | Ranged | 24" | 4 | 3+ | 12 | -4 | D6 | Melta 2 |
+| Volkite cardanelle | Ranged | 36" | 9 | 3+ | 9 | 0 | 3 | Devastating Wounds |
+| Twin boltgun | Ranged | 24" | 2 | 3+ | 4 | 0 | 1 | Twin-linked |
+| Volkite culverin | Ranged | 36" | 4 | 3+ | 6 | 0 | 2 | Devastating Wounds |
 
 **Abilities:**
 
-- **Titan Hunter:** Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, you can re-roll the Damage roll.
-
----
-
-### Knight Crusader
-**Points:** 385 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Character, Imperium, Knight Crusader, Questoris
-
-**Abilities:**
-
-- **Punishing Salvoes:** In your Movement phase, if this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [SUSTAINED HITS 1] ability.
-- **Crusader's Duty (Bondsman):** While a model is affected by this ability, each time that model makes a ranged attack, add 1 to the Hit roll.
-
----
-
-### Knight Defender
-**Points:** 415 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Character, Imperium, Questoris, Knight Defender
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Twin incendine combustor | Ranged | 12" | D6 | N/A | 6 | -1 | 1 | Ignores Cover, Torrent, Twin-linked |
-| Conversion beam obliterator | Ranged | 36" | 3 | 3+ | 12 | -2 | 4 | Conversion, Sustained Hits D3 |
-| ➤ Plasma executor - standard | Ranged | 36" | D6+3 | 3+ | 8 | -2 | 2 | Blast |
-| ➤ Plasma executor - supercharge | Ranged | 36" | D6+3 | 3+ | 9 | -3 | 3 | Blast, Hazardous |
-| Phosphor blaster | Ranged | 24" | 1 | 3+ | 5 | 0 | 1 | Ignores Cover, Rapid Fire 1 |
-
-**Abilities:**
-
-- **Selfless Protector:** Each time a ranged attack is allocated to an Imperial Knights model from your army, if that model is not fully visible to every model in the attacking unit because of this Knight Defender model, that model has the Benefit of Cover and a 4+ invulnerable save against that attack.
-- **Warden's Duty (Bondsman):** While a model is affected by this ability, each time an attack is allocated to that model, subtract 1 from the Damage characteristic of that attack.
-
----
-
-### Knight Errant
-**Points:** 355 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Character, Imperium, Knight Errant, Questoris
-
-**Abilities:**
-
-- **Aggressive Assault:** Each time this model makes a ranged attack that targets the closest eligible target, add 1 to the Hit roll.
-- **Errant's Duty (Bondsman):** While a model is affected by this ability, you can re-roll Advance rolls made for that model and ranged weapons equipped by that model have the [ASSAULT] ability.
-
----
-
-### Knight Gallant
-**Points:** 355 | **M:** 12" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Character, Imperium, Knight Gallant, Questoris
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Reaper chainsword - sweep | Melee | Melee | 18 | 2+ | 9 | -3 | 2 | Lethal Hits |
-| ➤ Reaper chainsword - strike | Melee | Melee | 6 | 2+ | 14 | -4 | 6 | Devastating Wounds |
-| ➤ Thunderstrike gauntlet - strike | Melee | Melee | 6 | 2+ | 20 | -3 | 8 | Devastating Wounds |
-| ➤ Thunderstrike gauntlet - sweep | Melee | Melee | 12 | 2+ | 10 | -2 | 3 | Lethal Hits |
-
-**Abilities:**
-
-- **Martial Pride:** Each time this unit Consolidates, models in it can move an additional 3" provided your unit can end that move within Engagement Range of one or more enemy units.
-- **Gallant's Duty (Bondsman):** While a model is affected by this ability, you can re-roll Charge rolls made for that model and each time that model makes a melee attack, you can re-roll the Hit roll.
-
----
-
-### Knight Paladin
-**Points:** 375 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Character, Imperium, Knight Paladin, Questoris
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Questoris heavy stubber | Ranged | 36" | 3 | 3+ | 4 | -1 | 1 | Rapid Fire 3 |
-
-**Abilities:**
-
-- **Seasoned Noble:** Each time this model makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1.
-- **Paladin’s Duty (Bondsman):** While a model is affected by this ability, weapons equipped by that model have the [LETHAL HITS] ability, and melee weapons equipped by that model have the [LANCE] ability.
-
----
-
-### Knight Preceptor
-**Points:** 365 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Character, Imperium, Knight Preceptor, Questoris
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Las-impulsor - high intensity | Ranged | 24" | D6 | 3+ | 14 | -3 | 4 | Blast |
-| ➤ Las-impulsor - low intensity | Ranged | 36" | 2D6 | 3+ | 7 | -1 | 2 | Blast |
-| Preceptor multi-laser | Ranged | 36" | 4 | 3+ | 6 | 0 | 1 | - |
-
-**Abilities:**
-
-- **Exemplar of the Code:** At the start of the battle, select one unit from your opponent’s army to be this model's quarry. Each time this model makes an attack that targets its quarry, you can re-roll the Wound roll. Each time this model's quarry is destroyed, you can select a new unit from your opponent's army to be its quarry.
-- **Mentor (Bondsman):** Each time a model affected by this ability makes an attack that targets this model's quarry, you can re-roll the Wound roll.
-
----
-
-### Knight Valiant
-**Points:** 410 | **M:** 8" | **T:** 12 | **SV:** 3+ | **W:** 28 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Character, Imperium, Knight Valiant, Dominus
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Conflagration cannon | Ranged | 18" | 3D6 | N/A | 8 | -1 | 2 | Ignores Cover, Torrent |
-| Thundercoil harpoon | Ranged | 12" | D3 | 3+ | 24 | -6 | 10 | Blast, Devastating Wounds |
-
-**Abilities:**
-
-- **Thundershock:** In your Shooting phase, each time you select a target for this model's thundercoil harpoon, roll one D6 for the target unit and one D6 for each other enemy unit within 6" of the target unit. On a 4+, the unit being rolled for is struck by arcing energies; after resolving all of this model's attacks against the target unit, each unit struck by arcing energies suffers D3 mortal wounds.
-
----
-
-### Knight Warden
-**Points:** 375 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Vehicle, Walker, Titanic, Towering, Character, Imperium, Knight Warden, Questoris
-
-**Abilities:**
-
-- **Thin Their Ranks:** Each time this model makes a ranged attack that targets an enemy unit (excluding Monsters and Vehicles), that attack has the [DEVASTATING WOUNDS] ability.
-- **Warden's Duty (Bondsman):** While a model is affected by this ability, weapons equipped by that model have the [SUSTAINED HITS 1] ability, and ranged weapons equipped by that model have the [IGNORES COVER] ability.
+#### Line-breaker (Abilities)
+- **Description:** When making ranged attacks, this model can target enemy units within Engagement Range of it with Blast weapons (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units.
 
 ---
 
 ### Land Raider
 **Points:** 220 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 16 | **LD:** 6+ | **OC:** 5
-**Keywords:** Vehicle, Smoke, Imperium, Land Raider, Transport
+**Keywords:** Vehicle, Smoke, Imperium, Adeptus Astartes, Land Raider, Transport
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1858,25 +1442,115 @@ this unit, add 1 to any armour saving throw made against that attack.
 
 **Abilities:**
 
-- **Assault Ramp:** Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
-- **Transport:** This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.
+#### Assault Ramp (Abilities)
+- **Description:** Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
+
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.
+
+---
+
+### Land Raider Achilles [Legends]
+**Points:** 230 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 16 | **LD:** 6+ | **OC:** 5
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Transport, Smoke, Land Raider Achilles
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| ➤ Quad launcher - shatter shells | Ranged | 24" | 4 | 3+ | 9 | -2 | 3 | - |
+| ➤ Quad launcher - thunderfire shells | Ranged | 60" | D6+4 | 3+ | 5 | 0 | 1 | Blast, Indirect Fire |
+| Twin multi-melta | Ranged | 18" | 2 | 3+ | 9 | -4 | D6 | Melta 2, Twin-linked |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 4+ invulnerable save.
 
 ---
 
 ### Land Raider Crusader
 **Points:** 220 | **M:** 12" | **T:** 12 | **SV:** 2+ | **W:** 16 | **LD:** 6+ | **OC:** 5
-**Keywords:** Vehicle, Land Raider Crusader, Smoke, Imperium, Transport, Grenades, Land Raider
+**Keywords:** Vehicle, Land Raider Crusader, Smoke, Adeptus Astartes, Imperium, Transport, Grenades, Land Raider
 
 **Abilities:**
 
-- **Transport:** This model has a transport capacity of 16 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.
-- **Assault Ramp:** Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 16 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.
+
+#### Assault Ramp (Abilities)
+- **Description:** Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
+
+---
+
+### Land Raider Excelsior [Legends]
+**Points:** 250 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 16 | **LD:** 6+ | **OC:** 5
+**Keywords:** Vehicle, Smoke, Transport, Imperium, Land Raider Excelsior, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Grav-cannon | Ranged | 24" | 3 | 3+ | 6 | -1 | 3 | Anti-Vehicle 2+ |
+
+**Abilities:**
+
+#### Assault Ramp (Abilities)
+- **Description:** Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
+
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.
+
+#### Invulnerable Save (Abilities)
+- **Description:** 5+
+
+---
+
+### Land Raider Helios [Legends]
+**Points:** 265 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 16 | **LD:** 6+ | **OC:** 5
+**Keywords:** Vehicle, Smoke, Transport, Imperium, Land Raider Helios, Adeptus Astartes
+
+**Abilities:**
+
+#### Assault Ramp (Abilities)
+- **Description:** Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
+
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.
+
+---
+
+### Land Raider Prometheus [Legends]
+**Points:** 250 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 16 | **LD:** 6+ | **OC:** 5
+**Keywords:** Vehicle, Smoke, Transport, Imperium, Land Raider Prometheus, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Quad Heavy Bolter | Ranged | 36" | 6 | 3+ | 5 | -1 | 2 | Sustained Hits 1, Twin-Linked |
+
+**Abilities:**
+
+#### Assault Ramp (Abilities)
+- **Description:** Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
+
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.
+
+---
+
+### Land Raider Proteus [Legends]
+**Points:** 220 | **M:** 12" | **T:** 12 | **SV:** 2+ | **W:** 16 | **LD:** 6+ | **OC:** 5
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Transport, Smoke, Land Raider Proteus
+
+**Abilities:**
+
+#### Explorator Augury Web (Abilities)
+- **Description:** Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12" of the bearer, but the bearer must halve its Transport Capacity.
 
 ---
 
 ### Land Raider Redeemer
 **Points:** 270 | **M:** 12" | **T:** 12 | **SV:** 2+ | **W:** 16 | **LD:** 6+ | **OC:** 5
-**Keywords:** Vehicle, Grenades, Imperium, Smoke, Land Raider Redeemer, Transport, Land Raider
+**Keywords:** Vehicle, Grenades, Imperium, Smoke, Land Raider Redeemer, Adeptus Astartes, Transport, Land Raider
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1885,20 +1559,119 @@ this unit, add 1 to any armour saving throw made against that attack.
 
 **Abilities:**
 
-- **Transport:** This model has a transport capacity of 14 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.
-- **Assault Ramp:** Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 14 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.
+
+#### Assault Ramp (Abilities)
+- **Description:** Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
+
+---
+
+### Land Speeder [Legends]
+**Points:** 80 | **M:** 14" | **T:** 7 | **SV:** 3+ | **W:** 6 | **LD:** 6+ | **OC:** 2
+**Keywords:** Vehicle, Fly, Imperium, Land Speeder, Adeptus Astartes
+
+**Abilities:**
+
+#### Target Sighted (Abilities)
+- **Description:** At the start of your Shooting phase, select one enemy unit that is visible to this model. Until the end of the phase, each time a friendly Adeptus Astartes model makes an attack with a Blast weapon that targets that enemy unit, add 1 to the Hit roll and that attack has the [IGNORES COVER] ability.
+
+---
+
+### Land Speeder Storm [Legends]
+**Points:** 70 | **M:** 14" | **T:** 7 | **SV:** 4+ | **W:** 7 | **LD:** 6+ | **OC:** 1
+**Keywords:** Vehicle, Fly, Dedicated Transport, Transport, Imperium, Land Speeder Storm, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Cerberus Launcher | Ranged | 18" | D6+3 | 3+ | 4 | 0 | 1 | Blast |
+
+**Abilities:**
+
+#### Storm Assault (Abilities)
+- **Description:** Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
+
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 6 models. It can only transport Scout Squad, Scout Sniper Squad and Sergeant Telion models.
+
+---
+
+### Land Speeder Tempest [Legends]
+**Points:** 95 | **M:** 14" | **T:** 8 | **SV:** 3+ | **W:** 7 | **LD:** 6+ | **OC:** 2
+**Keywords:** Vehicle, Fly, Imperium, Land Speeder Tempest, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Armoured Hull | Melee | Melee | 3 | 4+ | 4 | 0 | 1 | - |
+| ➤ Tempest Salvo Launcher - Frag | Ranged | 36" | 2D6 | 3+ | 4 | 0 | 1 | Blast |
+| ➤ Tempest Salvo Launcher - Krak | Ranged | 36" | 2 | 3+ | 9 | -2 | D6 | - |
+
+**Abilities:**
+
+#### Isolate and Destroy (Abilities)
+- **Description:** Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6" of that target, add 1 to the Wound roll.
+
+---
+
+### Land Speeder Tornado [Legends]
+**Points:** 95 | **M:** 14" | **T:** 7 | **SV:** 3+ | **W:** 6 | **LD:** 6+ | **OC:** 2
+**Keywords:** Vehicle, Fly, Imperium, Adeptus Astartes, Land Speeder Tornado
+
+**Abilities:**
+
+#### Strafing Enfilade (Abilities)
+- **Description:** Each time this model ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move, then roll six D6: for each 4+, that enemy unit suffers 1 mortal wound
+
+---
+
+### Land Speeder Typhoon [Legends]
+**Points:** 100 | **M:** 14" | **T:** 7 | **SV:** 3+ | **W:** 6 | **LD:** 6+ | **OC:** 2
+**Keywords:** Vehicle, Fly, Imperium, Adeptus Astartes, Land Speeder Typhoon
+
+**Abilities:**
+
+#### Fire and Redeploy (Abilities)
+- **Description:** In your Shooting phase, each time this model has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to D6". If it does, until the end of the turn, this model is not eligible to declare a charge.
+
+---
+
+### Leviathan Dreadnought [Legends]
+**Points:** 160 | **M:** 8" | **T:** 10 | **SV:** 2+ | **W:** 12 | **LD:** 6+ | **OC:** 4
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Walker, Smoke, Dreadnought, Leviathan Dreadnought
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Grav-flux bombard | Ranged | 24" | 2D3 | 3+ | 8 | -1 | 2 | Anti-Vehicle 2+, Blast |
+| Cyclonic melta-lance | Ranged | 18" | D6 | 3+ | 9 | -4 | D6 | Melta 2 |
+| Storm cannon | Ranged | 36" | 4 | 3+ | 9 | -1 | 3 | Twin-linked |
+| Leviathan siege claw | Melee | Melee | 5 | 3+ | 12 | -2 | 3 | - |
+| Leviathan siege drill | Melee | Melee | 4 | 3+ | 12 | -2 | 3 | Anti-VEHICLE 3+ |
+| Twin volkite caliver | Ranged | 24" | 2 | 3+ | 5 | 0 | 2 | Devastating Wounds, Twin-linked |
+
+**Abilities:**
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
+
+#### Duty Eternal (Abilities)
+- **Description:** Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.
 
 ---
 
 ### Librarian
 **Points:** 65 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Imperium, Psyker, Tacticus, Librarian
+**Keywords:** Character, Infantry, Grenades, Imperium, Psyker, Adeptus Astartes, Tacticus, Librarian
 
 **Abilities:**
 
-- **Mental Fortress [Psychic]:** While this model is leading a unit, models in that unit have a 4+ invulnerable save.
-- **Leader:** This model can be attached to the following units:
+#### Mental Fortress [Psychic] (Abilities)
+- **Description:** While this model is leading a unit, models in that unit have a 4+ invulnerable save.
 
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Assault Intercessor Squad
 ■ Desolation Squad
 ■ Devastator Squad
@@ -1912,14 +1685,16 @@ this unit, add 1 to any armour saving throw made against that attack.
 
 ### Librarian in Phobos Armour
 **Points:** 70 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Grenades, Imperium, Psyker, Phobos, Librarian, Infantry
+**Keywords:** Character, Grenades, Imperium, Psyker, Adeptus Astartes, Phobos, Librarian, Infantry
 
 **Abilities:**
 
-- **Shrouding [Psychic]:** While this model is leading a unit, models in that unit have the Stealth ability and that unit cannot be targeted by ranged attacks unless the attacking
+#### Shrouding [Psychic] (Abilities)
+- **Description:** While this model is leading a unit, models in that unit have the Stealth ability and that unit cannot be targeted by ranged attacks unless the attacking
 model is within 12".
-- **Leader:** This model can be attached to the following units:
 
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Eliminator Squad
 ■ Incursor Squad
 ■ Infiltrator Squad
@@ -1929,35 +1704,72 @@ model is within 12".
 
 ### Librarian in Terminator Armour
 **Points:** 75 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Imperium, Psyker, Terminator, Librarian
+**Keywords:** Character, Infantry, Imperium, Psyker, Terminator, Librarian, Adeptus Astartes
 
 **Abilities:**
 
-- **Veil of Time [Psychic]:** While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.
-- **Leader:** This model can be attached to the following units:
+#### Veil of Time [Psychic] (Abilities)
+- **Description:** While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.
 
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Relic Terminator Squad
 ■ Terminator Assault Squad
 ■ Terminator Squad
 
 ---
 
-### Librarius Adept [Crucible]
-**Points:** 70 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Imperium, Psyker, Tacticus, Librarius Adept, Crucible
+### Librarian on Bike [Legends]
+**Points:** 80 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 2
+**Keywords:** Character, Mounted, Grenades, Psyker, Imperium, Librarian, Adeptus Astartes
 
 **Abilities:**
 
-- **Veil of Time:** Weapons equipped by models in this unit have the [Sustained Hits 1] ability
-- **Leader:** This model can be attached to the following units:
-- Tacticus (Excluding Character and Fly)
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+■ Bike Squad
+■ Outrider Squad
+
+#### Mental Fortress (Abilities)
+- **Description:** While this model is leading a unit, models in that unit have a 4+ invulnerable save.
+
+---
+
+### Librarian with Jump Pack [Legends]
+**Points:** 75 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
+**Keywords:** Character, Infantry, Grenades, Imperium, Librarian, Psyker, Adeptus Astartes, Fly, Jump Pack
+
+**Abilities:**
+
+#### Might of Heroes [Pyschic] (Abilities)
+- **Description:** While this model is leading a unit, improve the Strength and Armour Penetration characteristic of melee weapons equipped by models in that unit by 1.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+■ Assault Squad with Jump Packs
+■ Vanguard Veteran Squad with Jump Packs
+
+---
+
+### Librarius Adept [Crucible]
+**Points:** 70 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 3 | **LD:** 6+ | **OC:** 1
+**Keywords:** Character, Infantry, Grenades, Imperium, Psyker, Tacticus, Adeptus Astartes, Librarius Adept, Crucible
+
+**Abilities:**
+
+#### Veil of Time (Psychic) (Abilities)
+- **Description:** Weapons equipped by models in this unit have the [Sustained Hits 1] ability
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+- Tacticus (Excluding **Character** and **Fly**)
 - Tactical Squad
 
 ---
 
 ### Lieutenant
 **Points:** 55 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Imperium, Tacticus, Lieutenant
+**Keywords:** Character, Infantry, Grenades, Imperium, Tacticus, Adeptus Astartes, Lieutenant
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1966,9 +1778,11 @@ model is within 12".
 
 **Abilities:**
 
-- **Storm Shield:** The bearer has a 4+ invulnerable save
-- **Leader:** This model can be attached to the following units:
+#### Storm Shield (Abilities)
+- **Description:** The bearer has a 4+ invulnerable save
 
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Assault Intercessor Squad
 ■ Bladeguard Veteran Squad
 ■ Company Heroes
@@ -1977,14 +1791,13 @@ model is within 12".
 ■ Intercessor Squad
 ■ Sternguard Veteran Squad
 ■ Tactical Squad
-
-You can attach this model to a unit it can lead even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
+You can attach this model to a unit it can lead even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
 
 ---
 
 ### Lieutenant in Phobos Armour
 **Points:** 55 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Imperium, Phobos, Lieutenant
+**Keywords:** Character, Infantry, Grenades, Imperium, Phobos, Adeptus Astartes, Lieutenant
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1994,20 +1807,21 @@ You can attach this model to a unit it can lead even if one Captain or Chapter 
 
 **Abilities:**
 
-- **Strategic Dispersal:** In your Shooting phase, after this model’s unit has shot, if it is not within Engagement Range of any enemy models, it can make a Normal move of up to  6". If it does, until the end of the turn, that unit is not eligible to declare a charge.’
-- **Leader:** This model can be attached to the following units:
+#### Strategic Dispersal (Abilities)
+- **Description:** In your Shooting phase, after this model’s unit has shot, if it is not within Engagement Range of any enemy models, it can make a Normal move of up to 6". If it does, until the end of the turn, that unit is not eligible to declare a charge.’
 
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Incursor Squad
 ■ Infiltrator Squad
 ■ Reiver Squad
-
-You can attach this model to a unit it can lead units even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
+You can attach this model to a unit it can lead units even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
 
 ---
 
 ### Lieutenant in Reiver Armour
 **Points:** 55 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Smoke, Imperium, Phobos, Lieutenant, Lieutenant in Reiver Armour
+**Keywords:** Character, Infantry, Grenades, Smoke, Imperium, Phobos, Adeptus Astartes, Lieutenant, Lieutenant in Reiver Armour
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2017,18 +1831,19 @@ You can attach this model to a unit it can lead units even if one Captain or Ch
 
 **Abilities:**
 
-- **Deadly Terror:** While this model is leading a unit, increase the range of that unit’s Terror Troops ability by 3".
-- **Leader:** This model can be attached to the following unit:
+#### Deadly Terror (Abilities)
+- **Description:** While this model is leading a unit, increase the range of that unit’s Terror Troops ability by 3".
 
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following unit:
 ■ Reiver Squad
-
-You can attach this model a unit it can lead even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
+You can attach this model a unit it can lead even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.
 
 ---
 
 ### Lieutenant with Combi-weapon
 **Points:** 85 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Imperium, Lieutenant with Combi-weapon, Phobos, Lieutenant
+**Keywords:** Character, Infantry, Grenades, Imperium, Lieutenant with Combi-weapon, Adeptus Astartes, Phobos, Lieutenant
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2037,78 +1852,67 @@ You can attach this model a unit it can lead even if one Captain or Chapter Mas
 
 **Abilities:**
 
-- **Priority Objective Identified:** At the start of the first battle round, if your army includes one or more models with this ability, you can select one objective marker on the battlefield. Until the end of the battle, while one or more models with this ability are on the battlefield, each time a friendly ADEPTUS ASTARTES model makes an attack that targets an enemy unit that is within range of that objective marker, re-roll a Wound roll of 1.
-- **Evade and Survive:** Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move
-- **Lone Survivor:** This model cannot be selected to be your Warlord.
+#### Priority Objective Identified (Abilities)
+- **Description:** At the start of the first battle round, if your army includes one or more models with this ability, you can select one objective marker on the battlefield. Until the end of the battle, while one or more models with this ability are on the battlefield, each time a friendly ADEPTUS ASTARTES model makes an attack that targets an enemy unit that is within range of that objective marker, re-roll a Wound roll of 1.
+
+#### Evade and Survive (Abilities)
+- **Description:** Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move
+
+#### Lone Survivor (Abilities)
+- **Description:** This model cannot be selected to be your Warlord.
 
 ---
 
-### Martial Agent [Crucible]
-**Points:** 60 | **M:** 6" | **T:** 3 | **SV:** 4+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Grenades, Imperium, Martial Agent, Crucible
-
-**Abilities:**
-
-- **Invulnerable Save (5+):** This model has a 5+ invulnerable save.
-- **Moment of Glory:** Once per battle, in the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength and Attacks characteristics of melee weapons equipped by this model by 3.
-- **High-handed Authority:** While this model is leading a unit, it can embark within any Transport that its Bodyguard unit can embark within.
-
----
-
-### Ministorum Priest
-**Points:** 40 | **M:** 6" | **T:** 3 | **SV:** 6+ | **W:** 3 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Character, Imperium, Ordo Hereticus, Ministorum Priest
+### Mastodon [Legends]
+**Points:** 540 | **M:** 9" | **T:** 14 | **SV:** 2+ | **W:** 30 | **LD:** 6+ | **OC:** 12
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Titanic, Transport, Smoke, Mastodon
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Holy Pistol | Ranged | 12" | 3 | 4+ | 4 | 0 | 1 | Pistol |
-| Power weapon | Melee | Melee | 3 | 4+ | 4 | -2 | 1 | - |
-| Zealot's vindictor | Ranged | 12" | D6 | N/A | 5 | 0 | 1 | Ignores Cover, Torrent |
-| Zealot's vindictor | Melee | Melee | 3 | 4+ | 5 | -1 | 2 | - |
+| Siege melta array | Ranged | 24" | 6 | 3+ | 9 | -4 | D6 | Melta 2 |
+| Skyreaper battery | Ranged | 48" | 8 | 3+ | 7 | -1 | 2 | Anti-FLY 4+ |
 
 **Abilities:**
 
-- **Zealot:** Once per battle, in the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength and Attacks characteristics of melee weapons equipped by this model by 3.
-- **Holy Hatred:** While this model is leading a unit, melee weapons equipped by that unit have the [SUSTAINED HITS 1] ability.
-- **Leader:** This model can be attached to the following units: INQUISITORIAL AGENTS, IMPERIAL NAVY BREACHERS, SUBDUCTOR SQUAD, EXACTION SQUAD, VIGILANT SQUAD, SISTERS OF BATTLE SQUAD.
+#### Damaged: 1-10 wounds remaining (Abilities)
+- **Description:** While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
 
-*You can attach this model to an INQUISITORIAL AGENTS unit, even if one INQUISITOR unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strength.*
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
+#### Inviolable Transport (Abilities)
+- **Description:** Once per battle round, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0.
 
 ---
 
-### Navigator
-**Points:** 60 | **M:** 6" | **T:** 3 | **SV:** 5+ | **W:** 3 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Character, Psyker, Imperium, Voidfarers, Navigator, Voidfarer Character
+### Mortis Dreadnought [Legends]
+**Points:** 130 | **M:** 6" | **T:** 9 | **SV:** 2+ | **W:** 8 | **LD:** 6+ | **OC:** 3
+**Keywords:** Vehicle, Walker, Imperium, Dreadnought, Mortis Dreadnought, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Force-orb cane | Melee | Melee | 3 | 4+ | 6 | -1 | D3 | Psychic |
+| Armoured feet | Melee | Melee | 5 | 3+ | 6 | 0 | 1 | - |
 
 **Abilities:**
 
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Third Eye (Psychic):** At the start of your Shooting phase, select one enemy unit within 12" of and visible to this model. That enemy unit must take a Battle-shock test, subtracting 2 from the result if it is an INFANTRY unit; if the test is failed, that enemy unit suffers 3 mortal wounds.
-- **Gaze into the Empyrean (Psychic):** Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12" of this model.
-- **Leader:** This model can be attached to the following units: IMPERIAL NAVY BREACHERS, VOIDSMEN-AT-ARMS
+#### Mortis Strike (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll.
 
 ---
 
 ### Outrider Squad
 **Points:** 80 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 2
-**Keywords:** Mounted, Grenades, Imperium, Outrider Squad
+**Keywords:** Mounted, Grenades, Imperium, Outrider Squad, Adeptus Astartes
 
 **Abilities:**
 
-- **Thunderous Impact:** Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength and Damage characteristics of that attack by 1
+#### Thunderous Impact (Abilities)
+- **Description:** Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength and Damage characteristics of that attack by 1
 
 ---
 
 ### Predator Annihilator
 **Points:** 135 | **M:** 10 | **T:** 10 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Smoke, Imperium, Predator Annihilator
+**Keywords:** Vehicle, Smoke, Imperium, Adeptus Astartes, Predator Annihilator
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2118,13 +1922,14 @@ You can attach this model a unit it can lead even if one Captain or Chapter Mas
 
 **Abilities:**
 
-- **Annihilator:** Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, you can re‑roll the Damage roll
+#### Annihilator (Abilities)
+- **Description:** Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, you can re‑roll the Damage roll
 
 ---
 
 ### Predator Destructor
 **Points:** 140 | **M:** 10 | **T:** 10 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Smoke, Imperium, Predator Destructor
+**Keywords:** Vehicle, Smoke, Imperium, Adeptus Astartes, Predator Destructor
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2133,83 +1938,77 @@ You can attach this model a unit it can lead even if one Captain or Chapter Mas
 
 **Abilities:**
 
-- **Destructor:** Each time this model makes a ranged attack that targets an Infantry unit, improve the Armour Penetration characteristic of that attack by 1.
+#### Destructor (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets an Infantry unit, improve the Armour Penetration characteristic of that attack by 1.
 
 ---
 
-### Questoris Knight Magaera
-**Points:** 385 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** +6 | **OC:** 10
-**Keywords:** Character, Vehicle, Walker, Titanic, Towering, Imperium, Questoris, Knight Magaera
+### Primaris Company Champion [Legends]
+**Points:** 55 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
+**Keywords:** Character, Infantry, Imperium, Grenades, Adeptus Astartes, Tacticus, Primaris Company Champion
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Phased plasma-fusil | Ranged | 24" | 2 | 3+ | 8 | -3 | 2 | Rapid Fire 2 |
-| Lightning cannon | Ranged | 48" | 12 | 3+ | 9 | 0 | 2 | Sustained Hits 2 |
+| Master-crafted Power Weapon | Melee | Melee | 5 | 2+ | 5 | -2 | 2 | Precision |
 
 **Abilities:**
 
-- **Repair Auto-simulacra:** At the end of your Command phase, this model regains up to D3 lost wounds.
-- **Magaera’s Duty (Bondsman):** While a model is affected by this ability, each time that model makes a ranged attack that targets the closest eligible target, improve the Strength and Armour Penetration characteristics of that attack by 1.
+#### Honour or Death (Abilities)
+- **Description:** While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit and you can target that unit with the Heroic Intervention stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase.
+
+#### Martial Superiority (Abilities)
+- **Description:** Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+■ Assault Intercessor Squad
+■ Bladeguard Veteran Squad
+■ Infernus Squad
+■ Intercessor Squad
+■ Sternguard Veteran Squad
 
 ---
 
-### Questoris Knight Styrix
-**Points:** 385 | **M:** 10" | **T:** 11 | **SV:** 3+ | **W:** 26 | **LD:** 6+ | **OC:** 10
-**Keywords:** Character, Vehicle, Walker, Titanic, Towering, Imperium, Questoris, Knight Styrix
+### Rapier Carrier [Legends]
+**Points:** 90 | **M:** 3" | **T:** 6 | **SV:** 2+ | **W:** 6 | **LD:** 6+ | **OC:** 2
+**Keywords:** Adeptus Astartes, Imperium, Artillery, Vehicle, Rapier Carrier
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Graviton crusher | Ranged | 18" | 3 | 3+ | 6 | -1 | 2 | Anti-Vehicle 2+, Blast |
-| Volkite chierovile | Ranged | 30" | 12 | 3+ | 12 | 0 | 3 | Devastating Wounds |
+| Boltgun | Ranged | 24" | 2 | 3+ | 4 | 0 | 1 | - |
+| Close combat weapon | Melee | Melee | 2 | 3+ | 4 | 0 | 1 | - |
+| Graviton cannon | Ranged | 36" | D6 | 3+ | 6 | -2 | 2 | Anti-Vehicle 2+, Blast, Heavy |
+| Laser destroyer | Ranged | 36" | 3 | 3+ | 14 | -4 | D6+1 | Heavy |
+| Quad heavy bolter | Ranged | 36" | 6 | 3+ | 5 | -1 | 2 | Heavy, Twin-linked, Sustained Hits 1 |
+| ➤ Quad launcher - shatter shells | Ranged | 24" | 4 | 3+ | 9 | -2 | 3 | Heavy |
+| ➤ Quad launcher - thunderfire shells | Ranged | 60" | D6+4 | 3+ | 5 | 0 | 1 | Blast, Heavy, Indirect Fire |
 
 **Abilities:**
 
-- **Grav-pinned:** In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Charge rolls made for that unit.
-- **Styrix’s Duty (Bondsman):** While a model is affected by this ability, each time that model is selected to shoot or fight, after it has resolved all of its attacks, select one enemy unit hit by one or more of those attacks; that unit must take a Battle-shock test, subtracting one from the test when doing so.
+#### Powerful Volley (Abilities)
+- **Description:** Each time this model shoots in your Shooting phase, provided it Remained Stationary this turn, all [HEAVY] weapons equipped by models in this unit have the [LETHAL HITS] ability.
 
 ---
 
 ### Razorback
 **Points:** 95 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 10 | **LD:** 6+ | **OC:** 2
-**Keywords:** Vehicle, Smoke, Imperium, Dedicated Transport, Transport, Razorback
+**Keywords:** Vehicle, Smoke, Imperium, Adeptus Astartes, Dedicated Transport, Transport, Razorback
 
 **Abilities:**
 
-- **Fire Support:** In your Shooting phase, after this model has  shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.
-- **Transport:** This model has a transport capacity of 6 Adeptus Astartes Infantry models.  It cannot transport JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR or TACTICUS models (excluding TACTICUS CHARACTER models that began the battle attached to a non-TACTICUS unit)
+#### Fire Support (Abilities)
+- **Description:** In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.
 
----
-
-### Reaver Titan
-**Points:** 2200 | **M:** 12" | **T:** 14 | **SV:** 2+ | **W:** 60 | **LD:** 6+ | **OC:** 20
-**Keywords:** Vehicle, Walker, Titanic, Towering, Reaver Titan
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Reaver gatling blaster | Ranged | 72" | 12 | 3+ | 8 | -2 | 3 | Sustained Hits 1 |
-| Reaver laser blaster | Ranged | 72" | 8 | 3+ | 20 | -3 | D6+2 | Blast |
-| Reaver melta cannon | Ranged | 48" | D6+2 | 3+ | 13 | -4 | 6 | Blast, Melta 4 |
-| Reaver volcano cannon | Ranged | 120" | D3+1 | 3+ | 24 | -5 | 14 | Blast, Heavy |
-| ➤ Reaver power fist - strike | Melee | Melee | 6 | 4+ | 20 | -4 | 14 | - |
-| ➤ Reaver power fist - sweep | Melee | Melee | 12 | 4+ | 12 | -3 | 6 | - |
-| Reaver feet | Melee | Melee | 8 | 4+ | 12 | -2 | 4 | - |
-| Reaver apocalypse launcher | Ranged | 200" | 3D6 | 3+ | 7 | -1 | 2 | Blast, Indirect Fire |
-
-**Abilities:**
-
-- **Damaged: 1-20 wounds remaining:** While this model has 1-20 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks only.
-- **God-machine:** This model is eligible to shoot and declare a charge in a turn in which it Fell Back.
-- **Striding Colossus:** Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 6 Adeptus Astartes Infantry models. It cannot transport JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR or TACTICUS models (excluding TACTICUS CHARACTER models that began the battle attached to a non-TACTICUS unit)
 
 ---
 
 ### Redemptor Dreadnought
 **Points:** 205 | **M:** 8" | **T:** 10 | **SV:** 2+ | **W:** 12 | **LD:** 6+ | **OC:** 4
-**Keywords:** Vehicle, Walker, Imperium, Redemptor Dreadnought, Dreadnought
+**Keywords:** Vehicle, Walker, Imperium, Redemptor Dreadnought, Adeptus Astartes, Dreadnought
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2220,13 +2019,14 @@ You can attach this model a unit it can lead even if one Captain or Chapter Mas
 
 **Abilities:**
 
-- **Duty Eternal:** Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack
+#### Duty Eternal (Abilities)
+- **Description:** Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack
 
 ---
 
 ### Reiver Squad
 **Points:** 80 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Smoke, Phobos, Reiver Squad
+**Keywords:** Infantry, Grenades, Imperium, Smoke, Phobos, Reiver Squad, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2237,28 +2037,104 @@ You can attach this model a unit it can lead even if one Captain or Chapter Mas
 
 **Abilities:**
 
-- **Fearsome Assault:** At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test subtracting 1 from that test
-- **Terror Troops:** While an enemy unit (excluding Monsters and Vehicles) is within 3" of one or more units with this ability, subtract 1 from the Objective Control characteristic of models in that enemy unit.
-- **Grapnel Launchers:** Each time the bearer’s unit makes a Normal, Advance, Fall Back or Charge move, ignore any vertical distance when determining the total distance the
+#### Fearsome Assault (Abilities)
+- **Description:** At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test subtracting 1 from that test
+
+#### Terror Troops (Abilities)
+- **Description:** While an enemy unit (excluding Monsters and Vehicles) is within 3" of one or more units with this ability, subtract 1 from the Objective Control characteristic of models in that enemy unit.
+
+#### Grapnel Launchers (Abilities)
+- **Description:** Each time the bearer’s unit makes a Normal, Advance, Fall Back or Charge move, ignore any vertical distance when determining the total distance the
 bearer can be moved during that move
-- **Reiver Grav-chute:** The bearer has the Deep Strike ability.
+
+#### Reiver Grav-chute (Abilities)
+- **Description:** The bearer has the Deep Strike ability.
+
+---
+
+### Relic Contemptor Dreadnought [Legends]
+**Points:** 140 | **M:** 6" | **T:** 9 | **SV:** 2+ | **W:** 10 | **LD:** 6+ | **OC:** 3
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Walker, Dreadnought, Relic Contemptor Dreadnought
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| ➤ Cyclone missile launcher - frag | Ranged | 36" | 2D6 | 3+ | 4 | 0 | 1 | Blast |
+| ➤ Cyclone missile launcher - krak | Ranged | 36" | 2 | 3+ | 9 | -2 | D6 | - |
+| ➤ Heavy plasma cannon - standard | Ranged | 36" | D3 | 3+ | 7 | -2 | 2 | Blast |
+| ➤ Heavy plasma cannon - supercharge | Ranged | 36" | D3 | 3+ | 8 | -3 | 3 | Blast, Hazardous |
+| Conversion beam cannon | Ranged | 24" | 1 | 3+ | 7 | -1 | 3 | Conversion, Sustained Hits D3 |
+| Kheres assault cannon | Ranged | 24" | 6 | 3+ | 7 | -1 | 1 | Devastating Wounds |
+| Dreadnought chainfist | Melee | Melee | 4 | 3+ | 12 | -2 | 3 | Anti-VEHICLE 3+ |
+| Dreadnought combat weapon | Melee | Melee | 5 | 3+ | 12 | -2 | 3 | - |
+| Combi-bolter | Ranged | 24" | 2 | 3+ | 4 | 0 | 1 | Rapid Fire 2 |
+| ➤ Plasma blaster - standard | Ranged | 18" | 2 | 3+ | 7 | -2 | 1 | - |
+| ➤ Plasma blaster - supercharge | Ranged | 18" | 2 | 3+ | 8 | -3 | 2 | Hazardous |
+| Graviton blaster | Ranged | 18" | 2 | 3+ | 5 | -1 | 1 | Anti-Vehicle 2+ |
+
+**Abilities:**
+
+#### Even In Death I Serve (Abilities)
+- **Description:** The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save.
+
+---
+
+### Relic Razorback [Legends]
+**Points:** 105 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 10 | **LD:** 6+ | **OC:** 2
+**Keywords:** Vehicle, Smoke, Transport, Dedicated Transport, Imperium, Relic Razorback, Adeptus Astartes
+
+**Abilities:**
+
+#### Fire Support (Abilities)
+- **Description:** In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.
+
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 6 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Tacticus, Phobos, Gravis, Centurion or Terminator models.
+
+---
+
+### Relic Terminator Squad [Legends]
+**Points:** 200 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 3 | **LD:** 6+ | **OC:** 1
+**Keywords:** Infantry, Imperium, Terminator, Relic Terminator Squad, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Volkite Charger | Ranged | 18" | 2 | 3+ | 5 | 0 | 2 | Devastating Wounds |
+| ➤ Plasma Blaster - Standard | Ranged | 18" | 2 | 3+ | 7 | -2 | 1 | - |
+| ➤ Plasma Blaster - Supercharge | Ranged | 18" | 2 | 3+ | 8 | -3 | 2 | Hazardous |
+| Reaper Autocannon | Ranged | 36" | 4 | 3+ | 7 | -1 | 1 | Devastating Wounds, Sustained Hits 1 |
+
+**Abilities:**
+
+#### Fury of the First (Abilities)
+- **Description:** Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristic and/or to the Hit roll. In addition, each time a model in this unit makes an attack that targets the enemy unit you selected for the Oath of Moment ability this turn, add 1 to the Hit roll
+
+#### Grenade Harness (Abilities)
+- **Description:** The bearer has the Grenades keyword
 
 ---
 
 ### Repulsor
 **Points:** 180 | **M:** 10" | **T:** 12 | **SV:** 3+ | **W:** 16 | **LD:** 6+ | **OC:** 5
-**Keywords:** Vehicle, Imperium, Smoke, Repulsor, Transport
+**Keywords:** Vehicle, Imperium, Smoke, Repulsor, Adeptus Astartes, Transport
 
 **Abilities:**
 
-- **Transport:** This model has a transport capacity of 14 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.
-- **Emergency Combat Embarkation:** Once per turn, in your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one Adeptus Astartes unit from your army that was selected as a target of that charge. Provided that unit is not within Engagement Range of any enemy units and every model in that unit is within 3" of this Transport, it can embark within this Transport. The charging unit can then select new targets for its charge.
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 14 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.
+
+#### Emergency Combat Embarkation (Abilities)
+- **Description:** Once per turn, in your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one Adeptus Astartes unit from your army that was selected as a target of that charge. Provided that unit is not within Engagement Range of any enemy units and every model in that unit is within 3" of this Transport, it can embark within this Transport. The charging unit can then select new targets for its charge.
 
 ---
 
 ### Repulsor Executioner
 **Points:** 230 | **M:** 10" | **T:** 12 | **SV:** 3+ | **W:** 16 | **LD:** 6+ | **OC:** 5
-**Keywords:** Vehicle, Smoke, Imperium, Transport, Repulsor Executioner
+**Keywords:** Vehicle, Smoke, Imperium, Transport, Repulsor Executioner, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2268,160 +2144,281 @@ bearer can be moved during that move
 
 **Abilities:**
 
-- **Transport:** This model has a transport capacity of 7 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.
-- **Executioner:** Each time this model makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll.
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 7 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.
+
+#### Executioner (Abilities)
+- **Description:** Each time this model makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll.
 
 ---
 
 ### Rhino
 **Points:** 75 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 10 | **LD:** 6+ | **OC:** 2
-**Keywords:** Imperium, Smoke, Dedicated Transport, Transport, Vehicle, Rhino
+**Keywords:** Imperium, Smoke, Dedicated Transport, Transport, Vehicle, Adeptus Astartes, Rhino
 
 **Abilities:**
 
-- **Self Repair:** At the end of your Command phase, this model regains 1 lost wound.
-- **Transport:** This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. It cannot transport JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR or TACTICUS models (excluding TACTICUS CHARACTER models that began the battle attached to a non-TACTICUS unit)
+#### Self Repair (Abilities)
+- **Description:** At the end of your Command phase, this model regains 1 lost wound.
+
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. It cannot transport JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR or TACTICUS models (excluding TACTICUS CHARACTER models that began the battle attached to a non-TACTICUS unit)
 
 ---
 
-### Rogue Trader Entourage
-**Points:** 75 | **M:** 6" | **T:** 3 | **SV:** 4+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Grenades, Imperium, Rogue Trader Entourage, Voidfarers, Voidfarer Character
+### Rhino Primaris [Legends]
+**Points:** 95 | **M:** 12" | **T:** 9 | **SV:** 3+ | **W:** 10 | **LD:** 6+ | **OC:** 3
+**Keywords:** Vehicle, Smoke, Transport, Imperium, Rhino Primaris, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Monomolecular cane-rapier | Melee | Melee | 4 | 3+ | 4 | -1 | 1 | - |
-| Household pistol | Ranged | 12" | 2 | 3+ | 5 | -2 | 2 | Pistol, Devastating Wounds |
-| Dartmask | Ranged | 12" | 1 | 4+ | 2 | -1 | D3 | Anti-INFANTRY 2+, Pistol, Precision |
-| Death Cult power blade | Melee | Melee | 5 | 2+ | 4 | -2 | 1 | Precision |
-| Voltaic pistol | Ranged | 12" | 3 | 3+ | 4 | -2 | 1 | Pistol, Sustained Hits 2 |
+| ➤ Twin Plasma Gun - Standard | Ranged | 24" | 1 | 3+ | 7 | -2 | 1 | Rapid Fire 1, Twin-linked |
+| ➤ Twin Plasma Gun - Overcharge | Ranged | 24" | 1 | 3+ | 8 | -3 | 2 | Hazardous, Rapid Fire 1, Twin-linked |
 
 **Abilities:**
 
-- **Invulnerable Save:** Models in this unit have a 4+ invulnerable save.
-- **Backroom Deals:** If your army contains one or more units with this ability, during the Declare Battle Formations step, select one of those units. While the selected unit is leading a unit, models in that unit have the Infiltrators ability.
-- **Leader:** This model can be attached to the following units: IMPERIAL NAVY BREACHERS, VOIDSMEN-AT-ARMS
-- **Warrant of Trade:** If your army contains one or more models with this ability, after both players have deployed their armies, select up to D3 IMPERIUM BATTLELINE units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserve, regardless of how many units are already in Strategic Reserve.
-- **Healing Serum:** At the start of your Command phase, if the bearer's unit is below its Starting Strength, you can return up to D3 destroyed models (excluding CHARACTERS) to the bearer's unit.
+#### Self Repair (Abilities)
+- **Description:** At the end of your Command phase, this model regains 1 lost wound.
+
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 6 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Phobos, Gravis, Centurion, Terminator or Tacticus models (except for Tacticus Character models that begin the battle attached to a non-Tacticus unit).
+
+#### Orbital Comms Array [Aura] (Abilities)
+- **Description:** While a friendly Adeptus Astartes unit is within 6" of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP
 
 ---
 
-### Sanctifiers
-**Points:** 100 | **M:** 6" | **T:** 3 | **SV:** 6+ | **W:** 1 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Sanctifiers, Retinue
+### Scout Bike Squad [Legends]
+**Points:** 75 | **M:** 12" | **T:** 5 | **SV:** 4+ | **W:** 3 | **LD:** 6+ | **OC:** 2
+**Keywords:** Mounted, Grenades, Imperium, Smoke, Scout Bike Squad, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Holy fire | Ranged | 12" | D6 | N/A | 6 | -1 | 2 | Ignores Cover, One Shot, Torrent |
-| Burning hands | Melee | Melee | 1 | 2+ | 6 | -2 | 3 | Devastating Wounds |
-| Close combat weapon | Melee | Melee | 2 | 3+ | 3 | 0 | 1 | - |
-| Death Cult blades | Melee | Melee | 4 | 2+ | 4 | -2 | 1 | Precision |
-| ➤ Plasma gun - standard | Ranged | 24" | 1 | 3+ | 7 | -2 | 1 | Rapid Fire 1 |
-| ➤ Plasma gun - supercharge | Ranged | 24" | 1 | 3+ | 8 | -3 | 2 | Hazardous, Rapid Fire 1 |
+| Combat Knife | Melee | Melee | 3 | 3+ | 4 | 0 | 1 | - |
 
 **Abilities:**
 
-- **Salvationist Medikit:** In your Command phase, if the bearer is on the battlefield, you can return up to D3 destroyed models (excluding Character models) to this unit.
-- **Simulacrum Imperialis:** Improve the Leadership characteristic of models in the bearer’s unit by 1.
-- **Ministorum Sermon:** While this unit contains a Ministorum Priest, each time a model in this unit makes a melee attack, add 1 to the Wound roll.
-- **Cherub:** Once per battle, you can target this unit with the Command Re-roll Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.
-- **Attached Unit:** If a Ministorum Priest or Inquisitor model from your army with the Leader ability can be attached to a Sisters of Battle Squad, it can be attached to this unit instead. If a Ministorum Priest or Inquisitor model from your army is attached to this unit during the Declare Battle Formations step, that model gains the Scouts 6" ability.
-- **Invulnerable Save:** Models in this unit have a 5+ invulnerable save.
+#### Outflank (Abilities)
+- **Description:** When this unit arrives from Strategic Reserves, it can be set up within your opponent’s deployment zone (all other restrictions still apply).
+
+---
+
+### Scout Sniper Squad [Legends]
+**Points:** 75 | **M:** 6" | **T:** 4 | **SV:** 4+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Infantry, Grenades, Imperium, Smoke, Scout Sniper Squad, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Scout Sniper Rifle | Ranged | 36" | 1 | 3+ | 4 | -2 | 2 | Heavy, Precision |
+
+**Abilities:**
+
+#### Concealed Positions (Abilities)
+- **Description:** This unit can only be selected as the target of a ranged attack if the attacking model is within 12".
 
 ---
 
 ### Scout Squad
 **Points:** 70 | **M:** 6" | **T:** 4 | **SV:** 4+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Smoke, Scout Squad
+**Keywords:** Infantry, Grenades, Imperium, Smoke, Scout Squad, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
 | Combat Knife | Melee | Melee | 3 | 3+ | 4 | -1 | 1 | - |
 | Astartes Shotgun | Ranged | 18" | 2 | 3+ | 4 | 0 | 1 | Assault |
+| Astartes Shotgun | Ranged | 18" | 2 | 3+ | 4 | 0 | 1 | Assault |
+| Combat Knife | Melee | Melee | 3 | 3+ | 4 | -1 | 1 | - |
 | Scout Sniper Rifle | Ranged | 36" | 1 | 3+ | 4 | -2 | 2 | Heavy, Precision |
 
 **Abilities:**
 
-- **Guerrilla Tactics:** At the end of your opponent’s turn, if this unit is more than 6" away from all enemy models, you can remove this unit from the battlefield and place it into
+#### Guerrilla Tactics (Abilities)
+- **Description:** At the end of your opponent’s turn, if this unit is more than 6" away from all enemy models, you can remove this unit from the battlefield and place it into
 Strategic Reserves.
 
 ---
 
-### Sisters of Battle Immolator
-**Points:** 100 | **M:** 12" | **T:** 10 | **SV:** 3+ | **W:** 11 | **LD:** 7+ | **OC:** 2
-**Keywords:** Dedicated Transport, Vehicle, Smoke, Transport, Imperium, Ordo Hereticus, Sisters of Battle Immolator
+### Sicaran Arcus [Legends]
+**Points:** 160 | **M:** 10" | **T:** 11 | **SV:** 2+ | **W:** 14 | **LD:** 6+ | **OC:** 4
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Smoke, Sicaran Arcus
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Immolation flamers | Ranged | 18" | 2D6 | N/A | 6 | -1 | 1 | Ignores Cover, Torrent |
-| Twin heavy bolter | Ranged | 36" | 3 | 3+ | 5 | -1 | 2 | Sustained Hits 2, Twin-Linked |
-| Twin multi-melta | Ranged | 18" | 2 | 3+ | 9 | -4 | D6 | Melta 2, Twin-Linked |
+| Arcus multi-launcher | Ranged | 48" | 2D6 | 3+ | 6 | 0 | 2 | Indirect Fire |
 
 **Abilities:**
 
-- **Transport:** This model has a transport capacity of 6 ORDO HERETICUS INFANTRY models.
-
-At the start of the Declare Battle Formations step, you can select one SISTERS OF BATTLE SQUAD from your army. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this TRANSPORT; the other can start the battle embarked within another TRANSPORT, or it can be deployed as a separate unit.
-- **Purge and Cleanse:** Each time this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.
-- **Invulnerable Save:** This model has a 6+ invulnerable save.
+#### Specialised Weapon System (Abilities)
+- **Description:** Each time this model makes an attack that targets the enemy unit you selected for the Oath of Moment ability, that attack has the [IGNORES COVER] ability and can ignore the penalty to their Hit rolls when making attacks with Indirect Fire weapons against targets that are not visible to them.
 
 ---
 
-### Sisters of Battle Squad
-**Points:** 100 | **M:** 6" | **T:** 3 | **SV:** 3+ | **W:** 1 | **LD:** 7+ | **OC:** 2
-**Keywords:** Infantry, Grenades, Imperium, Ordo Hereticus, Sisters of Battle Squad, Requisitioned
+### Sicaran Battle Tank [Legends]
+**Points:** 160 | **M:** 10" | **T:** 11 | **SV:** 2+ | **W:** 14 | **LD:** 6+ | **OC:** 4
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Smoke, Sicaran Battle Tank
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Chainsword | Melee | Melee | 3 | 4+ | 3 | -1 | 1 | - |
-| Power weapon | Melee | Melee | 2 | 4+ | 4 | -2 | 1 | - |
-| Condemnor boltgun | Ranged | 24" | 1 | 3+ | 4 | 0 | 1 | Anti-Psyker 2+, Devastating Wounds, Precision, Rapid Fire 1 |
-| Combi-weapon | Ranged | 24" | 1 | 4+ | 4 | 0 | 1 | Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1 |
-| Ministorum hand flamer | Ranged | 12" | D6 | N/A | 4 | 0 | 1 | Ignores Cover, Pistol, Torrent |
-| Inferno pistol | Ranged | 6" | 1 | 3+ | 8 | -4 | D3 | Melta 2, Pistol |
-| ➤ Plasma pistol - supercharge | Ranged | 12" | 1 | 3+ | 8 | -3 | 2 | Hazardous, Pistol |
-| ➤ Plasma pistol - standard | Ranged | 12" | 1 | 3+ | 7 | -2 | 1 | Pistol |
-| Boltgun | Ranged | 24" | 1 | 3+ | 4 | 0 | 1 | Rapid Fire 1 |
-| Ministorum heavy flamer | Ranged | 12" | D6 | N/A | 6 | -1 | 1 | Ignores Cover, Torrent |
-| Heavy bolter | Ranged | 36" | 3 | 4+ | 5 | -1 | 2 | Heavy, Sustained Hits 1 |
+| Herakles-pattern autocannon | Ranged | 48" | 6 | 3+ | 9 | -1 | 3 | Rapid Fire 2 |
 
 **Abilities:**
 
-- **Simulacrum Imperialis:** Improve the Leadership characteristic of models in the bearer's unit by 1.
-- **Defenders of the Faith:** If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models in range of it, until your opponent controls it at the start or end of any turn.
-- **Incensor Cherub:** Once per battle, you can target this unit with the Command Re-roll Stratagem for 0CP and can do so if you have already targeted a different unit with that Stratagem this phase.
-- **Invulnerable Save:** Models in this unit have a 6+ invulnerable save.
+#### Armoured Spearhead (Abilities)
+- **Description:** Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.
+
+---
+
+### Sicaran Omega [Legends]
+**Points:** 180 | **M:** 10" | **T:** 11 | **SV:** 2+ | **W:** 14 | **LD:** 6+ | **OC:** 4
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Smoke, Sicaran Omega
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| ➤ Omega plasma array - standard | Ranged | 36" | 6 | 3+ | 9 | -3 | 2 | - |
+| ➤ Omega plasma array - supercharge | Ranged | 36" | 6 | 3+ | 10 | -3 | 3 | Hazardous |
+
+**Abilities:**
+
+#### Overwhelming Short-range Firepower (Abilities)
+- **Description:** Each time this model makes an attack that targets the closest eligible enemy unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.
+
+---
+
+### Sicaran Punisher [Legends]
+**Points:** 160 | **M:** 10" | **T:** 11 | **SV:** 2+ | **W:** 14 | **LD:** 6+ | **OC:** 4
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Smoke, Sicaran Punisher
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Punisher rotary cannon | Ranged | 36" | 18 | 4+ | 6 | 0 | 1 | Devastating Wounds |
+
+**Abilities:**
+
+#### Rotating Death (Abilities)
+- **Description:** This model’s Punisher rotary cannon has the [SUSTAINED HITS 1] ability when targeting INFANTRY units.
+
+---
+
+### Sicaran Venator [Legends]
+**Points:** 180 | **M:** 10" | **T:** 11 | **SV:** 2+ | **W:** 14 | **LD:** 6+ | **OC:** 4
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Smoke, Sicaran Venator
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Venator neutron laser | Ranged | 48" | 3 | 3+ | 16 | -4 | D3+3 | Heavy |
+
+**Abilities:**
+
+#### Ferocious Assault (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll.
+
+---
+
+### Sokar-pattern Stormbird [Legends]
+**Points:** 900 | **M:** 20"+ | **T:** 13 | **SV:** 2+ | **W:** 40 | **LD:** 6+ | **OC:** 0
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Titanic, Fly, Transport, Sokar-pattern Stormbird, Aircraft
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Armoured hull | Melee | Melee | 9 | 4+ | 9 | 0 | 1 | - |
+| Hellstrike missile battery | Ranged | 48" | 4 | 3+ | 10 | -3 | D6 | Anti-Fly 3+ |
+
+**Abilities:**
+
+#### Damaged: 1-13 wounds remaining (Abilities)
+- **Description:** While this model has 1-13 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.
+
+#### Invulnerable Save (Abilities)
+- **Description:** This model has a 5+ invulnerable save against ranged attacks
+
+#### Aerial Assault (Abilities)
+- **Description:** Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
+
+---
+
+### Spartan [Legends]
+**Points:** 300 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 18 | **LD:** 6+ | **OC:** 6
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Transport, Smoke, Spartan
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Quad lascannon | Ranged | 48" | 4 | 3+ | 12 | -3 | D6+1 | - |
+| Laser destroyer | Ranged | 36" | 3 | 3+ | 14 | -4 | D6+1 | Heavy |
+
+---
+
+### Stalker [Legends]
+**Points:** 140 | **M:** 9" | **T:** 11 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 3
+**Keywords:** Imperium, Vehicle, Smoke, Stalker, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Icarus Stormcannon | Ranged | 48" | 6 | 3+ | 7 | -1 | 2 | Anti-Fly 2+ |
+
+**Abilities:**
+
+#### Skyfire Protocols (Abilities)
+- **Description:** Each time you target this model with the Overwatch Stratagem just after an enemy unit that can Fly starts or ends a Normal, Advance or Fall Back move, when resolving that Stratagem, in addition to shooting that enemy unit, you can select up to three additional enemy units within 24" of this model that can Fly; this model can also shoot at each of those units with its Icarus stormcannons (provided each one is an eligible target), but when doing so, an unmodified Hit roll of 6 is required to score a hit.
 
 ---
 
 ### Sternguard Veteran Squad
 **Points:** 100 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Tacticus, Sternguard Veteran Squad
+**Keywords:** Infantry, Grenades, Imperium, Tacticus, Sternguard Veteran Squad, Adeptus Astartes
 
 **Abilities:**
 
-- **Sternguard Focus:** Each time a model in this unit makes an attack that targets your Oath of Moment Target, you can re-roll the wound roll
+#### Sternguard Focus (Abilities)
+- **Description:** Each time a model in this unit makes an attack that targets your Oath of Moment Target, you can re-roll the wound roll
+
+---
+
+### Storm Eagle Gunship [Legends]
+**Points:** 250 | **M:** 20+" | **T:** 10 | **SV:** 3+ | **W:** 18 | **LD:** 6+ | **OC:** 0
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Fly, Aircraft, Transport, Storm Eagle Gunship
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Vengeance launcher | Ranged | 48" | 2D6 | 3+ | 6 | 0 | 1 | Blast |
+| Twin multi-melta | Ranged | 18" | 2 | 3+ | 9 | -4 | D6 | Melta 2, Twin-linked |
+| ➤ Typhoon missile launcher - frag | Ranged | 48" | 2D6 | 3+ | 4 | 0 | 1 | Blast |
+| ➤ Typhoon missile launcher - krak | Ranged | 48" | 2 | 3+ | 9 | -2 | D6 | - |
+| Twin hellstrike launcher | Ranged | 72" | 2 | 3+ | 10 | -3 | D6 | Anti-Fly 2+, Twin-linked |
+
+**Abilities:**
+
+#### Armoured Resilience (Abilities)
+- **Description:** Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.
 
 ---
 
 ### Storm Speeder Hailstrike
 **Points:** 115 | **M:** 14" | **T:** 9 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Fly, Imperium, Storm Speeder Hailstrike
+**Keywords:** Vehicle, Fly, Imperium, Adeptus Astartes, Storm Speeder Hailstrike
 
 **Abilities:**
 
-- **Hailstrike:** Each time this model has shot, select one enemy unit (excluding MONSTERS or VEHICLES) that was hit by one or more of those attacks. Until the end of the phase, each time a friendly ADEPTUS ASTARTES unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase.
+#### Hailstrike (Abilities)
+- **Description:** Each time this model has shot, select one enemy unit (excluding MONSTERS or VEHICLES) that was hit by one or more of those attacks. Until the end of the phase, each time a friendly ADEPTUS ASTARTES unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase.
 
 ---
 
 ### Storm Speeder Hammerstrike
 **Points:** 125 | **M:** 14" | **T:** 9 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 3
-**Keywords:** Imperium, Fly, Vehicle, Storm Speeder Hammerstrike
+**Keywords:** Imperium, Fly, Vehicle, Storm Speeder Hammerstrike, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2432,13 +2429,14 @@ At the start of the Declare Battle Formations step, you can select one SISTERS O
 
 **Abilities:**
 
-- **Hammerstrike:** Each time this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.
+#### Hammerstrike (Abilities)
+- **Description:** Each time this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.
 
 ---
 
 ### Storm Speeder Thunderstrike
 **Points:** 135 | **M:** 14" | **T:** 9 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Fly, Imperium, Storm Speeder Thunderstrike
+**Keywords:** Vehicle, Fly, Imperium, Storm Speeder Thunderstrike, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2449,13 +2447,14 @@ At the start of the Declare Battle Formations step, you can select one SISTERS O
 
 **Abilities:**
 
-- **Thunderstrike:** Each time this model has shot, select one enemy MONSTER or VEHICLE unit that was hit by one or more of those attacks. Until the end of the phase, each time a friendly ADEPTUS ASTARTES unit makes a ranged attack that targets that enemy unit, add 1 to the Wound roll.
+#### Thunderstrike (Abilities)
+- **Description:** Each time this model has shot, select one enemy MONSTER or VEHICLE unit that was hit by one or more of those attacks. Until the end of the phase, each time a friendly ADEPTUS ASTARTES unit makes a ranged attack that targets that enemy unit, add 1 to the Wound roll.
 
 ---
 
 ### Stormhawk Interceptor
 **Points:** 155 | **M:** 20"+ | **T:** 9 | **SV:** 3+ | **W:** 10 | **LD:** 6+ | **OC:** 0
-**Keywords:** Aircraft, Vehicle, Imperium, Fly, Smoke, Stormhawk Interceptor
+**Keywords:** Aircraft, Vehicle, Imperium, Fly, Smoke, Adeptus Astartes, Stormhawk Interceptor
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2464,13 +2463,14 @@ At the start of the Declare Battle Formations step, you can select one SISTERS O
 
 **Abilities:**
 
-- **Interceptor:** Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll
+#### Interceptor (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll
 
 ---
 
 ### Stormraven Gunship
 **Points:** 280 | **M:** 20"+ | **T:** 10 | **SV:** 3+ | **W:** 14 | **LD:** 6+ | **OC:** 0
-**Keywords:** Aircraft, Vehicle, Imperium, Fly, Transport, Stormraven Gunship
+**Keywords:** Aircraft, Vehicle, Imperium, Fly, Transport, Stormraven Gunship, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2481,14 +2481,17 @@ At the start of the Declare Battle Formations step, you can select one SISTERS O
 
 **Abilities:**
 
-- **Armoured Resilience:** Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.
-- **Transport:** This model has a transport capacity of 12 Adeptus Astartes Infantry models and 1 Dreadnought model. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.
+#### Armoured Resilience (Abilities)
+- **Description:** Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.
+
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 12 Adeptus Astartes Infantry models and 1 Dreadnought model. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.
 
 ---
 
 ### Stormtalon Gunship
 **Points:** 165 | **M:** 20"+ | **T:** 8 | **SV:** 3+ | **W:** 10 | **LD:** 6+ | **OC:** 0
-**Keywords:** Aircraft, Vehicle, Imperium, Fly, Stormtalon Gunship
+**Keywords:** Aircraft, Vehicle, Imperium, Fly, Stormtalon Gunship, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2497,24 +2500,14 @@ At the start of the Declare Battle Formations step, you can select one SISTERS O
 
 **Abilities:**
 
-- **Strafing Run:** Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll.
-
----
-
-### Subductor Squad
-**Points:** 85 | **M:** 6" | **T:** 3 | **SV:** 3+ | **W:** 1 | **LD:** 7+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Retinue, Subductor Squad, Adeptus Arbites
-
-**Abilities:**
-
-- **Dedication to Duty:** Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.
-- **Invulnerable Save:** Models in this unit (excluding the Cyber-mastiff) have a 4+ invulnerable save.
+#### Strafing Run (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll.
 
 ---
 
 ### Suppressor Squad
 **Points:** 75 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Smoke, Fly, Jump Pack, Suppressor Squad
+**Keywords:** Infantry, Grenades, Imperium, Smoke, Fly, Jump Pack, Suppressor Squad, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2523,23 +2516,54 @@ At the start of the Declare Battle Formations step, you can select one SISTERS O
 
 **Abilities:**
 
-- **Suppression Fire:** In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with an accelerator autocannon. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.
+#### Suppression Fire (Abilities)
+- **Description:** In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with an accelerator autocannon. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.
 
 ---
 
 ### Tactical Squad
 **Points:** 140 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 2
-**Keywords:** Infantry, Battleline, Grenades, Imperium, Tactical Squad
+**Keywords:** Infantry, Battleline, Grenades, Imperium, Adeptus Astartes, Tactical Squad
 
 **Abilities:**
 
-- **Combat Squads:** At the start of the Declare Battle Formations step, before any units have been set up, this unit can be split into two units, each containing five models
+#### Combat Squads (Abilities)
+- **Description:** At the start of the Declare Battle Formations step, before any units have been set up, this unit can be split into two units, each containing five models
+
+---
+
+### Tarantula Air Defense Battery [Legends]
+**Points:** 70 | **M:** - | **T:** 5 | **SV:** 3+ | **W:** 4 | **LD:** 7+ | **OC:** 0
+**Keywords:** Vehicle, Imperium, Tarantula Air Defence Battery, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Armoured Hull | Melee | Melee | 1 | 4+ | 4 | 0 | 1 | - |
+| Tarantula Air Defence Missiles | Ranged | 48" | D6 | 4+ | 7 | -1 | 1 | Anti-Fly 2+, Blast |
+
+**Abilities:**
+
+#### Sentry Programming (Abilities)
+- **Description:** You can target this model with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this turn. This model can only be targeted with that Stratagem once
+per turn.
+
+---
+
+### Tarantula Sentry Battery [Legends]
+**Points:** 30 | **M:** - | **T:** 6 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Artillery, Tarantula Sentry Battery
+
+**Abilities:**
+
+#### Sentinel Protocols (Abilities)
+- **Description:** Each time you select this unit for the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 4+ when resolving that Stratagem.
 
 ---
 
 ### Techmarine
 **Points:** 55 | **M:** 6" | **T:** 4 | **SV:** 2+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Grenades, Imperium, Tacticus, Techmarine
+**Keywords:** Character, Infantry, Grenades, Imperium, Tacticus, Adeptus Astartes, Techmarine
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2548,12 +2572,18 @@ At the start of the Declare Battle Formations step, you can select one SISTERS O
 
 **Abilities:**
 
-- **Techmarine:** While this model is within 3" of one or more friendly Adeptus Astartes Vehicle units, this model has the Lone Operative ability
-- **Blessing of the Omnissiah:** In your Command phase, you can select one friendly Adeptus Astartes Vehicle model within 3" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn.
-- **Vengeance of the Omnissiah:** If a friendly Adeptus Astartes Vehicle model is destroyed within 12" of this model, until the end of the battle, this model’s Omnissian power axe has an
-Attacks characteristic of 7.
-- **Leader:** This model can be attached to the following units:
+#### Techmarine (Abilities)
+- **Description:** While this model is within 3" of one or more friendly Adeptus Astartes Vehicle units, this model has the Lone Operative ability
 
+#### Blessing of the Omnissiah (Abilities)
+- **Description:** In your Command phase, you can select one friendly Adeptus Astartes Vehicle model within 3" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn.
+
+#### Vengeance of the Omnissiah (Abilities)
+- **Description:** If a friendly Adeptus Astartes Vehicle model is destroyed within 12" of this model, until the end of the battle, this model’s Omnissian power axe has an
+Attacks characteristic of 7.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
 ■ Assault Intercessor Squad
 ■ Desolation Squad
 ■ Devastator Squad
@@ -2562,39 +2592,138 @@ Attacks characteristic of 7.
 
 ---
 
+### Techmarine on Bike [Legends]
+**Points:** 110 | **M:** 12" | **T:** 5 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 2
+**Keywords:** Character, Mounted, Grenades, Imperium, Techmarine, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Boltgun | Ranged | 24" | 2 | 2+ | 4 | 0 | 1 | - |
+| Grav Pistol | Ranged | 12" | 1 | 2+ | 4 | -1 | 1 | Anti-vehicle 2+, Pistol |
+| Plasma Cutter | Melee | Melee | 2 | 3+ | 8 | -2 | 2 | Extra Attacks |
+| Conversion Beamer | Ranged | 24" | 1 | 3+ | 8 | -1 | 2 | Conversion, Sustained Hits D3 |
+
+**Abilities:**
+
+#### Blessing of the Omnissiah (Abilities)
+- **Description:** In your Command phase, you can select one friendly Adeptus Astartes Vehicle model within 3" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+■ Bike Squad
+■ Outrider Squad
+
+#### Techmarine (Abilities)
+- **Description:** While this model is within 3" of one or more friendly Adeptus Astartes Vehicle units, this model has the Lone Operative ability
+
+#### Vengeance of the Omnissiah (Abilities)
+- **Description:** If a friendly Adeptus Astartes Vehicle model is destroyed within 12" of this model, until the end of the battle, this model’s Omnissian power axe has an
+Attacks characteristic of 7.
+
+---
+
 ### Terminator Assault Squad
 **Points:** 180 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Imperium, Terminator Assault Squad, Terminator
+**Keywords:** Infantry, Imperium, Terminator Assault Squad, Terminator, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
 | Thunder Hammer | Melee | Melee | 3 | 3+ | 8 | -2 | 2 | Devastating Wounds |
 | Twin Lightning Claws | Melee | Melee | 6 | 3+ | 5 | -2 | 1 | Twin-linked |
+| Thunder Hammer | Melee | Melee | 3 | 3+ | 8 | -2 | 2 | Devastating Wounds |
+| Twin Lightning Claws | Melee | Melee | 6 | 3+ | 5 | -2 | 1 | Twin-linked |
 
 **Abilities:**
 
-- **Teleport Homer:** At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3" horizontally of that token and not within 9" horizontally of any enemy models. That token is then removed.
-- **Terminatus Assault:** At the start of the Fight phase, each enemy unit within Engagement Range of this unit must take a Battle-Shock test.
-- **Storm Shield:** The bearer has a Wounds characteristic of 4.
+#### Teleport Homer (Abilities)
+- **Description:** At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3" horizontally of that token and not within 9" horizontally of any enemy models. That token is then removed.
+
+#### Terminatus Assault (Abilities)
+- **Description:** At the start of the Fight phase, each enemy unit within Engagement Range of this unit must take a Battle-Shock test.
+
+#### Storm Shield (Abilities)
+- **Description:** The bearer has a Wounds characteristic of 4.
+
+#### Storm Shield (Abilities)
+- **Description:** The bearer has a Wounds characteristic of 4.
 
 ---
 
 ### Terminator Squad
 **Points:** 170 | **M:** 5" | **T:** 5 | **SV:** 2+ | **W:** 3 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Imperium, Terminator, Terminator Squad
+**Keywords:** Infantry, Imperium, Terminator, Terminator Squad, Adeptus Astartes
 
 **Abilities:**
 
-- **Teleport Homer:** At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3" horizontally of that token and not within 9" horizontally of any enemy models. That token is then removed.
-- **Fury of the First:** Each time a model in this unit makes an attack that targets your Oath of Moment target, add 1 to the Hit roll.
+#### Teleport Homer (Abilities)
+- **Description:** At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3" horizontally of that token and not within 9" horizontally of any enemy models. That token is then removed.
+
+#### Fury of the First (Abilities)
+- **Description:** Each time a model in this unit makes an attack that targets your Oath of Moment target, add 1 to the Hit roll.
+
+---
+
+### Terminus Ultra [Legends]
+**Points:** 285 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 16 | **LD:** 6+ | **OC:** 5
+**Keywords:** Vehicle, Smoke, Transport, Imperium, Terminus Ultra, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| ➤ Terminus Lascannon - Standard | Ranged | 48" | 1 | 3+ | 12 | -3 | D6+1 | Twin-Linked |
+| ➤ Terminus Lascannon - Overload | Ranged | 48" | 1 | 3+ | 14 | -3 | D6+3 | Hazardous, Twin-Linked |
+
+**Abilities:**
+
+#### Assault Ramp (Abilities)
+- **Description:** Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
+
+---
+
+### Terrax-pattern Termite [Legends]
+**Points:** 200 | **M:** 8" | **T:** 10 | **SV:** 3+ | **W:** 14 | **LD:** 6+ | **OC:** 2
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Transport, Dedicated Transport, Terrax-pattern Termite
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Termite drill | Melee | Melee | 6 | 4+ | 14 | -2 | D3+3 | Anti-VEHICLE 3+ |
+| Terrax melta cutter | Ranged | 12" | 5 | 3+ | 9 | -4 | D6 | Melta 2 |
+| Twin volkite charger | Ranged | 18" | 2 | 3+ | 5 | 0 | 2 | Devastating Wounds, Twin-linked |
+
+**Abilities:**
+
+#### Termite Assault (Abilities)
+- **Description:** This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9" away from all enemy models.
+
+---
+
+### Thunderfire Cannon [Legends]
+**Points:** 90 | **M:** 3" | **T:** 6 | **SV:** 2+ | **W:** 6 | **LD:** 6+ | **OC:** 2
+**Keywords:** Vehicle, Adeptus Astartes, Imperium, Thunderfire Cannon, Artillery
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Gunner's Servo Arms | Melee | Melee | 2 | 3 | 8 | -2 | 3 | Extra Attacks |
+| Plasma Cutter | Melee | Melee | 2 | 3+ | 8 | -2 | 1 | Extra Attacks |
+| Thunderfire Cannon | Ranged | 48" | D6+4 | 3+ | 5 | 0 | 1 | Blast, Indirect Fire |
+
+**Abilities:**
+
+#### Tremor Shells (Abilities)
+- **Description:** In your Shooting phase, after this unit has shot, if an enemy Infantry unit was hit by one or more attacks made by this unit’s thunderfire cannon this phase, until the end of your opponent’s next turn, that enemy unit is shaken. While a unit is shaken, subtract 2 from that unit’s Move characteristic, and subtract 2 from Advance and Charge rolls made for that unit.
+
+#### Crewed Artillery (Abilities)
+- **Description:** If one model in this unit is destroyed, the remaining model in this unit is also destroyed
 
 ---
 
 ### Thunderhawk Gunship
 **Points:** 840 | **M:** 20+" | **T:** 12 | **SV:** 2+ | **W:** 30 | **LD:** 6+ | **OC:** 0
-**Keywords:** Vehicle, Titanic, Fly, Aircraft, Transport, Imperium, Thunderhawk Gunship
-**Transport:** This model has a transport capacity of 30 ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models. Each CENTURION model takes up the space of 3 models. Each MOUNTED model takes up the space of 4 models.
+**Keywords:** Adeptus Astartes, Vehicle, Titanic, Fly, Aircraft, Transport, Imperium, Thunderhawk Gunship
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2605,15 +2734,84 @@ Attacks characteristic of 7.
 
 **Abilities:**
 
-- **Aerial Assault:** Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
-- **Damaged: 1-10 wounds remaining:** While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.
-- **Thunderhawk Cluster Bombs:** Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound.
+#### Aerial Assault (Abilities)
+- **Description:** Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.
+
+#### Damaged: 1-10 wounds remaining (Abilities)
+- **Description:** While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.
+
+#### Thunderhawk Cluster Bombs (Abilities)
+- **Description:** Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound.
+
+---
+
+### Thunderhawk Transporter [Legends]
+**Points:** 495 | **M:** 20+" | **T:** 12 | **SV:** 2+ | **W:** 30 | **LD:** 6+ | **OC:** 0
+**Keywords:** Vehicle, Titanic, Fly, Aircraft, Transport, Imperium, Thunderhawk Transporter, Adeptus Astartes
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Armoured hull | Melee | Melee | 8 | 4+ | 8 | 0 | 1 | - |
+| Hellstrike missile battery | Ranged | 72" | 4 | 3+ | 8 | -2 | 3 | Anti-FLY 4+ |
+
+**Abilities:**
+
+#### Damaged: 1-10 wounds remaining (Abilities)
+- **Description:** While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.
+
+#### Transport (Abilities)
+- **Description:** This model has a transport capacity of 15 Adeptus Astartes Infantry or Adeptus Astartes Mounted models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models. Each Centurion model takes up the space of 3 models. Each Mounted model takes up the space of 4 models. This model can also transport up to 2 Adeptus Astartes Vehicle models (excluding Aircraft and Titanic models). Models embarked within Transport Vehicles that are themselves being transported by this model do not count towards the transport capacity of this model.
+
+#### Aerial Deployment (Abilities)
+- **Description:** If this model starts the game in Hover mode and in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.
+
+---
+
+### Typhon [Legends]
+**Points:** 320 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 18 | **LD:** 6+ | **OC:** 6
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Smoke, Typhon
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Dreadhammer siege cannon | Ranged | 24" | D6+6 | 3+ | 14 | -3 | D6 | Blast |
+
+**Abilities:**
+
+#### Sunderer of Fortresses (Abilities)
+- **Description:** Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristic of that attack by 1 (if that attack targets a FORTIFICATION unit, improve the Strength and Damage characteristics of that attack by 2 instead).
+
+---
+
+### Vanguard Veteran Squad [Legends]
+**Points:** 120 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
+**Keywords:** Infantry, Grenades, Imperium, Adeptus Astartes, Vanguard Veteran Squad
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Heirloom Weapon | Melee | Melee | 4 | 3+ | 5 | -1 | 1 | - |
+
+**Abilities:**
+
+#### Vanguard Assault (Abilities)
+- **Description:** Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.
+
+#### Storm Shield (Abilities)
+- **Description:** The bearer has a 4+ invulnerable save
+
+#### Storm Shield (Abilities)
+- **Description:** The bearer has a 4+ invulnerable save
+
+#### Vanguard Assault (Abilities)
+- **Description:** Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.
 
 ---
 
 ### Vanguard Veteran Squad with Jump Packs
 **Points:** 100 | **M:** 12" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Grenades, Imperium, Vanguard Veteran Squad with Jump Packs, Jump Pack, Fly, Vanguard Veteran Squad
+**Keywords:** Infantry, Grenades, Imperium, Adeptus Astartes, Vanguard Veteran Squad with Jump Packs, Jump Pack, Fly, Vanguard Veteran Squad
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2622,14 +2820,20 @@ Attacks characteristic of 7.
 
 **Abilities:**
 
-- **Vanguard Assault:** Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.
-- **Storm Shield:** The bearer has a 4+ invulnerable save
+#### Vanguard Assault (Abilities)
+- **Description:** Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.
+
+#### Storm Shield (Abilities)
+- **Description:** The bearer has a 4+ invulnerable save
+
+#### Storm Shield (Abilities)
+- **Description:** The bearer has a 4+ invulnerable save
 
 ---
 
 ### Venerable Battle-Brother [Crucible]
 **Points:** 160 | **M:** 8" | **T:** 10 | **SV:** 2+ | **W:** 12 | **LD:** 6+ | **OC:** 4
-**Keywords:** Character, Vehicle, Dreadnought, Venerable Battle-Brother, Imperium, Walker, Crucible
+**Keywords:** Character, Vehicle, Dreadnought, Venerable Battle-Brother, Adeptus Astartes, Imperium, Walker, Crucible
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2654,52 +2858,30 @@ Attacks characteristic of 7.
 
 **Abilities:**
 
-- **Wisdom of the Ancients [Aura]:** When a friendly Adeptus Astartes Infantry unit is within 6" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1
+#### Wisdom of the Ancients [Aura] (Abilities)
+- **Description:** When a friendly **Adeptus Astartes Infantry** unit is within 6" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1
 
 ---
 
-### Vigilant Squad
-**Points:** 85 | **M:** 6" | **T:** 3 | **SV:** 4+ | **W:** 1 | **LD:** 7+ | **OC:** 2
-**Keywords:** Infantry, Battleline, Grenades, Imperium, Retinue, Vigilant Squad, Adeptus Arbites
+### Venerable Dreadnought [Legends]
+**Points:** 165 | **M:** 6" | **T:** 9 | **SV:** 2+ | **W:** 8 | **LD:** 6+ | **OC:** 3
+**Keywords:** Vehicle, Venerable, Walker, Smoke, Imperium, Dreadnought, Adeptus Astartes
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| ➤ Arbites grenade launcher - frag | Ranged | 24" | D3 | 4+ | 4 | 0 | 1 | Blast |
-| ➤ Arbites grenade launcher - krak | Ranged | 24" | 1 | 4+ | 9 | -2 | D3 | - |
-| Executioner shotgun | Ranged | 24" | 1 | 4+ | 5 | -1 | 1 | Ignores Cover, Precision |
-| Heavy stubber | Ranged | 36" | 3 | 4+ | 4 | 0 | 1 | Rapid Fire 3 |
-| Webber | Ranged | 12" | D6 | N/A | 2 | 0 | 1 | Assault, Devastating Wounds, Torrent |
+| Armoured Feet | Melee | Melee | 5 | 3+ | 6 | 0 | 1 | - |
 
 **Abilities:**
 
-- **Merciless Judgement:** Each time a model in this unit makes a ranged attack that targets a unit that is Below Half-strength, add 1 to the Wound roll.
-
----
-
-### Vindicare Assassin
-**Points:** 110 | **M:** 7" | **T:** 4 | **SV:** 6+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Infantry, Character, Epic Hero, Smoke, Imperium, Vindicare Assassin, Officio Assassinorum
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Exitus pistol | Ranged | 12" | 3 | 2+ | 6 | -2 | 3 | Devastating Wounds, Ignores Cover, Pistol, Precision |
-| Exitus rifle | Ranged | 48" | 1 | 2+ | 8 | -3 | D3+3 | Devastating Wounds, Heavy, Ignores Cover, Precision |
-| Vindicare combat knife | Melee | Melee | 4 | 2+ | 4 | -1 | 1 | - |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Shieldbreaker:** Once per battle, when selecting targets for this model’s exitus rifle, it can fire a shieldbreaker round. If it does, until the end of the phase, each time this model makes an attack with that weapon, add 1 to the Wound roll and any successful Wound roll scores a Critical Wound.
-- **Dead-shot:** Each time this model makes a ranged attack, when selecting targets for that attack, you can ignore the Lone Operative ability.
-- **Micromelta Round:** This model’s exitus rifle has the [ANTI‑MONSTER 4+] and [ANTI‑VEHICLE 4+] abilities.
+#### Wisdom of the Ancients [Aura] (Abilities)
+- **Description:** While a friendly Adeptus Astartes Infantry unit is within 6" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1.
 
 ---
 
 ### Vindicator
 **Points:** 185 | **M:** 9" | **T:** 11 | **SV:** 2+ | **W:** 11 | **LD:** 6+ | **OC:** 3
-**Keywords:** Vehicle, Smoke, Imperium, Vindicator
+**Keywords:** Vehicle, Smoke, Imperium, Adeptus Astartes, Vindicator
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2708,149 +2890,31 @@ Attacks characteristic of 7.
 
 **Abilities:**
 
-- **Siege Shield:** When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units.
+#### Siege Shield (Abilities)
+- **Description:** When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units.
 
 ---
 
-### Voidsmen-at-Arms
-**Points:** 50 | **M:** 6" | **T:** 3 | **SV:** 4+ | **W:** 1 | **LD:** 7+ | **OC:** 2
-**Keywords:** Infantry, Grenades, Imperium, Retinue, Voidsmen-at-Arms, Voidfarers
+### Vindicator Laser Destroyer [Legends]
+**Points:** 175 | **M:** 9" | **T:** 11 | **SV:** 2+ | **W:** 11 | **LD:** 6+ | **OC:** 3
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Smoke, Vindicator Laser Destroyer
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
-| Artificer shotgun | Ranged | 12" | 2 | 4+ | 4 | 0 | 2 | Assault |
-| Vicious bite | Melee | Melee | 3 | 4+ | 4 | 0 | 1 | - |
-| Lasgun | Ranged | 24" | 1 | 4+ | 3 | 0 | 1 | Rapid Fire 1 |
-| Voidsman rotor cannon | Ranged | 24" | 6 | 5+ | 6 | 0 | 1 | Heavy, Sustained Hits 1 |
+| ➤ Laservolley cannon - overcharge fire | Ranged | 36" | 3 | 3+ | 14 | -4 | D6+3 | Hazardous |
+| ➤ Laservolley cannon - volley fire | Ranged | 36" | 3 | 3+ | 12 | -3 | D3+3 | - |
 
 **Abilities:**
 
-- **Masters of Close Confines:** Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the [LETHAL HITS] ability.
-- **Navy Bodyguards:** If your Army Faction is not AGENTS OF THE IMPERIUM, then for each VOIDFARERS CHARACTER unit you include in your army, you can include one VOIDSMEN-AT-ARMS unit in your army that does not count towards the number of RETINUE units your army can include.
-
----
-
-### Warbringer Nemesis Titan
-**Points:** 2600 | **M:** 12" | **T:** 14 | **SV:** 2+ | **W:** 80 | **LD:** 6+ | **OC:** 20
-**Keywords:** Vehicle, Walker, Titanic, Towering, Warbringer Nemesis Titan
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Anvillus defence battery | Ranged | 72" | 8 | 3+ | 8 | -1 | 2 | Anti-FLY 4+ |
-| Ardex-defensor mauler | Ranged | 36" | 6 | 3+ | 6 | -2 | 2 | - |
-| Nemesis feet | Melee | Melee | 6 | 4+ | 12 | -2 | 4 | - |
-| Nemesis quake cannon | Ranged | 480" | D6+6 | 3+ | 16 | -4 | 4 | Blast, Indirect Fire |
-| Nemesis volcano cannon | Ranged | 120" | D3+3 | 3+ | 24 | -5 | 14 | Blast |
-| Reaver gatling blaster | Ranged | 72" | 12 | 3+ | 8 | -2 | 3 | Sustained Hits 1 |
-| Reaver laser blaster | Ranged | 72" | 8 | 3+ | 20 | -3 | D6+2 | Blast |
-| Reaver melta cannon | Ranged | 48" | D6+2 | 3+ | 13 | -4 | 6 | Blast, Melta 4 |
-| Reaver volcano cannon | Ranged | 120" | D3+1 | 3+ | 24 | -5 | 14 | Blast, Heavy |
-
-**Abilities:**
-
-- **Damaged: 1-26 wounds remaining:** While this model has 1-26 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks only.
-- **Titanic Fire Support:** In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.
-- **Striding Colossus:** Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.
-
----
-
-### Warhound Titan
-**Points:** 1100 | **M:** 14" | **T:** 13 | **SV:** 2+ | **W:** 40 | **LD:** 6+ | **OC:** 16
-**Keywords:** Vehicle, Walker, Titanic, Towering, Warhound Titan
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Warhound feet | Melee | Melee | 8 | 4+ | 10 | -1 | 2 | - |
-| Warhound vulcan mega-bolter | Ranged | 48" | 20 | 3+ | 6 | -1 | 2 | Sustained Hits 1 |
-| Warhound inferno gun | Ranged | 24" | 3D6 | N/A | 7 | -2 | 3 | Ignores Cover, Torrent |
-| ➤ Warhound plasma blastgun - standard | Ranged | 72" | 2D6+3 | 3+ | 9 | -3 | 4 | Blast |
-| ➤ Warhound plasma blastgun - supercharge | Ranged | 72" | 2D6+3 | 3+ | 10 | -3 | 5 | Blast, Hazardous |
-| Warhound turbo-laser destructor | Ranged | 72" | D3+3 | 3+ | 20 | -3 | 2D6 | Blast |
-
-**Abilities:**
-
-- **Flank Speed:** Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 8" to the Move characteristic of this model.
-- **Damaged: 1-13 wounds remaining:** While this model has 1-13 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks only.
-- **Striding Colossus:** Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so.
-
----
-
-### Warlord Titan
-**Points:** 3500 | **M:** 10" | **T:** 16 | **SV:** 2+ | **W:** 100 | **LD:** 6+ | **OC:** 30
-**Keywords:** Vehicle, Walker, Titanic, Towering, Warlord Titan
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Arioch power claw | Ranged | 48" | 20 | 3+ | 6 | -1 | 2 | Sustained Hits 1 |
-| ➤ Arioch power claw - strike | Melee | Melee | 6 | 4+ | 20 | -4 | 24 | - |
-| ➤ Arioch power claw - sweep | Melee | Melee | 12 | 4+ | 12 | -3 | 8 | - |
-| Belicosa volcano cannon | Ranged | 120" | D3+3 | 3+ | 32 | -5 | 18 | Blast |
-| Macro gatling blaster | Ranged | 100" | 30 | 3+ | 9 | -2 | 3 | Sustained Hits 1 |
-| Mori quake cannon | Ranged | 280" | 3D6 | 3+ | 16 | -4 | 6 | Blast, Ignores Cover |
-| ➤ Sunfury plasma annihilator - standard | Ranged | 72" | 2D6+6 | 3+ | 10 | -3 | 5 | Blast |
-| ➤ Sunfury plasma annihilator - supercharge | Ranged | 72" | 2D6+6 | 3+ | 12 | -3 | 8 | Blast, Hazardous |
-| Apocalypse launcher | Ranged | 200" | 20 | 3+ | 8 | -2 | 2 | Blast, Indirect Fire |
-| Laser blaster | Ranged | 72" | 6 | 3+ | 16 | -4 | D6+3 | Blast |
-| Ardex-defensor lascannon | Ranged | 48" | 1 | 3+ | 12 | -3 | D6+1 | - |
-| Ardex-defensor mauler | Ranged | 36" | 6 | 3+ | 6 | -2 | 2 | - |
-| Warlord feet | Melee | Melee | 6 | 4+ | 12 | -2 | 4 | - |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 5+ invulnerable save against ranged attacks only.
-- **Damaged: 1-33 wounds remaining:** While this model has 1-33 wounds remaining, subtract 15 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.
-- **Wrath of the Omnissiah:** In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.
-- **Striding Colossus:** Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so.
-
----
-
-### Watch Captain Artemis
-**Points:** 65 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 6+ | **OC:** 1
-**Keywords:** Epic Hero, Character, Infantry, Grenades, Imperium, Deathwatch, Watch Captain Artemis, Ordo Xenos
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Hellfire Extremis | Ranged | 12" | D6 | N/A | 4 | -1 | 1 | Anti-Infantry 4+, Devastating Wounds, Ignores Cover, Torrent |
-| Master-crafted power weapon | Melee | Melee | 6 | 2+ | 5 | -2 | 2 | - |
-
-**Abilities:**
-
-- **Invulnerable Save:** 4+
-- **Tactical Instinct:** While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.
-- **Unstoppable Champion:** The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 1 wound remaining.
-- **Leader:** This model can be attached to the following units: DEATHWATCH KILL TEAM
-
----
-
-### Watch Master
-**Points:** 95 | **M:** 6" | **T:** 4 | **SV:** 2+ | **W:** 5 | **LD:** 6+ | **OC:** 1
-**Keywords:** Character, Infantry, Captain, Grenades, Imperium, Watch Master, Deathwatch, Ordo Xenos
-
-**Weapons:**
-| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|------|-------|---|-------|---|----|---|----------|
-| Vigil spear | Ranged | 24" | 2 | 2+ | 4 | -1 | 2 | - |
-| Vigil spear | Melee | Melee | 6 | 2+ | 6 | -2 | D3 | Lance |
-
-**Abilities:**
-
-- **Invulnerable Save:** This model has a 4+ invulnerable save.
-- **Strategic Knowledge:** While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.
-- **Rites of Battle:** Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.
-- **Leader:** This model can be attached to the following units: DEATHWATCH KILL TEAM
+#### Annihilator (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets a MONSTER or VEHICLE unit, re-roll a Damage roll of 1.
 
 ---
 
 ### Whirlwind
 **Points:** 190 | **M:** 10" | **T:** 10 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 3
-**Keywords:** Imperium, Vehicle, Smoke, Whirlwind
+**Keywords:** Imperium, Vehicle, Smoke, Adeptus Astartes, Whirlwind
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -2859,7 +2923,41 @@ Attacks characteristic of 7.
 
 **Abilities:**
 
-- **Pinning Bombardment:** In your Shooting phase, after this model has shot, if one or more of those attacks made with its Whirlwind vengeance launcher scored a hit against an enemy Infantry unit, that unit must take a Battle-shock test.
+#### Pinning Bombardment (Abilities)
+- **Description:** In your Shooting phase, after this model has shot, if one or more of those attacks made with its Whirlwind vengeance launcher scored a hit against an enemy Infantry unit, that unit must take a Battle-shock test.
+
+---
+
+### Whirlwind Scorpius [Legends]
+**Points:** 115 | **M:** 10" | **T:** 10 | **SV:** 3+ | **W:** 11 | **LD:** 6+ | **OC:** 3
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Smoke, Whirlwind Scorpius
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Scorpius multi-launcher | Ranged | 48" | 2D3+3 | 3+ | 6 | -1 | 2 | Blast, Indirect Fire |
+
+**Abilities:**
+
+#### Pinning Bombardment (Abilities)
+- **Description:** In your Shooting phase, after this model has shot, if one or more of those attacks made with its Scorpius multi-launcher scored a hit against an enemy INFANTRY unit, that unit must take a Battle-shock test.
+
+---
+
+### Xiphon Interceptor [Legends]
+**Points:** 115 | **M:** 20+ | **T:** 9 | **SV:** 3+ | **W:** 12 | **LD:** 6+ | **OC:** 0
+**Keywords:** Adeptus Astartes, Imperium, Vehicle, Fly, Aircraft, Xiphon Interceptor
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Armoured hull | Melee | Melee | 3 | 4+ | 6 | 0 | 1 | - |
+| Xiphon missile battery | Ranged | 60" | 3 | 3+ | 7 | -1 | 3 | Anti-FLY 2+ |
+
+**Abilities:**
+
+#### Interceptor (Abilities)
+- **Description:** Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll.
 
 ---
 
@@ -2867,143 +2965,161 @@ Attacks characteristic of 7.
 
 | Unit | Points |
 | --- | ---: |
-| Ministorum Priest | 40 |
+| Tarantula Sentry Battery [Legends] | 30 |
+| Imperial Space Marine [Legends] | 40 |
 | Bladeguard Ancient | 45 |
 | Ancient | 50 |
 | Apothecary | 50 |
-| Inquisitorial Agents | 50 |
-| Voidsmen-at-Arms | 50 |
-| Inquisitor | 55 |
+| Astartes Servitors [Legends] | 55 |
+| Attack Bike | 55 |
 | Lieutenant | 55 |
 | Lieutenant in Phobos Armour | 55 |
 | Lieutenant in Reiver Armour | 55 |
+| Primaris Company Champion [Legends] | 55 |
 | Techmarine | 55 |
 | Chaplain | 60 |
+| Company Champion on Bike [Legends] | 60 |
 | Invader ATV | 60 |
-| Martial Agent [Crucible] | 60 |
-| Navigator | 60 |
-| Inquisitor Greyfax | 65 |
+| Apothecary on Bike [Legends] | 65 |
 | Librarian | 65 |
-| Watch Captain Artemis | 65 |
 | Apothecary Biologis | 70 |
 | Captain in Phobos Armour | 70 |
 | Champion of the Chapter [Crucible] | 70 |
 | Drop Pod | 70 |
-| Inquisitorial Chimera | 70 |
 | Judiciar | 70 |
+| Land Speeder Storm [Legends] | 70 |
 | Librarian in Phobos Armour | 70 |
 | Librarius Adept [Crucible] | 70 |
 | Scout Squad | 70 |
+| Tarantula Air Defense Battery [Legends] | 70 |
 | Ancient in Terminator Armor | 75 |
 | Assault Intercessor Squad | 75 |
 | Captain with Jump Pack | 75 |
 | Chaplain in Terminator Armour | 75 |
 | Chaplain on Bike | 75 |
 | Chaplain with Jump Pack | 75 |
-| Imperial Rhino | 75 |
-| Inquisitor Coteaz | 75 |
-| Inquisitor Draxus | 75 |
+| Dreadnought Drop Pod [Legends] | 75 |
+| Firestrike Servo-Turret | 75 |
 | Librarian in Terminator Armour | 75 |
+| Librarian with Jump Pack [Legends] | 75 |
 | Rhino | 75 |
-| Rogue Trader Entourage | 75 |
+| Scout Bike Squad [Legends] | 75 |
+| Scout Sniper Squad [Legends] | 75 |
 | Suppressor Squad | 75 |
+| Bike Squad [Legends] | 80 |
 | Bladeguard Veteran Squad | 80 |
 | Captain | 80 |
 | Captain in Gravis Armour | 80 |
+| Ferren Areios [Legends] | 80 |
 | Impulsor | 80 |
 | Incursor Squad | 80 |
 | Intercessor Squad | 80 |
+| Land Speeder [Legends] | 80 |
+| Librarian on Bike [Legends] | 80 |
 | Outrider Squad | 80 |
 | Reiver Squad | 80 |
-| Culexus Assassin | 85 |
 | Eliminator Squad | 85 |
 | Lieutenant with Combi-weapon | 85 |
-| Subductor Squad | 85 |
-| Vigilant Squad | 85 |
+| Ancient on Bike [Legends] | 90 |
 | Assault Intercessors with Jump Packs | 90 |
 | Eradicator Squad | 90 |
-| Exaction Squad | 90 |
-| Imperial Navy Breachers | 90 |
 | Infernus Squad | 90 |
+| Rapier Carrier [Legends] | 90 |
+| Thunderfire Cannon [Legends] | 90 |
 | Aggressor Squad | 95 |
+| Assault Squad [Legends] | 95 |
 | Captain in Terminator Armour | 95 |
+| Captain on Bike [Legends] | 95 |
+| Deathstorm Drop Pod [Legends] | 95 |
+| Land Speeder Tempest [Legends] | 95 |
+| Land Speeder Tornado [Legends] | 95 |
 | Razorback | 95 |
-| Watch Master | 95 |
-| Aquila Kill Team | 100 |
-| Callidus Assassin | 100 |
-| Deathwatch Kill Team | 100 |
+| Rhino Primaris [Legends] | 95 |
 | Heavy Intercessor Squad | 100 |
+| Hunter [Legends] | 100 |
 | Infiltrator Squad | 100 |
-| Sanctifiers | 100 |
-| Sisters of Battle Immolator | 100 |
-| Sisters of Battle Squad | 100 |
+| Land Speeder Typhoon [Legends] | 100 |
 | Sternguard Veteran Squad | 100 |
 | Vanguard Veteran Squad with Jump Packs | 100 |
 | Company Heroes | 105 |
-| Deathwatch Agent [Crucible] | 105 |
-| Eversor Assassin | 110 |
+| Relic Razorback [Legends] | 105 |
+| Company Veterans on Bikes [Legends] | 110 |
 | Hellblaster Squad | 110 |
-| Vindicare Assassin | 110 |
+| Javelin Attack Speeder [Legends] | 110 |
+| Techmarine on Bike [Legends] | 110 |
+| Assault Squad with Jump Packs [Legends] | 115 |
+| Deimos Predator [Legends] | 115 |
 | Storm Speeder Hailstrike | 115 |
+| Whirlwind Scorpius [Legends] | 115 |
+| Xiphon Interceptor [Legends] | 115 |
 | Devastator Squad | 120 |
-| Enthroned Agent [Crucible] | 120 |
 | Inceptor Squad | 120 |
+| Vanguard Veteran Squad [Legends] | 120 |
 | Invictor Tactical Warsuit | 125 |
 | Storm Speeder Hammerstrike | 125 |
-| Armiger Helverin | 135 |
+| Mortis Dreadnought [Legends] | 130 |
 | Dreadnought | 135 |
 | Predator Annihilator | 135 |
 | Storm Speeder Thunderstrike | 135 |
-| Armiger Warglaive | 140 |
 | Predator Destructor | 140 |
+| Relic Contemptor Dreadnought [Legends] | 140 |
+| Stalker [Legends] | 140 |
 | Tactical Squad | 140 |
-| Armiger Moirax | 150 |
 | Ballistus Dreadnought | 150 |
 | Centurion Assault Squad | 150 |
+| Chaplain Venerable Dreadnought [Legends] | 150 |
 | Gladiator Valiant | 150 |
+| Ironclad Dreadnought [Legends] | 150 |
 | Stormhawk Interceptor | 155 |
 | Brutalis Dreadnought | 160 |
+| Deredeo Dreadnought [Legends] | 160 |
 | Gladiator Lancer | 160 |
 | Gladiator Reaper | 160 |
+| Leviathan Dreadnought [Legends] | 160 |
+| Sicaran Arcus [Legends] | 160 |
+| Sicaran Battle Tank [Legends] | 160 |
+| Sicaran Punisher [Legends] | 160 |
 | Venerable Battle-Brother [Crucible] | 160 |
+| Command Squad [Legends] | 165 |
 | Stormtalon Gunship | 165 |
+| Venerable Dreadnought [Legends] | 165 |
 | Terminator Squad | 170 |
 | Centurion Devastator Squad | 175 |
 | Hammerfall Bunker | 175 |
-| Corvus Blackstar | 180 |
+| Vindicator Laser Destroyer [Legends] | 175 |
 | Repulsor | 180 |
+| Sicaran Omega [Legends] | 180 |
+| Sicaran Venator [Legends] | 180 |
 | Terminator Assault Squad | 180 |
 | Vindicator | 185 |
-| Grey Knights Terminator Squad | 190 |
 | Whirlwind | 190 |
 | Desolation Squad | 200 |
+| Relic Terminator Squad [Legends] | 200 |
+| Terrax-pattern Termite [Legends] | 200 |
 | Redemptor Dreadnought | 205 |
+| Caestus Assault Ram [Legends] | 215 |
 | Land Raider | 220 |
 | Land Raider Crusader | 220 |
+| Land Raider Proteus [Legends] | 220 |
+| Land Raider Achilles [Legends] | 230 |
 | Repulsor Executioner | 230 |
+| Kratos [Legends] | 240 |
+| Carab Culln the Risen [Legends] | 250 |
+| Land Raider Excelsior [Legends] | 250 |
+| Land Raider Prometheus [Legends] | 250 |
+| Storm Eagle Gunship [Legends] | 250 |
+| Land Raider Helios [Legends] | 265 |
+| Cerberus [Legends] | 270 |
 | Land Raider Redeemer | 270 |
 | Stormraven Gunship | 280 |
-| Knight Errant | 355 |
-| Knight Gallant | 355 |
-| Knight Preceptor | 365 |
-| Knight Paladin | 375 |
-| Knight Warden | 375 |
-| Knight Crusader | 385 |
-| Questoris Knight Magaera | 385 |
-| Questoris Knight Styrix | 385 |
-| Cerastus Knight Acheron | 395 |
-| Cerastus Knight Castigator | 395 |
-| Cerastus Knight Lancer | 395 |
-| Cerastus Knight Atrapos | 405 |
-| Knight Castellan | 410 |
-| Knight Valiant | 410 |
-| Canis Rex | 415 |
-| Knight Defender | 415 |
+| Terminus Ultra [Legends] | 285 |
+| Fire Raptor Gunship [Legends] | 290 |
+| Spartan [Legends] | 300 |
+| Typhon [Legends] | 320 |
+| Falchion [Legends] | 420 |
+| Fellblade [Legends] | 480 |
+| Thunderhawk Transporter [Legends] | 495 |
 | Astraeus | 525 |
-| Acastus Knight Porphyrion | 700 |
-| Acastus Knight Asterius | 765 |
+| Mastodon [Legends] | 540 |
 | Thunderhawk Gunship | 840 |
-| Warhound Titan | 1100 |
-| Reaver Titan | 2200 |
-| Warbringer Nemesis Titan | 2600 |
-| Warlord Titan | 3500 |
+| Sokar-pattern Stormbird [Legends] | 900 |
