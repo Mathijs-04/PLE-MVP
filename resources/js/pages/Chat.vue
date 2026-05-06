@@ -511,6 +511,12 @@ const certaintyLevel = computed(() => {
     return 4;
 });
 
+const showCertaintyIndicator = computed(() => {
+    const answeredQuestion = questions[game.value] ?? question.value;
+
+    return answer.value && !isArmyQuestionText(answeredQuestion);
+});
+
 const formatSource = (source) => {
     if (!source || !String(source).trim()) {
         return 'No relevant source';
@@ -791,7 +797,10 @@ const ask = async () => {
                                     >
                                         {{ answer.short_answer }}
                                     </p>
-                                    <span class="group relative mt-1 shrink-0">
+                                    <span
+                                        v-if="showCertaintyIndicator"
+                                        class="group relative mt-1 shrink-0"
+                                    >
                                         <span
                                             class="block h-3 w-3 rounded-full"
                                             :class="
