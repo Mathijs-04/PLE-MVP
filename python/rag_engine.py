@@ -265,6 +265,7 @@ def _parse_units_with_roles(
         end = headings[i + 1].start() if i + 1 < len(headings) else len(units_text)
         section = units_text[start:end]
 
+        unit_name = heading.group(1).strip()
         pts_m = _POINTS_LINE_RE.search(section[:400])
         if not pts_m:
             continue
@@ -273,6 +274,8 @@ def _parse_units_with_roles(
         kw_upper = kw_text.upper()
 
         keywords = {_clean_keyword(tok) for tok in kw_text.split(",") if tok.strip()}
+        if re.search(r"\[\s*legends?\s*\]", unit_name, re.IGNORECASE):
+            keywords.add("LEGENDS")
         keywords.discard("")
 
         if keywords & {"MANIFESTATION", "ENDLESS SPELL", "FACTION TERRAIN", "INVOCATION"}:
@@ -290,7 +293,7 @@ def _parse_units_with_roles(
         sub_factions = {kw for kw in keywords if kw not in _NON_THEME_KEYWORDS}
 
         parsed.append({
-            "name": heading.group(1).strip(),
+            "name": unit_name,
             "pts": int(pts_m.group(1)),
             "roles": roles,
             "unique": is_unique,
