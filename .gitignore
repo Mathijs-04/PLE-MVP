@@ -29,4 +29,6 @@ yarn-error.log
 
 # Generated Python vector indexes
 /python/indexes/
-/python/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
