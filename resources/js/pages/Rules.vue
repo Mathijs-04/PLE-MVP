@@ -1,7 +1,14 @@
 <script setup lang="js">
 import { Head, Link, router, usePage } from '@inertiajs/vue3';
 import { ArrowLeft, Moon, Sun } from 'lucide-vue-next';
-import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue';
+import {
+    computed,
+    nextTick,
+    onBeforeUnmount,
+    onMounted,
+    ref,
+    watch,
+} from 'vue';
 import GameBackground from '@/components/GameBackground.vue';
 import GameSelector from '@/components/GameSelector.vue';
 import PrimaryNav from '@/components/PrimaryNav.vue';
@@ -21,7 +28,13 @@ const game = ref('aos');
 const pdfPage = ref(1);
 const fromChat = ref(false);
 const isMobileViewer = ref(false);
+const deferredViewerSrc = ref('');
+const pdfViewerLoaded = ref(false);
 let mobileViewerMediaQuery = null;
+let viewerMounted = false;
+let viewerLoadFrame = null;
+let viewerLoadTimeout = null;
+let viewerLoadToken = 0;
 
 const pdfFiles = {
     aos: '/rulebooks/AOS_Core_Rules.pdf',
@@ -53,9 +66,59 @@ const iframeKey = computed(
     () => `${game.value}-${pdfPage.value}-${isMobileViewer.value}`,
 );
 
+const showPdfViewerLoader = computed(
+    () => !deferredViewerSrc.value || !pdfViewerLoaded.value,
+);
+
 function updateMobileViewerFlag() {
     isMobileViewer.value = mobileViewerMediaQuery?.matches ?? false;
 }
+
+function clearViewerLoadSchedule() {
+    if (viewerLoadFrame !== null) {
+        window.cancelAnimationFrame(viewerLoadFrame);
+        viewerLoadFrame = null;
+    }
+
+    if (viewerLoadTimeout !== null) {
+        window.clearTimeout(viewerLoadTimeout);
+        viewerLoadTimeout = null;
+    }
+}
+
+async function scheduleViewerLoad(src = viewerSrc.value) {
+    if (!viewerMounted) {
+        return;
+    }
+
+    const token = ++viewerLoadToken;
+    clearViewerLoadSchedule();
+    pdfViewerLoaded.value = false;
+    deferredViewerSrc.value = '';
+
+    await nextTick();
+
+    if (token !== viewerLoadToken || !viewerMounted) {
+        return;
+    }
+
+    viewerLoadFrame = window.requestAnimationFrame(() => {
+        viewerLoadFrame = null;
+        viewerLoadTimeout = window.setTimeout(() => {
+            viewerLoadTimeout = null;
+
+            if (token === viewerLoadToken && viewerMounted) {
+                deferredViewerSrc.value = src;
+            }
+        }, 0);
+    });
+}
+
+function markPdfViewerLoaded() {
+    pdfViewerLoaded.value = true;
+}
+
+watch(viewerSrc, (src) => scheduleViewerLoad(src));
 
 function selectGame(next) {
     if (next === game.value) {
@@ -78,9 +141,13 @@ onMounted(() => {
     mobileViewerMediaQuery = window.matchMedia('(max-width: 639px)');
     updateMobileViewerFlag();
     mobileViewerMediaQuery.addEventListener('change', updateMobileViewerFlag);
+    viewerMounted = true;
+    scheduleViewerLoad();
 });
 
 onBeforeUnmount(() => {
+    viewerMounted = false;
+    clearViewerLoadSchedule();
     mobileViewerMediaQuery?.removeEventListener(
         'change',
         updateMobileViewerFlag,
@@ -160,16 +227,52 @@ onBeforeUnmount(() => {
             </div>
 
             <div class="mx-auto flex w-full max-w-5xl justify-center px-4">
-                <iframe
-                    :key="iframeKey"
-                    :src="viewerSrc"
-                    class="rounded-xl border border-sidebar-border/70"
+                <div
+                    class="relative overflow-hidden rounded-xl border border-sidebar-border/70 bg-sidebar/5"
                     :style="{
                         width: 'min(735px, 100%)',
                         height: 'min(1122px, calc(100vh - 240px))',
                     }"
-                    allowfullscreen
-                />
+                    :aria-busy="showPdfViewerLoader"
+                >
+                    <div
+                        v-if="showPdfViewerLoader"
+                        class="absolute inset-0 z-10 flex flex-col items-center justify-center gap-3 bg-background/80 text-muted-foreground backdrop-blur-sm"
+                    >
+                        <svg
+                            class="h-8 w-8 animate-spin text-primary"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                        >
+                            <circle
+                                class="opacity-25"
+                                cx="12"
+                                cy="12"
+                                r="10"
+                                stroke="currentColor"
+                                stroke-width="4"
+                            />
+                            <path
+                                class="opacity-75"
+                                fill="currentColor"
+                                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+                            />
+                        </svg>
+                        <span class="text-sm">Loading rulebook viewer…</span>
+                    </div>
+
+                    <iframe
+                        v-if="deferredViewerSrc"
+                        :key="iframeKey"
+                        :src="deferredViewerSrc"
+                        title="Warhammer core rules PDF viewer"
+                        class="block h-full w-full transition-opacity duration-200"
+                        :class="pdfViewerLoaded ? 'opacity-100' : 'opacity-0'"
+                        allowfullscreen
+                        @load="markPdfViewerLoaded"
+                    />
+                </div>
             </div>
         </div>
     </div>

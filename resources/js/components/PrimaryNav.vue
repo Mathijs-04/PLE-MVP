@@ -16,6 +16,7 @@ const toggleLabel = computed(() =>
     <Link
         :href="toggleHref"
         :aria-label="toggleLabel"
+        prefetch
         class="group fixed top-4 left-1/2 z-50 inline-flex -translate-x-1/2 items-center gap-1 rounded-full border border-sidebar-border/70 bg-sidebar/80 p-1 shadow-sm backdrop-blur-sm focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none"
     >
         <span
