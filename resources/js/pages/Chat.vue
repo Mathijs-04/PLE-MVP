@@ -11,6 +11,7 @@ import {
     watch,
 } from 'vue';
 import GameBackground from '@/components/GameBackground.vue';
+import GameSelector from '@/components/GameSelector.vue';
 import PrimaryNav from '@/components/PrimaryNav.vue';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -641,7 +642,7 @@ const ask = async () => {
                 <div class="flex items-start justify-between gap-4">
                     <div class="min-w-0 flex-1">
                         <h1
-                            class="font-title text-lg font-bold tracking-[0.03em] sm:text-2xl"
+                            class="font-title text-base font-bold tracking-[0.03em] sm:text-2xl"
                         >
                             Warhammer Rule Assistant
                         </h1>
@@ -686,55 +687,18 @@ const ask = async () => {
                     />
                 </div>
 
-                <div class="flex items-center justify-between gap-4">
-                    <div class="flex items-center gap-3">
-                        <span
-                            class="text-sm transition-colors"
-                            :class="
-                                game === 'aos'
-                                    ? 'font-semibold text-foreground'
-                                    : 'text-muted-foreground'
-                            "
-                            ><span class="sm:hidden">AOS</span
-                            ><span class="hidden sm:inline"
-                                >Warhammer Age of Sigmar</span
-                            ></span
-                        >
+                <div
+                    class="flex flex-col items-stretch gap-4 sm:flex-row sm:items-center sm:justify-between"
+                >
+                    <GameSelector
+                        class="w-full sm:w-auto"
+                        name="chat-game"
+                        :model-value="game"
+                        :disabled="loading"
+                        @update:model-value="switchGame"
+                    />
 
-                        <button
-                            type="button"
-                            role="switch"
-                            :aria-checked="game === '40k'"
-                            :disabled="loading"
-                            class="relative inline-flex h-6 w-11 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
-                            :class="game === '40k' ? 'bg-primary' : 'bg-input'"
-                            @click="switchGame(game === 'aos' ? '40k' : 'aos')"
-                        >
-                            <span
-                                class="pointer-events-none inline-block h-4 w-4 transform rounded-full bg-background shadow-lg ring-0 transition-transform"
-                                :class="
-                                    game === '40k'
-                                        ? 'translate-x-5'
-                                        : 'translate-x-0'
-                                "
-                            />
-                        </button>
-
-                        <span
-                            class="text-sm transition-colors"
-                            :class="
-                                game === '40k'
-                                    ? 'font-semibold text-foreground'
-                                    : 'text-muted-foreground'
-                            "
-                            ><span class="sm:hidden">40K</span
-                            ><span class="hidden sm:inline"
-                                >Warhammer 40.000</span
-                            ></span
-                        >
-                    </div>
-
-                    <div class="flex items-center gap-2">
+                    <div class="flex items-center justify-end gap-2">
                         <Button
                             variant="outline"
                             :disabled="loading || !answer"
