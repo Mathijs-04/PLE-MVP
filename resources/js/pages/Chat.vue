@@ -334,7 +334,7 @@ const renderMarkdown = (markdown) => {
         );
         html = html.replace(
             /(^|[^*])\*([^*]+)\*(?!\*)/g,
-            '$1<em class="italic">$2</em>',
+            '$1<em class="italic [font-style:oblique_14deg]">$2</em>',
         );
 
         return html;
@@ -398,7 +398,7 @@ const renderMarkdown = (markdown) => {
             }
 
             parts.push(
-                `<ul class="my-3 list-disc pl-6">${items.join('')}</ul>`,
+                `<ul class="my-3 list-disc pl-8">${items.join('')}</ul>`,
             );
             continue;
         }
@@ -422,7 +422,7 @@ const renderMarkdown = (markdown) => {
             }
 
             parts.push(
-                `<ol class="my-3 list-decimal pl-6">${items.join('')}</ol>`,
+                `<ol class="my-3 list-decimal pl-8">${items.join('')}</ol>`,
             );
             continue;
         }
@@ -720,7 +720,7 @@ const ask = async () => {
             </div>
 
             <div
-                class="rounded-xl border border-sidebar-border/70 bg-sidebar/5 p-6"
+                class="rounded-xl border border-sidebar-border/70 bg-sidebar/50 p-6"
             >
                 <template v-if="error">
                     <div
@@ -733,7 +733,7 @@ const ask = async () => {
                 <template v-else-if="answer">
                     <div class="space-y-3">
                         <div
-                            class="relative z-20 rounded-lg border border-sidebar-border/70"
+                            class="relative z-20 overflow-hidden rounded-lg border border-l-4 border-sidebar-border/70 border-l-primary/35 bg-card/60 shadow-sm dark:bg-card/35"
                         >
                             <button
                                 type="button"
@@ -751,13 +751,13 @@ const ask = async () => {
                             </button>
                             <div
                                 v-show="openShortAnswer"
-                                class="border-t border-sidebar-border/70 bg-sidebar/10 px-4 py-4"
+                                class="border-t border-sidebar-border/70 bg-sidebar/20 px-4 py-4"
                             >
                                 <div
                                     class="flex items-start justify-between gap-3"
                                 >
                                     <p
-                                        class="text-base leading-snug font-bold sm:text-xl"
+                                        class="max-w-[62ch] text-sm leading-snug font-semibold sm:text-lg"
                                     >
                                         {{ answer.short_answer }}
                                     </p>
@@ -808,7 +808,7 @@ const ask = async () => {
                             </button>
                             <div
                                 v-show="openDetailedAnswer"
-                                class="border-t border-sidebar-border/70 px-4 py-4 text-sm leading-relaxed"
+                                class="border-t border-sidebar-border/70 px-4 py-4 text-sm leading-relaxed font-[450]"
                             >
                                 <div v-html="renderedDetailedAnswer" />
                             </div>
@@ -835,7 +835,7 @@ const ask = async () => {
                                 v-show="openSource"
                                 class="border-t border-sidebar-border/70 bg-sidebar/10 px-4 py-4"
                             >
-                                <p class="text-sm text-muted-foreground">
+                                <p class="text-sm font-medium text-foreground">
                                     {{ formatSource(answer.source) }}
                                 </p>
                             </div>

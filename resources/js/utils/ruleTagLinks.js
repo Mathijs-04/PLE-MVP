@@ -4,7 +4,7 @@ import aosTags from '../../../data/datafiles-Tags/AOS-Tags.json';
 const _patternCache = new Map();
 
 const LINK_CLASS =
-    'underline decoration-primary underline-offset-2 text-primary hover:text-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm';
+    'rounded-sm text-primary underline decoration-primary underline-offset-2 transition-colors hover:bg-primary/10 hover:text-primary/90 hover:decoration-primary/80 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none';
 
 export function getTagsForGame(gameKey) {
     if (gameKey === '40k' || gameKey === 'wh40k') {
