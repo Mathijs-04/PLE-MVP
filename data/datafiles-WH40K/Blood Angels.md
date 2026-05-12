@@ -518,6 +518,7 @@ horizontally away from all enemy models.
 - Intercessor Squad
 - Tactical Squad
 - Sternguard Veteran Squad
+You can attach this model to one of the above units, even if one Captain, Chapter Master or **Lieutenant** model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths
 
 ---
 

@@ -367,7 +367,7 @@
 
 ### Commissar Graves
 **Points:** 110 | **M:** 12" | **T:** 8 | **SV:** 3+ | **W:** 12 | **LD:** 6+ | **OC:** 5
-**Keywords:** Astra Militarum, Imperium, Epic Hero, Officer, Vehicle, Squadron, Commissar Graves
+**Keywords:** Astra Militarum, Imperium, Epic Hero, Officer, Vehicle, Squadron, Commissar Graves, Character
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -404,13 +404,12 @@
 **Abilities:**
 
 #### Brutal Disciplinarian (Abilities)
-- **Description:** Once per phase, at the start of any phase, you can select one friendly Astra Militarum Infantry (excluding units that only contain one model) unit that is Battle‑shocked and within 12" of this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle‑shocked.
+- **Description:** Once per turn, at the start of any phase, you can select one friendly Astra Militarum Infantry (excluding units that only contain one model) unit that is Battle‑shocked and within 12" of this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle‑shocked.
 
 #### Leader (Abilities)
 - **Description:** This model can be attached to the following units:
 - Cadian Shock Troops
 - Catachan Jungle Fighters
-- Command Squad
 - Death Korps of Krieg
 - Kasrkin
 - Krieg Combat Engineers

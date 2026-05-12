@@ -952,7 +952,7 @@ If, at the start of the battle, no model in this unit is equipped with a hand fl
 **Abilities:**
 
 #### Priority Target (Abilities)
-- **Description:** Each time this model makes an attack with its cult sniper rifle that targets an enemy unit, if it scores a hit, until the end of the phase, each time another GENESTEALER CULTS model from your army makes a ranged attack that targets that enemy unit, re-roll a Hit roll of 1.
+- **Description:** In your Shooting phase, after this model's unit has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the end of the phase, each time a friendly Genestealer Cults model makes an attack that targets that enemy unit, re-roll a Hit roll of 1.
 
 #### Master Outrider (Abilities)
 - **Description:** In your Shooting phase, after this model’s unit has shot, if it is not within Engagement Range of any enemy units, that unit can make a Normal move of up to 6" as if it were your Movement phase. If it does, until the end of the turn, that unit is not eligible to declare a charge.
@@ -1426,7 +1426,7 @@ You can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if
 **Abilities:**
 
 #### Parasitic Infection (Abilities)
-- **Description:** Each time an INFANTRY model is destroyed by an attack made with this model’s barbed ovipositor, after this model has finished making its attacks, you can add one new RIPPER SWARMS unit to your army consisting of D3 models and set it up within 3" of this model. If you do, that RIPPER SWARMS unit can be set up within Engagement Range of the destroyed model’s unit (but not within Engagement Range of any other enemy units).
+- **Description:** Each time an Infantry model is destroyed by an attack made with this model’s barbed ovipositor, after this model has finished making its attacks, you can add one new Ripper Swarms unit to your army consisting of D3 models and set it up within 3" of this model. If you do, that Ripper Swarms unit can be set up within Engagement Range of the destroyed model’s unit (but not within Engagement Range of any other enemy units).
 
 #### It Itches! (Abilities)
 - **Description:** At the start of the Fight phase, select one enemy unit within Engagement Range of this model. That enemy unit must take a Battle-shock test.
@@ -1911,6 +1911,29 @@ While this unit is joined to a unit, it can embark within any Transport that uni
 
 ---
 
+### The Red Terror
+**Points:** 130 | **M:** 10" | **T:** 8 | **SV:** 3+ | **W:** 9 | **LD:** 8+ | **OC:** 3
+**Keywords:** Character, Great Devourer, Tyranids, Vanguard Invader, Epic Hero, Monster, The Red Terror, Burrowers
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Gaping maw | Melee | Melee | 1 | 2+ | 5 | - | D3+2 | Extra Attacks, Devastating Wounds, Precision |
+| Scything talons | Melee | Melee | 12 | 2+ | 7 | -2 | 2 | - |
+
+**Abilities:**
+
+#### Serpentine Fiend (Abilities)
+- **Description:** This model can move through terrain features, but cannot end a move within a wall, a floor, etc. This model can be set up or end a move on any floor level of Ruins, but if that level is not the ground floor, it can only do so if its base does not overhang the floor at that level.
+
+#### Swallow Whole (Abilities)
+- **Description:** Each time an attack with this model’s gaping maw targets an Infantry, Mounted or Beasts unit, each successful unmodified Wound roll is a Critical Wound. Each time an Infantry, Mounted or Beasts model is destroyed as a result of an attack made by this model’s gaping maw, this model regains up to D3+2 lost wounds.
+
+#### Subterranean Hunter (Abilities)
+- **Description:** At the end of the Fight phase, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.
+
+---
+
 ### Trojan Support Vehicle [Legends]
 **Points:** 80 | **M:** 10" | **T:** 9 | **SV:** 3+ | **W:** 11 | **LD:** 7+ | **OC:** 2
 **Keywords:** Astra Militarum, Vehicle, Squadron, Smoke, Imperium, Trojan Support Vehicle
@@ -2141,6 +2164,7 @@ While this unit is joined to a unit, it can embark within any Transport that uni
 | Medusa Carriage Battery [Legends] | 125 |
 | Raveners | 125 |
 | Tectonic Fragdrill [Legends] | 125 |
+| The Red Terror | 130 |
 | Aberrants | 135 |
 | Mawloc | 135 |
 | Prime Organism [Crucible] | 135 |

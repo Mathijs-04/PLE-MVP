@@ -573,7 +573,7 @@
 **Abilities:**
 
 #### Parasitic Infection (Abilities)
-- **Description:** Each time an INFANTRY model is destroyed by an attack made with this model’s barbed ovipositor, after this model has finished making its attacks, you can add one new RIPPER SWARMS unit to your army consisting of D3 models and set it up within 3" of this model. If you do, that RIPPER SWARMS unit can be set up within Engagement Range of the destroyed model’s unit (but not within Engagement Range of any other enemy units).
+- **Description:** Each time an Infantry model is destroyed by an attack made with this model’s barbed ovipositor, after this model has finished making its attacks, you can add one new Ripper Swarms unit to your army consisting of D3 models and set it up within 3" of this model. If you do, that Ripper Swarms unit can be set up within Engagement Range of the destroyed model’s unit (but not within Engagement Range of any other enemy units).
 
 #### It Itches! (Abilities)
 - **Description:** At the start of the Fight phase, select one enemy unit within Engagement Range of this model. That enemy unit must take a Battle-shock test.
@@ -748,6 +748,29 @@
 
 #### Brood Progenitor (Aura, Psychic) (Abilities)
 - **Description:** While a friendly TERMAGANTS unit is within 6" of this model, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability.
+
+---
+
+### The Red Terror
+**Points:** 130 | **M:** 10" | **T:** 8 | **SV:** 3+ | **W:** 9 | **LD:** 8+ | **OC:** 3
+**Keywords:** Character, Great Devourer, Tyranids, Vanguard Invader, Epic Hero, Monster, The Red Terror, Burrowers
+
+**Weapons:**
+| Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
+|--------|------|-------|---|-------|---|----|---|----------|
+| Gaping maw | Melee | Melee | 1 | 2+ | 5 | - | D3+2 | Extra Attacks, Devastating Wounds, Precision |
+| Scything talons | Melee | Melee | 12 | 2+ | 7 | -2 | 2 | - |
+
+**Abilities:**
+
+#### Serpentine Fiend (Abilities)
+- **Description:** This model can move through terrain features, but cannot end a move within a wall, a floor, etc. This model can be set up or end a move on any floor level of Ruins, but if that level is not the ground floor, it can only do so if its base does not overhang the floor at that level.
+
+#### Swallow Whole (Abilities)
+- **Description:** Each time an attack with this model’s gaping maw targets an Infantry, Mounted or Beasts unit, each successful unmodified Wound roll is a Critical Wound. Each time an Infantry, Mounted or Beasts model is destroyed as a result of an attack made by this model’s gaping maw, this model regains up to D3+2 lost wounds.
+
+#### Subterranean Hunter (Abilities)
+- **Description:** At the end of the Fight phase, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.
 
 ---
 
@@ -1054,6 +1077,7 @@
 | Haruspex | 125 |
 | Raveners | 125 |
 | Screamer-killer | 125 |
+| The Red Terror | 130 |
 | Mawloc | 135 |
 | Prime Organism [Crucible] | 135 |
 | Exocrine | 140 |
