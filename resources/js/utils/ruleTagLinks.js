@@ -1,5 +1,8 @@
 import fortyKTags from '../../../data/datafiles-Tags/40K-Tags.json';
 import aosTags from '../../../data/datafiles-Tags/AOS-Tags.json';
+import { buildPatternEntries, findMatchesInText } from './ruleTagMatcher';
+
+export { buildPatternEntries, findMatchesInText } from './ruleTagMatcher';
 
 const _patternCache = new Map();
 
@@ -12,109 +15,6 @@ export function getTagsForGame(gameKey) {
     }
 
     return aosTags;
-}
-
-function escapeRegex(s) {
-    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
-
-function aliasToRegex(aliasLower) {
-    const words = aliasLower.split(/\s+/).filter(Boolean);
-
-    if (words.length === 1) {
-        const w = escapeRegex(words[0]);
-
-        if (words[0].length >= 5) {
-            return new RegExp(`\\b(${w}(?:ing|ed|es|s)?)\\b`, 'giu');
-        }
-
-        return new RegExp(`\\b(${w}(?:s|es)?)\\b`, 'giu');
-    }
-
-    const joined = words.map((word) => escapeRegex(word)).join('\\s+');
-
-    return new RegExp(`\\b(${joined})\\b`, 'giu');
-}
-
-export function buildPatternEntries(tagsJson) {
-    const seen = new Set();
-    const entries = [];
-
-    for (const [key, def] of Object.entries(tagsJson)) {
-        const page = def.page;
-        const list = [...(def.aliases || [])];
-        const keyPhrase = key.replace(/_/g, ' ');
-        list.push(keyPhrase);
-
-        for (const alias of list) {
-            const trimmed = alias.trim();
-
-            if (!trimmed) {
-                continue;
-            }
-
-            const dedupeKey = `${trimmed.toLowerCase()}|${page}`;
-
-            if (seen.has(dedupeKey)) {
-                continue;
-            }
-
-            seen.add(dedupeKey);
-            const re = aliasToRegex(trimmed.toLowerCase());
-            entries.push({ re, page, sortLen: trimmed.length, conceptId: key });
-        }
-    }
-
-    entries.sort((a, b) => b.sortLen - a.sortLen);
-
-    return entries;
-}
-
-export function findMatchesInText(text, patternEntries, usedConcepts) {
-    const raw = [];
-
-    for (const { re, page, conceptId } of patternEntries) {
-        const r = new RegExp(re.source, re.flags);
-        let m;
-
-        while ((m = r.exec(text)) !== null) {
-            if (m[0].length === 0) {
-                if (r.lastIndex === m.index) {
-                    r.lastIndex += 1;
-                }
-
-                continue;
-            }
-
-            raw.push({
-                start: m.index,
-                end: m.index + m[0].length,
-                page,
-                conceptId,
-            });
-        }
-    }
-
-    raw.sort((a, b) => {
-        if (a.start !== b.start) {
-            return a.start - b.start;
-        }
-
-        return b.end - b.start - (a.end - a.start);
-    });
-
-    const selected = [];
-    let lastEnd = -1;
-
-    for (const m of raw) {
-        if (m.start >= lastEnd && !usedConcepts.has(m.conceptId)) {
-            selected.push(m);
-            lastEnd = m.end;
-            usedConcepts.add(m.conceptId);
-        }
-    }
-
-    return selected;
 }
 
 function rulesHref(gameKey, page) {
