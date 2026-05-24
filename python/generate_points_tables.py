@@ -1,3 +1,15 @@
+"""
+Regenerate ## Points Table sections in faction markdown files.
+
+Scans data/datafiles-WH40K/ and data/datafiles-WHAOS/, reads unit points from
+each file's ## Units section, and writes or updates the ## Points Table section.
+
+Usage:
+    python generate_points_tables.py
+
+See docs/data.md for the markdown format and data pipeline overview.
+"""
+
 import os
 import re
 

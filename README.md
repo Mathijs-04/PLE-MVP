@@ -19,3 +19,18 @@ Warhammer Rule Assistant is a question-answering tool for tabletop Warhammer rul
 ## Data Summary
 - **Core Rules:** Official Warhammer PDF rule documents are used as primary rule references.
 - **Faction Rules:** The GitHub BSData repository is used for faction-specific rule data.
+
+## Quick Start
+
+1. Run `composer setup` to install dependencies, create `.env`, migrate, and build the frontend.
+2. Set project-specific variables in `.env` — see [docs/setup.md](docs/setup.md).
+3. Install Python dependencies: `pip install -r python/requirements.txt`
+4. Build vector indexes (requires `OPENAI_API_KEY`): `python python/build_index.py --game aos --game wh40k`
+5. Start Laravel: `composer run dev`
+6. In a second terminal, start the AI service: `python python/web_rules_qa.py`
+
+## Documentation
+
+- [Setup](docs/setup.md) — prerequisites, environment variables, running locally, troubleshooting
+- [Architecture](docs/architecture.md) — request flow, components, API contract, dev commands
+- [Data](docs/data.md) — data layout, BSData import, index building, markdown format

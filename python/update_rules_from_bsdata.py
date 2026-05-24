@@ -1,3 +1,19 @@
+"""
+Fetch BSData catalogs, convert them to markdown, and rebuild FAISS indexes.
+
+End-to-end update wrapper around bsdata_importer and build_index.
+
+Usage:
+    python update_rules_from_bsdata.py --game wh40k
+    python update_rules_from_bsdata.py --game aos --game wh40k
+    python update_rules_from_bsdata.py --game wh40k --skip-index
+    python update_rules_from_bsdata.py --game wh40k --dry-run
+
+Requires OPENAI_API_KEY when rebuilding indexes (omit --skip-index).
+
+See docs/data.md for folder layout, markdown format, and common workflows.
+"""
+
 from __future__ import annotations
 
 import argparse

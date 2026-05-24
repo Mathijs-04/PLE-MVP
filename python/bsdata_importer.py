@@ -1,3 +1,13 @@
+"""
+Convert BSData BattleScribe catalogues (.cat XML) to faction markdown files.
+
+Fetches catalogues from the BSData GitHub repositories and writes markdown
+to data/datafiles-WH40K/ and data/datafiles-WHAOS/. Used by
+update_rules_from_bsdata.py for the full import-and-index workflow.
+
+See docs/data.md for folder layout, markdown format, and pipeline commands.
+"""
+
 from __future__ import annotations
 
 import json
