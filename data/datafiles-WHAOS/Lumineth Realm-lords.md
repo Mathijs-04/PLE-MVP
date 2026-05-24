@@ -49,7 +49,7 @@ If this unit is Scinari or Vanari, pick 1 of the runes above and replace each ru
 - **Effect:** Other friendly units cannot use the 'Redeploy' command while this unit is within 9" of any enemy units.
 
 #### Aloof (Passive)
-- **Effect:** Roll a dice each time you declare a command for another friendly unit within 6" of this unit. On a 4+, unless you spend 1 additional command point to use that command, the command has no effect, it still ocunts as having been used and the command points spent to use the command are still lost.
+- **Effect:** Roll a dice each time you declare a command for another friendly unit within 6" of this unit. On a 4+, unless you spend 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.
 
 #### Intransigent Pride (Passive)
 - **Effect:** This unit cannot use Retreat abilities.

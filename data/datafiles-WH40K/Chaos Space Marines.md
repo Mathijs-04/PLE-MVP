@@ -1487,7 +1487,7 @@ You can attach this model to one of the above units even if one other CHARACTER 
 
 ### Kratos [Legends]
 **Points:** 240 | **M:** 10" | **T:** 12 | **SV:** 2+ | **W:** 18 | **LD:** 6+ | **OC:** 6
-**Keywords:** Heretic Astartes, Chaos, Vehicle, Smoke, Kratos
+**Keywords:** Heretic Astartes, Chaos, Heretic Astartes Vehicle, Vehicle, Smoke, Kratos
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |

@@ -1214,7 +1214,7 @@ This reaction can be used more than once per phase but only once per command, Sp
 
 #### Deathly Barrage (Activated)
 - **Timing:** Once Per Turn (Army), Reaction: You declared a Shoot ability for this unit.
-- **Effect:** After that Shoot ability has been resolved, if all of this unit's attacks targeted the same enemy unit, roll a dice. Add 1 to the roll if this unit is wholly within 12" of a friendly **Mortisan Ossifector**, and add 1 to the roll if any other friendly **Mortek Crawler** units picked that enemy unit to be the target of this ability this turn. On a 4+, the target has Strike-Last for the rest of the turn
+- **Effect:** After that Shoot ability has been resolved, if all of this unit's attacks targeted the same enemy unit, roll a dice. Add 1 to the roll if this unit is wholly within 12" of a friendly **Mortisan Ossifector**, and add 1 to the roll if any other friendly **Mortek Crawler** units picked that enemy unit to be the target of all of their shooting attacks this turn. On a 4+, the target has Strike-Last for the rest of the turn
 
 #### Cursed Stele (Activated)
 - **Timing:** Once Per Turn (Army), Your Shooting Phase

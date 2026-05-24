@@ -311,7 +311,7 @@ If it will harness the power, roll a dice and add the number of **cosmic power t
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
 |--------|------|-----|-----|-----|-----|-----|-----|---------|
 | Azyrite Force Barrier | Melee | - | 2D6 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
-| Gaze of Kroak | Ranged | 12" | 1 | 2+ | 3+ | 2 | D6 | - |
+| Gaze of Kroak | Ranged | 12" | 1 | 2+ | 3+ | 2 | D6 | Shoot in Combat |
 
 **Abilities:**
 

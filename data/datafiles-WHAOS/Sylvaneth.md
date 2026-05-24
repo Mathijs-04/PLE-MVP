@@ -348,6 +348,17 @@ Once you have done so, for the rest of the battle, the 3 tree miniatures join to
 - **Declare:** Pick a friendly Evergreen Hunt Monster that has not used a Rampage ability this turn to use this ability, then pick an enemy unit in combat with it to be the target.
 - **Effect:** Roll a dice and add the number of damage points the target has. If the result exceeds the target’s Health characteristic, 1 model in the target unit is slain.
 
+#### Nature Aetheric (Activated)
+- **Timing:** Once Per Battle (Army), Deployment Phase
+- **Declare:** Pick a terrain feature that is within friendly territory to be the target.
+- **Effect:** For the rest of the battle, friendly units are
+wholly within the **creeping overgrowth** while they are wholly within 6" of the target.
+
+#### Questing Tendrils (Activated)
+- **Timing:** Once Per Turn (Army), Start of Any Turn
+- **Declare:** Pick the terrain feature that is closest to the quarry to be the target.
+- **Effect:** For the rest of the turn, friendly units are wholly within the creeping overgrowth while they are wholly within 6" of the target.
+
 **Heroic Traits**
 
 #### Sapwood Leader (Passive)

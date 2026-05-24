@@ -837,7 +837,7 @@ While an enemy unit is within 6" of a Polluted terrain feature, each time that u
 - **Keywords:** Rampage
 
 #### Acid Ichor (Passive)
-- **Effect:** Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.
+- **Effect:** Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.
 
 ---
 

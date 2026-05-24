@@ -729,7 +729,7 @@ If an enemy unit is destroyed or removed from the battlefield while any of this 
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
 |--------|------|-----|-----|-----|-----|-----|-----|---------|
 | Stonehorn’s Hooves | Melee | - | D6 | 4+ | 2+ | 1 | D3 | Companion |
-| Punches and Kicks | Melee | - | 3 | 4+ | 2+ | - | 1 | - |
+| Punches and Kicks | Melee | - | 6 | 4+ | 2+ | - | 1 | - |
 | Stonehorn’s Rock-hard Horns | Melee | - | 6 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
 | Harpoon Launcher | Ranged | 18" | 1 | 4+ | 3+ | 1 | D3 | - |
 | Chaintrap | Ranged | 12" | 1 | 4+ | 3+ | 1 | 3 | Anti‑Monster (+1 Rend) |
@@ -759,7 +759,7 @@ If an enemy unit is destroyed or removed from the battlefield while any of this 
 |--------|------|-----|-----|-----|-----|-----|-----|---------|
 | Ice Blast | Ranged | 12" | 1 | 4+ | 2+ | 1 | D3+2 | Companion |
 | Thundertusk’s Colossal Tusks | Melee | - | 3 | 4+ | 2+ | 1 | 5 | Anti-Infantry (+1 Rend), Companion |
-| Punches and Kicks | Melee | - | 3 | 4+ | 2+ | - | 1 | - |
+| Punches and Kicks | Melee | - | 6 | 4+ | 2+ | - | 1 | - |
 | Harpoon Launcher | Ranged | 18" | 1 | 4+ | 3+ | 1 | D3 | - |
 | Chaintrap | Ranged | 12" | 1 | 4+ | 3+ | 1 | 3 | Anti‑Monster (+1 Rend) |
 | Blood Vulture | Ranged | 24" | 1 | 2+ | 3+ | - | 1 | - |

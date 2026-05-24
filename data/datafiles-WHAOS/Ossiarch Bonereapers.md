@@ -285,7 +285,7 @@
 
 #### Vengeful Outriders (Activated)
 - **Timing:** Your Movement Phase
-- **Declare:** Pick a friendly Lance of Ossia unit that has not used a **Relentless Discipline* ability this phase to be the target.
+- **Declare:** Pick a friendly Lance of Ossia unit that has not used a Relentless Discipline ability this phase to be the target.
 - **Effect:** Spend 1 **relentless discipline** point. If the target is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. Add 2" to the target's Move characteristic for the rest of the phase.
 - **Keywords:** Relentless Discipline
 
@@ -294,19 +294,19 @@
 
 #### Silent Menace (Activated)
 - **Timing:** Your Movement Phase
-- **Declare:** Pick a friendly Lance of Ossia unit that has not used a **Relentless Discipline* ability this phase to use this ability, then pick a visible enemy unit within 12" of it to be the target.
+- **Declare:** Pick a friendly Lance of Ossia unit that has not used a Relentless Discipline ability this phase to use this ability, then pick a visible enemy unit within 12" of it to be the target.
 - **Effect:** Spend 1 **relentless discipline** point. If the target is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. The target cannot use the 'Redeploy' command for the rest of the turn.
 - **Keywords:** Relentless Discipline
 
 #### Fury of Zandtos (Activated)
 - **Timing:** Any Charge Phase
-- **Declare:** Pick a friendly Lance of Ossia unit that has not used a **Relentless Discipline* ability this phase to be the target.
+- **Declare:** Pick a friendly Lance of Ossia unit that has not used a Relentless Discipline ability this phase to be the target.
 - **Effect:** Spend 1 **relentless discipline** point. If the target is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. The target's melee weapons, including **Companion** weapons, have **Crit (2 Hits)** for the rest of the turn.
 - **Keywords:** Relentless Discipline
 
 #### Blood-smeared Hooves (Activated)
 - **Timing:** Any Combat Phase
-- **Declare:** Pick a friendly Lance of Ossia unit that charged this turn and has not used a **Relentless Discipline* ability this phase to be the target.
+- **Declare:** Pick a friendly Lance of Ossia unit that charged this turn and has not used a Relentless Discipline ability this phase to be the target.
 - **Effect:** Spend 1 **relentless discipline** point. If the target is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. Add 1 to the Rend characteristic of the target's weapons, including **Comapnion** weapons, for the rest of the turn.
 - **Keywords:** Relentless Discipline
 
@@ -697,7 +697,7 @@ keyword.
 
 #### Deathly Barrage (Activated)
 - **Timing:** Once Per Turn (Army), Reaction: You declared a Shoot ability for this unit.
-- **Effect:** After that Shoot ability has been resolved, if all of this unit's attacks targeted the same enemy unit, roll a dice. Add 1 to the roll if this unit is wholly within 12" of a friendly **Mortisan Ossifector**, and add 1 to the roll if any other friendly **Mortek Crawler** units picked that enemy unit to be the target of this ability this turn. On a 4+, the target has Strike-Last for the rest of the turn
+- **Effect:** After that Shoot ability has been resolved, if all of this unit's attacks targeted the same enemy unit, roll a dice. Add 1 to the roll if this unit is wholly within 12" of a friendly **Mortisan Ossifector**, and add 1 to the roll if any other friendly **Mortek Crawler** units picked that enemy unit to be the target of all of their shooting attacks this turn. On a 4+, the target has Strike-Last for the rest of the turn
 
 #### Cursed Stele (Activated)
 - **Timing:** Once Per Turn (Army), Your Shooting Phase
@@ -973,7 +973,7 @@ If an ability would heal or return slain models to an enemy unit while any of th
 
 ### Thanatek's Tithe
 **Points:** 90 | **Move:** 4" | **Health:** 2 | **Save:** 4+ | **Control:** 1
-**Keywords:** INFANTRY, UNIQUE, Legends, WARD (6+), DEATH, OSSIARCH BONEREAPERS, RELENTLESS DISCIPLINE (2)
+**Keywords:** INFANTRY, UNIQUE, Legends, WARD (6+), DEATH, OSSIARCH BONEREAPERS, RELENTLESS DISCIPLINE (2), WIZARD (1)
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |

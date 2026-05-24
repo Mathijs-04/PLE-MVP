@@ -649,6 +649,7 @@ While a friendly Cauldron of Blood unit is **full**:
 - **Timing:** Any Charge Phase
 - **Declare:** Pick a visible friendly Daughters of Khaine unit that is wholly within 12" of this unit and is in combat with an enemy unit that charged this turn to be the target. If there are any friendly **Slaughter Queens on Cauldrons of Blood** on the battlefield, you can pick another eligible unit to be a second target.
 - **Effect:** The targets have Ward (5+) for the rest of the turn.
+- **Keywords:** Exalted
 
 #### Roaring Idol (Activated)
 - **Timing:** Your Hero Phase
