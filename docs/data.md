@@ -51,6 +51,7 @@ Example (abbreviated):
 |--------|---------|
 | `python/update_rules_from_bsdata.py` | Fetch BSData catalogs, convert to markdown, rebuild indexes |
 | `python/build_index.py` | Rebuild FAISS indexes from existing markdown |
+| `python/convert_40k_core_pdf.py` | Convert the 40K core rules source PDF into protected core-rules markdown |
 | `python/bsdata_importer.py` | Core import logic (not run directly in normal workflows) |
 | `python/generate_points_tables.py` | Regenerate `## Points Table` sections from unit data |
 
@@ -89,6 +90,14 @@ python python/update_rules_from_bsdata.py --game wh40k --skip-index
 ```
 
 Useful when you only need updated markdown and will rebuild indexes separately.
+
+**Regenerate 40K core rules markdown from the source PDF:**
+
+```bash
+python python/convert_40k_core_pdf.py
+```
+
+This reads `data/datafiles-PDF/40K_Core_Rules.pdf` and writes `data/datafiles-WH40K/40K_Core_Rules.md`. Rebuild the 40K index afterwards.
 
 **Preview import without writing files:**
 

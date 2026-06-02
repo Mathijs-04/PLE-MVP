@@ -1,12 +1,12 @@
 {
     "core_concepts": {
-        "page": 5,
+        "page": 8,
         "aliases": [
             "core concepts"
         ]
     },
     "measuring_distance": {
-        "page": 7,
+        "page": 9,
         "aliases": [
             "measuring distances",
             "measure distance",
@@ -14,31 +14,31 @@
         ]
     },
     "datasheets": {
-        "page": 5,
+        "page": 10,
         "aliases": [
             "datasheet"
         ]
     },
     "keywords": {
-        "page": 5,
+        "page": 10,
         "aliases": [
             "keywords"
         ]
     },
     "unit_coherency": {
-        "page": 6,
+        "page": 14,
         "aliases": [
             "coherency"
         ]
     },
     "engagement_range": {
-        "page": 7,
+        "page": 14,
         "aliases": [
             "engagement range"
         ]
     },
     "line_of_sight": {
-        "page": 8,
+        "page": 24,
         "aliases": [
             "visibility",
             "line of sight",
@@ -52,7 +52,7 @@
         ]
     },
     "rerolls": {
-        "page": 9,
+        "page": 56,
         "aliases": [
             "reroll",
             "rerolling",
@@ -67,91 +67,91 @@
         ]
     },
     "battle_round": {
-        "page": 10,
+        "page": 28,
         "aliases": [
             "battle round"
         ]
     },
     "phases": {
-        "page": 10,
+        "page": 29,
         "aliases": [
             "phases"
         ]
     },
     "command_phase": {
-        "page": 11,
+        "page": 30,
         "aliases": [
             "command phase"
         ]
     },
     "command_points": {
-        "page": 11,
+        "page": 30,
         "aliases": [
             "cp"
         ]
     },
     "battle_shock": {
-        "page": 11,
+        "page": 9,
         "aliases": [
             "battle shock"
         ]
     },
     "starting_strength": {
-        "page": 12,
+        "page": 86,
         "aliases": [
             "starting strength"
         ]
     },
     "below_half_strength": {
-        "page": 12,
+        "page": 86,
         "aliases": [
             "half strength"
         ]
     },
     "attached_units": {
-        "page": 12,
+        "page": 66,
         "aliases": [
             "attached unit"
         ]
     },
     "movement_phase": {
-        "page": 13,
+        "page": 32,
         "aliases": [
             "movement phase"
         ]
     },
     "normal_move": {
-        "page": 13,
+        "page": 33,
         "aliases": [
             "normal move"
         ]
     },
     "remain_stationary": {
-        "page": 13,
+        "page": 33,
         "aliases": [
             "remain stationary"
         ]
     },
     "advance": {
-        "page": 14,
+        "page": 33,
         "aliases": [
             "advance"
         ]
     },
     "fall_back": {
-        "page": 14,
+        "page": 33,
         "aliases": [
             "fall back"
         ]
     },
     "desperate_escape": {
-        "page": 14,
+        "page": 33,
         "aliases": [
             "desperate escape"
         ]
     },
     "reinforcements": {
-        "page": 16,
+        "page": 68,
         "aliases": [
             "reinforcements step",
             "reserves unit",
@@ -159,7 +159,7 @@
         ]
     },
     "transports": {
-        "page": 17,
+        "page": 64,
         "aliases": [
             "transport",
             "embark",
@@ -168,25 +168,25 @@
         ]
     },
     "terrain_movement": {
-        "page": 15,
+        "page": 48,
         "aliases": [
             "move terrain"
         ]
     },
     "fly": {
-        "page": 15,
+        "page": 71,
         "aliases": [
             "fly"
         ]
     },
     "shooting_phase": {
-        "page": 19,
+        "page": 34,
         "aliases": [
             "shooting phase"
         ]
     },
     "ranged_attacks": {
-        "page": 19,
+        "page": 16,
         "aliases": [
             "shooting attack",
             "ranged attack",
@@ -195,20 +195,20 @@
         ]
     },
     "hit_roll": {
-        "page": 21,
+        "page": 18,
         "aliases": [
             "hit roll",
             "making attacks"
         ]
     },
     "wound_roll": {
-        "page": 22,
+        "page": 18,
         "aliases": [
             "wound roll"
         ]
     },
     "saving_throw": {
-        "page": 22,
+        "page": 19,
         "aliases": [
             "save",
             "saving throw",
@@ -216,21 +216,21 @@
         ]
     },
     "damage": {
-        "page": 23,
+        "page": 19,
         "aliases": [
             "damage",
             "inflict damage"
         ]
     },
     "mortal_wounds": {
-        "page": 23,
+        "page": 24,
         "aliases": [
             "mortal wound",
             "mortal wounds"
         ]
     },
     "charge_phase": {
-        "page": 29,
+        "page": 36,
         "aliases": [
             "charge phase",
             "declare a charge",
@@ -238,79 +238,79 @@
         ]
     },
     "charge_roll": {
-        "page": 29,
+        "page": 36,
         "aliases": [
             "charge roll",
             "2d6 charge"
         ]
     },
     "fight_phase": {
-        "page": 32,
+        "page": 38,
         "aliases": [
             "fight phase"
         ]
     },
     "fights_first": {
-        "page": 32,
+        "page": 81,
         "aliases": [
             "fights first",
             "charge bonus"
         ]
     },
     "pile_in": {
-        "page": 33,
+        "page": 38,
         "aliases": [
             "pile in"
         ]
     },
     "consolidate": {
-        "page": 35,
+        "page": 42,
         "aliases": [
             "consolidate"
         ]
     },
     "leader": {
-        "page": 39,
+        "page": 66,
         "aliases": [
             "leader",
             "bodyguard"
         ]
     },
     "deep_strike": {
-        "page": 39,
+        "page": 80,
         "aliases": [
             "deep strike"
         ]
     },
     "strategic_reserves": {
-        "page": 43,
+        "page": 68,
         "aliases": [
             "strategic reserves",
             "arriving from strategic reserves"
         ]
     },
     "stratagems": {
-        "page": 41,
+        "page": 54,
         "aliases": [
             "stratagem"
         ]
     },
     "terrain_features": {
-        "page": 44,
+        "page": 46,
         "aliases": [
             "terrain",
             "terrain feature"
         ]
     },
     "cover": {
-        "page": 44,
+        "page": 50,
         "aliases": [
             "cover",
             "benefit of cover"
         ]
     },
     "obscuring": {
-        "page": 47,
+        "page": 50,
         "aliases": [
             "obscuring",
             "woods",
@@ -319,21 +319,21 @@
         ]
     },
     "army_building": {
-        "page": 56,
+        "page": 5,
         "aliases": [
             "muster army",
             "army roster"
         ]
     },
     "missions": {
-        "page": 57,
+        "page": 5,
         "aliases": [
             "mission",
             "only war"
         ]
     },
     "objective_control": {
-        "page": 58,
+        "page": 52,
         "aliases": [
             "objective control",
             "objective markers",

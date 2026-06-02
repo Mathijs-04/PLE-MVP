@@ -94,7 +94,7 @@ class AskResponse(BaseModel):
 
 _CORE_RULE_LABELS = {
     "aos": "WH Age of Sigmar Core Rules (4th ed.)",
-    "wh40k": "WH 40.000 Core Rules (10th ed.)",
+    "wh40k": "WH 40.000 Core Rules (11th ed.)",
 }
 
 _FACTION_SUFFIXES = {

@@ -32,7 +32,7 @@ class FormatSourceTest(unittest.TestCase):
 
         self.assertEqual(
             result,
-            "WH 40.000 Core Rules (10th ed.) & Space Marines Codex",
+            "WH 40.000 Core Rules (11th ed.) & Space Marines Codex",
         )
 
     def test_faction_only(self) -> None:

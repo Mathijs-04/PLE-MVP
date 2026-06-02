@@ -6,6 +6,8 @@ pydantic
 
 openai
 
+PyMuPDF
+
 langchain-community
 langchain-openai
 langchain-text-splitters

@@ -939,7 +939,7 @@ _CORE_CONCEPTS_40K: list[tuple[frozenset[str], tuple[str, ...]]] = [
             "resolve after", "resolves after", "resolved after",
             "take effect", "takes effect",
         }),
-        ("SEQUENCING",),
+        ("THE BATTLE ROUND", "ATTACK SEQUENCE"),
     ),
     (
         frozenset({
@@ -956,7 +956,7 @@ _CORE_CONCEPTS_40K: list[tuple[frozenset[str], tuple[str, ...]]] = [
             "when a charge", "after charging", "after a charge",
             "charge move", "when a unit charges", "declare a charge",
         }),
-        ("CHARGE PHASE", "CHARGING WITH A UNIT"),
+        ("CHARGE PHASE", "CHARGE MOVE"),
     ),
     (
         frozenset({"fight phase", "combat phase", "melee phase"}),
@@ -968,11 +968,11 @@ _CORE_CONCEPTS_40K: list[tuple[frozenset[str], tuple[str, ...]]] = [
     ),
     (
         frozenset({"movement phase", "normal move", "advance"}),
-        ("MOVEMENT PHASE",),
+        ("MOVEMENT PHASE", "NORMAL MOVE", "ADVANCE MOVE", "FALL-BACK MOVE"),
     ),
     (
         frozenset({"shooting phase", "shoot", "ranged attack"}),
-        ("SHOOTING PHASE",),
+        ("SHOOTING PHASE", "NORMAL SHOOTING"),
     ),
     (
         frozenset({"battle round", "turn order", "turn sequence"}),
