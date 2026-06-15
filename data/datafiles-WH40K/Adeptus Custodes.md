@@ -106,7 +106,7 @@
 ---
 
 ### Ares Gunship
-**Points:** 580 | **M:** 20" | **T:** 12 | **SV:** 2+ | **W:** 22 | **LD:** 6 | **OC:** 0
+**Points:** 580 | **M:** 20+" | **T:** 12 | **SV:** 2+ | **W:** 22 | **LD:** 6+ | **OC:** 0
 **Keywords:** Adeptus Custodes, Vehicle, Aircraft, Fly, Imperium, Ares Gunship
 
 **Weapons:**
@@ -445,7 +445,7 @@
 ---
 
 ### Orion Assault Dropship
-**Points:** 690 | **M:** 20" | **T:** 12 | **SV:** 2+ | **W:** 22 | **LD:** 6+ | **OC:** 0
+**Points:** 690 | **M:** 20+" | **T:** 12 | **SV:** 2+ | **W:** 22 | **LD:** 6+ | **OC:** 0
 **Keywords:** Vehicle, Transport, Aircraft, Fly, Imperium, Orion Assault Dropship, Adeptus Custodes
 
 **Weapons:**

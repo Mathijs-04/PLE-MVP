@@ -3,7 +3,7 @@
 ## Units
 
 ### Aethon Shaan
-**Points:** 110 | **M:** 14" | **T:** 4 | **SV:** 3+ | **W:** 5 | **LD:** 6 | **OC:** 1
+**Points:** 110 | **M:** 14" | **T:** 4 | **SV:** 3+ | **W:** 5 | **LD:** 6+ | **OC:** 1
 **Keywords:** Character, Epic Hero, Infantry, Fly, Jump Pack, Imperium, Adeptus Astartes, Raven Guard, Tacticus, Chapter Master, Aethon Shaan
 
 **Weapons:**

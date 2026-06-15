@@ -201,6 +201,22 @@
 
 ---
 
+### Augmented Bone 'Ead [Crucible]
+**Points:** 60 | **M:** 6" | **T:** 3 | **SV:** 4+ | **W:** 3 | **LD:** 6+ | **OC:** 1
+**Keywords:** Character, Infantry, Crucible, Imperium, Grenades, Astra Militarum, Regiment, Augmented Bone 'Ead, Ogryn
+
+**Abilities:**
+
+#### You 'Eard 'Em (Abilities)
+- **Description:** Each time an Order is issued to this model's unit, this model can issue that Order to one other friendly Platoon or Ogryn unit in the same way as an Officer.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+- Bullgryn Squad
+- Ogryn Squad
+
+---
+
 ### Baneblade
 **Points:** 450 | **M:** 12" | **T:** 13 | **SV:** 2+ | **W:** 24 | **LD:** 7+ | **OC:** 8
 **Keywords:** Baneblade, Astra Militarum, Imperium, Vehicle, Titanic, Smoke
@@ -667,7 +683,7 @@ You can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if
 
 ### Elysian Drop Sentinel [Legends]
 **Points:** 85 | **M:** 10" | **T:** 6 | **SV:** 3+ | **W:** 6 | **LD:** 7+ | **OC:** 2
-**Keywords:** Elysian Drop Sentinel, Vehicle, Walker, Imperium, Squadron, Smoke, Astra Militarum
+**Keywords:** Elysian Drop Sentinel, Vehicle, Walker, Imperium, Squadron, Smoke, Astra Militarum, Regiment
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -692,6 +708,24 @@ You can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if
 
 #### Sniper Teams (Abilities)
 - **Description:** For the purposes of embarking within Transports, each Elysian Sniper Team model counts as one Heavy Weapons Team model.
+
+---
+
+### Front-line Commander [Crucible]
+**Points:** 55 | **M:** 6" | **T:** 3 | **SV:** 5+ | **W:** 4 | **LD:** 7+ | **OC:** 1
+**Keywords:** Character, Infantry, Crucible, Imperium, Grenades, Officer, Astra Militarum, Front-line Commander
+
+**Abilities:**
+
+#### Get Back in the Fight (Abilities)
+- **Description:** While this model is leading a unit, that unit is eligible to shoot in a turn in which it Fell Back.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+- Astra Militarum Battleline
+- Kasrkin
+- Krieg Combat Engineers
+- Tempestus Scions
 
 ---
 
@@ -941,7 +975,7 @@ If, at the start of the battle, no model in this unit is equipped with a hand fl
 ---
 
 ### Jackal Alphus
-**Points:** 55 | **M:** 12" | **T:** 4 | **SV:** 5 | **W:** 4 | **LD:** 7+ | **OC:** 1
+**Points:** 55 | **M:** 12" | **T:** 4 | **SV:** 5+ | **W:** 4 | **LD:** 7+ | **OC:** 1
 **Keywords:** Jackal Alphus, Genestealer Cults, Character, Grenades, Great Devourer, Mounted
 
 **Weapons:**
@@ -1141,8 +1175,8 @@ You can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if
 
 **Abilities:**
 
-#### Battlefield Control (Abilities)
-- **Description:** Each time this model makes a ranged attack, if it is within range of an objective marker you control, re-roll a Hit roll of 1.
+#### Armoured Aggressor (Abilities)
+- **Description:** Each time this model makes a ranged attack, it does not suffer the penalty to the Hit roll for being within Engagement Range of one or more enemy units.
 
 ---
 
@@ -1710,6 +1744,22 @@ While this unit is joined to a unit, it can embark within any Transport that uni
 
 ---
 
+### Sentinel Commander [Crucible]
+**Points:** 75 | **M:** 10" | **T:** 7 | **SV:** 3+ | **W:** 7 | **LD:** 7+ | **OC:** 2
+**Keywords:** Character, Crucible, Imperium, Officer, Astra Militarum, Vehicle, Walker, Smoke, Sentinel Commander
+
+**Abilities:**
+
+#### Mobile Firebase (Abilities)
+- **Description:** Ranged weapons equipped by models in this unit have the **[ASSAULT]** ability.
+
+#### Leader (Abilities)
+- **Description:** This model can be attached to the following units:
+- Armoured Sentinels
+- Scout Sentinels*
+
+---
+
 ### Sentinel Powerlifter [Legends]
 **Points:** 55 | **M:** 8" | **T:** 7 | **SV:** 3+ | **W:** 6 | **LD:** 7+ | **OC:** 2
 **Keywords:** Vehicle, Walker, Imperium, Regiment, Squadron, Smoke, Sentinel Powerlifter, Astra Militarum
@@ -2104,8 +2154,10 @@ While this unit is joined to a unit, it can embark within any Transport that uni
 | Tauros Assault Vehicle [Legends] | 50 |
 | Tauros Venator [Legends] | 50 |
 | Cadian Castellan | 55 |
+| Front-line Commander [Crucible] | 55 |
 | Jackal Alphus | 55 |
 | Sentinel Powerlifter [Legends] | 55 |
+| Augmented Bone 'Ead [Crucible] | 60 |
 | Cult Guerrilla [Crucible] | 60 |
 | Death Riders | 60 |
 | Kelermorph | 60 |
@@ -2128,6 +2180,7 @@ While this unit is joined to a unit, it can embark within any Transport that uni
 | Krieg Heavy Weapons Squad | 75 |
 | Patriarch | 75 |
 | Purestrain Genestealers | 75 |
+| Sentinel Commander [Crucible] | 75 |
 | Taurox | 75 |
 | Atlas Recovery Vehicle [Legends] | 80 |
 | Cult Insurrectionist [Crucible] | 80 |

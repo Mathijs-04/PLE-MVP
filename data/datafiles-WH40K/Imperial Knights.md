@@ -3,7 +3,7 @@
 ## Units
 
 ### Skitarii Marshal
-**Points:** 35 | **M:** 6" | **T:** 3 | **SV:** 4+ | **W:** 3 | **LD:** 6 | **OC:** 1
+**Points:** 35 | **M:** 6" | **T:** 3 | **SV:** 4+ | **W:** 3 | **LD:** 6+ | **OC:** 1
 **Keywords:** Marshal, Imperium, Adeptus Mechanicus, Skitarii, Character, Infantry
 
 **Weapons:**

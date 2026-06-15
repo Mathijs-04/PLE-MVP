@@ -85,7 +85,7 @@ If you picked **sacrificial pawn**, instead of making a casting roll for the nex
 
 ### Abhorrant Ghoul King (Scourge of Ghyran)
 **Points:** 110 | **Move:** 6" | **Health:** 5 | **Save:** 5+ | **Control:** 2
-**Keywords:** LEGIONS OF NAGASH, Restrict General, DEATH, HERO, FLESH-EATER COURTS, ABHORRANT, FLY, WIZARD (1), WARD (6+), INFANTRY
+**Keywords:** LEGIONS OF NAGASH, Restrict General, DEATH, HERO, FLESH-EATER COURTS, ABHORRANT, WIZARD (1), WARD (6+), INFANTRY
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -369,7 +369,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy Monste
 
 ### Bloodseeker Palanquin
 **Points:** 220 | **Move:** 10" | **Health:** 12 | **Save:** 4+ | **Control:** 5
-**Keywords:** LEGIONS OF NAGASH, Restrict General, HERO, WIZARD (1), WARD (6+), DEATH, SOULBLIGHT GRAVELORDS, VAMPIRE, WAR MACHINE, FLY
+**Keywords:** LEGIONS OF NAGASH, Restrict General, HERO, WIZARD (1), WARD (6+), DEATH, SOULBLIGHT GRAVELORDS, VAMPIRE, WAR MACHINE, FLY, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -391,7 +391,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy Monste
 
 ### Cairn Wraith
 **Points:** 130 | **Move:** 8" | **Health:** 5 | **Save:** 5+ | **Control:** 2
-**Keywords:** LEGIONS OF NAGASH, Restrict General, HERO, DEATH, FLY, NIGHTHAUNT, INFANTRY, WARD (5+)
+**Keywords:** LEGIONS OF NAGASH, Restrict General, HERO, DEATH, FLY, NIGHTHAUNT, INFANTRY, WARD (5+), Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -768,7 +768,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy Monste
 
 ### Glaivewraith Stalkers
 **Points:** 100 | **Move:** 8" | **Health:** 2 | **Save:** 6+ | **Control:** 1
-**Keywords:** LEGIONS OF NAGASH, INFANTRY, DEATH, FLY, NIGHTHAUNT, MUSICIAN (1/4), WARD (5+)
+**Keywords:** LEGIONS OF NAGASH, INFANTRY, DEATH, FLY, NIGHTHAUNT, MUSICIAN (1/4), WARD (5+), Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -896,7 +896,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy Monste
 #### Deathrider Wedge (Activated)
 - **Timing:** Any Combat Phase
 - **Declare:** If this unit charged this turn, pick an enemy unit in combat with it to be the enemy target. Then, you can pick a friendly **Liege-Kavalos** within this unit's combat range to be the friendly target.
-- **Effect:** Inflict D3 mortal damage on the enemy target. Inflict an additional D3 mortal damage on the enemy target if you picked a friendly target. Them, this unit and the friendly target (if any) can move 10". They can move through the combat ranges of enemy units but cannot end that move in combat.
+- **Effect:** Inflict D3 mortal damage on the enemy target. Inflict an additional D3 mortal damage on the enemy target if you picked a friendly target. Then, this unit and the friendly target (if any) can move 10". They can move through the combat ranges of enemy units but cannot end that move in combat.
 - **Keywords:** Core, Attack, Fight
 
 ---
@@ -971,7 +971,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy Monste
 
 ### Kosargi Nightguard
 **Points:** 110 | **Move:** 6" | **Health:** 4 | **Save:** 5+ | **Control:** 3
-**Keywords:** LEGIONS OF NAGASH, DEATH, WARD (6+), SOULBLIGHT GRAVELORDS, DEADWALKERS, INFANTRY
+**Keywords:** LEGIONS OF NAGASH, DEATH, WARD (6+), SOULBLIGHT GRAVELORDS, DEADWALKERS, INFANTRY, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1764,7 +1764,7 @@ While this unit has 10 or more damage points, the Attacks characteristic of its 
 
 ### Terrorgheist
 **Points:** 220 | **Move:** 12" | **Health:** 14 | **Save:** 4+ | **Control:** 5
-**Keywords:** LEGIONS OF NAGASH, WARD (6+), DEATH, MONSTER, FLY, SOULBLIGHT GRAVELORDS
+**Keywords:** LEGIONS OF NAGASH, WARD (6+), DEATH, MONSTER, FLY, SOULBLIGHT GRAVELORDS, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1792,7 +1792,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this uni
 
 ### Tomb Banshee
 **Points:** 130 | **Move:** 8" | **Health:** 5 | **Save:** 5+ | **Control:** 2
-**Keywords:** LEGIONS OF NAGASH, Restrict General, HERO, DEATH, FLY, NIGHTHAUNT, INFANTRY, WARD (5+)
+**Keywords:** LEGIONS OF NAGASH, Restrict General, HERO, DEATH, FLY, NIGHTHAUNT, INFANTRY, WARD (5+), Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1854,7 +1854,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this uni
 
 ### Vampire Lord on Zombie Dragon
 **Points:** 400 | **Move:** 12" | **Health:** 16 | **Save:** 3+ | **Control:** 5
-**Keywords:** LEGIONS OF NAGASH, Restrict General, HERO, WIZARD (1), WARD (6+), DEATH, MONSTER, FLY, SOULBLIGHT GRAVELORDS, VAMPIRE
+**Keywords:** LEGIONS OF NAGASH, Restrict General, HERO, WIZARD (1), WARD (6+), DEATH, MONSTER, FLY, SOULBLIGHT GRAVELORDS, VAMPIRE, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1921,7 +1921,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this uni
 
 ### Vargskyr
 **Points:** 140 | **Move:** 8" | **Health:** 8 | **Save:** 5+ | **Control:** 1
-**Keywords:** LEGIONS OF NAGASH, DEATH, WARD (6+), SOULBLIGHT GRAVELORDS, VAMPIRE, BEAST
+**Keywords:** LEGIONS OF NAGASH, DEATH, WARD (6+), SOULBLIGHT GRAVELORDS, VAMPIRE, BEAST, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1968,7 +1968,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this uni
 
 ### Vyrkos Blood-born
 **Points:** 150 | **Move:** 8" | **Health:** 3 | **Save:** 6+ | **Control:** 1
-**Keywords:** LEGIONS OF NAGASH, DEATH, WARD (6+), SOULBLIGHT GRAVELORDS, INFANTRY, VAMPIRE
+**Keywords:** LEGIONS OF NAGASH, DEATH, WARD (6+), SOULBLIGHT GRAVELORDS, INFANTRY, VAMPIRE, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |

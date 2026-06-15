@@ -436,7 +436,7 @@ That unit can move 2D6". It can end that move in combat with any units that had 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
 |--------|------|-----|-----|-----|-----|-----|-----|---------|
-| Blade of Blood | Melee | - | 5 | 3+ | 3+ | 2 | 2 | Blood-hungry, Crit (2 Hits) |
+| Blade of Blood | Melee | - | 5 | 3+ | 3+ | 2 | 2 | Blood-hungry, Crit (Mortal) |
 
 **Abilities:**
 
@@ -808,7 +808,7 @@ If the chanting roll for an enemy Priest within 12" of this unit is an unmodifie
 
 ### Lord of Khorne on Juggernaut
 **Points:** 200 | **Move:** 8" | **Health:** 8 | **Save:** 2+ | **Control:** 2
-**Keywords:** HERO, CHAOS, BLADES OF KHORNE, BLOODBOUND, CAVALRY
+**Keywords:** HERO, CHAOS, BLADES OF KHORNE, BLOODBOUND, CAVALRY, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -980,7 +980,7 @@ If the chanting roll for an enemy Priest within 12" of this unit is an unmodifie
 
 ### Skarr Bloodwrath
 **Points:** 140 | **Move:** 5" | **Health:** 7 | **Save:** 4+ | **Control:** 2
-**Keywords:** HERO, UNIQUE, CHAOS, BLADES OF KHORNE, INFANTRY, WARD (5+), BLOODBOUND
+**Keywords:** HERO, UNIQUE, CHAOS, BLADES OF KHORNE, INFANTRY, WARD (5+), BLOODBOUND, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1046,12 +1046,12 @@ If the chanting roll for an enemy Priest within 12" of this unit is an unmodifie
 
 ### Skullmaster, Herald of Khorne
 **Points:** 130 | **Move:** 8" | **Health:** 7 | **Save:** 4+ | **Control:** 2
-**Keywords:** HERO, CHAOS, DAEMON, BLADES OF KHORNE, WARD (6+), CAVALRY
+**Keywords:** HERO, CHAOS, DAEMON, BLADES OF KHORNE, WARD (6+), CAVALRY, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
 |--------|------|-----|-----|-----|-----|-----|-----|---------|
-| Blade of Blood | Melee | - | 5 | 3+ | 3+ | 2 | 2 | Blood-hungry, Crit (2 Hits) |
+| Blade of Blood | Melee | - | 5 | 3+ | 3+ | 2 | 2 | Blood-hungry, Crit (Mortal) |
 | Juggernaut’s Brazen Hooves | Melee | - | 2 | 4+ | 3+ | 1 | D3 | Anti-Cavalry +1 Rend), Companion |
 
 **Abilities:**

@@ -427,7 +427,7 @@
 
 ### Cairn Wraith
 **Points:** 130 | **Move:** 8" | **Health:** 5 | **Save:** 5+ | **Control:** 2
-**Keywords:** HERO, DEATH, FLY, NIGHTHAUNT, INFANTRY, WARD (5+)
+**Keywords:** HERO, DEATH, FLY, NIGHTHAUNT, INFANTRY, WARD (5+), Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -539,7 +539,7 @@
 
 ### Glaivewraith Stalkers
 **Points:** 100 | **Move:** 8" | **Health:** 2 | **Save:** 6+ | **Control:** 1
-**Keywords:** INFANTRY, DEATH, FLY, NIGHTHAUNT, MUSICIAN (1/4), WARD (5+)
+**Keywords:** INFANTRY, DEATH, FLY, NIGHTHAUNT, MUSICIAN (1/4), WARD (5+), Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1011,7 +1011,7 @@ While a unit is **condemned**:
 
 ### Tomb Banshee
 **Points:** 130 | **Move:** 8" | **Health:** 5 | **Save:** 5+ | **Control:** 2
-**Keywords:** HERO, DEATH, FLY, NIGHTHAUNT, INFANTRY, WARD (5+)
+**Keywords:** HERO, DEATH, FLY, NIGHTHAUNT, INFANTRY, WARD (5+), Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |

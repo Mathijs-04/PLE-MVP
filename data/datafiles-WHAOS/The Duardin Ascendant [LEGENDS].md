@@ -571,7 +571,10 @@
 #### Direct the Gyrocorps (Activated)
 - **Timing:** Once Per Turn (Army), Your Hero Phase
 - **Declare:** Pick up to 3 visible friendly **Gyrocopter** or **Gyrobomber** units wholly within 18" of this unit to be the targets.
-- **Effect:** Roll a dice for each target. On a 3+, add 1 to hit rolls for the target’s attacks until the start of your next turn.
+- **Effect:** Roll a dice for each target. On a 3+, until the start of your
+next turn:
+• Add 1 to hit rolls for the target’s attacks.
+• Add 2" to the target’s Move characteristic.
 
 ---
 
@@ -892,18 +895,18 @@ If a friendly Fyreslayers Hero wholly within 6" of this unit is destroyed, this 
 ---
 
 ### Hammerers
-**Points:** 180 | **Move:** 4" | **Health:** 1 | **Save:** 3+ | **Control:** 1
+**Points:** 170 | **Move:** 4" | **Health:** 1 | **Save:** 3+ | **Control:** 1
 **Keywords:** DUARDIN ASCENDANT, INFANTRY, ORDER, CITIES OF SIGMAR, DUARDIN
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
 |--------|------|-----|-----|-----|-----|-----|-----|---------|
-| Gromril Great Hammer | Melee | - | 2 | 4+ | 3+ | 1 | 2 | - |
+| Gromril Great Hammer | Melee | - | 2 | 3+ | 3+ | 1 | 1 | Charge (+1 Damage) |
 
 **Abilities:**
 
 #### Oathsworn (Passive)
-- **Effect:** While any friendly Cities of Sigmar Duardin Infantry Heroes are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+).
+- **Effect:** While any friendly **Warden Kings** are wholly within this unit’s combat range, both this unit and those friendly **Warden Kings** have Ward (5+).
 
 ---
 
@@ -948,19 +951,19 @@ If a friendly Fyreslayers Hero wholly within 6" of this unit is destroyed, this 
 ---
 
 ### Ironbreakers
-**Points:** 140 | **Move:** 4" | **Health:** 1 | **Save:** 3+ | **Control:** 1
+**Points:** 120 | **Move:** 4" | **Health:** 1 | **Save:** 3+ | **Control:** 1
 **Keywords:** DUARDIN ASCENDANT, INFANTRY, ORDER, CITIES OF SIGMAR, DUARDIN, CHAMPION, MUSICIAN (1/10), STANDARD BEARER (1/10)
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
 |--------|------|-----|-----|-----|-----|-----|-----|---------|
-| Ironbreaker Weapon | Melee | - | 2 | 3+ | 4+ | - | 1 | - |
+| Ironbreaker Weapon | Melee | - | 2 | 3+ | 4+ | 1 | 1 | - |
 | Drakefire Pistols | Ranged | 10" | 1 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
 
 **Abilities:**
 
 #### Gromril Shieldwall (Passive)
-- **Effect:** While this unit is affected by the ‘Hold the Line’ Officar’s Order ability, it has Ward (4+) instead of Ward (5+).
+- **Effect:** If this unit has not used a Move ability this turn and was not set up this turn, attacks that target this unit cannot score critical hits (treat them as regular hits instead).
 
 ---
 
@@ -971,9 +974,8 @@ If a friendly Fyreslayers Hero wholly within 6" of this unit is destroyed, this 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
 |--------|------|-----|-----|-----|-----|-----|-----|---------|
-| Drakegun | Ranged | 15" | 1 | 3+ | 3+ | 1 | 1 | Anti‑Infantry (+1 Rend) |
-| Plated Fists | Melee | - | 1 | 4+ | 4+ | - | 1 | - |
-| Grudgehammer Torpedo | Ranged | 15" | 1 | 3+ | 3+ | 1 | D3 | Anti‑Monster (+1 Rend) |
+| Drakegun | Ranged | 18" | 1 | 3+ | 3+ | 1 | 1 | Anti‑Infantry (+1 Rend) |
+| Plated Fists | Melee | - | 1 | 3+ | 4+ | - | 1 | - |
 
 **Abilities:**
 
@@ -985,18 +987,20 @@ If a friendly Fyreslayers Hero wholly within 6" of this unit is destroyed, this 
 ---
 
 ### Longbeards
-**Points:** 110 | **Move:** 4" | **Health:** 1 | **Save:** 3+ | **Control:** 1
+**Points:** 130 | **Move:** 4" | **Health:** 1 | **Save:** 3+ | **Control:** 1
 **Keywords:** DUARDIN ASCENDANT, INFANTRY, CHAMPION, ORDER, CITIES OF SIGMAR, STANDARD BEARER (1/10), MUSICIAN (1/10), DUARDIN
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
 |--------|------|-----|-----|-----|-----|-----|-----|---------|
-| Hallowed Weapons | Melee | - | 2 | 3+ | 4+ | 1 | 1 | - |
+| Venerable Weapons | Melee | - | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **Abilities:**
 
-#### `I Thought Duardin Were Made of Sterner Stuff!` (Passive)
-- **Effect:** Add 2 to the control scores of friendly Cities of Sigmar Duardin units, excluding **Longbeards** units, while they are wholly within 12" of this unit.
+#### `I Thought Duardin Were Made of Sterner Stuff!` (Activated)
+- **Timing:** Once Per Turn (Army), Any Combat Phase
+- **Declare:** Pick another friendly Cities of Sigmar Duardin unit wholly within 12" of this unit to be the target. You cannot pick a Longbeards unit.
+- **Effect:** Roll a dice. On a 3+, add 1 to wound rolls for the target’s combat attacks for the rest of the turn.
 
 ---
 
@@ -1038,7 +1042,7 @@ If a friendly Fyreslayers Hero wholly within 6" of this unit is destroyed, this 
 - **Timing:** Your Hero Phase
 - **Chanting Value:** 5
 - **Declare:** Pick a friendly Cities of Sigmar Duardin unit wholly within 12" of this unit to be the target, then make a chanting roll of D6.
-- **Effect:** Until the start of your next turn, add 1 to the Rend characteristic of the target’s melee weapons. In addition, if the chanting roll was 10+, pick another friendly Cities of Sigmar Duardin unit wholly within 12" of this unit. Add 1 to the Rend characteristic of that unit’s melee weapons until the start of your next turn as well.
+- **Effect:** If the chanting roll was 10+, you can pick another eligible unit to be a second target. Until the start of your next turn, add 1 to the Rend characteristic of each target’s melee weapons.
 - **Keywords:** Prayer
 
 ---
@@ -1252,11 +1256,11 @@ If a friendly Fyreslayers Hero wholly within 6" of this unit is destroyed, this 
 | Grimwrath Berzerker | 110 |
 | Hearthguard Berzerkers with Berzerker Broadaxes | 110 |
 | Hearthguard Berzerkers with Flamestrike Poleaxes | 110 |
-| Longbeards | 110 |
 | Aetheric Navigator | 120 |
 | Drekki Flynt | 120 |
 | Gyrobomber | 120 |
 | Gyrocopter | 120 |
+| Ironbreakers | 120 |
 | Null-Khemist | 120 |
 | The Chosen Axes | 120 |
 | Vongrim Harpoon Crew | 120 |
@@ -1266,9 +1270,9 @@ If a friendly Fyreslayers Hero wholly within 6" of this unit is destroyed, this 
 | Arkanaut Admiral | 130 |
 | Auric Runefather | 130 |
 | Grundstok Thunderers | 130 |
+| Longbeards | 130 |
 | Runelord | 130 |
 | Skywardens | 130 |
-| Ironbreakers | 140 |
 | Irondrakes | 140 |
 | Vulkite Berzerkers with Bladed Slingshields | 140 |
 | Endrinmaster with Dirigible Suit | 150 |
@@ -1277,8 +1281,8 @@ If a friendly Fyreslayers Hero wholly within 6" of this unit is destroyed, this 
 | Thundrik's Profiteers | 150 |
 | Vulkyn Flameseekers | 160 |
 | Grundstok Gunhauler (Scourge of Ghyran) | 170 |
+| Hammerers | 170 |
 | Auric Runemaster | 180 |
-| Hammerers | 180 |
 | Auric Runeson on Magmadroth | 250 |
 | Brokk Grungsson, Lord-Magnate of Barak-Nar | 260 |
 | Arkanaut Frigate | 300 |

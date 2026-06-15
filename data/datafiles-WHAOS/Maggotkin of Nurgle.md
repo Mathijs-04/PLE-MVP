@@ -504,7 +504,7 @@ At the end of the battle round, any unspent **tally points** are lost.
 
 #### Annelid Engorgement (Activated)
 - **Timing:** End of Any Turn
-- **Effect:** For each enemy unit that was in combat with this unit this turn and was destroyed this turn, this unit gains D3 **leech points** for the rest of the battle. Add 1 to this unit's Control characteristic for the rest of the battle for each **leech point** it gained this turn.
+- **Effect:** For each enemy unit that was in combat with this unit this turn and was destroyed this turn, this unit gains D3 **leech points** for the rest of the battle. Until the end of the next turn, add 1 to this unit’s Control characteristic for each leech point it currently has.
 
 #### The Leechlord's Curse (Spell)
 - **Timing:** Your Hero Phase

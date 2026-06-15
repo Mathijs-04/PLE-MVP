@@ -565,7 +565,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy Monste
 
 ### Bloodseeker Palanquin
 **Points:** 220 | **Move:** 10" | **Health:** 12 | **Save:** 4+ | **Control:** 5
-**Keywords:** HERO, WIZARD (1), WARD (6+), DEATH, SOULBLIGHT GRAVELORDS, VAMPIRE, WAR MACHINE, FLY
+**Keywords:** HERO, WIZARD (1), WARD (6+), DEATH, SOULBLIGHT GRAVELORDS, VAMPIRE, WAR MACHINE, FLY, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -587,7 +587,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy Monste
 
 ### Cado Ezechiar, the Hollow King
 **Points:** 150 | **Move:** 6" | **Health:** 6 | **Save:** 4+ | **Control:** 2
-**Keywords:** DEATH, HERO, UNIQUE, WARD (6+), SOULBLIGHT GRAVELORDS, VAMPIRE, WIZARD (1), INFANTRY
+**Keywords:** DEATH, HERO, UNIQUE, WARD (6+), SOULBLIGHT GRAVELORDS, VAMPIRE, WIZARD (1), INFANTRY, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -745,7 +745,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy Monste
 
 ### Gorslav the Gravekeeper
 **Points:** 120 | **Move:** 5" | **Health:** 4 | **Save:** 6+ | **Control:** 2
-**Keywords:** DEATH, HERO, UNIQUE, WARD (6+), SOULBLIGHT GRAVELORDS, INFANTRY, DEADWALKERS
+**Keywords:** DEATH, HERO, UNIQUE, WARD (6+), SOULBLIGHT GRAVELORDS, INFANTRY, DEADWALKERS, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -794,7 +794,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy Monste
 
 ### Kosargi Nightguard
 **Points:** 110 | **Move:** 6" | **Health:** 4 | **Save:** 5+ | **Control:** 3
-**Keywords:** DEATH, WARD (6+), SOULBLIGHT GRAVELORDS, DEADWALKERS, INFANTRY
+**Keywords:** DEATH, WARD (6+), SOULBLIGHT GRAVELORDS, DEADWALKERS, INFANTRY, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1244,7 +1244,7 @@ This unit can be removed from the battlefield and set up in reserve **high above
 
 ### Terrorgheist
 **Points:** 220 | **Move:** 12" | **Health:** 14 | **Save:** 4+ | **Control:** 5
-**Keywords:** WARD (6+), DEATH, MONSTER, FLY, SOULBLIGHT GRAVELORDS
+**Keywords:** WARD (6+), DEATH, MONSTER, FLY, SOULBLIGHT GRAVELORDS, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1365,7 +1365,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this uni
 
 ### Torgillius the Chamberlain
 **Points:** 180 | **Move:** 5" | **Health:** 5 | **Save:** 6+ | **Control:** 2
-**Keywords:** DEATH, HERO, UNIQUE, WARD (6+), SOULBLIGHT GRAVELORDS, WIZARD (1), INFANTRY
+**Keywords:** DEATH, HERO, UNIQUE, WARD (6+), SOULBLIGHT GRAVELORDS, WIZARD (1), INFANTRY, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1429,7 +1429,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this uni
 
 ### Vampire Lord on Zombie Dragon
 **Points:** 400 | **Move:** 12" | **Health:** 16 | **Save:** 3+ | **Control:** 5
-**Keywords:** HERO, WIZARD (1), WARD (6+), DEATH, MONSTER, FLY, SOULBLIGHT GRAVELORDS, VAMPIRE
+**Keywords:** HERO, WIZARD (1), WARD (6+), DEATH, MONSTER, FLY, SOULBLIGHT GRAVELORDS, VAMPIRE, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1475,7 +1475,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this uni
 
 ### Vargskyr
 **Points:** 140 | **Move:** 8" | **Health:** 8 | **Save:** 5+ | **Control:** 1
-**Keywords:** DEATH, WARD (6+), SOULBLIGHT GRAVELORDS, VAMPIRE, BEAST
+**Keywords:** DEATH, WARD (6+), SOULBLIGHT GRAVELORDS, VAMPIRE, BEAST, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1522,7 +1522,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this uni
 
 ### Vyrkos Blood-born
 **Points:** 150 | **Move:** 8" | **Health:** 3 | **Save:** 6+ | **Control:** 1
-**Keywords:** DEATH, WARD (6+), SOULBLIGHT GRAVELORDS, INFANTRY, VAMPIRE
+**Keywords:** DEATH, WARD (6+), SOULBLIGHT GRAVELORDS, INFANTRY, VAMPIRE, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1542,7 +1542,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this uni
 
 ### Watch Captain Halgrim
 **Points:** 110 | **Move:** 6" | **Health:** 5 | **Save:** 4+ | **Control:** 2
-**Keywords:** DEATH, HERO, UNIQUE, WARD (6+), SOULBLIGHT GRAVELORDS, INFANTRY, DEATHRATTLE
+**Keywords:** DEATH, HERO, UNIQUE, WARD (6+), SOULBLIGHT GRAVELORDS, INFANTRY, DEATHRATTLE, Legends
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |

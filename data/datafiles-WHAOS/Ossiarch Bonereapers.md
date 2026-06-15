@@ -547,7 +547,7 @@ keyword.
 #### Deathrider Wedge (Activated)
 - **Timing:** Any Combat Phase
 - **Declare:** If this unit charged this turn, pick an enemy unit in combat with it to be the enemy target. Then, you can pick a friendly **Liege-Kavalos** within this unit's combat range to be the friendly target.
-- **Effect:** Inflict D3 mortal damage on the enemy target. Inflict an additional D3 mortal damage on the enemy target if you picked a friendly target. Them, this unit and the friendly target (if any) can move 10". They can move through the combat ranges of enemy units but cannot end that move in combat.
+- **Effect:** Inflict D3 mortal damage on the enemy target. Inflict an additional D3 mortal damage on the enemy target if you picked a friendly target. Then, this unit and the friendly target (if any) can move 10". They can move through the combat ranges of enemy units but cannot end that move in combat.
 - **Keywords:** Core, Attack, Fight
 
 ---

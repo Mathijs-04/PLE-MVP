@@ -50,9 +50,6 @@
 - **Effect:** Roll a dice. On a 4+, inflict 3 mortal damage on the target. In addition, on a 6, the target has Strike-last for the rest of the turn.
 - **Keywords:** Rampage
 
-#### Become the Swarm (Passive)
-- **Effect:** When this unit is destroyed, roll a D3 for each enemy unit in combat with it. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.
-
 #### Deep-sea Aid (Passive)
 - **Effect:** You can reroll 1 hit roll, 1 wound roll, 1 save roll, 1 casting roll, or 1 unbinding roll for this unit. After you have done so, remove this unit's **Sea-beast Familiar** from the battlefield.
 

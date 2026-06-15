@@ -33,7 +33,7 @@ You can attach this model to one of the above units even if one Captain or Chapt
 ---
 
 ### Chaplain Grimaldus
-**Points:** 110 | **M:** 6" | **T:** 4 | **SV:** 3 | **W:** 4 | **LD:** 5+ | **OC:** 1
+**Points:** 110 | **M:** 6" | **T:** 4 | **SV:** 3+ | **W:** 4 | **LD:** 5+ | **OC:** 1
 **Keywords:** Infantry, Imperium, Tacticus, Adeptus Astartes, Black Templars
 
 **Weapons:**

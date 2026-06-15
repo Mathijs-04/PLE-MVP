@@ -349,7 +349,7 @@ Penetration and Damage characteristics of melee weapons equipped by this model b
 #### Leader (Abilities)
 - **Description:** This model can be attached to the following unit:
 ■ CHAOS BIKERS
-■ KHORNE BERSERKERS
+■ KHORNE BERZERKERS
 
 #### Bloody Stampede (Abilities)
 - **Description:** Each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.
@@ -1307,6 +1307,7 @@ You can attach this model to one of the above units even if one other CHARACTER 
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|------|-------|---|-------|---|----|---|----------|
 | Armoured hull | Melee | Melee | 3 | 4+ | 6 | 0 | 1 | - |
+| Twin autocannon | Ranged | 48" | 2 | 3+ | 9 | -3 | 3 | Twin-linked |
 
 **Abilities:**
 

@@ -326,7 +326,7 @@ If any damage points were allocated to a terrain feature by those attacks, after
 - **Effect:** Set up that unit in reserve **hidden among cultists**. It has now been deployed. Friendly units that are **hidden among cultists** are not automatically destroyed at the start of the fourth battle round
 
 #### Deception Revealed (Activated)
-- **Timing:** Your Hero Phase
+- **Timing:** Any Hero Phase
 - **Declare:** Pick a friendly Wizard that is **hidden among cultists** to use this ability, then pick a friendly Infantry unit with 3 or more models to be the target.
 - **Effect:** Set up that Wizard within the combat range of the target. It can be set up in combat. In addition, if that Wizard uses the 'Magical Intervention' command this phase, no command points are spent to do so.
 
@@ -400,9 +400,11 @@ During the battle, instead of making a roll from the list below for a friendly O
 
 #### Split Again (Activated)
 - **Timing:** End of Any Turn
-- **Effect:** Roll a dice for each **Blue Horror** model in this unit that is slain. On a 3+, you can add 1 **Brimstone Horrors** model to this unit.
-**Designer’s Note:** *You cannot have more than 10 Blue Horror models and 10 Brimstone Horrors models in a non-reinforced unit. You cannot have more than 20 Blue Horror models and 20 Brimstone Horrors models in a reinforced unit.
-Models that have been slain and returned to this unit do not count as being slain for the purposes of this ability.*
+- **Effect:** Roll a dice for each **Blue Horror** model in this unit that is slain. For each 3+, if there are fewer **Brimstone Horrors** models in this unit than its starting size, you can add 1 **Brimstone Horrors** model to this unit.
+**Designer’s Note:** *Dice are only rolled for Blue Horror models that are currently slain – models that have been slain and returned to this unit do not count until they are slain once more. When adding Brimstone Horrors to this unit, do not count slain Brimstone Horrors towards the maximum.*
+
+#### Immolation (Passive)
+- **Effect:** Slain **Brimstone Horrors** cannot be returned to this unit. When setting up a replacement unit for this unit, **Brimstone Horror** models are ignored when determining the number of models in this unit, and you cannot pick them to be set up.
 
 ---
 
@@ -620,7 +622,7 @@ Models that have been slain and returned to this unit do not count as being slai
 ---
 
 ### Fateskimmer, Herald of Tzeentch on Burning Chariot
-**Points:** 140 | **Move:** 12" | **Health:** 8 | **Save:** 5+ | **Control:** 2
+**Points:** 140 | **Move:** 12" | **Health:** 10 | **Save:** 5+ | **Control:** 2
 **Keywords:** HERO, CHAOS, DAEMON, FLY, DISCIPLES OF TZEENTCH, WARD (6+), WAR MACHINE, WIZARD (1)
 
 **Weapons:**
@@ -1015,6 +1017,11 @@ This unit can be affected by this ability multiple times and the effects are cum
 - **Declare:** Pick an enemy unit that was targeted by this unit’s shooting attacks this turn to be the target.
 - **Effect:** Add 1 to hit rolls for attacks made by friendly Pyrofane units that target that unit for the rest of the turn.
 
+#### Fortify Position (Activated)
+- **Timing:** Your Movement Phase
+- **Effect:** This unit establishes a fortified position and remains in a fortified position until it either uses a Move ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.
+- **Keywords:** Core
+
 ---
 
 ### Pyrofane Fusiliers
@@ -1036,6 +1043,11 @@ This unit can be affected by this ability multiple times and the effects are cum
 #### Blackpowder Squire (Passive)
 - **Effect:** This unit has a **Blackpowder Squire** token. Each time this unit uses a Shoot ability, if this unit’s **Blackpowder Squire** is on the battlefield, you can re-roll 1 hit roll. If a hit roll re-rolled in this manner is 1, remove this unit’s **Blackpowder Squire** from the battlefield.
 
+#### Fortify Position (Activated)
+- **Timing:** Your Movement Phase
+- **Effect:** This unit establishes a fortified position and remains in a fortified position until it either uses a Move ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.
+- **Keywords:** Core
+
 ---
 
 ### Pyrofane Great Cannon
@@ -1053,6 +1065,11 @@ This unit can be affected by this ability multiple times and the effects are cum
 
 #### Shot and Shell (Passive)
 - **Effect:** Each time this unit uses a Shoot ability, if it is in a fortified position, pick either the **Cannonball** or **Grapeshot** weapon characteristics for all the attacks it makes with its **Great Cannon**. If it is not in a fortified position, use the **Grapeshot** weapon characteristics.
+
+#### Fortify Position (Activated)
+- **Timing:** Your Movement Phase
+- **Effect:** This unit establishes a fortified position and remains in a fortified position until it either uses a Move ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.
+- **Keywords:** Core
 
 ---
 
@@ -1174,14 +1191,14 @@ Then, if this unit charged this turn, inflict D3 mortal damage on each enemy Man
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
 |--------|------|-----|-----|-----|-----|-----|-----|---------|
-| Tzeentchian Spear and Vicious Beak | Melee | - | 2 | 4+ | 3+ | 1 | 2 | - |
+| Tzaangor Spear and Vicious Beak | Melee | - | 2 | 4+ | 3+ | 1 | 2 | - |
 
 **Abilities:**
 
-#### Babbling Stream of Secrets (Activated)
-- **Timing:** Any Charge Phase
-- **Declare:** If this unit charged this phase, pick an enemy unit in combat with it to be the target.
-- **Effect:** Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.
+#### Vicious Protectors (Passive)
+- **Effect:** While there is a visible friendly Arcanite Hero within this unit’s combat range:
+• Subtract 1 from hit rolls for combat attacks that target that friendly Arcanite Hero.
+• Add 1 to hit rolls for this unit’s combat attacks.
 
 ---
 

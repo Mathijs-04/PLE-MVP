@@ -133,7 +133,7 @@
 - **Description:** This model has a 4+ invulnerable save.
 
 #### Leader (Abilities)
-- **Description:** This model can be attached to the following unit: **Khorne Berserkers**
+- **Description:** This model can be attached to the following unit: **Khorne Berzerkers**
 
 ---
 
@@ -423,7 +423,7 @@
 - **Description:** This model has a 4+ invulnerable save.
 
 #### Leader (Abilities)
-- **Description:** This model can be attached to the following unit: **Khorne Berserkers**
+- **Description:** This model can be attached to the following unit: **Khorne Berzerkers**
 
 ---
 
@@ -784,7 +784,7 @@
 - **Description:** This model has a 4+ invulnerable save.
 
 #### Leader (Abilities)
-- **Description:** This model can be attached to the following unit: **Khorne Berserkers**
+- **Description:** This model can be attached to the following unit: **Khorne Berzerkers**
 
 ---
 
@@ -904,7 +904,7 @@
 - **Description:** This model has a 4+ invulnerable save.
 
 #### Leader (Abilities)
-- **Description:** This model can be attached to the following units: **Eightbound**, **Exalted Eightbound**, **Khorne Berserkers**
+- **Description:** This model can be attached to the following units: **Eightbound**, **Exalted Eightbound**, **Khorne Berzerkers**
 
 #### Fire Riders (Abilities)
 - **Description:** While this model is leading a unit, models in that unit have the Deep Strike ability and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through models and terrain features. When making a Normal, Advance or Fall Back move, models in that unit can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them and any Desperate Escape test is automatically passed.
@@ -936,7 +936,7 @@
 - **Description:** This model has a 4+ invulnerable save.
 
 #### Leader (Abilities)
-- **Description:** This model can be attached to the following units: **Eightbound**, **Exalted Eightbound**, **Khorne Berserkers**
+- **Description:** This model can be attached to the following units: **Eightbound**, **Exalted Eightbound**, **Khorne Berzerkers**
 
 ---
 
@@ -953,7 +953,7 @@
 **Abilities:**
 
 #### Leader (Abilities)
-- **Description:** This model can be attached to the following unit: **Khorne Berserkers**
+- **Description:** This model can be attached to the following unit: **Khorne Berzerkers**
 
 #### A Worthy Skull (Abilities)
 - **Description:** Each time this model makes a melee attack that targets a **Character** unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model's unit destroys a **Character** model, you gain 1CP.

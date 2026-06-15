@@ -756,7 +756,7 @@ If Ellathor leads, until the start of your next turn, add the current battle rou
 **Abilities:**
 
 #### Supreme Swordmaster (Passive)
-- **Effect:** Ignore negative modifiers to hit rolls and wound rolls for this unit’s combat attacks.
+- **Effect:** Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks.
 
 #### Valorous Intervention (Activated)
 - **Timing:** Any Combat Phase

@@ -388,7 +388,7 @@ Once all of the standard bearers in the target unit have been slain, subtract 5 
 
 ### Abhorrant Ghoul King (Scourge of Ghyran)
 **Points:** 110 | **Move:** 6" | **Health:** 5 | **Save:** 5+ | **Control:** 2
-**Keywords:** DEATH, HERO, FLESH-EATER COURTS, ABHORRANT, FLY, WIZARD (1), WARD (6+), INFANTRY
+**Keywords:** DEATH, HERO, FLESH-EATER COURTS, ABHORRANT, WIZARD (1), WARD (6+), INFANTRY
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |

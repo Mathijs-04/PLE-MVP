@@ -14,8 +14,7 @@
 • **Heal (D3)** the target.
 • The target has Ward (6+) until the start of your next turn.
 
-#### Noble Guardian (Activated)
-- **Timing:** Any Combat Phase
+#### Noble Guardian (Passive)
 - **Effect:** Add 2 to the Attacks characteristic of this unit's melee weapons while it is wholly within the **creeping overgrowth**.
 
 #### Gnarled Spirit (Passive)
@@ -91,7 +90,7 @@
 
 #### Song of the Land (Activated)
 - **Timing:** Your Hero Phase
-- **Effect:** Give every objective and terrain feature within 18" of this unit an **overgrown token**.
+- **Effect:** Give every objective and terrain feature within 18" of this unit an **overgrown token**. You can measure the creeping overgrowth from objectives that have a friendly overgrown token.
 
 #### Trick of the Dark (Activated)
 - **Timing:** Your Movement Phase
@@ -291,7 +290,7 @@ Once you have done so, for the rest of the battle, the 3 tree miniatures join to
 - **Effect:** The Health characteristic of your **Soulpod Grove** is 18. The **creeping overgrowth** extends 12" from your **soulpod grove**.
 
 #### Vengeance for the Lost (Passive)
-- **Effect:** If your **Soulpod Grove** has been destroyed this battle, add 2 to the Attacks characteristic of friendly Soulpod Guardians units' melee weapons.
+- **Effect:** If your **Soulpod Grove** has been demolished this battle, add 2 to the Attacks characteristic of friendly Soulpod Guardians units' melee weapons.
 
 #### Heart of the Forest (Passive)
 - **Effect:** You cannot allocate more than 10 damage points per phase to a friendly Soulpod Guardians unit while it is wholly within 12" of your **Soulpod Grove** (remaining damage points inflicted on it in that phase have no effect).
@@ -447,8 +446,7 @@ wholly within the **creeping overgrowth** while they are wholly within 6" of the
 • **Heal (D3)** the target.
 • The target has Ward (6+) until the start of your next turn.
 
-#### Noble Guardian (Activated)
-- **Timing:** Any Combat Phase
+#### Noble Guardian (Passive)
 - **Effect:** Add 2 to the Attacks characteristic of this unit's melee weapons while it is wholly within the **creeping overgrowth**.
 
 #### Gnarled Spirit (Passive)
@@ -682,14 +680,16 @@ In addition, if the target is non-Kurnothi, add 1 to the Attacks characteristics
 
 **Abilities:**
 
-#### Soulshriek (Passive)
-- **Effect:** Each time a model in a friendly non-Hero Revenant unit wholly within 12" of and visible to this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a number of dice equal to the slain model's Health characteristic. For each 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.
+#### Soulshriek (Activated)
+- **Timing:** Once Per Turn (Army), Any Combat Phase
+- **Declare:** Pick each friendly non-Hero Revenant unit wholly within 12" of and visible to this unit to be the targets.
+- **Effect:** For the rest of the phase, each time a model in a target unit is slain by a combat attack, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit.
 
 #### Regenesis (Prayer)
 - **Timing:** Your Hero Phase
 - **Chanting Value:** 4
 - **Declare:** Pick a friendly Sylvaneth unit that is wholly within the **creeping overgrowth** or that is visible to and wholly within 12" of this unit to be the target, then make a chanting roll of D6.
-- **Effect:** If the chanting roll was 6+, you can pick another eligible unit to be a second target. If a target is Revenant Infantry or **Dryads** unit, return up to D3 models to the target unit. Otherwise, **Heal (3)** that target.
+- **Effect:** If the chanting roll was 6+, you can pick another eligible unit to be a second target. If a target is a non-Hero Revenant Infantry or **Dryads** unit, return up to D3 models to the target unit. Otherwise, **Heal (3)** that target
 - **Keywords:** Prayer
 
 ---
@@ -940,7 +940,7 @@ In addition, if the target is non-Kurnothi, add 1 to the Attacks characteristics
 #### Hands Of The Everqueen (Activated)
 - **Timing:** Once Per Turn (Army), Any Hero Phase
 - **Declare:** Pick a terrain feature within 18" of this unit that has a friendly **overgrown token** to be the target.
-- **Effect:** Measure the range and visibility of the next Spell ability used by this unit this phase from the target instead of from this unit, and your opponent can measure range and visibility to that terrain feature instead of this unit for the purposes of the 'Unbind' ability.
+- **Effect:** The next time this unit uses a non-Summon Spell ability this phase, when picking targets for that spell, you can measure range and visibility from the target terrain feature instead of from this unit, and your opponent can measure range and visibility to the target terrain feature instead of to this unit for the purposes of the ‘Unbind’ ability.
 - **Keywords:** Rampage
 
 ---

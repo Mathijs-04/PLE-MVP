@@ -1255,7 +1255,7 @@ Designer’s Note: Place the relevant number of Ammo Runt tokens next to the uni
 - **Description:** Each time this unit Consolidates, each model in this unit can move up to 6" instead of up to 3".
 
 #### Speed Freeks Mob (Abilities)
-- **Description:** If a model from your army with the Leader ability can be attached to a WARBIKERS unit, it can be attached to this unit instead.
+- **Description:** If a model from your army with the Leader ability can be attached to a Warbikers unit, it can be attached to this unit instead.
 
 ---
 

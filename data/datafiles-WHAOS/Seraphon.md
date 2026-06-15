@@ -904,9 +904,6 @@ On a 5+:
 - **Declare:** Pick an enemy unit within 10" of this unit to be the target.
 - **Effect:** Roll a D3. If the roll exceeds the target’s Control characteristic, the target cannot use commands for the rest of the turn.
 
-#### Dispersed Formation (Passive)
-- **Effect:** This unit has a coherency range of 2".
-
 ---
 
 ### The Jaws of Itzl

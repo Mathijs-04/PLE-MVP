@@ -1574,7 +1574,7 @@ If an enemy unit is destroyed or removed from the battlefield while any of this 
 
 ### Lord-Relictor
 **Points:** 120 | **Move:** 5" | **Health:** 6 | **Save:** 3+ | **Control:** 2
-**Keywords:** HERO, ORDER, STORMCAST ETERNALS, INFANTRY, PRIEST (1)
+**Keywords:** HERO, ORDER, STORMCAST ETERNALS, INFANTRY, PRIEST (1), WARRIOR CHAMBER
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |

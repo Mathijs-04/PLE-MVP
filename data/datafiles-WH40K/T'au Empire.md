@@ -947,10 +947,6 @@ Designer’s Note: Place two Stealth Drone tokens next to the unit, removing one
 #### Forward Observers (Abilities)
 - **Description:** Each time this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in a Guided unit that targets their Spotted unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.
 
-#### Homing Beacon (Abilities)
-- **Description:** Once per battle, you can use the Rapid Ingress Stratagem for 0CP. The target must be set up within 3" of the bearer’s unit and more than 9" away from all enemy units.
-**Designer’s Note:** *Place a Homing Beacon token next to this unit, removing it once this ability is used.*
-
 ---
 
 ### Stormsurge

@@ -813,29 +813,15 @@ You must attach this model to the above unit, and can do so even if one or more 
 |--------|------|-------|---|-------|---|----|---|----------|
 | Teeth and Claws | Melee | Melee | 2 | 4+ | 4 | 0 | 1 | - |
 | Instigator Bolt Carbine | Ranged | 24" | 1 | 3+ | 4 | -2 | 2 | Precision |
-| Thunderclap | Ranged | 12" | D3 | 3+ | 5 | -1 | 2 | Blast, Psychic |
-| Runic Stave | Melee | Melee | 3 | 3+ | 6 | -1 | D3 | Psychic |
-| Thunderclap | Ranged | 12" | D3 | 3+ | 5 | -1 | 2 | Blast, Psychic |
-| Runic Stave | Melee | Melee | 3 | 3+ | 6 | -1 | D3 | Psychic |
 | Teeth and Claws | Melee | Melee | 2 | 4+ | 4 | 0 | 1 | - |
 
 **Abilities:**
 
 #### Hunting Hounds (Abilities)
-- **Description:** While this unit is within 6" of one or more friendly Space Wolves Character models (excluding Wulfen
-models), if this unit is not Battle-shocked, Hunting Wolves models in this unit have an Objective Control characteristic of 1
+- **Description:** While this unit is within 6" of one or more friendly **Space Wolves Character models (excluding Wulfen** models), if this unit is not Battle-shocked, Hunting Wolves models in this unit have an Objective Control characteristic of 1.
 
 #### Deadly Stalkers (Abilities)
-- **Description:** Each time a model in this unit makes an
-attack that targets an enemy unit, if there are no other units
-from your opponent’s army within 6" of that target, add 1 to the
-Wound roll.
-
-#### Haywire Mine (Abilities)
-- **Description:** Once per battle, at the start of any phase, you can select one enemy unit within 3" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a Vehicle unit.
-
-#### Haywire Mine (Abilities)
-- **Description:** Once per battle, at the start of any phase, you can select one enemy unit within 3" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a Vehicle unit.
+- **Description:** Each time a model in this unit makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6" of that target, add 1 to the Wound roll.
 
 ---
 

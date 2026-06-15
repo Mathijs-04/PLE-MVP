@@ -2469,7 +2469,7 @@ Strategic Reserves.
 ---
 
 ### Stormraven Gunship
-**Points:** 280 | **M:** 20"+ | **T:** 10 | **SV:** 3+ | **W:** 14 | **LD:** 6+ | **OC:** 0
+**Points:** 280 | **M:** 20+" | **T:** 10 | **SV:** 3+ | **W:** 14 | **LD:** 6+ | **OC:** 0
 **Keywords:** Aircraft, Vehicle, Imperium, Fly, Transport, Stormraven Gunship, Adeptus Astartes
 
 **Weapons:**

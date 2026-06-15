@@ -634,7 +634,7 @@
 
 ### Elysian Drop Sentinel [Legends]
 **Points:** 85 | **M:** 10" | **T:** 6 | **SV:** 3+ | **W:** 6 | **LD:** 7+ | **OC:** 2
-**Keywords:** Elysian Drop Sentinel, Vehicle, Walker, Imperium, Squadron, Smoke, Astra Militarum
+**Keywords:** Elysian Drop Sentinel, Vehicle, Walker, Imperium, Squadron, Smoke, Astra Militarum, Regiment
 
 **Weapons:**
 | Weapon | Type | Range | A | BS/WS | S | AP | D | Keywords |
@@ -1065,8 +1065,8 @@ Designer's Note: Place a Servo-scribes token next to the unit, removing it when 
 
 **Abilities:**
 
-#### Battlefield Control (Abilities)
-- **Description:** Each time this model makes a ranged attack, if it is within range of an objective marker you control, re-roll a Hit roll of 1.
+#### Armoured Aggressor (Abilities)
+- **Description:** Each time this model makes a ranged attack, it does not suffer the penalty to the Hit roll for being within Engagement Range of one or more enemy units.
 
 ---
 
@@ -1915,7 +1915,7 @@ While this unit is joined to a unit, it can embark within any Transport that uni
 ---
 
 ### Vendetta Gunship [Legends]
-**Points:** 255 | **M:** 20+" | **T:** 10 | **SV:** 2+ | **W:** 14 | **LD:** 7 | **OC:** 0
+**Points:** 255 | **M:** 20+" | **T:** 10 | **SV:** 2+ | **W:** 14 | **LD:** 7+ | **OC:** 0
 **Keywords:** Vendetta Gunship, Vehicle, Fly, Aircraft, Imperium, Transport
 
 **Weapons:**

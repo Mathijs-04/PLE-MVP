@@ -115,7 +115,7 @@
 - **Effect:** Shooting attacks that target this unit cannot score critical hits (treat them as regular hits instead). If the unmodified hit roll for a shooting attack that targets this unit is 6, the attack fails and the attack sequence ends.
 
 #### A Thousand Cuts (Activated)
-- **Timing:** Passive [GW typo]
+- **Timing:** Any Combat Phase
 - **Declare:** Pick an enemy Monster in combat with this unit to be the target.
 - **Effect:** Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll and the target cannot use Rampage abilities for the rest of the turn.
 
@@ -279,20 +279,20 @@ Return up to 1 slain model to each target that that has a Health characteristic 
 - **Effect:** Add 1 to the Rend characteristic of combat attacks made by friendly non-Hero Infantry units while they are wholly within 9" of a friendly **Krethusa**.
 
 #### Plumes of Auspicious Smoke (Passive)
-- **Effect:** Friendly Cauldron of Blood units are either **empty** or **full**. They start the battle **empty**.
-While a friendly Cauldron of Blood unit is **full**:
-• That Cauldron of Blood has Ward (4+) against damage points inflicted by shooting attacks.
-• Subtract 1 from hit rolls for shooting attacks that target friendly Croneseer’s Pariahs units while they are wholly within 9" of that Cauldron of Blood.
+- **Effect:** Friendly **Slaughter Queen on Cauldron of Blood** or **Hag Queen on Cauldron of Blood** units are either **empty** or **full**. They start the battle **empty**.
+While a friendly **Slaughter Queen on Cauldron of Blood** or **Hag Queen on Cauldron of Blood** unit is **full**:
+• That **Slaughter Queen on Cauldron of Blood** or **Hag Queen on Cauldron of Blood** has Ward (4+) against damage points inflicted by shooting attacks.
+• Subtract 1 from hit rolls for shooting attacks that target friendly Croneseer’s Pariahs units while they are wholly within 9" of that **Slaughter Queen on Cauldron of Blood** or **Hag Queen on Cauldron of Blood**.
 
 #### Laden with Prophecy (Activated)
 - **Timing:** End of Any Turn
-- **Declare:** Pick a friendly **empty** Cauldron of Blood.
-- **Effect:** If any enemy models were slain this turn by that Cauldron of Blood’s combat attacks, it becomes **full**.
+- **Declare:** Pick a friendly **empty** **Slaughter Queen on Cauldron of Blood** or **Hag Queen on Cauldron of Blood**.
+- **Effect:** If any enemy models were slain this turn by that **Slaughter Queen on Cauldron of Blood** or **Hag Queen on Cauldron of Blood**’s combat attacks, it becomes **full**.
 
 #### The Blood Reveals All (Activated)
 - **Timing:** Once Per Battle (Army), Your Hero Phase
-- **Declare:** Pick a friendly Croneseer’s Pariahs Hero within the combat range of a friendly empty Cauldron of Blood. Then, pick another unit within the combat range of that Hero to be the target.
-- **Effect:** Roll a dice. Allocate a number of damage points to the target equal to the roll (ward rolls cannot be made for those damage points). Then, that Cauldron of Blood becomes **full**.
+- **Declare:** Pick a friendly Croneseer’s Pariahs Hero within the combat range of a friendly empty **Slaughter Queen on Cauldron of Blood** or **Hag Queen on Cauldron of Blood**. Then, pick another unit within the combat range of that Hero to be the target.
+- **Effect:** Roll a dice. Allocate a number of damage points to the target equal to the roll (ward rolls cannot be made for those damage points). Then, that **Slaughter Queen on Cauldron of Blood** or **Hag Queen on Cauldron of Blood** becomes **full**.
 
 #### Skilled Skirmishers (Activated)
 - **Timing:** Once Per Turn (Army), Any Charge Phase
@@ -856,9 +856,11 @@ If the chanting roll was 9+, all of the above effects apply
 
 **Abilities:**
 
-#### Ironscale's Fury (Passive)
+#### Ironscale's Fury (Activated)
+- **Timing:** Once Per Turn (Army), Any Combat Phase
+- **Declare:** Pick each friendly Daughters of Khaine unit within this unit’s combat range to be the targets.
+- **Effect:** For the rest of the phase, each time a model in a target unit is slain by a combat attack, roll a dice. If that unit is a **Blood Sisters** or **Blood Stalkers** unit, roll 2 dice instead. For each 5+, inflict 1 mortal damage on the attacking unit.
 - **Keywords:** **Exalted**
-- **Effect:** Each time a model in a friendly non-Hero Daughters of Khaine unit is slain by a combat attack, if that friendly unit is within this unit's combat range and that model was in combat with the attacking unit, roll a dice. If that friendly unit is a **Blood Sisters** or a **Blood Stalkers** unit, roll 2 dice instead. For each 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.
 
 ---
 
@@ -884,7 +886,8 @@ If the chanting roll was 9+, all of the above effects apply
 - **Effect:** Each time you perform a blood rite, immediately after the ability that destroyed a unit has been resolved, pick 1 of the following effects:
 • Until the start of your next turn, this unit is only visible to enemy units while those units are within its combat range.
 • **Heal (D6)** this unit or a friendly **Shadow Queen**.
-• A friendly **Shadow Queen** can immediately use the 'Normal Move' or 'Retreat' ability as if it was your movement phase.
+• A friendly **Shadow Queen** can immediately use the 'Normal Move' or 'Retreat' ability as if it was your movement phase even if it has already used that ability or another Core ability this phase.
+**Designer’s Note:** *If the Shadow Queen retreats with the 'Iron Heart of Khaine' ability, she cannot subsequently use the 'Fight' ability in the same combat phase.*
 • Remove this unit from the battlefield and set it up again on the battlefield more than 9" from all enemy units.
 • For the rest of the turn, set this unit's Control characteristic to 5 and a friendly **Shadow Queen**'s Control characteristic to 15.
 

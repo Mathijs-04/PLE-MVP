@@ -16,7 +16,7 @@
 
 #### Notorious Bosses (Activated)
 - **Timing:** Once Per Battle, Deployment Phase
-- **Declare:** Pick up to 1 friendly non-Unique Big Waaagh! Ironjawz Hero and up to 1 friendly non^Unique Big Waaagh! Kruleboyz Hero that do not have a heroic trait to be the targets.
+- **Declare:** Pick up to 1 friendly non-Unique Big Waaagh! Ironjawz Hero and up to 1 friendly non-Unique Big Waaagh! Kruleboyz Hero that do not have a heroic trait to be the targets.
 - **Effect:** Give each target 1 heroic trait from the Big Waaagh! heroic traits.
 **Designer's Note:** *These heroic traits are given to the targets during the deployment phase, not during army composition.*
 

@@ -195,6 +195,12 @@ You must attach this model to a Kastelan Robots unit, even if one or more other 
 
 ---
 
+### Hastarii Fusilier
+**Points:** 0 | **M:** 5" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 7+ | **OC:** 1
+**Keywords:** Adeptus Mechanicus
+
+---
+
 ### Hastarii Fusilier Alpha
 **Points:** 0 | **M:** 5" | **T:** 4 | **SV:** 3+ | **W:** 2 | **LD:** 7+ | **OC:** 1
 **Keywords:** Adeptus Mechanicus
@@ -687,7 +693,7 @@ In either case, if it does, until the end of the turn, this unit is not eligible
 ---
 
 ### Skitarii Marshal
-**Points:** 35 | **M:** 6" | **T:** 3 | **SV:** 4+ | **W:** 3 | **LD:** 6 | **OC:** 1
+**Points:** 35 | **M:** 6" | **T:** 3 | **SV:** 4+ | **W:** 3 | **LD:** 6+ | **OC:** 1
 **Keywords:** Marshal, Imperium, Adeptus Mechanicus, Skitarii, Character, Infantry
 
 **Weapons:**
@@ -1096,6 +1102,7 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.
 | --- | ---: |
 | Hastarii Exterminator | 0 |
 | Hastarii Exterminator Alpha | 0 |
+| Hastarii Fusilier | 0 |
 | Hastarii Fusilier Alpha | 0 |
 | Ironstrider Ballistarii | 0 |
 | Kastelan Robot | 0 |

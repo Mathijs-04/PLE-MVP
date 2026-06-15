@@ -660,7 +660,7 @@ makes an attack, subtract 1 from the Hit roll
 **Abilities:**
 
 #### Phantasm Grenade Launcher (Abilities)
-- **Description:** The bearer’s unit has the Grenades keyword.
+- **Description:** The bearer’s unit has the **Smoke and Grenades** keywords.
 
 #### Invulnerable Save (Abilities)
 - **Description:** This unit has a 6+ Invulnerable save
