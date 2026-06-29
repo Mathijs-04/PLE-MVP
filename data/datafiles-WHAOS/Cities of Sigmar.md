@@ -53,6 +53,141 @@
 - **Timing:** Once Per Turn (Army), Your Movement Phase
 - **Effect:** If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9" from all enemy units.
 
+#### Azyrite Storm (Activated)
+- **Timing:** Once Per Turn (Army), Your Shooting Phase
+- **Declare:** Pick a visible enemy unit within 12" of this unit to be the target.
+- **Effect:** Make a number of D3 rolls equal to the current battle round number. For each 2+, inflict an amount of damage on the target equal to the roll.
+
+#### Magical Foci (Passive)
+- **Effect:** Add 1 to casting rolls and chanting rolls for this unit.
+
+#### One in a Million (Passive)
+- **Effect:** If this unit gains any renown points in the aftermath sequence, it gains D3 additional renown points.
+
+#### Personal Vendetta (Activated)
+- **Timing:** Deployment Phase
+- **Declare:** Pick an enemy Hero to be the target. You can pick a unit in reserve.
+- **Effect:** Pick 1 of the following effects to apply for the rest of the battle:
+***Heroic Revenge*:** If the target is slain by this unit's combat attacks, after the target is removed from play, you immediately gain 1 command point.
+***Glorious Revenge**:* If the target is slain by this unit's combat attacks, you gain 30 glory points in the aftermath sequence of this battle.
+***Vendetta Fulfilled**:* If the target is slain by this unit's combat attacks, this unit gains enough renown points in the aftermath sequence of this battle to earn the next rank on its Path and it no longer has this ability
+
+#### Champion of the Free People (Passive)
+- **Effect:** Add 1 to hit rolls and wound rolls for this unit's combat attacks while it is wholly within 12" of any friendly non-Sigmarite units.
+
+#### Traitor (Activated)
+- **Timing:** End of Final Battle Round
+- **Declare:** This unit must use this ability.
+- **Effect:** Roll 3D6 for each friendly Cities of Sigmar unit within 12" of this unit. If any of the rolls are 13+, remove this unit from your Order of Battle/roster - they have been either executed on the spot or permanently exiled from civilisation! If this unit was your warlord/general, you must immediately pick a new warlord/general.
+**Designer's Note:** *In some battlepacks, if your general has been removed and you do not have another eligible unit on your roster to replace them, your warriors disperse and your Path to Glory campaign will end. We recommend making sure you have a spare eligible unit on your roster to avoid that scenario. Alternatively, you can take it as a sign to start a Slaves to Darkness or other Chaos army!*
+
+#### Broken Soul (Passive)
+- **Effect:** This unit cannot contest objectives.
+
+#### Egotistical (Passive)
+- **Effect:** Other friendly Sigmarite units within 12" of this unit cannot use commands while they are within 12" of another friendly Hero.
+
+#### Symbols of Office (Passive)
+- **Effect:** Add 5 to this unit's control score.
+
+#### Brutal Charger (Activated)
+- **Timing:** Once Per Turn (Army), Any Charge Phase
+- **Declare:** If this unit charged this turn, pick each enemy unit in combat with it to be the targets.
+- **Effect:** Roll a dice. On a 3+, for the rest of the turn, the targets cannot use the 'All-out Defence' command while they are in combat with this unit.
+
+#### Stormrider (Activated)
+- **Timing:** Once Per Battle (Army), Any Movement Phase
+- **Effect:** Remove this unit from the battlefield and set it up again on the battlefield more than 6" from all enemy units.
+- **Keywords:** Core, Move
+
+#### Shadowsilk Barding (Passive)
+- **Effect:** If the unmodified hit roll for a shooting attack that targets this unit is a 1-5 and this unit is more than 12" from the attacker, the attack fails and the attack sequence ends.
+
+#### Sprinter (Passive)
+- **Effect:** You can re-roll run rolls for this unit.
+
+#### Faith in the Everqueen (Activated)
+- **Timing:** End of Any Turn
+- **Effect:** **Heal (3)** this unit.
+
+#### Wrath Unleashed (Activated)
+- **Timing:** Once Per Battle (Army), Any Combat Phase
+- **Effect:** Add 1 to the Damage characteristic of this unit's melee weapons for the rest of the turn.
+
+#### Display of Worship (Activated)
+- **Timing:** Your Hero Phase
+- **Effect:** Roll a dice. On a 3+, pick 1 of the following effects:
+***Divine Power**:* Pick each visible friendly Sigmarite Priest wholly within 12" of this unit to be the targets. Each target gains 1 ritual point.
+***Blessed Resurrection**:* Return 1 slain model to each visible friendly Sigmarite Infantry unit wholly within 12" of this unit.
+***Sigmar's Protection**:* This unit has Ward (6+) until the start of your next turn.
+
+#### Impeccable Generalship (Activated)
+- **Timing:** Deployment Phase
+- **Declare:** Pick up to 3 friendly Sigmarite units on the battlefield to be the targets.
+- **Effect:** Remove the targets from the battlefield and set them up again wholly within friendly territory and more than 12" from all enemy units,
+
+### Paths
+
+#### Vengeful (Passive)
+- **Effect:** If any friendly Sigmarite units have been destroyed this battle, add 1 to hit rolls for this unit's combat attacks.
+
+#### To the Last (Passive)
+- **Effect:** While they are within 12" of this unit, subtract 2 from the control scores of visible enemy units for each friendly unit that has been destroyed this battle.
+
+#### Focused Aggression (Passive)
+- **Effect:** You can re-roll wound rolls for combat attacks made with this unit's non-**Companion** weapons if it charged in the same turn.
+
+#### Wicked Cunning (Activated)
+- **Timing:** Once Per Battle, Enemy Movement Phase
+- **Effect:** This unit can use the 'Normal Move' or 'Run' ability as if it were your movement phase.
+
+#### Patient Blade (Activated)
+- **Timing:** Start of Third Battle Round
+- **Effect:** For the rest of the battle, while they are wholly within 6" of this unit, other visible friendly non-Hero Sigmarite units have Strike-first.
+
+#### Impatient Onrusher (Activated)
+- **Timing:** Deployment Phase
+- **Declare:** Pick up to 2 other visible friendly Sigmarite units wholly within 12" of this unit to be the targets.
+- **Effect:** This unit and the targets can each use the 'Normal Move' ability as if it were your movement phase. This unit must move before any targets, and it must end that move more than 12" from all enemy units and not within enemy territory. Each target must end their move within this unit's combat range.
+
+#### Cometh the Moment (Activated)
+- **Timing:** Once Per Battle, Any Combat Phase
+- **Effect:** This unit can use up to 3 Fight abilities this phase. However, after the first is used, this unit has Strike-last for the rest of the turn, and after the second is used, allocate 6 damage points to this unit after the Fight ability has been resolved (ward rolls cannot be made for those damage points).
+
+#### Signature Invocation (Activated)
+- **Timing:** Deployment Phase
+- **Declare:** Pick a Spell or Prayer ability that this unit can use.
+- **Effect:** For the rest of the battle, this unit can use that ability in the enemy hero phase as if it were your hero phase.
+
+#### Crusaders (Passive)
+- **Effect:** Add 3 to run rolls for this unit.
+
+#### Blessed Blades and Runic Shot (Passive)
+- **Effect:** If this unit has not used a Move ability this turn, this unit's weapons have **Crit (Auto-wound)**.
+
+#### Pioneers (Passive)
+- **Effect:** Add 1 to hit rolls for this unit's attacks while it is wholly within enemy territory.
+
+#### Camp Defenders (Passive)
+- **Effect:** Subtract 1 from the Rend characteristic of weapons used for shooting attacks that target this unit while it is wholly within friendly territory.
+
+#### Not One Step Back (Passive)
+- **Effect:** Ignore negative modifiers to hit rolls and wound rolls for this unit. Ignore modifiers (positive and negative) to save rolls for this unit. This unit cannot use Retreat abilities.
+
+#### Find the Weak Spot (Activated)
+- **Timing:** Once Per Battle, Any HeroPhase
+- **Effect:** For the rest of the turn, ward rolls cannot be made for damage points inflicted on enemy units by this unit's attacks.
+
+#### Champions of Sigmar (Activated)
+- **Timing:** Reaction: This unit was picked to be the target of a Spell or Prayer ability
+- **Effect:** Roll a dice: On a 3+:
+• That ability has no effect on this unit.
+• This unit has Ward (5+) for the rest of the turn.
+
+#### Decisive Strikes (Activated)
+- **Timing:** Once Per Battle, Any Combat Phase
+- **Effect:** Add 1 to the Damage characteristic of this unit's melee weapons for the rest of the turn.
+
 ### Battle Traits
 
 #### Form Up (Activated)
@@ -222,6 +357,104 @@ The unit using this ability and the targets:
 #### Respected Commander (Activated)
 - **Timing:** Reaction: You declared the 'Redeploy' command for a visible Allies of the Free Cities unit wholly within 18" of this unit
 - **Effect:** If you roll a 1-3 when determining the distance that unit can move, you cn use a value of 4 instead.
+
+### Greywater Fastness [LEGENDS]
+
+**Battle Traits**
+
+#### Soldiers of the Fastness (Activated)
+- **Timing:** Once Per Battle Round (Army), Start of Battle Round
+- **Declare:** Pick up to 3 friendly Greywater Fastness units to be the targets.
+- **Effect:** Until the start of the next battle round, the targets are **under orders**.
+
+#### Ceaseless Salvoes (Activated)
+- **Timing:** Once Per Turn (Army), Your Shooting Phase
+- **Declare:** Pick an enemy unit that had any damage points allocated to it this turn by shooting attacks made by a friendly Greywater Fastness unit that is **under orders** to be the target.
+- **Effect:** Until the start of your next turn, the target is **pinned**.
+**Designer's Note:** *Greywater Fastness armies can get benefits for attacking pinned enemy units and can also inflict some nasty debilitating effects on those units too.*
+
+#### A Greywater Welcome (Activated)
+- **Timing:** Once Per Battle, Start of Battle
+- **Declare:** Pick up to 2 friendly non-Hero Greywater Fastness units that do not have a firing drill to be the targets.
+- **Effect:** Give each target a different **Firing Drill**.
+**Designer's Note:** *The Firing Drills are given to the units during the deployment phase not during army composition.*
+
+**Artefacts of Power**
+
+#### The Predicament (Passive)
+- **Effect:** Melee weapons used for combat attacks made by this unit that target a **pinned** enemy unit have **Crit (2 Hits)**.
+
+**Heroic Traits**
+
+#### Seat on the Council (Activated)
+- **Timing:** Once Per Battle, Your Hero Phase
+- **Declare:** Pick a visible friendly Greywater Fastness unit that is wholly within 12" of this unit, that is under orders and that has a **Firing Drill** to be the target.
+- **Effect:** The target can use its **Firing Drill** ability this turn even if it has already used it this battle.
+
+**Firing Drills**
+
+#### Close-range Salvo! (Activated)
+- **Timing:** Once Per Battle, Your Shooting Phase
+- **Effect:** If this unit is **under orders**, for the rest of the phase, this unit's ranged weapons have **Shoot in Combat**.
+
+#### Deafen Them with Fire! (Activated)
+- **Timing:** Once Per Battle, Your Shooting Phase
+- **Declare:** If this unit is **under orders**, pick a **pinned** enemy unit that was the target of all this unit's shooting attacks this turn to be the target.
+- **Effect:** Until the start of your next turn, each time your opponent declares a command for the target, unless they spend 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.
+
+#### Hold Them Back! (Activated)
+- **Timing:** Once Per Battle, Your Shooting Phase
+- **Declare:** Pick a **pinned** enemy unit to be the target.
+- **Effect:** Until the start of your next turn, your opponent must subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.
+
+#### Repel the Enemy! (Activated)
+- **Timing:** Once Per Battle, Any Combat Phase
+- **Effect:** For the rest of the turn, add 1 to wound rolls for combat attacks made by this unit that target a **pinned** enemy unit.
+
+#### Hunker Down! (Activated)
+- **Timing:** Once Per Battle, Enemy Movement Phase
+- **Effect:** Until the start of your next turn:
+• Subtract 1 from the Rend characteristic of weapons used for attacks made by m**pinned** enemy units that target this unit.
+• This unit cannot use Charge abilities unless it is **under orders**.
+
+#### Load Smokeshots! (Activated)
+- **Timing:** Once Per Battle, Your Shooting Phase
+- **Effect:** Until the start of your next turn, this unit is not visible to enemy units while they are more than 3" away from it.
+
+### Lethis [LEGENDS
+
+**Battle Traits**
+
+#### Blackshore Discipline (Activated)
+- **Timing:** Once Per Battle Round (Army), Start of Battle Round
+- **Declare:** Pick up to 3 friendly Lethis units to be the targets.
+- **Effect:** Until the start of the next battle round, the targets are **under orders**.
+
+#### Under the Raven's Wings (Activated)
+- **Timing:** Once Per Turn (Army), Your Hero Phase
+- **Declare:** Pick a friendly non-War Machine Lethis unit that has not already used this ability this battle to use this ability.
+- **Effect:** Until the start of your next turn:
+• Ignore negative modifiers to hit rolls and wound rolls for attacks made for this unit.
+• Ignore negative modifiers to the Damage characteristic of this unit's weapons.
+
+#### Strength from the Departed (Activated)
+- **Timing:** Pick a friendly Lethis unit that has had models slain this battle to be the target.
+- **Effect:** Pick 1 of the following effects. You cannot pick the same effect you picked in the previous battle round.
+***Stand Firm*:** Until the start of your next turn, subtract 1 from the Rend characteristic of weapons used for shooting attacks that target this unit.
+***Purge the Unholy*:** Inflict D3 mortal damage on each enemy unit in combat with the target. Subtract 1 from ward rolls for damage points inflicted by this ability.
+***Tireless Sentinels*:** Until the start of your next turn, each time the target uses a Run ability, if you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.
+
+**Artefacts of Power**
+
+#### Raven's Eye Talisman (Passive)
+- **Effect:** Enemy units cannot be set up within 12" of this unit.
+
+**Heroic Traits**
+
+#### Acolyte of the Raven (Passive)
+- **Effect:** If this unit is not a Priest or Wizard, it has Priest (1).
+If this unit already has Priest (1), add 1 to chanting rolls for it.
+If this unit is already a Wizard, add 1 to casting rolls for it.
 
 ### The Duardin Ascendant [LEGENDS]
 
@@ -531,7 +764,7 @@ If the target was **incandescent** when they were picked to be the target of thi
 
 ### Black Ark Corsairs
 **Points:** 120 | **Move:** 6" | **Health:** 1 | **Save:** 5+ | **Control:** 1
-**Keywords:** INFANTRY, CHAMPION, ORDER, CITIES OF SIGMAR, AELF, STANDARD BEARER (1/10), MUSICIAN (1/10)
+**Keywords:** Aelf Infantry, INFANTRY, CHAMPION, ORDER, CITIES OF SIGMAR, AELF, STANDARD BEARER (1/10), MUSICIAN (1/10)
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -566,7 +799,7 @@ If the target was **incandescent** when they were picked to be the target of thi
 
 ### Black Guard
 **Points:** 130 | **Move:** 6" | **Health:** 1 | **Save:** 4+ | **Control:** 1
-**Keywords:** INFANTRY, CHAMPION, ORDER, CITIES OF SIGMAR, AELF, STANDARD BEARER (1/10), MUSICIAN (1/10)
+**Keywords:** Aelf Infantry, INFANTRY, CHAMPION, ORDER, CITIES OF SIGMAR, AELF, STANDARD BEARER (1/10), MUSICIAN (1/10)
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -582,7 +815,7 @@ If the target was **incandescent** when they were picked to be the target of thi
 
 ### Bleakswords
 **Points:** 100 | **Move:** 6" | **Health:** 1 | **Save:** 4+ | **Control:** 1
-**Keywords:** INFANTRY, CHAMPION, ORDER, CITIES OF SIGMAR, AELF, STANDARD BEARER (1/10), MUSICIAN (1/10)
+**Keywords:** Aelf Infantry, INFANTRY, CHAMPION, ORDER, CITIES OF SIGMAR, AELF, STANDARD BEARER (1/10), MUSICIAN (1/10)
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -800,7 +1033,7 @@ next turn:
 
 ### Darkshards
 **Points:** 150 | **Move:** 6" | **Health:** 1 | **Save:** 5+ | **Control:** 1
-**Keywords:** INFANTRY, CHAMPION, ORDER, CITIES OF SIGMAR, AELF, STANDARD BEARER (1/10), MUSICIAN (1/10)
+**Keywords:** Aelf Infantry, INFANTRY, CHAMPION, ORDER, CITIES OF SIGMAR, AELF, STANDARD BEARER (1/10), MUSICIAN (1/10)
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -934,7 +1167,7 @@ next turn:
 
 ### Executioners
 **Points:** 150 | **Move:** 6" | **Health:** 1 | **Save:** 4+ | **Control:** 1
-**Keywords:** INFANTRY, CHAMPION, ORDER, CITIES OF SIGMAR, AELF, STANDARD BEARER (1/10), MUSICIAN (1/10)
+**Keywords:** Aelf Infantry, INFANTRY, CHAMPION, ORDER, CITIES OF SIGMAR, AELF, STANDARD BEARER (1/10), MUSICIAN (1/10)
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -951,7 +1184,7 @@ next turn:
 
 ### Flagellants
 **Points:** 80 | **Move:** 6" | **Health:** 1 | **Save:** 6+ | **Control:** 1
-**Keywords:** Sigmarite Infantry, INFANTRY, CHAMPION, ORDER, CITIES OF SIGMAR, HUMAN
+**Keywords:** Sigmarite Infantry, INFANTRY, CHAMPION, ORDER, CITIES OF SIGMAR, SIGMARITE
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1232,7 +1465,7 @@ For the rest of the turn, if this unit is in combat with the target when the tar
 
 ### Gate Gargants
 **Points:** 320 | **Move:** 8" | **Health:** 10 | **Save:** 3+ | **Control:** 5
-**Keywords:** Sigmarite Infantry, ORDER, CITIES OF SIGMAR, MONSTER, SIGMARITE, WARD (6+)
+**Keywords:** ORDER, CITIES OF SIGMAR, MONSTER, SIGMARITE, WARD (6+)
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
@@ -1251,6 +1484,31 @@ For the rest of the turn, if this unit is in combat with the target when the tar
 - **Timing:** Once Per Turn (Army), Any Charge Phase
 - **Declare:** Pick a visible friendly non-War Machine Cities of Sigmar unit wholly within 12" of this unit to be the target.
 - **Effect:** Add 2 to charge rolls for the target for the rest of the turn.
+
+---
+
+### Greycap Fusiliers
+**Points:** 180 | **Move:** 5" | **Health:** 1 | **Save:** 4+ | **Control:** 1
+**Keywords:** GREYWATER FASTNESS, CHAMPION, INFANTRY, ORDER, CITIES OF SIGMAR, SIGMARITE, Legends, STANDARD BEARER (1/10)
+
+**Weapons:**
+| Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
+|--------|------|-----|-----|-----|-----|-----|-----|---------|
+| Greycap Fusil-cannon | Ranged | 18" | 1 | 4+ | 2+ | 2 | 1 | Shoot in Combat |
+| Greycap Bayonets | Melee | - | 2 | 4+ | 4+ | 1 | 1 | - |
+
+**Abilities:**
+
+#### Into Them, Greycaps! (Activated)
+- **Timing:** Once Per Turn (Army), Your Shooting Phase
+- **Declare:** If this unit is **under orders**, pick an enemy unit that had any damage points allocated to it this turn by this unit's shooting attacks to be the target.
+- **Effect:** Until the start of your next turn:
+• Add 2 to charge rolls for this unit.
+• Each time this unit uses a Charge ability, it must end the charge move in combat with the target.
+
+#### Greycap Squire (Activated)
+- **Timing:** Once Per Turn (Army), Reaction: This unit used the 'Redeploy', 'All-out Attack', 'Covering Fire', or 'All-out Defence' command
+- **Effect:** This unit's **Greycap Squire** is a token. Remove this unit's **Greycap Squire** from the battlefield. Pick another visible friendly **Greycap Fusiliers** unit wholly within 12" of this unit and that has not used a command this phase to use the same command immediately after the first has been resolved (this is an exception to Commands, 1.2). You must still spend command points as normal to use the command a second time.
 
 ---
 
@@ -1446,6 +1704,27 @@ For the rest of the turn, if this unit is in combat with the target when the tar
 
 ---
 
+### Lethisian Consecrators
+**Points:** 170 | **Move:** 5" | **Health:** 1 | **Save:** 4+ | **Control:** 1
+**Keywords:** Sigmarite Infantry, LETHIS, CHAMPION, INFANTRY, ORDER, CITIES OF SIGMAR, SIGMARITE, Legends
+
+**Weapons:**
+| Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
+|--------|------|-----|-----|-----|-----|-----|-----|---------|
+| Consecrator Arsenal | Ranged | 10" | 1 | 4+ | 2+ | 2 | 1 | - |
+| Consecrator Bardiche | Melee | - | 2 | 4+ | 4+ | 1 | 1 | - |
+| Consecrator Arsenal | Ranged | 10" | 1 | 4+ | 2+ | 2 | 1 | - |
+| Consecrator Bardiche | Melee | - | 2 | 4+ | 4+ | 1 | 1 | - |
+
+**Abilities:**
+
+#### Blessed Fire (Activated)
+- **Timing:** Once Per Turn (Army), Your Shooting Phase
+- **Declare:** If this unit has a **Devout Flamebringer**, pick a visible enemy unit within 10" of this unit to be the target.
+- **Effect:** Roll a dice. On a 3+, for the rest of the turn, the target cannot end charge moves within 1/2" of this unit unless the unmodified charge roll was 5 or more.
+
+---
+
 ### Longbeards
 **Points:** 130 | **Move:** 4" | **Health:** 1 | **Save:** 3+ | **Control:** 1
 **Keywords:** INFANTRY, CHAMPION, ORDER, CITIES OF SIGMAR, STANDARD BEARER (1/10), MUSICIAN (1/10), DUARDIN
@@ -1565,6 +1844,25 @@ If your opponent gains control of a **consecrated** objective, it is no longer c
 
 ---
 
+### Raven Priest of Morrda
+**Points:** 140 | **Move:** 5" | **Health:** 5 | **Save:** 4+ | **Control:** 2
+**Keywords:** LETHIS, HERO, ORDER, CITIES OF SIGMAR, SIGMARITE, INFANTRY, PRIEST (1), Legends
+
+**Weapons:**
+| Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
+|--------|------|-----|-----|-----|-----|-----|-----|---------|
+| Morrdan Hammer | Melee | - | 4 | 4+ | 3+ | 1 | D3 | Crit (Mortal) |
+
+**Abilities:**
+
+#### The Raven Cult (Activated)
+- **Timing:** Once Per Turn (Army), Reaction: You declared a Prayer ability for this unit
+- **Effect:** If that prayer was answered, the following cumulative effects apply until the start of your next turn.
+• If the chanting roll for that prayer was 5+, this unit has Ward (5+).
+• If the chanting roll for that prayer was 10+, add 2" to the Move characteristic of friendly Lethis Infantry units while the are wholly within 12" of this unit.
+
+---
+
 ### Runelord
 **Points:** 130 | **Move:** 4" | **Health:** 5 | **Save:** 3+ | **Control:** 2
 **Keywords:** HERO, ORDER, CITIES OF SIGMAR, INFANTRY, DUARDIN, PRIEST (1)
@@ -1658,6 +1956,33 @@ If your opponent gains control of a **consecrated** objective, it is no longer c
 
 #### Dark Sorcery (Passive)
 - **Effect:** Add 1 to casting rolls for this unit for each **dark sorcery token** it has.
+
+---
+
+### Spirit of the Hands
+**Points:** 130 | **Move:** 3" | **Health:** 6 | **Save:** 3+ | **Control:** 2
+**Keywords:** GREYWATER FASTNESS, ORDER, CITIES OF SIGMAR, SIGMARITE, Legends, WAR MACHINE
+
+**Weapons:**
+| Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |
+|--------|------|-----|-----|-----|-----|-----|-----|---------|
+| Masterwork Cannon | Ranged | 24" | 3 | 4+ | 2+ | 2 | D3+2 | - |
+| Crew's Tools and Sidearms | Melee | - | 2 | 4+ | 4+ | - | 1 | - |
+
+**Abilities:**
+
+#### Sustained Bombardment (Activated)
+- **Timing:** Once Per Turn (Army), Your Shooting Phase
+- **Declare:** If this unit is not in combat and has not used a Run or Retreat ability this turn, pick a visible terrain feature within 25" of this unit to be **bombarded**, then pick each enemy unit within 6" of that terrain feature to be the targets.
+- **Effect:** Make a bombard roll of D6 for each target. On a 4+, pick 1 of the following effects to apply to that target.
+• If the target is not **pinned**, it is **pinned** until the start of your next turn. Then, inflict D3 mortal damage on it.
+• If the target is **pinned**, it cannot use Run abilities while it is **pinned**. Then, inflict D3 mortal damage on it.
+• If the target is Faction Terrain, inflict D3+2 mortal damage on it and abilities on its warscroll have no effect until the start of your next turn.
+- **Keywords:** Core, Shoot
+
+#### Veteran Batteries (Activated)
+- **Timing:** Once Per Turn (Army), Reaction: You declared the 'Sustained Bombardment' ability for another friendly **Spirit of the Hands** unit and this unit has not used a Shoot, Run, or Retreat ability this turn
+- **Effect:** Add 1 to that unit's bombard rolls.
 
 ---
 
@@ -1930,11 +2255,13 @@ If your opponent gains control of a **consecrated** objective, it is no longer c
 | Mallus Forgepriest | 130 |
 | Runelord | 130 |
 | Sorceress | 130 |
+| Spirit of the Hands | 130 |
 | Allies of the Free Cities Vanari Auralan Sentinels | 140 |
 | Freeguild Grenadiers | 140 |
 | Galen and Doralia ven Denst | 140 |
 | Irondrakes | 140 |
 | Ironweld Great Cannon | 140 |
+| Raven Priest of Morrda | 140 |
 | Assassin | 150 |
 | Darkshards | 150 |
 | Executioners | 150 |
@@ -1947,7 +2274,9 @@ If your opponent gains control of a **consecrated** objective, it is no longer c
 | Dark Riders | 170 |
 | Erasmus Zonn, the Enlightened One | 170 |
 | Hammerers | 170 |
+| Lethisian Consecrators | 170 |
 | War Hydra | 170 |
+| Greycap Fusiliers | 180 |
 | Drakespawn Knights | 190 |
 | Pontifex Zenestra, Matriarch of the Great Wheel | 190 |
 | Freeguild Command Corps Adjutants | 200 |

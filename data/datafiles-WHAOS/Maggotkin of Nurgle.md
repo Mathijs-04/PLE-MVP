@@ -790,7 +790,7 @@ While an enemy unit is within 6" of a Polluted terrain feature, each time that u
 - **Keywords:** Rampage
 
 #### Lord of Nurglings (Passive)
-- **Effect:** While afriendly **Nurglings** units is wholly within 12" of this unit:
+- **Effect:** While any friendly **Nurglings** units are wholly within 12" of this unit:
 • Ignore the first damage point that would be allocated to that **Nurglings* unit each phase.
 • That **Nurglings** unit can ignore the effect of the 'Beast' ability.
 

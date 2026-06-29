@@ -104,7 +104,7 @@
 - **Effect:** Add 1 to this unit's Health characteristic.
 
 #### Lightning-Wreathed Weapons (Passive)
-- **Effect:** Subtract 1 from the Rend characteristic of melee weapons used for attacks that target this unit.
+- **Effect:** This unit’s melee weapons have **Crit (Mortal)**.
 
 ### Battle Traits
 
@@ -1874,7 +1874,7 @@ If you make an unmodified save roll of 1 for this unit, remove its **Gryph-crow*
 
 ### Stormdrake Guard
 **Points:** 310 | **Move:** 12" | **Health:** 9 | **Save:** 3+ | **Control:** 5
-**Keywords:** ORDER, STORMCAST ETERNALS, FLY, MONSTER, EXTREMIS CHAMBER
+**Keywords:** CHAMPION, ORDER, STORMCAST ETERNALS, FLY, MONSTER, EXTREMIS CHAMBER
 
 **Weapons:**
 | Weapon | Type | Rng | Atk | Hit | Wnd | Rnd | Dmg | Ability |

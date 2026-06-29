@@ -215,8 +215,8 @@
 
 #### Leader (Abilities)
 - **Description:** This model can be attached to the following units:
-■ Brotherhood Terminator Squad
-■ Paladin Squad
+- Brotherhood Terminator Squad
+- Paladin Squad
 
 ---
 
